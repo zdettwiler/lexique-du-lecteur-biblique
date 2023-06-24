@@ -1,4 +1,5 @@
 import './App.css';
+import createLexicon from './createLexicon'
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
@@ -23,13 +24,12 @@ function App() {
             <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
-                value={'Genèse'}
+                value={"Genèse"}
                 label="Livre"
-                onChange={() => {}}
+                onChange={createLexicon}
             >
                 <MenuItem value={'Genèse'}>Genèse</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={'Exode'}>Exode</MenuItem>
             </Select>
 
           <Button
