@@ -18,7 +18,7 @@ jobs:
       - name: Set up NodeJS environment
         uses: actions/setup-node@v2
         with:
-          node-version-file: '.nvmrc'
+          node-version: 18.x
      
       - name: 🔧 Install package dependencies
         run: npm install
