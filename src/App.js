@@ -1,5 +1,5 @@
 import './App.css';
-import createLexicon from './createLexicon'
+import { createLexicon, atBooks } from './createLexicon'
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
@@ -28,8 +28,10 @@ function App() {
                 label="Livre"
                 onChange={createLexicon}
             >
-                <MenuItem value={'Genèse'}>Genèse</MenuItem>
-                <MenuItem value={'Exode'}>Exode</MenuItem>
+              { atBooks.map(book => {
+                return <MenuItem value={book}>{book}</MenuItem>
+              }) }
+
             </Select>
 
           <Button

@@ -1,38 +1,50 @@
 import axios from 'axios';
-import genese from "./Genèse.csv"
+import genese from "./Jonas.csv"
 
-const bookFiles = {
-  'Matthieu': '61-Mt-morphgnt.txt',
-  'Marc': '62-Mk-morphgnt.txt',
-  'Luc': '63-Lk-morphgnt.txt',
-  'Jean': '64-Jn-morphgnt.txt',
-  'Actes': '65-Ac-morphgnt.txt',
-  'Romains': '66-Ro-morphgnt.txt',
-  '1 Corinthiens': '67-1Co-morphgnt.txt',
-  '2 Corinthiens': '68-2Co-morphgnt.txt',
-  'Galates': '69-Ga-morphgnt.txt',
-  'Éphésiens': '70-Eph-morphgnt.txt',
-  'Philippiens': '71-Php-morphgnt.txt',
-  'Colossiens': '72-Col-morphgnt.txt',
-  '1 Thessaloniciens': '73-1Th-morphgnt.txt',
-  '2 Thessaloniciens': '74-2Th-morphgnt.txt',
-  '1 Timothée': '75-1Ti-morphgnt.txt',
-  '2 Timothée': '76-2Ti-morphgnt.txt',
-  'Tite': '77-Tit-morphgnt.txt',
-  'Philémon': '78-Phm-morphgnt.txt',
-  'Hébreux': '79-Heb-morphgnt.txt',
-  'Jacques': '80-Jas-morphgnt.txt',
-  '1 Pierre': '81-1Pe-morphgnt.txt',
-  '2 Pierre': '82-2Pe-morphgnt.txt',
-  '1 Jean': '83-1Jn-morphgnt.txt',
-  '2 Jean': '84-2Jn-morphgnt.txt',
-  '3 Jean': '85-3Jn-morphgnt.txt',
-  'Jude': '86-Jud-morphgnt.txt',
-  'Apocalypse': '87-Re-morphgnt.txt'
-}
+const atBooks = [
+    "Genèse",
+    "Exode",
+    "Lévitique",
+    "Nombres",
+    "Deutéronome",
+    "Josué",
+    "Juges",
+    "Ruth",
+    "1 Samuel",
+    "2 Samuel",
+    "1 Rois",
+    "2 Rois",
+    "1 Chroniques",
+    "2 Chroniques",
+    "Esdras",
+    "Néhémie",
+    "Esther",
+    "Job",
+    "Psaumes",
+    "Proverbes",
+    "Ecclésiastes",
+    "Cantique des Cantiques",
+    "Ésaïe",
+    "Jérémie",
+    "Lamentations",
+    "Ezékiel",
+    "Daniel",
+    "Osée",
+    "Joël",
+    "Amos",
+    "Abdias",
+    "Jonas",
+    "Michée",
+    "Nahum",
+    "Habaquq",
+    "Sophonie",
+    "Aggée",
+    "Zacharie",
+    "Malachie",
+]
 
 const bookOptions = [
-    { text: 'Matthieu', value: 'Matthieu' },
+    { text: 'Gen', value: 'Matthieu' },
 ]
 
 async function createLexicon(book = 'Genèse') {
@@ -82,4 +94,7 @@ async function createLexicon(book = 'Genèse') {
 }
   
 
-export default createLexicon;
+export {
+    createLexicon,
+    atBooks
+};
