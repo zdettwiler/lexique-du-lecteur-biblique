@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import './App.css';
-import { createLexicon, atBooks } from './createLexicon'
+import { createLexicon, otBooks } from './createLexicon'
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
@@ -9,42 +10,51 @@ import MenuItem from '@mui/material/MenuItem';
 // import { , ThemeProvider } from '@mui/material/styles';
 
 function App() {
+  const [book, setBook] = useState('Genèse');
+
+  function handleChangeBook(e) {
+    setBook(e.target.value);
+  }
+
+  function getBook() {
+    createLexicon(book);
+  }
+
   return (
-    // <ThemeProvider theme={defaultTheme}>
-      <Container component="main" maxWidth="xs">
-        <CssBaseline />
-        <Box
-            sx={{
-                marginTop: 8,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-            }}
-        >
-            <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                value={"Genèse"}
-                label="Livre"
-                onChange={createLexicon}
-            >
-              { atBooks.map(book => {
-                return <MenuItem value={book}>{book}</MenuItem>
-              }) }
-
-            </Select>
-
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            sx={{ mt: 3, mb: 2 }}
+    <Container component="main" maxWidth="xs">
+      <CssBaseline />
+      <Box
+          sx={{
+              marginTop: 8,
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+          }}
+      >
+          <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={book}
+              label="Livre"
+              onChange={handleChangeBook}
           >
-            Sign In
-          </Button>
-        </Box>
-      </Container>
-    // </ThemeProvider>
+            { otBooks.map((book, i) => {
+              return <MenuItem value={book} key={i}>{book}</MenuItem>
+            }) }
+
+          </Select>
+
+        <Button
+          type="submit"
+          fullWidth
+          variant="contained"
+          sx={{ mt: 3, mb: 2 }}
+          onClick={getBook}
+        >
+          Créer mon lexique
+        </Button>
+      </Box>
+    </Container>
   );
 }
 

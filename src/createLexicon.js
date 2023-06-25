@@ -1,7 +1,7 @@
 import axios from 'axios';
 import genese from "./Jonas.csv"
 
-const atBooks = [
+const otBooks = [
     "Genèse",
     "Exode",
     "Lévitique",
@@ -43,11 +43,8 @@ const atBooks = [
     "Malachie",
 ]
 
-const bookOptions = [
-    { text: 'Gen', value: 'Matthieu' },
-]
-
 async function createLexicon(book = 'Genèse') {
+    console.log(book)
     fetch(genese)
         .then(t => t.text())
         .then(text => {
@@ -96,5 +93,5 @@ async function createLexicon(book = 'Genèse') {
 
 export {
     createLexicon,
-    atBooks
+    otBooks
 };
