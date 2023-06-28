@@ -22,7 +22,8 @@ function App() {
     setBook(e.target.value);
   }
 
-  function getBook() {
+  function getBook(e) {
+    e.preventDefault();
     createLexicon(book);
   }
   
@@ -40,9 +41,7 @@ function App() {
       <Container className="p-5 mb-4 bg-light rounded-3">
         <h1 className="header">📖 Lexique du Lecteur Biblique</h1>
         
-          We now have Toasts <span role="img" aria-label="tada">🎉</span>
-
-          <Form className="mt-3">
+        <Form className="mt-3">
             <Row>
               <Form.Label column lg={1}>
                 Fréquence
@@ -55,7 +54,7 @@ function App() {
                 Livre
               </Form.Label>
               <Col>
-                  <Form.Select aria-label="Default select example">
+                  <Form.Select aria-label="Default select example" onChange={handleChangeBook}>
                     <option>Choisir le livre</option>
                     { otBooks.map((book, id) => (
                       <option value={book} key={id}>{book}</option>
@@ -64,15 +63,13 @@ function App() {
               </Col>
 
               <Col>
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" onClick={getBook}>
                   Génerer le lexique
                 </Button>
               </Col>
-
-              
             </Row>
                        
-          </Form>
+        </Form>
       </Container>
     </Container>    
   );
