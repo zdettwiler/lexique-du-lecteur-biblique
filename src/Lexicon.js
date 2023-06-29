@@ -67,7 +67,7 @@ function Lexicon({data}) {
         {data.map((word, id) => (
           <div style={styles.wordEntry} key={id}>
             <Text style={styles.verse}>{word.verse}</Text>
-            <Text style={styles.word}>{word.voc_lex_utf8} ({word.freq_lex})</Text>
+            <Text style={styles.word}>{word.voc_lex} ({word.freq_lex})</Text>
             <Text style={styles.word}>{word.gloss}</Text>
           </div>
         ))}

@@ -1,5 +1,6 @@
 import axios from 'axios';
 import genese from "./Jonas.csv"
+import strongLexicon from "./ot_strong_lexicon_fr.json"
 
 const otBooks = [
     "Genèse",
@@ -43,55 +44,61 @@ const otBooks = [
     "Malachie",
 ]
 
+function searchStrongLexicon(hstrong) {
+    const strong = hstrong[0] === 'H' ? hstrong.slice(1) : hstrong
+    const word = strongLexicon.find(entry => entry.strongNb == strong);
+    console.log(hstrong, word)
+    return word.gloss || '?';
+}
+
 async function createLexicon(book = 'Genèse') {
     // console.log(book)
-    let data = await fetch(genese)
+    let rawData = await fetch(genese)
         .then(t => t.text())
         .then(text => {
-            let rawData = text.split('\n');
-            let columns = rawData[0].split(',');
-
-            let bookData = rawData.map(item => {
-                let word = item.split(',');
-                return {
-                    id: word[0],
-                    bhsa2021_word_n: word[1],
-                    book: word[2],
-                    chapter: word[3],
-                    verse: word[4],
-                    bhsa_text: word[5],
-                    voc_lex_utf8: word[6],
-                    HStrong: word[7],
-                    freq_lex: word[8]
-                }
-            });
-
-            let lexiconNeeded = rawData.reduce((words, currentWord) => {
-                let word = currentWord.split(',');
-
-                if (parseInt(word[8]) < 50) {
-                    words.push({
-                        id: word[0],
-                        bhsa2021_word_n: word[1],
-                        book: word[2],
-                        chapter: word[3],
-                        verse: word[4],
-                        bhsa_text: word[5],
-                        voc_lex_utf8: word[6],
-                        HStrong: word[7],
-                        freq_lex: word[8]
-                    })
-                }
-
-                return words;
-            }, []);
-
-            return lexiconNeeded
-
-            // console.log(bookData, lexiconNeeded)
+            return text.split('\n');
         });
 
-    return data;
+    // let columns = rawData[0].split(',');
+
+    // let bookData = rawData.map(item => {
+    //     let word = item.split(',');
+    //     return {
+    //         id: word[0],
+    //         bhsa2021_word_n: word[1],
+    //         book: word[2],
+    //         chapter: word[3],
+    //         verse: word[4],
+    //         bhsa_text: word[5],
+    //         lex: word[6],
+    //         hstrong: word[7],
+    //         freq_lex: word[8]
+    //     }
+    // });
+
+    let lexicon = rawData.reduce((words, currentWord) => {
+        let word = currentWord.split(',');
+
+        if (parseInt(word[8]) < 50) {
+            words.push({
+                id: word[0],
+                bhsa2021_word_n: word[1],
+                book: word[2],
+                chapter: word[3],
+                verse: word[4],
+                bhsa_text: word[5],
+                voc_lex: word[6],
+                hstrong: word[7],
+                freq_lex: word[8],
+                gloss: searchStrongLexicon(word[7])
+            })
+        }
+
+        return words;
+    }, []);
+
+    console.log(lexicon)
+    return lexicon;
 }
   
 
