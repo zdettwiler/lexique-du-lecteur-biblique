@@ -17,24 +17,24 @@ import Lexicon from './Lexicon'
 function App() {
   const [book, setBook] = useState('Genèse');
   const [frequency, setFrequency] = useState(50);
+  const [lexicon, setLexicon] = useState([]);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
   }
 
-  function getBook(e) {
+  function handleChangeFrequency(e) {
+    setFrequency(e.target.value);
+  }
+
+  async function getBook(e) {
     e.preventDefault();
-    createLexicon(book);
+    let data = await createLexicon(book);
+    console.log(data)
+    setLexicon(data);
+    console.log(book, frequency)
   }
   
-
-  
-// <PDFViewer style={{ width: window.innerWidth, height: window.innerHeight }} >
-//   <Lexicon
-//     data={data}
-//   />
-// </PDFViewer>
-
 
   return (
     <Container className="p-5">
@@ -47,14 +47,14 @@ function App() {
                 Fréquence
               </Form.Label>
               <Col>
-                <Form.Control type="text" placeholder="Normal text" />
+                <Form.Control type="number" placeholder="50" onChange={handleChangeFrequency}/>
               </Col>
 
               <Form.Label column lg={1}>
                 Livre
               </Form.Label>
               <Col>
-                  <Form.Select aria-label="Default select example" onChange={handleChangeBook}>
+                  <Form.Select aria-label="Default select example" value={book} onChange={handleChangeBook}>
                     <option>Choisir le livre</option>
                     { otBooks.map((book, id) => (
                       <option value={book} key={id}>{book}</option>
@@ -71,8 +71,16 @@ function App() {
                        
         </Form>
       </Container>
+
+      { lexicon.length ? (
+        <PDFViewer style={{ width: '100%' }} >
+          <Lexicon
+            data={lexicon}
+          />
+        </PDFViewer>
+      ) : (<p></p>) }
     </Container>    
-  );
+  );  
 }
 
 export default App;
