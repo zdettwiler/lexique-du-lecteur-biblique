@@ -3,7 +3,7 @@ import './App.css';
 import { createLexicon, otBooks } from './createLexicon'
 import {
   Container,
-  Toast,
+  Alert,
   Button,
   Form,
   Row,
@@ -37,10 +37,10 @@ function App() {
 
   return (
     <Container className="p-5">
-      <Container className="p-5 mb-4 bg-light rounded-3">
+      <Container className="p-5 pb-2 mb-4 bg-light rounded-3">
         <h1 className="header">📖 Lexique du Lecteur Biblique</h1>
         
-        <Form className="mt-3">
+        <Form className="mt-3 mb-4">
             <Row>
               <Form.Label column lg={1}>
                 Fréquence
@@ -66,9 +66,14 @@ function App() {
                   Génerer le lexique
                 </Button>
               </Col>
-            </Row>
-                       
+            </Row>        
         </Form>
+
+        { lexicon.length ? (
+          <Alert variant={'info'}>
+            Lexique créé! <b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans l'Ancien Testament.
+          </Alert>
+        ) : (<p></p>) }
       </Container>
 
       { lexicon.length ? (
