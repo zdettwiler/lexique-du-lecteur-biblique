@@ -7,7 +7,8 @@ import {
   Button,
   Form,
   Row,
-  Col
+  Col,
+  Spinner
  } from 'react-bootstrap';
 import { usePDF, PDFViewer, PDFDownloadLink } from '@react-pdf/renderer';
 import ReactPDF from '@react-pdf/renderer';
@@ -15,6 +16,7 @@ import ReactPDF from '@react-pdf/renderer';
 import Lexicon from './Lexicon'
 
 function App() {
+  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const [book, setBook] = useState('Genèse');
   const [frequency, setFrequency] = useState(50);
   const [lexicon, setLexicon] = useState([]);
@@ -29,9 +31,10 @@ function App() {
 
   async function getBook(e) {
     e.preventDefault();
+    setIsGeneratingPDF(true);
     let data = await createLexicon(book, frequency);
     setLexicon(data);
-    console.log(book, frequency)
+    setIsGeneratingPDF(false);
   }
   
 
@@ -75,6 +78,10 @@ function App() {
           </Alert>
         ) : (<p></p>) }
       </Container>
+
+      { isGeneratingPDF && (
+        <Spinner className="text-center" animation="border" />
+      )}
 
       { lexicon.length ? (
         <PDFViewer style={{ width: '100%' }} >

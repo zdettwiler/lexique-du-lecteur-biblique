@@ -47,12 +47,11 @@ const otBooks = [
 function searchStrongLexicon(hstrong) {
     const strong = hstrong[0] === 'H' ? hstrong.slice(1) : hstrong
     const word = strongLexicon.find(entry => entry.strongNb == strong);
-    console.log(hstrong, word)
+    
     return word.gloss || '?';
 }
 
 async function createLexicon(book='Genèse', frequency=50) {
-    // console.log(book)
     let rawData = await fetch(genese)
         .then(t => t.text())
         .then(text => {
@@ -60,21 +59,6 @@ async function createLexicon(book='Genèse', frequency=50) {
         });
 
     // let columns = rawData[0].split(',');
-
-    // let bookData = rawData.map(item => {
-    //     let word = item.split(',');
-    //     return {
-    //         id: word[0],
-    //         bhsa2021_word_n: word[1],
-    //         book: word[2],
-    //         chapter: word[3],
-    //         verse: word[4],
-    //         bhsa_text: word[5],
-    //         lex: word[6],
-    //         hstrong: word[7],
-    //         freq_lex: word[8]
-    //     }
-    // });
 
     let lexicon = rawData.reduce((words, currentWord) => {
         let word = currentWord.split(',');
@@ -97,7 +81,6 @@ async function createLexicon(book='Genèse', frequency=50) {
         return words;
     }, []);
 
-    console.log(lexicon)
     return lexicon;
 }
   
