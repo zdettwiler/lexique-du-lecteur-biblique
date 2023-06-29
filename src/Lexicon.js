@@ -48,7 +48,8 @@ function Lexicon({data}) {
 
     },
     verse: {
-
+      verticalAlign: 'super',
+      fontSize: 8,
     }
   });
 
@@ -60,15 +61,15 @@ function Lexicon({data}) {
   return (
     <Document>
       <Page size="A4" style={styles.page}>
-        <Text style={styles.header}>Lexique du lecteur biblique</Text>
+        <Text style={styles.header}>LEXIQUE DU LECTEUR BIBLIQUE</Text>
 
         <Text style={styles.bookTitle}>{data[0].book}</Text>
 
         {data.map((word, id) => (
           <div style={styles.wordEntry} key={id}>
-            <Text style={styles.verse}>{word.verse}</Text>
-            <Text style={styles.word}>{word.voc_lex} ({word.freq_lex})</Text>
-            <Text style={styles.word}>{word.gloss}</Text>
+            <Text style={styles.word}>
+              <Text style={styles.verse}>{word.verse}</Text> {word.voc_lex} ({word.freq_lex}) <Text style={styles.word}>{word.gloss}</Text>
+            </Text>
           </div>
         ))}
 

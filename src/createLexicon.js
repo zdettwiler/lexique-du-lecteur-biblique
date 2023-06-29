@@ -1,8 +1,94 @@
-import axios from 'axios';
-import genese from "./Jonas.csv"
-import strongLexicon from "./ot_strong_lexicon_fr.json"
+// import all OT books
+import genese from "./ot_books/Genèse.csv";
+import exode from "./ot_books/Exode.csv";
+import levitique from "./ot_books/Lévitique.csv";
+import nombres from "./ot_books/Nombres.csv";
+import deuteronome from "./ot_books/Deutéronome.csv";
 
-const otBooks = [
+import josue from "./ot_books/Josué.csv";
+import juges from "./ot_books/Juges.csv";
+import asamuel from "./ot_books/1 Samuel.csv";
+import bsamuel from "./ot_books/2 Samuel.csv";
+import arois from "./ot_books/1 Rois.csv";
+import brois from "./ot_books/2 Rois.csv";
+import esaie from "./ot_books/Ésaïe.csv";
+import jeremie from "./ot_books/Jérémie.csv";
+import ezekiel from "./ot_books/Ezékiel.csv";
+import osee from "./ot_books/Osée.csv";
+import joel from "./ot_books/Joël.csv";
+import amos from "./ot_books/Amos.csv";
+import abdias from "./ot_books/Abdias.csv";
+import jonas from "./ot_books/Jonas.csv";
+import michee from "./ot_books/Michée.csv";
+import nahum from "./ot_books/Nahum.csv";
+import habaquq from "./ot_books/Habaquq.csv";
+import sophonie from "./ot_books/Sophonie.csv";
+import aggee from "./ot_books/Aggée.csv";
+import zacharie from "./ot_books/Zacharie.csv";
+import malachie from "./ot_books/Malachie.csv";
+
+import psaumes from "./ot_books/Psaumes.csv";
+import proverbes from "./ot_books/Proverbes.csv";
+import job from "./ot_books/Job.csv";
+import cantique from "./ot_books/Cantique des Cantiques.csv";
+import ruth from "./ot_books/Ruth.csv";
+import lamentations from "./ot_books/Lamentations.csv";
+import ecclesiaste from "./ot_books/Ecclésiastes.csv";
+import esther from "./ot_books/Esther.csv";
+import daniel from "./ot_books/Daniel.csv";
+import esdras from "./ot_books/Esdras.csv";
+import nehemie from "./ot_books/Néhémie.csv";
+import achroniques from "./ot_books/1 Chroniques.csv";
+import bchroniques from "./ot_books/2 Chroniques.csv";
+
+// import strong lexicons
+import strongLexicon from "./ot_strong_lexicon_fr.json";
+
+const otBooks = {
+    "Genèse": genese,
+    "Exode": exode,
+    "Lévitique": levitique,
+    "Nombres": nombres,
+    "Deutéronome": deuteronome,
+
+    "Josué": josue,
+    "Juges": juges,
+    "1 Samuel": asamuel,
+    "2 Samuel": bsamuel,
+    "1 Rois": arois,
+    "2 Rois": brois,
+    "Ésaïe": esaie,
+    "Jérémie": jeremie,
+    "Ezékiel": ezekiel,
+    "Osée": osee,
+    "Joël": joel,
+    "Amos": amos,
+    "Abdias": abdias,
+    "Jonas": jonas,
+    "Michée": michee,
+    "Nahum": nahum,
+    "Habaquq": habaquq,
+    "Sophonie": sophonie,
+    "Aggée": aggee,
+    "Zacharie": zacharie,
+    "Malachie": malachie,
+
+    "Psaumes": psaumes,
+    "Proverbes": proverbes,
+    "Job": job,
+    "Cantique des Cantiques": cantique,
+    "Ruth": ruth,
+    "Lamentations": lamentations,
+    "Ecclésiastes": ecclesiaste,
+    "Esther": esther,
+    "Daniel": daniel,
+    "Esdras": esdras,
+    "Néhémie": nehemie,
+    "1 Chroniques": achroniques,
+    "2 Chroniques": bchroniques,
+}
+
+const otBooksOptions = [
     "Genèse",
     "Exode",
     "Lévitique",
@@ -10,26 +96,13 @@ const otBooks = [
     "Deutéronome",
     "Josué",
     "Juges",
-    "Ruth",
     "1 Samuel",
     "2 Samuel",
     "1 Rois",
     "2 Rois",
-    "1 Chroniques",
-    "2 Chroniques",
-    "Esdras",
-    "Néhémie",
-    "Esther",
-    "Job",
-    "Psaumes",
-    "Proverbes",
-    "Ecclésiastes",
-    "Cantique des Cantiques",
     "Ésaïe",
     "Jérémie",
-    "Lamentations",
     "Ezékiel",
-    "Daniel",
     "Osée",
     "Joël",
     "Amos",
@@ -42,17 +115,30 @@ const otBooks = [
     "Aggée",
     "Zacharie",
     "Malachie",
+    "Psaumes",
+    "Proverbes",
+    "Job",
+    "Cantique des cantiques",
+    "Ruth",
+    "Lamentations",
+    "Ecclésiastes",
+    "Esther",
+    "Daniel",
+    "Esdras",
+    "Néhémie",
+    "1 Chroniques",
+    "2 Chroniques",
 ]
 
 function searchStrongLexicon(hstrong) {
     const strong = hstrong[0] === 'H' ? hstrong.slice(1) : hstrong
-    const word = strongLexicon.find(entry => entry.strongNb == strong);
-    
-    return word.gloss || '?';
+    const word = strongLexicon.find(entry => entry.strongNb === strong);
+
+    return (word && word.gloss) || '?';
 }
 
 async function createLexicon(book='Genèse', frequency=50) {
-    let rawData = await fetch(genese)
+    let rawData = await fetch(otBooks[book])
         .then(t => t.text())
         .then(text => {
             return text.split('\n');
@@ -87,5 +173,5 @@ async function createLexicon(book='Genèse', frequency=50) {
 
 export {
     createLexicon,
-    otBooks
+    otBooksOptions
 };

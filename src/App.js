@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { createLexicon, otBooks } from './createLexicon'
+import { createLexicon, otBooksOptions } from './createLexicon'
 import {
   Container,
   Alert,
@@ -10,12 +10,13 @@ import {
   Col,
   Spinner
  } from 'react-bootstrap';
-import { usePDF, PDFViewer, PDFDownloadLink } from '@react-pdf/renderer';
+import { usePDF, PDFViewer } from '@react-pdf/renderer';
 import ReactPDF from '@react-pdf/renderer';
 
 import Lexicon from './Lexicon'
 
 function App() {
+  // const [instance, updateInstance] = usePDF({ document: Lexicon });
   const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
   const [book, setBook] = useState('Genèse');
   const [frequency, setFrequency] = useState(50);
@@ -23,10 +24,12 @@ function App() {
 
   function handleChangeBook(e) {
     setBook(e.target.value);
+    setLexicon([]);
   }
 
   function handleChangeFrequency(e) {
     setFrequency(e.target.value);
+    setLexicon([]);
   }
 
   async function getBook(e) {
@@ -36,32 +39,31 @@ function App() {
     setLexicon(data);
     setIsGeneratingPDF(false);
   }
-  
 
   return (
     <Container className="p-5">
       <Container className="p-5 pb-2 mb-4 bg-light rounded-3">
-        <h1 className="header">📖 Lexique du Lecteur Biblique</h1>
+        <h1 className="header">📖 Lexique du lecteur biblique</h1>
         
         <Form className="mt-3 mb-4">
             <Row>
-              <Form.Label column lg={1}>
-                Fréquence
-              </Form.Label>
-              <Col>
-                <Form.Control type="number" placeholder="50" onChange={handleChangeFrequency}/>
-              </Col>
-
               <Form.Label column lg={1}>
                 Livre
               </Form.Label>
               <Col>
                   <Form.Select aria-label="Default select example" value={book} onChange={handleChangeBook}>
                     <option>Choisir le livre</option>
-                    { otBooks.map((book, id) => (
+                    { otBooksOptions.map((book, id) => (
                       <option value={book} key={id}>{book}</option>
                     ))}
                   </Form.Select>
+              </Col>
+              
+              <Form.Label column lg={1}>
+                Fréquence
+              </Form.Label>
+              <Col>
+                <Form.Control type="number" placeholder="50" onChange={handleChangeFrequency}/>
               </Col>
 
               <Col>
@@ -72,24 +74,24 @@ function App() {
             </Row>        
         </Form>
 
-        { lexicon.length ? (
+        { !!lexicon.length && (
           <Alert variant={'info'}>
             Lexique créé! <b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans l'Ancien Testament.
           </Alert>
-        ) : (<p></p>) }
+        )}
       </Container>
 
       { isGeneratingPDF && (
         <Spinner className="text-center" animation="border" />
       )}
 
-      { lexicon.length ? (
+      { !!lexicon.length && (
         <PDFViewer style={{ width: '100%' }} >
           <Lexicon
             data={lexicon}
           />
         </PDFViewer>
-      ) : (<p></p>) }
+      )}
     </Container>    
   );  
 }
