@@ -44,8 +44,8 @@ const otBooks = [
 ]
 
 async function createLexicon(book = 'Genèse') {
-    console.log(book)
-    fetch(genese)
+    // console.log(book)
+    let data = await fetch(genese)
         .then(t => t.text())
         .then(text => {
             let rawData = text.split('\n');
@@ -86,8 +86,12 @@ async function createLexicon(book = 'Genèse') {
                 return words;
             }, []);
 
-            console.log(bookData, lexiconNeeded)
+            return lexiconNeeded
+
+            // console.log(bookData, lexiconNeeded)
         });
+
+    return data;
 }
   
 
