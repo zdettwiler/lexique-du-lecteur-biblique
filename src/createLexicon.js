@@ -131,10 +131,9 @@ const otBooksOptions = [
 ]
 
 function searchStrongLexicon(hstrong) {
-    const strong = hstrong[0] === 'H' ? hstrong.slice(1) : hstrong
+    const strong = hstrong[0] === 'H' ? parseInt(hstrong.slice(1)) : parseInt(hstrong)
     const word = strongLexicon.find(entry => entry.strongNb === strong);
-
-    return (word && word.gloss) || '?';
+    return word ? word.gloss : '?';
 }
 
 async function createLexicon(book='Genèse', frequency=50) {

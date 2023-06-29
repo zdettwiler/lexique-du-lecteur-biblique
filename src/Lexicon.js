@@ -20,8 +20,6 @@ function Lexicon({data}) {
   // Create styles
   const styles = StyleSheet.create({
     page: {
-      // flexDirection: 'row',
-      // backgroundColor: '#E4E4E4'
       padding: 50,
       fontFamily: 'TimesNewRoman',
       fontSize: 12
@@ -41,6 +39,13 @@ function Lexicon({data}) {
       letterSpacing: 10,
       textTransform: 'uppercase'
     },
+    chapter: {
+      fontSize: 8,
+      letterSpacing: 5,
+      textTransform: 'uppercase',
+      margin: '20 0 10',
+      textAlign: 'center'
+    },
     wordEntry: {
       marginBottom: 5,
     },
@@ -50,6 +55,7 @@ function Lexicon({data}) {
     verse: {
       verticalAlign: 'super',
       fontSize: 8,
+      marginTop: 20
     }
   });
 
@@ -65,13 +71,27 @@ function Lexicon({data}) {
 
         <Text style={styles.bookTitle}>{data[0].book}</Text>
 
-        {data.map((word, id) => (
-          <div style={styles.wordEntry} key={id}>
-            <Text style={styles.word}>
-              <Text style={styles.verse}>{word.verse}</Text> {word.voc_lex} ({word.freq_lex}) <Text style={styles.word}>{word.gloss}</Text>
-            </Text>
-          </div>
-        ))}
+        <Text style={styles.chapter}>CHAPITRE {data[0].chapter}</Text>
+        {data.map((word, id, data) => {
+          let prevChapter = id > 0 ? data[id-1].chapter : 0;
+          let chapHeading = prevChapter !== word.chapter
+            ? <Text style={styles.chapter}>CHAPITRE {word.chapter}</Text>
+            : null;
+
+          let prevVerse = id > 0 ? data[id-1].verse : 0;
+          let verseIndicator = prevVerse !== word.verse
+            ? <Text style={styles.verse}>{word.verse}</Text>
+            : null;
+
+          return (
+            <div style={styles.wordEntry} key={id}>
+              {chapHeading}
+              <Text style={styles.word}>
+                {verseIndicator} {word.voc_lex} ({word.freq_lex}) <Text style={styles.word}>{word.gloss}</Text>
+              </Text>
+            </div>
+          )
+        })}
 
 
         <View style={styles.section}>
