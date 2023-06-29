@@ -10,8 +10,7 @@ import {
   Col,
   Spinner
  } from 'react-bootstrap';
-import { usePDF, PDFViewer } from '@react-pdf/renderer';
-import ReactPDF from '@react-pdf/renderer';
+import { PDFViewer } from '@react-pdf/renderer';
 
 import Lexicon from './Lexicon'
 
