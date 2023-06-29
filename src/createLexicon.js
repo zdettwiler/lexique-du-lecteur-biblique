@@ -51,7 +51,7 @@ function searchStrongLexicon(hstrong) {
     return word.gloss || '?';
 }
 
-async function createLexicon(book = 'Genèse') {
+async function createLexicon(book='Genèse', frequency=50) {
     // console.log(book)
     let rawData = await fetch(genese)
         .then(t => t.text())
@@ -79,7 +79,7 @@ async function createLexicon(book = 'Genèse') {
     let lexicon = rawData.reduce((words, currentWord) => {
         let word = currentWord.split(',');
 
-        if (parseInt(word[8]) < 50) {
+        if (parseInt(word[8]) <= frequency) {
             words.push({
                 id: word[0],
                 bhsa2021_word_n: word[1],

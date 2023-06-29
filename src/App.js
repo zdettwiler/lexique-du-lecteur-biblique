@@ -29,7 +29,7 @@ function App() {
 
   async function getBook(e) {
     e.preventDefault();
-    let data = await createLexicon(book);
+    let data = await createLexicon(book, frequency);
     setLexicon(data);
     console.log(book, frequency)
   }
