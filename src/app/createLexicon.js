@@ -51,13 +51,13 @@ function searchStrongLexicon(hstrong) {
 }
 
 async function createLexicon(book='Genèse', frequency=50) {
-    let rawData = await fetch('/ot_books/'+book+'.csv')
+    let rawData = await fetch('/lexique-du-lecteur-biblique/ot_books/'+book+'.csv')
         .then(t => t.text())
         .then(text => {
             return text.split('\n');
         });
 
-    let columns = rawData[0].split(',');
+    // let columns = rawData[0].split(',');
 
     let lexicon = rawData.reduce((words, currentWord) => {
         let word = currentWord.split(',');
