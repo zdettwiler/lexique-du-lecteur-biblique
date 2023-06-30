@@ -1,4 +1,5 @@
 import './globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Noto_Sans_Hebrew } from 'next/font/google'
 
 import localFont from 'next/font/local'
