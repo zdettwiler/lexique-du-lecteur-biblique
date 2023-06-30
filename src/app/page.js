@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import './App.css';
+'use client';
+import React from 'react';
 import { createLexicon, otBooksOptions } from './createLexicon'
 import {
   Container,
@@ -14,12 +14,12 @@ import { PDFViewer } from '@react-pdf/renderer';
 
 import Lexicon from './Lexicon'
 
-function App() {
+export default function Home() {
   // const [instance, updateInstance] = usePDF({ document: Lexicon });
-  const [isGeneratingPDF, setIsGeneratingPDF] = useState(false);
-  const [book, setBook] = useState('Genèse');
-  const [frequency, setFrequency] = useState(50);
-  const [lexicon, setLexicon] = useState([]);
+  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
+  const [book, setBook] = React.useState('Genèse');
+  const [frequency, setFrequency] = React.useState(50);
+  const [lexicon, setLexicon] = React.useState([]);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
@@ -38,6 +38,7 @@ function App() {
     setLexicon(data);
     setIsGeneratingPDF(false);
   }
+
 
   return (
     <Container className="p-5">
@@ -91,8 +92,6 @@ function App() {
           />
         </PDFViewer>
       )}
-    </Container>    
-  );  
+    </Container>
+  )
 }
-
-export default App;
