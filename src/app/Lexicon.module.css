@@ -1,0 +1,41 @@
+div.lexicon {
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+div.wordEntry div {
+  display: inline-block;
+  padding: 0 2px;
+}
+
+div.verseNb {
+  width: 20px;
+}
+div.vocLex {
+  min-width: 100px;
+  font-size: 25px;
+  direction: rtl;
+}
+div.freqLex {
+  width: 50px;
+}
+div.gloss {
+
+}
+
+
+.chapterHeading {
+  /* font-size: 12px; */
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+.verseNb {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  vertical-align: super;
+  font-size: 15px;
+  margin-top: 5px;
+}

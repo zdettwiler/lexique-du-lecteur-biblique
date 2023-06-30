@@ -13,6 +13,7 @@ import {
 import { PDFViewer } from '@react-pdf/renderer';
 
 import Lexicon from './Lexicon'
+import PDFLexicon from './PDFLexicon'
 
 export default function Home() {
   // const [instance, updateInstance] = usePDF({ document: Lexicon });
@@ -86,8 +87,12 @@ export default function Home() {
       )}
 
       { !!lexicon.length && (
+        <Lexicon data={lexicon} />
+      )}
+
+      { false && !!lexicon.length && (
         <PDFViewer style={{ width: '100%' }} >
-          <Lexicon
+          <PDFLexicon
             data={lexicon}
           />
         </PDFViewer>
