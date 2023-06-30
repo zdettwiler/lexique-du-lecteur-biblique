@@ -7,22 +7,24 @@ import {
   StyleSheet,
   Font
 } from '@react-pdf/renderer';
-import TimesNewRoman from './Times New Roman.ttf'
+// import TimesNewRoman from './Times New Roman.ttf'
 
 
-function Lexicon({data}) {
+function PDFLexicon({data}) {
   // Register Font
   Font.register({
+    // family: "TimesNewRoman",
     family: "TimesNewRoman",
-    src: TimesNewRoman
+    src: 'Noto Sans Hebrew'
   });
 
   // Create styles
   const styles = StyleSheet.create({
     page: {
       padding: 50,
-      fontFamily: 'TimesNewRoman',
-      fontSize: 12
+      fontFamily: 'Times-Roman',
+      fontSize: 12,
+      // flexDirection: 'row',
     },
     section: {
       margin: 10,
@@ -68,12 +70,12 @@ function Lexicon({data}) {
     <Document>
       <Page size="A4" style={styles.page}>
         <Text style={styles.header}>LEXIQUE DU LECTEUR BIBLIQUE</Text>
-
         <Text style={styles.bookTitle}>{data[0].book}</Text>
+        <Text style={styles.header}>Mots apparaissant moins de X fois</Text>
 
         <Text style={styles.chapter}>CHAPITRE {data[0].chapter}</Text>
         {data.map((word, id, data) => {
-          let prevChapter = id > 0 ? data[id-1].chapter : 0;
+          let prevChapter = id > 0 ? data[id-1].chapter : word.chapter;
           let chapHeading = prevChapter !== word.chapter
             ? <Text style={styles.chapter}>CHAPITRE {word.chapter}</Text>
             : null;
@@ -105,4 +107,4 @@ function Lexicon({data}) {
   );
 }
 
-export default Lexicon;
+export default PDFLexicon;
