@@ -15,7 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer>🔧 par Zach Dettwiler en 2023 avec les données de <a href="https://etcbc.github.io/bhsa/">BHSA</a> (<a href="https://dx.doi.org/10.17026/dans-z6y-skyh">10.17026/dans-z6y-skyh</a>) et <a href="https://emcitv.com/bible/strong-biblique-hebreu.html">emcitv</a>.</footer></body>
     </html>
   )
 }
