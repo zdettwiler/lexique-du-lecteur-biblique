@@ -4,3 +4,6 @@ footer {
   margin-top: 20px;
   font-size: 12px;
 }
+footer a {
+  color: gray;
+}

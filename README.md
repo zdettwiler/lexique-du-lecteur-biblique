@@ -1,41 +1,15 @@
-# Lexique du lecteur biblique
-Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.
+# 📖 Lexique du lecteur biblique
+Un lexique pour le lecteur de la Bible dans ses langues originales. Au lieu d'être présentés dans un ordre alphabétique, les mots sont regroupés verset par verset pour faciliter la lecture cursive du texte. Pour prendre en compte son niveau, le lecteur peut choisir la rareté des mots figurant dans le lexique.
 
+## 🗄 Constitution des données
+Le lexique **hébreu-français** est un recoupement:
+- du texte biblique de la [BHSA](https://etcbc.github.io/bhsa/) ([10.17026/dans-z6y-skyh](https://dx.doi.org/10.17026/dans-z6y-skyh));
+- de son alignement avec des codes Strong de [OpenHebrewBiblw](https://github.com/eliranwong/OpenHebrewBible);
+- et des traductions collectées chez [emcitv](https://emcitv.com/bible/strong-biblique-hebreu.html).
 
+Le lexique **grec-français** est encore à venir.
 
-
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🚀 À venir
+- [ ] Possibilité d'exporter un lexique au format PDF
+- [ ] Faire tout de même pour le Nouveau Testament
+- [ ] Formulaire pour proposer des rectification du lexique
