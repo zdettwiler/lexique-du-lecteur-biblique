@@ -82,7 +82,6 @@ async function createLexicon(book='Genèse', frequency=50) {
 
     return lexicon;
 }
-  
 
 export {
     createLexicon,
