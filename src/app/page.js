@@ -45,34 +45,28 @@ export default function Home() {
     <Container className="p-5">
       <Container className="p-5 pb-2 mb-4 bg-light rounded-3">
         <h1 className="header">📖 Lexique du lecteur biblique</h1>
-        
-        <Form className="mt-3 mb-4">
-            <Row>
-              <Form.Label column lg={1}>
-                Livre
-              </Form.Label>
-              <Col>
-                  <Form.Select aria-label="Default select example" value={book} onChange={handleChangeBook}>
-                    <option>Choisir le livre</option>
-                    { otBooksOptions.map((book, id) => (
-                      <option value={book} key={id}>{book}</option>
-                    ))}
-                  </Form.Select>
-              </Col>
-              
-              <Form.Label column lg={1}>
-                Fréquence
-              </Form.Label>
-              <Col>
-                <Form.Control type="number" placeholder="50" onChange={handleChangeFrequency}/>
-              </Col>
 
-              <Col>
-                <Button variant="primary" type="submit" onClick={getBook}>
-                  Génerer le lexique
-                </Button>
-              </Col>
-            </Row>        
+        <Form className="mt-3 mb-4">
+          <Row className="mb-3">
+            <Form.Group as={Col} className="mb-3" controlId="formGridEmail">
+              <Form.Label>Livre</Form.Label>
+              <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
+                  <option>Choisir le livre</option>
+                  { otBooksOptions.map((book, id) => (
+                    <option value={book} key={id}>{book}</option>
+                  ))}
+                </Form.Select>
+            </Form.Group>
+
+            <Form.Group as={Col} className="mb-3" controlId="formGridPassword">
+              <Form.Label>Mots apparaissant moins de</Form.Label>
+              <Form.Control type="number" placeholder="50" onChange={handleChangeFrequency}/>
+            </Form.Group>
+          </Row>
+
+          <Button variant="primary" type="submit" onClick={getBook}>
+            Génerer le lexique
+          </Button>
         </Form>
 
         { !!lexicon.length && (

@@ -11,5 +11,5 @@ Le lexique **grec-français** est encore à venir.
 
 ## 🚀 À venir
 - [ ] Possibilité d'exporter un lexique au format PDF
-- [ ] Faire tout de même pour le Nouveau Testament
-- [ ] Formulaire pour proposer des rectification du lexique
+- [ ] Lexique identique pour le Nouveau Testament
+- [ ] Formulaire pour proposer des rectifications du lexique
