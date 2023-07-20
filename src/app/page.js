@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link'
 import React from 'react';
 import { createLexicon, otBooksOptions } from './createLexicon'
 import {
@@ -18,7 +19,7 @@ import PDFLexicon from './PDFLexicon'
 export default function Home() {
   // const [instance, updateInstance] = usePDF({ document: Lexicon });
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState('Genèse');
+  const [book, setBook] = React.useState('Amos');
   const [frequency, setFrequency] = React.useState(50);
   const [lexicon, setLexicon] = React.useState([]);
 
@@ -71,7 +72,8 @@ export default function Home() {
 
         { !!lexicon.length && (
           <Alert variant={'info'}>
-            Lexique créé! <b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans l'Ancien Testament.
+            <Alert.Heading>🚀 Lexique créé!</Alert.Heading>
+            <p><b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans l'Ancien Testament.</p>
           </Alert>
         )}
       </Container>
@@ -80,12 +82,12 @@ export default function Home() {
         <Spinner className="text-center" animation="border" />
       )}
 
-      { !!lexicon.length && (
+      { false && !!lexicon.length && (
         <Lexicon data={lexicon} />
       )}
 
-      { false && !!lexicon.length && (
-        <PDFViewer style={{ width: '100%' }} >
+      { !!lexicon.length && (
+        <PDFViewer style={{ width: '100%', height: '100%' }} >
           <PDFLexicon
             data={lexicon}
           />
