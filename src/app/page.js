@@ -9,7 +9,8 @@ import {
   Form,
   Row,
   Col,
-  Spinner
+  Spinner,
+  Navbar
  } from 'react-bootstrap';
 import { PDFViewer } from '@react-pdf/renderer';
 
@@ -22,6 +23,7 @@ export default function Home() {
   const [book, setBook] = React.useState('Amos');
   const [frequency, setFrequency] = React.useState(50);
   const [lexicon, setLexicon] = React.useState([]);
+  const [viewPdf, setViewPdf] = React.useState(false);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
@@ -39,10 +41,11 @@ export default function Home() {
     let data = await createLexicon(book, frequency);
     setLexicon(data);
     setIsGeneratingPDF(false);
+    // setViewPdf(true)
   }
 
 
-  return (
+  return !viewPdf ? (
     <Container className="p-5">
       <Container className="p-5 pb-2 mb-4 bg-light rounded-3">
         <h1 className="header">📖 Lexique du lecteur biblique</h1>
@@ -87,12 +90,32 @@ export default function Home() {
       )}
 
       { !!lexicon.length && (
-        <PDFViewer style={{ width: '100%', height: '100%' }} >
+        <PDFViewer style={{ width: '100%', height: '100%', minHeight: '500px' }} >
           <PDFLexicon
             data={lexicon}
           />
         </PDFViewer>
       )}
+
+
+
     </Container>
-  )
+  ) : (
+    <>
+    <Navbar className="bg-body-tertiary">
+        <Container>
+          {/* <Navbar.Brand href="#home">Brand link</Navbar.Brand> */}
+          <h1 className="header">📖 Lexique du lecteur biblique</h1>
+        </Container>
+      </Navbar>
+
+    { !!lexicon.length && (
+      <PDFViewer style={{ position: 'absolute', width: '100%', height: '100%' }} >
+        <PDFLexicon
+          data={lexicon}
+        />
+      </PDFViewer>
+    )}
+    </>
+  );
 }

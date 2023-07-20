@@ -13,7 +13,6 @@ import {
 function PDFLexicon({data}) {
   // Register Font
   Font.register({
-    // family: "TimesNewRoman",
     family: "TimesNewRoman",
     src: 'Noto Sans Hebrew'
   });
