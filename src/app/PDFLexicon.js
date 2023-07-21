@@ -10,7 +10,7 @@ import {
 // import TimesNewRoman from './Times New Roman.ttf'
 
 
-function PDFLexicon({data}) {
+function PDFLexicon({frequency, data}) {
   // Register Font
   Font.register({
     family: "TimesNewRoman",
@@ -32,6 +32,7 @@ function PDFLexicon({data}) {
     },
     header: {
       textAlign: 'center',
+      letterSpacing: 2,
       fontSize: 10,
     },
     bookTitle: {
@@ -39,6 +40,11 @@ function PDFLexicon({data}) {
       fontSize: 50,
       letterSpacing: 10,
       textTransform: 'uppercase'
+    },
+    freqNotice: {
+      textAlign: 'center',
+      // letterSpacing: 2,
+      fontSize: 10,
     },
     chapter: {
       fontSize: 8,
@@ -70,7 +76,7 @@ function PDFLexicon({data}) {
       <Page size="A4" style={styles.page}>
         <Text style={styles.header}>LEXIQUE DU LECTEUR BIBLIQUE</Text>
         <Text style={styles.bookTitle}>{data[0].book}</Text>
-        <Text style={styles.header}>Mots apparaissant moins de X fois</Text>
+        <Text style={styles.freqNotice}>Mots apparaissant moins de {frequency} fois dans le Testament</Text>
 
         <Text style={styles.chapter}>CHAPITRE {data[0].chapter}</Text>
         {data.map((word, id, data) => {

@@ -96,6 +96,7 @@ export default function Home() {
       { !!lexicon.length && (
         <PDFViewer style={{ width: '100%', height: '100%', minHeight: '500px' }} >
           <PDFLexicon
+            frequency={frequency}
             data={lexicon}
           />
         </PDFViewer>
