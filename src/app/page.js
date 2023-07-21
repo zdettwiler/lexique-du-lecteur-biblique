@@ -51,8 +51,8 @@ export default function Home() {
         <h1 className="header">📖 Lexique du lecteur biblique</h1>
 
         <Form className="mt-3 mb-4">
-          <Row className="mb-3">
-            <Form.Group as={Col} className="mb-3" controlId="formGridEmail">
+          <Row className="mb-3 align-items-end">
+            <Col xs="auto">
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                   <option>Choisir le livre</option>
@@ -60,17 +60,21 @@ export default function Home() {
                     <option value={book} key={id}>{book}</option>
                   ))}
                 </Form.Select>
-            </Form.Group>
+            </Col>
 
-            <Form.Group as={Col} className="mb-3" controlId="formGridPassword">
+            <Col xs="auto">
               <Form.Label>Mots apparaissant moins de</Form.Label>
               <Form.Control type="number" placeholder="50" onChange={handleChangeFrequency}/>
-            </Form.Group>
+            </Col>
+
+            <Col xs="auto" className="d-flex align-items-baseline">
+              <Button variant="primary" type="submit" onClick={getBook}>
+                <i class="bi bi-lightning"></i> Génerer le lexique
+              </Button>
+            </Col>
           </Row>
 
-          <Button variant="primary" type="submit" onClick={getBook}>
-            Génerer le lexique
-          </Button>
+
         </Form>
 
         { !!lexicon.length && (
