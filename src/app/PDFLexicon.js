@@ -23,6 +23,7 @@ function PDFLexicon({frequency, data}) {
       padding: 50,
       fontFamily: 'Times-Roman',
       fontSize: 12,
+      columnCount: 2
       // flexDirection: 'row',
     },
     section: {

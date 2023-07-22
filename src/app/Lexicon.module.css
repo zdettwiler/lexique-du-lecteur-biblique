@@ -1,10 +1,17 @@
 div.lexicon {
   font-family: 'Times New Roman', serif;
   font-size: 20px;
+  width: 80%;
+  margin: auto;
+  column-count: 2;
+}
+div.wordEntry {
+  white-space: nowrap;
 }
 
 div.wordEntry div {
   display: inline-block;
+  white-space: normal;
   padding: 0 2px;
 }
 

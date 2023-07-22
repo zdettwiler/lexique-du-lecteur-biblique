@@ -10,7 +10,9 @@ import {
   Row,
   Col,
   Spinner,
-  Navbar
+  Navbar,
+  Tab,
+  Tabs
  } from 'react-bootstrap';
 import { PDFViewer } from '@react-pdf/renderer';
 
@@ -89,21 +91,26 @@ export default function Home() {
         <Spinner className="text-center" animation="border" style={{ position: 'fixed', left: '50%' }} />
       )}
 
-      { false && !!lexicon.length && (
-        <Lexicon data={lexicon} />
-      )}
-
       { !!lexicon.length && (
-        <PDFViewer style={{ width: '100%', height: '100%', minHeight: '500px' }} >
-          <PDFLexicon
-            frequency={frequency}
-            data={lexicon}
-          />
-        </PDFViewer>
+        <Tabs
+          defaultActiveKey="text"
+          id="lexicon-type-tabs"
+          className="mb-3"
+        >
+          <Tab eventKey="text" title="En ligne">
+            <Lexicon data={lexicon} />
+          </Tab>
+
+          <Tab eventKey="pdf" title="PDF">
+            <PDFViewer style={{ width: '100%', height: '100%', minHeight: '500px' }} >
+              <PDFLexicon
+                frequency={frequency}
+                data={lexicon}
+              />
+            </PDFViewer>
+          </Tab>
+        </Tabs>
       )}
-
-
-
     </Container>
   ) : (
     <>
