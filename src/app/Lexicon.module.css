@@ -3,14 +3,15 @@ div.lexicon {
   font-size: 20px;
   width: 80%;
   margin: auto;
-  column-count: 2;
+  display: table;
 }
 div.wordEntry {
   white-space: nowrap;
+  display: table-row;
 }
 
 div.wordEntry div {
-  display: inline-block;
+  display: table-cell;
   white-space: normal;
   padding: 0 2px;
 }
@@ -19,7 +20,7 @@ div.verseNb {
   width: 20px;
 }
 div.vocLex {
-  min-width: 100px;
+  min-width: 80px;
   font-size: 25px;
   direction: rtl;
 }
