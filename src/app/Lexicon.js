@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Lexicon.module.css'
-// import TimesNewRoman from './Times New Roman.ttf'
 
 
 function Lexicon({data}) {

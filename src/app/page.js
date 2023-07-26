@@ -9,6 +9,8 @@ import {
   Form,
   Row,
   Col,
+  DropdownButton,
+  Dropdown,
   Spinner,
   Navbar,
   Tab,
@@ -22,7 +24,7 @@ import PDFLexicon from './PDFLexicon'
 export default function Home() {
   // const [instance, updateInstance] = usePDF({ document: Lexicon });
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState('Amos');
+  const [book, setBook] = React.useState('Jonas');
   const [frequency, setFrequency] = React.useState(50);
   const [lexicon, setLexicon] = React.useState([]);
   const [viewPdf, setViewPdf] = React.useState(false);
@@ -66,12 +68,12 @@ export default function Home() {
 
             <Col xs="auto">
               <Form.Label>Mots apparaissant moins de</Form.Label>
-              <Form.Control type="number" placeholder="50" onChange={handleChangeFrequency}/>
+              <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/>
             </Col>
 
             <Col xs="auto" className="d-flex align-items-baseline">
               <Button variant="primary" type="submit" onClick={getBook}>
-                <i class="bi bi-lightning"></i> Génerer le lexique
+                <i className="bi bi-lightning"></i> Génerer le lexique
               </Button>
             </Col>
           </Row>

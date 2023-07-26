@@ -7,24 +7,24 @@ import {
   StyleSheet,
   Font
 } from '@react-pdf/renderer';
-// import TimesNewRoman from './Times New Roman.ttf'
 
 
 function PDFLexicon({frequency, data}) {
-  // Register Font
   Font.register({
-    family: "TimesNewRoman",
-    src: 'Noto Sans Hebrew'
+    family: 'TimesNewRoman',
+    fonts: [{
+      src: 'https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.ttf',
+      fontStyle: 'normal',
+      fontWeight: 400
+    }]
   });
 
   // Create styles
   const styles = StyleSheet.create({
     page: {
       padding: 50,
-      fontFamily: 'Times-Roman',
+      fontFamily: "TimesNewRoman",
       fontSize: 12,
-      columnCount: 2
-      // flexDirection: 'row',
     },
     section: {
       margin: 10,
@@ -57,8 +57,9 @@ function PDFLexicon({frequency, data}) {
     wordEntry: {
       marginBottom: 5,
     },
-    word: {
-
+    hebrew: {
+      fontSize: 15,
+      direction: 'rtl'
     },
     verse: {
       verticalAlign: 'super',
@@ -95,7 +96,7 @@ function PDFLexicon({frequency, data}) {
             <div style={styles.wordEntry} key={id}>
               {chapHeading}
               <Text style={styles.word}>
-                {verseIndicator} {word.voc_lex} ({word.freq_lex}) <Text style={styles.word}>{word.gloss}</Text>
+                {verseIndicator} <Text style={styles.hebrew}>{word.voc_lex}</Text> ({word.freq_lex}) <Text style={styles.word}>{word.gloss}</Text>
               </Text>
             </div>
           )
