@@ -22,8 +22,8 @@ function Lexicon({data}) {
               {chapHeading}
                 <div className={styles.wordEntry}>
                   <div className={styles.verseNb}>{verseIndicator}</div>
-                  <div className={styles.vocLex}>{word.voc_lex}</div>
-                  <div className={styles.freqLex}>({word.freq_lex})</div>
+                  <div className={styles.lex}>{word.lex}</div>
+                  <div className={styles.freq}>({word.freq})</div>
                   <div className={styles.gloss}>{word.gloss}</div>
                 </div>
             </div>
