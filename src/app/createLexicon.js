@@ -1,7 +1,6 @@
 // import strong lexicons
 import strongLexicon from "./strong_lexicon_fr.json";
 
-console.log("G1234".slice(1))
 
 const bookOptions = [
   // OT
@@ -87,18 +86,16 @@ async function createLexicon(book='Genèse', frequency=50) {
       return text.split('\n');
     });
 
-  // let columns = rawData[0].split(',');
-
   let lexicon = rawData.reduce((words, currentWord) => {
     let word = currentWord.split(',');
 
     if (parseInt(word[8]) <= frequency) {
       words.push({
-        id: word[0],
+        // id: word[0],
         book: word[2],
         chapter: word[3],
         verse: word[4],
-        orig: word[5],
+        // orig: word[5],
         lex: word[6],
         strong: word[7],
         freq: word[8],

@@ -7,9 +7,10 @@ Le lexique **hébreu-français** est un recoupement:
 - de son alignement avec des codes Strong de [OpenHebrewBiblw](https://github.com/eliranwong/OpenHebrewBible);
 - et des traductions collectées chez [emcitv](https://emcitv.com/bible/strong-biblique-hebreu.html).
 
-Le lexique **grec-français** est encore à venir.
+Le lexique **grec-français** un recoupement:
+- du texte biblique de la [THGNT](https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT)
+- et du lexique strong en française collecté chez [emcitv](https://emcitv.com/bible/strong-biblique-hebreu.html).
 
 ## 🚀 À venir
 - [ ] Possibilité d'exporter un lexique au format PDF
-- [ ] Lexique identique pour le Nouveau Testament
 - [ ] Formulaire pour proposer des rectifications du lexique
