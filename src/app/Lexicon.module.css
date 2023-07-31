@@ -20,12 +20,12 @@ div.verseNb {
   width: 20px;
 }
 div.lexOT {
-  min-width: 100px;
+  min-width: 120px;
   font-size: 25px;
   direction: rtl;
 }
 div.lexNT {
-  min-width: 100px;
+  min-width: 120px;
   font-weight: bold;
   /* font-size: 25px; */
 }

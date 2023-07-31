@@ -43,7 +43,6 @@ export default function Home() {
     e.preventDefault();
     setIsGeneratingPDF(true);
     let data = await createLexicon(book, frequency);
-    console.log(data)
     setLexicon(data);
     setIsGeneratingPDF(false);
     // setViewPdf(true)

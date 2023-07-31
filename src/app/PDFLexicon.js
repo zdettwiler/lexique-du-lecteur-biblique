@@ -10,12 +10,14 @@ import {
 
 
 function PDFLexicon({frequency, data}) {
+  console.log(data)
+
   Font.register({
     family: 'TimesNewRoman',
     fonts: [{
       src: 'https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.ttf',
       fontStyle: 'normal',
-      fontWeight: 400
+      // fontWeight: 400
     }]
   });
 
@@ -57,6 +59,9 @@ function PDFLexicon({frequency, data}) {
     wordEntry: {
       marginBottom: 5,
     },
+    greek: {
+      fontWeight: 'bold',
+    },
     hebrew: {
       fontSize: 15,
       direction: 'rtl'
@@ -68,7 +73,9 @@ function PDFLexicon({frequency, data}) {
     }
   });
 
-
+  const styleLang = data[0].strong[0] === "G"
+    ? styles.greek
+    : styles.hebrew;
 
 
   // Create Document Component
@@ -96,19 +103,11 @@ function PDFLexicon({frequency, data}) {
             <div style={styles.wordEntry} key={id}>
               {chapHeading}
               <Text style={styles.word}>
-                {verseIndicator} <Text style={styles.hebrew}>{word.voc_lex}</Text> ({word.freq_lex}) <Text style={styles.word}>{word.gloss}</Text>
+                {verseIndicator} <Text style={styleLang}>{word.lex}</Text> ({word.freq}) <Text style={styles.word}>{word.gloss}</Text>
               </Text>
             </div>
           )
         })}
-
-
-        <View style={styles.section}>
-          <Text>Section #1</Text>
-        </View>
-        <View style={styles.section}>
-          <Text>Section #2</Text>
-        </View>
       </Page>
     </Document>
   );

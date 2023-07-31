@@ -3,9 +3,9 @@ import styles from './Lexicon.module.css'
 
 
 function Lexicon({data}) {
-  const testament = data[0].strong[0] === "G"
-    ? "nt"
-    : "ot";
+  const styleLang = data[0].strong[0] === "G"
+    ? styles.lexNT
+    : styles.lexOT;
 
   return (
     <div className={styles.lexicon}>
@@ -25,12 +25,7 @@ function Lexicon({data}) {
               {chapHeading}
                 <div className={styles.wordEntry}>
                   <div className={styles.verseNb}>{verseIndicator}</div>
-                  { testament == "nt" && (
-                    <div className={styles.lexNT}>{word.lex}</div>
-                  )}
-                  { testament == "ot" && (
-                    <div className={styles.lexOT}>{word.lex}</div>
-                  )}
+                  <div className={styleLang}>{word.lex}</div>
                   <div className={styles.freq}>({word.freq})</div>
                   <div className={styles.gloss}>{word.gloss}</div>
                 </div>
