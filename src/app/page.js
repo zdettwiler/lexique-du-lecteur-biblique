@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link'
 import React from 'react';
-import { createLexicon, otBooksOptions } from './createLexicon'
+import { createLexicon, bookOptions } from './createLexicon'
 import {
   Container,
   Alert,
@@ -43,6 +43,7 @@ export default function Home() {
     e.preventDefault();
     setIsGeneratingPDF(true);
     let data = await createLexicon(book, frequency);
+    console.log(data)
     setLexicon(data);
     setIsGeneratingPDF(false);
     // setViewPdf(true)
@@ -60,7 +61,7 @@ export default function Home() {
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                   <option>Choisir le livre</option>
-                  { otBooksOptions.map((book, id) => (
+                  { bookOptions.map((book, id) => (
                     <option value={book} key={id}>{book}</option>
                   ))}
                 </Form.Select>

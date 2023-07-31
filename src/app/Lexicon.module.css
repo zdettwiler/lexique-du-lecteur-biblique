@@ -19,18 +19,19 @@ div.wordEntry div {
 div.verseNb {
   width: 20px;
 }
-div.vocLex {
-  min-width: 80px;
+div.lexOT {
+  min-width: 100px;
   font-size: 25px;
   direction: rtl;
 }
-div.freqLex {
+div.lexNT {
+  min-width: 100px;
+  font-weight: bold;
+  /* font-size: 25px; */
+}
+div.freq {
   width: 50px;
 }
-/* div.gloss {
-
-} */
-
 
 .chapterHeading {
   /* font-size: 12px; */
