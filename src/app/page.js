@@ -16,13 +16,13 @@ import {
   Tab,
   Tabs
  } from 'react-bootstrap';
-import { PDFViewer } from '@react-pdf/renderer';
+import { usePDF, PDFViewer } from '@react-pdf/renderer';
 
 import Lexicon from './Lexicon'
 import PDFLexicon from './PDFLexicon'
 
 export default function Home() {
-  // const [instance, updateInstance] = usePDF({ document: Lexicon });
+  const [instance, updateInstance] = usePDF({ document: PDFLexicon });
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Jonas');
   const [frequency, setFrequency] = React.useState(50);
@@ -41,6 +41,7 @@ export default function Home() {
 
   async function getBook(e) {
     e.preventDefault();
+    setLexicon([]);
     setIsGeneratingPDF(true);
     let data = await createLexicon(book, frequency);
     setLexicon(data);
@@ -73,7 +74,7 @@ export default function Home() {
 
             <Col xs="auto" className="d-flex align-items-baseline">
               <Button variant="primary" type="submit" onClick={getBook}>
-                <i className="bi bi-lightning"></i> Génerer le lexique
+                Génerer le lexique
               </Button>
             </Col>
           </Row>
@@ -103,7 +104,20 @@ export default function Home() {
             <Lexicon data={lexicon} />
           </Tab>
 
-          <Tab eventKey="pdf" title="PDF">
+          <Tab eventKey="pdf"
+            title={<>
+              <Spinner
+                as="span"
+                animation="border"
+                size="sm"
+                role="status"
+                aria-hidden="true"
+                className={!instance.loading && "visually-hidden"}
+              />
+              <span> PDF</span>
+            </>}
+            disabled={instance.loading}
+          >
             <PDFViewer style={{ width: '100%', height: '100%', minHeight: '500px' }} >
               <PDFLexicon
                 frequency={frequency}
