@@ -71,43 +71,67 @@ function PDFLexicon({frequency, data}) {
   const columnGutter = 10;
   const columnWidth = (page.width - 2*page.margin.left - columnGutter) / 2;
 
-  const xTabVerse = page.margin.left + 0
-  const xTabLex = page.margin.left + 3
-  const xTabFreq = page.margin.left + 27
-  const xTabGloss = page.margin.left + 35
-  const yChapter = currentY
+  const xTabVerse = page.margin.left + 0;
+  const xTabLex = page.margin.left + 3;
+  const xTabFreq = page.margin.left + 27;
+  const xTabGloss = page.margin.left + 35;
+  let yChapter = currentY;
+  const padding = 1;
 
+  // need to determine number of lines per chapter in order to make columns
+  let colHeights = data.slice(0, 20).reduce((acc, cur) => {
+    if (acc[cur.chapter]) {
+      acc[cur.chapter] += doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
+    } else {
+      acc[cur.chapter] = doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
+    }
 
-  data.forEach(word => {
+    return acc;
+  }, {})
+  console.log(colHeights)
+
+  let columnNb = 0;
+
+  data.slice(0, 20).forEach(word => {
     let splitGloss = doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
+    let columnOffset = columnNb*(columnWidth + columnGutter);
 
     // verse number
     doc
       .setFont('Helvetica', 'bold')
       .setFontSize(7)
-      .text(word.verse, xTabVerse, currentY-1)
+      .text(word.verse, columnOffset + xTabVerse, currentY-1)
 
     // lex
     doc
       .setFont('Times', 'normal')
       .setFontSize(11)
-      .text("HEB", xTabLex, currentY, { maxWidth: 40 })
+      .text("hebrew/greek", columnOffset + xTabLex, currentY, { maxWidth: 40 })
 
     // lex freq
     doc
       .setFontSize(9)
-      .text("(" + word.freq + ")", xTabFreq, currentY);
+      .text("(" + word.freq + ")", columnOffset + xTabFreq, currentY);
 
     // gloss
     doc
       .setFontSize(11)
-      .text(splitGloss, xTabGloss, currentY);
+      .text(splitGloss, columnOffset + xTabGloss, currentY);
 
-    currentY += splitGloss.length * doc.getLineHeight() * 0.3527777778 + 3; // pt to mm
+    currentY += splitGloss.length * doc.getLineHeight() * 0.3527777778 + padding; // pt to mm
 
+    // check if it's the end of the column
+    console.log(currentY, yChapter + (colHeights[word.chapter]/2 * (doc.getLineHeight() * 0.3527777778 + padding)))
+    if (currentY > yChapter + (colHeights[word.chapter]/2 * (doc.getLineHeight() * 0.3527777778 + padding)) ) {
+      currentY = yChapter;
+      columnNb = 1;
+    }
+
+    // if it's the end of the column
     if (currentY > (page.height - page.margin.top)) {
       doc.addPage()
-      currentY = page.margin.top
+      currentY = page.margin.top;
+      columnNb = 0;
     }
   });
 
