@@ -34,11 +34,11 @@ function PDFLexicon({frequency, data}) {
     header: {
       textAlign: 'center',
       letterSpacing: 2,
-      fontSize: 10,
+      fontSize: 9,
     },
     bookTitle: {
       textAlign: 'center',
-      fontSize: 50,
+      fontSize: 30,
       letterSpacing: 10,
       textTransform: 'uppercase'
     },
@@ -86,8 +86,8 @@ function PDFLexicon({frequency, data}) {
         title={data[0].book+" – Lexique du Lecteur Biblique"}
         author={"zdettwiler.github.io/lexique-du-lecteur-biblique"}
       >
-        <Text style={styles.header}>LEXIQUE DU LECTEUR BIBLIQUE</Text>
         <Text style={styles.bookTitle}>{data[0].book}</Text>
+        <Text style={styles.header}>LEXIQUE DU LECTEUR BIBLIQUE</Text>
         <Text style={styles.freqNotice}>Mots apparaissant moins de {frequency} fois dans le Testament</Text>
 
         <Text style={styles.chapter}>CHAPITRE {data[0].chapter}</Text>

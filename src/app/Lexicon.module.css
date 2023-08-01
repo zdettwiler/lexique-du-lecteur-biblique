@@ -5,17 +5,34 @@ div.lexicon {
   margin: auto;
   display: table;
 }
+h1.lexiconTitle {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-align: center;
+  margin-bottom: -5px;
+}
+h2.lexiconSubTitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+p.lexiconFreq {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
 div.wordEntry {
   white-space: nowrap;
   display: table-row;
 }
-
 div.wordEntry div {
   display: table-cell;
   white-space: normal;
   padding: 0 2px;
 }
-
 div.verseNb {
   width: 20px;
 }
@@ -34,7 +51,7 @@ div.freq {
 }
 
 .chapterHeading {
-  /* font-size: 12px; */
+  font-size: 18px;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin: 20px 0 10px;
