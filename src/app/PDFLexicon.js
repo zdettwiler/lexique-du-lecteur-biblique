@@ -16,10 +16,9 @@ function PDFLexicon({frequency, data}) {
     }
   }
 
-  console.log(doc.getLineHeight(), data)
 
   function printChapter(nb, y) {
-    let string = "CHAPITRE " + nb;
+    let string = "CHAPITRE " + nb.toString();
     let xOffset = 210/2 - string.length / 2 // accounting for letter spacing
     doc.setFontSize(10)
       .text(string, xOffset, y, {
@@ -75,32 +74,41 @@ function PDFLexicon({frequency, data}) {
   const xTabLex = page.margin.left + 3;
   const xTabFreq = page.margin.left + 27;
   const xTabGloss = page.margin.left + 35;
-  let yChapter = currentY;
+  let topColumnY = currentY;
   const padding = 1;
 
   // need to determine number of lines per chapter in order to make columns
-  let colHeights = data.slice(0, 20).reduce((acc, cur) => {
+  let colHeights = data.reduce((acc, cur) => {
     if (acc[cur.chapter]) {
-      acc[cur.chapter] += doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
+      acc[cur.chapter] += doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length * (doc.getLineHeight() * 0.3527777778 + padding)
     } else {
-      acc[cur.chapter] = doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
+      acc[cur.chapter] = doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length * (doc.getLineHeight() * 0.3527777778 + padding)
     }
 
     return acc;
   }, {})
   console.log(colHeights)
 
-  let columnNb = 0;
+  let currentColumnNb = 0;
+  let currentChapterNb = 1
 
-  data.slice(0, 20).forEach(word => {
+  // all words in two columns
+  data.forEach(word => {
     let splitGloss = doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
-    let columnOffset = columnNb*(columnWidth + columnGutter);
+    let columnOffset = currentColumnNb*(columnWidth + columnGutter);
+
+    if (word.chapter !== currentChapterNb) {
+      currentChapterNb = word.chapter
+      printChapter(currentChapterNb, currentY + 10);
+      currentColumnNb = 0;
+      topColumnY = currentY + 20;
+    }
 
     // verse number
     doc
       .setFont('Helvetica', 'bold')
       .setFontSize(7)
-      .text(word.verse, columnOffset + xTabVerse, currentY-1)
+      .text(word.verse.toString(), columnOffset + xTabVerse, currentY-1)
 
     // lex
     doc
@@ -120,19 +128,33 @@ function PDFLexicon({frequency, data}) {
 
     currentY += splitGloss.length * doc.getLineHeight() * 0.3527777778 + padding; // pt to mm
 
-    // check if it's the end of the column
-    console.log(currentY, yChapter + (colHeights[word.chapter]/2 * (doc.getLineHeight() * 0.3527777778 + padding)))
-    if (currentY > yChapter + (colHeights[word.chapter]/2 * (doc.getLineHeight() * 0.3527777778 + padding)) ) {
-      currentY = yChapter;
-      columnNb = 1;
+    // check if it's the end of the page
+    if (currentY > (page.height - page.margin.top)) {
+      if (currentColumnNb === 0) {
+        currentColumnNb = 1;
+        currentY = topColumnY;
+
+      } else if (currentColumnNb === 1) {
+        doc.addPage();
+        colHeights[currentChapterNb] = colHeights[currentChapterNb] - (2 * (currentY - topColumnY)+20)
+        currentY = page.margin.top;
+        topColumnY = page.margin.top;
+        currentColumnNb = 0;
+        console.log(colHeights)
+      }
+    } else if (currentY > topColumnY + colHeights[word.chapter]/2) { // check if it's the end of the column
+      console.log("new column", word.chapter, word.verse, currentY, topColumnY + colHeights[word.chapter]/2)
+      if (currentColumnNb === 0) { // if it's the end of the first column, go to second
+        currentColumnNb = 1;
+        currentY = topColumnY;
+
+      } else if (currentColumnNb === 1) { // if it's the end of the second, it's the end of the chapter
+        console.log("end chapter")
+        currentY += 30
+      }
     }
 
-    // if it's the end of the column
-    if (currentY > (page.height - page.margin.top)) {
-      doc.addPage()
-      currentY = page.margin.top;
-      columnNb = 0;
-    }
+
   });
 
   // doc.save("a4.pdf");
