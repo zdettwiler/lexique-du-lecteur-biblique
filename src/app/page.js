@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link'
 import React from 'react';
 import { createLexicon, bookOptions } from './createLexicon'
 import {
@@ -86,23 +85,6 @@ export default function Home() {
           <Alert variant={'info'}>
             <Alert.Heading>🚀 Lexique créé!</Alert.Heading>
             <p><b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans l'Ancien Testament.</p>
-
-            <PDFDownloadLink
-              document={<PDFLexicon frequency={frequency} data={lexicon} />}
-              fileName={book + " (mots "+ frequency + "+) - Lexique du lecteur biblique.pdf"}
-            >
-                {({ blob, url, loading, error }) => {
-                  console.log(blob, url, loading, error);
-
-                  return (<>
-                    <Button variant="outline-primary" disabled={loading}>
-                      {loading || isGeneratingPDF ? 'Loading document...' : 'Download now!'}
-                    </Button>
-                  </>)
-                }
-
-              }
-            </PDFDownloadLink>
           </Alert>
         )}
       </Container>
@@ -112,7 +94,8 @@ export default function Home() {
       )}
 
       { !!lexicon.length && (
-        <Lexicon frequency={frequency} data={lexicon} />
+        <PDFLexicon frequency={frequency} data={lexicon} />
+        // <Lexicon frequency={frequency} data={lexicon} />
       )}
     </Container>
   );
