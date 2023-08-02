@@ -12,20 +12,18 @@ function PDFLexicon({frequency, data}) {
     width: doc.internal.pageSize.getWidth(),
     margin: {
       top: 20,
-      left: 20
+      right: 20,
+      left: 20,
+      bottom: 20
     }
   }
 
+  doc.line(
+    page.margin.left, page.height-page.margin.bottom,
+    page.width-page.margin.right, page.height-page.margin.bottom,
+    'S'
+  );
 
-  function printChapter(nb, y) {
-    let string = "CHAPITRE " + nb.toString();
-    let xOffset = 210/2 - string.length / 2 // accounting for letter spacing
-    doc.setFontSize(10)
-      .text(string, xOffset, y, {
-        align: 'center',
-        charSpace: 1
-      });
-  }
 
   // book title
   doc
@@ -62,8 +60,8 @@ function PDFLexicon({frequency, data}) {
   let currentY = 50;
 
   // print chapter
-  printChapter(1, currentY);
-  currentY += 10;
+  // writeChapter(1, currentY);
+  // currentY += 10;
 
   // two-column layout
   // doc.internal.getLineHeight()
@@ -75,87 +73,308 @@ function PDFLexicon({frequency, data}) {
   const xTabFreq = page.margin.left + 27;
   const xTabGloss = page.margin.left + 35;
   let topColumnY = currentY;
-  const padding = 1;
+  const padding = 0;
 
   // need to determine number of lines per chapter in order to make columns
-  let colHeights = data.reduce((acc, cur) => {
+  doc.setFontSize(11);
+  let linesLeft = data.reduce((acc, cur) => {
     if (acc[cur.chapter]) {
-      acc[cur.chapter] += doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length * (doc.getLineHeight() * 0.3527777778 + padding)
+      acc[cur.chapter] += doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
     } else {
-      acc[cur.chapter] = doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length * (doc.getLineHeight() * 0.3527777778 + padding)
+      acc[cur.chapter] = doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
     }
 
     return acc;
   }, {})
-  console.log(colHeights)
 
-  let currentColumnNb = 0;
-  let currentChapterNb = 1
+  let dataByChap = data.reduce((acc, word) => {
+    if (acc[word.chapter]) {
+      acc[word.chapter].push({
+        ...word,
+        gloss: doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
+      });
 
-  // all words in two columns
-  data.forEach(word => {
-    let splitGloss = doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
-    let columnOffset = currentColumnNb*(columnWidth + columnGutter);
-
-    if (word.chapter !== currentChapterNb) {
-      currentChapterNb = word.chapter
-      printChapter(currentChapterNb, currentY + 10);
-      currentColumnNb = 0;
-      topColumnY = currentY + 20;
+    } else {
+      acc[word.chapter] = [{
+        ...word,
+        gloss: doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
+      }];
     }
+
+    return acc;
+  }, {})
+
+  // if     total number of lines for chapter > 2 * columnAvailableLines
+  // then   - we will be able to fill both columns and make new page
+  //        and potentially start again with new total number of lines for chapter
+  //        - try slotting things in and see.
+  // else   we will split chapter in half, two columns
+
+  // so I need to know, total nb lines for chapter,
+
+  let lineHeightToMm = (nbLines) => {
+    doc.setFontSize(11);
+    return nbLines * doc.getLineHeight() * 0.3527777778
+  }
+
+  let totalColumnAvailableLines = (y) => {
+    doc.setFontSize(11);
+    return Math.floor((page.height - page.margin.top - y) / (doc.getLineHeight() * 0.3527777778));
+  }
+
+  let produceColumn = (columnAvailableLines, data) => {
+    let wordsInColumn = []
+    let occupiedLines = 0
+    for (let word of data) {
+      if (occupiedLines + word.gloss.length <= columnAvailableLines) {
+        wordsInColumn.push(word);
+        occupiedLines += word.gloss.length
+      } else { break; }
+    }
+
+    return wordsInColumn
+  }
+
+  let writeChapter = (nb, y) => {
+    let string = "CHAPITRE " + nb.toString();
+    let xOffset = 210/2 - string.length / 2 // accounting for letter spacing
+    doc.setFontSize(10)
+      .text(string, xOffset, y, {
+        align: 'center',
+        charSpace: 1
+      });
+  }
+
+  let writeWord = (word, y, colNb) => {
+    let columnOffset = colNb*(columnWidth + columnGutter);
 
     // verse number
     doc
       .setFont('Helvetica', 'bold')
       .setFontSize(7)
-      .text(word.verse.toString(), columnOffset + xTabVerse, currentY-1)
+      .text(word.verse.toString(), columnOffset + xTabVerse, y-1)
 
     // lex
     doc
       .setFont('Times', 'normal')
       .setFontSize(11)
-      .text("hebrew/greek", columnOffset + xTabLex, currentY, { maxWidth: 40 })
+      .text("hebrew/greek", columnOffset + xTabLex, y, { maxWidth: 40 })
 
     // lex freq
     doc
       .setFontSize(9)
-      .text("(" + word.freq + ")", columnOffset + xTabFreq, currentY);
+      .text("(" + word.freq + ")", columnOffset + xTabFreq, y);
 
     // gloss
     doc
       .setFontSize(11)
-      .text(splitGloss, columnOffset + xTabGloss, currentY);
+      .text(word.gloss, columnOffset + xTabGloss, y);
 
-    currentY += splitGloss.length * doc.getLineHeight() * 0.3527777778 + padding; // pt to mm
+    return
+  }
 
-    // check if it's the end of the page
-    if (currentY > (page.height - page.margin.top)) {
-      if (currentColumnNb === 0) {
-        currentColumnNb = 1;
+  let getDataTotalLines = (data) => data.reduce((sum, word) => sum + word.gloss.length, 0)
+
+
+
+  // go through all chapters
+  for (let currentChapterNb of Object.keys(dataByChap)) {
+    let dataToWrite = dataByChap[currentChapterNb];
+
+    // write new chapter
+    writeChapter(currentChapterNb, currentY);
+    // currentColumnNb = 0;
+    currentY += 10;
+    topColumnY = currentY;
+
+    // go through data
+    while (dataToWrite.length > 0) {
+      let columnAvailableLines = totalColumnAvailableLines(currentY);
+
+      // if we can fill both columns to the bottom of the page
+      if (getDataTotalLines(dataToWrite) >= 2 * columnAvailableLines) {
+        // first column
+        let wordsInColumn = produceColumn(columnAvailableLines, dataToWrite);
+        dataToWrite = dataToWrite.slice(wordsInColumn.length);
+
+        for (let word of wordsInColumn) {
+          writeWord(word, currentY, 0)
+          currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
+        }
+
+        // second column
         currentY = topColumnY;
+        wordsInColumn = produceColumn(columnAvailableLines, dataToWrite);
+        dataToWrite = dataToWrite.slice(wordsInColumn.length);
 
-      } else if (currentColumnNb === 1) {
-        doc.addPage();
-        colHeights[currentChapterNb] = colHeights[currentChapterNb] - (2 * (currentY - topColumnY)+20)
+        for (let word of wordsInColumn) {
+          writeWord(word, currentY, 1)
+          currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
+        }
+
+        doc.addPage()
         currentY = page.margin.top;
         topColumnY = page.margin.top;
-        currentColumnNb = 0;
-        console.log(colHeights)
-      }
-    } else if (currentY > topColumnY + colHeights[word.chapter]/2) { // check if it's the end of the column
-      console.log("new column", word.chapter, word.verse, currentY, topColumnY + colHeights[word.chapter]/2)
-      if (currentColumnNb === 0) { // if it's the end of the first column, go to second
-        currentColumnNb = 1;
-        currentY = topColumnY;
+        // currentColumnNb = 0;
 
-      } else if (currentColumnNb === 1) { // if it's the end of the second, it's the end of the chapter
-        console.log("end chapter")
-        currentY += 30
+      // if we can't, find the middle
+      } else {
+        let wordsInColumn = []
+        let occupiedLines = 0
+        columnAvailableLines = getDataTotalLines(dataToWrite)/2
+
+        for (let word of dataToWrite) {
+          if (occupiedLines + word.gloss.length <= columnAvailableLines) {
+            wordsInColumn.push(word);
+            occupiedLines += word.gloss.length
+          } else { break; }
+
+          wordsInColumn.push(word);
+          occupiedLines += word.gloss.length
+        }
+
+        // first column
+        for (let word of wordsInColumn) {
+          writeWord(word, currentY, 0)
+          currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
+        }
+
+        let bottomOfColumn = currentY
+
+        // second column
+        currentY = topColumnY;
+        dataToWrite = dataToWrite.slice(wordsInColumn.length);
+
+        for (let word of dataToWrite) {
+          writeWord(word, currentY, 1)
+          currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
+        }
+
+        // dataToWrite = dataToWrite.slice(wordsInColumn.length);
+        dataToWrite = [];
+        currentY = Math.max(currentY, bottomOfColumn);
       }
+
+
     }
 
+    currentY += 10;
+  }
 
-  });
+
+  // let currentColumnNb = 0;
+  // let currentChapterNb = 0;
+
+  // let doneLines = 0
+
+
+
+
+
+
+  // // all words in two columns
+  // data.forEach(word => {
+  //   let splitGloss = doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
+
+
+  //   if (word.chapter !== currentChapterNb) {
+  //     currentChapterNb = word.chapter
+  //     writeChapter(currentChapterNb, currentY + 20);
+  //     currentColumnNb = 0;
+  //     currentY += 30;
+  //     topColumnY = currentY
+  //     console.log("new chapter new top", topColumnY)
+  //   }
+
+
+  //   // check there's enough space below
+  //   // check if it's the end of the page
+  //   if (currentY + lineHeightToMm(splitGloss.length) > page.height-page.margin.bottom) {
+  //     if (currentColumnNb === 0) { // if it's the end of the first column, continue on second
+  //       currentColumnNb = 1;
+  //       currentY = topColumnY;
+
+  //     } else if (currentColumnNb === 1) {
+  //       doc.addPage();
+  //       currentY = page.margin.top;
+  //       topColumnY = page.margin.top;
+  //       currentColumnNb = 0;
+  //       linesLeft[word.chapter] -= doneLines;
+  //       console.log("end of page new page")
+  //     }
+
+  //   } else if ((currentY + lineHeightToMm(splitGloss.length)) > (topColumnY + lineHeightToMm((linesLeft[word.chapter]/2-splitGloss.length)) )) { // check if it's the end of the column
+  //     // if it's the end of the first column, go to second
+  //     if (currentColumnNb === 0) {
+  //       console.log("end of column new column", currentY + lineHeightToMm(splitGloss.length), topColumnY + lineHeightToMm(linesLeft[word.chapter])/2, linesLeft[word.chapter])
+  //       currentColumnNb = 1;
+  //       currentY = topColumnY;
+  //       console.log("new column currentY to top", topColumnY, currentY)
+
+  //     } else if (currentColumnNb === 1) { //currentColumnNb === 1) { // if it's the end of the second, it's the end of the chapter
+  //       currentY += 30
+  //       currentColumnNb = 0;
+  //       console.log("end of column end of chapter")
+  //     }
+  //   }
+
+  //   let columnOffset = currentColumnNb*(columnWidth + columnGutter);
+
+  //   // verse number
+  //   doc
+  //     .setFont('Helvetica', 'bold')
+  //     .setFontSize(7)
+  //     .text(word.verse.toString(), columnOffset + xTabVerse, currentY-1)
+
+  //   // lex
+  //   doc
+  //     .setFont('Times', 'normal')
+  //     .setFontSize(11)
+  //     .text("hebrew/greek", columnOffset + xTabLex, currentY, { maxWidth: 40 })
+
+  //   // lex freq
+  //   doc
+  //     .setFontSize(9)
+  //     .text("(" + word.freq + ")", columnOffset + xTabFreq, currentY);
+
+  //   // gloss
+  //   doc
+  //     .setFontSize(11)
+  //     .text(splitGloss, columnOffset + xTabGloss, currentY);
+
+  //   currentY += lineHeightToMm(splitGloss.length) + padding; // pt to mm
+  //   doneLines += splitGloss.length
+
+    // check if it's the end of the page
+    // if (currentY > (page.height - page.margin.top)) {
+    //   if (currentColumnNb === 0) {
+    //     currentColumnNb = 1;
+    //     currentY = topColumnY;
+
+    //   } else if (currentColumnNb === 1) {
+    //     doc.addPage();
+    //     linesLeft[currentChapterNb] = linesLeft[currentChapterNb] - (2 * (currentY - topColumnY)+20)
+    //     currentY = page.margin.top;
+    //     topColumnY = page.margin.top;
+    //     currentColumnNb = 0;
+    //     console.log("new page")
+    //   }
+
+    // } else if (currentY > topColumnY + linesLeft[word.chapter]/2) { // check if it's the end of the column
+    //   console.log("new column", word.chapter, word.verse, currentY, topColumnY + linesLeft[word.chapter]/2)
+    //   if (currentColumnNb === 0) { // if it's the end of the first column, go to second
+    //     currentColumnNb = 1;
+    //     currentY = topColumnY;
+
+    //   } else if (currentColumnNb === 1) { // if it's the end of the second, it's the end of the chapter
+    //     console.log("end chapter")
+    //     currentY += 30
+    //     currentColumnNb = 0;
+    //   }
+    // }
+
+
+  // });
 
   // doc.save("a4.pdf");
 
