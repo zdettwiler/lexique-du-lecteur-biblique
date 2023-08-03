@@ -152,7 +152,9 @@ export default function PDFLexicon({frequency, data}) {
     doc
       .setFont('Times New Roman', 'normal')
       .setFontSize(fontSize)
-      .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40 });
+      .setR2L(true)
+      .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40 })
+      .setR2L(false);
 
     // lex freq
     doc
