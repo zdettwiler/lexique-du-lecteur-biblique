@@ -1,11 +1,10 @@
 import React from 'react';
 import { jsPDF } from "jspdf";
+import timesNewRoman from "./timesNewRoman_binary.js";
 
 
 
-function PDFLexicon({frequency, data}) {
-  // https://db.onlinewebfonts.com/t/32441506567156636049eb850b53f02a.ttf
-
+export default function PDFLexicon({frequency, data}) {
   const doc = new jsPDF();
   const page = {
     height: doc.internal.pageSize.getHeight(),
@@ -18,22 +17,26 @@ function PDFLexicon({frequency, data}) {
     }
   }
 
-  // book title
-  doc
-    .setFont('Times')
-    .setFontSize(30);
+  // add font
+  doc.addFileToVFS("Times New Roman.ttf", timesNewRoman);
+  doc.addFont("Times New Roman.ttf", "Times New Roman", "normal");
+  doc.setFont("Times New Roman");
 
+  // book title
   let string = data[0].book.toUpperCase();
-  let xOffset = 210/2 - ((string.length-1) * 3 / 2) // accounting for letter spacing
-  doc.text(string, xOffset, page.margin.top, {
-    align: 'center',
-    charSpace: 3
-  });
+  let xOffset = page.width/2 - ((string.length-1) * 0.84) // manually accounting for letter spacing!
+  doc
+    .setFontSize(30)
+    .text(string, xOffset, page.margin.top, {
+      align: 'center',
+      charSpace: 3
+    });
 
   // Lexique du lecteur biblique
   string = "LEXIQUE DU LECTEUR BIBLIQUE";
-  xOffset = 210/2 - ((string.length-1) * 1 / 2) // accounting for letter spacing
-  doc.setFontSize(9)
+  xOffset = page.width/2 - ((string.length-1) * .31) // manually accounting for letter spacing!
+  doc
+    .setFontSize(9)
     .text(string, xOffset, 25, {
       align: 'center',
       charSpace: 1
@@ -43,13 +46,26 @@ function PDFLexicon({frequency, data}) {
   let testament = data[0].strong[0] === 'G'
     ? "le Nouveau Testament"
     : "l'Ancien Testament";
-  string = "(Mots apparaissant moins de " + frequency + " fois dans " + testament + ".)";
-  xOffset = 210/2
-  doc.setFontSize(9)
-    // .setFont('Times', 'itaic')
-    .text(string, xOffset, 35, {
-      align: 'center'
-    });
+  string = [
+    "Mots apparaissant moins de " + frequency + " fois dans " + testament + ".",
+    "Entre parenthèses figure le nombre d'apparition du mot dans " + testament + ".",
+    // "Le mot "
+  ];
+  let textWidth = doc
+    .setFont('Times', 'italic')
+    .setFontSize(9)
+    .getTextWidth(string[0]);
+  xOffset = page.width/2 - textWidth/2;
+  doc.text(string[0], xOffset, 35)
+
+  textWidth = doc
+    .setFont('Times', 'italic')
+    .setFontSize(9)
+    .getTextWidth(string[1]);
+  xOffset = page.width/2 - textWidth/2;
+  doc.text(string[1], xOffset, 35 + doc.getLineHeight() * 0.3527777778);
+
+
 
   let currentY = 50;
 
@@ -127,13 +143,14 @@ function PDFLexicon({frequency, data}) {
     doc
       .setFont('Helvetica', 'bold')
       .setFontSize(7)
-      .text(word.verse.toString(), columnOffset + xTabVerse, y-1)
+      .text(word.verse.toString(), columnOffset + xTabVerse, y-1, { align: 'right' })
 
     // lex
+    let fontSize = word.strong[0] === 'H' ? 13 : 11;
     doc
-      .setFont('Times', 'normal')
-      .setFontSize(11)
-      .text("hebrew/greek", columnOffset + xTabLex, y, { maxWidth: 40 })
+      .setFont('Times New Roman', 'normal')
+      .setFontSize(fontSize)
+      .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40 });
 
     // lex freq
     doc
@@ -149,7 +166,6 @@ function PDFLexicon({frequency, data}) {
   }
 
   let getDataTotalLines = (data) => data.reduce((sum, word) => sum + word.gloss.length, 0)
-
 
 
   // go through all chapters
@@ -203,14 +219,17 @@ function PDFLexicon({frequency, data}) {
         let occupiedLines = 0
         columnAvailableLines = dataToWriteLines/2
 
+        // create column
         for (let word of dataToWrite) {
           if (occupiedLines + word.gloss.length <= columnAvailableLines) {
             wordsInColumn.push(word);
             occupiedLines += word.gloss.length
           } else { break; }
 
-          wordsInColumn.push(word);
-          occupiedLines += word.gloss.length
+          if (dataToWrite.length > 1) {
+            wordsInColumn.push(word);
+            occupiedLines += word.gloss.length
+          }
         }
 
         // first column
@@ -241,133 +260,7 @@ function PDFLexicon({frequency, data}) {
     currentY += 10;
   }
 
-
-  // let currentColumnNb = 0;
-  // let currentChapterNb = 0;
-
-  // let doneLines = 0
-
-
-
-
-
-
-  // // all words in two columns
-  // data.forEach(word => {
-  //   let splitGloss = doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
-
-
-  //   if (word.chapter !== currentChapterNb) {
-  //     currentChapterNb = word.chapter
-  //     writeChapter(currentChapterNb, currentY + 20);
-  //     currentColumnNb = 0;
-  //     currentY += 30;
-  //     topColumnY = currentY
-  //     console.log("new chapter new top", topColumnY)
-  //   }
-
-
-  //   // check there's enough space below
-  //   // check if it's the end of the page
-  //   if (currentY + lineHeightToMm(splitGloss.length) > page.height-page.margin.bottom) {
-  //     if (currentColumnNb === 0) { // if it's the end of the first column, continue on second
-  //       currentColumnNb = 1;
-  //       currentY = topColumnY;
-
-  //     } else if (currentColumnNb === 1) {
-  //       doc.addPage();
-  //       currentY = page.margin.top;
-  //       topColumnY = page.margin.top;
-  //       currentColumnNb = 0;
-  //       linesLeft[word.chapter] -= doneLines;
-  //       console.log("end of page new page")
-  //     }
-
-  //   } else if ((currentY + lineHeightToMm(splitGloss.length)) > (topColumnY + lineHeightToMm((linesLeft[word.chapter]/2-splitGloss.length)) )) { // check if it's the end of the column
-  //     // if it's the end of the first column, go to second
-  //     if (currentColumnNb === 0) {
-  //       console.log("end of column new column", currentY + lineHeightToMm(splitGloss.length), topColumnY + lineHeightToMm(linesLeft[word.chapter])/2, linesLeft[word.chapter])
-  //       currentColumnNb = 1;
-  //       currentY = topColumnY;
-  //       console.log("new column currentY to top", topColumnY, currentY)
-
-  //     } else if (currentColumnNb === 1) { //currentColumnNb === 1) { // if it's the end of the second, it's the end of the chapter
-  //       currentY += 30
-  //       currentColumnNb = 0;
-  //       console.log("end of column end of chapter")
-  //     }
-  //   }
-
-  //   let columnOffset = currentColumnNb*(columnWidth + columnGutter);
-
-  //   // verse number
-  //   doc
-  //     .setFont('Helvetica', 'bold')
-  //     .setFontSize(7)
-  //     .text(word.verse.toString(), columnOffset + xTabVerse, currentY-1)
-
-  //   // lex
-  //   doc
-  //     .setFont('Times', 'normal')
-  //     .setFontSize(11)
-  //     .text("hebrew/greek", columnOffset + xTabLex, currentY, { maxWidth: 40 })
-
-  //   // lex freq
-  //   doc
-  //     .setFontSize(9)
-  //     .text("(" + word.freq + ")", columnOffset + xTabFreq, currentY);
-
-  //   // gloss
-  //   doc
-  //     .setFontSize(11)
-  //     .text(splitGloss, columnOffset + xTabGloss, currentY);
-
-  //   currentY += lineHeightToMm(splitGloss.length) + padding; // pt to mm
-  //   doneLines += splitGloss.length
-
-    // check if it's the end of the page
-    // if (currentY > (page.height - page.margin.top)) {
-    //   if (currentColumnNb === 0) {
-    //     currentColumnNb = 1;
-    //     currentY = topColumnY;
-
-    //   } else if (currentColumnNb === 1) {
-    //     doc.addPage();
-    //     linesLeft[currentChapterNb] = linesLeft[currentChapterNb] - (2 * (currentY - topColumnY)+20)
-    //     currentY = page.margin.top;
-    //     topColumnY = page.margin.top;
-    //     currentColumnNb = 0;
-    //     console.log("new page")
-    //   }
-
-    // } else if (currentY > topColumnY + linesLeft[word.chapter]/2) { // check if it's the end of the column
-    //   console.log("new column", word.chapter, word.verse, currentY, topColumnY + linesLeft[word.chapter]/2)
-    //   if (currentColumnNb === 0) { // if it's the end of the first column, go to second
-    //     currentColumnNb = 1;
-    //     currentY = topColumnY;
-
-    //   } else if (currentColumnNb === 1) { // if it's the end of the second, it's the end of the chapter
-    //     console.log("end chapter")
-    //     currentY += 30
-    //     currentColumnNb = 0;
-    //   }
-    // }
-
-
-  // });
-
-  // doc.save("a4.pdf");
-
-
-  // doc.addHTML(element, function () {
-  //     var blob = pdf.output('blob');
-  // });
-
   let blob = doc.output('blob');
-  console.log(blob)
-  // URL.createObjectURL(document.output("blob")
 
   return (<iframe title="preview" width="100%" height="500" src={URL.createObjectURL(blob)} ></iframe>);
 }
-
-export default PDFLexicon;
