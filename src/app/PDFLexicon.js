@@ -136,14 +136,16 @@ export default function PDFLexicon({frequency, data}) {
       });
   }
 
-  let writeWord = (word, y, colNb) => {
+  let writeWord = (word, y, colNb, writeVerseNb) => {
     let columnOffset = colNb*(columnWidth + columnGutter);
 
     // verse number
-    doc
-      .setFont('Helvetica', 'bold')
-      .setFontSize(7)
-      .text(word.verse.toString(), columnOffset + xTabVerse, y-1, { align: 'right' })
+    if (writeVerseNb) {
+      doc
+        .setFont('Helvetica', 'bold')
+        .setFontSize(7)
+        .text(word.verse.toString(), columnOffset + xTabVerse, y-1, { align: 'right' })
+    }
 
     // lex
     let fontSize = word.strong[0] === 'H' ? 13 : 11;
@@ -171,6 +173,7 @@ export default function PDFLexicon({frequency, data}) {
   // go through all chapters
   for (let currentChapterNb of Object.keys(dataByChap)) {
     let dataToWrite = dataByChap[currentChapterNb];
+    let currentVerseNb = 0;
 
     // write new chapter
     // if there is not enough room to write words below new chapter division, go to next page.
@@ -186,7 +189,7 @@ export default function PDFLexicon({frequency, data}) {
     // go through data
     while (dataToWrite.length > 0) {
       let columnAvailableLines = totalColumnAvailableLines(currentY);
-      let dataToWriteLines = getDataTotalLines(dataToWrite)
+      let dataToWriteLines = getDataTotalLines(dataToWrite);
 
       // if we can fill both columns to the bottom of the page
       if (dataToWriteLines >= 2 * columnAvailableLines) {
@@ -195,7 +198,8 @@ export default function PDFLexicon({frequency, data}) {
         dataToWrite = dataToWrite.slice(wordsInColumn.length);
 
         for (let word of wordsInColumn) {
-          writeWord(word, currentY, 0)
+          writeWord(word, currentY, 0, currentVerseNb !== word.verse);
+          currentVerseNb = word.verse;
           currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
         }
 
@@ -205,14 +209,15 @@ export default function PDFLexicon({frequency, data}) {
         dataToWrite = dataToWrite.slice(wordsInColumn.length);
 
         for (let word of wordsInColumn) {
-          writeWord(word, currentY, 1)
+          writeWord(word, currentY, 1, currentVerseNb !== word.verse);
+          currentVerseNb = word.verse;
           currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
         }
 
         doc.addPage()
         currentY = page.margin.top;
         topColumnY = page.margin.top;
-        // currentColumnNb = 0;
+        currentVerseNb = 0;
 
       } else { // if we can't, find the middle
         let wordsInColumn = []
@@ -234,7 +239,8 @@ export default function PDFLexicon({frequency, data}) {
 
         // first column
         for (let word of wordsInColumn) {
-          writeWord(word, currentY, 0)
+          writeWord(word, currentY, 0, currentVerseNb !== word.verse);
+          currentVerseNb = word.verse;
           currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
         }
 
@@ -245,7 +251,8 @@ export default function PDFLexicon({frequency, data}) {
         dataToWrite = dataToWrite.slice(wordsInColumn.length);
 
         for (let word of dataToWrite) {
-          writeWord(word, currentY, 1)
+          writeWord(word, currentY, 1, currentVerseNb !== word.verse);
+          currentVerseNb = word.verse;
           currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
         }
 
