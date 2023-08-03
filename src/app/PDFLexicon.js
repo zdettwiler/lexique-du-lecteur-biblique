@@ -1,7 +1,7 @@
 import React from 'react';
 import { jsPDF } from "jspdf";
 import timesNewRoman from "./timesNewRoman_binary.js";
-
+import { Button } from 'react-bootstrap';
 
 
 export default function PDFLexicon({frequency, data}) {
@@ -271,5 +271,6 @@ export default function PDFLexicon({frequency, data}) {
 
   let blob = doc.output('blob');
 
-  return (<iframe title="preview" width="100%" height="500" src={URL.createObjectURL(blob)} ></iframe>);
+  // return (<iframe title="preview" width="100%" height="500" src={URL.createObjectURL(blob)} ></iframe>);
+  return (<Button variant="outline-primary" size="sm" href={URL.createObjectURL(blob)}><i className="bi bi-file-earmark-arrow-down"></i> Télécharger le lexique</Button>);
 }

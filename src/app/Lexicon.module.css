@@ -18,6 +18,10 @@ h2.lexiconSubTitle {
   letter-spacing: 3px;
   text-align: center;
 }
+h3.chapterHeading {
+  font-style: italic;
+}
+
 p.lexiconFreq {
   font-size: 16px;
   font-style: italic;

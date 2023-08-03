@@ -9,8 +9,9 @@ Le lexique **hébreu-français** est un recoupement:
 
 Le lexique **grec-français** un recoupement:
 - du texte biblique de la [THGNT](https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT)
-- et du lexique strong en française collecté chez [emcitv](https://emcitv.com/bible/strong-biblique-hebreu.html).
+- et du lexique strong en française collecté chez [emcitv](https://emcitv.com/bible/strong-biblique-grec.html).
+
+Les lexiques sont ensuite modifié au fur et à mesure de son utilisation et des corrections des utilisateurs.
 
 ## 🚀 À venir
-- [ ] Possibilité d'exporter un lexique au format PDF
 - [ ] Formulaire pour proposer des rectifications du lexique

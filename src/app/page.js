@@ -23,7 +23,7 @@ import PDFLexicon from './PDFLexicon'
 export default function Home() {
   // const [instance, updateInstance] = usePDF({ document: PDFLexicon });
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState('Jonas');
+  const [book, setBook] = React.useState('Genèse');
   const [frequency, setFrequency] = React.useState(50);
   const [lexicon, setLexicon] = React.useState([]);
 
@@ -84,6 +84,7 @@ export default function Home() {
           <Alert variant={'info'}>
             <Alert.Heading>🚀 Lexique créé!</Alert.Heading>
             <p><b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans l'Ancien Testament.</p>
+            <PDFLexicon frequency={frequency} data={lexicon} />
           </Alert>
         )}
       </Container>
@@ -93,8 +94,8 @@ export default function Home() {
       )}
 
       { !!lexicon.length && (
-        <PDFLexicon frequency={frequency} data={lexicon} />
-        // <Lexicon frequency={frequency} data={lexicon} />
+        // <PDFLexicon frequency={frequency} data={lexicon} />
+        <Lexicon frequency={frequency} data={lexicon} />
       )}
     </Container>
   );
