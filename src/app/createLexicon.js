@@ -93,12 +93,12 @@ async function createLexicon(book='Genèse', frequency=50) {
       words.push({
         // id: word[0],
         book: word[2],
-        chapter: word[3],
-        verse: word[4],
+        chapter: parseInt(word[3]),
+        verse: parseInt(word[4]),
         // orig: word[5],
         lex: word[6],
         strong: word[7],
-        freq: word[8],
+        freq: parseInt(word[8]),
         gloss: searchStrongLexicon(word[7])
       })
     }

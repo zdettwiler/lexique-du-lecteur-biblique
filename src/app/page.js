@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link'
 import React from 'react';
 import { createLexicon, bookOptions } from './createLexicon'
 import {
@@ -16,18 +15,17 @@ import {
   Tab,
   Tabs
  } from 'react-bootstrap';
-import { usePDF, PDFViewer } from '@react-pdf/renderer';
+import { usePDF, PDFViewer, PDFDownloadLink } from '@react-pdf/renderer';
 
 import Lexicon from './Lexicon'
 import PDFLexicon from './PDFLexicon'
 
 export default function Home() {
-  const [instance, updateInstance] = usePDF({ document: PDFLexicon });
+  // const [instance, updateInstance] = usePDF({ document: PDFLexicon });
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Jonas');
   const [frequency, setFrequency] = React.useState(50);
   const [lexicon, setLexicon] = React.useState([]);
-  const [viewPdf, setViewPdf] = React.useState(false);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
@@ -50,7 +48,7 @@ export default function Home() {
   }
 
 
-  return !viewPdf ? (
+  return (
     <Container className="p-5">
       <Container className="p-5 pb-2 mb-4 bg-light rounded-3">
         <h1 className="header">📖 Lexique du lecteur biblique</h1>
@@ -95,55 +93,9 @@ export default function Home() {
       )}
 
       { !!lexicon.length && (
-        <Tabs
-          defaultActiveKey="text"
-          id="lexicon-type-tabs"
-          className="mb-3"
-        >
-          <Tab eventKey="text" title="En ligne">
-            <Lexicon data={lexicon} />
-          </Tab>
-
-          <Tab eventKey="pdf"
-            title={<>
-              <Spinner
-                as="span"
-                animation="border"
-                size="sm"
-                role="status"
-                aria-hidden="true"
-                className={!instance.loading && "visually-hidden"}
-              />
-              <span> PDF</span>
-            </>}
-            disabled={instance.loading}
-          >
-            <PDFViewer style={{ width: '100%', height: '100%', minHeight: '500px' }} >
-              <PDFLexicon
-                frequency={frequency}
-                data={lexicon}
-              />
-            </PDFViewer>
-          </Tab>
-        </Tabs>
+        <PDFLexicon frequency={frequency} data={lexicon} />
+        // <Lexicon frequency={frequency} data={lexicon} />
       )}
     </Container>
-  ) : (
-    <>
-    <Navbar className="bg-body-tertiary">
-        <Container>
-          {/* <Navbar.Brand href="#home">Brand link</Navbar.Brand> */}
-          <h1 className="header">📖 Lexique du lecteur biblique</h1>
-        </Container>
-      </Navbar>
-
-    { !!lexicon.length && (
-      <PDFViewer style={{ position: 'absolute', width: '100%', height: '100%' }} >
-        <PDFLexicon
-          data={lexicon}
-        />
-      </PDFViewer>
-    )}
-    </>
   );
 }
