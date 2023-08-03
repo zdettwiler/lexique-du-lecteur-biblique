@@ -15,13 +15,11 @@ import {
   Tab,
   Tabs
  } from 'react-bootstrap';
-import { usePDF, PDFViewer, PDFDownloadLink } from '@react-pdf/renderer';
 
 import Lexicon from './Lexicon'
 import PDFLexicon from './PDFLexicon'
 
 export default function Home() {
-  // const [instance, updateInstance] = usePDF({ document: PDFLexicon });
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Genèse');
   const [frequency, setFrequency] = React.useState(50);
