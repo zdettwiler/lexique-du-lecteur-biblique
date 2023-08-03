@@ -53,7 +53,7 @@ export default function Home() {
 
         <Form className="mt-3 mb-4">
           <Row className="mb-3 align-items-end">
-            <Col xs="auto">
+            <Col xs="auto" className="mb-3">
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                   <option>Choisir le livre</option>
@@ -63,12 +63,12 @@ export default function Home() {
                 </Form.Select>
             </Col>
 
-            <Col xs="auto">
+            <Col xs="auto" className="mb-3">
               <Form.Label>Mots apparaissant moins de</Form.Label>
               <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/>
             </Col>
 
-            <Col xs="auto" className="d-flex align-items-baseline">
+            <Col xs="auto" className="d-flex align-items-baseline mb-3">
               <Button variant="primary" type="submit" onClick={getBook}>
                 Génerer le lexique
               </Button>
