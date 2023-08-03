@@ -25,7 +25,7 @@ function PDFLexicon({frequency, data}) {
 
   let string = data[0].book.toUpperCase();
   let xOffset = 210/2 - ((string.length-1) * 3 / 2) // accounting for letter spacing
-  doc.text(string, 210/2 - ((string.length-1) * 3 / 2), page.margin.top, {
+  doc.text(string, xOffset, page.margin.top, {
     align: 'center',
     charSpace: 3
   });
@@ -43,9 +43,10 @@ function PDFLexicon({frequency, data}) {
   let testament = data[0].strong[0] === 'G'
     ? "le Nouveau Testament"
     : "l'Ancien Testament";
-  string = "Mots apparaissant moins de " + frequency + " fois dans " + testament + ".";
+  string = "(Mots apparaissant moins de " + frequency + " fois dans " + testament + ".)";
   xOffset = 210/2
   doc.setFontSize(9)
+    // .setFont('Times', 'itaic')
     .text(string, xOffset, 35, {
       align: 'center'
     });
@@ -110,7 +111,9 @@ function PDFLexicon({frequency, data}) {
   let writeChapter = (nb, y) => {
     let string = "CHAPITRE " + nb.toString();
     let xOffset = 210/2 - string.length / 2 // accounting for letter spacing
-    doc.setFontSize(10)
+    doc
+      .setFont('Times', 'italic')
+      .setFontSize(10)
       .text(string, xOffset, y, {
         align: 'center',
         charSpace: 1
