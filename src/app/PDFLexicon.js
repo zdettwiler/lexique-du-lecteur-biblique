@@ -18,13 +18,6 @@ function PDFLexicon({frequency, data}) {
     }
   }
 
-  doc.line(
-    page.margin.left, page.height-page.margin.bottom,
-    page.width-page.margin.right, page.height-page.margin.bottom,
-    'S'
-  );
-
-
   // book title
   doc
     .setFont('Times')
@@ -59,12 +52,7 @@ function PDFLexicon({frequency, data}) {
 
   let currentY = 50;
 
-  // print chapter
-  // writeChapter(1, currentY);
-  // currentY += 10;
-
-  // two-column layout
-  // doc.internal.getLineHeight()
+  // constants for column display
   const columnGutter = 10;
   const columnWidth = (page.width - 2*page.margin.left - columnGutter) / 2;
 
@@ -75,17 +63,8 @@ function PDFLexicon({frequency, data}) {
   let topColumnY = currentY;
   const padding = 0;
 
-  // need to determine number of lines per chapter in order to make columns
+  // group data by chapter
   doc.setFontSize(11);
-  let linesLeft = data.reduce((acc, cur) => {
-    if (acc[cur.chapter]) {
-      acc[cur.chapter] += doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
-    } else {
-      acc[cur.chapter] = doc.splitTextToSize(cur.gloss, columnWidth - xTabGloss + page.margin.left).length
-    }
-
-    return acc;
-  }, {})
 
   let dataByChap = data.reduce((acc, word) => {
     if (acc[word.chapter]) {
@@ -104,13 +83,6 @@ function PDFLexicon({frequency, data}) {
     return acc;
   }, {})
 
-  // if     total number of lines for chapter > 2 * columnAvailableLines
-  // then   - we will be able to fill both columns and make new page
-  //        and potentially start again with new total number of lines for chapter
-  //        - try slotting things in and see.
-  // else   we will split chapter in half, two columns
-
-  // so I need to know, total nb lines for chapter,
 
   let lineHeightToMm = (nbLines) => {
     doc.setFontSize(11);
@@ -182,17 +154,23 @@ function PDFLexicon({frequency, data}) {
     let dataToWrite = dataByChap[currentChapterNb];
 
     // write new chapter
+    // if there is not enough room to write words below new chapter division, go to next page.
+    if (currentY + 30 > page.height - page.margin.bottom) {
+      doc.addPage()
+      currentY = page.margin.top;
+      topColumnY = page.margin.top;
+    }
     writeChapter(currentChapterNb, currentY);
-    // currentColumnNb = 0;
     currentY += 10;
     topColumnY = currentY;
 
     // go through data
     while (dataToWrite.length > 0) {
       let columnAvailableLines = totalColumnAvailableLines(currentY);
+      let dataToWriteLines = getDataTotalLines(dataToWrite)
 
       // if we can fill both columns to the bottom of the page
-      if (getDataTotalLines(dataToWrite) >= 2 * columnAvailableLines) {
+      if (dataToWriteLines >= 2 * columnAvailableLines) {
         // first column
         let wordsInColumn = produceColumn(columnAvailableLines, dataToWrite);
         dataToWrite = dataToWrite.slice(wordsInColumn.length);
@@ -217,11 +195,10 @@ function PDFLexicon({frequency, data}) {
         topColumnY = page.margin.top;
         // currentColumnNb = 0;
 
-      // if we can't, find the middle
-      } else {
+      } else { // if we can't, find the middle
         let wordsInColumn = []
         let occupiedLines = 0
-        columnAvailableLines = getDataTotalLines(dataToWrite)/2
+        columnAvailableLines = dataToWriteLines/2
 
         for (let word of dataToWrite) {
           if (occupiedLines + word.gloss.length <= columnAvailableLines) {

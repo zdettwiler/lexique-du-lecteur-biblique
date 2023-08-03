@@ -89,7 +89,7 @@ async function createLexicon(book='Genèse', frequency=50) {
   let lexicon = rawData.reduce((words, currentWord) => {
     let word = currentWord.split(',');
 
-    if (word[8] <= frequency) {
+    if (parseInt(word[8]) <= frequency) {
       words.push({
         // id: word[0],
         book: word[2],

@@ -26,7 +26,6 @@ export default function Home() {
   const [book, setBook] = React.useState('Jonas');
   const [frequency, setFrequency] = React.useState(50);
   const [lexicon, setLexicon] = React.useState([]);
-  const [viewPdf, setViewPdf] = React.useState(false);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
