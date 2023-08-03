@@ -1,23 +1,52 @@
 div.lexicon {
   font-family: 'Times New Roman', serif;
   font-size: 20px;
+  width: 80%;
+  margin: auto;
+  display: table;
+}
+h1.lexiconTitle {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-align: center;
+  margin-bottom: -5px;
+}
+h2.lexiconSubTitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+h3.chapterHeading {
+  font-style: italic;
 }
 
+p.lexiconFreq {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+div.wordEntry {
+  white-space: nowrap;
+  display: table-row;
+}
 div.wordEntry div {
-  display: inline-block;
+  display: table-cell;
+  white-space: normal;
   padding: 0 2px;
 }
-
 div.verseNb {
   width: 20px;
 }
 div.lexOT {
-  min-width: 100px;
+  min-width: 120px;
   font-size: 25px;
   direction: rtl;
 }
 div.lexNT {
-  min-width: 100px;
+  min-width: 120px;
   font-weight: bold;
   /* font-size: 25px; */
 }
@@ -26,7 +55,7 @@ div.freq {
 }
 
 .chapterHeading {
-  /* font-size: 12px; */
+  font-size: 18px;
   letter-spacing: 5px;
   text-transform: uppercase;
   margin: 20px 0 10px;
