@@ -26,6 +26,7 @@ p.lexiconFreq {
   font-size: 16px;
   font-style: italic;
   text-align: center;
+  margin: 20px 0;
 }
 
 div.wordEntry {
@@ -39,19 +40,23 @@ div.wordEntry div {
 }
 div.verseNb {
   width: 20px;
+  text-align: right;
 }
 div.lexOT {
-  min-width: 120px;
+  min-width: 130px;
+  margin-left: 10px;
   font-size: 25px;
   direction: rtl;
 }
 div.lexNT {
-  min-width: 120px;
+  min-width: 130px;
   font-weight: bold;
+  margin-left: 10px;
   /* font-size: 25px; */
 }
 div.freq {
   width: 50px;
+  font-size: 16px;
 }
 
 .chapterHeading {

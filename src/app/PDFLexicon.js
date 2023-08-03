@@ -148,11 +148,12 @@ export default function PDFLexicon({frequency, data}) {
     }
 
     // lex
-    let fontSize = word.strong[0] === 'H' ? 13 : 11;
+    let isHebrew = word.strong[0] === 'H';
+
     doc
       .setFont('Times New Roman', 'normal')
-      .setFontSize(fontSize)
-      .setR2L(true)
+      .setFontSize(isHebrew ? 13 : 11)
+      .setR2L(isHebrew)
       .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40 })
       .setR2L(false);
 
@@ -272,5 +273,9 @@ export default function PDFLexicon({frequency, data}) {
   let blob = doc.output('blob');
 
   // return (<iframe title="preview" width="100%" height="500" src={URL.createObjectURL(blob)} ></iframe>);
-  return (<Button variant="outline-primary" size="sm" href={URL.createObjectURL(blob)}><i className="bi bi-file-earmark-arrow-down"></i> Télécharger le lexique</Button>);
+  return (
+    <a href={URL.createObjectURL(blob)} download={data[0].book + " (" + frequency + "+) - Lexique du lecteur biblique.pdf"} target='_blank'>
+      <Button variant="outline-primary" size="sm" ><i className="bi bi-file-earmark-arrow-down"></i> Télécharger le lexique</Button>
+    </a>
+  );
 }
