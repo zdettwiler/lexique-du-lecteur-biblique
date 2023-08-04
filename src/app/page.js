@@ -81,8 +81,8 @@ export default function Home() {
         </Form>
 
         { !!lexicon.length && (
-          <Alert variant={'info'}>
-            <Alert.Heading>🚀 Lexique créé!</Alert.Heading>
+          <Alert variant="light">
+            <Alert.Heading>📌 Lexique créé!</Alert.Heading>
             <p><b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans { lexicon[0].strong[0] === 'G' ? "le Nouveau Testament" : "l'Ancien Testament" }.</p>
             <PDFLexicon frequency={frequency} data={lexicon} />
           </Alert>
