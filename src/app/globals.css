@@ -9,3 +9,31 @@ footer {
 footer a {
   color: gray;
 }
+
+p.chirho {
+  font-family: "Times New Roman";
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1.header {
+  font-family: "Times New Roman";
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+p.description {
+  font-family: "Times New Roman";
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  /* margin-bottom: -5px; */
+}
+
+.mt-10 {
+  margin-top: 100px;
+}

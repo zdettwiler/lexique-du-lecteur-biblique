@@ -48,11 +48,13 @@ export default function Home() {
 
   return (
     <Container className="p-5">
-      <Container className="p-5 pb-2 mb-4 bg-light rounded-3">
-        <h1 className="header">📖 Lexique du lecteur biblique</h1>
+      <Container className="p-5 pb-2 mb-4 bg-white rounded-3">
+        <p className="chirho">☧</p>
+        <h1 className="header">Lexique du lecteur biblique</h1>
+        <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
-        <Form className="mt-3 mb-4">
-          <Row className="mb-3 align-items-end">
+        <Form className="mt-10 mb-4">
+          <Row className="mb-3 align-items-end d-flex justify-content-center">
             <Col xs="auto" className="mb-3">
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
@@ -69,7 +71,7 @@ export default function Home() {
             </Col>
 
             <Col xs="auto" className="d-flex align-items-baseline mb-3">
-              <Button variant="primary" type="submit" onClick={getBook}>
+              <Button variant="dark" type="submit" onClick={getBook}>
                 Génerer le lexique
               </Button>
             </Col>

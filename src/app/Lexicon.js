@@ -18,7 +18,7 @@ function Lexicon({frequency, data}) {
 
         <p className={styles.lexiconFreq}>
           Mots apparaissant moins de {frequency} fois dans {testament}. <br />
-          Entre parenthèses figure le nombre d'apparition du mot dans {testament}.
+          Entre parenthèses figure le nombre d'apparitions du mot dans {testament}.
         </p>
 
         {data.map((word, id, data) => {

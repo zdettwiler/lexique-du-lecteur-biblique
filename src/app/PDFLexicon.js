@@ -48,7 +48,7 @@ export default function PDFLexicon({frequency, data}) {
     : "l'Ancien Testament";
   string = [
     "Mots apparaissant moins de " + frequency + " fois dans " + testament + ".",
-    "Entre parenthèses figure le nombre d'apparition du mot dans " + testament + ".",
+    "Entre parenthèses figure le nombre d'apparitions du mot dans " + testament + ".",
     // "Le mot "
   ];
   let textWidth = doc
