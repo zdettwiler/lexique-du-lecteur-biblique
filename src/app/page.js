@@ -8,12 +8,9 @@ import {
   Form,
   Row,
   Col,
-  DropdownButton,
+  InputGroup,
   Dropdown,
-  Spinner,
-  Navbar,
-  Tab,
-  Tabs
+  Spinner
  } from 'react-bootstrap';
 
 import Lexicon from './Lexicon'
@@ -49,7 +46,7 @@ export default function Home() {
   return (
     <Container className="p-5">
       <Container className="p-5 pb-2 mb-4 bg-white rounded-3">
-        <p className="chirho">☧</p>
+        <p className="chirho">📓</p>{/* ☧ */}
         <h1 className="header">Lexique du lecteur biblique</h1>
         <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
@@ -66,7 +63,7 @@ export default function Home() {
             </Col>
 
             <Col xs="auto" className="mb-3">
-              <Form.Label>Mots apparaissant moins de</Form.Label>
+              <Form.Label>Nombre min. d'apparition des mots</Form.Label>
               <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/>
             </Col>
 
