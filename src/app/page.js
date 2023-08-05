@@ -21,7 +21,7 @@ import PDFLexicon from './PDFLexicon'
 
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState('Genèse');
+  const [book, setBook] = React.useState('Jonas');
   const [frequency, setFrequency] = React.useState(50);
   const [lexicon, setLexicon] = React.useState([]);
 

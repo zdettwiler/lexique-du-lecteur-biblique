@@ -1,8 +1,19 @@
 import React from 'react';
+import { Modal, Button } from 'react-bootstrap';
+
 import styles from './Lexicon.module.css'
 
 
 function Lexicon({frequency, data}) {
+  const [showLexiconCorrectionModal, setShowLexiconCorrectionModal] = React.useState(false);
+  const [correctingWord, setCorrectingWord] = React.useState({});
+
+  const handleShowLexiconCorrectionModal = (word) => {
+    setCorrectingWord(word);
+    setShowLexiconCorrectionModal(true);
+  }
+  const handleCloseLexiconCorrectionModal = () => setShowLexiconCorrectionModal(false);
+
   const styleLang = data[0].strong[0] === "G"
     ? styles.lexNT
     : styles.lexOT;
@@ -12,7 +23,29 @@ function Lexicon({frequency, data}) {
     : "l'Ancien Testament";
 
   return (
-    <div className={styles.lexicon}>
+    <>
+      <Modal
+        show={showLexiconCorrectionModal}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Proposer une modification du mot {correctingWord.lex}
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>
+            {correctingWord.gloss}
+          </p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={handleCloseLexiconCorrectionModal}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+
+      <div className={styles.lexicon}>
         <h1 className={styles.lexiconTitle}>{ data[0].book }</h1>
         <h2 className={styles.lexiconSubTitle}>Lexique du lecteur biblique</h2>
 
@@ -37,14 +70,15 @@ function Lexicon({frequency, data}) {
               {chapHeading}
                 <div className={styles.wordEntry}>
                   <div className={styles.verseNb}>{verseIndicator}</div>
-                  <div className={styleLang}>{word.lex}</div>
+                  <div className={styleLang} onClick={() => handleShowLexiconCorrectionModal(word)}>{word.lex}</div>
                   <div className={styles.freq}>({word.freq})</div>
                   <div className={styles.gloss}>{word.gloss}</div>
                 </div>
             </div>
           )
         })}
-    </div>
+      </div>
+    </>
   );
 }
 

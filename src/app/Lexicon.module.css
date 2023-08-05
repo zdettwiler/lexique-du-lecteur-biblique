@@ -54,6 +54,10 @@ div.lexNT {
   margin-left: 10px;
   /* font-size: 25px; */
 }
+div.lexOT:hover, div.lexNT:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 div.freq {
   width: 50px;
   font-size: 16px;
