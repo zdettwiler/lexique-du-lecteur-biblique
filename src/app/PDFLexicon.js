@@ -274,8 +274,8 @@ export default function PDFLexicon({frequency, data}) {
 
   // return (<iframe title="preview" width="100%" height="500" src={URL.createObjectURL(blob)} ></iframe>);
   return (
-    <a href={URL.createObjectURL(blob)} download={data[0].book + " (" + frequency + "+) - Lexique du lecteur biblique.pdf"} target='_blank'>
-      <Button variant="outline-dark" size="sm" className="" ><i className="bi bi-file-earmark-arrow-down"></i> Télécharger en PDF</Button>
+    <a href={URL.createObjectURL(blob)} download={data[0].book + " (" + frequency + "+) - Lexique du lecteur biblique.pdf"} className='text-decoration-none d-flex justify-content-end'>
+      <Button variant="outline-dark" size="sm"  ><i className="bi bi-file-earmark-arrow-down"></i> Télécharger en PDF</Button>
     </a>
   );
 }
