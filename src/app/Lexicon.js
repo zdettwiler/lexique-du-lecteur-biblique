@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal, Button, Form } from 'react-bootstrap';
 
 import styles from './Lexicon.module.css'
 
@@ -11,8 +11,19 @@ function Lexicon({frequency, data}) {
   const handleShowLexiconCorrectionModal = (word) => {
     setCorrectingWord(word);
     setShowLexiconCorrectionModal(true);
-  }
+  };
   const handleCloseLexiconCorrectionModal = () => setShowLexiconCorrectionModal(false);
+
+  const handleCorrectingWordChange = (e) => {
+    setCorrectingWord({
+      ...correctingWord,
+      gloss: e.target.value
+    });
+  };
+
+  const sendLexiconCorrection = () => {
+    console.log("sending new definition for review:", correctingWord.gloss)
+  };
 
   const styleLang = data[0].strong[0] === "G"
     ? styles.lexNT
@@ -36,12 +47,18 @@ function Lexicon({frequency, data}) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>
-            {correctingWord.gloss}
-          </p>
+          <Form>
+            <Form.Group className="mb-3">
+              <Form.Label>Modifier la définition</Form.Label>
+              <Form.Control as="textarea" id="glossInput" rows={3}
+                value={correctingWord.gloss}
+                onChange={handleCorrectingWordChange}/>
+            </Form.Group>
+          </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleCloseLexiconCorrectionModal}>Close</Button>
+          <Button variant="dark" onClick={() => sendLexiconCorrection(document. querySelector('#glossInput').value)}>Envoyer</Button>
+          <Button variant="outline-dark" onClick={handleCloseLexiconCorrectionModal}>Annuler</Button>
         </Modal.Footer>
       </Modal>
 
