@@ -1,5 +1,6 @@
 import React from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
+import gsheetdb from 'gsheetdb';
 
 import styles from './Lexicon.module.css'
 
@@ -21,8 +22,20 @@ function Lexicon({frequency, data}) {
     });
   };
 
-  const sendLexiconCorrection = () => {
-    console.log("sending new definition for review:", correctingWord.gloss)
+  async function sendLexiconCorrection() {
+    console.log("sending new definition for review:", correctingWord.gloss);
+
+    let db = new gsheetdb({
+      spreadsheetId: process.env.SPREADSHEETID,
+      sheetName: process.env.SHEETNAME,
+      credentialsJSON: JSON.parse(process.env.CREDS)
+    })
+
+    await db.insertRows([
+      ['tomorrow', 456, 'def']
+    ]);
+
+
   };
 
   const styleLang = data[0].strong[0] === "G"
