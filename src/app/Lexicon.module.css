@@ -48,6 +48,9 @@ div.lexOT {
   font-size: 25px;
   direction: rtl;
 }
+span.lex {
+  font-family: "Times New Roman";
+}
 div.lexNT {
   min-width: 130px;
   font-weight: bold;

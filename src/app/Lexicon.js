@@ -1,8 +1,7 @@
 import React from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
-import gsheetdb from 'gsheetdb';
 
-import styles from './Lexicon.module.css'
+import styles from './Lexicon.module.css';
 
 
 function Lexicon({frequency, data}) {
@@ -25,17 +24,21 @@ function Lexicon({frequency, data}) {
   async function sendLexiconCorrection() {
     console.log("sending new definition for review:", correctingWord.gloss);
 
-    let db = new gsheetdb({
-      spreadsheetId: process.env.SPREADSHEETID,
-      sheetName: process.env.SHEETNAME,
-      credentialsJSON: JSON.parse(process.env.CREDS)
-    })
+    const response = await fetch("/lexique-du-lecteur-biblique/api", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: 'Test',
+        email: 'test@test.com',
+        book: correctingWord.book,
+        chapter: correctingWord.chapter,
+        verse: correctingWord.verse,
+        strong: correctingWord.strong,
+        corrected_gloss: correctingWord.gloss
+      }),
+    });
 
-    await db.insertRows([
-      ['tomorrow', 456, 'def']
-    ]);
-
-
+    console.log(response.json())
   };
 
   const styleLang = data[0].strong[0] === "G"
@@ -56,11 +59,15 @@ function Lexicon({frequency, data}) {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Proposer une modification du mot {correctingWord.lex}
+            Proposer une modification du mot <span className="lex">{correctingWord.lex}</span>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
+            <Form.Group className="mb-3">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type="email" id="email" placeholder="name@example.com" />
+            </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Modifier la définition</Form.Label>
               <Form.Control as="textarea" id="glossInput" rows={3}
