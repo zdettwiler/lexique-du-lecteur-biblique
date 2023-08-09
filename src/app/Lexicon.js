@@ -57,7 +57,7 @@ function Lexicon({frequency, data}) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header closeButton onHide={handleCloseLexiconCorrectionModal}>
           <Modal.Title id="contained-modal-title-vcenter">
             Proposer une modification du mot <span className="lex">{correctingWord.lex}</span>
           </Modal.Title>
