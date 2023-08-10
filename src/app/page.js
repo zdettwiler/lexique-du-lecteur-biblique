@@ -44,15 +44,15 @@ export default function Home() {
 
 
   return (
-    <Container className="p-5">
-      <Container className="p-5 pb-2 mb-4 bg-white rounded-3">
+    <Container fluid>
+      <Container className="p-5 pb-2 mb-4 bg-white rounded-3" fluid>
         <p className="chirho">📓</p>{/* ☧ */}
         <h1 className="header">Lexique du lecteur biblique</h1>
         <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
         <Form className="mt-10 mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
-            <Col xs="auto" className="mb-3">
+            <Col xs={12} md={3} className="mb-3" >
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                   <option>Choisir le livre</option>
@@ -62,7 +62,7 @@ export default function Home() {
                 </Form.Select>
             </Col>
 
-            <Col xs="auto" className="mb-3">
+            <Col xs={12} md={3} className="mb-3" >
               <Form.Label>Nombre min. d'apparition des mots</Form.Label>
               <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/>
             </Col>

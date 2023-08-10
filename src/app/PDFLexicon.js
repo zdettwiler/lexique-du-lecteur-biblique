@@ -154,7 +154,7 @@ export default function PDFLexicon({frequency, data}) {
       .setFont('Times New Roman', 'normal')
       .setFontSize(isHebrew ? 13 : 11)
       .setR2L(isHebrew)
-      .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40 })
+      .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40, align: 'right' })
       .setR2L(false);
 
     // lex freq
