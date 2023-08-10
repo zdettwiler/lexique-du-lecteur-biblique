@@ -90,7 +90,7 @@ export default function PDFLexicon({frequency, data}) {
   const xTabFreq = page.margin.left + 27;
   const xTabGloss = page.margin.left + 35;
   let topColumnY = currentY;
-  const padding = 0;
+  let padding = 0;
 
   // group data by chapter
   doc.setFontSize(11);
@@ -184,6 +184,24 @@ export default function PDFLexicon({frequency, data}) {
 
   let getDataTotalLines = (data) => data.reduce((sum, word) => sum + word.gloss.length, 0)
 
+  let splitDataColumns = (words, availableLines) => {
+    if (words.length === 1) return [ words, [] ];
+
+    let occupiedLines = 0;
+    let columnData = [ [], [] ];
+
+    for (let i = 0; i < words.length; i++) {
+      if (occupiedLines < getDataTotalLines(words.slice(i))) {
+        columnData[0].push(words[i]);
+        occupiedLines += words[i].gloss.length;
+      } else {
+        columnData[1] = words.slice(i);
+        break;
+      }
+    }
+
+    return columnData;
+  }
 
   // go through all chapters
   for (let currentChapterNb of Object.keys(dataByChap)) {
@@ -235,48 +253,43 @@ export default function PDFLexicon({frequency, data}) {
         currentVerseNb = 0;
 
       } else { // if we can't, find the middle
-        let wordsInColumn = []
-        let occupiedLines = 0
-        columnAvailableLines = dataToWriteLines/2
+        columnAvailableLines = dataToWriteLines/2;
+        const columnData = splitDataColumns(dataToWrite, columnAvailableLines);
 
-        // create column
-        for (let word of dataToWrite) {
-          if (occupiedLines + word.gloss.length <= columnAvailableLines) {
-            wordsInColumn.push(word);
-            occupiedLines += word.gloss.length
-          } else { break; }
+        // do we want padding to make columns equal height?
+        // const linesLeft = getDataTotalLines(columnData[0]);
+        // const linesRight = getDataTotalLines(columnData[1]);
 
-          if (dataToWrite.length > 1) {
-            wordsInColumn.push(word);
-            occupiedLines += word.gloss.length
-          }
-        }
+        // if (linesLeft > linesRight && columnData[1].length > 1) {
+        //   padding = [0, lineHeightToMm(Math.abs(linesLeft - linesRight) / (columnData[1].length - 1))];
+        // } else if (linesLeft < linesRight && columnData[0].length > 1) {
+        //   padding = [lineHeightToMm(Math.abs(linesLeft - linesRight) / (columnData[0].length - 1)), 0];
+        // } else { padding = [ 0, 0 ] }
+        // console.log(padding)
+        padding = [ 0, 0 ]
 
         // first column
-        for (let word of wordsInColumn) {
+        for (let word of columnData[0]) {
           writeWord(word, currentY, 0, currentVerseNb !== word.verse);
           currentVerseNb = word.verse;
-          currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
+          currentY += lineHeightToMm(word.gloss.length) + padding[0]; // pt to mm
         }
 
         let bottomOfColumn = currentY
 
         // second column
         currentY = topColumnY;
-        dataToWrite = dataToWrite.slice(wordsInColumn.length);
 
-        for (let word of dataToWrite) {
+        for (let word of columnData[1]) {
           writeWord(word, currentY, 1, currentVerseNb !== word.verse);
           currentVerseNb = word.verse;
-          currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
+          currentY += lineHeightToMm(word.gloss.length) + padding[1]; // pt to mm
         }
 
-        // dataToWrite = dataToWrite.slice(wordsInColumn.length);
         dataToWrite = [];
         currentY = Math.max(currentY, bottomOfColumn);
+        padding = 0;
       }
-
-
     }
 
     currentY += 10;
