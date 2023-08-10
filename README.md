@@ -1,4 +1,4 @@
-# 📖 Lexique du lecteur biblique
+# 📓 Lexique du lecteur biblique
 
 [Disponible ici](https://zdettwiler.github.io/lexique-du-lecteur-biblique/)
 
