@@ -49,7 +49,7 @@ export default function PDFLexicon({frequency, data}) {
   string = [
     "Mots apparaissant moins de " + frequency + " fois dans " + testament + ".",
     "Entre parenthèses figure le nombre d'apparitions du mot dans " + testament + ".",
-    // "Le mot "
+    "Généré par zdettwiler.github.io/lexique-du-lecteur-biblique."
   ];
   let textWidth = doc
     .setFont('Times', 'italic')
@@ -65,9 +65,21 @@ export default function PDFLexicon({frequency, data}) {
   xOffset = page.width/2 - textWidth/2;
   doc.text(string[1], xOffset, 35 + doc.getLineHeight() * 0.3527777778);
 
+  textWidth = doc
+    .setFont('Times', 'italic')
+    .setFontSize(9)
+    .getTextWidth(string[2]);
+  xOffset = page.width/2 - textWidth/2;
+  // doc.text(string[2], xOffset, 35 + 2 * doc.getLineHeight() * 0.3527777778);
+  doc.textWithLink("Généré par zdettwiler.github.io/lexique-du-lecteur-biblique.", xOffset, 35 + 2 * doc.getLineHeight() * 0.3527777778, {url: 'https://zdettwiler.github.io/lexique-du-lecteur-biblique/'});
+  doc.line(
+    xOffset+15.3, 35.5 + 2 * doc.getLineHeight() * 0.3527777778,
+    xOffset+75.5, 35.5 + 2 * doc.getLineHeight() * 0.3527777778
+  );
 
 
-  let currentY = 50;
+
+  let currentY = 55;
 
   // constants for column display
   const columnGutter = 10;
@@ -154,7 +166,7 @@ export default function PDFLexicon({frequency, data}) {
       .setFont('Times New Roman', 'normal')
       .setFontSize(isHebrew ? 13 : 11)
       .setR2L(isHebrew)
-      .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40, align: 'right' })
+      .text(word.lex, columnOffset + xTabLex, y, { maxWidth: 40 })
       .setR2L(false);
 
     // lex freq
