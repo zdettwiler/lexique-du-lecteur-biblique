@@ -87,7 +87,7 @@ export default function Home() {
       </Container>
 
       { isGeneratingPDF && (
-        <Spinner className="text-center" animation="border" style={{ position: 'fixed', left: '50%' }} />
+        <Spinner id="loading-spinner" animation="border" />
       )}
 
       { !!lexicon.length && (

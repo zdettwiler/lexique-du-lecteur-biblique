@@ -28,6 +28,11 @@ p.description {
   margin-top: 100px;
 }
 
+#loading-spinner {
+  display: block;
+  margin: 0 auto 70px;
+}
+
 
 footer {
   height: 30px;
@@ -38,3 +43,5 @@ footer {
 footer a {
   color: gray;
 }
+
+
