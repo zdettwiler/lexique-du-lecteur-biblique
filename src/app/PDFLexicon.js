@@ -140,11 +140,11 @@ export default function PDFLexicon({frequency, data}) {
     doc
       .setFont('Times', 'italic')
       .setFontSize(8)
-      .text("Lexique du lecteur biblique", page.margin.left, 10);
+      .text("Lexique du lecteur biblique", page.margin.left, 15);
 
     doc
       .setFont('Times', 'italic')
-      .text(book.toUpperCase() + " " + chapter + "." + verse, page.width - page.margin.right, 10, { align: 'right' });
+      .text(book.toUpperCase() + " " + chapter + "." + verse, page.width - page.margin.right, 15, { align: 'right' });
   }
 
   let writeChapter = (nb, y) => {
@@ -263,7 +263,7 @@ export default function PDFLexicon({frequency, data}) {
         if (dataToWrite.length > 0) writePageHeaderFooter("X", dataToWrite[0].book, dataToWrite[0].chapter, dataToWrite[0].verse)
         currentY = page.margin.top;
         topColumnY = page.margin.top;
-        currentVerseNb = 0;
+        // currentVerseNb = 0;
 
       } else { // if we can't, find the middle
         columnAvailableLines = dataToWriteLines/2;

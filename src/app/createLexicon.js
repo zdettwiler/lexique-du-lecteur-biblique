@@ -89,7 +89,13 @@ async function createLexicon(book='Genèse', frequency=50) {
   let lexicon = rawData.reduce((words, currentWord) => {
     let word = currentWord.split(',');
 
-    if (parseInt(word[8]) <= frequency) {
+    let isSameWordInVerse = words.find(lexiconWord =>
+      lexiconWord.chapter === parseInt(word[3])
+      && lexiconWord.verse === parseInt(word[4])
+      && lexiconWord.strong === word[7]
+    )
+
+    if (!isSameWordInVerse && parseInt(word[8]) <= frequency) {
       words.push({
         // id: word[0],
         book: word[2],
