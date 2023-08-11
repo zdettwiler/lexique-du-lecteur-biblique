@@ -55,16 +55,26 @@ export default function Home() {
             <Col xs={12} md={3} className="mb-3" >
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
-                  <option>Choisir le livre</option>
-                  { bookOptions.map((book, id) => (
-                    <option value={book} key={id}>{book}</option>
-                  ))}
-                </Form.Select>
+                <option>Choisir le livre</option>
+                { bookOptions.map((book, id) => (
+                  <option value={book} key={id}>{book}</option>
+                ))}
+              </Form.Select>
             </Col>
 
             <Col xs={12} md={3} className="mb-3" >
               <Form.Label>Nombre min. d'apparition des mots</Form.Label>
-              <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/>
+              <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
+                { [
+                    { text: "Débutant (<200x)", value: 200 },
+                    { text: "Intermédiaire (<100x)", value: 100 },
+                    { text: "Connaisseur (<50x)", value: 50 },
+                    { text: "Expert (<30x)", value: 30 },
+                  ].map((option, id) => (
+                  <option value={option.value} key={id}>{option.text}</option>
+                ))}
+              </Form.Select>
+              {/* <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/> */}
             </Col>
 
             <Col xs="auto" className="d-flex align-items-baseline mb-3">
