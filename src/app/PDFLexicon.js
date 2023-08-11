@@ -10,7 +10,7 @@ export default function PDFLexicon({frequency, data}) {
     height: doc.internal.pageSize.getHeight(),
     width: doc.internal.pageSize.getWidth(),
     margin: {
-      top: 20,
+      top: 23,
       right: 20,
       left: 20,
       bottom: 20
@@ -37,7 +37,7 @@ export default function PDFLexicon({frequency, data}) {
   xOffset = page.width/2 - ((string.length-1) * .31) // manually accounting for letter spacing!
   doc
     .setFontSize(9)
-    .text(string, xOffset, 25, {
+    .text(string, xOffset, page.margin.top+5, {
       align: 'center',
       charSpace: 1
     });
@@ -56,14 +56,14 @@ export default function PDFLexicon({frequency, data}) {
     .setFontSize(9)
     .getTextWidth(string[0]);
   xOffset = page.width/2 - textWidth/2;
-  doc.text(string[0], xOffset, 35)
+  doc.text(string[0], xOffset, page.margin.top+15)
 
   textWidth = doc
     .setFont('Times', 'italic')
     .setFontSize(9)
     .getTextWidth(string[1]);
   xOffset = page.width/2 - textWidth/2;
-  doc.text(string[1], xOffset, 35 + doc.getLineHeight() * 0.3527777778);
+  doc.text(string[1], xOffset, page.margin.top+15 + doc.getLineHeight() * 0.3527777778);
 
   textWidth = doc
     .setFont('Times', 'italic')
@@ -71,10 +71,10 @@ export default function PDFLexicon({frequency, data}) {
     .getTextWidth(string[2]);
   xOffset = page.width/2 - textWidth/2;
   // doc.text(string[2], xOffset, 35 + 2 * doc.getLineHeight() * 0.3527777778);
-  doc.textWithLink("Généré par zdettwiler.github.io/lexique-du-lecteur-biblique.", xOffset, 35 + 2 * doc.getLineHeight() * 0.3527777778, {url: 'https://zdettwiler.github.io/lexique-du-lecteur-biblique/'});
+  doc.textWithLink("Généré par zdettwiler.github.io/lexique-du-lecteur-biblique.", xOffset, page.margin.top+15 + 2 * doc.getLineHeight() * 0.3527777778, {url: 'https://zdettwiler.github.io/lexique-du-lecteur-biblique/'});
   doc.line(
-    xOffset+15.3, 35.5 + 2 * doc.getLineHeight() * 0.3527777778,
-    xOffset+75.5, 35.5 + 2 * doc.getLineHeight() * 0.3527777778
+    xOffset+15.3, page.margin.top+15.5 + 2 * doc.getLineHeight() * 0.3527777778,
+    xOffset+75.5, page.margin.top+15.5 + 2 * doc.getLineHeight() * 0.3527777778
   );
 
 
@@ -134,6 +134,17 @@ export default function PDFLexicon({frequency, data}) {
     }
 
     return wordsInColumn
+  }
+
+  let writePageHeaderFooter = (pageNb, book, chapter, verse) => {
+    doc
+      .setFont('Times', 'italic')
+      .setFontSize(8)
+      .text("Lexique du lecteur biblique", page.margin.left, 10);
+
+    doc
+      .setFont('Times', 'italic')
+      .text(book.toUpperCase() + " " + chapter + "." + verse, page.width - page.margin.right, 10, { align: 'right' });
   }
 
   let writeChapter = (nb, y) => {
@@ -211,7 +222,8 @@ export default function PDFLexicon({frequency, data}) {
     // write new chapter
     // if there is not enough room to write words below new chapter division, go to next page.
     if (currentY + 30 > page.height - page.margin.bottom) {
-      doc.addPage()
+      doc.addPage();
+      writePageHeaderFooter("X", dataToWrite[0].book, dataToWrite[0].chapter, dataToWrite[0].verse)
       currentY = page.margin.top;
       topColumnY = page.margin.top;
     }
@@ -248,6 +260,7 @@ export default function PDFLexicon({frequency, data}) {
         }
 
         doc.addPage()
+        if (dataToWrite.length > 0) writePageHeaderFooter("X", dataToWrite[0].book, dataToWrite[0].chapter, dataToWrite[0].verse)
         currentY = page.margin.top;
         topColumnY = page.margin.top;
         currentVerseNb = 0;
