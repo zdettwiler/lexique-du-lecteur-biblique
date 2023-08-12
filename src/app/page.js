@@ -19,7 +19,7 @@ import PDFLexicon from './PDFLexicon'
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Genèse');
-  const [frequency, setFrequency] = React.useState(50);
+  const [frequency, setFrequency] = React.useState(70);
   const [lexicon, setLexicon] = React.useState([]);
 
   function handleChangeBook(e) {
@@ -66,8 +66,8 @@ export default function Home() {
               <Form.Label>Nombre min. d'apparition des mots</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
-                    { text: "Débutant (<200x)", value: 200 },
-                    { text: "Intermédiaire (<100x)", value: 100 },
+                    { text: "Débutant (<150x)", value: 150 },
+                    { text: "Intermédiaire (<70x)", value: 70 },
                     { text: "Connaisseur (<50x)", value: 50 },
                     { text: "Expert (<30x)", value: 30 },
                   ].map((option, id) => (
