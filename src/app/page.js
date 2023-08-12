@@ -52,7 +52,7 @@ export default function Home() {
 
         <Form className="mt-10 mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
-            <Col xs={12} md={3} className="mb-3" >
+            <Col xs={12} md={4} className="mb-3" >
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                 <option>Choisir le livre</option>
@@ -62,8 +62,8 @@ export default function Home() {
               </Form.Select>
             </Col>
 
-            <Col xs={12} md={3} className="mb-3" >
-              <Form.Label>Nombre min. d'apparition des mots</Form.Label>
+            <Col xs={12} md={4} className="mb-3" >
+              <Form.Label>Fréquence des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
                     { text: "Débutant (<150x)", value: 150 },
