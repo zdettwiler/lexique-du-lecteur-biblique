@@ -85,7 +85,7 @@ export default function PDFLexicon({frequency, data}) {
   const columnGutter = 10;
   const columnWidth = (page.width - 2*page.margin.left - columnGutter) / 2;
 
-  const xTabVerse = page.margin.left + 0;
+  const xTabVerse = page.margin.left + 2;
   const xTabLex = page.margin.left + 3;
   const xTabFreq = page.margin.left + 27;
   const xTabGloss = page.margin.left + 35;
@@ -233,6 +233,7 @@ export default function PDFLexicon({frequency, data}) {
 
     // go through data
     while (dataToWrite.length > 0) {
+      let isVerseFirstWord = true;
       let columnAvailableLines = totalColumnAvailableLines(currentY);
       let dataToWriteLines = getDataTotalLines(dataToWrite);
 
@@ -254,13 +255,27 @@ export default function PDFLexicon({frequency, data}) {
         dataToWrite = dataToWrite.slice(wordsInColumn.length);
 
         for (let word of wordsInColumn) {
+          isVerseFirstWord = currentVerseNb !== word.verse
           writeWord(word, currentY, 1, currentVerseNb !== word.verse);
           currentVerseNb = word.verse;
           currentY += lineHeightToMm(word.gloss.length) + padding; // pt to mm
         }
 
         doc.addPage()
-        if (dataToWrite.length > 0) writePageHeaderFooter("X", dataToWrite[0].book, dataToWrite[0].chapter, dataToWrite[0].verse)
+        // write header/footer with correct bible ref
+        if (dataToWrite.length > 0) {
+          let refChapter = dataToWrite[0].chapter
+          let refVerse = dataToWrite[0].verse
+
+          if (dataToWrite[0].verse === currentVerseNb) {
+            let nextVerse = dataToWrite.find(word => word.verse !== currentVerseNb)
+            refVerse = nextVerse ? nextVerse.verse : 1
+            refChapter = refVerse === 1 ? refChapter+1 : refChapter
+          }
+
+          // console.log(dataToWrite[0])
+          writePageHeaderFooter("X", dataToWrite[0].book, refChapter, refVerse)
+        }
         currentY = page.margin.top;
         topColumnY = page.margin.top;
         // currentVerseNb = 0;
