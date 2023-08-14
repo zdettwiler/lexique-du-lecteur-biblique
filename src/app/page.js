@@ -12,6 +12,7 @@ import {
   Dropdown,
   Spinner
  } from 'react-bootstrap';
+ import Script from 'next/script'
 
 import Lexicon from './Lexicon'
 import PDFLexicon from './PDFLexicon'
@@ -45,6 +46,17 @@ export default function Home() {
 
   return (
     <Container fluid="sm">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-5Q8NE1RT7F" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-5Q8NE1RT7F');
+        `}
+      </Script>
+
       <Container className="p-5 pb-2 mb-4 bg-white rounded-3" fluid>
         <p className="chirho">📓</p>{/* ☧ */}
         <h1 className="header">Lexique du lecteur biblique</h1>
