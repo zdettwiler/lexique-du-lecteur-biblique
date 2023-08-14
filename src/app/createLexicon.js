@@ -76,7 +76,7 @@ const bookOptions = [
 
 function searchStrongLexicon(strong) {
   const word = strongLexicon[strong[0]].find(entry => entry.strongNb === parseInt(strong.slice(1)));
-  return word ? word.gloss.split(', ').slice(0,3).join(', ') : '?';
+  return word ? word.gloss.split(', ').slice(0,5).join(', ') : '?';
 }
 
 async function createLexicon(book='Genèse', frequency=50) {

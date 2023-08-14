@@ -69,7 +69,8 @@ export default function Home() {
                     { text: "Débutant (<150x)", value: 150 },
                     { text: "Intermédiaire (<70x)", value: 70 },
                     { text: "Connaisseur (<50x)", value: 50 },
-                    { text: "Expert (<30x)", value: 30 },
+                    { text: "Expérimenté (<30x)", value: 30 },
+                    { text: "Expert (<10x)", value: 10 },
                   ].map((option, id) => (
                   <option value={option.value} key={id}>{option.text}</option>
                 ))}
