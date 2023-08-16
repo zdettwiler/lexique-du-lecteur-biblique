@@ -12,10 +12,11 @@ import {
   Dropdown,
   Spinner
  } from 'react-bootstrap';
- import Script from 'next/script'
+import Script from 'next/script';
 
-import Lexicon from './Lexicon'
-import PDFLexicon from './PDFLexicon'
+import Lexicon from './Lexicon';
+import PDFLexicon from './PDFLexicon';
+import * as ga from './ga.js';
 
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
@@ -35,6 +36,14 @@ export default function Home() {
 
   async function getBook(e) {
     e.preventDefault();
+    ga.event({
+      action: "make_lexicon",
+      params : {
+        book,
+        frequency
+      }
+    });
+
     setLexicon([]);
     setIsGeneratingPDF(true);
     let data = await createLexicon(book, frequency);
