@@ -20,6 +20,11 @@ h2.lexiconSubTitle {
 }
 h3.chapterHeading {
   font-style: italic;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 20px 0 10px;
+  text-align: center;
 }
 
 p.lexiconFreq {
@@ -58,14 +63,6 @@ div.lexNT {
 div.freq {
   width: 35px;
   font-size: 16px;
-}
-
-.chapterHeading {
-  font-size: 18px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  margin: 20px 0 10px;
-  text-align: center;
 }
 
 .verseNb {

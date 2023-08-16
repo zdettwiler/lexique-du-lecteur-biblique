@@ -33,6 +33,23 @@ p.description {
   margin: 0 auto 70px;
 }
 
+div.lexicon {
+
+  width: 80%;
+  margin: auto;
+  display: table;
+}
+
+h3 {
+  font-family: 'Times New Roman', serif;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 18px !important;
+  letter-spacing: 5px;
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
 
 footer {
   height: 30px;
