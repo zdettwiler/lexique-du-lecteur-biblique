@@ -21,11 +21,17 @@ import * as ga from './ga.js';
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Genèse');
+  const [chapter, setChapter] = React.useState([]);
   const [frequency, setFrequency] = React.useState(70);
   const [lexicon, setLexicon] = React.useState([]);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
+    setLexicon([]);
+  }
+
+  function handleChangeChapter(e) {
+    setChapter(e.target.value);
     setLexicon([]);
   }
 
@@ -46,7 +52,7 @@ export default function Home() {
 
     setLexicon([]);
     setIsGeneratingPDF(true);
-    let data = await createLexicon(book, frequency);
+    let data = await createLexicon(book, chapter, frequency);
     setLexicon(data);
     setIsGeneratingPDF(false);
     // setViewPdf(true)
@@ -73,7 +79,7 @@ export default function Home() {
 
         <Form className="mt-10 mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
-            <Col xs={12} md={4} className="mb-3" >
+            <Col xs={8} lg={3} className="mb-3" >
               <Form.Label>Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                 <option>Choisir le livre</option>
@@ -83,7 +89,13 @@ export default function Home() {
               </Form.Select>
             </Col>
 
-            <Col xs={12} md={4} className="mb-3" >
+            <Col xs={4} lg={1} className="mb-3" >
+              <Form.Label>Chapitres</Form.Label>
+              <Form.Control aria-label="Selectionner les chapitres" value={chapter} onChange={handleChangeChapter}>
+              </Form.Control>
+            </Col>
+
+            <Col xs={12} lg={4} className="mb-3" >
               <Form.Label>Fréquence des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [

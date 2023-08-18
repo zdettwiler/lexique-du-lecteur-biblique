@@ -79,12 +79,34 @@ function searchStrongLexicon(strong) {
   return word ? word.gloss.split(', ').slice(0,5).join(', ') : '?';
 }
 
-async function createLexicon(book='Genèse', frequency=50) {
+function makeChapterArray(chapterString) {
+  return chapterString.split(',').reduce((acc, cur) => {
+    let chapter = cur.trim();
+    if (chapter.includes('-')) {
+      let [start, end] = cur.split('-');
+      start = parseInt(start.trim());
+      end = parseInt(end.trim());
+
+      acc.push(...Array.from({length: end-start+1}, (x, i) => start + i));
+    } else {
+      chapter = parseInt(chapter.trim());
+      if (chapter) {
+        acc.push(chapter);
+      }
+    }
+
+    return acc;
+  }, []);
+}
+
+async function createLexicon(book='Genèse', chapter='', frequency=50) {
   let rawData = await fetch('/lexique-du-lecteur-biblique/bible_books/'+book+'.csv')
     .then(t => t.text())
     .then(text => {
       return text.split('\n');
     });
+
+  let chapterArray = makeChapterArray(chapter);
 
   let lexicon = rawData.reduce((words, currentWord) => {
     let word = currentWord.split(',');
@@ -93,9 +115,11 @@ async function createLexicon(book='Genèse', frequency=50) {
       lexiconWord.chapter === parseInt(word[3])
       && lexiconWord.verse === parseInt(word[4])
       && lexiconWord.strong === word[7]
-    )
+    );
 
-    if (!isSameWordInVerse && parseInt(word[8]) <= frequency) {
+    if (!isSameWordInVerse
+    && parseInt(word[8]) <= frequency
+    && (chapterArray.length && chapterArray.includes(parseInt(word[3])))) {
       words.push({
         // id: word[0],
         book: word[2],
