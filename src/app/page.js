@@ -24,7 +24,7 @@ export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Genèse');
   const [chapter, setChapter] = React.useState([]);
-  const [allChapters, setAllChapters] = React.useState(false);
+  const [chooseChapters, setChooseChapters] = React.useState(false);
   const [frequency, setFrequency] = React.useState(70);
   const [lexicon, setLexicon] = React.useState([]);
 
@@ -91,8 +91,8 @@ export default function Home() {
                     inline
                     id="custom-switch"
                     label="Choisir les chs."
-                    checked={allChapters}
-                    onChange={() => setAllChapters(!allChapters)}
+                    checked={chooseChapters}
+                    onChange={() => setChooseChapters(!chooseChapters)}
                   />
                   <OverlayTrigger
                     key="top"
@@ -121,12 +121,12 @@ export default function Home() {
                   ))}
                 </Form.Select>
 
-                <Collapse in={allChapters} dimension="width">
+                <Collapse in={chooseChapters} dimension="width">
                   <div>
                     <Form.Control
                       value={chapter}
                       onChange={handleChangeChapter}
-                      disabled={!allChapters}
+                      disabled={!chooseChapters}
                       type="text"
                       placeholder="Chapitres"
                       aria-label="Selectionner les chapitres"
