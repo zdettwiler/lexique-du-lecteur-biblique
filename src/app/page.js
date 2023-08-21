@@ -59,13 +59,12 @@ export default function Home() {
     let data = await createLexicon(book, chapter, frequency);
     setLexicon(data);
     setIsGeneratingPDF(false);
-    // setViewPdf(true)
   }
 
 
   return (
     <Container fluid="sm">
-      {/* <Script src="https://www.googletagmanager.com/gtag/js?id=G-5Q8NE1RT7F" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-5Q8NE1RT7F" />
       <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -74,7 +73,7 @@ export default function Home() {
 
           gtag('config', 'G-5Q8NE1RT7F');
         `}
-      </Script> */}
+      </Script>
 
       <Container className="p-5 pb-2 mb-4 bg-white rounded-3" fluid>
         <p className="chirho">📓</p>{/* ☧ */}
@@ -141,7 +140,7 @@ export default function Home() {
 
 
 
-            <Col xs={12} lg={4} className="mb-3" >
+            <Col xs={12} lg={3} className="mb-3" >
               <Form.Label>Fréquence des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
