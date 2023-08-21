@@ -8,9 +8,11 @@ import {
   Form,
   Row,
   Col,
-  InputGroup,
-  Dropdown,
-  Spinner
+  OverlayTrigger,
+  Popover,
+  Spinner,
+  Collapse,
+  Stack
  } from 'react-bootstrap';
 import Script from 'next/script';
 
@@ -21,11 +23,18 @@ import * as ga from './ga.js';
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Genèse');
+  const [chapter, setChapter] = React.useState([]);
+  const [chooseChapters, setChooseChapters] = React.useState(false);
   const [frequency, setFrequency] = React.useState(70);
   const [lexicon, setLexicon] = React.useState([]);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
+    setLexicon([]);
+  }
+
+  function handleChangeChapter(e) {
+    setChapter(e.target.value);
     setLexicon([]);
   }
 
@@ -40,16 +49,16 @@ export default function Home() {
       action: "make_lexicon",
       params : {
         book,
+        chapter: book + " " + chapter,
         frequency
       }
     });
 
     setLexicon([]);
     setIsGeneratingPDF(true);
-    let data = await createLexicon(book, frequency);
+    let data = await createLexicon(book, chapter, frequency);
     setLexicon(data);
     setIsGeneratingPDF(false);
-    // setViewPdf(true)
   }
 
 
@@ -73,17 +82,65 @@ export default function Home() {
 
         <Form className="mt-10 mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
-            <Col xs={12} md={4} className="mb-3" >
-              <Form.Label>Livre</Form.Label>
-              <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
-                <option>Choisir le livre</option>
-                { bookOptions.map((book, id) => (
-                  <option value={book} key={id}>{book}</option>
-                ))}
-              </Form.Select>
+            <Col xs={12} lg={4} className="mb-3" >
+              <Form.Label style={{ width: "100%" }}>Livre
+                <span style={{ float: "right", fontSize: "14px" }}>
+                  <Form.Check
+                    type="switch"
+                    inline
+                    id="custom-switch"
+                    label="Choisir les chs."
+                    checked={chooseChapters}
+                    onChange={() => setChooseChapters(!chooseChapters)}
+                  />
+                  <OverlayTrigger
+                    key="top"
+                    placement="top"
+                    overlay={
+                      <Popover id="popover-basic">
+                        <Popover.Header as="h3">Sélection des chapitres</Popover.Header>
+                        <Popover.Body>
+                          Indiquer les chapitres désirés, séparés par une virgule. Pour des sections, séparer d'un tiret.
+                          <br/>
+                          P. ex. pour les chapitres 1, 3 et 7 noter: <strong>1,3,7</strong>. Pour les chapitres 1 et 5 à 8 noter: <strong>1,5-8</strong>.
+                        </Popover.Body>
+                      </Popover>
+                    }
+                  >
+                    <i class="bi bi-info-circle"></i>
+                  </OverlayTrigger>
+                </span>
+              </Form.Label>
+
+              <Stack direction="horizontal" gap={2} style={{ height: "38px" }}>
+                <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
+                  <option>Choisir le livre</option>
+                  { bookOptions.map((book, id) => (
+                    <option value={book} key={id}>{book}</option>
+                  ))}
+                </Form.Select>
+
+                <Collapse in={chooseChapters} dimension="width">
+                  <div>
+                    <Form.Control
+                      value={chapter}
+                      onChange={handleChangeChapter}
+                      disabled={!chooseChapters}
+                      type="text"
+                      placeholder="Chapitres"
+                      aria-label="Selectionner les chapitres"
+                    >
+                    </Form.Control>
+                  </div>
+                </Collapse>
+              </Stack>
+
+
             </Col>
 
-            <Col xs={12} md={4} className="mb-3" >
+
+
+            <Col xs={12} lg={3} className="mb-3" >
               <Form.Label>Fréquence des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
@@ -99,7 +156,7 @@ export default function Home() {
               {/* <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/> */}
             </Col>
 
-            <Col xs="auto" className="d-flex align-items-baseline mb-3">
+            <Col xs="auto" lg="auto" className="d-flex align-items-baseline mb-3">
               <Button variant="dark" type="submit" onClick={getBook}>
                 Génerer le lexique
               </Button>
