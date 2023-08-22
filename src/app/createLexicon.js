@@ -80,23 +80,25 @@ function searchStrongLexicon(strong) {
 }
 
 function makeChapterArray(chapterString) {
-  return chapterString.split(',').reduce((acc, cur) => {
-    let chapter = cur.trim();
-    if (chapter.includes('-')) {
-      let [start, end] = cur.split('-');
-      start = parseInt(start.trim());
-      end = parseInt(end.trim());
+  return chapterString === ""
+    ? []
+    : chapterString.split(',').reduce((acc, cur) => {
+      let chapter = cur.trim();
+      if (chapter.includes('-')) {
+        let [start, end] = cur.split('-');
+        start = parseInt(start.trim());
+        end = parseInt(end.trim());
 
-      acc.push(...Array.from({length: end-start+1}, (x, i) => start + i));
-    } else {
-      chapter = parseInt(chapter.trim());
-      if (chapter) {
-        acc.push(chapter);
+        acc.push(...Array.from({length: end-start+1}, (x, i) => start + i));
+      } else {
+        chapter = parseInt(chapter.trim());
+        if (chapter) {
+          acc.push(chapter);
+        }
       }
-    }
 
-    return acc;
-  }, []);
+      return acc;
+    }, []);
 }
 
 async function createLexicon(book='Genèse', chapter='', frequency=50) {
@@ -119,7 +121,7 @@ async function createLexicon(book='Genèse', chapter='', frequency=50) {
 
     if (!isSameWordInVerse
     && parseInt(word[8]) <= frequency
-    && (chapterArray.length && chapterArray.includes(parseInt(word[3])))) {
+    && (!chapterArray.length || (!!chapterArray.length && chapterArray.includes(parseInt(word[3]))))) {
       words.push({
         // id: word[0],
         book: word[2],

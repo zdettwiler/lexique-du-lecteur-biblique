@@ -23,7 +23,7 @@ import * as ga from './ga.js';
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Genèse');
-  const [chapter, setChapter] = React.useState([]);
+  const [chapter, setChapter] = React.useState("");
   const [chooseChapters, setChooseChapters] = React.useState(false);
   const [frequency, setFrequency] = React.useState(70);
   const [lexicon, setLexicon] = React.useState([]);
@@ -31,6 +31,13 @@ export default function Home() {
   function handleChangeBook(e) {
     setBook(e.target.value);
     setLexicon([]);
+  }
+
+  function handleChangeChooseChapters() {
+    setChooseChapters(!chooseChapters);
+    if (!chooseChapters) {
+      setChapter("");
+    }
   }
 
   function handleChangeChapter(e) {
@@ -56,7 +63,7 @@ export default function Home() {
 
     setLexicon([]);
     setIsGeneratingPDF(true);
-    let data = await createLexicon(book, chapter, frequency);
+    let data = await createLexicon(book, chooseChapters ? chapter : "", frequency);
     setLexicon(data);
     setIsGeneratingPDF(false);
   }
@@ -91,7 +98,7 @@ export default function Home() {
                     id="custom-switch"
                     label="Choisir les chs."
                     checked={chooseChapters}
-                    onChange={() => setChooseChapters(!chooseChapters)}
+                    onChange={handleChangeChooseChapters}
                   />
                   <OverlayTrigger
                     key="top"
@@ -107,7 +114,7 @@ export default function Home() {
                       </Popover>
                     }
                   >
-                    <i class="bi bi-info-circle"></i>
+                    <i className="bi bi-info-circle"></i>
                   </OverlayTrigger>
                 </span>
               </Form.Label>
