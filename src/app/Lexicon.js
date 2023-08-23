@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button, Form } from 'react-bootstrap';
+import { Modal, Button, Form, Row, Col } from 'react-bootstrap';
 
 import styles from './Lexicon.module.css';
 
@@ -64,10 +64,21 @@ function Lexicon({frequency, data}) {
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group className="mb-3">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" id="email" placeholder="name@example.com" />
-            </Form.Group>
+          <Row>
+            <Col>
+              <Form.Group className="mb-3">
+                <Form.Label>Nom</Form.Label>
+                <Form.Control type="text" id="name" placeholder="Nom" />
+              </Form.Group>
+            </Col>
+            <Col>
+              <Form.Group className="mb-3">
+                <Form.Label>Adresse courriel</Form.Label>
+                <Form.Control type="email" id="email" placeholder="name@example.com" />
+              </Form.Group>
+            </Col>
+          </Row>
+
             <Form.Group className="mb-3">
               <Form.Label>Modifier la définition</Form.Label>
               <Form.Control as="textarea" id="glossInput" rows={3}
