@@ -90,8 +90,8 @@ export default function Home() {
         <Form className="mt-10 mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
             <Col xs={12} lg={4} className="mb-3" >
-              <Form.Label style={{ width: "100%" }}>Livre
-                <span style={{ float: "right", fontSize: "14px" }}>
+              <Form.Label className="d-flex justify-content-between" style={{ width: "100%" }}>Livre
+                <span style={{ fontSize: "14px" }}>
                   <Form.Check
                     type="switch"
                     inline
@@ -107,8 +107,7 @@ export default function Home() {
                       <Popover id="popover-basic">
                         <Popover.Header as="h3">Sélection des chapitres</Popover.Header>
                         <Popover.Body>
-                          Indiquer les chapitres désirés, séparés par une virgule. Pour des sections, séparer d'un tiret.
-                          <br/>
+                          Indiquer les chapitres désirés, séparés par une virgule. Pour des sections, séparer d'un tiret.<br/>
                           P. ex. pour les chapitres 1, 3 et 7 noter: <strong>1,3,7</strong>. Pour les chapitres 1 et 5 à 8 noter: <strong>1,5-8</strong>.
                         </Popover.Body>
                       </Popover>
@@ -121,9 +120,10 @@ export default function Home() {
 
               <Stack direction="horizontal" gap={2} style={{ height: "38px" }}>
                 <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
-                  <option>Choisir le livre</option>
                   { bookOptions.map((book, id) => (
-                    <option value={book} key={id}>{book}</option>
+                    book.label
+                      ? <optgroup label={book.label} key={id}></optgroup>
+                      : <option value={book} key={id}>{book}</option>
                   ))}
                 </Form.Select>
 

@@ -4,11 +4,14 @@ import strongLexicon from "./strong_lexicon_fr.json";
 
 const bookOptions = [
   // OT
+  { label: "ANCIEN TESTAMENT" },
+  { label: "Pentateuque" },
   "Genèse",
   "Exode",
   "Lévitique",
   "Nombres",
   "Deutéronome",
+  { label: "Prophètes" },
   "Josué",
   "Juges",
   "1 Samuel",
@@ -30,6 +33,7 @@ const bookOptions = [
   "Aggée",
   "Zacharie",
   "Malachie",
+  { label: "Écrits" },
   "Psaumes",
   "Proverbes",
   "Job",
@@ -45,6 +49,7 @@ const bookOptions = [
   "2 Chroniques",
 
   // NT
+  { label: "NOUVEAU TESTAMENT" },
   "Matthieu",
   "Marc",
   "Luc",
