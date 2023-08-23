@@ -56,7 +56,7 @@ export default function Home() {
       action: "make_lexicon",
       params : {
         book,
-        chapter: book + " " + chapter,
+        chapter: chapter !== "" ? book + " " + chapter : undefined,
         frequency
       }
     });
