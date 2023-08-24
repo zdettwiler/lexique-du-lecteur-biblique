@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Lexicon.module.css'
-
+import ChapterPagination from './ChapterPagination'
 
 function Lexicon({frequency, data}) {
   const styleLang = data[0].strong[0] === "G"
@@ -20,6 +20,8 @@ function Lexicon({frequency, data}) {
           Mots apparaissant moins de {frequency} fois dans {testament}. <br />
           Entre parenthèses figure le nombre d'apparitions du mot dans {testament}.
         </p>
+
+        <ChapterPagination data={data} />
 
         {data.map((word, id, data) => {
           let prevChapter = id > 0 ? data[id-1].chapter : 0;
