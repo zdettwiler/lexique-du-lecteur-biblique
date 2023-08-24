@@ -30,6 +30,8 @@ export default function Home() {
 
   function handleChangeBook(e) {
     setBook(e.target.value);
+    setChapter("");
+    setChooseChapters(false);
     setLexicon([]);
   }
 
