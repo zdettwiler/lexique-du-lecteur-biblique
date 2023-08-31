@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <footer>
-          🔧 par Zacharie Dettwiler en 2023 avec les données de <a href="https://etcbc.github.io/bhsa/">BHSA</a> (<a href="https://dx.doi.org/10.17026/dans-z6y-skyh">10.17026/dans-z6y-skyh</a>), <a href="https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT">THGNT</a> et <a href="https://emcitv.com/bible/strong-biblique.html">emcitv</a>.
+          🔧 par Zacharie Dettwiler en 2023 avec les données de <a href="https://etcbc.github.io/bhsa/">BHSA</a> (<a href="https://dx.doi.org/10.17026/dans-z6y-skyh">10.17026/dans-z6y-skyh</a>), <a href="https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT">THGNT</a> et <a href="https://www.levangile.com/Liste-Strong-Grec.php">Levangile</a>.
         </footer>
       </body>
     </html>

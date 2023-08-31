@@ -10671,7 +10671,7 @@
   {
     "strongNb": 1779,
     "grec": "ἐνταφιάζω",
-    "gloss": "préparer un corps à la sépulture, par tout ce que nécessitent les funérailles: vêtements, fleurs, couronnes, parfums, libations, etc, ensevelir un corps",
+    "gloss": "préparer un corps à la sépulture, ensevelir un corps",
     "vu": false
   },
   {
@@ -10965,7 +10965,7 @@
   {
     "strongNb": 1828,
     "grec": "ἐξέλκω",
-    "gloss": "attirer, leurrer: dans la chasse et la pêche un leurre permet de faire sortir un animal, et de la même façon un homme peut être leurré par rapport à sa sécurité envers le péché Dans, le langage de la chasse est utilisé pour la comparaison avec la séduction d’une prostituée",
+    "gloss": "attirer, leurrer",
     "vu": false
   },
   {
@@ -10983,7 +10983,7 @@
   {
     "strongNb": 1831,
     "grec": "ἐξέρχομαι",
-    "gloss": "aller ou venir, métaphorique",
+    "gloss": "aller ou venir",
     "vu": false
   },
   {
@@ -11001,7 +11001,7 @@
   {
     "strongNb": 1834,
     "grec": "ἐξηγέομαι",
-    "gloss": "mener, être le chef, aller devant, métaphorique, faire une narration, détailler un enseignement",
+    "gloss": "mener, être le chef, aller devant",
     "vu": false
   },
   {
@@ -13329,7 +13329,7 @@
   {
     "strongNb": 2222,
     "grec": "ζωή, ῆς, ἡ",
-    "gloss": "vie, vie",
+    "gloss": "vie",
     "vu": false
   },
   {
@@ -33138,8 +33138,8 @@
     "gloss": "profitable, utile",
     "vu": false
   }
-]
-,
+  ],
+
   "H": [
     {
       "strongNb": 1,
@@ -33486,7 +33486,7 @@
     {
       "strongNb": 58,
       "hebreu": "אָבֵל",
-      "gloss": "prairie (du verbe pousser, vert)",
+      "gloss": "prairie",
       "vu": false
     },
     {
