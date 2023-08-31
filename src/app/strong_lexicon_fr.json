@@ -33264,7 +33264,7 @@
     {
       "strongNb": 21,
       "hebreu": "אֲבִי",
-      "gloss": "Abi = «mon père», «l’Éternel est père»",
+      "gloss": "Abi = «mon père»",
       "vu": false
     },
     {
@@ -33276,7 +33276,7 @@
     {
       "strongNb": 23,
       "hebreu": "אֲבִיאָסָף",
-      "gloss": "Abiasaph = «mon père a rassemblé» (celui qui enlève l’opprobre)",
+      "gloss": "Abiasaph = «mon père a rassemblé»",
       "vu": false
     },
     {
@@ -33294,13 +33294,13 @@
     {
       "strongNb": 26,
       "hebreu": "אֲבִיגַּיִל אֲבִיגַּל",
-      "gloss": "Abigaïl = «mon père est joie», «père de l’enthousiasme»",
+      "gloss": "Abigaïl = «mon père est joie»",
       "vu": false
     },
     {
       "strongNb": 27,
       "hebreu": "אֲבִידָּן",
-      "gloss": "Abidan = «mon père est juge», «le père juge»",
+      "gloss": "Abidan = «mon père est juge»",
       "vu": false
     },
     {
@@ -33318,13 +33318,13 @@
     {
       "strongNb": 30,
       "hebreu": "אֲבִיהוּא",
-      "gloss": "Abihu = «Dieu est père», «il est mon père»",
+      "gloss": "Abihu = «Dieu est père»",
       "vu": false
     },
     {
       "strongNb": 31,
       "hebreu": "אֲבִיהוּד",
-      "gloss": "Abihud = «père de l’éloge», «père loué»",
+      "gloss": "Abihud = «père de l’éloge»",
       "vu": false
     },
     {
@@ -33366,25 +33366,25 @@
     {
       "strongNb": 38,
       "hebreu": "אֲבִיָם",
-      "gloss": "Abijam = «père de la mer», ou «yam (la mer) est mon père»",
+      "gloss": "Abijam = «père de la mer»",
       "vu": false
     },
     {
       "strongNb": 39,
       "hebreu": "אֲבִימָאֵל",
-      "gloss": "Abimaël = «mon père est Maël», «mon père est Dieu»",
+      "gloss": "Abimaël = «mon père est Maël»",
       "vu": false
     },
     {
       "strongNb": 40,
       "hebreu": "אֲבִימֶלֶך",
-      "gloss": "Abimélec = «Mélec est père» ou «mon père est roi»",
+      "gloss": "Abimélec = «Mélec est père»",
       "vu": false
     },
     {
       "strongNb": 41,
       "hebreu": "אֲבִינָדָב",
-      "gloss": "Abinadab = «père de la générosité», «père de liberté»",
+      "gloss": "Abinadab = «père de la générosité»",
       "vu": false
     },
     {
@@ -33426,7 +33426,7 @@
     {
       "strongNb": 48,
       "hebreu": "אֲבִירָם",
-      "gloss": "Abiram = «mon père est exalté» ou même sens qu’Abram variante admissible du nom Abram",
+      "gloss": "Abiram = «mon père est exalté»",
       "vu": false
     },
     {
@@ -33438,19 +33438,19 @@
     {
       "strongNb": 50,
       "hebreu": "אֲבִישׁוַּע",
-      "gloss": "Abischua (Abishua) = «père de secours», ou «mon père est opulence»",
+      "gloss": "Abischua (Abishua) = «père de secours»",
       "vu": false
     },
     {
       "strongNb": 51,
       "hebreu": "אֲבִישׁוּר",
-      "gloss": "Abischur = «mon père est un mur», «père d’ordre»",
+      "gloss": "Abischur = «mon père est un mur»",
       "vu": false
     },
     {
       "strongNb": 52,
       "hebreu": "אֲבִישַׁי אַבשַׁי",
-      "gloss": "Abischaï = «mon père est Isaï», «mon père est un don»",
+      "gloss": "Abischaï = «mon père est Isaï»",
       "vu": false
     },
     {
@@ -33492,7 +33492,7 @@
     {
       "strongNb": 59,
       "hebreu": "אָבֵל",
-      "gloss": "Abel = «endroit verdoyant, prairie», «vanité»",
+      "gloss": "Abel = «endroit verdoyant, prairie»",
       "vu": false
     },
     {
@@ -33510,7 +33510,7 @@
     {
       "strongNb": 62,
       "hebreu": "אָבֵל בֵּיתּ מֲעַכָה",
-      "gloss": "Abel-Beth-Maaca = «prairie de la maison de Maaca» = «pré de la maison d’oppression»",
+      "gloss": "Abel-Beth-Maaca = «prairie de la maison de Maaca»",
       "vu": false
     },
     {
@@ -33540,7 +33540,7 @@
     {
       "strongNb": 67,
       "hebreu": "אָבֵל מִצרַיִם",
-      "gloss": "Abel-Mitsraïm = «prairie de l’Égypte» = «pré du deuil de l’Égypte»",
+      "gloss": "Abel-Mitsraïm = «prairie de l’Égypte»",
       "vu": false
     },
     {
@@ -33594,8 +33594,8 @@
     {
       "strongNb": 76,
       "hebreu": "אֲבַעבּוּעָה",
-      "gloss": "ampoules, furoncles (de la racine: gonfler)",
-      "vu": false
+      "gloss": "ampoules, furoncles",
+      "vu": true
     },
     {
       "strongNb": 77,
@@ -33606,7 +33606,7 @@
     {
       "strongNb": 78,
       "hebreu": "אִבצָּן",
-      "gloss": "Ibtsan = «blancheur (blanc comme l’étain)», «grande fatigue»",
+      "gloss": "Ibtsan = «blancheur (blanc comme l’étain)»",
       "vu": false
     },
     {
@@ -33648,7 +33648,7 @@
     {
       "strongNb": 85,
       "hebreu": "אַברָהָם",
-      "gloss": "Abraham = «père élevé» ou «père d’une multitude»",
+      "gloss": "Abraham = «père élevé»",
       "vu": false
     },
     {
@@ -33666,19 +33666,19 @@
     {
       "strongNb": 88,
       "hebreu": "אוֹבוֹת",
-      "gloss": "Oboth = «des outres», « creux», «esprit»",
+      "gloss": "Oboth = «des outres»",
       "vu": false
     },
     {
       "strongNb": 89,
       "hebreu": "אָגֵא",
-      "gloss": "Agué = «fugitif», «dompteur de chevaux»",
+      "gloss": "Agué = «fugitif»",
       "vu": false
     },
     {
       "strongNb": 90,
       "hebreu": "אֲגַג",
-      "gloss": "Agag = «flamboyant», « guerrier», «sublime»",
+      "gloss": "Agag = «flamboyant»",
       "vu": false
     },
     {
@@ -33762,8 +33762,8 @@
     {
       "strongNb": 104,
       "hebreu": "אִגְּרָא",
-      "gloss": "lettre, missive (mot emprunté à l’araméen, utilisé dans l’Ancien Testament)",
-      "vu": false
+      "gloss": "lettre, missive",
+      "vu": true
     },
     {
       "strongNb": 105,
@@ -33798,19 +33798,19 @@
     {
       "strongNb": 110,
       "hebreu": "אַדבְּאֵל",
-      "gloss": "Adbeel = «châtié de Dieu», «serviteur de Dieu»",
+      "gloss": "Adbeel = «châtié de Dieu»",
       "vu": false
     },
     {
       "strongNb": 111,
       "hebreu": "אֲדַד",
-      "gloss": "Hadad = «puissant», «le plus haut»",
+      "gloss": "Hadad = «puissant»",
       "vu": false
     },
     {
       "strongNb": 112,
       "hebreu": "אִדּוֹ",
-      "gloss": "Iddo = «opportun», «favori»",
+      "gloss": "Iddo = «opportun»",
       "vu": false
     },
     {
@@ -33828,7 +33828,7 @@
     {
       "strongNb": 115,
       "hebreu": "אֲדוֹרַיִם",
-      "gloss": "Adoraïm = «double gloire», « double demeure», «honneur»",
+      "gloss": "Adoraïm = «double gloire»",
       "vu": false
     },
     {
@@ -33858,25 +33858,25 @@
     {
       "strongNb": 120,
       "hebreu": "אָדָם",
-      "gloss": "Adam = «être humain», «de la terre» Adamah: terre, sol",
+      "gloss": "Adam = «être humain», «de la terre» Adamah  terre, sol",
       "vu": false
     },
     {
       "strongNb": 121,
       "hebreu": "אָדָם",
-      "gloss": "Adam = « être humain», «de la terre»",
+      "gloss": "Adam = « être humain»",
       "vu": false
     },
     {
       "strongNb": 122,
       "hebreu": "אָדוֹם",
-      "gloss": "rouge, roux (homme, cheval, génisse, vêtement, eau, lentilles)",
-      "vu": false
+      "gloss": "rouge, roux",
+      "vu": true
     },
     {
       "strongNb": 123,
       "hebreu": "אֱדוֹם אֱדוֹם",
-      "gloss": "Édom = «rouge», «de couleur rousse»",
+      "gloss": "Édom = «rouge»",
       "vu": false
     },
     {
@@ -33894,7 +33894,7 @@
     {
       "strongNb": 126,
       "hebreu": "אַדמָה",
-      "gloss": "Adma = «de la terre», «terrasses»",
+      "gloss": "Adma = «de la terre»",
       "vu": false
     },
     {
@@ -33930,13 +33930,13 @@
     {
       "strongNb": 132,
       "hebreu": "אַדמוֹנִי אַדמוֹנִי",
-      "gloss": "rouge, roux (d’Ésaü enfant)",
-      "vu": false
+      "gloss": "rouge, roux",
+      "vu": true
     },
     {
       "strongNb": 133,
       "hebreu": "אַדמָתָא",
-      "gloss": "Admatha = «un témoignage», « brun», «don de Dieu»",
+      "gloss": "Admatha = «un témoignage»",
       "vu": false
     },
     {
@@ -33948,7 +33948,7 @@
     {
       "strongNb": 135,
       "hebreu": "אַדָּן",
-      "gloss": "Addan = «fort, ferme», «calamité»",
+      "gloss": "Addan = «fort, ferme»",
       "vu": false
     },
     {
@@ -33960,7 +33960,7 @@
     {
       "strongNb": 137,
       "hebreu": "אֲדוֹנִי ־ בֶּזֶק",
-      "gloss": "Adoni-Bézek = «mon Seigneur est Bézek» = «seigneur des éclairs»",
+      "gloss": "Adoni-Bézek = «mon Seigneur est Bézek»",
       "vu": false
     },
     {
@@ -34002,7 +34002,7 @@
     {
       "strongNb": 144,
       "hebreu": "אֲדָר",
-      "gloss": "Adar = «glorieux», «aire» assyro-babylonien Addaru: sombre, nuageux",
+      "gloss": "Adar = «glorieux», «aire» assyro-babylonien Addaru  sombre, nuageux",
       "vu": false
     },
     {
@@ -34014,7 +34014,7 @@
     {
       "strongNb": 146,
       "hebreu": "אַדָּר",
-      "gloss": "Addar (ou Adar) = «glorieux», «aire»",
+      "gloss": "Addar (ou Adar) = «glorieux»",
       "vu": false
     },
     {
@@ -34038,8 +34038,8 @@
     {
       "strongNb": 150,
       "hebreu": "אֲדַרכּוֹן",
-      "gloss": "drachme, darique – unité de poids et valeur (en monnaie d’or) égale à cent-ving-huit grains ou quatre virgule trente-deux grammes",
-      "vu": false
+      "gloss": "drachme, darique",
+      "vu": true
     },
     {
       "strongNb": 151,
@@ -34050,7 +34050,7 @@
     {
       "strongNb": 152,
       "hebreu": "אַדרַמֶּלֶך",
-      "gloss": "Adrammélec = « (le dieu) Adar est roi» = «la magnificence du roi»",
+      "gloss": "Adrammélec = « (le dieu) Adar est roi»",
       "vu": false
     },
     {
@@ -34062,13 +34062,13 @@
     {
       "strongNb": 154,
       "hebreu": "אֶדרֶעִי",
-      "gloss": "Édréi = «bon pâturage», « fort», «bras»",
+      "gloss": "Édréi = «bon pâturage»",
       "vu": false
     },
     {
       "strongNb": 155,
       "hebreu": "אַדֶּרֶת",
-      "gloss": "gloire, manteaugloire, magnificence (d’une vigne, d’un bétail)",
+      "gloss": "gloire, manteau",
       "vu": false
     },
     {
@@ -34104,25 +34104,25 @@
     {
       "strongNb": 161,
       "hebreu": "אוֹהַד",
-      "gloss": "Ohad = «puissant», « qui réunit», «qui lie»",
+      "gloss": "Ohad = «puissant»",
       "vu": false
     },
     {
       "strongNb": 162,
       "hebreu": "אֲהָהּ",
-      "gloss": "ah! Malheur! hélas!...",
+      "gloss": "ah! Malheur! hélas!",
       "vu": false
     },
     {
       "strongNb": 163,
       "hebreu": "אַהֲוָא",
-      "gloss": "Ahava = «Je subsisterai», «ruisseau»",
+      "gloss": "Ahava = «Je subsisterai»",
       "vu": false
     },
     {
       "strongNb": 164,
       "hebreu": "אֵהוּד",
-      "gloss": "contraction de Abihud? éhud = «Je remercierai: je serai loué» = «uni, non divisé, fort» dans (1 Chroniques  8.6) seulement",
+      "gloss": "contraction de Abihud? éhud = «Je remercierai, je serai loué»",
       "vu": false
     },
     {
@@ -34152,7 +34152,7 @@
     {
       "strongNb": 169,
       "hebreu": "אוֹהֶל",
-      "gloss": "Ohel = «tente», «famille»",
+      "gloss": "Ohel = «tente»",
       "vu": false
     },
     {
@@ -34236,7 +34236,7 @@
     {
       "strongNb": 183,
       "hebreu": "אָוָה",
-      "gloss": "désirer, incliner, convoiter, souhaiter, vouloir... (nourriture, boisson, appétits corporels)",
+      "gloss": "désirer, incliner, convoiter, souhaiter, vouloir (nourriture, boisson, appétits corporels)",
       "vu": false
     },
     {
@@ -34254,7 +34254,7 @@
     {
       "strongNb": 186,
       "hebreu": "אוּזַי",
-      "gloss": "Uzaï = «je serai arrosé», «rapidité de l’Éternel»",
+      "gloss": "Uzaï = «je serai arrosé»",
       "vu": false
     },
     {
@@ -34290,7 +34290,7 @@
     {
       "strongNb": 192,
       "hebreu": "אֱוִיל מְרוֹדַך",
-      "gloss": "Évil-Merodac = «homme de Merodac» = «insensé du carnage»",
+      "gloss": "Évil-Merodac = «homme de Merodac»",
       "vu": false
     },
     {
@@ -34344,7 +34344,7 @@
     {
       "strongNb": 201,
       "hebreu": "אוֹמָר",
-      "gloss": "Omar = «orateur», «éloquent», « montagnard»,»qui est dessus»",
+      "gloss": "Omar = «orateur»",
       "vu": false
     },
     {
@@ -34356,13 +34356,13 @@
     {
       "strongNb": 203,
       "hebreu": "אוֹן",
-      "gloss": "On = «richesse» ou «force, vigueur»",
+      "gloss": "On = «richesse»",
       "vu": false
     },
     {
       "strongNb": 204,
       "hebreu": "אוֹן אוֹן",
-      "gloss": "On = «lumière», «soleil»",
+      "gloss": "On = «lumière»",
       "vu": false
     },
     {
@@ -34374,7 +34374,7 @@
     {
       "strongNb": 206,
       "hebreu": "אָוֶן",
-      "gloss": "Aven = «vanité», «vide, néant»",
+      "gloss": "Aven = «vanité»",
       "vu": false
     },
     {
@@ -34386,13 +34386,13 @@
     {
       "strongNb": 208,
       "hebreu": "אוֹנָם",
-      "gloss": "Onam = «fort, riche», «lassitude, iniquité»",
+      "gloss": "Onam = «fort, riche»",
       "vu": false
     },
     {
       "strongNb": 209,
       "hebreu": "אוֹנָן",
-      "gloss": "Onan = «vigoureux», « lassitude», «iniquité»",
+      "gloss": "Onan = «vigoureux»",
       "vu": false
     },
     {
@@ -34404,7 +34404,7 @@
     {
       "strongNb": 211,
       "hebreu": "אוֹפִיר אוֹפִיר אוֹפִר",
-      "gloss": "Ophir = «débarrassé des cendres», « abondance», «richesse»",
+      "gloss": "Ophir = «débarrassé des cendres»",
       "vu": false
     },
     {
@@ -34446,7 +34446,7 @@
     {
       "strongNb": 218,
       "hebreu": "אוּר",
-      "gloss": "Ur = «flamme», «éclat», «feu»",
+      "gloss": "Ur = «flamme»",
       "vu": false
     },
     {
@@ -34500,7 +34500,7 @@
     {
       "strongNb": 227,
       "hebreu": "אָז",
-      "gloss": "alors, en ce temps làexpressions de tempsalors (passé, ou futur)",
+      "gloss": "alors, en ce temps là",
       "vu": false
     },
     {
@@ -34512,7 +34512,7 @@
     {
       "strongNb": 229,
       "hebreu": "אֶזבַּי",
-      "gloss": "Ezbaï = «humilité», ou «butin», «qui luit»?",
+      "gloss": "Ezbaï = «humilité »",
       "vu": false
     },
     {
@@ -34632,7 +34632,7 @@
     {
       "strongNb": 249,
       "hebreu": "אֶזרָח",
-      "gloss": "un natif (un originaire du sol)",
+      "gloss": "un natif",
       "vu": false
     },
     {
@@ -34704,7 +34704,7 @@
     {
       "strongNb": 261,
       "hebreu": "אֵחוּד",
-      "gloss": "Ehud = «unis», «fort»",
+      "gloss": "Ehud = «unis»",
       "vu": false
     },
     {
@@ -34728,7 +34728,7 @@
     {
       "strongNb": 265,
       "hebreu": "אֲחוַֹח",
-      "gloss": "Achoach = «frère du repos» ou «chaleur»",
+      "gloss": "Achoach = «frère du repos»",
       "vu": false
     },
     {
@@ -34776,7 +34776,7 @@
     {
       "strongNb": 273,
       "hebreu": "אַחזַי",
-      "gloss": "Achzaï = «possession» ou «clairvoyant»",
+      "gloss": "Achzaï = «possession»",
       "vu": false
     },
     {
@@ -34800,7 +34800,7 @@
     {
       "strongNb": 277,
       "hebreu": "אֲחִי",
-      "gloss": "Achi = «un frère» ou «il y a un frère (l’Éternel)»",
+      "gloss": "Achi = «un frère»",
       "vu": false
     },
     {
@@ -34824,7 +34824,7 @@
     {
       "strongNb": 281,
       "hebreu": "אֲחִיָה אֲחִיָהוּ",
-      "gloss": "Achija = «frère de Yahvé» ou «Yahvé est frère»",
+      "gloss": "Achija = «frère de Yahvé»",
       "vu": false
     },
     {
@@ -34860,13 +34860,13 @@
     {
       "strongNb": 287,
       "hebreu": "אֲחִימוֹת",
-      "gloss": "Achimoth = «frère de la mort» ou «mon frère est mort»",
+      "gloss": "Achimoth = «frère de la mort»",
       "vu": false
     },
     {
       "strongNb": 288,
       "hebreu": "אֲחִימֶלֶך",
-      "gloss": "Achimélec = «frère d’un roi» ou «frère de Mélec» (Mélec = «roi»)",
+      "gloss": "Achimélec = «frère d’un roi»",
       "vu": false
     },
     {
@@ -34968,20 +34968,20 @@
     {
       "strongNb": 305,
       "hebreu": "אַחֲלַי אַחֲלֵי",
-      "gloss": "Oh! que...!; que ceci arrive!",
+      "gloss": "Oh! que!; que ceci arrive!",
       "vu": false
     },
     {
       "strongNb": 306,
       "hebreu": "אַחלָמָה",
-      "gloss": "pierre du troisième rang sur le pectoral du souverain sacrificateur; variété transparente de quartz, limpide, pourpre, ou d’un violet tirant sur le bleu",
+      "gloss": "améthyste",
       "vu": false
     },
     {
       "strongNb": 307,
       "hebreu": "אַחמְתָא",
-      "gloss": "Achmetha: sans doute Ecbatane, Hamadan moderne",
-      "vu": false
+      "gloss": "Achmetha»",
+      "vu": true
     },
     {
       "strongNb": 308,
@@ -35082,13 +35082,13 @@
     {
       "strongNb": 324,
       "hebreu": "אֲחַשׁדַּרפַּן",
-      "gloss": "satrape: gouverneur d’une province de Perse, haut fonctionnaire de l’empire Babylonien, et du royaume de Darius le Mède",
+      "gloss": "satrape",
       "vu": false
     },
     {
       "strongNb": 325,
       "hebreu": "אֲחַשׁוֵרוֹשׁ אַחַשׁרוֹשׁ",
-      "gloss": "Assuérus = «je serai silencieux et pauvre» = «le chef des gouverneurs»?",
+      "gloss": "Assuérus = «je serai silencieux et pauvre»",
       "vu": false
     },
     {
@@ -35154,7 +35154,7 @@
     {
       "strongNb": 336,
       "hebreu": "אִי",
-      "gloss": "non, pas de...",
+      "gloss": "non, pas de",
       "vu": false
     },
     {
@@ -35220,13 +35220,13 @@
     {
       "strongNb": 347,
       "hebreu": "אִיוֹב",
-      "gloss": "Job = «haï, ennemi», «Je m’exclamerai»",
+      "gloss": "Job = «haï, ennemi»",
       "vu": false
     },
     {
       "strongNb": 348,
       "hebreu": "אִיזֶבֶל",
-      "gloss": "Jézabel = «Baal est l’époux» ou «impudique»",
+      "gloss": "Jézabel = «Baal est l’époux»",
       "vu": false
     },
     {
@@ -35292,7 +35292,7 @@
     {
       "strongNb": 359,
       "hebreu": "אֵילוֹת אֵילַת",
-      "gloss": "Élath ou Éloth = «bosquet des grands arbres», «térébinthe»",
+      "gloss": "Élath ou Éloth = «bosquet des grands arbres»",
       "vu": false
     },
     {
@@ -35520,7 +35520,7 @@
     {
       "strongNb": 397,
       "hebreu": "אָכִישׁ",
-      "gloss": "Akisch = «je serai noirci (de peur)» ou «homme seul»",
+      "gloss": "Akisch = «je serai noirci (de peur)»",
       "vu": false
     },
     {
@@ -35550,7 +35550,7 @@
     {
       "strongNb": 402,
       "hebreu": "אוֹכלָה",
-      "gloss": "nourriturenourriture",
+      "gloss": "nourriture",
       "vu": false
     },
     {
@@ -35586,7 +35586,7 @@
     {
       "strongNb": 408,
       "hebreu": "אַל",
-      "gloss": "non ni, non plus, rien (comme désir ou préférence)",
+      "gloss": "non ni, non plus, rien",
       "vu": false
     },
     {
@@ -35634,13 +35634,13 @@
     {
       "strongNb": 416,
       "hebreu": "אֵל בֵּיתּ ־ אֵל",
-      "gloss": "El-Béthel = «Le Dieu de la Maison de Dieu», «Dieu de Béthel»",
+      "gloss": "El-Béthel = «Le Dieu de la Maison de Dieu»",
       "vu": false
     },
     {
       "strongNb": 417,
       "hebreu": "אֶלגָּבִישׁ",
-      "gloss": "grêle, grêlon (lit. – perles de Dieu)",
+      "gloss": "grêle, grêlon (lit – perles de Dieu)",
       "vu": false
     },
     {
@@ -35766,13 +35766,13 @@
     {
       "strongNb": 438,
       "hebreu": "אַלּוֹן",
-      "gloss": "Allon = «grand arbre» ou «chêne»",
+      "gloss": "Allon = «grand arbre»",
       "vu": false
     },
     {
       "strongNb": 439,
       "hebreu": "אַלּוֹן בָּכוּת",
-      "gloss": "site de la sépulture de Débora (nourrice de Rebecca) près de Béthel",
+      "gloss": "site de la sépulture de Débora près de Béthel",
       "vu": false
     },
     {
@@ -35844,7 +35844,7 @@
     {
       "strongNb": 451,
       "hebreu": "אַליָה",
-      "gloss": "croupe, queue, queue grasse (du mouton: mets de choix pour ceux de l’est)",
+      "gloss": "croupe, queue, queue grasse",
       "vu": false
     },
     {
@@ -35874,7 +35874,7 @@
     {
       "strongNb": 456,
       "hebreu": "אֱלִיחוֹרֶף",
-      "gloss": "Élihoreph = «Dieu de l’hiver», un des scribes de Salomon",
+      "gloss": "Élihoreph = «Dieu de l’hiver»",
       "vu": false
     },
     {
@@ -35916,7 +35916,7 @@
     {
       "strongNb": 463,
       "hebreu": "אֱלִיעָם",
-      "gloss": "Éliam = «Dieu du peuple» ou «Dieu est parent»",
+      "gloss": "Éliam = «Dieu du peuple»",
       "vu": false
     },
     {
@@ -35928,13 +35928,13 @@
     {
       "strongNb": 465,
       "hebreu": "אֱלִיפָל",
-      "gloss": "Éliphal = «mon Dieu est supplication», «Dieu a jugé»?",
+      "gloss": "Éliphal = «mon Dieu est supplication»",
       "vu": false
     },
     {
       "strongNb": 466,
       "hebreu": "אֱלִיפְלֵהוּ",
-      "gloss": "Éliphelé = «Dieu l’a mis à part» ou «que Dieu distingue»",
+      "gloss": "Éliphelé = «Dieu l’a mis à part»",
       "vu": false
     },
     {
@@ -35958,7 +35958,7 @@
     {
       "strongNb": 470,
       "hebreu": "אֱלִיקָא",
-      "gloss": "Élika = «mon Dieu rejette», «Dieu de la congrégation»",
+      "gloss": "Élika = «mon Dieu rejette»",
       "vu": false
     },
     {
@@ -35982,7 +35982,7 @@
     {
       "strongNb": 474,
       "hebreu": "אֱלִישׁוַּע",
-      "gloss": "Élischua = «mon Dieu est salut», «Dieu de supplication»?",
+      "gloss": "Élischua = «mon Dieu est salut»",
       "vu": false
     },
     {
@@ -36090,7 +36090,7 @@
     {
       "strongNb": 492,
       "hebreu": "אַלמוֹנִי",
-      "gloss": "quelqu’un, un certain...",
+      "gloss": "quelqu’un, un certain",
       "vu": false
     },
     {
@@ -36180,7 +36180,7 @@
     {
       "strongNb": 507,
       "hebreu": "אֶלֶף",
-      "gloss": "Eleph = «mille», «bœufs»",
+      "gloss": "Eleph = «mille»",
       "vu": false
     },
     {
@@ -36210,7 +36210,7 @@
     {
       "strongNb": 512,
       "hebreu": "אֶלקוֹשִׁי",
-      "gloss": "Elkosch (d’) = «Dieu, le preneur au piège»",
+      "gloss": "natif et, ou descendant d’Elkosch",
       "vu": false
     },
     {
@@ -36246,7 +36246,7 @@
     {
       "strongNb": 518,
       "hebreu": "אִם",
-      "gloss": "siclauses conditionnellesde situations possibles ou impossibles",
+      "gloss": "si",
       "vu": false
     },
     {
@@ -36258,7 +36258,7 @@
     {
       "strongNb": 520,
       "hebreu": "אַמָּה",
-      "gloss": "coudée: mesure de longueur, variant de quarante-quatre à cinquante-deux centimètres. Pour les différentes coudées utilisées dans l’Ancien Testament",
+      "gloss": "coudée",
       "vu": false
     },
     {
@@ -36270,7 +36270,7 @@
     {
       "strongNb": 522,
       "hebreu": "אַמָּה",
-      "gloss": "Amma = «mère, début, fondation», «une mesure?»",
+      "gloss": "Amma = «mère, début, fondation»",
       "vu": false
     },
     {
@@ -36306,7 +36306,7 @@
     {
       "strongNb": 528,
       "hebreu": "אָמוֹן",
-      "gloss": "Amon = «nourrir: être fidèle», «ouvrier»",
+      "gloss": "Amon = «nourrir, être fidèle»",
       "vu": false
     },
     {
@@ -36330,7 +36330,7 @@
     {
       "strongNb": 532,
       "hebreu": "אָמִי",
-      "gloss": "Ami = «serviteur lié», «augmenté»",
+      "gloss": "Ami = «serviteur lié»",
       "vu": false
     },
     {
@@ -36348,7 +36348,7 @@
     {
       "strongNb": 535,
       "hebreu": "אָמַל",
-      "gloss": "être faible, pencher, languir,...",
+      "gloss": "être faible, pencher, languir,",
       "vu": false
     },
     {
@@ -36366,13 +36366,13 @@
     {
       "strongNb": 538,
       "hebreu": "אֲמָם",
-      "gloss": "Amam = «leur mère», «rassemblement, jonction»",
+      "gloss": "Amam = «leur mère»",
       "vu": false
     },
     {
       "strongNb": 539,
       "hebreu": "אָמַן",
-      "gloss": "supporter, confirmer, être fidèlesoutenir, nourrirpère nourricier",
+      "gloss": "supporter, confirmer, être fidèle",
       "vu": false
     },
     {
@@ -36384,7 +36384,7 @@
     {
       "strongNb": 541,
       "hebreu": "אָמַן",
-      "gloss": "prendre la main droite, tourner à droite, choisir la droite...",
+      "gloss": "prendre la main droite, tourner à droite, choisir la droite",
       "vu": false
     },
     {
@@ -36396,7 +36396,7 @@
     {
       "strongNb": 543,
       "hebreu": "אָמֵן",
-      "gloss": "amen = «assuré, établi» – interjection: ainsi soit-il!",
+      "gloss": "amen, ainsi soit-il!",
       "vu": false
     },
     {
@@ -36408,7 +36408,7 @@
     {
       "strongNb": 545,
       "hebreu": "אָמנָה",
-      "gloss": "apporter, nourriture, élever, entraîner, fournir (comme parent)",
+      "gloss": "apporter, nourriture, élever, entraîner, fournir",
       "vu": false
     },
     {
@@ -36432,7 +36432,7 @@
     {
       "strongNb": 549,
       "hebreu": "אֲמָנָה",
-      "gloss": "Abana, Amana = signification plausible: «rocailleux»",
+      "gloss": "Abana, Amana = «rocailleux?»",
       "vu": false
     },
     {
@@ -36522,7 +36522,7 @@
     {
       "strongNb": 564,
       "hebreu": "אִמֵּר",
-      "gloss": "Immer = «il a dit», «mouton»?",
+      "gloss": "Immer = «il a dit»",
       "vu": false
     },
     {
@@ -36552,7 +36552,7 @@
     {
       "strongNb": 569,
       "hebreu": "אַמרָפֶל",
-      "gloss": "Amraphel = «annonceur de ténèbres», «qui parle d’une manière sombre»",
+      "gloss": "Amraphel = «annonceur de ténèbres»",
       "vu": false
     },
     {
@@ -36564,13 +36564,13 @@
     {
       "strongNb": 571,
       "hebreu": "אֶמֶת",
-      "gloss": "fermeté, fidélité, véritésûreté",
+      "gloss": "fermeté, fidélité, vérité",
       "vu": false
     },
     {
       "strongNb": 572,
       "hebreu": "אַמתַּחַת",
-      "gloss": "sac, récipient souple (pour grain)",
+      "gloss": "sac, récipient souple",
       "vu": false
     },
     {
@@ -36588,19 +36588,19 @@
     {
       "strongNb": 575,
       "hebreu": "אָן אָנָה",
-      "gloss": "où? (lieu)",
+      "gloss": "où?",
       "vu": false
     },
     {
       "strongNb": 576,
       "hebreu": "אֲנָא אֲנָה",
-      "gloss": "Je, Moi... (première personne du singulier – généralement avec emphase)",
+      "gloss": "Je, Moi",
       "vu": false
     },
     {
       "strongNb": 577,
       "hebreu": "אָנאָ אָנָּה",
-      "gloss": "Oh! je vous supplie...",
+      "gloss": "Oh! je vous supplie",
       "vu": false
     },
     {
@@ -36762,7 +36762,7 @@
     {
       "strongNb": 604,
       "hebreu": "אֲנָקָה",
-      "gloss": "un animal impur, furet, musaraigne...",
+      "gloss": "un animal impur, furet, musaraigne",
       "vu": false
     },
     {
@@ -36852,7 +36852,7 @@
     {
       "strongNb": 619,
       "hebreu": "אַסנָה",
-      "gloss": "Asna = «je serai haï», «ronce»?",
+      "gloss": "Asna = «je serai haï»",
       "vu": false
     },
     {
@@ -36882,7 +36882,7 @@
     {
       "strongNb": 624,
       "hebreu": "אָסוּף",
-      "gloss": "Asuppim: collection, magasin",
+      "gloss": "Asuppim  collection, magasin",
       "vu": false
     },
     {
@@ -36924,7 +36924,7 @@
     {
       "strongNb": 631,
       "hebreu": "אָסַר",
-      "gloss": "lier, attacher, emprisonnerlier (avec des cordes)ceindre",
+      "gloss": "lier, attacher, emprisonner",
       "vu": false
     },
     {
@@ -36990,7 +36990,7 @@
     {
       "strongNb": 642,
       "hebreu": "אֵפוּדָּה",
-      "gloss": "éphodvêtement du sacrificateur, cape ou manteauporté par un sacrificateur: fait de tissu blanc",
+      "gloss": "éphod",
       "vu": false
     },
     {
@@ -37116,7 +37116,7 @@
     {
       "strongNb": 663,
       "hebreu": "אֲפֵק אֲפִיק",
-      "gloss": "Aphek ou Aphik = «enclos», «force»",
+      "gloss": "Aphek ou Aphik = «enclos»",
       "vu": false
     },
     {
@@ -37158,7 +37158,7 @@
     {
       "strongNb": 670,
       "hebreu": "אֲפָרְסַי",
-      "gloss": "Apharas",
+      "gloss": "Apharas»",
       "vu": false
     },
     {
@@ -37230,7 +37230,7 @@
     {
       "strongNb": 682,
       "hebreu": "אַצֵל",
-      "gloss": "Atsel (Atzel) = «proximité», «noble»?",
+      "gloss": "Atsel (Atzel) = «proximité »",
       "vu": false
     },
     {
@@ -37338,7 +37338,7 @@
     {
       "strongNb": 700,
       "hebreu": "אֲרֻבּוֹת",
-      "gloss": "Arubboth = «fenêtres», «treillis»",
+      "gloss": "Arubboth = «fenêtres»",
       "vu": false
     },
     {
@@ -37380,7 +37380,7 @@
     {
       "strongNb": 707,
       "hebreu": "אָרַג",
-      "gloss": "tissertisser (étoffe), tresser (cheveux de Samson), tisserand (subst.)intrigue (figuré)",
+      "gloss": "tisser",
       "vu": false
     },
     {
@@ -37392,7 +37392,7 @@
     {
       "strongNb": 709,
       "hebreu": "אַרגּוֹב",
-      "gloss": "Argob = «tas de pierres», «mottes de terre»",
+      "gloss": "Argob = «tas de pierres»",
       "vu": false
     },
     {
@@ -37470,7 +37470,7 @@
     {
       "strongNb": 722,
       "hebreu": "אֲרוֹדִי",
-      "gloss": "Arodi ou Arodites = «je subjuguerai: j’errerai»",
+      "gloss": "Arodi ou Arodites = «je subjuguerai  j’errerai»",
       "vu": false
     },
     {
@@ -37488,7 +37488,7 @@
     {
       "strongNb": 725,
       "hebreu": "אֲרוּמָה",
-      "gloss": "Aruma = «je serai élevé», «une éminence»",
+      "gloss": "Aruma = «je serai élevé»",
       "vu": false
     },
     {
@@ -37614,7 +37614,7 @@
     {
       "strongNb": 746,
       "hebreu": "אֲריוֹך",
-      "gloss": "Arjoc = «comme un lion», «serviteur du dieu lune»",
+      "gloss": "Arjoc = «comme un lion»",
       "vu": false
     },
     {
@@ -37728,7 +37728,7 @@
     {
       "strongNb": 765,
       "hebreu": "אֲרָן",
-      "gloss": "Aran = «joyeux», «chèvre sauvage»",
+      "gloss": "Aran = «joyeux»",
       "vu": false
     },
     {
@@ -37758,13 +37758,13 @@
     {
       "strongNb": 770,
       "hebreu": "אַרנָן",
-      "gloss": "Arnan = «aigle», «leste, fort»",
+      "gloss": "Arnan = «aigle»",
       "vu": false
     },
     {
       "strongNb": 771,
       "hebreu": "אָרנָן",
-      "gloss": "Ornan = «la lumière fut perpétuée», «leurs sapins»",
+      "gloss": "Ornan = «la lumière fut perpétuée»",
       "vu": false
     },
     {
@@ -37788,7 +37788,7 @@
     {
       "strongNb": 775,
       "hebreu": "אַרפַּכשַׁד",
-      "gloss": "Arpacschad",
+      "gloss": "troisième fils de Sem",
       "vu": true
     },
     {
@@ -37800,7 +37800,7 @@
     {
       "strongNb": 777,
       "hebreu": "אַרצָּא",
-      "gloss": "Artsa = «sol», «ferme»",
+      "gloss": "Artsa = «sol»",
       "vu": false
     },
     {
@@ -37866,13 +37866,13 @@
     {
       "strongNb": 788,
       "hebreu": "אַשׁבֵּל",
-      "gloss": "Aschbel = «un homme en Dieu», « un homme de Baal», «feu de Bel»",
+      "gloss": "Aschbel = «un homme en Dieu»",
       "vu": false
     },
     {
       "strongNb": 789,
       "hebreu": "אַשׁבֵּלִי",
-      "gloss": "Aschbélites: voir Aschbel",
+      "gloss": "Aschbélites  voir Aschbel",
       "vu": false
     },
     {
@@ -37890,7 +37890,7 @@
     {
       "strongNb": 792,
       "hebreu": "אֶשׁבַּעַל",
-      "gloss": "Eschbaal = «un homme de Baal» (Baal=Seigneur)",
+      "gloss": "Eschbaal = «un homme de Baal»",
       "vu": false
     },
     {
@@ -37908,7 +37908,7 @@
     {
       "strongNb": 795,
       "hebreu": "אַשׁדּוֹד",
-      "gloss": "Asdod = «butin», «endroit fortifié, château» (Azot du Nouveau Testament)",
+      "gloss": "Asdod = «butin»",
       "vu": false
     },
     {
@@ -37962,7 +37962,7 @@
     {
       "strongNb": 804,
       "hebreu": "אַשּׁוּר אַשּׁוּר",
-      "gloss": "Assur ou Assyrie ou Assyrien = «un pas», «il s’en alla» (nom propre masculin)",
+      "gloss": "Assur ou Assyrie ou Assyrien = «un pas»",
       "vu": false
     },
     {
@@ -37980,7 +37980,7 @@
     {
       "strongNb": 807,
       "hebreu": "אֲשִׁימָא",
-      "gloss": "Aschima = «culpabilité», «désolé»",
+      "gloss": "Aschima = «culpabilité»",
       "vu": false
     },
     {
@@ -38076,7 +38076,7 @@
     {
       "strongNb": 823,
       "hebreu": "אַשׁנָה",
-      "gloss": "Aschna = «fort», «ancien»",
+      "gloss": "Aschna = «fort»",
       "vu": false
     },
     {
@@ -38124,13 +38124,13 @@
     {
       "strongNb": 831,
       "hebreu": "אַשׁקְלוֹן",
-      "gloss": "Askalon = «feu de l’infamie», «migration»?",
+      "gloss": "Askalon = «feu de l’infamie»",
       "vu": false
     },
     {
       "strongNb": 832,
       "hebreu": "אֶשׁקְלוֹנִי",
-      "gloss": "D’Askalon = «feu d’infamie: je serai pesé»",
+      "gloss": "D’Askalon = «feu d’infamie  je serai pesé»",
       "vu": false
     },
     {
@@ -38142,7 +38142,7 @@
     {
       "strongNb": 834,
       "hebreu": "אֲשֶׁר",
-      "gloss": "relatif : lequel, qui, ce que",
+      "gloss": "lequel, qui, ce que",
       "vu": false
     },
     {
@@ -38190,7 +38190,7 @@
     {
       "strongNb": 842,
       "hebreu": "אֲשֵׁרָה אֲשֵׁירָה",
-      "gloss": "Astarté: voir aussi 06253",
+      "gloss": "Astarté»",
       "vu": false
     },
     {
@@ -38202,7 +38202,7 @@
     {
       "strongNb": 844,
       "hebreu": "אַשׂרִיאֵל",
-      "gloss": "Asriel = «Je serai prince de Dieu», «vœu divin»?",
+      "gloss": "Asriel = «Je serai prince de Dieu»",
       "vu": false
     },
     {
@@ -38238,13 +38238,13 @@
     {
       "strongNb": 850,
       "hebreu": "אֶשׁתּוֹן",
-      "gloss": "Eschthon = «efféminé», «féminin», «repos»",
+      "gloss": "Eschthon = «efféminé »",
       "vu": false
     },
     {
       "strongNb": 851,
       "hebreu": "אֶשׁתְּמוַֹע אֶשׁתְּמוַֹע אֶשׁתְּמוֹה",
-      "gloss": "Eschthemo = «je me ferai entendre», «obéissance»",
+      "gloss": "Eschthemo = «je me ferai entendre»",
       "vu": false
     },
     {
@@ -38340,7 +38340,7 @@
     {
       "strongNb": 867,
       "hebreu": "אֶתנִי",
-      "gloss": "Ethni = «mon gage», «généreux, magnifique»?",
+      "gloss": "Ethni = «mon gage»",
       "vu": false
     },
     {
@@ -38430,7 +38430,7 @@
     {
       "strongNb": 882,
       "hebreu": "בְּאֵרִי",
-      "gloss": "Beéri = «mon puits», «homme du puits»",
+      "gloss": "Beéri = «mon puits»",
       "vu": false
     },
     {
@@ -38442,7 +38442,7 @@
     {
       "strongNb": 884,
       "hebreu": "בְּאֵר שֶׁבַע",
-      "gloss": "Beer-Schéba = «puits du serment», «puits des sept»",
+      "gloss": "Beer-Schéba = «puits du serment»",
       "vu": false
     },
     {
@@ -38502,7 +38502,7 @@
     {
       "strongNb": 894,
       "hebreu": "בָּבֶל",
-      "gloss": "Babel ou Babylone = «confusion (par mélange)» = «porte de Dieu»?",
+      "gloss": "Babel ou Babylone = «confusion (par mélange)»",
       "vu": false
     },
     {
@@ -38514,7 +38514,7 @@
     {
       "strongNb": 896,
       "hebreu": "בַּבלִי",
-      "gloss": "de Babylone: Babylonien, Babylonienne",
+      "gloss": "de Babylone, babylonien",
       "vu": false
     },
     {
@@ -38562,7 +38562,7 @@
     {
       "strongNb": 904,
       "hebreu": "בִּגתָּן בִּגתָּנָא",
-      "gloss": "Bigthan = «dans leur pressoir» = «don de la bonne chance» (en persan)",
+      "gloss": "Bigthan = «dans leur pressoir»",
       "vu": false
     },
     {
@@ -38592,7 +38592,7 @@
     {
       "strongNb": 909,
       "hebreu": "בָּדַד",
-      "gloss": "retirer, être séparé, être isoléune armée de traînards (particule)Ephraïm (métaph.)",
+      "gloss": "retirer, être séparé, être isolé",
       "vu": false
     },
     {
@@ -39036,7 +39036,7 @@
     {
       "strongNb": 983,
       "hebreu": "בֶּטַח",
-      "gloss": "sécurité, sûreté, sûrement",
+      "gloss": "sécurité, sûreté",
       "vu": false
     },
     {
@@ -39090,7 +39090,7 @@
     {
       "strongNb": 992,
       "hebreu": "בּוֹטֶן",
-      "gloss": "noix de pistaches: gâterie donnée à Joseph par Jacob par l’intermédiaire de ses fils",
+      "gloss": "pistache",
       "vu": false
     },
     {
@@ -39174,7 +39174,7 @@
     {
       "strongNb": 1006,
       "hebreu": "בַּיִת",
-      "gloss": "Peut-être traduit par «Bajith», «maison»",
+      "gloss": "Peut-être traduit par «Bajith»",
       "vu": false
     },
     {
@@ -39240,7 +39240,7 @@
     {
       "strongNb": 1017,
       "hebreu": "בֵּיתּ הָאֱלִי",
-      "gloss": "De béthel: Béthelite?",
+      "gloss": "De béthel  Béthelite?",
       "vu": false
     },
     {
@@ -39258,7 +39258,7 @@
     {
       "strongNb": 1020,
       "hebreu": "בֵּיתּ הַיְשִׁימוֹת",
-      "gloss": "Beth-Jeschimoth = «maison de la désolation» = «maison des déserts»",
+      "gloss": "Beth-Jeschimoth = «maison de la désolation»",
       "vu": false
     },
     {
@@ -39276,7 +39276,7 @@
     {
       "strongNb": 1023,
       "hebreu": "בֵּיתּ הַמֶּרחָק",
-      "gloss": "Beth-Merkhak = «maison éloignée» = «dernière maison»",
+      "gloss": "Beth-Merkhak = «maison éloignée»",
       "vu": false
     },
     {
@@ -39294,7 +39294,7 @@
     {
       "strongNb": 1026,
       "hebreu": "בֵּיתּ הָעֲרָבָה",
-      "gloss": "Beth-Araba = «maison de la vallée désertique» = «lieu de la dépression»",
+      "gloss": "Beth-Araba = «maison de la vallée désertique»",
       "vu": false
     },
     {
@@ -39306,13 +39306,13 @@
     {
       "strongNb": 1028,
       "hebreu": "בֵּיתּ הָרָן",
-      "gloss": "Beth-Haran = «maison de la hauteur» = «maison du cri de joie»",
+      "gloss": "Beth-Haran = «maison de la hauteur»",
       "vu": false
     },
     {
       "strongNb": 1029,
       "hebreu": "בֵּיתּ הַשִּׁטָּה",
-      "gloss": "Beth-Schitta = «maison de l’acacia», «endroit de l’acacia»",
+      "gloss": "Beth-Schitta = «maison de l’acacia»",
       "vu": false
     },
     {
@@ -39336,7 +39336,7 @@
     {
       "strongNb": 1033,
       "hebreu": "בֵּיתּ כַּר",
-      "gloss": "Beth-Car = «maison du pâturage», «endroit de l’agneau»",
+      "gloss": "Beth-Car = «maison du pâturage»",
       "vu": false
     },
     {
@@ -39354,19 +39354,19 @@
     {
       "strongNb": 1036,
       "hebreu": "בֵּיתּ לְעַפרָה",
-      "gloss": "Beth-Leaphra",
+      "gloss": "Beth-Leaphra»",
       "vu": false
     },
     {
       "strongNb": 1037,
       "hebreu": "בֵּיתּ מִלּוֹא בֵּיתּ מִלּוֹא",
-      "gloss": "Beth-Millo = «maison de Millo» ou «maison du rempart»",
+      "gloss": "Beth-Millo = «maison de Millo»",
       "vu": false
     },
     {
       "strongNb": 1038,
       "hebreu": "בֵּיתּ מַעֲכָה",
-      "gloss": "Beth-Maaca = «maison de l’oppression» = «maison de Maaca»",
+      "gloss": "Beth-Maaca = «maison de l’oppression»",
       "vu": false
     },
     {
@@ -39390,13 +39390,13 @@
     {
       "strongNb": 1042,
       "hebreu": "בֵּיתּ עֲנוֹת",
-      "gloss": "Beth-Anoth = «maison des réponses, ou écho» = «maison de la déesse Anath»",
+      "gloss": "Beth-Anoth = «maison des réponses, ou écho»",
       "vu": false
     },
     {
       "strongNb": 1043,
       "hebreu": "בֵּיתּ עֲנָת",
-      "gloss": "Beth-Anath = «maison de la déesse Anath» = «maison de l’exaucement»",
+      "gloss": "Beth-Anath = «maison de la déesse Anath»",
       "vu": false
     },
     {
@@ -39456,13 +39456,13 @@
     {
       "strongNb": 1053,
       "hebreu": "בֵּיתּ שֶׁמֶשׁ",
-      "gloss": "Beth-Schémesch = «maison du soleil» ou «temple du soleil»",
+      "gloss": "Beth-Schémesch = «maison du soleil»",
       "vu": false
     },
     {
       "strongNb": 1054,
       "hebreu": "בַּיתּ תַּפּוַּח",
-      "gloss": "Beth-Tappuach = «maison des pommes» ou «endroit des pommes»",
+      "gloss": "Beth-Tappuach = «maison des pommes»",
       "vu": false
     },
     {
@@ -39486,7 +39486,7 @@
     {
       "strongNb": 1058,
       "hebreu": "בָּכָה",
-      "gloss": "pleurer, se lamenter, crier, verser des larmespleurerpleurer (de chagrin, d’humiliation, ou de joie)",
+      "gloss": "pleurer, se lamenter, crier, verser des larmes",
       "vu": false
     },
     {
@@ -39516,8 +39516,8 @@
     {
       "strongNb": 1063,
       "hebreu": "בִּכּוּרָה",
-      "gloss": "première récolte, exemple: figue hâtive",
-      "vu": false
+      "gloss": "première récolte, premiers fruits",
+      "vu": true
     },
     {
       "strongNb": 1064,
@@ -39612,7 +39612,7 @@
     {
       "strongNb": 1079,
       "hebreu": "בָּל",
-      "gloss": "esprit, cœur: prendre à cœur",
+      "gloss": "esprit, cœur, prendre à cœur",
       "vu": false
     },
     {
@@ -39624,7 +39624,7 @@
     {
       "strongNb": 1081,
       "hebreu": "בַּלאֲדָן",
-      "gloss": "Baladan = «Bel est son seigneur», «il a donné un fils»",
+      "gloss": "Baladan = «Bel est son seigneur»",
       "vu": false
     },
     {
@@ -39678,7 +39678,7 @@
     {
       "strongNb": 1090,
       "hebreu": "בִּלהָה",
-      "gloss": "Bilha = «dérangée», «timidité»",
+      "gloss": "Bilha = «dérangée»",
       "vu": false
     },
     {
@@ -39708,19 +39708,19 @@
     {
       "strongNb": 1095,
       "hebreu": "בֵּלטְּשַׁאצַּר",
-      "gloss": "Beltschatsar = «qu’il protège sa vie» = « éclat de splendeur»",
+      "gloss": "Beltschatsar = «qu’il protège sa vie»",
       "vu": false
     },
     {
       "strongNb": 1096,
       "hebreu": "בֵּלטְּשַׁאצַּר",
-      "gloss": "Beltschatsar = «qu’il protège sa vie» = « éclat de splendeur»",
+      "gloss": "Beltschatsar = «qu’il protège sa vie»",
       "vu": false
     },
     {
       "strongNb": 1097,
       "hebreu": "בְּלִי",
-      "gloss": "sans, pas de, ne pas, nul...",
+      "gloss": "sans, pas de, ne pas, nul",
       "vu": false
     },
     {
@@ -39792,7 +39792,7 @@
     {
       "strongNb": 1109,
       "hebreu": "בִּלעָם",
-      "gloss": "Balaam (Bileam) = «pas du peuple», «dévorant»",
+      "gloss": "Balaam (Bileam) = «pas du peuple»",
       "vu": false
     },
     {
@@ -39804,7 +39804,7 @@
     {
       "strongNb": 1111,
       "hebreu": "בָּלָק",
-      "gloss": "Balak = «dévastateur», «gaspilleur»",
+      "gloss": "Balak = «dévastateur»",
       "vu": false
     },
     {
@@ -39822,7 +39822,7 @@
     {
       "strongNb": 1114,
       "hebreu": "בִּלשָׁן",
-      "gloss": "Bilschan = « éloquent», « qui cherche», «dans la calomnie»",
+      "gloss": "Bilschan = « éloquent»",
       "vu": false
     },
     {
@@ -39852,7 +39852,7 @@
     {
       "strongNb": 1119,
       "hebreu": "בְּמוֹ",
-      "gloss": "dans, à, par,...",
+      "gloss": "dans, à, par,",
       "vu": false
     },
     {
@@ -39900,13 +39900,13 @@
     {
       "strongNb": 1127,
       "hebreu": "בֶּן ־ גֶּבֶר",
-      "gloss": "(Ben-Guéber: le fils de Guéber) Guéber =\"un homme, un héros",
+      "gloss": "(Ben-Guéber: le fils de Guéber) Guéber =\"un homme, un héros\"»",
       "vu": false
     },
     {
       "strongNb": 1128,
       "hebreu": "בֶּן ־ דֶּקֶר",
-      "gloss": "(Ben-Déker: «fils de Déker»)",
+      "gloss": "(Ben-Déker: «fils de Déker»",
       "vu": false
     },
     {
@@ -39942,19 +39942,19 @@
     {
       "strongNb": 1134,
       "hebreu": "בֶּן ־ חַיִל",
-      "gloss": "Ben-Haïl = «fils de la force», «vertueux»",
+      "gloss": "Ben-Haïl = «fils de la force»",
       "vu": false
     },
     {
       "strongNb": 1135,
       "hebreu": "בֶּן ־ חָנָן",
-      "gloss": "Ben-Hanan = «fils de la faveur», «fils d’un homme bienveillant»",
+      "gloss": "Ben-Hanan = «fils de la faveur»",
       "vu": false
     },
     {
       "strongNb": 1136,
       "hebreu": "בֶּן ־ חֶסֶד",
-      "gloss": "Ben-Hésed: «fils de Hésed», Hésed: «miséricorde»",
+      "gloss": "Ben-Hésed = «fils de Hésed»",
       "vu": false
     },
     {
@@ -39972,7 +39972,7 @@
     {
       "strongNb": 1139,
       "hebreu": "בְּנֵי ־ בְּרַק",
-      "gloss": "Bené-Berak = «fils de Berak», «fils des éclairs»",
+      "gloss": "Bené-Berak = «fils de Berak»",
       "vu": false
     },
     {
@@ -39990,7 +39990,7 @@
     {
       "strongNb": 1142,
       "hebreu": "בְּנֵי יַעֲקָן",
-      "gloss": "Bené-Jaakan = «fils de Jaakan», «fils de celui qui tord»",
+      "gloss": "Bené-Jaakan = «fils de Jaakan»",
       "vu": false
     },
     {
@@ -40002,7 +40002,7 @@
     {
       "strongNb": 1144,
       "hebreu": "בִּניָמִין",
-      "gloss": "Benjamin = «fils de ma main droite», «fils de félicité»",
+      "gloss": "Benjamin = «fils de ma main droite»",
       "vu": false
     },
     {
@@ -40038,7 +40038,7 @@
     {
       "strongNb": 1150,
       "hebreu": "בִּנעָא בִּנעָה",
-      "gloss": "Binea = «fontaine», «qui jaillit»",
+      "gloss": "Binea = «fontaine»",
       "vu": false
     },
     {
@@ -40050,7 +40050,7 @@
     {
       "strongNb": 1152,
       "hebreu": "בְּסוֹדְיָה",
-      "gloss": "Besodia = «familier de l’Éternel» = «dans le secret du Seigneur»",
+      "gloss": "Besodia = «familier de l’Éternel»",
       "vu": false
     },
     {
@@ -40188,7 +40188,7 @@
     {
       "strongNb": 1175,
       "hebreu": "בְּעָלוֹת",
-      "gloss": "Bealoth (Angl: Baalath, Aloth) = «fournissant du lait»",
+      "gloss": "Bealoth = «fournissant du lait»",
       "vu": false
     },
     {
@@ -40218,13 +40218,13 @@
     {
       "strongNb": 1180,
       "hebreu": "בַּעֲלִי",
-      "gloss": "Baali: «mon seigneur, mon maître»",
+      "gloss": "Baali  «mon seigneur, mon maître»",
       "vu": false
     },
     {
       "strongNb": 1181,
       "hebreu": "בַּעֲלֵי בָּמוֹת",
-      "gloss": "Baale-Hamoth: «les seigneurs des hauts lieux»",
+      "gloss": "Baale-Hamoth  «les seigneurs des hauts lieux»",
       "vu": false
     },
     {
@@ -40248,7 +40248,7 @@
     {
       "strongNb": 1185,
       "hebreu": "בַּעֲלִיס",
-      "gloss": "Baalis = «seigneur de la bannière», «seigneur d’exultation»",
+      "gloss": "Baalis = «seigneur de la bannière»",
       "vu": false
     },
     {
@@ -40320,7 +40320,7 @@
     {
       "strongNb": 1197,
       "hebreu": "בָּעַר",
-      "gloss": "brûler, consumer, allumer, être allumécommencer à brûlercolère de l’Éternel, colère humaine (figuré)",
+      "gloss": "brûler, consumer, allumer, être allumé",
       "vu": false
     },
     {
@@ -40332,7 +40332,7 @@
     {
       "strongNb": 1199,
       "hebreu": "בָּעֲרָא",
-      "gloss": "Baara = «stupide», «qui brûle»",
+      "gloss": "Baara = «stupide»",
       "vu": false
     },
     {
@@ -40356,7 +40356,7 @@
     {
       "strongNb": 1203,
       "hebreu": "בְּעֶשׁתְּרָה",
-      "gloss": "Beeschthra = «avec accroissement» = «temple d’Astarté»",
+      "gloss": "Beeschthra = «avec accroissement»",
       "vu": false
     },
     {
@@ -40410,13 +40410,13 @@
     {
       "strongNb": 1212,
       "hebreu": "בְּצַלאֵל",
-      "gloss": "Betsaleel = « à l’ombre», «sous la protection de Dieu»",
+      "gloss": "Betsaleel = « à l’ombre»",
       "vu": false
     },
     {
       "strongNb": 1213,
       "hebreu": "בַּצלוּת בַּצלִיתּ",
-      "gloss": "Batsluth = «dépouillant», «nudité»",
+      "gloss": "Batsluth = «dépouillant»",
       "vu": false
     },
     {
@@ -40452,7 +40452,7 @@
     {
       "strongNb": 1219,
       "hebreu": "בָּצַר",
-      "gloss": "recueillir, contenir, enclore, fortifier, rendre inaccessible,coupé, fortifié, rendu inaccessiblesecrets, mystères, choses inaccessibles",
+      "gloss": "recueillir, contenir, enclore, fortifier, rendre inaccessible,",
       "vu": false
     },
     {
@@ -40590,7 +40590,7 @@
     {
       "strongNb": 1242,
       "hebreu": "בּוֹקֶר",
-      "gloss": "matin, point du jourmatinfin de la nuit",
+      "gloss": "matin, point du jour",
       "vu": false
     },
     {
@@ -40632,7 +40632,7 @@
     {
       "strongNb": 1249,
       "hebreu": "בַּר",
-      "gloss": "pur, clair, sincère, propre, vide, purement",
+      "gloss": "pur, clair, sincère",
       "vu": false
     },
     {
@@ -40662,7 +40662,7 @@
     {
       "strongNb": 1254,
       "hebreu": "בָּרָא",
-      "gloss": "créer, formerformer, façonner, créer (toujours avec Dieu comme sujet)le ciel, la terre, l’homme, les conditions, les circonstances, les transformations",
+      "gloss": "créer, former",
       "vu": false
     },
     {
@@ -40746,13 +40746,13 @@
     {
       "strongNb": 1268,
       "hebreu": "בֵּרוֹתָה בֵּרוֹתַי",
-      "gloss": "Bérotha, Bérothaï = «bosquet de cyprès» = «puits de l’Éternel» = «nourriture»",
+      "gloss": "Bérotha, Bérothaï = «bosquet de cyprès»",
       "vu": false
     },
     {
       "strongNb": 1269,
       "hebreu": "בִּרזוֹת",
-      "gloss": "Birzavith = «dans la maigreur» = «choix d’olives»",
+      "gloss": "Birzavith = «dans la maigreur»",
       "vu": false
     },
     {
@@ -40830,7 +40830,7 @@
     {
       "strongNb": 1282,
       "hebreu": "בָּרִיַח",
-      "gloss": "Bariach = «qui s’enfuit» ou «fugitif»",
+      "gloss": "Bariach = «qui s’enfuit»",
       "vu": false
     },
     {
@@ -40848,7 +40848,7 @@
     {
       "strongNb": 1285,
       "hebreu": "בְּרִיתּ",
-      "gloss": "pacte, alliance, engagemententre hommestraité, alliance, ligue",
+      "gloss": "pacte, alliance, engagement",
       "vu": false
     },
     {
@@ -40866,7 +40866,7 @@
     {
       "strongNb": 1288,
       "hebreu": "בָּרַך",
-      "gloss": "bénir, s’agenouiller, louer, saluer, maudire, outrager",
+      "gloss": "bénir, s’agenouiller",
       "vu": false
     },
     {
@@ -40926,7 +40926,7 @@
     {
       "strongNb": 1298,
       "hebreu": "בֶּרַע",
-      "gloss": "Béra = «fils du mal» = «qui brille en science»",
+      "gloss": "Béra = «fils du mal»",
       "vu": false
     },
     {
@@ -40950,7 +40950,7 @@
     {
       "strongNb": 1302,
       "hebreu": "בַּרקוֹס",
-      "gloss": "Barkos = «peintre», «le fils séparé»",
+      "gloss": "Barkos = «peintre»",
       "vu": false
     },
     {
@@ -40980,7 +40980,7 @@
     {
       "strongNb": 1307,
       "hebreu": "בֵּרוֹתִי",
-      "gloss": "de Béroth: un habitant de Bérotha",
+      "gloss": "de Béroth, un habitant de Bérotha",
       "vu": false
     },
     {
@@ -41028,13 +41028,13 @@
     {
       "strongNb": 1315,
       "hebreu": "בָּשׂמַת",
-      "gloss": "Basmath = « épice», «parfum»",
+      "gloss": "Basmath = « épice»",
       "vu": false
     },
     {
       "strongNb": 1316,
       "hebreu": "בָּשָׁן",
-      "gloss": "Basan = «fertile», «large»",
+      "gloss": "Basan = «fertile»",
       "vu": false
     },
     {
@@ -41058,7 +41058,7 @@
     {
       "strongNb": 1320,
       "hebreu": "בָּשָׂר",
-      "gloss": "chairle corpsdes humains",
+      "gloss": "chair",
       "vu": false
     },
     {
@@ -41076,19 +41076,19 @@
     {
       "strongNb": 1323,
       "hebreu": "בַּת",
-      "gloss": "fille, jeune femme, femme",
+      "gloss": "fille",
       "vu": false
     },
     {
       "strongNb": 1324,
       "hebreu": "בַּת",
-      "gloss": "bath, unité de mesure de liquide, égale à l’épha, mesure de produitssecs",
+      "gloss": "bath, unité de mesure de liquide, égale à l’épha, mesure de produitssecs (environ quarante litres)",
       "vu": false
     },
     {
       "strongNb": 1325,
       "hebreu": "בַּת",
-      "gloss": "bath, unité de mesure de liquide, d’environ quarante litres, égale au volume de l’épha, mesure de liquide, d’environ vingt-deux litres",
+      "gloss": "bath, unité de mesure de liquide, d’environ quarante litres, égale au volume de l’épha",
       "vu": false
     },
     {
@@ -41106,13 +41106,13 @@
     {
       "strongNb": 1328,
       "hebreu": "בְּתוּאֵל",
-      "gloss": "Bethuel = «Dieu détruit» ou «homme de Dieu» ou «demeure de Dieu»",
+      "gloss": "Bethuel = «Dieu détruit»",
       "vu": false
     },
     {
       "strongNb": 1329,
       "hebreu": "בְּתוּל",
-      "gloss": "Bethul = «Dieu détruit» ou «homme de Dieu» ou «demeurer en Dieu»",
+      "gloss": "Bethul = «Dieu détruit»",
       "vu": false
     },
     {
@@ -41166,7 +41166,7 @@
     {
       "strongNb": 1338,
       "hebreu": "בִּתרוֹן",
-      "gloss": "Bithron = «division» ou «fente» ou «ravin»",
+      "gloss": "Bithron = «division»",
       "vu": false
     },
     {
@@ -41220,7 +41220,7 @@
     {
       "strongNb": 1347,
       "hebreu": "גָּאוֹן",
-      "gloss": "exaltation, majesté, orgueil, excellencemajesté (bon sens)des nations",
+      "gloss": "exaltation, majesté, orgueil, excellence",
       "vu": false
     },
     {
@@ -41286,7 +41286,7 @@
     {
       "strongNb": 1358,
       "hebreu": "גּוֹב",
-      "gloss": "fosse, antre",
+      "gloss": "fosse, antre (de lions)",
       "vu": false
     },
     {
@@ -41376,7 +41376,7 @@
     {
       "strongNb": 1373,
       "hebreu": "גַּבַּי",
-      "gloss": "Gabbaï = «mon dos», «percepteur des impôts»",
+      "gloss": "Gabbaï = «mon dos»",
       "vu": false
     },
     {
@@ -41508,13 +41508,13 @@
     {
       "strongNb": 1395,
       "hebreu": "גִּבעָתִי",
-      "gloss": "de Guibea: un habitant de Guibea",
+      "gloss": "de Guibea, un habitant de Guibea",
       "vu": false
     },
     {
       "strongNb": 1396,
       "hebreu": "גָּבַר",
-      "gloss": "prévaloir, avoir de la force, être fort, puissant, grandrendre fort, fortifier",
+      "gloss": "prévaloir, avoir de la force, être fort, puissant, grand",
       "vu": false
     },
     {
@@ -41550,13 +41550,13 @@
     {
       "strongNb": 1402,
       "hebreu": "גִּבָּר",
-      "gloss": "Guibbar = «le vaillant», «homme puissant, héros»",
+      "gloss": "Guibbar = «le vaillant»",
       "vu": false
     },
     {
       "strongNb": 1403,
       "hebreu": "גַּברִיאֵל",
-      "gloss": "Gabriel = «héros de Dieu» ou «homme de Dieu»",
+      "gloss": "Gabriel = «héros de Dieu»",
       "vu": false
     },
     {
@@ -41652,7 +41652,7 @@
     {
       "strongNb": 1419,
       "hebreu": "גָּדוֹל גָּדוֹל",
-      "gloss": "grandlarge (en grandeur et étendue)",
+      "gloss": "grand",
       "vu": false
     },
     {
@@ -41688,7 +41688,7 @@
     {
       "strongNb": 1425,
       "hebreu": "גָּדִי",
-      "gloss": "Gadite = «un envahisseur: une troupe: fortune»",
+      "gloss": "Gadite = «un envahisseur  une troupe  fortune»",
       "vu": false
     },
     {
@@ -41700,7 +41700,7 @@
     {
       "strongNb": 1427,
       "hebreu": "גַּדִּיאֵל",
-      "gloss": "Gaddiel = «Dieu est ma fortune», «béni de Dieu»",
+      "gloss": "Gaddiel = «Dieu est ma fortune»",
       "vu": false
     },
     {
@@ -41778,7 +41778,7 @@
     {
       "strongNb": 1440,
       "hebreu": "גִּדעוֹם",
-      "gloss": "Guideom = «une coupure», «retranchement»",
+      "gloss": "Guideom = «une coupure»",
       "vu": false
     },
     {
@@ -41850,7 +41850,7 @@
     {
       "strongNb": 1452,
       "hebreu": "גְּדֵרָתִי",
-      "gloss": "de Guedéra: un habitant de Guedéra",
+      "gloss": "de Guedéra, un habitant de Guedéra",
       "vu": false
     },
     {
@@ -41958,7 +41958,7 @@
     {
       "strongNb": 1470,
       "hebreu": "גּוֹזָן",
-      "gloss": "Gozan = «une découpe», «nourriture»",
+      "gloss": "Gozan = «une découpe»",
       "vu": false
     },
     {
@@ -41982,7 +41982,7 @@
     {
       "strongNb": 1474,
       "hebreu": "גּוֹלָן",
-      "gloss": "Golan = «leur captivité», «passage», «exode»",
+      "gloss": "Golan = «leur captivité »",
       "vu": false
     },
     {
@@ -41994,7 +41994,7 @@
     {
       "strongNb": 1476,
       "hebreu": "גּוּנִי",
-      "gloss": "Guni = «mon défenseur», « protégé», «jardin»",
+      "gloss": "Guni = «mon défenseur»",
       "vu": false
     },
     {
@@ -42036,7 +42036,7 @@
     {
       "strongNb": 1483,
       "hebreu": "גּוּר",
-      "gloss": "Gur = «séjour», «jeune animal, lionceau»",
+      "gloss": "Gur = «séjour»",
       "vu": false
     },
     {
@@ -42162,7 +42162,7 @@
     {
       "strongNb": 1504,
       "hebreu": "גָּזַר",
-      "gloss": "couper, diviser, abattre, couper en deux, saisir, décréterexterminer",
+      "gloss": "couper, diviser, abattre, couper en deux, saisir, décréter",
       "vu": false
     },
     {
@@ -42258,13 +42258,13 @@
     {
       "strongNb": 1520,
       "hebreu": "גִּיַח",
-      "gloss": "Guiach = «se rompre», «jaillir comme une source»",
+      "gloss": "Guiach = «se rompre»",
       "vu": false
     },
     {
       "strongNb": 1521,
       "hebreu": "גִּיחוֹן גִּחוֹן",
-      "gloss": "Guihon = «qui éclate», «source jaillissante»",
+      "gloss": "Guihon = «qui éclate»",
       "vu": false
     },
     {
@@ -42318,7 +42318,7 @@
     {
       "strongNb": 1530,
       "hebreu": "גַּל",
-      "gloss": "tas, source, une vague, une lame (grosse vague)tas, monceau de pierressur un cadavre",
+      "gloss": "tas, source, une vague, une lame (grosse vague)",
       "vu": false
     },
     {
@@ -42378,7 +42378,7 @@
     {
       "strongNb": 1540,
       "hebreu": "גָּלָה",
-      "gloss": "découvrir, enleverquitteraller en exil",
+      "gloss": "découvrir, enlever",
       "vu": false
     },
     {
@@ -42462,13 +42462,13 @@
     {
       "strongNb": 1554,
       "hebreu": "גַּלִּים",
-      "gloss": "Gallim = «sources», «tas»",
+      "gloss": "Gallim = «sources»",
       "vu": false
     },
     {
       "strongNb": 1555,
       "hebreu": "גָּליַת",
-      "gloss": "Goliath = «exilé», «splendeur»",
+      "gloss": "Goliath = «exilé»",
       "vu": false
     },
     {
@@ -42510,7 +42510,7 @@
     {
       "strongNb": 1562,
       "hebreu": "גִּלֲלַי",
-      "gloss": "Guilalaï = «pesant», «lourd»",
+      "gloss": "Guilalaï = «pesant»",
       "vu": false
     },
     {
@@ -42534,7 +42534,7 @@
     {
       "strongNb": 1566,
       "hebreu": "גָּלַע",
-      "gloss": "exposer, mettre à nuse révéler soi-mêmes’emporter (dans une lutte)",
+      "gloss": "exposer, mettre à nu",
       "vu": false
     },
     {
@@ -42558,7 +42558,7 @@
     {
       "strongNb": 1570,
       "hebreu": "גָּלַשׁ",
-      "gloss": "être assis, se dresser, accrocherde troupeaux de chèvresde la chevelure d’une femme",
+      "gloss": "être assis, se dresser, accrocher",
       "vu": false
     },
     {
@@ -42600,7 +42600,7 @@
     {
       "strongNb": 1577,
       "hebreu": "גָּמוּל",
-      "gloss": "Gamul = «sevré», «récompensé»",
+      "gloss": "Gamul = «sevré»",
       "vu": false
     },
     {
@@ -42792,14 +42792,14 @@
     {
       "strongNb": 1609,
       "hebreu": "גַּעתָּם",
-      "gloss": "Gaetham = «maigre, faible», «une vallée brûlée»",
+      "gloss": "Gaetham = «maigre, faible»",
       "vu": false
     },
     {
       "strongNb": 1610,
       "hebreu": "גַּף",
-      "gloss": "corps, soi (seulement dans une phrase, exemple: par lui-même)",
-      "vu": false
+      "gloss": "corps, soi, seul, sommet",
+      "vu": true
     },
     {
       "strongNb": 1611,
@@ -42840,7 +42840,7 @@
     {
       "strongNb": 1617,
       "hebreu": "גֵּרָא",
-      "gloss": "Guéra = «un grain»Plus petite unité de poids: ce qui est léger, insignifiant",
+      "gloss": "Guéra = «un grain»",
       "vu": false
     },
     {
@@ -42918,7 +42918,7 @@
     {
       "strongNb": 1630,
       "hebreu": "גְּרִזִים",
-      "gloss": "Garizim = «coupant», «lieux arides»",
+      "gloss": "Garizim = «coupant»",
       "vu": false
     },
     {
@@ -43020,7 +43020,7 @@
     {
       "strongNb": 1647,
       "hebreu": "גֵּרְשׁוֹם",
-      "gloss": "Guerschom = « étranger», «bannissement»",
+      "gloss": "Guerschom = « étranger»",
       "vu": false
     },
     {
@@ -43038,7 +43038,7 @@
     {
       "strongNb": 1650,
       "hebreu": "גְּשׁוּר",
-      "gloss": "Gueschur = «orgueilleux», «pont»",
+      "gloss": "Gueschur = «orgueilleux»",
       "vu": false
     },
     {
@@ -43080,13 +43080,13 @@
     {
       "strongNb": 1657,
       "hebreu": "גּוֹשֶׁן",
-      "gloss": "Gosen = «lieu du soleil», « terre de force», «terre herbeuse»",
+      "gloss": "Gosen = «lieu du soleil»",
       "vu": false
     },
     {
       "strongNb": 1658,
       "hebreu": "גִּשׁפָּא",
-      "gloss": "Guischpa = «caresse», « doux», «qui écoute»",
+      "gloss": "Guischpa = «caresse»",
       "vu": false
     },
     {
@@ -43362,13 +43362,13 @@
     {
       "strongNb": 1704,
       "hebreu": "דִּברִי",
-      "gloss": "Dibri = «loquace», ma parole",
+      "gloss": "Dibri = «loquace»",
       "vu": false
     },
     {
       "strongNb": 1705,
       "hebreu": "דָּבְרַת",
-      "gloss": "Dabrath = «mot», «pâturage, terrain»",
+      "gloss": "Dabrath = «mot»",
       "vu": false
     },
     {
@@ -43386,7 +43386,7 @@
     {
       "strongNb": 1708,
       "hebreu": "דַּבֶּשֶׁת",
-      "gloss": "Dabbéscheth = «une colline», «bosse de chameau»",
+      "gloss": "Dabbéscheth = «une colline»",
       "vu": false
     },
     {
@@ -43560,7 +43560,7 @@
     {
       "strongNb": 1737,
       "hebreu": "דּוֹדַי",
-      "gloss": "Dodaï = «aimant» ou «amoureux»",
+      "gloss": "Dodaï = «aimant»",
       "vu": false
     },
     {
@@ -43674,13 +43674,13 @@
     {
       "strongNb": 1756,
       "hebreu": "דּוֹר דּוֹאר",
-      "gloss": "Dor = «génération», «habitation»",
+      "gloss": "Dor = «génération»",
       "vu": false
     },
     {
       "strongNb": 1757,
       "hebreu": "דּוּרָא",
-      "gloss": "Dura = «demeurant», «circuit, muraille»",
+      "gloss": "Dura = «demeurant»",
       "vu": false
     },
     {
@@ -43746,13 +43746,13 @@
     {
       "strongNb": 1768,
       "hebreu": "דִּי",
-      "gloss": "Indique la relation",
+      "gloss": "qui, lequel, que",
       "vu": false
     },
     {
       "strongNb": 1769,
       "hebreu": "דִּיבּוֹן דִּיבּוֹן",
-      "gloss": "Dibon = «trop-plein», « larmes», «rivière»",
+      "gloss": "Dibon = «trop-plein»",
       "vu": false
     },
     {
@@ -43788,13 +43788,13 @@
     {
       "strongNb": 1775,
       "hebreu": "דִּימוֹן",
-      "gloss": "Dimon = «lit du fleuve» ou «silence»",
+      "gloss": "Dimon = «lit du fleuve»",
       "vu": false
     },
     {
       "strongNb": 1776,
       "hebreu": "דִּימוֹנָה",
-      "gloss": "Dimona = «lit du fleuve» ou «silence»",
+      "gloss": "Dimona = «lit du fleuve»",
       "vu": false
     },
     {
@@ -43980,7 +43980,7 @@
     {
       "strongNb": 1807,
       "hebreu": "דְּלִילָה",
-      "gloss": "Delila = «faible», «coquette»",
+      "gloss": "Delila = «faible»",
       "vu": false
     },
     {
@@ -43992,7 +43992,7 @@
     {
       "strongNb": 1809,
       "hebreu": "דָּלַל",
-      "gloss": "pendre, languir, suspendre, être basêtre bassuspendre",
+      "gloss": "pendre, languir, suspendre, être bas",
       "vu": false
     },
     {
@@ -44004,7 +44004,7 @@
     {
       "strongNb": 1811,
       "hebreu": "דָּלַף",
-      "gloss": "tomber, dégoutterfaire eaupleurer (des larmes)",
+      "gloss": "tomber, dégoutter",
       "vu": false
     },
     {
@@ -44016,7 +44016,7 @@
     {
       "strongNb": 1813,
       "hebreu": "דַּלפוֹן",
-      "gloss": "Dalphon = «qui déverse», exténuant",
+      "gloss": "Dalphon = «qui déverse»",
       "vu": false
     },
     {
@@ -44040,7 +44040,7 @@
     {
       "strongNb": 1817,
       "hebreu": "דֶּלֶת",
-      "gloss": "porte, barrière(figuré)de couvercle de coffre",
+      "gloss": "porte, barrière",
       "vu": false
     },
     {
@@ -44052,13 +44052,13 @@
     {
       "strongNb": 1819,
       "hebreu": "דָּמָה",
-      "gloss": "être comme, ressembler àcomparerimaginer, penser, résoudre",
+      "gloss": "être comme, ressembler à",
       "vu": false
     },
     {
       "strongNb": 1820,
       "hebreu": "דָּמָה",
-      "gloss": "cesser, couper, détruire, périrêtre perdu, être ravagéêtre perdu en égard à la théophanie",
+      "gloss": "cesser, couper, détruire, périr",
       "vu": false
     },
     {
@@ -44142,7 +44142,7 @@
     {
       "strongNb": 1834,
       "hebreu": "דַּמֶּשֶׂק דּוּמֶשֶׂק דַּרמֶשֶׂק",
-      "gloss": "Damas = «silence de celui qui tisse les sacs pour se vêtir» = «ville de Cham»",
+      "gloss": "Damas = «silence de celui qui tisse les sacs pour se vêtir»",
       "vu": false
     },
     {
@@ -44280,13 +44280,13 @@
     {
       "strongNb": 1857,
       "hebreu": "דֶּקֶר",
-      "gloss": "Déker = «qui perce», «qui porte la lance»",
+      "gloss": "Déker = «qui perce»",
       "vu": false
     },
     {
       "strongNb": 1858,
       "hebreu": "דַּר",
-      "gloss": "perle",
+      "gloss": "perle,",
       "vu": false
     },
     {
@@ -44382,7 +44382,7 @@
     {
       "strongNb": 1874,
       "hebreu": "דַּרקוֹן",
-      "gloss": "Darkon = «qui disperse», «qui porte, qui perce»",
+      "gloss": "Darkon = «qui disperse»",
       "vu": false
     },
     {
@@ -44406,7 +44406,7 @@
     {
       "strongNb": 1878,
       "hebreu": "דָּשֵׁן",
-      "gloss": "être gras, engraisser, devenir prospère, oindreprospérité (figuré)",
+      "gloss": "être gras, engraisser, devenir prospère, oindre",
       "vu": false
     },
     {
@@ -44418,7 +44418,7 @@
     {
       "strongNb": 1880,
       "hebreu": "דֶּשֶׁן",
-      "gloss": "cendres grasses, embonpointabondancede fertilité",
+      "gloss": "cendres grasses, embonpoint",
       "vu": false
     },
     {
@@ -44568,7 +44568,7 @@
     {
       "strongNb": 1905,
       "hebreu": "הַגרִי הַגרִיא",
-      "gloss": "Hagaréniens",
+      "gloss": "Hagaréniens\n\npeuple demeurant à l’est de la Palestine, à qui les tribus de Ruben firent la guerre du temps de Saül\nun des serviteurs de David Hagri = «errant»",
       "vu": false
     },
     {
@@ -44610,7 +44610,7 @@
     {
       "strongNb": 1912,
       "hebreu": "הוֹדוּ",
-      "gloss": "Inde = «qui s’enfuit» ou «qui murmure»",
+      "gloss": "Inde = «qui s’enfuit»",
       "vu": false
     },
     {
@@ -44670,7 +44670,7 @@
     {
       "strongNb": 1922,
       "hebreu": "הֲדַר",
-      "gloss": "glorifier",
+      "gloss": "glorifier (Dieu)",
       "vu": false
     },
     {
@@ -44742,7 +44742,7 @@
     {
       "strongNb": 1934,
       "hebreu": "הָוָא הָוָה",
-      "gloss": "venir, devenir, êtrevenir à passerprovenir deamené à savoir",
+      "gloss": "venir, devenir, être",
       "vu": false
     },
     {
@@ -44832,7 +44832,7 @@
     {
       "strongNb": 1949,
       "hebreu": "הוּם",
-      "gloss": "distraire, affoler, faire grand bruit, murmurer, hurler, être agitédéfaire",
+      "gloss": "distraire, affoler, faire grand bruit, murmurer, hurler, être agité",
       "vu": false
     },
     {
@@ -44934,7 +44934,7 @@
     {
       "strongNb": 1966,
       "hebreu": "הֵילֵל",
-      "gloss": "Lucifer: «porteur de lumière»",
+      "gloss": "Lucifer  «porteur de lumière»",
       "vu": false
     },
     {
@@ -45000,7 +45000,7 @@
     {
       "strongNb": 1977,
       "hebreu": "הַלֵּזוּ",
-      "gloss": "ce, cet, cette,...",
+      "gloss": "ce, cet, cette,",
       "vu": false
     },
     {
@@ -45114,7 +45114,7 @@
     {
       "strongNb": 1996,
       "hebreu": "הֲמוֹן גּוֹג",
-      "gloss": "Hamon-Gog: «multitude de Gog»",
+      "gloss": "Hamon-Gog = «multitude de Gog»",
       "vu": false
     },
     {
@@ -45168,7 +45168,7 @@
     {
       "strongNb": 2005,
       "hebreu": "הֵן",
-      "gloss": "voici, voilà, quoiquehypothétique, si",
+      "gloss": "voici, voilà, quoiquehypothétique",
       "vu": false
     },
     {
@@ -45228,7 +45228,7 @@
     {
       "strongNb": 2015,
       "hebreu": "הָפַך",
-      "gloss": "tourner, renverser, contournerchanger, transformer",
+      "gloss": "tourner, renverser, contourner",
       "vu": false
     },
     {
@@ -45282,7 +45282,7 @@
     {
       "strongNb": 2024,
       "hebreu": "הָרָא",
-      "gloss": "Hara = «territoire de la montagne», «pays de collines»",
+      "gloss": "Hara = «territoire de la montagne»",
       "vu": false
     },
     {
@@ -45336,7 +45336,7 @@
     {
       "strongNb": 2033,
       "hebreu": "הֲרוֹרִי",
-      "gloss": "D’Haror (Harorite?): «le montagnard»",
+      "gloss": "D’Haror (Harorite?) = «le montagnard»",
       "vu": false
     },
     {
@@ -45366,7 +45366,7 @@
     {
       "strongNb": 2038,
       "hebreu": "הַרמוֹן",
-      "gloss": "Harmon: «haute forteresse»",
+      "gloss": "Harmon = «haute forteresse»",
       "vu": false
     },
     {
@@ -45396,7 +45396,7 @@
     {
       "strongNb": 2043,
       "hebreu": "הֲרָרִי הָרָרִי הָארָרִי",
-      "gloss": "D’Harar (Hararite?): «qui demeure dans la montagne»",
+      "gloss": "habitant ou descendant d’Harar; peut-être seulement un montagnard",
       "vu": false
     },
     {
@@ -45516,7 +45516,7 @@
     {
       "strongNb": 2063,
       "hebreu": "זוֹאתּ",
-      "gloss": "ce, celui-ci, ici, lequel, ceci...cela, l’un ...l’autre, telun autre",
+      "gloss": "ce, celui-ci, ici, lequel, cecicela, l’un l’autre, tel",
       "vu": false
     },
     {
@@ -45588,13 +45588,13 @@
     {
       "strongNb": 2075,
       "hebreu": "זְבוּלוֹנִי",
-      "gloss": "Zabulonite: voir Zabulon",
+      "gloss": "Zabulonite  voir Zabulon",
       "vu": false
     },
     {
       "strongNb": 2076,
       "hebreu": "זָבַח",
-      "gloss": "abattre, tuer, sacrifier, abattre pour le sacrificeabattre pour la nourritureabattre dans le jugement divin",
+      "gloss": "abattre, tuer, sacrifier, abattre pour le sacrifice",
       "vu": false
     },
     {
@@ -45630,7 +45630,7 @@
     {
       "strongNb": 2082,
       "hebreu": "זָבַל",
-      "gloss": "exalter, honorer, (possible: demeurer dignement)",
+      "gloss": "exalter, honorer, habiter avec",
       "vu": false
     },
     {
@@ -45666,7 +45666,7 @@
     {
       "strongNb": 2088,
       "hebreu": "זֶה",
-      "gloss": "ce, celui-ci, ici, qui, ceci...cela, l’un... l’autre, un autre, tel",
+      "gloss": "ce, celui-ci, ici, qui, cecicela, l’un l’autre, un autre, tel",
       "vu": false
     },
     {
@@ -45678,7 +45678,7 @@
     {
       "strongNb": 2090,
       "hebreu": "זוֹה",
-      "gloss": "ce, cet, cette, ces...",
+      "gloss": "ce, cet, cette, ces",
       "vu": false
     },
     {
@@ -45702,7 +45702,7 @@
     {
       "strongNb": 2094,
       "hebreu": "זָהַר",
-      "gloss": "réprimander, avertir, enseigner, briller, être brillantêtre enseigné, être réprimandé",
+      "gloss": "réprimander, avertir, enseigner, briller, être brillant",
       "vu": false
     },
     {
@@ -45750,7 +45750,7 @@
     {
       "strongNb": 2102,
       "hebreu": "זוּד זִידּ",
-      "gloss": "bouillir, faire bouillir, agir orgueilleusement, agir comme un présomptueux, être arrogant, avoir une fierté rebelletraiter d’une manière arrogante (avec al)défier orgueilleusement (avec el)",
+      "gloss": "bouillir, faire bouillir, agir orgueilleusement, agir comme un présomptueux, être arrogant, avoir une fierté rebelle",
       "vu": false
     },
     {
@@ -45804,7 +45804,7 @@
     {
       "strongNb": 2111,
       "hebreu": "זוַּע",
-      "gloss": "trembler, trembloter, être dans la terreursecouer violemmentfaire trembler",
+      "gloss": "trembler, trembloter, être dans la terreur",
       "vu": false
     },
     {
@@ -45822,7 +45822,7 @@
     {
       "strongNb": 2114,
       "hebreu": "זוּר",
-      "gloss": "être étrange, être un étrangerdevenir étrangerétrange, un autre, un ennemi",
+      "gloss": "être étrange, être un étranger",
       "vu": false
     },
     {
@@ -45840,7 +45840,7 @@
     {
       "strongNb": 2117,
       "hebreu": "זָזָא",
-      "gloss": "Zara = « éclat» ou «plénitude»",
+      "gloss": "Zara = « éclat»",
       "vu": false
     },
     {
@@ -45894,7 +45894,7 @@
     {
       "strongNb": 2126,
       "hebreu": "זִינָא",
-      "gloss": "Zina = «bien nourri», «abondance»",
+      "gloss": "Zina = «bien nourri»",
       "vu": false
     },
     {
@@ -45948,7 +45948,7 @@
     {
       "strongNb": 2135,
       "hebreu": "זָכָה",
-      "gloss": "être propre, être pur, être clairêtre justifié",
+      "gloss": "être propre, être pur, être clair",
       "vu": false
     },
     {
@@ -45990,7 +45990,7 @@
     {
       "strongNb": 2142,
       "hebreu": "זָכַר",
-      "gloss": "se souvenir de, rappeler, ramener à l’espritêtre ramené en souvenir, être rappelé, remettre en mémoire",
+      "gloss": "se souvenir de, rappeler, ramener à l’esprit",
       "vu": false
     },
     {
@@ -46302,7 +46302,7 @@
     {
       "strongNb": 2194,
       "hebreu": "זָעַם",
-      "gloss": "dénoncer, exprimer de l’indignation, être indignése défierêtre odieux",
+      "gloss": "dénoncer, exprimer de l’indignation, être indigné",
       "vu": false
     },
     {
@@ -46332,7 +46332,7 @@
     {
       "strongNb": 2199,
       "hebreu": "זָעַק",
-      "gloss": "crier, s’écrier, appeler au secoursappeler à l’aidecrier, implorer (dans le besoin)",
+      "gloss": "crier, s’écrier, appeler au secours",
       "vu": false
     },
     {
@@ -46476,7 +46476,7 @@
     {
       "strongNb": 2223,
       "hebreu": "זַרזִיר",
-      "gloss": "ceint, sanglé, utilisé avec zarziyr 04975 dans Proverbes 30.31",
+      "gloss": "ceint, sanglé, utilisé avec  dans",
       "vu": false
     },
     {
@@ -46530,13 +46530,13 @@
     {
       "strongNb": 2232,
       "hebreu": "זָרַע",
-      "gloss": "semer, éparpiller de la semencesemence, graines",
+      "gloss": "semer, éparpiller de la semence",
       "vu": false
     },
     {
       "strongNb": 2233,
       "hebreu": "זֶרַע",
-      "gloss": "semence, graine, semailles, descendantsperme",
+      "gloss": "semence, graine, semailles, descendant",
       "vu": false
     },
     {
@@ -46578,7 +46578,7 @@
     {
       "strongNb": 2240,
       "hebreu": "זַתּתּוּא",
-      "gloss": "Zatthu = «ornement», « éclat de lui»",
+      "gloss": "Zatthu = «ornement»",
       "vu": false
     },
     {
@@ -46728,7 +46728,7 @@
     {
       "strongNb": 2265,
       "hebreu": "חֲבַקּוּק",
-      "gloss": "Habakuk = «embrasser», «amour»",
+      "gloss": "Habakuk = «embrasser»",
       "vu": false
     },
     {
@@ -46788,7 +46788,7 @@
     {
       "strongNb": 2275,
       "hebreu": "חֶברוֹן",
-      "gloss": "Hébron = «association, union, ligue, amitié» Nom propre locatif",
+      "gloss": "Hébron = «association, union, ligue, amitié»",
       "vu": false
     },
     {
@@ -46890,7 +46890,7 @@
     {
       "strongNb": 2292,
       "hebreu": "חַגַּי",
-      "gloss": "Aggée = «en fête», «né un jour de fête»",
+      "gloss": "Aggée = «en fête»",
       "vu": false
     },
     {
@@ -46908,7 +46908,7 @@
     {
       "strongNb": 2295,
       "hebreu": "חָגלָה",
-      "gloss": "Hogla = «perdrix», «pie»",
+      "gloss": "Hogla = «perdrix»",
       "vu": false
     },
     {
@@ -47004,7 +47004,7 @@
     {
       "strongNb": 2311,
       "hebreu": "חַדלַי",
-      "gloss": "Hadlaï = «qui cesse, qui patiente», «repos de Dieu»",
+      "gloss": "Hadlaï = «qui cesse, qui patiente»",
       "vu": false
     },
     {
@@ -47034,7 +47034,7 @@
     {
       "strongNb": 2316,
       "hebreu": "חֲדַר",
-      "gloss": "Hadad = «honneur»",
+      "gloss": "Hadad = «honneur »",
       "vu": true
     },
     {
@@ -47130,7 +47130,7 @@
     {
       "strongNb": 2332,
       "hebreu": "חַוָּה",
-      "gloss": "Ève = «vie» ou «vivant»",
+      "gloss": "Ève = «vie»",
       "vu": false
     },
     {
@@ -47262,7 +47262,7 @@
     {
       "strongNb": 2354,
       "hebreu": "חוּר",
-      "gloss": "Hur = «trou», « caverne», «blancheur»",
+      "gloss": "Hur = «trou»",
       "vu": false
     },
     {
@@ -47310,19 +47310,19 @@
     {
       "strongNb": 2362,
       "hebreu": "חַורָן",
-      "gloss": "Havran = «cavernes», «pays noir»",
+      "gloss": "Havran = «cavernes»",
       "vu": false
     },
     {
       "strongNb": 2363,
       "hebreu": "חוּשׁ",
-      "gloss": "se hâter, se pressermontrer de la hâte, agir rapidement, fondre sur une proiejouir de, être excité",
+      "gloss": "se hâter, se presser",
       "vu": false
     },
     {
       "strongNb": 2364,
       "hebreu": "חוּשָׁה",
-      "gloss": "Huscha = «hâte»",
+      "gloss": "Huscha = «hâte »",
       "vu": true
     },
     {
@@ -47370,7 +47370,7 @@
     {
       "strongNb": 2372,
       "hebreu": "חָזָה",
-      "gloss": "voir, apercevoir, regarder, prophétiser, stipulervoir comme un voyant dans un état extatiquedeviner par l’intelligence ou par l’expérience",
+      "gloss": "voir, apercevoir, regarder, prophétiser, stipuler",
       "vu": false
     },
     {
@@ -47418,7 +47418,7 @@
     {
       "strongNb": 2380,
       "hebreu": "חָזוּת",
-      "gloss": "vision, position éminentevision, oracle d’un prophèteaccord",
+      "gloss": "vision, position éminente",
       "vu": false
     },
     {
@@ -47442,7 +47442,7 @@
     {
       "strongNb": 2384,
       "hebreu": "חִזָּיוֹן",
-      "gloss": "visionvision (dans un état extatique)vallée de vision (peut-être figuré de Jérusalem ou Hinnom)",
+      "gloss": "vision",
       "vu": false
     },
     {
@@ -47466,13 +47466,13 @@
     {
       "strongNb": 2388,
       "hebreu": "חָזַק",
-      "gloss": "fortifier, prévaloir, être fort, devenir fort, être courageux, être ferme, être résolupresser, accélérerêtre rigide, dur (mauvais sens)",
+      "gloss": "fortifier, prévaloir, être fort, devenir fort, être courageux, être ferme, être résolu",
       "vu": false
     },
     {
       "strongNb": 2389,
       "hebreu": "חָזָק",
-      "gloss": "fort, gros, puissantforcesévère, tranchante, chaude",
+      "gloss": "fort, gros, puissant",
       "vu": false
     },
     {
@@ -47520,13 +47520,13 @@
     {
       "strongNb": 2397,
       "hebreu": "חָח חָחִי",
-      "gloss": "crochet, anneau, chaîne, brochecrochet, anneau (dans le nez d’un captif)",
+      "gloss": "crochet, anneau, chaîne, broche",
       "vu": false
     },
     {
       "strongNb": 2398,
       "hebreu": "חָטָא",
-      "gloss": "pécher, manquer, manquer la voie, encourir la culpabilité, forfaire, purifiermanquer le but, quitter le chemin du droitencourir le châtiment du péché",
+      "gloss": "pécher, manquer, manquer la voie, encourir la culpabilité, forfaire, purifier",
       "vu": false
     },
     {
@@ -47664,7 +47664,7 @@
     {
       "strongNb": 2421,
       "hebreu": "חָיָה",
-      "gloss": "vivre, avoir la vie, revenir à la vie, vivre dans la prospérité, vivre éternellement, guérir, survivrevivre, retrouver la vie, revivre, être guérisortir de la maladie, du découragement, de la faiblesseressusciter",
+      "gloss": "vivre, avoir la vie, revenir à la vie, vivre dans la prospérité, vivre éternellement, guérir, survivre",
       "vu": false
     },
     {
@@ -47772,7 +47772,7 @@
     {
       "strongNb": 2439,
       "hebreu": "חִישׁ",
-      "gloss": "se hâter, hâter, pressermontrer de la hâte, agir rapidementjouir de, être excité",
+      "gloss": "se hâter, hâter, presser",
       "vu": false
     },
     {
@@ -47790,7 +47790,7 @@
     {
       "strongNb": 2442,
       "hebreu": "חָכָה",
-      "gloss": "attendre, espérers’attarderattendre (en embuscade)",
+      "gloss": "attendre, espérer",
       "vu": false
     },
     {
@@ -47898,7 +47898,7 @@
     {
       "strongNb": 2460,
       "hebreu": "חֵלֶב",
-      "gloss": "Héleb = «lait», «embonpoint»",
+      "gloss": "Héleb = «lait»",
       "vu": false
     },
     {
@@ -48102,7 +48102,7 @@
     {
       "strongNb": 2494,
       "hebreu": "חֵלֶם",
-      "gloss": "Hélem = «force» ou «songe»",
+      "gloss": "Hélem = «force»",
       "vu": false
     },
     {
@@ -48126,7 +48126,7 @@
     {
       "strongNb": 2498,
       "hebreu": "חָלַף",
-      "gloss": "passer, aller au loin, passer à travers, changer, s’avancerrevenir, repousser (de l’herbe)transgresser",
+      "gloss": "passer, aller au loin, passer à travers, changer, s’avancer",
       "vu": false
     },
     {
@@ -48150,7 +48150,7 @@
     {
       "strongNb": 2502,
       "hebreu": "חָלַץ",
-      "gloss": "enlever, tirer, retirer, équiper (pour la guerre), armer, sauver, être sauvééquipé",
+      "gloss": "enlever, tirer, retirer, équiper (pour la guerre), armer, sauver, être sauvé",
       "vu": false
     },
     {
@@ -48168,7 +48168,7 @@
     {
       "strongNb": 2505,
       "hebreu": "חָלַק",
-      "gloss": "diviser, partager, piller, allouer, répartir, assignerdistribuer, impartir",
+      "gloss": "diviser, partager, piller, allouer, répartir, assigner",
       "vu": false
     },
     {
@@ -48198,7 +48198,7 @@
     {
       "strongNb": 2510,
       "hebreu": "חָלָק",
-      "gloss": "Halak: «lisse, nu, dénudé»",
+      "gloss": "Halak = «lisse, nu, dénudé»",
       "vu": false
     },
     {
@@ -48258,7 +48258,7 @@
     {
       "strongNb": 2520,
       "hebreu": "חֶלקַת",
-      "gloss": "Helkath = «lisse», «partie d’un terrain, champ»",
+      "gloss": "Helkath = «lisse»",
       "vu": false
     },
     {
@@ -48336,7 +48336,7 @@
     {
       "strongNb": 2533,
       "hebreu": "חֶמדָּן",
-      "gloss": "Hemdan = «désir», «plaisant»",
+      "gloss": "Hemdan = «désir»",
       "vu": false
     },
     {
@@ -48462,7 +48462,7 @@
     {
       "strongNb": 2554,
       "hebreu": "חָמַס",
-      "gloss": "faire mal, agir avec violence, brutalisertraiter violemmentpar un mal physique",
+      "gloss": "faire mal, agir avec violence, brutaliser",
       "vu": false
     },
     {
@@ -48534,7 +48534,7 @@
     {
       "strongNb": 2566,
       "hebreu": "חַמרָן",
-      "gloss": "Amram = «le peuple est exalté» ou «leur bitume»",
+      "gloss": "Amram = «le peuple est exalté»",
       "vu": false
     },
     {
@@ -48606,13 +48606,13 @@
     {
       "strongNb": 2578,
       "hebreu": "חֲמַת צּוֹבָה",
-      "gloss": "Hamath-Tsoba: «forteresse de Tsoba»",
+      "gloss": "Hamath-Tsoba = «forteresse de Tsoba»",
       "vu": false
     },
     {
       "strongNb": 2579,
       "hebreu": "חֲמַת רַבָּה",
-      "gloss": "Hamath-Rabba: «enclos du courroux du peuple»",
+      "gloss": "Hamath-Rabba = «enclos du courroux du peuple»",
       "vu": false
     },
     {
@@ -48708,7 +48708,7 @@
     {
       "strongNb": 2595,
       "hebreu": "חֲנִיתּ",
-      "gloss": "Lancemanche de la Lancefer de lance",
+      "gloss": "Lance",
       "vu": false
     },
     {
@@ -48798,7 +48798,7 @@
     {
       "strongNb": 2610,
       "hebreu": "חָנֵף",
-      "gloss": "être profané, être souillé, être pollué, être corrompuêtre impie",
+      "gloss": "être profané, être souillé, être pollué, être corrompu",
       "vu": false
     },
     {
@@ -48846,13 +48846,13 @@
     {
       "strongNb": 2618,
       "hebreu": "חֶסֶד",
-      "gloss": "Hésed = «fidélité», «miséricorde»",
+      "gloss": "Hésed = «fidélité»",
       "vu": false
     },
     {
       "strongNb": 2619,
       "hebreu": "חֲסַדיָה",
-      "gloss": "Hasadia = «l’Éternel a été fidèle», «favorisé de l’Éternel»",
+      "gloss": "Hasadia = «l’Éternel a été fidèle»",
       "vu": false
     },
     {
@@ -48882,7 +48882,7 @@
     {
       "strongNb": 2624,
       "hebreu": "חֲסִידָּה",
-      "gloss": "cigogne, en hébreu: affectueux",
+      "gloss": "cigogne",
       "vu": false
     },
     {
@@ -48906,7 +48906,7 @@
     {
       "strongNb": 2628,
       "hebreu": "חָסַל",
-      "gloss": "consumer, finir, terminer, amener à une fin",
+      "gloss": "(Qal) consumer, finir, terminer, amener à une fin",
       "vu": false
     },
     {
@@ -49176,13 +49176,13 @@
     {
       "strongNb": 2673,
       "hebreu": "חָצָה",
-      "gloss": "diviser, couper en deux, découper, vivre à moitié (sa vie)(Qal)diviser",
+      "gloss": "diviser, couper en deux, découper, vivre à moitié (sa vie)",
       "vu": false
     },
     {
       "strongNb": 2674,
       "hebreu": "חָצוֹר",
-      "gloss": "Hatsor = «château», «enclos»",
+      "gloss": "Hatsor = «château»",
       "vu": false
     },
     {
@@ -49218,7 +49218,7 @@
     {
       "strongNb": 2680,
       "hebreu": "חֲצִי הַמְּנַחתִּי",
-      "gloss": "(moitié des) Manassites: voir Manassé «qui oublie»",
+      "gloss": "Hammanachthi",
       "vu": false
     },
     {
@@ -49332,7 +49332,7 @@
     {
       "strongNb": 2699,
       "hebreu": "חֲצֵרִים",
-      "gloss": "Hatserim: «villages»",
+      "gloss": "Hatserim = «villages»",
       "vu": false
     },
     {
@@ -49374,7 +49374,7 @@
     {
       "strongNb": 2706,
       "hebreu": "חוֹק",
-      "gloss": "statut, ordonnance, limite, quelque chose de prescrit, dûtâche prescrite",
+      "gloss": "statut, ordonnance, limite, quelque chose de prescrit, dû",
       "vu": false
     },
     {
@@ -49494,7 +49494,7 @@
     {
       "strongNb": 2726,
       "hebreu": "חַרבּוֹנָא חַרבּוֹנָה",
-      "gloss": "Harbona = «conducteur d’âne», « chauve», «guerrier»",
+      "gloss": "Harbona = «conducteur d’âne»",
       "vu": false
     },
     {
@@ -49536,7 +49536,7 @@
     {
       "strongNb": 2733,
       "hebreu": "חֲרוֹדִי",
-      "gloss": "Harodite ?: voir Harod «tremblant, terreur»",
+      "gloss": "Harodite ?  voir Harod «tremblant, terreur»",
       "vu": false
     },
     {
@@ -49584,7 +49584,7 @@
     {
       "strongNb": 2741,
       "hebreu": "חֲרוּפִי",
-      "gloss": "De Haroph (Harophite?): «natif de Haroph (Hariph)»",
+      "gloss": "De Haroph (Harophite?)  «natif de Haroph (Hariph)»",
       "vu": false
     },
     {
@@ -49740,7 +49740,7 @@
     {
       "strongNb": 2767,
       "hebreu": "חָרמָה",
-      "gloss": "Horma = «dévouement», «lieu voué à l’interdit»",
+      "gloss": "Horma = «dévouement»",
       "vu": false
     },
     {
@@ -49752,7 +49752,7 @@
     {
       "strongNb": 2769,
       "hebreu": "חֶרמוֹנִים",
-      "gloss": "De l’Hermon",
+      "gloss": "De l’Hermon»",
       "vu": false
     },
     {
@@ -49764,7 +49764,7 @@
     {
       "strongNb": 2771,
       "hebreu": "חָרָן",
-      "gloss": "Charan (Haran) = «montagnard», «route, caravane»",
+      "gloss": "Charan (Haran) = «montagnard»",
       "vu": false
     },
     {
@@ -49878,7 +49878,7 @@
     {
       "strongNb": 2790,
       "hebreu": "חָרַשׁ",
-      "gloss": "couper, labourer, graver, combinercomploter le mal",
+      "gloss": "couper, labourer, graver, combiner",
       "vu": false
     },
     {
@@ -49926,7 +49926,7 @@
     {
       "strongNb": 2798,
       "hebreu": "חֲרָשִׁים",
-      "gloss": "Charashim ou Harashim: «vallée des ouvriers, des artisans»",
+      "gloss": "Charashim ou Harashim = «vallée des ouvriers, des artisans»",
       "vu": false
     },
     {
@@ -49992,7 +49992,7 @@
     {
       "strongNb": 2809,
       "hebreu": "חֶשׁבּוֹן",
-      "gloss": "Hesbon = «forteresse», «raison, compte»",
+      "gloss": "Hesbon = «forteresse»",
       "vu": false
     },
     {
@@ -50058,7 +50058,7 @@
     {
       "strongNb": 2820,
       "hebreu": "חָשַׂך",
-      "gloss": "refuser, restreindre, retenir, freinergarder pour soi, épargner, réservermodérer, vérifier",
+      "gloss": "refuser, restreindre, retenir, freiner",
       "vu": false
     },
     {
@@ -50268,7 +50268,7 @@
     {
       "strongNb": 2855,
       "hebreu": "חֶתלוֹן",
-      "gloss": "Hethlon = «lieu caché», «repaire»",
+      "gloss": "Hethlon = «lieu caché»",
       "vu": false
     },
     {
@@ -50664,7 +50664,7 @@
     {
       "strongNb": 2921,
       "hebreu": "טָּלָא",
-      "gloss": "rapiécer, tache, être taché, être coloré(Qal)tacher",
+      "gloss": "rapiécer, tache, être taché, être coloré",
       "vu": false
     },
     {
@@ -50892,7 +50892,7 @@
     {
       "strongNb": 2959,
       "hebreu": "טָּרַח",
-      "gloss": "charger un fardeau, travailler dur, être chargé",
+      "gloss": "(Hiphil) charger un fardeau, travailler dur, être chargé",
       "vu": false
     },
     {
@@ -50940,7 +50940,7 @@
     {
       "strongNb": 2967,
       "hebreu": "טַּרפְּלַי",
-      "gloss": "De Tharpel: «ceux des montagnes tombées (ou merveilleuses)»",
+      "gloss": "De Tharpel  «ceux des montagnes tombées (ou merveilleuses)»",
       "vu": false
     },
     {
@@ -50982,7 +50982,7 @@
     {
       "strongNb": 2974,
       "hebreu": "יָאַל",
-      "gloss": "commencer, marquer un début, montrer de la bonne volonté, entreprendre de faire, consentir, être déterminé(Hiphil)être d’accord, acquiescer, accepter une invitation",
+      "gloss": "commencer, marquer un début, montrer de la bonne volonté, entreprendre de faire, consentir, être déterminé",
       "vu": false
     },
     {
@@ -51048,13 +51048,13 @@
     {
       "strongNb": 2985,
       "hebreu": "יָבִין",
-      "gloss": "Jabin = «celui que Dieu observe», «Il (Dieu) perçoit»",
+      "gloss": "Jabin = «celui que Dieu observe»",
       "vu": false
     },
     {
       "strongNb": 2986,
       "hebreu": "יָבַל",
-      "gloss": "apporter, amener, conduire, porter, mener, transporterêtre mené le long deêtre porté (au tombeau)",
+      "gloss": "apporter, amener, conduire, porter, mener, transporter",
       "vu": false
     },
     {
@@ -51144,7 +51144,7 @@
     {
       "strongNb": 3001,
       "hebreu": "יָבֵשׁ",
-      "gloss": "mettre à sec, flétrir, être sec, devenir sec, séché, desséché(Qal)être sec, séché, être sans humidité",
+      "gloss": "mettre à sec, flétrir, être sec, devenir sec, séché, desséché",
       "vu": false
     },
     {
@@ -51168,7 +51168,7 @@
     {
       "strongNb": 3005,
       "hebreu": "יִבשָׂם",
-      "gloss": "Jibsam = «agréable», «parfumé»",
+      "gloss": "Jibsam = «agréable»",
       "vu": false
     },
     {
@@ -51300,7 +51300,7 @@
     {
       "strongNb": 3027,
       "hebreu": "יָד",
-      "gloss": "mainmain (de l’homme)",
+      "gloss": "main",
       "vu": false
     },
     {
@@ -51318,13 +51318,13 @@
     {
       "strongNb": 3030,
       "hebreu": "יִדאֲלָה",
-      "gloss": "Jideala = «monument de Dieu», «lieu maudit, lieu de l’idole»",
+      "gloss": "Jideala = «monument de Dieu»",
       "vu": false
     },
     {
       "strongNb": 3031,
       "hebreu": "יִדבָּשׁ",
-      "gloss": "Jidbasch = «gros», «parfumé comme le miel»",
+      "gloss": "Jidbasch = «gros»",
       "vu": false
     },
     {
@@ -51348,13 +51348,13 @@
     {
       "strongNb": 3035,
       "hebreu": "יִדּוֹ",
-      "gloss": "Jiddo, Jaddaï = «opportun» ou «favori»",
+      "gloss": "Jiddo, Jaddaï = «opportun»",
       "vu": false
     },
     {
       "strongNb": 3036,
       "hebreu": "יָדוֹן",
-      "gloss": "Jadon = «reconnaissant», «qui juge»",
+      "gloss": "Jadon = «reconnaissant»",
       "vu": false
     },
     {
@@ -51366,7 +51366,7 @@
     {
       "strongNb": 3038,
       "hebreu": "יְדוּתוּן יֶדוּתוּן יֶדִיתּוּן",
-      "gloss": "Jeduthun = «louange», «un chœur de louange»",
+      "gloss": "Jeduthun = «louange»",
       "vu": false
     },
     {
@@ -51438,7 +51438,7 @@
     {
       "strongNb": 3050,
       "hebreu": "יָהּ",
-      "gloss": "Jah (Jéhovah, dans sa forme raccourcie), l’Éternelle nom du Dieu vrai",
+      "gloss": "Jah (Jéhovah, dans sa forme raccourcie), l’Éternel",
       "vu": false
     },
     {
@@ -51468,7 +51468,7 @@
     {
       "strongNb": 3055,
       "hebreu": "יְהוּד",
-      "gloss": "Jehud = «beauté», «louange»",
+      "gloss": "Jehud = «beauté»",
       "vu": false
     },
     {
@@ -51480,7 +51480,7 @@
     {
       "strongNb": 3057,
       "hebreu": "יְהוּדִיָה",
-      "gloss": "la Juive ou Jehudija: «Juive»",
+      "gloss": "Jehudija, la juive",
       "vu": false
     },
     {
@@ -51546,7 +51546,7 @@
     {
       "strongNb": 3068,
       "hebreu": "יְהוֹוָה",
-      "gloss": "l’Éternel (Jéhovah, ou mieux: Yahvé) = «celui qui est l’existant»",
+      "gloss": "l’Éternel (Yahvé) = «celui qui est l’existant»",
       "vu": false
     },
     {
@@ -51558,7 +51558,7 @@
     {
       "strongNb": 3070,
       "hebreu": "יְהוֹוָה יִראֶה",
-      "gloss": "Jehova = «l’Éternel», Jehova-Jiré = «l’Éternel voit», «l’Éternel pourvoira»",
+      "gloss": "Jehova = «l’Éternel»",
       "vu": false
     },
     {
@@ -51581,9 +51581,9 @@
     },
     {
       "strongNb": 3074,
-      "hebreu": "◊ô÷∞◊î◊ï÷π◊ï÷∏◊î ◊©◊Å÷∏◊û÷º÷∏◊î",
-      "gloss": "Jehovah-shammah‚ÄØ: ¬´‚ÄØl‚Äô√âternel est ici‚ÄØ¬ª",
-      "vu": false
+      "hebreu": "יְהוֹוָה שָׁמָּה",
+      "gloss": "Jehovah-shammah: «l’Éternel est ici»",
+      "vu": true
     },
     {
       "strongNb": 3075,
@@ -51702,7 +51702,7 @@
     {
       "strongNb": 3094,
       "hebreu": "יְהַלֶּלאֵל",
-      "gloss": "Jehalléleel = «Dieu sera loué», «Dieu fera jaillir la lumière»",
+      "gloss": "Jehalléleel = «Dieu sera loué»",
       "vu": false
     },
     {
@@ -51732,7 +51732,7 @@
     {
       "strongNb": 3099,
       "hebreu": "יוֹאָחָז",
-      "gloss": "Joachaz = «l’Éternel a saisi», «il maintient»",
+      "gloss": "Joachaz = «l’Éternel a saisi»",
       "vu": false
     },
     {
@@ -51762,7 +51762,7 @@
     {
       "strongNb": 3104,
       "hebreu": "יוֹבֵל יוֹבֵל",
-      "gloss": "bélier, corne de bélier, trompettebélier (seulement avec un autre mot)corne de bélier, trompette retentissante",
+      "gloss": "bélier, corne de bélier, trompette",
       "vu": false
     },
     {
@@ -51774,7 +51774,7 @@
     {
       "strongNb": 3106,
       "hebreu": "יוּבָל",
-      "gloss": "Jubal = «courant d’eau», «joyeux, qui joue»",
+      "gloss": "Jubal = «courant d’eau»",
       "vu": false
     },
     {
@@ -51906,7 +51906,7 @@
     {
       "strongNb": 3128,
       "hebreu": "יוֹנַת אֵלֶם רְחוֹקִים",
-      "gloss": "Jonath-elem-recho-kim: «la colombe silencieuse des lieux lointains»",
+      "gloss": "Jonath-elem-recho-kim = «la colombe silencieuse des lieux lointains»",
       "vu": false
     },
     {
@@ -51918,7 +51918,7 @@
     {
       "strongNb": 3130,
       "hebreu": "יוֹסֵף",
-      "gloss": "Joseph = «que l’Éternel ajoute» ou «il enlève» (Genèse 30.23-24)",
+      "gloss": "Joseph = «que l’Éternel ajoute»",
       "vu": false
     },
     {
@@ -51930,7 +51930,7 @@
     {
       "strongNb": 3132,
       "hebreu": "יוֹעֵאלָה",
-      "gloss": "Joéla = «puisse-t-il servir», «l’Éternel enlève»",
+      "gloss": "Joéla = «puisse-t-il servir»",
       "vu": false
     },
     {
@@ -51978,7 +51978,7 @@
     {
       "strongNb": 3140,
       "hebreu": "יוֹרַי",
-      "gloss": "Joraï = «l’Éternel m’a enseigné», «l’Éternel le fera grandir»",
+      "gloss": "Joraï = «l’Éternel m’a enseigné»",
       "vu": false
     },
     {
@@ -52002,13 +52002,13 @@
     {
       "strongNb": 3144,
       "hebreu": "יוֹשָׁה",
-      "gloss": "Joscha = «l’Éternel aide», «il rend égal»",
+      "gloss": "Joscha = «l’Éternel aide»",
       "vu": false
     },
     {
       "strongNb": 3145,
       "hebreu": "יוֹשַׁויָה",
-      "gloss": "Joschavia = «l’Éternel est équité», «il établit»",
+      "gloss": "Joschavia = «l’Éternel est équité»",
       "vu": false
     },
     {
@@ -52032,7 +52032,7 @@
     {
       "strongNb": 3149,
       "hebreu": "יְזַואֵל",
-      "gloss": "Jeziel = «l’Éternel aspergera», « il unit», «l’assemblée de Dieu»",
+      "gloss": "Jeziel = «l’Éternel aspergera»",
       "vu": false
     },
     {
@@ -52044,19 +52044,19 @@
     {
       "strongNb": 3151,
       "hebreu": "יָזִיז",
-      "gloss": "Jaziz = «Il rend saillant», «il brillera»",
+      "gloss": "Jaziz = «Il rend saillant»",
       "vu": false
     },
     {
       "strongNb": 3152,
       "hebreu": "יִזלִיאָה",
-      "gloss": "Jizlia = «celui que Dieu préserve», «l’Éternel délivrera»",
+      "gloss": "Jizlia = «celui que Dieu préserve»",
       "vu": false
     },
     {
       "strongNb": 3153,
       "hebreu": "יְזַניָה יְזַניָהוּ",
-      "gloss": "Jezania = «l’Éternel a entendu», «l’Éternel déterminera»",
+      "gloss": "Jezania = «l’Éternel a entendu»",
       "vu": false
     },
     {
@@ -52086,13 +52086,13 @@
     {
       "strongNb": 3158,
       "hebreu": "יִזרְעֵאלִי",
-      "gloss": "De Jizreel (Jizreelite?): voir Jizreel «semé par Dieu»",
+      "gloss": "De Jizreel (Jizreelite?)  voir Jizreel «semé par Dieu»",
       "vu": false
     },
     {
       "strongNb": 3159,
       "hebreu": "יִזרְעֵאלִיתּ",
-      "gloss": "De Jizreel (une Jizreelite?): voir Jizreel «semée par Dieu»",
+      "gloss": "De Jizreel (une Jizreelite?)  voir Jizreel «semée par Dieu»",
       "vu": false
     },
     {
@@ -52164,13 +52164,13 @@
     {
       "strongNb": 3171,
       "hebreu": "יְחִיאֵל יְחַואֵל",
-      "gloss": "Jehiel = «Dieu est vivant», «Dieu a rassemblé»",
+      "gloss": "Jehiel = «Dieu est vivant»",
       "vu": false
     },
     {
       "strongNb": 3172,
       "hebreu": "יְחִיאֵלִי",
-      "gloss": "Jehiéli = «Dieu laissera la vie» ou «balayé loin de Dieu»",
+      "gloss": "Jehiéli = «Dieu laissera la vie»",
       "vu": false
     },
     {
@@ -52194,7 +52194,7 @@
     {
       "strongNb": 3176,
       "hebreu": "יָחַל",
-      "gloss": "attendre, espérer, s’attendre à(Nifal) attendre",
+      "gloss": "attendre, espérer, s’attendre à",
       "vu": false
     },
     {
@@ -52338,7 +52338,7 @@
     {
       "strongNb": 3200,
       "hebreu": "יָכִינִי",
-      "gloss": "Jakinites = voir Jakin: «il établira»",
+      "gloss": "Jakinites = voir Jakin  «il établira»",
       "vu": false
     },
     {
@@ -52482,7 +52482,7 @@
     {
       "strongNb": 3224,
       "hebreu": "יְמִימָה",
-      "gloss": "Jemima = «jour après jour», « belle comme le jour», «colombe»",
+      "gloss": "Jemima = «jour après jour»",
       "vu": false
     },
     {
@@ -52554,7 +52554,7 @@
     {
       "strongNb": 3236,
       "hebreu": "יִמרָה",
-      "gloss": "Jimra = «amertume», «Dieu résiste»",
+      "gloss": "Jimra = «amertume»",
       "vu": false
     },
     {
@@ -52572,7 +52572,7 @@
     {
       "strongNb": 3239,
       "hebreu": "יָנוַֹח יָנוֹחָה",
-      "gloss": "Janoach = «tranquillité», «il se repose»",
+      "gloss": "Janoach = «tranquillité»",
       "vu": false
     },
     {
@@ -52608,7 +52608,7 @@
     {
       "strongNb": 3245,
       "hebreu": "יָסַד",
-      "gloss": "fonder, fixer, établir, poser le fondementcommencer",
+      "gloss": "fonder, fixer, établir, poser le fondement",
       "vu": false
     },
     {
@@ -52650,7 +52650,7 @@
     {
       "strongNb": 3252,
       "hebreu": "יִסכָּה",
-      "gloss": "Jisca = «celui qui regarde en avant», «l’Éternel regarde»",
+      "gloss": "Jisca = «celui qui regarde en avant»",
       "vu": false
     },
     {
@@ -52662,7 +52662,7 @@
     {
       "strongNb": 3254,
       "hebreu": "יָסַף",
-      "gloss": "ajouter, augmenter, faire de nouveau, encorejoindre, se joindre àêtre joint, être ajouté à",
+      "gloss": "ajouter, augmenter, faire de nouveau, encore",
       "vu": false
     },
     {
@@ -52674,7 +52674,7 @@
     {
       "strongNb": 3256,
       "hebreu": "יָסַר",
-      "gloss": "châtier, corriger, discipliner, instruire, réprimanderse laisser être châtié ou réprimandé",
+      "gloss": "châtier, corriger, discipliner, instruire, réprimander",
       "vu": false
     },
     {
@@ -52734,7 +52734,7 @@
     {
       "strongNb": 3266,
       "hebreu": "יְעוּשׁ",
-      "gloss": "Jeusch = «Il se hâte d’aider», «Dieu aide»",
+      "gloss": "Jeusch = «Il se hâte d’aider»",
       "vu": false
     },
     {
@@ -52746,7 +52746,7 @@
     {
       "strongNb": 3268,
       "hebreu": "יַעֲזִיאֵל",
-      "gloss": "Jaaziel = «rendu hardi par Dieu», «Dieu fortifie»",
+      "gloss": "Jaaziel = «rendu hardi par Dieu»",
       "vu": false
     },
     {
@@ -52758,7 +52758,7 @@
     {
       "strongNb": 3270,
       "hebreu": "יַעֲזֵיר יַעזֵר",
-      "gloss": "Jaezer = «aidé», «utile»",
+      "gloss": "Jaezer = «aidé»",
       "vu": false
     },
     {
@@ -52788,7 +52788,7 @@
     {
       "strongNb": 3275,
       "hebreu": "יַעכָּן",
-      "gloss": "Jaecan = «gênant», «qui cause du trouble»",
+      "gloss": "Jaecan = «gênant»",
       "vu": false
     },
     {
@@ -52812,7 +52812,7 @@
     {
       "strongNb": 3279,
       "hebreu": "יַעֲלָא יַעֲלָה",
-      "gloss": "Jaala = «bouquetin», «profitable»",
+      "gloss": "Jaala = «bouquetin»",
       "vu": false
     },
     {
@@ -52878,7 +52878,7 @@
     {
       "strongNb": 3290,
       "hebreu": "יַעֲקוֹב",
-      "gloss": "Jacob = «celui qui prend par le talon» ou «qui supplante»",
+      "gloss": "Jacob = «celui qui prend par le talon»",
       "vu": false
     },
     {
@@ -52890,7 +52890,7 @@
     {
       "strongNb": 3292,
       "hebreu": "יַעֲקָן",
-      "gloss": "Jaakan = «celui qui les oppresse», «qui tord»",
+      "gloss": "Jaakan = «celui qui les oppresse»",
       "vu": false
     },
     {
@@ -52902,7 +52902,7 @@
     {
       "strongNb": 3294,
       "hebreu": "יַערָה",
-      "gloss": "Jaera = «rayon de miel», «forêt»",
+      "gloss": "Jaera = «rayon de miel»",
       "vu": false
     },
     {
@@ -52992,7 +52992,7 @@
     {
       "strongNb": 3309,
       "hebreu": "יָפִיַע",
-      "gloss": "Japhia = «brillant», «que Dieu le fasse luire»",
+      "gloss": "Japhia = «brillant»",
       "vu": false
     },
     {
@@ -53010,7 +53010,7 @@
     {
       "strongNb": 3312,
       "hebreu": "יְפוּנֶּה",
-      "gloss": "Jephunné = «il sera revêtu», «on préparera»",
+      "gloss": "Jephunné = «il sera revêtu»",
       "vu": false
     },
     {
@@ -53028,7 +53028,7 @@
     {
       "strongNb": 3315,
       "hebreu": "יֶפֶת",
-      "gloss": "Japhet = «ouvert», «qui s’étend»",
+      "gloss": "Japhet = «ouvert»",
       "vu": false
     },
     {
@@ -53160,7 +53160,7 @@
     {
       "strongNb": 3337,
       "hebreu": "יֵצֶר",
-      "gloss": "Jetser = «forme», «but»",
+      "gloss": "Jetser = «forme»",
       "vu": false
     },
     {
@@ -53226,7 +53226,7 @@
     {
       "strongNb": 3348,
       "hebreu": "יָקֶה",
-      "gloss": "Jaké = «sans reproche», «qui craint Dieu»",
+      "gloss": "Jaké = «sans reproche»",
       "vu": false
     },
     {
@@ -53508,7 +53508,7 @@
     {
       "strongNb": 3395,
       "hebreu": "יְרוֹחָם",
-      "gloss": "Jerocham = «qui montre de la pitié», «qui trouve de la miséricorde»",
+      "gloss": "Jerocham = «qui montre de la pitié»",
       "vu": false
     },
     {
@@ -53538,7 +53538,7 @@
     {
       "strongNb": 3400,
       "hebreu": "יְרִיאֵל",
-      "gloss": "Jeriel = «enseigné par Dieu», «Dieu voit»",
+      "gloss": "Jeriel = «enseigné par Dieu»",
       "vu": false
     },
     {
@@ -53556,7 +53556,7 @@
     {
       "strongNb": 3403,
       "hebreu": "יְרִיבַּי",
-      "gloss": "Jeribaï = «l’Éternel plaide», «mes disputes»",
+      "gloss": "Jeribaï = «l’Éternel plaide»",
       "vu": false
     },
     {
@@ -53568,13 +53568,13 @@
     {
       "strongNb": 3405,
       "hebreu": "יְרִיחוֹ יְרֵחוֹ יְרִיחוֹה",
-      "gloss": "Jéricho = «ville de la lune» ou «ville des palmiers»",
+      "gloss": "Jéricho = «ville de la lune»",
       "vu": false
     },
     {
       "strongNb": 3406,
       "hebreu": "יְרִימוֹת יְרֵימוֹת יְרֵמוֹת",
-      "gloss": "Jerémoth = «Il est très haut», «enflé»",
+      "gloss": "Jerémoth = «Il est très haut»",
       "vu": false
     },
     {
@@ -53784,13 +53784,13 @@
     {
       "strongNb": 3441,
       "hebreu": "יִשׁוִי",
-      "gloss": "Jischvites: voir Jischvi",
+      "gloss": "Jischvites  voir Jischvi",
       "vu": false
     },
     {
       "strongNb": 3442,
       "hebreu": "יֵשׁוַּע",
-      "gloss": "Josué, Jéschua = «l’Éternel est salut» Voir Josué",
+      "gloss": "Josué, Jéschua = «l’Éternel est salut»",
       "vu": false
     },
     {
@@ -53850,7 +53850,7 @@
     {
       "strongNb": 3452,
       "hebreu": "יְשִׁימוֹן",
-      "gloss": "Jeshimon: «désert»",
+      "gloss": "Jeshimon  «désert»",
       "vu": false
     },
     {
@@ -53934,7 +53934,7 @@
     {
       "strongNb": 3466,
       "hebreu": "יְשָׁנָה",
-      "gloss": "Jeschana = «emmagasinage», «vieux»",
+      "gloss": "Jeschana = «emmagasinage»",
       "vu": false
     },
     {
@@ -53952,7 +53952,7 @@
     {
       "strongNb": 3469,
       "hebreu": "יִשׁעִי",
-      "gloss": "Jischeï = «Il me sauve», «salutaire»",
+      "gloss": "Jischeï = «Il me sauve»",
       "vu": false
     },
     {
@@ -54042,7 +54042,7 @@
     {
       "strongNb": 3484,
       "hebreu": "יְשׁוּרוּן",
-      "gloss": "Jeshurun: «celui qui est droit»",
+      "gloss": "Jeshurun = «celui qui est droit»",
       "vu": false
     },
     {
@@ -54156,7 +54156,7 @@
     {
       "strongNb": 3503,
       "hebreu": "יִתרוֹ",
-      "gloss": "Jéthro = «son abondance», «excellence»",
+      "gloss": "Jéthro = «son abondance»",
       "vu": false
     },
     {
@@ -54174,7 +54174,7 @@
     {
       "strongNb": 3506,
       "hebreu": "יִתרָן",
-      "gloss": "Jithran = «avantage», «abondance»",
+      "gloss": "Jithran = «avantage»",
       "vu": false
     },
     {
@@ -54198,7 +54198,7 @@
     {
       "strongNb": 3510,
       "hebreu": "כָּאַב",
-      "gloss": "être en peine, avoir mal à.., avoir de la peine, être affligé",
+      "gloss": "être en peine, avoir mal à, avoir de la peine, être affligé",
       "vu": false
     },
     {
@@ -54264,7 +54264,7 @@
     {
       "strongNb": 3521,
       "hebreu": "כָּבוּל",
-      "gloss": "Cabul = «mis en gage», «sablonneux, sec»",
+      "gloss": "Cabul = «mis en gage»",
       "vu": false
     },
     {
@@ -54534,14 +54534,14 @@
     {
       "strongNb": 3566,
       "hebreu": "כּוֹרֶשׁ כּוֹרֶשׁ",
-      "gloss": "Cyrus = «possède la fournaise», «puissance suprême»",
+      "gloss": "Cyrus = «possède la fournaise»",
       "vu": false
     },
     {
       "strongNb": 3567,
       "hebreu": "כּוֹרֶשׁ",
       "gloss": "Cyrus",
-      "vu": false
+      "vu": true
     },
     {
       "strongNb": 3568,
@@ -54702,7 +54702,7 @@
     {
       "strongNb": 3594,
       "hebreu": "כִּיוּן",
-      "gloss": "Kiyuwn?: image, idole",
+      "gloss": "Kiyuwn? = «image, idole»",
       "vu": false
     },
     {
@@ -55110,7 +55110,7 @@
     {
       "strongNb": 3662,
       "hebreu": "כְּנָנִי",
-      "gloss": "Kenani = «où je suis établi», «protégé»",
+      "gloss": "Kenani = «où je suis établi»",
       "vu": false
     },
     {
@@ -55140,7 +55140,7 @@
     {
       "strongNb": 3667,
       "hebreu": "כְּנַעַן",
-      "gloss": "Canaan = «terre basse», «marchand»",
+      "gloss": "Canaan = «terre basse»",
       "vu": false
     },
     {
@@ -55764,7 +55764,7 @@
     {
       "strongNb": 3771,
       "hebreu": "כַּרשְׁנָא",
-      "gloss": "Carschena = «illustre», «mince, noir»",
+      "gloss": "Carschena = «illustre»",
       "vu": false
     },
     {
@@ -55806,7 +55806,7 @@
     {
       "strongNb": 3778,
       "hebreu": "כַּשׂדִּי כַּשׂדִּימָה",
-      "gloss": "Chaldée ou Chaldéens = «briseurs de mottes», «comme des démons»",
+      "gloss": "Chaldée ou Chaldéens = «briseurs de mottes»",
       "vu": false
     },
     {
@@ -56148,7 +56148,7 @@
     {
       "strongNb": 3835,
       "hebreu": "לָבַן",
-      "gloss": "être blanc,  faire des briques",
+      "gloss": "être blanc",
       "vu": false
     },
     {
@@ -56232,7 +56232,7 @@
     {
       "strongNb": 3849,
       "hebreu": "לוֹג",
-      "gloss": "log (une mesure de liquide d’environ un demi-litre)",
+      "gloss": "log",
       "vu": false
     },
     {
@@ -56316,13 +56316,13 @@
     {
       "strongNb": 3863,
       "hebreu": "לוּא לוּא לוּ",
-      "gloss": "si, oh que...!, si seulement!",
+      "gloss": "si, oh que!, si seulement!",
       "vu": false
     },
     {
       "strongNb": 3864,
       "hebreu": "לוּבִי לוּבִּי",
-      "gloss": "Libyens = «au cœur vide (Daniel 11.43)» = «affligés (Jérémie 46.9)»",
+      "gloss": "Libyens = «au cœur vide (Daniel 11.43)»",
       "vu": false
     },
     {
@@ -56424,7 +56424,7 @@
     {
       "strongNb": 3881,
       "hebreu": "לֵוִיִי לֵוִי",
-      "gloss": "erreur",
+      "gloss": "lévite",
       "vu": false
     },
     {
@@ -56442,7 +56442,7 @@
     {
       "strongNb": 3884,
       "hebreu": "לוּלֵא לוּלֵי",
-      "gloss": "à moins que... ne, si... non, sauf",
+      "gloss": "à moins que ne, si non, sauf",
       "vu": false
     },
     {
@@ -56598,7 +56598,7 @@
     {
       "strongNb": 3910,
       "hebreu": "לוֹט",
-      "gloss": "myrrhe, le ladanum, huile essentielle produite par certains cistes poussant en Syrie",
+      "gloss": "myrrhe",
       "vu": false
     },
     {
@@ -56676,7 +56676,7 @@
     {
       "strongNb": 3923,
       "hebreu": "לָכִישׁ",
-      "gloss": "Lakis = «invincible», «sauvage, obstiné»",
+      "gloss": "Lakis = «invincible»",
       "vu": false
     },
     {
@@ -56970,7 +56970,7 @@
     {
       "strongNb": 3972,
       "hebreu": "מְאוּמָה",
-      "gloss": "ne...rien",
+      "gloss": "nerien",
       "vu": false
     },
     {
@@ -57768,7 +57768,7 @@
     {
       "strongNb": 4105,
       "hebreu": "מְהֵיטַּבאֵל",
-      "gloss": "Mehétabeel = «favori de Dieu», «Dieu bénit»",
+      "gloss": "Mehétabeel = «favori de Dieu»",
       "vu": false
     },
     {
@@ -57888,7 +57888,7 @@
     {
       "strongNb": 4125,
       "hebreu": "מוֹאָבִי מוֹאָבִיָה מוֹאָבִיתּ",
-      "gloss": "Moabite = «du père: quel père?»",
+      "gloss": "Moabite = «du père  quel père?»",
       "vu": false
     },
     {
@@ -57960,7 +57960,7 @@
     {
       "strongNb": 4137,
       "hebreu": "מוֹלָדָה",
-      "gloss": "Molada = «naissance» ou «race, origine»",
+      "gloss": "Molada = «naissance»",
       "vu": false
     },
     {
@@ -57972,7 +57972,7 @@
     {
       "strongNb": 4139,
       "hebreu": "מוּלָה",
-      "gloss": "circoncision: couper autour",
+      "gloss": "circoncision",
       "vu": false
     },
     {
@@ -58086,7 +58086,7 @@
     {
       "strongNb": 4158,
       "hebreu": "מוֹפַעַת מֵיפַעַת מֵפַעַת",
-      "gloss": "Méphaath = «splendeur, beauté» ou «hauteur»",
+      "gloss": "Méphaath = «splendeur, beauté»",
       "vu": false
     },
     {
@@ -58290,7 +58290,7 @@
     {
       "strongNb": 4192,
       "hebreu": "מוּת מוּת לַבֵּן",
-      "gloss": "Muth-Labben (version Darby): meurs pour le fils, Début du Psaume 9",
+      "gloss": "Muth-Labben (version Darby)  meurs pour le fils, Début du Psaume 9",
       "vu": false
     },
     {
@@ -58434,7 +58434,7 @@
     {
       "strongNb": 4216,
       "hebreu": "מַזָּרָה",
-      "gloss": "les douze signes du Zodiaque et leurs trente-six constellations associées",
+      "gloss": "",
       "vu": false
     },
     {
@@ -58578,7 +58578,7 @@
     {
       "strongNb": 4240,
       "hebreu": "מְחִידָּא",
-      "gloss": "Mehida = «célèbre» ou «noble», «union»",
+      "gloss": "Mehida = «célèbre»",
       "vu": false
     },
     {
@@ -58680,7 +58680,7 @@
     {
       "strongNb": 4257,
       "hebreu": "מַחֲלַת",
-      "gloss": "trouvé dans l’en-tête des Psaume machalath 53 et Psaume 81",
+      "gloss": "trouvé dans l’en-tête des Psaume  et Psaume 81",
       "vu": false
     },
     {
@@ -58692,7 +58692,7 @@
     {
       "strongNb": 4259,
       "hebreu": "מְחוֹלָתִי",
-      "gloss": "De Mehola (Meholathite?) = voir Mehola: «de la danse»",
+      "gloss": "De Mehola (Meholathite?) = voir Mehola  «de la danse»",
       "vu": false
     },
     {
@@ -58998,7 +58998,7 @@
     {
       "strongNb": 4310,
       "hebreu": "מִי",
-      "gloss": "qui?, de qui?, lequel?...",
+      "gloss": "qui?, de qui?, lequel?",
       "vu": false
     },
     {
@@ -59388,7 +59388,7 @@
     {
       "strongNb": 4375,
       "hebreu": "מַכפֵּלָה",
-      "gloss": "Macpéla = «double» ou «portion»",
+      "gloss": "Macpéla = «double»",
       "vu": false
     },
     {
@@ -59580,7 +59580,7 @@
     {
       "strongNb": 4407,
       "hebreu": "מִלּוֹא מִלּוֹא",
-      "gloss": "Millo = «rempart, citadelle» ou «tertre, remblai»",
+      "gloss": "Millo = «rempart, citadelle»",
       "vu": false
     },
     {
@@ -59790,7 +59790,7 @@
     {
       "strongNb": 4442,
       "hebreu": "מַלכִּי ־ צֶּדֶק",
-      "gloss": "Melchisédek = «mon roi est Sédek», «roi de justice»",
+      "gloss": "Melchisédek = «mon roi est Sédek»",
       "vu": false
     },
     {
@@ -59964,7 +59964,7 @@
     {
       "strongNb": 4471,
       "hebreu": "מַמרֵא",
-      "gloss": "Mamré = «force, vigueur» ou «embonpoint»",
+      "gloss": "Mamré = «force, vigueur»",
       "vu": false
     },
     {
@@ -60180,7 +60180,7 @@
     {
       "strongNb": 4507,
       "hebreu": "מְנִי",
-      "gloss": "Meni = «destin, sort» ou «fortune»",
+      "gloss": "Meni = «destin, sort»",
       "vu": false
     },
     {
@@ -60402,7 +60402,7 @@
     {
       "strongNb": 4544,
       "hebreu": "מִסכֵּנוּת",
-      "gloss": "pauvreté, disettenote: sans pauvreté: abondance",
+      "gloss": "pauvreté, disette, abondance",
       "vu": false
     },
     {
@@ -60750,7 +60750,7 @@
     {
       "strongNb": 4602,
       "hebreu": "מַעֲכָתִי",
-      "gloss": "Maacathiens = «pression (littéralement: elle a pressé»",
+      "gloss": "Maacathiens = «pression (littéralement  elle a pressé»",
       "vu": false
     },
     {
@@ -60798,7 +60798,7 @@
     {
       "strongNb": 4610,
       "hebreu": "מַעֲלֵה עַקרַבִּים",
-      "gloss": "Akrabbim = «les scorpions», montée d’Akrabbim: la passe des scorpions",
+      "gloss": "Akrabbim = «les scorpions»",
       "vu": false
     },
     {
@@ -61032,7 +61032,7 @@
     {
       "strongNb": 4649,
       "hebreu": "מוּפִּים",
-      "gloss": "Muppim = «serpent», «inquiétudes, ténèbres»",
+      "gloss": "Muppim = «serpent»",
       "vu": false
     },
     {
@@ -61416,13 +61416,13 @@
     {
       "strongNb": 4713,
       "hebreu": "מִצרִי",
-      "gloss": "Égyptien: (voir Égypte) «doublement oppresseur»",
+      "gloss": "Égyptien  (voir Égypte) «doublement oppresseur»",
       "vu": false
     },
     {
       "strongNb": 4714,
       "hebreu": "מִצרַיִם",
-      "gloss": "Égypte = «territoire des Coptes» = «terre de dépression»",
+      "gloss": "Égypte = «territoire des Coptes»",
       "vu": false
     },
     {
@@ -61710,7 +61710,7 @@
     {
       "strongNb": 4762,
       "hebreu": "מַראֵשָׁה מַרֵשָׁה",
-      "gloss": "Maréscha = « à la tête», «crête d’une colline»",
+      "gloss": "Maréscha = « à la tête»",
       "vu": false
     },
     {
@@ -61824,13 +61824,13 @@
     {
       "strongNb": 4781,
       "hebreu": "מְרוֹדָך",
-      "gloss": "Merodac = «rébellion», «carnage, hardi»",
+      "gloss": "Merodac = «rébellion»",
       "vu": false
     },
     {
       "strongNb": 4782,
       "hebreu": "מָרדְּכַי",
-      "gloss": "Mardochée = «petit homme» ou «adorateur de Mars»",
+      "gloss": "Mardochée = «petit homme»",
       "vu": false
     },
     {
@@ -62238,7 +62238,7 @@
     {
       "strongNb": 4850,
       "hebreu": "מְרָתַיִם",
-      "gloss": "Merathaïm: «double rébellion»",
+      "gloss": "Merathaïm = «double rébellion»",
       "vu": false
     },
     {
@@ -62370,7 +62370,7 @@
     {
       "strongNb": 4872,
       "hebreu": "מוֹשֶׁה",
-      "gloss": "Moïse = «tiré de» égyptien: enfant, fils",
+      "gloss": "Moïse = «tiré de»",
       "vu": false
     },
     {
@@ -62400,7 +62400,7 @@
     {
       "strongNb": 4877,
       "hebreu": "מְשׁוֹבָב",
-      "gloss": "Meschobab = «restauré» ou «récidive»",
+      "gloss": "Meschobab = «restauré»",
       "vu": false
     },
     {
@@ -62658,7 +62658,7 @@
     {
       "strongNb": 4920,
       "hebreu": "מְשֶׁלֶמיָה מְשֶׁלֶמיָהוּ",
-      "gloss": "Meschélémia = «celui que l’Éternel rembourse», «l’Éternel récompense»",
+      "gloss": "Meschélémia = «celui que l’Éternel rembourse»",
       "vu": false
     },
     {
@@ -62754,7 +62754,7 @@
     {
       "strongNb": 4936,
       "hebreu": "מִשׁעָם",
-      "gloss": "Mischeam = «purification», «hâte»",
+      "gloss": "Mischeam = «purification»",
       "vu": false
     },
     {
@@ -62946,7 +62946,7 @@
     {
       "strongNb": 4968,
       "hebreu": "מְתוּשֶׁלַח",
-      "gloss": "Metuschélah = «homme du javelot» = « à sa mort, le javelot (soit: le déluge)»",
+      "gloss": "Metuschélah = «homme du javelot»",
       "vu": false
     },
     {
@@ -63402,7 +63402,7 @@
     {
       "strongNb": 5044,
       "hebreu": "נִבשָׁן",
-      "gloss": "Nibschan = «doux terroir», «terre molle et plate»",
+      "gloss": "Nibschan = «doux terroir»",
       "vu": false
     },
     {
@@ -63570,7 +63570,7 @@
     {
       "strongNb": 5072,
       "hebreu": "נְדַביָה",
-      "gloss": "Nedabia = «celui que l’Éternel force», «l’Éternel a été généreux»",
+      "gloss": "Nedabia = «celui que l’Éternel force»",
       "vu": false
     },
     {
@@ -63894,7 +63894,7 @@
     {
       "strongNb": 5126,
       "hebreu": "נוּן נוֹן",
-      "gloss": "Nun = «poisson» ou «postérité»",
+      "gloss": "Nun = «poisson»",
       "vu": false
     },
     {
@@ -64200,7 +64200,7 @@
     {
       "strongNb": 5177,
       "hebreu": "נַחשׁוֹן",
-      "gloss": "Nachschon = «serpent», «enchanteur»",
+      "gloss": "Nachschon = «serpent»",
       "vu": false
     },
     {
@@ -64356,7 +64356,7 @@
     {
       "strongNb": 5203,
       "hebreu": "נָטַשׁ",
-      "gloss": "laisser, permettre, abandonner, jeter au loin, rejeter, souffrir, joindre, être perdu, cesser, abandonner, quitter, ...",
+      "gloss": "laisser, permettre, abandonner, jeter au loin, rejeter, souffrir, joindre, être perdu, cesser, abandonner, quitter,",
       "vu": false
     },
     {
@@ -64620,7 +64620,7 @@
     {
       "strongNb": 5247,
       "hebreu": "נִמרָה",
-      "gloss": "Nimra = «limpide» ou «pur»",
+      "gloss": "Nimra = «limpide»",
       "vu": false
     },
     {
@@ -64632,7 +64632,7 @@
     {
       "strongNb": 5249,
       "hebreu": "נִמרִים",
-      "gloss": "Nimrim = «limpide» ou «pur»",
+      "gloss": "Nimrim = «limpide»",
       "vu": false
     },
     {
@@ -64938,7 +64938,7 @@
     {
       "strongNb": 5300,
       "hebreu": "נְפוּשׁסִים",
-      "gloss": "Nephischsim ou Nephusim = «rafraîchi d’épices», «expansion»",
+      "gloss": "Nephischsim ou Nephusim = «rafraîchi d’épices»",
       "vu": false
     },
     {
@@ -65142,7 +65142,7 @@
     {
       "strongNb": 5334,
       "hebreu": "נְצִיבּ",
-      "gloss": "Netsib = «garnison» ou «pilier»",
+      "gloss": "Netsib = «garnison»",
       "vu": false
     },
     {
@@ -65364,7 +65364,7 @@
     {
       "strongNb": 5371,
       "hebreu": "נֵרגַּל שַׁראֶצֶר",
-      "gloss": "Nergal-Scharetser = «prince de feu» = «que Nergal protège le roi»",
+      "gloss": "Nergal-Scharetser = «prince de feu»",
       "vu": false
     },
     {
@@ -65640,7 +65640,7 @@
     {
       "strongNb": 5417,
       "hebreu": "נְתַנאֵל",
-      "gloss": "Nethaneel = «don de Dieu», forme grecque: Nathanaël",
+      "gloss": "Nethaneel = «don de Dieu»",
       "vu": false
     },
     {
@@ -66030,7 +66030,7 @@
     {
       "strongNb": 5482,
       "hebreu": "סְוֵנֵה סְוֵנָה סְוֵן",
-      "gloss": "Syène = «ouverture», «son apparence»",
+      "gloss": "Syène = «ouverture»",
       "vu": false
     },
     {
@@ -66072,7 +66072,7 @@
     {
       "strongNb": 5489,
       "hebreu": "סוּף",
-      "gloss": "Suph = «mauvaise herbe de la mer, algue», «roseaux»",
+      "gloss": "Suph = «mauvaise herbe de la mer, algue»",
       "vu": false
     },
     {
@@ -66204,13 +66204,13 @@
     {
       "strongNb": 5511,
       "hebreu": "סִיחוֹן סִיחוֹן",
-      "gloss": "Sihon = «guerrier», «qui balaie»",
+      "gloss": "Sihon = «guerrier»",
       "vu": false
     },
     {
       "strongNb": 5512,
       "hebreu": "סִין",
-      "gloss": "Sin = « épine» ou «argile», «falaise»",
+      "gloss": "Sin = « épine»",
       "vu": false
     },
     {
@@ -66222,7 +66222,7 @@
     {
       "strongNb": 5514,
       "hebreu": "סִינַי",
-      "gloss": "Sinaï = « épineux», «falaise»",
+      "gloss": "Sinaï = « épineux»",
       "vu": false
     },
     {
@@ -66270,7 +66270,7 @@
     {
       "strongNb": 5522,
       "hebreu": "סִכּוּת",
-      "gloss": "Sikkuth: «tente»",
+      "gloss": "Sikkuth = «tente»",
       "vu": false
     },
     {
@@ -66396,7 +66396,7 @@
     {
       "strongNb": 5543,
       "hebreu": "סַלוּ סַלוּא סָלוּא סַלַּי",
-      "gloss": "Sallu ou Salu ou Sallaï = «pesé», ou « élevé»",
+      "gloss": "Sallu ou Salu ou Sallaï = «pesé»",
       "vu": false
     },
     {
@@ -66624,7 +66624,7 @@
     {
       "strongNb": 5581,
       "hebreu": "סִסמַי",
-      "gloss": "Sismaï = «l’Éternel est distingué», «hirondelle»",
+      "gloss": "Sismaï = «l’Éternel est distingué»",
       "vu": false
     },
     {
@@ -66690,7 +66690,7 @@
     {
       "strongNb": 5592,
       "hebreu": "סַף",
-      "gloss": "bassin, gobelet, coupe, seuil, rebord",
+      "gloss": "bassin, gobelet, coupe",
       "vu": false
     },
     {
@@ -66924,7 +66924,7 @@
     {
       "strongNb": 5631,
       "hebreu": "סָרִיס סָרִס",
-      "gloss": "eunuque: chambellan castré",
+      "gloss": "eunuque",
       "vu": false
     },
     {
@@ -67122,14 +67122,14 @@
     {
       "strongNb": 5664,
       "hebreu": "עֲבֵד נֶגוֹ",
-      "gloss": "Abed-Nego = «serviteur de Nego», Nego, ou Nebo, provient du nom du dieu Nebo",
+      "gloss": "Abed-Nego = «serviteur de Nego»",
       "vu": false
     },
     {
       "strongNb": 5665,
       "hebreu": "עֲבֵד נֶגוֹא",
       "gloss": "Abed-Nego",
-      "vu": false
+      "vu": true
     },
     {
       "strongNb": 5666,
@@ -67338,7 +67338,7 @@
     {
       "strongNb": 5700,
       "hebreu": "עֶגלוֹן",
-      "gloss": "Églon = «jeune taureau», «cercle»",
+      "gloss": "Églon = «jeune taureau»",
       "vu": false
     },
     {
@@ -67470,25 +67470,25 @@
     {
       "strongNb": 5722,
       "hebreu": "עֲדִינוֹ",
-      "gloss": "Adino: «son ornement»",
+      "gloss": "Adino = «son ornement»",
       "vu": false
     },
     {
       "strongNb": 5723,
       "hebreu": "עֲדִיתַּיִם",
-      "gloss": "Adithaïm = «deux passages», «double ornement»",
+      "gloss": "Adithaïm = «deux passages»",
       "vu": false
     },
     {
       "strongNb": 5724,
       "hebreu": "עַדלַי",
-      "gloss": "Adlaï = «justice», «justice de Yahvé»",
+      "gloss": "Adlaï = «justice»",
       "vu": false
     },
     {
       "strongNb": 5725,
       "hebreu": "עֲדוּלָּם",
-      "gloss": "Adullam = «justice du peuple», «enclos»",
+      "gloss": "Adullam = «justice du peuple»",
       "vu": false
     },
     {
@@ -67536,7 +67536,7 @@
     {
       "strongNb": 5733,
       "hebreu": "עַדנָא",
-      "gloss": "Adna = «repos» ou «plaisir»",
+      "gloss": "Adna = «repos»",
       "vu": false
     },
     {
@@ -67818,7 +67818,7 @@
     {
       "strongNb": 5780,
       "hebreu": "עוּץ",
-      "gloss": "Uts = «qui consulte», «boisé»",
+      "gloss": "Uts = «qui consulte»",
       "vu": false
     },
     {
@@ -67956,7 +67956,7 @@
     {
       "strongNb": 5803,
       "hebreu": "עַזגָּד",
-      "gloss": "Azgad = «Gad est puissant», «fort, riche»",
+      "gloss": "Azgad = «Gad est puissant»",
       "vu": false
     },
     {
@@ -68166,7 +68166,7 @@
     {
       "strongNb": 5838,
       "hebreu": "עֲזַריָה עֲזַריָהוּ",
-      "gloss": "Azaria signifie L'Éternel a secouru",
+      "gloss": "Azaria signifie L'Éternel a secouru»",
       "vu": false
     },
     {
@@ -68178,7 +68178,7 @@
     {
       "strongNb": 5840,
       "hebreu": "עַזרִיקָם",
-      "gloss": "Azrikam = «aide contre un ennemi» ou «le secours est survenu»",
+      "gloss": "Azrikam = «aide contre un ennemi»",
       "vu": false
     },
     {
@@ -68286,7 +68286,7 @@
     {
       "strongNb": 5858,
       "hebreu": "עֵיבָּל",
-      "gloss": "Ébal = «pierre» ou «montagne nue»",
+      "gloss": "Ébal = «pierre»",
       "vu": false
     },
     {
@@ -68340,7 +68340,7 @@
     {
       "strongNb": 5867,
       "hebreu": "עֵילָם עוֹלָם",
-      "gloss": "Élam = « éternité», « élevé, haut pays»",
+      "gloss": "Élam = « éternité»",
       "vu": false
     },
     {
@@ -68382,7 +68382,7 @@
     {
       "strongNb": 5874,
       "hebreu": "עֵין ־ דּאוֹר עֵין דּוֹר עֵין ־ דּוֹר",
-      "gloss": "En-Dor = «fontaine de Dor», «fontaine d’habitation»",
+      "gloss": "En-Dor = «fontaine de Dor»",
       "vu": false
     },
     {
@@ -68406,7 +68406,7 @@
     {
       "strongNb": 5878,
       "hebreu": "עֵין חֲרוֹד",
-      "gloss": "En-Harod = «fontaine de Hérode», «source du tremblement de peur»",
+      "gloss": "En-Harod = «fontaine de Hérode»",
       "vu": false
     },
     {
@@ -68454,7 +68454,7 @@
     {
       "strongNb": 5886,
       "hebreu": "עֵין תַּנִּים",
-      "gloss": "En-Tannim: «fontaine des dragons»",
+      "gloss": "En-Tannim = «fontaine des dragons»",
       "vu": false
     },
     {
@@ -68532,7 +68532,7 @@
     {
       "strongNb": 5899,
       "hebreu": "עִיר הַתּתְּמָרִים",
-      "gloss": "Ir-Hatmarim: «la ville des palmiers»",
+      "gloss": "Ir-Hatmarim = «la ville des palmiers»",
       "vu": false
     },
     {
@@ -68610,7 +68610,7 @@
     {
       "strongNb": 5912,
       "hebreu": "עָכָן",
-      "gloss": "Acan = «trouble» ou «il a causé du trouble»",
+      "gloss": "Acan = «trouble»",
       "vu": false
     },
     {
@@ -68736,7 +68736,7 @@
     {
       "strongNb": 5933,
       "hebreu": "עַלוָה עַליָה",
-      "gloss": "Alva (ou Alja) = «mal» ou «haut, grand, épais»",
+      "gloss": "Alva (ou Alja) = «mal»",
       "vu": false
     },
     {
@@ -69066,7 +69066,7 @@
     {
       "strongNb": 5988,
       "hebreu": "עַמִּיאֵל",
-      "gloss": "Ammiel = «Dieu est membre de la famille», «Dieu est un allié dévoué»",
+      "gloss": "Ammiel = «Dieu est membre de la famille»",
       "vu": false
     },
     {
@@ -69096,7 +69096,7 @@
     {
       "strongNb": 5993,
       "hebreu": "עַמִּי נָדִיבּ",
-      "gloss": "Amminadib: «mon peuple est bien disposé»",
+      "gloss": "Amminadib = «mon peuple est bien disposé»",
       "vu": false
     },
     {
@@ -69420,13 +69420,13 @@
     {
       "strongNb": 6047,
       "hebreu": "עֲנָמִים",
-      "gloss": "Anamim = «affliction des eaux», «réponse»",
+      "gloss": "Anamim = «affliction des eaux»",
       "vu": false
     },
     {
       "strongNb": 6048,
       "hebreu": "עֲנַמֶּלֶך",
-      "gloss": "Anammélec = «image du roi», «le dieu Anu est roi»",
+      "gloss": "Anammélec = «image du roi»",
       "vu": false
     },
     {
@@ -69450,7 +69450,7 @@
     {
       "strongNb": 6052,
       "hebreu": "עָנָן",
-      "gloss": "Anan = «un nuage», «il a couvert»",
+      "gloss": "Anan = «un nuage»",
       "vu": false
     },
     {
@@ -69462,7 +69462,7 @@
     {
       "strongNb": 6054,
       "hebreu": "עֲנָנִי",
-      "gloss": "Anani = «nuageux», «Dieu a couvert»",
+      "gloss": "Anani = «nuageux»",
       "vu": false
     },
     {
@@ -69966,7 +69966,7 @@
     {
       "strongNb": 6138,
       "hebreu": "עֶקרוֹן",
-      "gloss": "Ékron = « émigration» ou «extermination»",
+      "gloss": "Ékron = « émigration»",
       "vu": false
     },
     {
@@ -70098,7 +70098,7 @@
     {
       "strongNb": 6160,
       "hebreu": "עֲרָבָה",
-      "gloss": "Araba = «région aride, désert»",
+      "gloss": "Araba = « région aride, désert», plaine, désert",
       "vu": false
     },
     {
@@ -70200,7 +70200,7 @@
     {
       "strongNb": 6177,
       "hebreu": "עֲרוֹעֵר עֲרוֹעֵר עַרעוֹר",
-      "gloss": "Aroër = «ruines», «nu, nudité, buisson de genévrier»",
+      "gloss": "Aroër = «ruines»",
       "vu": false
     },
     {
@@ -70668,7 +70668,7 @@
     {
       "strongNb": 6255,
       "hebreu": "ŨĒÖ·ŨĐŨŨŠÖžÖ°ŨĻŨÖđŨŠ Ũ§Ö·ŨĻŨ Ö·ŨÖīŨ",
-      "gloss": "Aschteroth-KarnaÃŊm = ÂŦâŊAstartÃĐ des deux cornes ou sommetsâŊÂŧ",
+      "gloss": "Aschteroth-KarnaÃŊm = ÂŦâŊAstartÃĐ des deux cornes ou sommetsâŊÂŧ»",
       "vu": false
     },
     {
@@ -71010,7 +71010,7 @@
     {
       "strongNb": 6312,
       "hebreu": "פּוּאָה פּוּוָּה",
-      "gloss": "Pua ou Puva = «splendeur», «bouche»",
+      "gloss": "Pua ou Puva = «splendeur»",
       "vu": false
     },
     {
@@ -71082,7 +71082,7 @@
     {
       "strongNb": 6324,
       "hebreu": "פּוּנִי",
-      "gloss": "Puvites = voir Puva « éparpillé»",
+      "gloss": "descendants de Puva, (ou Pua), le fils d’Issacar",
       "vu": false
     },
     {
@@ -71142,7 +71142,7 @@
     {
       "strongNb": 6334,
       "hebreu": "פּוֹרָתָא",
-      "gloss": "Poratha = «fertilité» ou «frustration»",
+      "gloss": "Poratha = «fertilité»",
       "vu": false
     },
     {
@@ -71322,7 +71322,7 @@
     {
       "strongNb": 6364,
       "hebreu": "פִּי ־ בֶּסֶת",
-      "gloss": "Pi-Béseth = «bouche de dégoût», «maison de la déesse Bast»",
+      "gloss": "Pi-Béseth = «bouche de dégoût»",
       "vu": false
     },
     {
@@ -71340,7 +71340,7 @@
     {
       "strongNb": 6367,
       "hebreu": "פִּי הַחִרוֹת",
-      "gloss": "Pi-Hahiroth = «lieu des prés», «lieu où pousse le jonc»",
+      "gloss": "Pi-Hahiroth = «lieu des prés»",
       "vu": false
     },
     {
@@ -71370,7 +71370,7 @@
     {
       "strongNb": 6372,
       "hebreu": "פִּינְחָס",
-      "gloss": "Phinées = «bouche de cuivre», «nubien»",
+      "gloss": "Phinées = «bouche de cuivre»",
       "vu": false
     },
     {
@@ -71748,7 +71748,7 @@
     {
       "strongNb": 6435,
       "hebreu": "פֵּן",
-      "gloss": "de peur que..., ne pas, prendre garde",
+      "gloss": "de peur que, ne pas, prendre garde",
       "vu": false
     },
     {
@@ -71832,7 +71832,7 @@
     {
       "strongNb": 6449,
       "hebreu": "פִּסגָּה",
-      "gloss": "Pisga = «fente», «partie, division»",
+      "gloss": "Pisga = «fente»",
       "vu": false
     },
     {
@@ -72048,7 +72048,7 @@
     {
       "strongNb": 6485,
       "hebreu": "פָּקַד",
-      "gloss": "faire attention à, rassembler, compter, visiter, punir, désigner, .soigner, prendre soin de",
+      "gloss": "faire attention à, rassembler, compter, visiter, punir, désigner, soigner, prendre soin de",
       "vu": false
     },
     {
@@ -72222,7 +72222,7 @@
     {
       "strongNb": 6514,
       "hebreu": "פְּרוּדָא פְּרִידָּא",
-      "gloss": "Peruda ou Perida = «grain» ou «amande»",
+      "gloss": "Peruda ou Perida = «grain»",
       "vu": false
     },
     {
@@ -72372,13 +72372,13 @@
     {
       "strongNb": 6539,
       "hebreu": "פָּרַס",
-      "gloss": "Perse = «pur» ou «splendide»",
+      "gloss": "Perse = «pur»",
       "vu": false
     },
     {
       "strongNb": 6540,
       "hebreu": "פָּרַס",
-      "gloss": "Perse = «pur» ou «splendide»",
+      "gloss": "Perse = «pur»",
       "vu": false
     },
     {
@@ -72582,7 +72582,7 @@
     {
       "strongNb": 6574,
       "hebreu": "פַּרשְׁדוֹן",
-      "gloss": "saleté, excrément,...",
+      "gloss": "saleté, excrément,",
       "vu": false
     },
     {
@@ -72600,13 +72600,13 @@
     {
       "strongNb": 6577,
       "hebreu": "פַּרשַׁנדָּתָא",
-      "gloss": "Parschandatha = «donné par la prière» ou «curieux»",
+      "gloss": "Parschandatha = «donné par la prière»",
       "vu": false
     },
     {
       "strongNb": 6578,
       "hebreu": "פְּרָת",
-      "gloss": "Euphrate = «fertilité» Le plus grand fleuve de l’Asie de l’ouest, provenant de deux sourcesprincipales des montagnes d’Arménie et se jetant dans le golfe Persique",
+      "gloss": "Euphrate = «fertilité»",
       "vu": false
     },
     {
@@ -73134,7 +73134,7 @@
     {
       "strongNb": 6666,
       "hebreu": "צְּדָקָה",
-      "gloss": "justice, droiture",
+      "gloss": "justice, droit",
       "vu": true
     },
     {
@@ -73170,7 +73170,7 @@
     {
       "strongNb": 6672,
       "hebreu": "צּוֹהַר",
-      "gloss": "midi, milieu du jour, toit, fenêtre",
+      "gloss": "midi, milieu du jour",
       "vu": false
     },
     {
@@ -75222,7 +75222,7 @@
     {
       "strongNb": 7014,
       "hebreu": "קַיִן",
-      "gloss": "Caïn = «possession», «artisan, forgeron»",
+      "gloss": "Caïn = «possession»",
       "vu": false
     },
     {
@@ -76422,7 +76422,7 @@
     {
       "strongNb": 7214,
       "hebreu": "רְאֵם רְאֵים רֵים רֵם",
-      "gloss": "probablement les grands aurochs ou taureaux sauvages qui ont maintenantdisparu. Sens exact inconnu",
+      "gloss": "probablement les grands aurochs ou taureaux sauvages qui ont maintenantdisparu Sens exact inconnu",
       "vu": false
     },
     {
@@ -76500,7 +76500,7 @@
     {
       "strongNb": 7227,
       "hebreu": "רַב",
-      "gloss": "beaucoup, un grand nombre de, grand, capitaine, chef",
+      "gloss": "beaucoup, un grand nombre de, grand",
       "vu": false
     },
     {
@@ -76512,7 +76512,7 @@
     {
       "strongNb": 7229,
       "hebreu": "רַב",
-      "gloss": "grand, capitaine, chef",
+      "gloss": "grand",
       "vu": false
     },
     {
@@ -76980,7 +76980,7 @@
     {
       "strongNb": 7307,
       "hebreu": "רוַּח",
-      "gloss": "vent, souffle, esprithaleine",
+      "gloss": "vent, souffle, esprit",
       "vu": false
     },
     {
@@ -77268,13 +77268,13 @@
     {
       "strongNb": 7355,
       "hebreu": "רָחַם",
-      "gloss": "amour, aimer profondément, avoir miséricorde, avoir compassion, avoir une tendre affection, avoir pitié, nom symbolique du salut entre Juda et Israël",
+      "gloss": "amour, aimer profondément, avoir miséricorde, avoir compassion, avoir une tendre affection, avoir pitié",
       "vu": false
     },
     {
       "strongNb": 7356,
       "hebreu": "רַחַם",
-      "gloss": "matrice, sein maternel, compassion, miséricorde",
+      "gloss": "matrice, sein maternel",
       "vu": false
     },
     {
@@ -78156,7 +78156,7 @@
     {
       "strongNb": 7503,
       "hebreu": "רָפָה",
-      "gloss": "baisser, relâcher, couler, laisser tomber, être découragé(Qal)tomber",
+      "gloss": "baisser, relâcher, couler, laisser tomber, être découragé",
       "vu": false
     },
     {
@@ -78186,7 +78186,7 @@
     {
       "strongNb": 7508,
       "hebreu": "רְפִידִּים",
-      "gloss": "Rephidim = «repos» ou «séjour» ou «lieu de repos»",
+      "gloss": "Rephidim = «repos»",
       "vu": false
     },
     {
@@ -78432,7 +78432,7 @@
     {
       "strongNb": 7549,
       "hebreu": "רָקִיַע",
-      "gloss": "la surface étendue (le solide), étendue, le firmamentétendue (plate comme base, support)",
+      "gloss": "la surface étendue (le solide), étendue, le firmament",
       "vu": false
     },
     {
@@ -78546,7 +78546,7 @@
     {
       "strongNb": 7568,
       "hebreu": "רֶשֶׁת",
-      "gloss": "filetfiletpour attraper",
+      "gloss": "filet",
       "vu": false
     },
     {
@@ -78630,7 +78630,7 @@
     {
       "strongNb": 7582,
       "hebreu": "שָׁאָה",
-      "gloss": "tomber avec fracas, faire du tapage, mettre en ruines, être en ruines, être dévasté(Qal) fracasser en ruines",
+      "gloss": "tomber avec fracas, faire du tapage, mettre en ruines, être en ruines, être dévasté",
       "vu": false
     },
     {
@@ -78648,7 +78648,7 @@
     {
       "strongNb": 7585,
       "hebreu": "שְׁאוֹל שְׁאוֹל",
-      "gloss": "Scheol, monde souterrain, tombe, enfer, fossele monde souterrain",
+      "gloss": "Scheol, monde souterrain, tombe, enfer, fosse",
       "vu": false
     },
     {
@@ -78738,7 +78738,7 @@
     {
       "strongNb": 7600,
       "hebreu": "שַׁאֲנָן",
-      "gloss": "à l’aise, tranquille, sûrà l’aise",
+      "gloss": "à l’aise, tranquille, sûr",
       "vu": false
     },
     {
@@ -78780,7 +78780,7 @@
     {
       "strongNb": 7607,
       "hebreu": "שְׁאֵר",
-      "gloss": "chair, nourriture, corps, proche parent, proche parentechaircomme nourriture",
+      "gloss": "chair, nourriture, corps, proche parent, proche parente",
       "vu": false
     },
     {
@@ -78822,7 +78822,7 @@
     {
       "strongNb": 7614,
       "hebreu": "שְׁבָא",
-      "gloss": "Séba = «sept» ou «un serment» ou «un homme»",
+      "gloss": "Séba = «sept»",
       "vu": false
     },
     {
@@ -78852,19 +78852,19 @@
     {
       "strongNb": 7619,
       "hebreu": "שְׁבוּאֵל שׁוּבָאֵל",
-      "gloss": "Schebuel ou Schubaël = «captif de Dieu» = «reviens, ô Dieu»",
+      "gloss": "Schebuel ou Schubaël = «captif de Dieu»",
       "vu": false
     },
     {
       "strongNb": 7620,
       "hebreu": "שָׁבוַּע שָׁבוַּע שֶׁבוּעָה",
-      "gloss": "sept, période de sept (jours ou années), semainepériode de sept jours, une semaineFête des Semaines",
+      "gloss": "sept, période de sept (jours ou années), semaine",
       "vu": false
     },
     {
       "strongNb": 7621,
       "hebreu": "שְׁבוּעָה",
-      "gloss": "serment, malédictionsermentattestant de l’innocence",
+      "gloss": "serment, malédiction",
       "vu": false
     },
     {
@@ -79050,7 +79050,7 @@
     {
       "strongNb": 7652,
       "hebreu": "שֶׁבַע",
-      "gloss": "Schéba = «sept», «un serment»",
+      "gloss": "Schéba = «sept»",
       "vu": false
     },
     {
@@ -79080,7 +79080,7 @@
     {
       "strongNb": 7657,
       "hebreu": "שִׁבעִים",
-      "gloss": "soixante-dix, trois vingtaines et (dix, onze, douze, etc...)",
+      "gloss": "soixante-dix, trois vingtaines et (dix, onze, douze, etc)",
       "vu": false
     },
     {
@@ -79116,7 +79116,7 @@
     {
       "strongNb": 7663,
       "hebreu": "שָׂבַר שָׁבַר",
-      "gloss": "inspecter, examiner, attendre, espérer, s’attendre à(Qal) examiné",
+      "gloss": "inspecter, examiner, attendre, espérer, s’attendre à",
       "vu": false
     },
     {
@@ -79290,7 +79290,7 @@
     {
       "strongNb": 7692,
       "hebreu": "שִׁגָּיוֹן שִׁגָּיוֹנָה",
-      "gloss": "Shiggaïon: terme musical, complainte ou hymne lyrique",
+      "gloss": "Shiggaïon = terme musical, complainte ou hymne lyrique»",
       "vu": false
     },
     {
@@ -79386,7 +79386,7 @@
     {
       "strongNb": 7708,
       "hebreu": "שִׂדִּים",
-      "gloss": "Siddim = «champ» ou «plaine»",
+      "gloss": "Siddim = «champ»",
       "vu": false
     },
     {
@@ -79416,19 +79416,19 @@
     {
       "strongNb": 7713,
       "hebreu": "שְׂדֵרָה",
-      "gloss": "rang, rangée (de soldats)rangées, rangs",
+      "gloss": "rang, rangée (de soldats)",
       "vu": false
     },
     {
       "strongNb": 7714,
       "hebreu": "שַׁדרַך",
-      "gloss": "Schadrac = «royal» ou «le grand scribe»",
+      "gloss": "Schadrac = «royal»",
       "vu": false
     },
     {
       "strongNb": 7715,
       "hebreu": "שַׁדרַך",
-      "gloss": "Schadrac = «royal» ou «le grand scribe»",
+      "gloss": "Schadrac = «royal»",
       "vu": false
     },
     {
@@ -79560,7 +79560,7 @@
     {
       "strongNb": 7737,
       "hebreu": "שָׁוָה",
-      "gloss": "être d’accord avec, être ou devenir pareil, égal, ressembler à(Qal)être comme",
+      "gloss": "être d’accord avec, être ou devenir pareil, égal, ressembler à",
       "vu": false
     },
     {
@@ -79584,7 +79584,7 @@
     {
       "strongNb": 7741,
       "hebreu": "ืฉืึธืึตื ืงึดืจืึธืชึทืึดื",
-      "gloss": "Schavรฉ-Kirjathaรฏm = ยซโฏplaine des villes jumellesโฏยป",
+      "gloss": "Schavรฉ-Kirjathaรฏm = ยซโฏplaine des villes jumellesโฏยป»",
       "vu": false
     },
     {
@@ -79650,7 +79650,7 @@
     {
       "strongNb": 7752,
       "hebreu": "שׁוֹט",
-      "gloss": "châtier, fouetterfouetter (pour un châtiment)le fléau du jugement national (figuré)",
+      "gloss": "châtier, fouetter",
       "vu": false
     },
     {
@@ -80022,7 +80022,7 @@
     {
       "strongNb": 7814,
       "hebreu": "שְׂחוֹק שְׂחוֹק",
-      "gloss": "rire, moquerie, dérisionrirejoyeux",
+      "gloss": "rire, moquerie, dérision",
       "vu": false
     },
     {
@@ -80082,7 +80082,7 @@
     {
       "strongNb": 7824,
       "hebreu": "שָׁחִיף",
-      "gloss": "recouvert ou lambrissé de boissens douteux",
+      "gloss": "recouvert ou lambrissé de bois",
       "vu": false
     },
     {
@@ -80256,13 +80256,13 @@
     {
       "strongNb": 7853,
       "hebreu": "שָׂטַן",
-      "gloss": "être ou agir comme un adversaire, résister, s’opposer",
+      "gloss": "(Qal) être ou agir comme un adversaire, résister, s’opposer",
       "vu": false
     },
     {
       "strongNb": 7854,
       "hebreu": "שָׂטָן",
-      "gloss": "adversaire, celui qui résiste, qui supporte, adversaire surhumain",
+      "gloss": "adversaire, celui qui résiste, qui supporte",
       "vu": false
     },
     {
@@ -80292,7 +80292,7 @@
     {
       "strongNb": 7859,
       "hebreu": "שְׁטַר",
-      "gloss": "côté (Daniel 7.5)",
+      "gloss": "côté ()",
       "vu": false
     },
     {
@@ -80322,7 +80322,7 @@
     {
       "strongNb": 7864,
       "hebreu": "שְׁיָא",
-      "gloss": "Scheja = «l’Éternel soutient», «vanité»",
+      "gloss": "Scheja = «l’Éternel soutient»",
       "vu": false
     },
     {
@@ -80412,7 +80412,7 @@
     {
       "strongNb": 7879,
       "hebreu": "שִׂיַח",
-      "gloss": "méditation, plainte, rêverieplainte, complainte",
+      "gloss": "méditation, plainte, rêverie",
       "vu": false
     },
     {
@@ -80472,7 +80472,7 @@
     {
       "strongNb": 7889,
       "hebreu": "שִׁימוֹן",
-      "gloss": "Simon = «désert», ou «qui entend»",
+      "gloss": "Simon = «désert»",
       "vu": false
     },
     {
@@ -80490,7 +80490,7 @@
     {
       "strongNb": 7892,
       "hebreu": "שִׁיר שִׁירָה",
-      "gloss": "chantchant lyrique",
+      "gloss": "chant",
       "vu": false
     },
     {
@@ -80706,7 +80706,7 @@
     {
       "strongNb": 7928,
       "hebreu": "שֶׁכֶם",
-      "gloss": "Sichem = «dos» ou «épaule»",
+      "gloss": "Sichem = «dos»",
       "vu": false
     },
     {
@@ -80928,7 +80928,7 @@
     {
       "strongNb": 7965,
       "hebreu": "שָׁלוֹם שָׁלוֹם",
-      "gloss": "état complet, perfection, sainement, bien-être, paixétat complet (en nombre)",
+      "gloss": "état complet, perfection, sainement, bien-être, paix",
       "vu": false
     },
     {
@@ -81012,7 +81012,7 @@
     {
       "strongNb": 7979,
       "hebreu": "שׁוּלחָן",
-      "gloss": "tabletablede la table du roi, usage privé, usage sacré",
+      "gloss": "table",
       "vu": false
     },
     {
@@ -81078,13 +81078,13 @@
     {
       "strongNb": 7990,
       "hebreu": "שַׁלִּיטּ",
-      "gloss": "ayant la maîtrise, ayant l’autorité, dirigeantayant ou exerçant la maîtrise, gouvernant",
+      "gloss": "ayant la maîtrise, ayant l’autorité, dirigeant",
       "vu": false
     },
     {
       "strongNb": 7991,
       "hebreu": "שָׁלִישׁ שָׁלוֹשׁ שָׁלוֹשׁ",
-      "gloss": "tiersnom d’une mesure",
+      "gloss": "tiers",
       "vu": false
     },
     {
@@ -81156,7 +81156,7 @@
     {
       "strongNb": 8003,
       "hebreu": "שָׁלֵם",
-      "gloss": "complet, sûr, paisible, parfait, entier, plein, en paixcompletachevé, parfait",
+      "gloss": "complet, sûr, paisible, parfait, entier, plein, en paix",
       "vu": false
     },
     {
@@ -81270,7 +81270,7 @@
     {
       "strongNb": 8022,
       "hebreu": "שַׁלמַנאֶסֶר",
-      "gloss": "Salmanasar = «adorateur du feu»?  = «le dieu Schulman est chef»",
+      "gloss": "Salmanasar = «adorateur du feu»",
       "vu": false
     },
     {
@@ -81336,7 +81336,7 @@
     {
       "strongNb": 8033,
       "hebreu": "שָׁם",
-      "gloss": "làde là, pour cette raison",
+      "gloss": "là",
       "vu": false
     },
     {
@@ -81408,7 +81408,7 @@
     {
       "strongNb": 8045,
       "hebreu": "שָׁמַד",
-      "gloss": "détruire, exterminer, être détruit, être exterminé(Nifal)être annihilé, être exterminé",
+      "gloss": "détruire, exterminer, être détruit, être exterminé",
       "vu": false
     },
     {
@@ -81522,7 +81522,7 @@
     {
       "strongNb": 8064,
       "hebreu": "שָׁמַיִם שָׁמֶה",
-      "gloss": "ciel, cieuxles cieux visibles, le ciella demeure des étoiles",
+      "gloss": "ciel, cieux",
       "vu": false
     },
     {
@@ -81624,7 +81624,7 @@
     {
       "strongNb": 8081,
       "hebreu": "שֶׁמֶן",
-      "gloss": "du gras, de l’huilegras, embonpoint",
+      "gloss": "du gras, de l’huile",
       "vu": false
     },
     {
@@ -81648,7 +81648,7 @@
     {
       "strongNb": 8085,
       "hebreu": "שָׁמַע",
-      "gloss": "entendre, écouter, obéir à(Qal)entendre (percevoir par l’oreille)",
+      "gloss": "entendre, écouter, obéir à",
       "vu": false
     },
     {
@@ -81714,13 +81714,13 @@
     {
       "strongNb": 8096,
       "hebreu": "שִׁמעִי",
-      "gloss": "Schimeï = «renommée» ou «l’Éternel a entendu»",
+      "gloss": "Schimeï = «renommée»",
       "vu": false
     },
     {
       "strongNb": 8097,
       "hebreu": "שִׁמעִי",
-      "gloss": "Schimeï (famille de): voir Schimeï",
+      "gloss": "Schimeï (famille de)",
       "vu": false
     },
     {
@@ -81762,7 +81762,7 @@
     {
       "strongNb": 8104,
       "hebreu": "שָׁמַר",
-      "gloss": "tenir, garder, observer, faire attention à(Qal)tenir, avoir la charge de",
+      "gloss": "tenir, garder, observer, faire attention à",
       "vu": false
     },
     {
@@ -81900,7 +81900,7 @@
     {
       "strongNb": 8127,
       "hebreu": "שֵׁן",
-      "gloss": "dent, ivoiredentde l’homme, d’une bête",
+      "gloss": "dent, ivoire",
       "vu": false
     },
     {
@@ -81936,7 +81936,7 @@
     {
       "strongNb": 8133,
       "hebreu": "שְׁנָא",
-      "gloss": "changer, être altéré, être changé(P’al) changer, être changé",
+      "gloss": "changer, être altéré, être changé",
       "vu": false
     },
     {
@@ -81948,13 +81948,13 @@
     {
       "strongNb": 8135,
       "hebreu": "שִׂנאָה",
-      "gloss": "haine, haïraversionde l’homme, de Dieu",
+      "gloss": "haine, haïr",
       "vu": false
     },
     {
       "strongNb": 8136,
       "hebreu": "ืฉืึดื ืึธื",
-      "gloss": "rรฉpรฉtitionrรฉpรฉtitions, double rรฉpรฉtition, deux fois dix mille, milliers de rรฉpรฉtitionsmyriades",
+      "gloss": "rรฉpรฉtition",
       "vu": false
     },
     {
@@ -82020,7 +82020,7 @@
     {
       "strongNb": 8147,
       "hebreu": "שְׁנַיִם שְׁתּתַּיִם",
-      "gloss": "deuxdeux (le nombre cardinal)deux, tous deux, double, deux fois",
+      "gloss": "deux",
       "vu": false
     },
     {
@@ -82128,7 +82128,7 @@
     {
       "strongNb": 8165,
       "hebreu": "שֵׂעִיר",
-      "gloss": "Séir = «velu, ébouriffé», «broussailleux»",
+      "gloss": "Séir = «velu, ébouriffé»",
       "vu": false
     },
     {
@@ -82176,7 +82176,7 @@
     {
       "strongNb": 8173,
       "hebreu": "שָׁעַע",
-      "gloss": "caresser, être taché, être aveuglé(Qal)être aveuglé",
+      "gloss": "caresser, être taché, être aveuglé",
       "vu": false
     },
     {
@@ -82188,7 +82188,7 @@
     {
       "strongNb": 8175,
       "hebreu": "שָׂעַר",
-      "gloss": "prendre d’assaut, tempêter, frissonner, redouter, se hérisser (avec horreur), être très effrayé(Qal)se hérisser (d’horreur)",
+      "gloss": "prendre d’assaut, tempêter, frissonner, redouter, se hérisser (avec horreur), être très effrayé",
       "vu": false
     },
     {
@@ -82212,7 +82212,7 @@
     {
       "strongNb": 8179,
       "hebreu": "שַׁעַר",
-      "gloss": "porteporte (d’entrée)",
+      "gloss": "porte",
       "vu": false
     },
     {
@@ -82362,7 +82362,7 @@
     {
       "strongNb": 8204,
       "hebreu": "שִׁפטָּן",
-      "gloss": "Schiphtan = «judiciaire», «Dieu exerce le jugement»",
+      "gloss": "Schiphtan = «judiciaire»",
       "vu": false
     },
     {
@@ -82416,7 +82416,7 @@
     {
       "strongNb": 8213,
       "hebreu": "שָׁפֵל",
-      "gloss": "être ou devenir bas, baisser, enfoncer, être humilié, être abaissé(Qal) être ou devenir bas",
+      "gloss": "être ou devenir bas, baisser, enfoncer, être humilié, être abaissé",
       "vu": false
     },
     {
@@ -82452,7 +82452,7 @@
     {
       "strongNb": 8219,
       "hebreu": "שְׁפֵלָה",
-      "gloss": "bas pays, basse terre, valléeplainebande vers les montagnes de l’ouest de Judéela «Shéphélah»",
+      "gloss": "bas pays, basse terre, vallée",
       "vu": false
     },
     {
@@ -82590,7 +82590,7 @@
     {
       "strongNb": 8242,
       "hebreu": "שַׂק",
-      "gloss": "maille, vêtement fait en sacsac (pour le grain)",
+      "gloss": "maille, vêtement fait en sac",
       "vu": false
     },
     {
@@ -82668,13 +82668,13 @@
     {
       "strongNb": 8255,
       "hebreu": "שֶׁקֶל",
-      "gloss": "siclela principale unité de poids ou mesureor – un dix-millième de talent et égal à deux-cent-vingt grains",
+      "gloss": "sicle",
       "vu": false
     },
     {
       "strongNb": 8256,
       "hebreu": "שָׁקָם שִׁקמָה",
-      "gloss": "sycomore (arbre portant des fruits, semblables à des figues); ne pas confondre avec le faux platane, sorte d’érable.",
+      "gloss": "sycomore (arbre portant des fruits, semblables à des figues); ne pas confondre avec le faux platane, sorte d’érable",
       "vu": false
     },
     {
@@ -82740,7 +82740,7 @@
     {
       "strongNb": 8267,
       "hebreu": "שֶׁקֶר",
-      "gloss": "mensonge, déception, désappointement, faussetédéception (ce qui déçoit ou désappointe ou trahi)",
+      "gloss": "mensonge, déception, désappointement, fausseté",
       "vu": false
     },
     {
@@ -82770,7 +82770,7 @@
     {
       "strongNb": 8272,
       "hebreu": "שַׁראֶצֶר",
-      "gloss": "Scharetser = «prince du feu», «protège le roi»",
+      "gloss": "Scharetser = «prince du feu»",
       "vu": false
     },
     {
@@ -82812,7 +82812,7 @@
     {
       "strongNb": 8279,
       "hebreu": "שֶׂרֶד",
-      "gloss": "stylet, marqueur",
+      "gloss": "stylet, un marqueur",
       "vu": true
     },
     {
@@ -83022,7 +83022,7 @@
     {
       "strongNb": 8314,
       "hebreu": "שָׂרָף",
-      "gloss": "serpent ardent, serpent, séraphins",
+      "gloss": "serpent ardent, serpent",
       "vu": false
     },
     {
@@ -83244,7 +83244,7 @@
     {
       "strongNb": 8351,
       "hebreu": "שֵׁת",
-      "gloss": "siège du corps, fesses (Nombres 24.17)",
+      "gloss": "siège du corps, fesses ()",
       "vu": false
     },
     {
@@ -83406,7 +83406,7 @@
     {
       "strongNb": 8378,
       "hebreu": "תַּאֲוָה",
-      "gloss": "désirdésir, souhait, attentes de son cœurluxure, appétit, cupidité (mauvais sens)",
+      "gloss": "désir",
       "vu": false
     },
     {
@@ -83478,7 +83478,7 @@
     {
       "strongNb": 8390,
       "hebreu": "תַּאֲרֵַע",
-      "gloss": "Thaeréa = «chambre d’un voisin, d’un proche», «cris»",
+      "gloss": "Thaeréa = «chambre d’un voisin, d’un proche»",
       "vu": false
     },
     {
@@ -83502,7 +83502,7 @@
     {
       "strongNb": 8394,
       "hebreu": "תָּבוּן תֶּבוּנָה תּוֹבוּנָה",
-      "gloss": "compréhension, intelligencel’action de comprendreadresse",
+      "gloss": "compréhension, intelligence",
       "vu": false
     },
     {
@@ -83556,7 +83556,7 @@
     {
       "strongNb": 8403,
       "hebreu": "תַּבנִיתּ",
-      "gloss": "modèle, plan, forme, construction, figureconstruction, structurede sens douteux",
+      "gloss": "modèle, plan, forme, construction, figure",
       "vu": false
     },
     {
@@ -83622,7 +83622,7 @@
     {
       "strongNb": 8414,
       "hebreu": "תּוֹהוּ",
-      "gloss": "informe, confusion, chose irréelle, videinforme (de la terre à l’origine)néant, espace vide",
+      "gloss": "informe, confusion, chose irréelle, vide",
       "vu": false
     },
     {
@@ -83634,7 +83634,7 @@
     {
       "strongNb": 8416,
       "hebreu": "תְּהִלָּה",
-      "gloss": "louange, chant ou hymne de louangelouange, adoration, action de grâce (envers Dieu)",
+      "gloss": "louange, chant ou hymne de louange",
       "vu": false
     },
     {
@@ -83670,13 +83670,13 @@
     {
       "strongNb": 8422,
       "hebreu": "תּוּבַל תּוּבַל",
-      "gloss": "Tubal = «coulant», «tu seras apporté»",
+      "gloss": "Tubal = «coulant»",
       "vu": false
     },
     {
       "strongNb": 8423,
       "hebreu": "תּוּבַל קַיִן",
-      "gloss": "Tubal-Caïn = «tu seras apporté de Caïn», «coulant de Caïn»",
+      "gloss": "Tubal-Caïn = «tu seras apporté de Caïn»",
       "vu": false
     },
     {
@@ -83748,7 +83748,7 @@
     {
       "strongNb": 8435,
       "hebreu": "תּוֹלְדָה תּוֹלְדָה",
-      "gloss": "descendants, résultats, générations, généalogiescompte des hommes et de leurs descendantsliste généalogique de ses descendants",
+      "gloss": "descendants, résultats, générations, généalogies",
       "vu": false
     },
     {
@@ -83766,7 +83766,7 @@
     {
       "strongNb": 8438,
       "hebreu": "תּוֹלָע תּוֹלֵעָה תּוֹלַעַת תּוֹלַעַת",
-      "gloss": "ver, étoffe écarlate, le cramoisiver – la femelle «coccus ilicis»",
+      "gloss": "ver, étoffe écarlate, le cramoisi",
       "vu": false
     },
     {
@@ -83844,7 +83844,7 @@
     {
       "strongNb": 8451,
       "hebreu": "תּוֹרָה תּוֹרָה",
-      "gloss": "loi, direction, instructioninstruction, commandement (humain ou divin)corps de l’enseignement prophétique",
+      "gloss": "loi, direction, instruction",
       "vu": false
     },
     {
@@ -83886,7 +83886,7 @@
     {
       "strongNb": 8458,
       "hebreu": "תַּחבּוּלָה תַּחבּוּלָה",
-      "gloss": "direction, conseil, bon avis, sage conseildirection",
+      "gloss": "direction, conseil, bon avis, sage conseil",
       "vu": false
     },
     {
@@ -84006,7 +84006,7 @@
     {
       "strongNb": 8478,
       "hebreu": "תַּחַת",
-      "gloss": "la partie de dessous, au-dessous, au lieu de cela, comme, pour, pour l’amour de, à plat, où, au lieu quele dessous",
+      "gloss": "la partie de dessous, au-dessous, au lieu de cela, comme, pour, pour l’amour de, à plat, où, au lieu que",
       "vu": false
     },
     {
@@ -84348,7 +84348,7 @@
     {
       "strongNb": 8535,
       "hebreu": "תָּם",
-      "gloss": "parfait, complet, accomplicomplet: parfaitcelui à qui il ne manque rien dans la force physique, la beauté, etc",
+      "gloss": "parfait, complet, accompli",
       "vu": false
     },
     {
@@ -84396,7 +84396,7 @@
     {
       "strongNb": 8543,
       "hebreu": "תְּמוֹל תְּמוֹל",
-      "gloss": "avant, auparavant, jadis, autrefois, dans le passé, hier, le jour avant hier, récemment, précédemmenthierrécemment, autrefois, jadis (figuré)",
+      "gloss": "avant, auparavant, jadis, autrefois, dans le passé, hier, le jour avant hier, récemment, précédemment",
       "vu": false
     },
     {
@@ -84462,7 +84462,7 @@
     {
       "strongNb": 8554,
       "hebreu": "תִּמנִי",
-      "gloss": "Thimnien = «tu compteras: une portion»",
+      "gloss": "Thimnien = «tu compteras  une portion»",
       "vu": false
     },
     {
@@ -84474,7 +84474,7 @@
     {
       "strongNb": 8556,
       "hebreu": "תִּמנַת חֶרֶס תִּמנַת סֶרַח",
-      "gloss": "Thimnath-Hérès ou Thimnath-Sérach = «portion de soleil» ou «portion abondante»",
+      "gloss": "Thimnath-Hérès ou Thimnath-Sérach = «portion de soleil»",
       "vu": false
     },
     {
@@ -84576,7 +84576,7 @@
     {
       "strongNb": 8573,
       "hebreu": "תְּנוּפָה",
-      "gloss": "balancement, agitation, offrande agitéebalancer, brandirde la main de Dieu, des armes",
+      "gloss": "balancement, agitation, offrande agitée",
       "vu": false
     },
     {
@@ -84618,7 +84618,7 @@
     {
       "strongNb": 8580,
       "hebreu": "תַּנשֶׁמֶת",
-      "gloss": "un animal impurun oiseau impurpeut-être l’ibis, ou un hibou d’eau, ou un cygne",
+      "gloss": "un animal impur",
       "vu": false
     },
     {
@@ -84720,7 +84720,7 @@
     {
       "strongNb": 8597,
       "hebreu": "תִּפאָרָה תִּפאֶרֶת",
-      "gloss": "beauté, splendeur, gloirebeauté, finesse (de vêtements, bijoux)",
+      "gloss": "beauté, splendeur, gloire",
       "vu": false
     },
     {
@@ -84978,7 +84978,7 @@
     {
       "strongNb": 8640,
       "hebreu": "תִּרהָקָה",
-      "gloss": "Tirhaka = «il rechercha le pieux», «exalté»",
+      "gloss": "Tirhaka = «il rechercha le pieux»",
       "vu": false
     },
     {
@@ -85074,7 +85074,7 @@
     {
       "strongNb": 8656,
       "hebreu": "תִּרצָּה",
-      "gloss": "Thirtsa = «favorable», «grâce, charme»",
+      "gloss": "Thirtsa = «favorable»",
       "vu": false
     },
     {
@@ -85092,13 +85092,13 @@
     {
       "strongNb": 8659,
       "hebreu": "תַּרשִׁישׁ",
-      "gloss": "Tarsis = «jaspe jaune», «raffinerie»?",
+      "gloss": "Tarsis = «jaspe jaune»",
       "vu": false
     },
     {
       "strongNb": 8660,
       "hebreu": "תִּרשָׁתָא",
-      "gloss": "Tirshatha – gouverneurun titre utilisé par les gouverneurs de Perse en JudéeNéhémie a utilisé ce titre",
+      "gloss": "Tirshatha – gouverneur",
       "vu": false
     },
     {
@@ -85134,7 +85134,7 @@
     {
       "strongNb": 8666,
       "hebreu": "תְּשׁוּבָה תֶּשׁוּבָה",
-      "gloss": "un retour, une répétition, une réponsesuivanteachèvement d’une année, retour d’une année",
+      "gloss": "un retour, une répétition, une réponse",
       "vu": false
     },
     {
