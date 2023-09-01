@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './Lexicon.module.css'
+import styles from './Lexicon.module.css';
+import { Container } from 'react-bootstrap';
 
 
 function Lexicon({frequency, data}) {
@@ -12,7 +13,7 @@ function Lexicon({frequency, data}) {
     : "l'Ancien Testament";
 
   return (
-    <div className={styles.lexicon}>
+    <Container className={styles.lexicon}>
         <h1 className={styles.lexiconTitle}>{ data[0].book }</h1>
         <h2 className={styles.lexiconSubTitle}>Lexique du lecteur biblique</h2>
 
@@ -44,7 +45,7 @@ function Lexicon({frequency, data}) {
             </div>
           )
         })}
-    </div>
+    </Container>
   );
 }
 

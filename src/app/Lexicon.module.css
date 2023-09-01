@@ -1,7 +1,7 @@
-div.lexicon {
+.lexicon {
   font-family: 'Times New Roman', serif;
-  font-size: 20px;
-  width: 80%;
+  font-size: 18px;
+  width: 95%;
   margin: auto;
   display: table;
 }

@@ -79,15 +79,16 @@ export default function Home() {
         `}
       </Script>
 
-      <Container className="p-5 pb-2 mb-4 bg-white rounded-3" fluid>
+
         <p className="chirho">📓</p>{/* ☧ */}
         <h1 className="header">Lexique du lecteur biblique</h1>
         <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
+      <Container className="p-3 pb-2 mb-4 bg-white rounded-3">
         <Form className="mt-10 mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
 
-            <Col xs={8} lg={3} className="mb-3" >
+            <Col xs={7} lg={3} className="mb-3" >
               <Form.Label className="d-flex justify-content-between">Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                 { bookOptions.map((book, id) => (
@@ -98,7 +99,7 @@ export default function Home() {
               </Form.Select>
             </Col>
 
-            <Col xs={4} lg={2} className="mb-3" >
+            <Col xs={5} lg={2} className="mb-3" >
                 <Form.Label>Chapitres <OverlayTrigger
                     key="top"
                     placement="top"
