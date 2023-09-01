@@ -4875,14 +4875,14 @@
   {
     "strongNb": 813,
     "grec": "ἄτακτος, ον",
-    "gloss": "désordonné, hors des rangs, irrégulier, démesuré, plaisirs immodérés, déviant de l’ordre prescrit ou des règlements Utilisé dans la société Grecque pour ceux qui ne pouvaient attester d’un travail",
-    "vu": false
+    "gloss": "désordonné, hors des rangs, irrégulier, démesuré",
+    "vu": true
   },
   {
     "strongNb": 814,
     "grec": "ἀτάκτως",
-    "gloss": "voir définition 813",
-    "vu": false
+    "gloss": "dans le désordre, de manière désordonnée",
+    "vu": true
   },
   {
     "strongNb": 815,
@@ -13587,8 +13587,8 @@
   {
     "strongNb": 2265,
     "grec": "Ἡρῳδιανοί, ῶν, οἱ",
-    "gloss": "Hérodiens, c’est-à-dire les partisans d’Hérode Voir définition 2264",
-    "vu": false
+    "gloss": "hérodiens",
+    "vu": true
   },
   {
     "strongNb": 2266,
@@ -22623,7 +22623,7 @@
   {
     "strongNb": 3872,
     "grec": "παρακαταθήκη",
-    "gloss": "un dépôt Voir définition 3866",
+    "gloss": "un dépôt",
     "vu": false
   },
   {
@@ -23709,26 +23709,26 @@
   {
     "strongNb": 4053,
     "grec": "περισσός, ή, όν",
-    "gloss": "excédant un nombre ou une mesure ou un rang ou un besoin, voir définition 4055",
-    "vu": false
+    "gloss": "en plus, en abondance",
+    "vu": true
   },
   {
     "strongNb": 4054,
     "grec": "περισσότερον",
-    "gloss": "excédant un certain nombre ou une mesure ou un rang ou un besoin, voir définition 4055",
-    "vu": false
+    "gloss": "plus abondant, plus grand, davantage",
+    "vu": true
   },
   {
     "strongNb": 4055,
     "grec": "περισσότερος, τέρα, τερον",
-    "gloss": "excédant un nombre ou une mesure ou un rang ou un besoin",
+    "gloss": "plus abondant, plus grand, davantage",
     "vu": false
   },
   {
     "strongNb": 4056,
     "grec": "περισσοτέρως",
-    "gloss": "plus abondamment, au plus haut degré, plus sérieusement, extrêmement plus, spécialement, au-dessus des autres",
-    "vu": false
+    "gloss": "encore plus, bien davantage, particulièrement",
+    "vu": true
   },
   {
     "strongNb": 4057,
@@ -25071,8 +25071,8 @@
   {
     "strongNb": 4280,
     "grec": "προερέω",
-    "gloss": "dire d’avance Voir définition 4277",
-    "vu": false
+    "gloss": "dire d’avance",
+    "vu": true
   },
   {
     "strongNb": 4281,
@@ -26727,8 +26727,8 @@
   {
     "strongNb": 4556,
     "grec": "σάρδιον, ου, τό",
-    "gloss": "une sardoine Voir définition 4555",
-    "vu": false
+    "gloss": "une sardoine",
+    "vu": true
   },
   {
     "strongNb": 4557,
@@ -26793,8 +26793,8 @@
   {
     "strongNb": 4567,
     "grec": "Σατανᾶς, ᾶ, ὁ",
-    "gloss": "Voir définition 4566»",
-    "vu": false
+    "gloss": "Satan = «adversaire, ennemi»",
+    "vu": true
   },
   {
     "strongNb": 4568,
