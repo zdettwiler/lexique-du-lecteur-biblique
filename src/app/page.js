@@ -23,27 +23,19 @@ import * as ga from './ga.js';
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState('Genèse');
-  const [chapter, setChapter] = React.useState("");
-  const [chooseChapters, setChooseChapters] = React.useState(false);
+  const [chapters, setChapters] = React.useState("");
   const [frequency, setFrequency] = React.useState(70);
   const [lexicon, setLexicon] = React.useState([]);
 
   function handleChangeBook(e) {
     setBook(e.target.value);
-    setChapter("");
+    setChapters("");
     setChooseChapters(false);
     setLexicon([]);
   }
 
-  function handleChangeChooseChapters() {
-    setChooseChapters(!chooseChapters);
-    if (!chooseChapters) {
-      setChapter("");
-    }
-  }
-
-  function handleChangeChapter(e) {
-    setChapter(e.target.value);
+  function handleChangeChapters(e) {
+    setChapters(e.target.value);
     setLexicon([]);
   }
 
@@ -58,14 +50,15 @@ export default function Home() {
       action: "make_lexicon",
       params : {
         book,
-        chapter: chapter !== "" ? book + " " + chapter : undefined,
+        chapters: chapters !== "" ? book + " " + chapters : "tous",
         frequency
       }
     });
 
     setLexicon([]);
     setIsGeneratingPDF(true);
-    let data = await createLexicon(book, chooseChapters ? chapter : "", frequency);
+    console.log('before', chapters)
+    let data = await createLexicon(book, chapters, frequency);
     setLexicon(data);
     setIsGeneratingPDF(false);
   }
@@ -91,18 +84,20 @@ export default function Home() {
 
         <Form className="mt-10 mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
-            <Col xs={12} lg={4} className="mb-3" >
-              <Form.Label className="d-flex justify-content-between" style={{ width: "100%" }}>Livre
-                <span style={{ fontSize: "14px" }}>
-                  <Form.Check
-                    type="switch"
-                    inline
-                    id="custom-switch"
-                    label="Choisir les chs."
-                    checked={chooseChapters}
-                    onChange={handleChangeChooseChapters}
-                  />
-                  <OverlayTrigger
+
+            <Col xs={8} lg={3} className="mb-3" >
+              <Form.Label className="d-flex justify-content-between">Livre</Form.Label>
+              <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
+                { bookOptions.map((book, id) => (
+                  book.label
+                    ? <optgroup label={book.label} key={id}></optgroup>
+                    : <option value={book} key={id}>{book}</option>
+                ))}
+              </Form.Select>
+            </Col>
+
+            <Col xs={4} lg={2} className="mb-3" >
+                <Form.Label>Chapitres <OverlayTrigger
                     key="top"
                     placement="top"
                     overlay={
@@ -110,47 +105,24 @@ export default function Home() {
                         <Popover.Header as="h3">Sélection des chapitres</Popover.Header>
                         <Popover.Body>
                           Indiquer les chapitres désirés, séparés par une virgule. Pour des sections, séparer d'un tiret.<br/>
-                          P. ex. pour les chapitres 1, 3 et 7 noter: <strong>1,3,7</strong>. Pour les chapitres 1 et 5 à 8 noter: <strong>1,5-8</strong>.
+                          P. ex. pour les chapitres 1, 3 et 7 noter: <strong>1,3,7</strong>. Pour les chapitres 1 et 5 à 8 noter: <strong>1,5-8</strong>.<br/>
+                          Pour sélectionner tous les chapitres, laisser le champ vide.
                         </Popover.Body>
                       </Popover>
                     }
-                  >
-                    <i className="bi bi-info-circle"></i>
-                  </OverlayTrigger>
-                </span>
-              </Form.Label>
-
-              <Stack direction="horizontal" gap={2} style={{ height: "38px" }}>
-                <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
-                  { bookOptions.map((book, id) => (
-                    book.label
-                      ? <optgroup label={book.label} key={id}></optgroup>
-                      : <option value={book} key={id}>{book}</option>
-                  ))}
-                </Form.Select>
-
-                <Collapse in={chooseChapters} dimension="width">
-                  <div>
-                    <Form.Control
-                      value={chapter}
-                      onChange={handleChangeChapter}
-                      disabled={!chooseChapters}
-                      type="text"
-                      placeholder="Chapitres"
-                      aria-label="Selectionner les chapitres"
-                    >
-                    </Form.Control>
-                  </div>
-                </Collapse>
-              </Stack>
-
-
+                  ><i className="bi bi-info-circle"></i></OverlayTrigger>
+                </Form.Label>
+                <Form.Control
+                  value={chapters}
+                  onChange={handleChangeChapters}
+                  type="text"
+                  placeholder="tous"
+                  aria-label="Selectionner les chapitres"
+                ></Form.Control>
             </Col>
 
-
-
             <Col xs={12} lg={3} className="mb-3" >
-              <Form.Label>Fréquence des mots dans le testament</Form.Label>
+              <Form.Label>Fréq. des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
                     { text: "Débutant (<150x)", value: 150 },
@@ -162,7 +134,6 @@ export default function Home() {
                   <option value={option.value} key={id}>{option.text}</option>
                 ))}
               </Form.Select>
-              {/* <Form.Control type="number" value={frequency} onChange={handleChangeFrequency}/> */}
             </Col>
 
             <Col xs="auto" lg="auto" className="d-flex align-items-baseline mb-3">
@@ -170,9 +141,8 @@ export default function Home() {
                 Génerer le lexique
               </Button>
             </Col>
+
           </Row>
-
-
         </Form>
 
         { !!lexicon.length && (

@@ -106,14 +106,15 @@ function makeChapterArray(chapterString) {
     }, []);
 }
 
-async function createLexicon(book='Genèse', chapter='', frequency=50) {
+async function createLexicon(book='Genèse', chapters='', frequency=50) {
   let rawData = await fetch('/lexique-du-lecteur-biblique/bible_books/'+book+'.csv')
     .then(t => t.text())
     .then(text => {
       return text.split('\n');
     });
 
-  let chapterArray = makeChapterArray(chapter);
+  let chapterArray = makeChapterArray(chapters);
+  console.log(chapters, chapterArray)
 
   let lexicon = rawData.reduce((words, currentWord) => {
     let word = currentWord.split(',');
