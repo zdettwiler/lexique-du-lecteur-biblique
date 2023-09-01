@@ -60,7 +60,6 @@ export default function Home() {
 
     setLexicon([]);
     setIsGeneratingPDF(true);
-    console.log('before', chapters)
     let data = await createLexicon(book, chapters, frequency);
     setLexicon(data);
     setIsGeneratingPDF(false);
@@ -150,7 +149,7 @@ export default function Home() {
 
             <Col xs="auto" lg="auto" className="d-flex align-items-baseline mb-3">
               <Button variant="dark" type="submit" onClick={getBook}>
-                Génerer le lexique
+                Générer le lexique
               </Button>
             </Col>
 

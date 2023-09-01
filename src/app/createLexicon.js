@@ -114,7 +114,6 @@ async function createLexicon(book='Genèse', chapters='', frequency=50) {
     });
 
   let chapterArray = makeChapterArray(chapters);
-  console.log(chapters, chapterArray)
 
   let lexicon = rawData.reduce((words, currentWord) => {
     let word = currentWord.split(',');
