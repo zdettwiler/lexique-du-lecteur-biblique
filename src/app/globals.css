@@ -33,6 +33,31 @@ p.description {
   margin: 0 auto 70px;
 }
 
+input.clear-chapters-input-button {
+  /* border-right: unset; */
+}
+
+button.clear-chapters-input-button {
+  background-color: unset;
+  color: #343a40;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-left: unset;
+  /* padding-left: 3px; */
+}
+button.clear-chapters-input-button:hover {
+  background-color: unset;
+  color: black;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-left: unset;
+}
+
+button.clear-chapters-input-button:active {
+  background-color: unset !important;
+  color: black !important;
+  border: var(--bs-border-width) solid var(--bs-border-color) !important;
+  border-left: unset !important;
+}
+
 
 footer {
   height: 30px;

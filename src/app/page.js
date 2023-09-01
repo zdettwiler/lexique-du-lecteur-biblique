@@ -11,7 +11,7 @@ import {
   OverlayTrigger,
   Popover,
   Spinner,
-  Collapse,
+  InputGroup,
   Stack
  } from 'react-bootstrap';
 import Script from 'next/script';
@@ -30,13 +30,16 @@ export default function Home() {
   function handleChangeBook(e) {
     setBook(e.target.value);
     setChapters("");
-    setChooseChapters(false);
     setLexicon([]);
   }
 
   function handleChangeChapters(e) {
     setChapters(e.target.value);
     setLexicon([]);
+  }
+
+  function handleClickClearChapters() {
+    setChapters("");
   }
 
   function handleChangeFrequency(e) {
@@ -112,13 +115,22 @@ export default function Home() {
                     }
                   ><i className="bi bi-info-circle"></i></OverlayTrigger>
                 </Form.Label>
-                <Form.Control
-                  value={chapters}
-                  onChange={handleChangeChapters}
-                  type="text"
-                  placeholder="tous"
-                  aria-label="Selectionner les chapitres"
-                ></Form.Control>
+
+                <InputGroup>
+                  <Form.Control
+                    value={chapters}
+                    onChange={handleChangeChapters}
+                    type="text"
+                    placeholder="tous"
+                    aria-label="Selectionner les chapitres"
+                    className="clear-chapters-input-button"
+                  ></Form.Control>
+                  { chapters !== "" && (
+                  <Button onClick={handleClickClearChapters} className="clear-chapters-input-button">
+                    <i className="bi bi-x-circle-fill"></i>
+                  </Button>
+                  )}
+                </InputGroup>
             </Col>
 
             <Col xs={12} lg={3} className="mb-3" >
