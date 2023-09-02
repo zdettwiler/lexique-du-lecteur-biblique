@@ -80,7 +80,7 @@ export default function Home() {
       </Script>
 
 
-        <p className="chirho">📓</p>{/* ☧ */}
+        <p className="logo">📓</p>{/* ☧ */}
         <h1 className="header">Lexique du lecteur biblique</h1>
         <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
