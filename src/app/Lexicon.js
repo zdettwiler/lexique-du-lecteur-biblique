@@ -26,7 +26,7 @@ function Lexicon({frequency, data}) {
         {data.map((word, id, data) => {
           let prevChapter = id > 0 ? data[id-1].chapter : 0;
           let chapHeading = prevChapter !== word.chapter
-            ? <h3 className={styles.chapterHeading}>CHAPITRE {word.chapter}</h3>
+            ? <h3 className={styles.chapterHeading} id={"ch" + word.chapter}>CHAPITRE {word.chapter}</h3>
             : null;
 
           let prevVerse = id > 0 ? data[id-1].verse : 0;

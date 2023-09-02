@@ -22,7 +22,7 @@ import * as ga from './ga.js';
 
 export default function Home() {
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState('Genèse');
+  const [book, setBook] = React.useState('Jonas');
   const [chapter, setChapter] = React.useState("");
   const [chooseChapters, setChooseChapters] = React.useState(false);
   const [frequency, setFrequency] = React.useState(70);

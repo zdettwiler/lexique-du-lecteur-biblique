@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Pagination
  } from 'react-bootstrap';
+import styles from './ChapterPagination.module.css'
 
 
 function ChapterPagination({ data }) {
@@ -9,13 +10,13 @@ function ChapterPagination({ data }) {
     if (!chs.includes(word.chapter)) {
       chs.push(word.chapter)
     }
-
     return chs
   }, []).sort((a, b) => a - b);
 
   console.log(chapters)
 
   return (
+    <div className="d-flex justify-content-center sticky-top">
     <Pagination size="sm">
       {/* <Pagination.First />
       <Pagination.Prev />
@@ -33,10 +34,11 @@ function ChapterPagination({ data }) {
       <Pagination.Next />
       <Pagination.Last /> */}
 
-      {chapters.map(ch => (
-        <Pagination.Item>{ch}</Pagination.Item>
+      {chapters.map((ch, id) => (
+        <Pagination.Item href={"#ch" + ch} key={id}>{ch}</Pagination.Item>
       ))}
     </Pagination>
+    </div>
   );
 }
 
