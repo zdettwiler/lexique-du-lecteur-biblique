@@ -4701,7 +4701,7 @@
   {
     "strongNb": 784,
     "grec": "ἄσπιλος, ον",
-    "gloss": "immaculé, sans tache, métaphorique",
+    "gloss": "immaculé, sans tache",
     "vu": false
   },
   {
@@ -5553,7 +5553,7 @@
   {
     "strongNb": 926,
     "grec": "βαρύς, εῖα, ύ",
-    "gloss": "un poids qui pèse lourd, métaphorique:",
+    "gloss": "un poids qui pèse lourd",
     "vu": false
   },
   {
@@ -5943,8 +5943,8 @@
   {
     "strongNb": 991,
     "grec": "βλέπω",
-    "gloss": "voir, discerner, par l’intermédiaire de l’œil, métaphorique: voir avec les yeux de l’esprit, dans un sens de lieux géographiques: : en considérer chaque face",
-    "vu": false
+    "gloss": "voir, discerner",
+    "vu": true
   },
   {
     "strongNb": 992,
@@ -6783,7 +6783,7 @@
   {
     "strongNb": 1131,
     "grec": "γυμνός, ή, όν",
-    "gloss": "dévêtu, sans vêtement, le corps nu, métaphorique:",
+    "gloss": "dévêtu, sans vêtement, le corps nu",
     "vu": false
   },
   {
@@ -6993,7 +6993,7 @@
   {
     "strongNb": 1166,
     "grec": "δείκνυμι",
-    "gloss": "montrer, exposer aux yeux, métaphorique:",
+    "gloss": "montrer, exposer aux yeux",
     "vu": false
   },
   {
@@ -9147,7 +9147,7 @@
   {
     "strongNb": 1525,
     "grec": "εἰσέρχομαι",
-    "gloss": "aller ou venir, entrer, métaphorique",
+    "gloss": "aller ou venir, entrer",
     "vu": false
   },
   {
@@ -9603,7 +9603,7 @@
   {
     "strongNb": 1601,
     "grec": "ἐκπίπτω",
-    "gloss": "tomber, chuter, échouer, métaphorique",
+    "gloss": "tomber, chuter, échouer",
     "vu": false
   },
   {
@@ -9639,7 +9639,7 @@
   {
     "strongNb": 1607,
     "grec": "ἐκπορεύομαι",
-    "gloss": "se rendre, s’en aller, partir, métaphorique",
+    "gloss": "se rendre, s’en aller, partir",
     "vu": false
   },
   {
@@ -10353,13 +10353,13 @@
   {
     "strongNb": 1726,
     "grec": "ἐναντίον",
-    "gloss": "sur, contre, opposé, métaphorique",
+    "gloss": "sur, contre, opposé",
     "vu": false
   },
   {
     "strongNb": 1727,
     "grec": "ἐναντίος, α, ον",
-    "gloss": "contraire, opposé, métaphorique",
+    "gloss": "contraire, opposé",
     "vu": false
   },
   {
@@ -11667,7 +11667,7 @@
   {
     "strongNb": 1945,
     "grec": "ἐπίκειμαι",
-    "gloss": "se trouver sur ou par dessus, se reposer sur, être placé sur, métaphorique",
+    "gloss": "se trouver sur ou par dessus, se reposer sur, être placé sur",
     "vu": false
   },
   {
@@ -11805,7 +11805,7 @@
   {
     "strongNb": 1968,
     "grec": "ἐπιπίπτω",
-    "gloss": "tomber sur, se ruer ou se presser sur, métaphorique",
+    "gloss": "tomber sur, se ruer ou se presser sur",
     "vu": false
   },
   {
@@ -12381,7 +12381,7 @@
   {
     "strongNb": 2064,
     "grec": "ἔρχομαι",
-    "gloss": "venir, métaphorique",
+    "gloss": "venir",
     "vu": false
   },
   {
@@ -12537,7 +12537,7 @@
   {
     "strongNb": 2090,
     "grec": "ἑτοιμάζω",
-    "gloss": "rendre prêt, préparer, métaphorique",
+    "gloss": "rendre prêt, préparer",
     "vu": false
   },
   {
@@ -13437,7 +13437,7 @@
   {
     "strongNb": 2240,
     "grec": "ἥκω",
-    "gloss": "être venu, être arrivé, être présent, métaphorique",
+    "gloss": "être venu, être arrivé, être présent",
     "vu": false
   },
   {
@@ -13731,7 +13731,7 @@
   {
     "strongNb": 2289,
     "grec": "θανατόω",
-    "gloss": "mettre à mort, métaphorique",
+    "gloss": "mettre à mort",
     "vu": false
   },
   {
@@ -16305,7 +16305,7 @@
   {
     "strongNb": 2719,
     "grec": "κατεσθίω",
-    "gloss": "consommer en mangeant; avaler, dévorer, métaphorique",
+    "gloss": "consommer en mangeant; avaler, dévorer",
     "vu": false
   },
   {
@@ -16485,7 +16485,7 @@
   {
     "strongNb": 2749,
     "grec": "κεῖμαι",
-    "gloss": "être couché, métaphorique",
+    "gloss": "être couché",
     "vu": false
   },
   {
@@ -16611,7 +16611,7 @@
   {
     "strongNb": 2770,
     "grec": "κερδαίνω",
-    "gloss": "gagner, acquérir, obtenir un gain, métaphorique",
+    "gloss": "gagner, acquérir, obtenir un gain",
     "vu": false
   },
   {
@@ -16761,7 +16761,7 @@
   {
     "strongNb": 2795,
     "grec": "κινέω",
-    "gloss": "faire aller, c’est-à-dire déplacer, remuer, mettre en mouvement, métaphorique",
+    "gloss": "faire aller, c’est-à-dire déplacer, remuer, mettre en mouvement",
     "vu": false
   },
   {
@@ -16839,7 +16839,7 @@
   {
     "strongNb": 2808,
     "grec": "κλείω",
-    "gloss": "fermer, clore, métaphorique",
+    "gloss": "fermer, clore",
     "vu": false
   },
   {
@@ -17013,7 +17013,7 @@
   {
     "strongNb": 2837,
     "grec": "κοιμάομαι",
-    "gloss": "ce qui fait dormir, s’endormir, métaphorique",
+    "gloss": "ce qui fait dormir, s’endormir",
     "vu": false
   },
   {
@@ -19485,7 +19485,7 @@
   {
     "strongNb": 3349,
     "grec": "μετεωρίζομαι",
-    "gloss": "se lever, élever, métaphorique",
+    "gloss": "se lever, élever",
     "vu": false
   },
   {
@@ -20379,7 +20379,7 @@
   {
     "strongNb": 3498,
     "grec": "νεκρός, ά, όν",
-    "gloss": "réellement, métaphorique",
+    "gloss": "mort",
     "vu": false
   },
   {
@@ -20979,7 +20979,7 @@
   {
     "strongNb": 3598,
     "grec": "ὁδός, οῦ, ἡ",
-    "gloss": "au sens propre, métaphorique",
+    "gloss": "au sens propre",
     "vu": false
   },
   {
@@ -21099,7 +21099,7 @@
   {
     "strongNb": 3618,
     "grec": "οἰκοδομέω",
-    "gloss": "bâtir une maison, ériger un immeuble, métaphorique",
+    "gloss": "bâtir une maison, ériger un immeuble",
     "vu": false
   },
   {
@@ -22653,7 +22653,7 @@
   {
     "strongNb": 3877,
     "grec": "παρακολουθέω",
-    "gloss": "suivre de près, métaphorique",
+    "gloss": "suivre de près",
     "vu": false
   },
   {
@@ -23037,7 +23037,7 @@
   {
     "strongNb": 3941,
     "grec": "πάροικος, ον",
-    "gloss": "demeurant près de, voisinage, dans le Nouveau Testament, un étranger, celui qui vit dans un lieu sans avoir le droit de cité, de citoyenneté, métaphorique",
+    "gloss": "demeurant près de, voisinage, dans le Nouveau Testament, un étranger, celui qui vit dans un lieu sans avoir le droit de cité, de citoyenneté",
     "vu": false
   },
   {
@@ -23163,8 +23163,8 @@
   {
     "strongNb": 3962,
     "grec": "πατήρ, πατρός, ὁ",
-    "gloss": "géniteur ou ancêtre mâle, métaphorique, Dieu est appelé le Père",
-    "vu": false
+    "gloss": "père, patriarche",
+    "vu": true
   },
   {
     "strongNb": 3963,
@@ -23553,8 +23553,8 @@
   {
     "strongNb": 4027,
     "grec": "περικάθαρμα, ατος, τό",
-    "gloss": "venant du nettoyage, déchet, métaphorique",
-    "vu": false
+    "gloss": "balayure, déchet",
+    "vu": true
   },
   {
     "strongNb": 4028,
@@ -23571,7 +23571,7 @@
   {
     "strongNb": 4030,
     "grec": "περικεφαλαία, ας, ἡ",
-    "gloss": "un casque, métaphorique",
+    "gloss": "un casque",
     "vu": false
   },
   {
@@ -23685,8 +23685,8 @@
   {
     "strongNb": 4049,
     "grec": "περισπάω",
-    "gloss": "distraire, affoler, métaphorique",
-    "vu": false
+    "gloss": "occuper, distraire, affoler",
+    "vu": true
   },
   {
     "strongNb": 4050,
@@ -23973,7 +23973,7 @@
   {
     "strongNb": 4097,
     "grec": "πιπράσκω",
-    "gloss": "vendre, métaphorique",
+    "gloss": "vendre",
     "vu": false
   },
   {
@@ -24021,13 +24021,13 @@
   {
     "strongNb": 4105,
     "grec": "πλανάω",
-    "gloss": "égarer, amener à s’égarer, conduire hors du droit chemin, métaphorique",
+    "gloss": "égarer, amener à s’égarer, conduire hors du droit chemin",
     "vu": false
   },
   {
     "strongNb": 4106,
     "grec": "πλάνη, ης, ἡ",
-    "gloss": "un égarement, métaphorique",
+    "gloss": "un égarement",
     "vu": false
   },
   {
@@ -24387,8 +24387,8 @@
   {
     "strongNb": 4166,
     "grec": "ποιμήν, ένος, ὁ",
-    "gloss": "un bouvier, un berger, métaphorique",
-    "vu": false
+    "gloss": "berger, pasteur",
+    "vu": true
   },
   {
     "strongNb": 4167,
@@ -25437,8 +25437,8 @@
   {
     "strongNb": 4341,
     "grec": "προσκαλέω",
-    "gloss": "appeler, appeler à soi, inviter à venir à soi, métaphorique",
-    "vu": false
+    "gloss": "appeler, appeler à soi, inviter à venir à soi",
+    "vu": true
   },
   {
     "strongNb": 4342,
@@ -26127,14 +26127,14 @@
   {
     "strongNb": 4456,
     "grec": "πωρόω",
-    "gloss": "recouvrir d’une peau épaisse, durci par le recouvrement d’une callosité, métaphorique",
-    "vu": false
+    "gloss": "endurcir",
+    "vu": true
   },
   {
     "strongNb": 4457,
     "grec": "πώρωσις, εως, ἡ",
-    "gloss": "recouvert d’une callosité, obstruction du discernement mental, perception émoussée, l’esprit de quelqu’un qui a été brusqué",
-    "vu": false
+    "gloss": "endurcissement, opiniâtreté",
+    "vu": true
   },
   {
     "strongNb": 4458,
@@ -26541,8 +26541,8 @@
   {
     "strongNb": 4525,
     "grec": "σαίνω",
-    "gloss": "remuer la queue, métaphorique",
-    "vu": false
+    "gloss": "remuer, flatter, agiter, déranger",
+    "vu": true
   },
   {
     "strongNb": 4526,
@@ -27183,8 +27183,8 @@
   {
     "strongNb": 4632,
     "grec": "σκεῦος, ους, τό",
-    "gloss": "un vase, un outil, métaphorique",
-    "vu": false
+    "gloss": "vase, outil, instrument, voile, objet",
+    "vu": true
   },
   {
     "strongNb": 4633,
@@ -27261,14 +27261,14 @@
   {
     "strongNb": 4645,
     "grec": "σκληρύνω",
-    "gloss": "rendre dur, durcir, endurcir, métaphorique",
-    "vu": false
+    "gloss": "rendre dur, durcir, endurcir",
+    "vu": true
   },
   {
     "strongNb": 4646,
     "grec": "σκολιός, ά, όν",
-    "gloss": "tortueux, tordu, recourbé, métaphorique",
-    "vu": false
+    "gloss": "tortueux, tordu, recourbé, pervers, corrompu",
+    "vu": true
   },
   {
     "strongNb": 4647,
@@ -27321,7 +27321,7 @@
   {
     "strongNb": 4655,
     "grec": "σκότος, ους, τό",
-    "gloss": "ténèbres, métaphorique",
+    "gloss": "ténèbres",
     "vu": false
   },
   {
@@ -27537,7 +27537,7 @@
   {
     "strongNb": 4691,
     "grec": "σπερμολόγος, ου, ὁ",
-    "gloss": "qui picore la semence, métaphorique",
+    "gloss": "qui picore la semence",
     "vu": false
   },
   {
@@ -28905,8 +28905,8 @@
   {
     "strongNb": 4919,
     "grec": "συνθρύπτω",
-    "gloss": "casser en morceaux, écraser, métaphorique",
-    "vu": false
+    "gloss": "casser en morceaux, écraser, briser",
+    "vu": true
   },
   {
     "strongNb": 4920,
@@ -28983,7 +28983,7 @@
   {
     "strongNb": 4932,
     "grec": "συντέμνω",
-    "gloss": "couper en morceaux, découper, métaphorique",
+    "gloss": "couper en morceaux, découper",
     "vu": false
   },
   {
@@ -29007,7 +29007,7 @@
   {
     "strongNb": 4936,
     "grec": "συντρέχω",
-    "gloss": "courir ensemble, accourir avec les autres, métaphorique",
+    "gloss": "courir ensemble, accourir avec les autres, se précipiter avec",
     "vu": false
   },
   {
@@ -29457,8 +29457,8 @@
   {
     "strongNb": 5011,
     "grec": "ταπεινός, ή, όν",
-    "gloss": "ne s’élevant pas loin du sol, métaphorique",
-    "vu": false
+    "gloss": "humble, de condition humble, abattu",
+    "vu": true
   },
   {
     "strongNb": 5012,
@@ -29475,7 +29475,7 @@
   {
     "strongNb": 5014,
     "grec": "ταπείνωσις, εως, ἡ",
-    "gloss": "bassesse, état inférieur, métaphorique",
+    "gloss": "bassesse, humiliation, état inférieur",
     "vu": false
   },
   {
@@ -30093,8 +30093,8 @@
   {
     "strongNb": 5117,
     "grec": "τόπος, ου, ὁ",
-    "gloss": "lieu, toute portion ou espace marqué, comme s’il s’agissait d’un espace entouré, métaphorique",
-    "vu": false
+    "gloss": "lieu, place, endroit",
+    "vu": true
   },
   {
     "strongNb": 5118,
@@ -30249,7 +30249,7 @@
   {
     "strongNb": 5143,
     "grec": "τρέχω",
-    "gloss": "courir, métaphorique",
+    "gloss": "courir, accourir, se répandre",
     "vu": false
   },
   {
@@ -30579,7 +30579,7 @@
   {
     "strongNb": 5198,
     "grec": "ὑγιαίνω",
-    "gloss": "être sain, aller bien, être en bonne santé, métaphorique",
+    "gloss": "être sain, aller bien, être en bonne santé",
     "vu": false
   },
   {
@@ -31869,7 +31869,7 @@
   {
     "strongNb": 5413,
     "grec": "φορτίον, ου, τό",
-    "gloss": "un fardeau, une charge, métaphorique",
+    "gloss": "un fardeau, une charge",
     "vu": false
   },
   {
@@ -32133,7 +32133,7 @@
   {
     "strongNb": 5457,
     "grec": "φῶς, φωτός, τό",
-    "gloss": "lumière, métaphorique",
+    "gloss": "lumière",
     "vu": false
   },
   {
@@ -32949,7 +32949,7 @@
   {
     "strongNb": 5593,
     "grec": "ψυχρός, ά, όν",
-    "gloss": "froid, frais, métaphorique",
+    "gloss": "froid, frais",
     "vu": false
   },
   {
