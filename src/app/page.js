@@ -137,6 +137,7 @@ export default function Home() {
               <Form.Label>Fréq. des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
+                    { text: "Étudiant raté (<1000x)", value: 1000 },
                     { text: "Débutant (<150x)", value: 150 },
                     { text: "Intermédiaire (<70x)", value: 70 },
                     { text: "Connaisseur (<50x)", value: 50 },
