@@ -68,14 +68,14 @@ export default function Home() {
 
   return (
     <Container fluid="sm">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-5Q8NE1RT7F" />
+      <Script src={`https://www.googletagmanager.com/gtag/js?id=${ga.GA_TRACKING_ID}`} />
       <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-5Q8NE1RT7F');
+          gtag('config', '${ga.GA_TRACKING_ID}');
         `}
       </Script>
 
