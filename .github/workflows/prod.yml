@@ -20,8 +20,7 @@ jobs:
         "cd ${{ secrets.WORK_DIR }} \
         && git checkout main \
         && git pull \
-        && npm install \
-        && npm run build \
+        && npm -v \
         && exit"
     - name: 🧼 Clean-up
       run: rm -rf ~/.ssh
