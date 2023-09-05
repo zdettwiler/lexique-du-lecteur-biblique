@@ -18,7 +18,10 @@ jobs:
       run: |
         ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
         "cd ${{ secrets.WORK_DIR }} \
-        && git status \
+        && git checkout main \
+        && git pull \
+        && npm install \
+        && npm run build \
         && exit"
     - name: 🧼 Clean-up
       run: rm -rf ~/.ssh
