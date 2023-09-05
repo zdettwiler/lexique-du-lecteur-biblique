@@ -20,6 +20,7 @@ jobs:
         "cd ${{ secrets.WORK_DIR }} \
         && git checkout main \
         && git pull \
+        && source ~/.nvm/nvm.sh \
         && npm -v \
         && exit"
     - name: 🧼 Clean-up
