@@ -1,8 +1,6 @@
 name: Publish to GitHub Pages
 
-on:
-  push:
-    branches: ["main"]
+on: workflow_dispatch
 
 env:
   NODE_AUTH_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
@@ -22,13 +20,13 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-      
+
       - name: Setup Node 🍉
         uses: actions/setup-node@v3
         with:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           node-version: 18.x
-          
+
       - name: Setup Pages 🔧
         id: pages
         uses: actions/configure-pages@v1
@@ -38,7 +36,7 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
-          
+
       - name: Restore cache 💾
         uses: actions/cache@v3
         with:
