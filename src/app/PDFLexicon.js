@@ -49,7 +49,7 @@ export default function PDFLexicon({frequency, data}) {
   string = [
     "Mots apparaissant moins de " + frequency + " fois dans " + testament + ".",
     "Entre parenthèses figure le nombre d'apparitions du mot dans " + testament + ".",
-    "Généré par zdettwiler.github.io/lexique-du-lecteur-biblique."
+    "Généré par lexique.ibbxl.be."
   ];
   let textWidth = doc
     .setFont('Times', 'italic')
@@ -71,10 +71,10 @@ export default function PDFLexicon({frequency, data}) {
     .getTextWidth(string[2]);
   xOffset = page.width/2 - textWidth/2;
   // doc.text(string[2], xOffset, 35 + 2 * doc.getLineHeight() * 0.3527777778);
-  doc.textWithLink("Généré par zdettwiler.github.io/lexique-du-lecteur-biblique.", xOffset, page.margin.top+15 + 2 * doc.getLineHeight() * 0.3527777778, {url: 'https://zdettwiler.github.io/lexique-du-lecteur-biblique/'});
+  doc.textWithLink("Généré par lexique.ibbxl.be.", xOffset, page.margin.top+15 + 2 * doc.getLineHeight() * 0.3527777778, {url: 'http://lexique.ibbxl.be/'});
   doc.line(
     xOffset+15.3, page.margin.top+15.5 + 2 * doc.getLineHeight() * 0.3527777778,
-    xOffset+75.5, page.margin.top+15.5 + 2 * doc.getLineHeight() * 0.3527777778
+    xOffset+35.5, page.margin.top+15.5 + 2 * doc.getLineHeight() * 0.3527777778
   );
 
 
