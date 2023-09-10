@@ -11,6 +11,10 @@ h1.lexiconTitle {
   letter-spacing: 12px;
   text-align: center;
   margin-bottom: -5px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: anywhere;
+  /* word-break: break-all; */
 }
 h2.lexiconSubTitle {
   font-size: 16px;
@@ -38,6 +42,7 @@ div.wordEntry div {
   white-space: normal;
   padding: 0 2px;
   /* border: 1px solid black; */
+  word-break: normal;
 }
 div.verseNb {
   width: 30px;
@@ -50,7 +55,7 @@ div.lexOT {
   direction: rtl;
 }
 div.lexNT {
-  min-width: 130px;
+  min-width: 100px;
   font-weight: bold;
   margin-left: 10px;
   /* font-size: 25px; */

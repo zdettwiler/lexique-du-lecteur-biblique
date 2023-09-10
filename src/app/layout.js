@@ -2,7 +2,7 @@ import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const metadata = {
-  title: 'Lexique du lecteur Biblique',
+  title: 'Lexique du lecteur biblique',
   description: 'Crée un lexique pour le livre que tu veux étudier avec les mots dont tu as besoin.',
 }
 
