@@ -15,17 +15,43 @@ import {
   Stack
  } from 'react-bootstrap';
 import Script from 'next/script';
+import { useRouter } from 'next/navigation'
 
 import Lexicon from './Lexicon';
 import PDFLexicon from './PDFLexicon';
 import * as ga from './ga.js';
 
-export default function Home() {
+export default function Home({ params }) {
+
+  // const checkParams = params => {
+  //   if (!params
+  //     || !params.params
+  //     || !params.params[0])
+  //       return false;
+
+  //   let bookParam = bookOptions.includes(params.params[0])
+  //     ? params.params[0]
+  //     : "Genèse";
+
+
+
+  // }
+  // checkParams(params)
+
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState('Genèse');
-  const [chapters, setChapters] = React.useState("");
-  const [frequency, setFrequency] = React.useState(70);
+  const [book, setBook] = React.useState(params.params[0] || 'Genèse');
+  const [chapters, setChapters] = React.useState(params.params[1] || "");
+  const [frequency, setFrequency] = React.useState(params.params[2] || 70);
   const [lexicon, setLexicon] = React.useState([]);
+  const router = useRouter()
+
+  console.log(params)
+  React.useEffect(() => {
+    if (params.params.length === 3) {
+      getLexicon();
+    }
+  }, []);
+
 
   function handleChangeBook(e) {
     setBook(e.target.value);
@@ -47,7 +73,15 @@ export default function Home() {
     setLexicon([]);
   }
 
-  async function getBook(e) {
+  async function getLexicon() {
+    setLexicon([]);
+    setIsGeneratingPDF(true);
+    let data = await createLexicon(book, chapters, frequency);
+    setLexicon(data);
+    setIsGeneratingPDF(false);
+  }
+
+  function getBook(e) { // TODO: rename function
     e.preventDefault();
     ga.event({
       action: "make_lexicon",
@@ -58,12 +92,11 @@ export default function Home() {
       }
     });
 
-    setLexicon([]);
-    setIsGeneratingPDF(true);
-    let data = await createLexicon(book, chapters, frequency);
-    setLexicon(data);
-    setIsGeneratingPDF(false);
+    router.push(`/${book}/${chapters}/${frequency}`, undefined, { shallow: true });
+    getLexicon();
   }
+
+
 
 
   return (
