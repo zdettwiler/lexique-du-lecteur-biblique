@@ -16649,8 +16649,8 @@
     {
       "strongNb": 2776,
       "grec": "κεφαλή, ῆς, ἡ",
-      "gloss": "la tête, à la fois pour l’homme ou l’animal La perte de la tête amenant la mort, le mot est souvent utilisé dans les phrases qui parlent de peine capitale, tout ce qui est suprême, saillant, un chef",
-      "vu": false
+      "gloss": "tête, chef",
+      "vu": true
     },
     {
       "strongNb": 2777,
@@ -22097,8 +22097,8 @@
     {
       "strongNb": 3784,
       "grec": "ὀφείλω",
-      "gloss": "devoir, la dette de bonne volonté",
-      "vu": false
+      "gloss": "devoir, être en dette",
+      "vu": true
     },
     {
       "strongNb": 3785,
@@ -22564,7 +22564,7 @@
     },
     {
       "strongNb": 3862,
-      "grec": "œÄŒ±œÅŒ¨Œ¥ŒøœÉŒπœÇ, ŒµœâœÇ, ·º°",
+      "grec": "παράδοσις",
       "gloss": "abandonner, un commandement qui est fait par la parole ou l‚Äô√©criture, c‚Äôest-√Ý-dire la tradition par instruction, narration, pr√©ceptes, etc",
       "vu": false
     },

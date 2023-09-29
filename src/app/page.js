@@ -88,6 +88,7 @@ export default function Home() {
         <Form className="mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
 
+            {/* Livre */}
             <Col xs={7} lg={3} className="mb-3" >
               <Form.Label className="d-flex justify-content-between">Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
@@ -99,6 +100,7 @@ export default function Home() {
               </Form.Select>
             </Col>
 
+            {/* Chapitres */}
             <Col xs={5} lg={2} className="mb-3" >
                 <Form.Label>Chapitres <OverlayTrigger
                     key="top"
@@ -133,6 +135,7 @@ export default function Home() {
                 </InputGroup>
             </Col>
 
+            {/* Fréquence */}
             <Col xs={12} lg={3} className="mb-3" >
               <Form.Label>Fréq. des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
@@ -149,6 +152,7 @@ export default function Home() {
               </Form.Select>
             </Col>
 
+            {/* Générer */}
             <Col xs="auto" lg="auto" className="d-flex align-items-baseline mb-3">
               <Button variant="dark" type="submit" onClick={getBook}>
                 Générer le lexique
@@ -161,7 +165,7 @@ export default function Home() {
         { !!lexicon.length && (
           <Alert variant="light">
             <Alert.Heading>📌 Lexique créé!</Alert.Heading>
-            <p><b>{lexicon.length}</b> des mots du livre de <b>{book}</b> apparaissent moins de <b>{frequency}</b> fois dans { lexicon[0].strong[0] === 'G' ? "le Nouveau Testament" : "l'Ancien Testament" }.</p>
+            <p><b>{lexicon.length}</b> des mots de <b>{book} {chapters}</b> apparaissent moins de <b>{frequency}</b> fois dans { lexicon[0].strong[0] === 'G' ? "le Nouveau Testament" : "l'Ancien Testament" }.</p>
             <PDFLexicon frequency={frequency} data={lexicon} />
           </Alert>
         )}
