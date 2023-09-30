@@ -1,5 +1,5 @@
 {
-  "version": "v16",
+  "version": "v17",
   "lexique": {
     "G": [
       {
@@ -11590,16 +11590,16 @@
       {
         "strongNb": 1656,
         "grec": "ἔλεος, ους, τό",
-        "gloss": "miséricorde: bonté ou bonne volonté envers le misérable et l’affligé joints à un désir de les aider",
+        "gloss": "miséricorde",
         "freq": 27,
         "vu": false
       },
       {
         "strongNb": 1657,
         "grec": "ἐλευθερία, ας, ἡ",
-        "gloss": "liberté de faire ou d’oublier ce qui a une relation avec le salut, liberté fictive, la vraie liberté est donnée lorsque nous ne faisons pas selon nos désirs",
+        "gloss": "liberté",
         "freq": 11,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1658,
@@ -20424,9 +20424,9 @@
       {
         "strongNb": 2919,
         "grec": "κρίνω",
-        "gloss": "séparer, mettre en morceaux, démonter, choisir, sélectionner, approuver, estimer, préférer, être d’opinion, juger, penser, déterminer, se résoudre, décréter, juger, régenter, gouverner, lutter ensemble, de guerriers et combattants",
+        "gloss": "juger, décider",
         "freq": 113,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2920,
@@ -26325,9 +26325,9 @@
       {
         "strongNb": 3862,
         "grec": "παράδοσις",
-        "gloss": "abandonner, un commandement qui est fait par la parole ou l‚Äô√©criture, c‚Äôest-√Ý-dire la tradition par instruction, narration, pr√©ceptes, etc",
+        "gloss": "tradition, instruction",
         "freq": 13,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3863,
@@ -33024,9 +33024,9 @@
       {
         "strongNb": 4819,
         "grec": "συμβαίνω",
-        "gloss": "marcher à petits pas, venir ensemble, rencontrer quelqu’un, de choses qui arrivent au même moment, qui se passent",
+        "gloss": "arriver, venir ensemble",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4820,
@@ -35544,9 +35544,9 @@
       {
         "strongNb": 5179,
         "grec": "τύπος, ου, ὁ",
-        "gloss": "la marque d’un choc ou coup, une empreinte, la figure formée par le coup ou l’impressionf, forme, un exemple",
+        "gloss": "exemple, modèle, règle, image, marque, figure",
         "freq": 15,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5180,
