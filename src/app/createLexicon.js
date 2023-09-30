@@ -1,5 +1,5 @@
 // import strong lexicons
-import strongLexicon from "./strong_lexicon_fr.json";
+import lexiqueBibliqueFrancais from "./LexiqueBibliqueFrancais.json";
 
 
 const bookOptions = [
@@ -80,7 +80,7 @@ const bookOptions = [
 ]
 
 function searchStrongLexicon(strong) {
-  const word = strongLexicon[strong[0]].find(entry => entry.strongNb === parseInt(strong.slice(1)));
+  const word = lexiqueBibliqueFrancais.lexique[strong[0]].find(entry => entry.strongNb === parseInt(strong.slice(1)));
   return word ? word.gloss.split(', ').slice(0,5).join(', ') : '?';
 }
 
