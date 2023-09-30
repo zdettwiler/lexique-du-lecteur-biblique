@@ -1,5 +1,5 @@
 {
-  "version": "v15",
+  "version": "v16",
   "lexique": {
     "G": [
       {
@@ -16070,9 +16070,9 @@
       {
         "strongNb": 2296,
         "grec": "θαυμάζω",
-        "gloss": "étonner, étonné de, étonnement, merveille, être dans l’admiration",
+        "gloss": "étonner, être dans l’admiration",
         "freq": 43,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2297,
