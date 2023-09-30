@@ -22,35 +22,71 @@ import PDFLexicon from './PDFLexicon';
 import * as ga from './ga.js';
 
 export default function Home({ params }) {
-
-  // const checkParams = params => {
-  //   if (!params
-  //     || !params.params
-  //     || !params.params[0])
-  //       return false;
-
-  //   let bookParam = bookOptions.includes(params.params[0])
-  //     ? params.params[0]
-  //     : "Genèse";
-
-
-
-  // }
-  // checkParams(params)
-
-  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState(params.params[0] || 'Genèse');
-  const [chapters, setChapters] = React.useState(params.params[1] || "");
-  const [frequency, setFrequency] = React.useState(params.params[2] || 70);
-  const [lexicon, setLexicon] = React.useState([]);
   const router = useRouter()
 
-  console.log(params)
+  function checkBookParam(params) {
+    if (!params
+    || !params.params
+    || !params.params[0]
+    || !bookOptions.includes(decodeURI(params.params[0]))) {
+      return "Jonas";
+
+    } else {
+      return decodeURI(params.params[0]);
+    }
+  }
+
+  function checkChaptersParam(params) {
+    console.log(params)
+    if (!params
+    || !params.params
+    || !params.params[1]) {
+      return "";
+
+    } else if (params.params[1] === "*") {
+      return "";
+
+    } else {
+      return params.params[1]
+    }
+  }
+
+  function checkFrequencyParam(params) {
+    if (!params
+    || !params.params
+    || !params.params[2]) {
+      return "70";
+
+    } else {
+      return params.params[2]
+    }
+  }
+
+
+
   React.useEffect(() => {
-    if (params.params.length === 3) {
-      getLexicon();
+    console.log(params, book)
+    if (params && params.params && params.params.length === 3) {
+      // if (params.params[0] !== book
+      // || params.params[1] !== chapters
+      // || params.params[2] !== frequency) {
+      //   router.push(`/`, undefined, { shallow: true });
+      // } else {
+        getLexicon();
+      // }
     }
   }, []);
+
+
+  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
+  const [book, setBook] = React.useState(checkBookParam(params));
+  const [chapters, setChapters] = React.useState(checkChaptersParam(params));
+  const [frequency, setFrequency] = React.useState(checkFrequencyParam(params));
+  const [lexicon, setLexicon] = React.useState([]);
+
+
+
+
 
 
   function handleChangeBook(e) {
@@ -92,8 +128,12 @@ export default function Home({ params }) {
       }
     });
 
-    router.push(`/${book}/${chapters}/${frequency}`, undefined, { shallow: true });
-    getLexicon();
+
+    router.push(
+      `/${book}/${chapters === "" ? "*" : chapters}/${frequency}`,
+      undefined,
+      { shallow: true }
+    );
   }
 
 
