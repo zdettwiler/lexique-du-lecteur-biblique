@@ -22,12 +22,15 @@ import PDFLexicon from './PDFLexicon';
 import * as ga from './ga.js';
 
 export function checkParams(params) {
+  console.log('checking params')
   let [bookParam, chaptersParam, frequencyParam] = ["Genèse", 1, 10]
   let isParamsError = false
 
   if (params && params.params) {
     if (bookOptions.includes(decodeURI(params.params[0]))) {
       bookParam = decodeURI(params.params[0])
+    } else {
+      isParamsError = true
     }
 
     chaptersParam = params.params[1]
@@ -47,7 +50,16 @@ export default function Home({ params }) {
 
   let [bookParam, chaptersParam, frequencyParam, isParamsError] = checkParams(params)
 
+
+  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(true);
+  const [book, setBook] = React.useState(bookParam);
+  const [chapters, setChapters] = React.useState(chaptersParam);
+  const [frequency, setFrequency] = React.useState(frequencyParam);
+  const [lexicon, setLexicon] = React.useState([]);
+
+
   React.useEffect(() => {
+    setIsGeneratingPDF(false)
     if (params && params.params && params.params.length === 3) {
       if (isParamsError) {
         console.log("re-routing")
@@ -58,17 +70,6 @@ export default function Home({ params }) {
       }
     }
   }, []);
-
-
-  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState(bookParam);
-  const [chapters, setChapters] = React.useState(chaptersParam);
-  const [frequency, setFrequency] = React.useState(frequencyParam);
-  const [lexicon, setLexicon] = React.useState([]);
-
-
-
-
 
 
   function handleChangeBook(e) {
@@ -84,6 +85,7 @@ export default function Home({ params }) {
 
   function handleClickClearChapters() {
     setChapters("");
+    setLexicon([]);
   }
 
   function handleChangeFrequency(e) {
@@ -110,15 +112,12 @@ export default function Home({ params }) {
       }
     });
 
-
     router.push(
       `/${book}/${chapters === "" ? "*" : chapters}/${frequency}`,
       undefined,
       { shallow: true }
     );
   }
-
-
 
 
   return (
