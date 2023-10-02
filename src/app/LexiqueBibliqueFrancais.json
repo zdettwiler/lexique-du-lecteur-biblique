@@ -1,5 +1,5 @@
 {
-  "version": "v17",
+  "version": "v18",
   "lexique": {
     "G": [
       {
@@ -26990,9 +26990,9 @@
       {
         "strongNb": 3957,
         "grec": "πάσχα, τό",
-        "gloss": "le sacrifice pascal, l’agneau pascal, agneau que les Israélites avaient coutume de tuer et manger le quatorzième jour du mois de Nisan  en mémoire du jour où leurs pères, se préparant à partir d’Égypte, furent appelés par Dieu à tuer et manger un agneau et à asperger les montants de leurs portes avec le sang, afin que l’ange destructeur, voyant le sang, passe au-dessus de leurs demeures; Christ crucifié est semblable à l’agneau pascal sacrifié, le souper pascal, la fête pascale, la fête de la Pâque, s’étendant du quatorzième au vingtième jour du mois de Nisan",
+        "gloss": "Pâque, repas pascal",
         "freq": 29,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3958,
@@ -33815,9 +33815,9 @@
       {
         "strongNb": 4932,
         "grec": "συντέμνω",
-        "gloss": "couper en morceaux, découper",
+        "gloss": "pleinement, promptement",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4933,
@@ -34774,9 +34774,9 @@
       {
         "strongNb": 5069,
         "grec": "τετράδιον, ου, τό",
-        "gloss": "une escouade, un groupe de quatre soldats; quatre escouades  furent préposés à la garde de Pierre, emprisonné à Jérusalem: chaque escouade montait la faction pendant une veille de trois heures Durant les veilles nocturnes, deux soldats partageaient le cachot de l’apôtre, tandis que deux autres se tenaient devant la porte",
+        "gloss": "escouade, un groupe de quatre soldats",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5070,
