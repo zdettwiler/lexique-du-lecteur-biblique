@@ -21,34 +21,15 @@ import Lexicon from './Lexicon';
 import PDFLexicon from './PDFLexicon';
 import * as ga from './ga.js';
 
-export function checkParams(params) {
-  console.log('checking params')
-  let [bookParam, chaptersParam, frequencyParam] = ["Genèse", 1, 10]
-  let isParamsError = false
 
-  if (params && params.params) {
-    if (bookOptions.includes(decodeURI(params.params[0]))) {
-      bookParam = decodeURI(params.params[0])
-    } else {
-      isParamsError = true
-    }
-
-    chaptersParam = params.params[1]
-    if (chaptersParam === "*") {
-      chaptersParam = ""
-    }
-
-    frequencyParam = params.params[2]
-
-  }
-
-  return [bookParam, chaptersParam, frequencyParam, isParamsError]
-}
 
 export default function Home({ params }) {
   const router = useRouter()
 
-  let [bookParam, chaptersParam, frequencyParam, isParamsError] = checkParams(params)
+  const isParams = params && params.params && params.params.length === 3
+  const bookParam = isParams ? params.params[0] : 'Genèse'
+  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? '' : ''
+  const frequencyParam = isParams ? params.params[2] : '70'
 
 
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(true);
@@ -59,15 +40,10 @@ export default function Home({ params }) {
 
 
   React.useEffect(() => {
+    console.log("use effect")
     setIsGeneratingPDF(false)
     if (params && params.params && params.params.length === 3) {
-      if (isParamsError) {
-        console.log("re-routing")
-        // router.push(`/${bookParam}/${chaptersParam}/${frequencyParam}`, undefined, { shallow: true });
-        router.push(`/`, undefined, { shallow: true });
-      } else {
-        getLexicon();
-      }
+      getLexicon();
     }
   }, []);
 
