@@ -1,5 +1,5 @@
 {
-  "version": "v18",
+  "version": "v19",
   "lexique": {
     "G": [
       {
@@ -971,9 +971,9 @@
       {
         "strongNb": 139,
         "grec": "αἵρεσις, εως, ἡ",
-        "gloss": "action de prendre, capturer ex: prendre une ville, choix, choisir, ce qui est choisi, ensemble d’hommes suivant leurs propres principes, dissensions survenant de la diversité des opinions et buts",
+        "gloss": "secte, parti, dissension, division",
         "freq": 9,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 140,
@@ -9686,9 +9686,9 @@
       {
         "strongNb": 1384,
         "grec": "δόκιμος, ον",
-        "gloss": "accepté, particulièrement pour les pièces de monnaie, accepté, plaisant, acceptable dans le monde ancien, il n’y avait pas nos systèmes bancaires actuels et toute la monnaie était en métal Ce métal était fondu, versé dans des moules Après démoulage, il était nécessaire d’enlever les bavures De nombreuses personnes les rognaient soigneusement pour récupérer du métal En un siècle, plus de quatre-vingts lois ont été promulguées à Athènes pour arrêter la pratique du rognage des pièces en circulation Il existait quelques changeurs intègres qui n’acceptaient pas de fausse monnaie, et qui ne mettaient en circulation que des pièces au bon poids On appelait ces hommes des «dokimos» ou «approuvé»",
+        "gloss": "approuvé, éprouvé, accepté, plaisant",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1385,
@@ -28978,9 +28978,9 @@
       {
         "strongNb": 4241,
         "grec": "πρέπω",
-        "gloss": "se tenir en dehors, être en évidence, être éminent, être seyant, bienséant, convenable",
+        "gloss": "convenable, qui convient, conforme, bienséant",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4242,
@@ -36517,9 +36517,9 @@
       {
         "strongNb": 5318,
         "grec": "φανερός, ά, όν",
-        "gloss": "apparent, manifeste, évident, connu, manifesté c’est-à-dire être clairement reconnu ou connu",
+        "gloss": "apparent, manifeste, évident, connu, reconnu manifesté",
         "freq": 18,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5319,
