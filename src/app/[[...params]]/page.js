@@ -27,8 +27,8 @@ export default function Home({ params }) {
   const router = useRouter()
 
   const isParams = params && params.params && params.params.length === 3
-  const bookParam = isParams ? params.params[0] : 'Genèse'
-  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? '' : ''
+  const bookParam = isParams ? decodeURI(params.params[0]) : 'Genèse'
+  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? '' : params.params[1]
   const frequencyParam = isParams ? params.params[2] : '70'
 
 
@@ -43,7 +43,7 @@ export default function Home({ params }) {
     console.log("use effect")
     setIsGeneratingPDF(false)
     if (params && params.params && params.params.length === 3) {
-      getLexicon();
+      // getLexicon();
     }
   }, []);
 
