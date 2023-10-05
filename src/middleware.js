@@ -22,6 +22,7 @@ export function middleware(request) {
   // check param chapters
   let validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
     let chapter = cur.trim();
+    let maxChaptersBook = bookChapters[params.book]
 
     if (chapter.includes('-')) {
       let [start, end] = cur.split('-');
@@ -31,8 +32,8 @@ export function middleware(request) {
       if (start <= 1) {
         start = 1
 
-      } else if (end > bookChapters[params.book]) {
-        end = bookChapters[params.book]
+      } else if (end > maxChaptersBook) {
+        end = maxChaptersBook
       }
 
       if (start > end) {
@@ -47,7 +48,7 @@ export function middleware(request) {
       acc.push(start + '-' + end);
     } else {
       chapter = parseInt(chapter.trim());
-      if (chapter) {
+      if (chapter && chapter <= maxChaptersBook) {
         acc.push(chapter);
       }
     }

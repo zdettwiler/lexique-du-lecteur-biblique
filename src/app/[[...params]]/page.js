@@ -28,7 +28,7 @@ export default function Home({ params }) {
 
   const isParams = params && params.params && params.params.length === 3
   const bookParam = isParams ? decodeURI(params.params[0]) : 'Genèse'
-  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? '' : params.params[1]
+  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? '' : decodeURIComponent(params.params[1])
   const frequencyParam = isParams ? params.params[2] : '70'
 
 

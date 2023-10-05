@@ -61,6 +61,10 @@ export const bookNames = {
   "2R": "Rois",
 
   "Ésaïe": "Ésaïe",
+  "Ésa": "Ésaïe",
+  "Esa": "Ésaïe",
+  "Es": "Ésaïe",
+
   "Jérémie": "Jérémie",
   "Ezékiel": "Ezékiel",
   "Osée": "Osée",
