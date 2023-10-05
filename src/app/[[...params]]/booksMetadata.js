@@ -66,60 +66,268 @@ export const bookNames = {
   "Es": "Ésaïe",
 
   "Jérémie": "Jérémie",
+  "Jér": "Jérémie",
+  "Jé": "Jérémie",
+  "Jer": "Jérémie",
+  "Je": "Jérémie",
+  "Jm": "Jérémie",
+
   "Ezékiel": "Ezékiel",
+  "Ezék": "Ezékiel",
+  "Ezek": "Ezékiel",
+  "Ez": "Ezékiel",
+
   "Osée": "Osée",
+  "Osee": "Osée",
+  "Ose": "Osée",
+  "Os": "Osée",
+
   "Joël": "Joël",
+  "Joel": "Joël",
+  "Jo": "Joël",
+  "Jl": "Joël",
+
   "Amos": "Amos",
+  "Amo": "Amos",
+  "Am": "Amos",
+
   "Abdias": "Abdias",
+  "Abd": "Abdias",
+  "Ab": "Abdias",
+
   "Jonas": "Jonas",
+  "Jon": "Jonas",
+  "Jo": "Jonas",
+
   "Michée": "Michée",
+  "Michee": "Michée",
+  "Mich": "Michée",
+  "Mi": "Michée",
+  "Mi": "Michée",
+
   "Nahum": "Nahum",
+  "Nah": "Nahum",
+  "Nm": "Nahum",
+
   "Habaquq": "Habaquq",
+  "Hab": "Habaquq",
+  "Ha": "Habaquq",
+
   "Sophonie": "Sophonie",
+  "Soph": "Sophonie",
+  "So": "Sophonie",
+
   "Aggée": "Aggée",
+  "Aggee": "Aggée",
+  "Agg": "Aggée",
+  "Ag": "Aggée",
+
   "Zacharie": "Zacharie",
+  "Zach": "Zacharie",
+  "Zac": "Zacharie",
+  "Za": "Zacharie",
+
   "Malachie": "Malachie",
+  "Mal": "Malachie",
+  "Ma": "Malachie",
+
   "Psaumes": "Psaumes",
+  "Psa": "Psaumes",
+  "Pss": "Psaumes",
+
   "Proverbes": "Proverbes",
+  "Prov": "Proverbes",
+  "Pr": "Proverbes",
+
   "Job": "Job",
-  "Cantique des cantiques": "cantiques",
+  "Jb": "Job",
+
+  "Cantique des cantiques": "Cantiques",
+  "Cantiques": "Cantiques",
+  "Cantique": "Cantiques",
+  "Ca": "Cantiques",
+  "Ccd": "Cantiques",
+
   "Ruth": "Ruth",
+  "Rut": "Ruth",
+  "Ru": "Ruth",
+
   "Lamentations": "Lamentations",
+  "Lam": "Lamentations",
+  "Lm": "Lamentations",
+
   "Ecclésiastes": "Ecclésiastes",
+  "Ecclesiastes": "Ecclésiastes",
+  "Eccl": "Ecclésiastes",
+  "Ecc": "Ecclésiastes",
+  "Ec": "Ecclésiastes",
+
   "Esther": "Esther",
+  "Est": "Esther",
+  "Es": "Esther",
+
   "Daniel": "Daniel",
+  "Dan": "Daniel",
+  "Da": "Daniel",
+
   "Esdras": "Esdras",
+  "Esd": "Esdras",
+  "Ed": "Esdras",
+
   "Néhémie": "Néhémie",
-  "1 Chroniques": "Chroniques",
-  "2 Chroniques": "Chroniques",
+  "Nehemie": "Néhémie",
+  "Neh": "Néhémie",
+  "Ne": "Néhémie",
+
+  "1 Chroniques": "1 Chroniques",
+  "1 Chr": "1 Chroniques",
+  "1 Ch": "1 Chroniques",
+  "1Ch": "1 Chroniques",
+  "1Ch": "1 Chroniques",
+
+  "2 Chroniques": "2 Chroniques",
+  "2 Chr": "2 Chroniques",
+  "2 Ch": "2 Chroniques",
+  "2Ch": "2 Chroniques",
+  "2C": "2 Chroniques",
 
   "Matthieu": "Matthieu",
+  "Matt": "Matthieu",
+  "Mat": "Matthieu",
+  "Mt": "Matthieu",
+
   "Marc": "Marc",
+  "Mar": "Marc",
+  "Mc": "Marc",
+
   "Luc": "Luc",
+  "Lu": "Luc",
+  "Lc": "Luc",
+
   "Jean": "Jean",
+  "Jea": "Jean",
+  "Jn": "Jean",
+
   "Actes": "Actes",
+  "Act": "Actes",
+  "Ac": "Actes",
+
   "Romains": "Romains",
-  "1 Corinthiens": "Corinthiens",
-  "2 Corinthiens": "Corinthiens",
+  "Rom": "Romains",
+  "Rm": "Romains",
+
+  "1 Corinthiens": "1 Corinthiens",
+  "1 Cor": "1 Corinthiens",
+  "1 Co": "1 Corinthiens",
+
+  "2 Corinthiens": "2 Corinthiens",
+  "2 Cor": "2 Corinthiens",
+  "2 Co": "2 Corinthiens",
+
   "Galates": "Galates",
+  "Gal": "Galates",
+  "Ga": "Galates",
+  "Gl": "Galates",
+
   "Éphésiens": "Éphésiens",
+  "Ephesiens": "Éphésiens",
+  "Eph": "Éphésiens",
+  "Ep": "Éphésiens",
+
   "Philippiens": "Philippiens",
+  "Phil": "Philippiens",
+  "Phi": "Philippiens",
+  "Ph": "Philippiens",
+  "Pl": "Philippiens",
+
   "Colossiens": "Colossiens",
-  "1 Thessaloniciens": "Thessaloniciens",
-  "2 Thessaloniciens": "Thessaloniciens",
-  "1 Timothée": "Timothée",
-  "2 Timothée": "Timothée",
+  "Colo": "Colossiens",
+  "Col": "Colossiens",
+  "Cl": "Colossiens",
+  "Co": "Colossiens",
+
+  "1 Thessaloniciens": "1 Thessaloniciens",
+  "1 Thess": "1 Thessaloniciens",
+  "1 Th": "1 Thessaloniciens",
+  "1Th": "1 Thessaloniciens",
+
+  "2 Thessaloniciens": "2 Thessaloniciens",
+  "2 Thess": "2 Thessaloniciens",
+  "2 Th": "2 Thessaloniciens",
+  "2Th": "2 Thessaloniciens",
+
+  "1 Timothée": "1 Timothée",
+  "1 Tim": "1 Timothée",
+  "1 Tm": "1 Timothée",
+  "1Tm": "1 Timothée",
+
+  "2 Timothée": "2 Timothée",
+  "2 Tim": "2 Timothée",
+  "2 Tm": "2 Timothée",
+  "2Tm": "2 Timothée",
+
   "Tite": "Tite",
+  "Tit": "Tite",
+  "Ti": "Tite",
+  "Tt": "Tite",
+
   "Philémon": "Philémon",
+  "Philemon": "Philémon",
+  "Phil": "Philémon",
+  "Plm": "Philémon",
+  "Pm": "Philémon",
+  "Pl": "Philémon",
+
   "Hébreux": "Hébreux",
+  "Hebreux": "Hébreux",
+  "Héb": "Hébreux",
+  "Heb": "Hébreux",
+  "Hb": "Hébreux",
+
   "Jacques": "Jacques",
-  "1 Pierre": "Pierre",
-  "2 Pierre": "Pierre",
-  "1 Jean": "Jean",
-  "2 Jean": "Jean",
-  "3 Jean": "Jean",
+  "Jac": "Jacques",
+  "Ja": "Jacques",
+  "Jc": "Jacques",
+  "Jq": "Jacques",
+
+  "1 Pierre": "1 Pierre",
+  "1 Pie": "1 Pierre",
+  "1 Pi": "1 Pierre",
+  "1Pierre": "1 Pierre",
+  "1Pie": "1 Pierre",
+  "1Pi": "1 Pierre",
+
+  "2 Pierre": "2 Pierre",
+  "2 Pie": "2 Pierre",
+  "2 Pi": "2 Pierre",
+  "2Pierre": "2 Pierre",
+  "2Pie": "2 Pierre",
+  "2Pi": "2 Pierre",
+
+  "1 Jean": "1 Jean",
+  "1 Jn": "1 Jean",
+  "1Jean": "1 Jean",
+  "1Jn": "1 Jean",
+
+  "2 Jean": "2 Jean",
+  "2 Jn": "2 Jean",
+  "2Jean": "2 Jean",
+  "2Jn": "2 Jean",
+
+  "3 Jean": "3 Jean",
+  "3 Jn": "3 Jean",
+  "3Jean": "3 Jean",
+  "3Jn": "3 Jean",
+
   "Jude": "Jude",
-  "Apocalypse": "Apocalypse"
+  "Jud": "Jude",
+  "Ju": "Jude",
+  "Jd": "Jude",
+
+  "Apocalypse": "Apocalypse",
+  "Apoc": "Apocalypse",
+  "Apo": "Apocalypse",
+  "Ap": "Apocalypse",
 }
 
 
