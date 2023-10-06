@@ -1,5 +1,6 @@
 export const bookNames = {
   "Genèse": "Genèse",
+  "Genese": "Genèse",
   "Gen": "Genèse",
   "Gn": "Genèse",
 
@@ -8,6 +9,7 @@ export const bookNames = {
   "Ex": "Exode",
 
   "Lévitique": "Lévitique",
+  "Levitique": "Lévitique",
   "Lev": "Lévitique",
   "Lv": "Lévitique",
 
@@ -17,11 +19,13 @@ export const bookNames = {
   "Nbs": "Nombres",
 
   "Deutéronome": "Deutéronome",
+  "Deuteronome": "Deutéronome",
   "Deut": "Deutéronome",
   "De": "Deutéronome",
   "Dt": "Deutéronome",
 
   "Josué": "Josué",
+  "Josue": "Josué",
   "Jos": "Josué",
   "Jo": "Josué",
   "Js": "Josué",
@@ -63,11 +67,14 @@ export const bookNames = {
   "2R": "2Rois",
 
   "Ésaïe": "Ésaïe",
+  "Esaie": "Ésaïe",
+  "Ésaie": "Ésaïe",
   "Ésa": "Ésaïe",
   "Esa": "Ésaïe",
   "Es": "Ésaïe",
 
   "Jérémie": "Jérémie",
+  "Jeremie": "Jérémie",
   "Jér": "Jérémie",
   "Jé": "Jérémie",
   "Jer": "Jérémie",
@@ -75,6 +82,7 @@ export const bookNames = {
   "Jm": "Jérémie",
 
   "Ezékiel": "Ezékiel",
+  "Ezekiel": "Ezékiel",
   "Ezék": "Ezékiel",
   "Ezek": "Ezékiel",
   "Ez": "Ezékiel",
@@ -272,16 +280,20 @@ export const bookNames = {
   "2Th": "2Thessaloniciens",
 
   "1 Timothée": "1Timothée",
+  "1 Timothee": "1Timothée",
   "1 Tim": "1Timothée",
   "1 Tm": "1Timothée",
   "1Timothée": "1Timothée",
+  "1Timothee": "1Timothée",
   "1Tim": "1Timothée",
   "1Tm": "1Timothée",
 
   "2 Timothée": "2Timothée",
+  "2 Timothee": "2Timothée",
   "2 Tim": "2Timothée",
   "2 Tm": "2Timothée",
   "2Timothée": "2Timothée",
+  "2Timothee": "2Timothée",
   "2Tim": "2Timothée",
   "2Tm": "2Timothée",
 
