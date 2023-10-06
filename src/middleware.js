@@ -65,6 +65,8 @@ export function middleware(request) {
 
     if (validatedChapters !== params.chapters) {
       params.chapters = validatedChapters
+        ? validatedChapters
+        : '*'
       needsRedirect = true
     }
   }

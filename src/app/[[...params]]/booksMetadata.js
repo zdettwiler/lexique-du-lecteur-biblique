@@ -148,6 +148,7 @@ export const bookNames = {
   "Cantiques": "Cantiques",
   "Cantique": "Cantiques",
   "Ca": "Cantiques",
+  "Ct": "Cantiques",
   "Ccd": "Cantiques",
 
   "Ruth": "Ruth",
@@ -379,7 +380,7 @@ export const bookChapters = {
   "Psaumes": 150,
   "Proverbes": 31,
   "Job": 42,
-  "Cantique des cantiques": 8,
+  "Cantiques": 8,
   "Ruth": 4,
   "Lamentations": 5,
   "Ecclésiastes": 12,
