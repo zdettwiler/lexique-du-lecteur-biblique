@@ -32,7 +32,7 @@ export default function Home({ params }) {
   const frequencyParam = isParams ? params.params[2] : '70'
 
 
-  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
+  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(true);
   const [book, setBook] = React.useState(bookParam);
   const [chapters, setChapters] = React.useState(chaptersParam);
   const [frequency, setFrequency] = React.useState(frequencyParam);
