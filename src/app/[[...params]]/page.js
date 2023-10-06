@@ -32,7 +32,7 @@ export default function Home({ params }) {
   const frequencyParam = isParams ? params.params[2] : '70'
 
 
-  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(true);
+  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
   const [book, setBook] = React.useState(bookParam);
   const [chapters, setChapters] = React.useState(chaptersParam);
   const [frequency, setFrequency] = React.useState(frequencyParam);
@@ -40,10 +40,9 @@ export default function Home({ params }) {
 
 
   React.useEffect(() => {
-    console.log("use effect")
-    setIsGeneratingPDF(false)
+    // setIsGeneratingPDF(false)
     if (params && params.params && params.params.length === 3) {
-      // getLexicon();
+      getLexicon();
     }
   }, []);
 
@@ -89,7 +88,7 @@ export default function Home({ params }) {
     });
 
     router.push(
-      `/${book}/${chapters === "" ? "*" : chapters}/${frequency}`,
+      `/${book}/${!chapters || chapters === "" ? "*" : chapters}/${frequency}`,
       undefined,
       { shallow: true }
     );
@@ -123,9 +122,9 @@ export default function Home({ params }) {
               <Form.Label className="d-flex justify-content-between">Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                 { bookOptions.map((book, id) => (
-                  book.label
-                    ? <optgroup label={book.label} key={id}></optgroup>
-                    : <option value={book} key={id}>{book}</option>
+                  book.value
+                    ? <option value={book.value} key={id}>{book.label}</option>
+                    : <optgroup label={book.label} key={id}></optgroup>
                 ))}
               </Form.Select>
             </Col>

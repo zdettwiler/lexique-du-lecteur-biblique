@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server'
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
 export function middleware(request) {
+  console.log(request.nextUrl.pathname)
   let { groups: params } = request.nextUrl.pathname.match(/\/(?<book>.*)\/(?<chapters>.*)\/(?<frequency>.*)/)
   console.log(params)
 
@@ -20,46 +21,55 @@ export function middleware(request) {
   }
 
   // check param chapters
-  let validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
-    let chapter = cur.trim();
-    let maxChaptersBook = bookChapters[params.book]
+  if (params.chapters !== '*') {
+    let validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
+      let chapter = cur.trim();
+      let maxChaptersBook = bookChapters[params.book]
 
-    if (chapter.includes('-')) {
-      let [start, end] = cur.split('-');
-      start = parseInt(start.trim());
-      end = parseInt(end.trim());
+      if (chapter.includes('-')) {
+        let [start, end] = cur.split('-');
+        start = parseInt(start.trim());
+        end = parseInt(end.trim());
 
-      if (start <= 1) {
-        start = 1
+        if (start <= 1) {
+          start = 1
 
-      } else if (end > maxChaptersBook) {
-        end = maxChaptersBook
+        } else if (end > maxChaptersBook) {
+          end = maxChaptersBook
+        }
+
+        if (start > end) {
+          let oldStart = start
+          start = end
+          end = oldStart
+        } else if (start === end) {
+          acc.push(start);
+          return acc
+        }
+
+        acc.push(start + '-' + end);
+      } else {
+        chapter = parseInt(chapter.trim());
+        if (chapter && chapter <= maxChaptersBook) {
+          acc.push(chapter);
+        }
       }
 
-      if (start > end) {
-        let oldStart = start
-        start = end
-        end = oldStart
-      } else if (start === end) {
-        acc.push(start);
-        return acc
-      }
+      return acc;
+    }, []).join(',');
 
-      acc.push(start + '-' + end);
-    } else {
-      chapter = parseInt(chapter.trim());
-      if (chapter && chapter <= maxChaptersBook) {
-        acc.push(chapter);
-      }
+    if (validatedChapters !== params.chapters) {
+      params.chapters = validatedChapters
+      needsRedirect = true
     }
+  }
+  console.log(params.chapters)
 
-    return acc;
-  }, []).join(',');
-  console.log(validatedChapters)
 
-  if (validatedChapters !== params.chapters) {
-    params.chapters = validatedChapters
-    needsRedirect = true
+
+  // check param frequency
+  if (!params.frequency) {
+    params.frequency = 70
   }
 
 
