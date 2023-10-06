@@ -71,7 +71,9 @@ export default function Home({ params }) {
   async function getLexicon() {
     setLexicon([]);
     setIsGeneratingPDF(true);
+    console.log('getting lexicon', isGeneratingPDF)
     let data = await createLexicon(book, chapters, frequency);
+    console.log(data)
     setLexicon(data);
     setIsGeneratingPDF(false);
   }

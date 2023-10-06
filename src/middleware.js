@@ -4,8 +4,13 @@ import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
 export function middleware(request) {
   console.log(request.nextUrl.pathname)
-  let { groups: params } = request.nextUrl.pathname.match(/\/(?<book>.*)\/(?<chapters>.*)\/(?<frequency>.*)/)
+  let params = request.nextUrl.pathname.match(/\/(?<book>.*)\/(?<chapters>.*)\/(?<frequency>.*)/)
   console.log(params)
+  if (!params) {
+    return NextResponse.redirect(new URL(`/`, request.url))
+  }
+
+  params = params.groups
 
   let needsRedirect = false
 
