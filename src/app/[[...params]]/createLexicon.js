@@ -37,7 +37,7 @@ const bookOptions = [
   { value: "Psaumes", label: "Psaumes" },
   { value: "Proverbes", label: "Proverbes" },
   { value: "Job", label: "Job" },
-  { value: "Cantique des cantiques", label: "Cantique des cantiques" },
+  { value: "Cantiques", label: "Cantique des cantiques" },
   { value: "Ruth", label: "Ruth" },
   { value: "Lamentations", label: "Lamentations" },
   { value: "Ecclésiastes", label: "Ecclésiastes" },
