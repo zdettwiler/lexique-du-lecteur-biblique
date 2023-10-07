@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // output: 'export',
-  basePath: '/lexique-du-lecteur-biblique',
   reactStrictMode: true,
   webpack: (config, { isServer }) => {
     if (!isServer) {
@@ -11,7 +10,6 @@ const nextConfig = {
       config.resolve.fallback.net = false
       // config.resolve.fallback.http2 = false
     }
-
     return config
   },
   env: {

@@ -1,7 +1,7 @@
-div.lexicon {
+.lexicon {
   font-family: 'Times New Roman', serif;
-  font-size: 20px;
-  width: 80%;
+  font-size: 18px;
+  width: 95%;
   margin: auto;
   display: table;
 }
@@ -11,6 +11,10 @@ h1.lexiconTitle {
   letter-spacing: 12px;
   text-align: center;
   margin-bottom: -5px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  overflow-wrap: anywhere;
+  /* word-break: break-all; */
 }
 h2.lexiconSubTitle {
   font-size: 16px;
@@ -37,14 +41,16 @@ div.wordEntry div {
   display: table-cell;
   white-space: normal;
   padding: 0 2px;
+  /* border: 1px solid black; */
+  word-break: normal;
 }
 div.verseNb {
-  width: 20px;
+  width: 30px;
   text-align: right;
 }
 div.lexOT {
-  min-width: 130px;
-  margin-left: 10px;
+  min-width: 80px;
+  /* margin-left: 10px; */
   font-size: 25px;
   direction: rtl;
 }
@@ -52,7 +58,7 @@ span.lex {
   font-family: "Times New Roman";
 }
 div.lexNT {
-  min-width: 130px;
+  min-width: 100px;
   font-weight: bold;
   margin-left: 10px;
   /* font-size: 25px; */
@@ -62,7 +68,7 @@ div.lexOT:hover, div.lexNT:hover {
   cursor: pointer;
 }
 div.freq {
-  width: 50px;
+  width: 35px;
   font-size: 16px;
 }
 
@@ -78,6 +84,6 @@ div.freq {
   font-family: 'Arial', sans-serif;
   font-weight: bold;
   vertical-align: super;
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 5px;
 }

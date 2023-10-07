@@ -107,6 +107,15 @@
 .logo {
   position: relative;
 }
+
+#clear-chapters-input-button {
+  background-color: unset;
+  color: #343a40;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-left: unset;
+}
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
