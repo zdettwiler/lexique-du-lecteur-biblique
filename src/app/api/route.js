@@ -5,8 +5,8 @@ import gsheetdb from 'gsheetdb';
 export async function POST(request) {
   const body = await request.json();
 
-
   let CREDS = JSON.parse(process.env.CREDS);
+  console.log(CREDS)
 
   let db = new gsheetdb({
     spreadsheetId: process.env.NEXT_PUBLIC_SPREADSHEETID,

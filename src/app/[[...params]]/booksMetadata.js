@@ -304,7 +304,6 @@ export const bookNames = {
 
   "philémon": "Philémon",
   "philemon": "Philémon",
-  "phil": "Philémon",
   "plm": "Philémon",
   "pm": "Philémon",
   "pl": "Philémon",

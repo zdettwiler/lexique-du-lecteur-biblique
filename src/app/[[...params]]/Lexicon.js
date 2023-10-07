@@ -24,7 +24,7 @@ function Lexicon({frequency, data}) {
   async function sendLexiconCorrection() {
     console.log("sending new definition for review:", correctingWord.gloss);
 
-    const response = await fetch("/lexique-du-lecteur-biblique/api", {
+    const response = await fetch("/api", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
