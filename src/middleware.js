@@ -3,9 +3,7 @@ import { NextResponse } from 'next/server'
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
 export function middleware(request) {
-  let params = request.nextUrl.pathname.match(/\/(?<book>[^\/]*)\/(?<chapters>[\d\*]*)\/?(?<frequency>\d*)?/)
-
-  console.log(params)
+  let params = request.nextUrl.pathname.match(/\/(?<book>[^\/]*)\/(?<chapters>[\d\*\,\-]*)\/?(?<frequency>\d*)?/)
 
   if (!params) {
     return NextResponse.redirect(new URL(`/`, request.url))
@@ -56,13 +54,15 @@ export function middleware(request) {
         acc.push(start + '-' + end);
       } else {
         chapter = parseInt(chapter.trim());
-        if (chapter && chapter <= maxChaptersBook) {
+        if (chapter
+        && chapter <= maxChaptersBook
+        && acc.indexOf(chapter) < 0) {
           acc.push(chapter);
         }
       }
 
       return acc;
-    }, []).join(',');
+    }, []).sort().join(',');
 
     if (validatedChapters !== params.chapters) {
       params.chapters = validatedChapters
@@ -78,7 +78,7 @@ export function middleware(request) {
     needsRedirect = true
   }
 
-
+  // redirect with corrected url if necessary
   if (needsRedirect) {
     return NextResponse.redirect(new URL(`/${params.book}/${params.chapters}/${params.frequency}`, request.url))
   }
@@ -86,7 +86,6 @@ export function middleware(request) {
 
 export const config = {
   matcher: [
-    // '/:path*',
     '/((?!api|_next|favicon.ico|bible_books).*):path+',
   ],
 }
