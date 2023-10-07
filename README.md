@@ -18,3 +18,4 @@ Les lexiques sont ensuite modifiés au fur et à mesure de leur utilisation et d
 
 ## 🚀 À venir
 - [ ] Formulaire pour proposer des rectifications du lexique
+- [ ] Lexiques alphabétiques par livre
