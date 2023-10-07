@@ -143,7 +143,24 @@ async function createLexicon(book='Genèse', chapters='', frequency=50) {
     return words;
   }, []);
 
-  return lexicon;
+  let vocabList = lexicon.reduce((group, word) => {
+    const { lex } = word;
+    group[lex] = group[lex] ?? [];
+    group[lex].push(word);
+    return group;
+  }, {});
+
+  let vocabListArray = []
+  for (const word in vocabList) {
+    vocabListArray.push({ ...vocabList[word][0], countInBook: vocabList[word].length })
+  }
+
+  vocabListArray.sort((a,b) => a.lex.localeCompare(b.lex, 'el'))
+
+  console.log(vocabListArray)
+
+  return vocabListArray
+  // return lexicon;
 }
 
 export {

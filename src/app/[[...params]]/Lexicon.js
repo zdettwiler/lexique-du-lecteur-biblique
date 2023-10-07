@@ -23,23 +23,31 @@ function Lexicon({frequency, data}) {
         </p>
 
         {data.map((word, id, data) => {
-          let prevChapter = id > 0 ? data[id-1].chapter : 0;
-          let chapHeading = prevChapter !== word.chapter
-            ? <h3 className={styles.chapterHeading}>CHAPITRE {word.chapter}</h3>
+          let prevLetter = id > 0
+            ? data[id-1].lex[0].toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+            : 'a';
+          let letterHeading = prevLetter !== word.lex[0].toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+            ? <h3 className={styles.chapterHeading}>{word.lex[0].toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "")}</h3>
             : null;
 
-          let prevVerse = id > 0 ? data[id-1].verse : 0;
-          let verseIndicator = prevVerse !== word.verse
-            ? <span className={styles.verseNb}>{word.verse}</span>
-            : null;
+          // let prevChapter = id > 0 ? data[id-1].chapter : 0;
+          // let chapHeading = prevChapter !== word.chapter
+          //   ? <h3 className={styles.chapterHeading}>CHAPITRE {word.chapter}</h3>
+          //   : null;
+
+          // let prevVerse = id > 0 ? data[id-1].verse : 0;
+          // let verseIndicator = prevVerse !== word.verse
+          //   ? <span className={styles.verseNb}>{word.verse}</span>
+          //   : null;
 
           return (
             <div key={id}>
-              {chapHeading}
+              {/* {chapHeading} */}
+              {letterHeading}
                 <div className={styles.wordEntry}>
-                  <div className={styles.verseNb}>{verseIndicator}</div>
+                  {/* <div className={styles.verseNb}>{verseIndicator}</div> */}
                   <div className={styleLang}>{word.lex}</div>
-                  <div className={styles.freq}>({word.freq})</div>
+                  <div className={styles.freq}>({word.countInBook}|{word.freq})</div>
                   <div className={styles.gloss}>{word.gloss}</div>
                 </div>
             </div>
