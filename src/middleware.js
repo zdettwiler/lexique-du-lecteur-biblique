@@ -3,9 +3,10 @@ import { NextResponse } from 'next/server'
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
 export function middleware(request) {
-  console.log(request.nextUrl.pathname)
-  let params = request.nextUrl.pathname.match(/\/(?<book>.*)\/(?<chapters>.*)\/(?<frequency>.*)/)
+  let params = request.nextUrl.pathname.match(/\/(?<book>[\w\s]*)\/(?<chapters>\d*)\/?(?<frequency>\d*)?/)
+
   console.log(params)
+
   if (!params) {
     return NextResponse.redirect(new URL(`/`, request.url))
   }
@@ -70,13 +71,11 @@ export function middleware(request) {
       needsRedirect = true
     }
   }
-  console.log(params.chapters)
-
-
 
   // check param frequency
   if (!params.frequency) {
     params.frequency = 70
+    needsRedirect = true
   }
 
 
@@ -88,6 +87,6 @@ export function middleware(request) {
 export const config = {
   matcher: [
     // '/:path*',
-    '/((?!api|_next/static|_next/image|favicon.ico|bible_books).*):path+',
+    '/((?!api|_next|favicon.ico|bible_books).*):path+',
   ],
 }
