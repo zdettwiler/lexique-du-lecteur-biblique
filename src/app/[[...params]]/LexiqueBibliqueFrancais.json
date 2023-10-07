@@ -1,5 +1,5 @@
 {
-  "version": "v20",
+  "version": "v21",
   "lexique": {
     "G": [
       {
@@ -1398,9 +1398,9 @@
       {
         "strongNb": 200,
         "grec": "ἀκρίς, ίδος, ἡ",
-        "gloss": "sauterelle  infestant les régions d’orient, détruisant les champs et les arbres Elles sont transportées en nuages par le vent qui vient d’Arabie en Palestine, puis s’en vont vers le nord, et périssent dans la mer Les Orientaux les consomment, rôties, assaisonnées de sel, et les Israélites étaient autorisés à les manger",
+        "gloss": "sauterelle",
         "freq": 4,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 201,
@@ -5283,9 +5283,9 @@
       {
         "strongNb": 755,
         "grec": "ἀρχιτρίκλινος, ου, ὁ",
-        "gloss": "le super-intendant de la salle à manger, le maître de table Rôle différent de celui du «porteur de toast», qui était un des hôtes et choisi par le sort, qui prescrivait aux autres comment boire L’ordonnateur du repas plaçait les tables et les divans, guidait les convives, goûtait la nourriture et le vin, etc…",
+        "gloss": "ordonnateur du repas",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 756,
@@ -7621,9 +7621,9 @@
       {
         "strongNb": 1089,
         "grec": "γεύομαι",
-        "gloss": "goûter, essayer la saveur de, percevoir la saveur, participer, jouir de, sentir, procéder à une épreuve de, éprouver, prendre de la nourriture, manger, se nourrir",
+        "gloss": "goûter, manger, mourir, voir, souffrir",
         "freq": 15,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1090,
