@@ -15,17 +15,37 @@ import {
   Stack
  } from 'react-bootstrap';
 import Script from 'next/script';
+import { useRouter } from 'next/navigation'
 
 import Lexicon from './Lexicon';
 import PDFLexicon from './PDFLexicon';
 import * as ga from './ga.js';
 
-export default function Home() {
-  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(false);
-  const [book, setBook] = React.useState('Genèse');
-  const [chapters, setChapters] = React.useState("");
-  const [frequency, setFrequency] = React.useState(70);
+
+
+export default function Home({ params }) {
+  const router = useRouter()
+
+  const isParams = params && params.params && params.params.length === 3
+  const bookParam = isParams ? decodeURI(params.params[0]) : 'Genèse'
+  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? '' : decodeURIComponent(params.params[1])
+  const frequencyParam = isParams ? params.params[2] : '70'
+
+
+  const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(true);
+  const [book, setBook] = React.useState(bookParam);
+  const [chapters, setChapters] = React.useState(chaptersParam);
+  const [frequency, setFrequency] = React.useState(frequencyParam);
   const [lexicon, setLexicon] = React.useState([]);
+
+
+  React.useEffect(() => {
+    // setIsGeneratingPDF(false)
+    if (params && params.params && params.params.length === 3) {
+      getLexicon();
+    }
+  }, []);
+
 
   function handleChangeBook(e) {
     setBook(e.target.value);
@@ -40,6 +60,7 @@ export default function Home() {
 
   function handleClickClearChapters() {
     setChapters("");
+    setLexicon([]);
   }
 
   function handleChangeFrequency(e) {
@@ -47,7 +68,17 @@ export default function Home() {
     setLexicon([]);
   }
 
-  async function getBook(e) {
+  async function getLexicon() {
+    setLexicon([]);
+    setIsGeneratingPDF(true);
+    console.log('getting lexicon', isGeneratingPDF)
+    let data = await createLexicon(book, chapters, frequency);
+    console.log(data)
+    setLexicon(data);
+    setIsGeneratingPDF(false);
+  }
+
+  function getBook(e) { // TODO: rename function
     e.preventDefault();
     ga.event({
       action: "make_lexicon",
@@ -58,11 +89,11 @@ export default function Home() {
       }
     });
 
-    setLexicon([]);
-    setIsGeneratingPDF(true);
-    let data = await createLexicon(book, chapters, frequency);
-    setLexicon(data);
-    setIsGeneratingPDF(false);
+    router.push(
+      `/${book}/${!chapters || chapters === "" ? "*" : chapters}/${frequency}`,
+      undefined,
+      { shallow: true }
+    );
   }
 
 
@@ -93,9 +124,9 @@ export default function Home() {
               <Form.Label className="d-flex justify-content-between">Livre</Form.Label>
               <Form.Select aria-label="Book selection" value={book} onChange={handleChangeBook}>
                 { bookOptions.map((book, id) => (
-                  book.label
-                    ? <optgroup label={book.label} key={id}></optgroup>
-                    : <option value={book} key={id}>{book}</option>
+                  book.value
+                    ? <option value={book.value} key={id}>{book.label}</option>
+                    : <optgroup label={book.label} key={id}></optgroup>
                 ))}
               </Form.Select>
             </Col>
