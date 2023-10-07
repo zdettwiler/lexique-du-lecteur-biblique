@@ -40,9 +40,10 @@ export default function Home({ params }) {
 
 
   React.useEffect(() => {
-    // setIsGeneratingPDF(false)
     if (params && params.params && params.params.length === 3) {
       getLexicon();
+    } else {
+      setIsGeneratingPDF(false);
     }
   }, []);
 
@@ -71,9 +72,7 @@ export default function Home({ params }) {
   async function getLexicon() {
     setLexicon([]);
     setIsGeneratingPDF(true);
-    console.log('getting lexicon', isGeneratingPDF)
     let data = await createLexicon(book, chapters, frequency);
-    console.log(data)
     setLexicon(data);
     setIsGeneratingPDF(false);
   }
@@ -111,7 +110,7 @@ export default function Home({ params }) {
       </Script>
 
 
-        <p className="logo">☧</p>{/* 📓☧ */}
+        <p className="logo">☧</p>
         <h1 className="header">Lexique du lecteur biblique</h1>
         <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
@@ -159,9 +158,9 @@ export default function Home({ params }) {
                     className="clear-chapters-input-button"
                   ></Form.Control>
                   { chapters !== "" && (
-                  <Button onClick={handleClickClearChapters} className="clear-chapters-input-button">
-                    <i className="bi bi-x-circle-fill"></i>
-                  </Button>
+                    <Button onClick={handleClickClearChapters} className="clear-chapters-input-button">
+                      <i className="bi bi-x-circle-fill"></i>
+                    </Button>
                   )}
                 </InputGroup>
             </Col>
