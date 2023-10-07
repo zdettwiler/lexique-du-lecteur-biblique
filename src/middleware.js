@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
 export function middleware(request) {
-  let params = request.nextUrl.pathname.match(/\/(?<book>[\w\s]*)\/(?<chapters>\d*)\/?(?<frequency>\d*)?/)
+  let params = request.nextUrl.pathname.match(/\/(?<book>[^\/]*)\/(?<chapters>[\d\*]*)\/?(?<frequency>\d*)?/)
 
   console.log(params)
 
@@ -18,11 +18,11 @@ export function middleware(request) {
   // check param book
   params.book = decodeURI(params.book)
 
-  if (!bookNames[params.book]) {
+  if (!bookNames[params.book.toLowerCase()]) {
     return NextResponse.redirect(new URL(`/`, request.url))
 
-  } else if (params.book !== bookNames[params.book]) {
-    params.book = bookNames[params.book]
+  } else if (params.book !== bookNames[params.book.toLowerCase()]) {
+    params.book = bookNames[params.book.toLowerCase()]
     needsRedirect = true
   }
 
