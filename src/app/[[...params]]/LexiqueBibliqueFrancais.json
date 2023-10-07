@@ -1,5 +1,5 @@
 {
-  "version": "v19",
+  "version": "v20",
   "lexique": {
     "G": [
       {
@@ -4352,9 +4352,9 @@
       {
         "strongNb": 622,
         "grec": "ἀπόλλυμι",
-        "gloss": "détruire, disparaître",
+        "gloss": "périr, tuer, détruire, disparaître",
         "freq": 90,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 623,
@@ -5178,9 +5178,9 @@
       {
         "strongNb": 740,
         "grec": "ἄρτος, ου, ὁ",
-        "gloss": "nourriture composée de farine mélangée à de l’eau, et cuite, toute sorte de nourriture, repas",
+        "gloss": "pain, repas",
         "freq": 97,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 741,
@@ -7593,9 +7593,9 @@
       {
         "strongNb": 1085,
         "grec": "γένος, ους, τό",
-        "gloss": "race",
+        "gloss": "espèce, sorte, origine, famille, race",
         "freq": 20,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1086,
@@ -10444,7 +10444,7 @@
         "grec": "οἶδα",
         "gloss": "voir, connaître",
         "freq": 374,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1493,
@@ -10455,10 +10455,10 @@
       },
       {
         "strongNb": 1494,
-        "grec": "εἰδωλόθυτος, ον",
-        "gloss": "sacrifié aux idoles: les viandes offertes en sacrifice et revendues sur les marchés",
+        "grec": "εἰδωλόθυτος, ον / ἱερόθυτος",
+        "gloss": "viandes sacrifiées aux idoles, offert en sacrifice",
         "freq": 10,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1495,
@@ -12437,9 +12437,9 @@
       {
         "strongNb": 1777,
         "grec": "ἔνοχος, ον",
-        "gloss": "lié, sous une obligation, sujet à, responsable de",
+        "gloss": "lié, sous une obligation, coupable de, responsable de",
         "freq": 10,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1778,
@@ -16014,9 +16014,9 @@
       {
         "strongNb": 2288,
         "grec": "θάνατος, ου, ὁ",
-        "gloss": "la mort du corps, métaphorique, la perte de la vie terrestre, l’état misérable du méchant en enfer, dans un sens plus large, la mort qui inclue toutes les misères provenant du péché, tant la mort physique que la négation d’une vie consacrée à Dieu, bénie par lui sur terre, et qui sera suivie de misère en enfer",
+        "gloss": "la mort",
         "freq": 120,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2289,
@@ -16973,9 +16973,9 @@
       {
         "strongNb": 2425,
         "grec": "ἱκανός, ή, όν",
-        "gloss": "suffisant",
+        "gloss": "suffisant, assez grand, assez nombreux",
         "freq": 39,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2426,
@@ -17561,9 +17561,9 @@
       {
         "strongNb": 2509,
         "grec": "καθάπερ",
-        "gloss": "selon ce que, juste comme, aussi bien",
+        "gloss": "de même, comme, aussi bien, aussi",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2510,
@@ -17659,9 +17659,9 @@
       {
         "strongNb": 2523,
         "grec": "καθίζω",
-        "gloss": "faire asseoir, intransitif",
+        "gloss": "faire asseoir, s'assoir, rester, demeurer",
         "freq": 45,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2524,
@@ -19850,9 +19850,9 @@
       {
         "strongNb": 2837,
         "grec": "κοιμάομαι",
-        "gloss": "ce qui fait dormir, s’endormir",
+        "gloss": "s’endormir, mourir",
         "freq": 18,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2838,
@@ -25814,9 +25814,9 @@
       {
         "strongNb": 3789,
         "grec": "ὄφις, εως, ὁ",
-        "gloss": "serpent, pour les anciens, le serpent était l’emblème de la ruse et de la sagesse Le serpent qui trompa Eve était considéré par les Juifs comme le diable",
+        "gloss": "serpent",
         "freq": 14,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3790,
@@ -27977,9 +27977,9 @@
       {
         "strongNb": 4098,
         "grec": "πίπτω",
-        "gloss": "descendre d’un lieu élevé vers un lieu plus bas, descendre d’une position debout à une position de prosternation",
+        "gloss": "tomber, se prosterner, se jeter",
         "freq": 90,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4099,
@@ -28355,9 +28355,9 @@
       {
         "strongNb": 4152,
         "grec": "πνευματικός, ή, όν",
-        "gloss": "relatif à l’esprit humain, ou âme rationnelle, une part de l’homme qui est alliée à Dieu et lui sert d’instrument ou d’organe, appartenant à un esprit, ou un être plus élevé que l’homme mais inférieur à Dieu, appartenant à l’Esprit Divin, appartenant au vent ou au souffle; venteux, exposé au vent, coup de vent",
+        "gloss": "spirituel",
         "freq": 26,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4153,
@@ -28838,9 +28838,9 @@
       {
         "strongNb": 4221,
         "grec": "ποτήριον, ου, τό",
-        "gloss": "une coupe, un récipient pour boire, le sort ou expérience, en joie ou adversité, la désignation divine, favorable ou défavorable, sont comme une coupe que Dieu nous présente à boire: la prospérité ou l’adversité",
+        "gloss": "coupe",
         "freq": 31,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4222,
@@ -31101,7 +31101,7 @@
         "grec": "Σάμος, ου, ἡ",
         "gloss": "Samos = «une falaise sablonneuse»",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4545,
@@ -34172,9 +34172,9 @@
       {
         "strongNb": 4983,
         "grec": "σῶμα, ατος, τό",
-        "gloss": "le corps, des hommes ou des animaux, le corps des plantes et des étoiles, utilisé pour un nombre  d’hommes étroitement unis dans une société ou famille; un corps social, éthique, mystique, ce qui projette une ombre, pour le distinguer de l’ombre elle-même",
+        "gloss": "le corps",
         "freq": 142,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4984,
@@ -36405,9 +36405,9 @@
       {
         "strongNb": 5302,
         "grec": "ὑστερέω",
-        "gloss": "derrière, souffrir d’un besoin, être dépourvu de, manquer  en excellence, en valeur",
+        "gloss": "manquer, être dépourvu de, être inférieur",
         "freq": 16,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5303,
