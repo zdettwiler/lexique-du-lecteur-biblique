@@ -1,5 +1,5 @@
 {
-  "version": "v21",
+  "version": "v22",
   "lexique": {
     "G": [
       {
@@ -1321,9 +1321,9 @@
       {
         "strongNb": 189,
         "grec": "ἀκοή, ῆς, ἡ",
-        "gloss": "le sens de l’ouïe, l’organe de l’ouïe, l’oreille, la chose entendue",
+        "gloss": "l’ouïe, l’oreille, la chose entendue",
         "freq": 24,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 190,
@@ -9805,9 +9805,9 @@
       {
         "strongNb": 1401,
         "grec": "δοῦλος, ου, ὁ",
-        "gloss": "un esclave, homme de condition servile",
+        "gloss": "un esclave",
         "freq": 129,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1402,
@@ -11604,9 +11604,9 @@
       {
         "strongNb": 1658,
         "grec": "ἐλεύθερος, έρα, ερον",
-        "gloss": "né libre, libre, exempt, non lié par une obligation, sens éthique: libre du joug de la Loi Mosaïque",
+        "gloss": "libre",
         "freq": 23,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1659,
@@ -11702,9 +11702,9 @@
       {
         "strongNb": 1672,
         "grec": "Ἕλλην, ηνος, ὁ",
-        "gloss": "un Grec de par sa nationalité, ou par sa naissance sur le territoire Grec ou dans les colonies ou îles Grecques, dans un sens plus large, ce mot englobe toutes les nations non Juives qui avaient le langage, les coutumes et l’éducation Grecque; la première référence implique une différence de religion et de culte",
+        "gloss": "grec, païen",
         "freq": 25,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1673,
@@ -15104,9 +15104,9 @@
       {
         "strongNb": 2158,
         "grec": "εὐσχήμων, ον",
-        "gloss": "d’un beau visage, d’une bonne tenue",
+        "gloss": "honorable, bienséant, honnête",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2159,
@@ -25541,9 +25541,9 @@
       {
         "strongNb": 3750,
         "grec": "ὄσφρησις, εως, ἡ",
-        "gloss": "le sens de l’odorat, sentir",
+        "gloss": "l’odorat",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3751,
@@ -27711,9 +27711,9 @@
       {
         "strongNb": 4060,
         "grec": "περιτίθημι",
-        "gloss": "placer autour, fixer autour de, couvrir d’un vêtement, mettre ou lier une chose autour d’une autre, présenter, accorder, conférer, une chose à quelqu’un",
+        "gloss": "entourer, couvrir, fixer, poser sur",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4061,
