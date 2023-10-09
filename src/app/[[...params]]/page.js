@@ -19,6 +19,7 @@ import { useRouter } from 'next/navigation'
 
 import Lexicon from './Lexicon';
 import PDFLexicon from './PDFLexicon';
+import PDFAlphaLexicon from './PDFAlphaLexicon';
 import * as ga from './ga.js';
 
 
@@ -196,6 +197,7 @@ export default function Home({ params }) {
           <Alert variant="light">
             <Alert.Heading>📌 Lexique créé!</Alert.Heading>
             <p><b>{lexicon.length}</b> des mots de <b>{book} {chapters}</b> apparaissent moins de <b>{frequency}</b> fois dans { lexicon[0].strong[0] === 'G' ? "le Nouveau Testament" : "l'Ancien Testament" }.</p>
+            <PDFAlphaLexicon frequency={frequency} data={lexicon} />
             <PDFLexicon frequency={frequency} data={lexicon} />
           </Alert>
         )}
