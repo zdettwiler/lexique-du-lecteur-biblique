@@ -1,5 +1,5 @@
 {
-  "version": "v21",
+  "version": "v23",
   "lexique": {
     "G": [
       {
@@ -1321,9 +1321,9 @@
       {
         "strongNb": 189,
         "grec": "ἀκοή, ῆς, ἡ",
-        "gloss": "le sens de l’ouïe, l’organe de l’ouïe, l’oreille, la chose entendue",
+        "gloss": "l’ouïe, l’oreille, la chose entendue",
         "freq": 24,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 190,
@@ -6116,9 +6116,9 @@
       {
         "strongNb": 874,
         "grec": "ἀφορμή, ῆς, ἡ",
-        "gloss": "lieu d’où un mouvement d’attaque se produit, base d’opérations, métaphorique: ce que nous mettons en avant pour réaliser ou non quelque chose",
+        "gloss": "occasion, prétexte",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 875,
@@ -6550,16 +6550,16 @@
       {
         "strongNb": 936,
         "grec": "βασιλεύω",
-        "gloss": "être roi, exercer le pouvoir royal, régner, métaphorique: exercer la plus haute influence, contrôler",
+        "gloss": "être roi, régner",
         "freq": 21,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 937,
         "grec": "βασιλικός, ή, όν",
-        "gloss": "qui appartient au roi, royal, assujetti à un roi, convenable ou digne d’un roi, royal, métaphorique: principal, chef",
+        "gloss": "royal",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 938,
@@ -6634,16 +6634,16 @@
       {
         "strongNb": 948,
         "grec": "βδελύσσομαι",
-        "gloss": "rendre sale, amener à être abhorré, abominable, métaphorique: abhorrer, détester",
+        "gloss": "abhorrer, détester",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 949,
         "grec": "βέβαιος, α, ον",
-        "gloss": "stable, ferme, métaphorique: sûr, véridique",
+        "gloss": "stable, ferme, sûr, véridique",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 950,
@@ -7117,9 +7117,9 @@
       {
         "strongNb": 1017,
         "grec": "βραβεῖον, ου, τό",
-        "gloss": "la récompense du vainqueur dans les jeux, un prix, métaphorique: la récompense dans les cieux du caractère Chrétien",
+        "gloss": "prix",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1018,
@@ -7145,9 +7145,9 @@
       {
         "strongNb": 1021,
         "grec": "βραδύς, εῖα, ύ",
-        "gloss": "lent, métaphorique: ennuyeux, inactif, absorbé dans ses pensées",
+        "gloss": "lent",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1022,
@@ -7355,9 +7355,9 @@
       {
         "strongNb": 1051,
         "grec": "γάλα, ακτος, τό",
-        "gloss": "lait, métaphorique: pour la difficulté du Chrétien à croire fermement",
+        "gloss": "lait",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1052,
@@ -7873,9 +7873,9 @@
       {
         "strongNb": 1125,
         "grec": "γράφω",
-        "gloss": "écrire, avec référence à la forme des lettres, écrire, avec référence au contenu de l’écrit",
+        "gloss": "écrire",
         "freq": 190,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1126,
@@ -7887,9 +7887,9 @@
       {
         "strongNb": 1127,
         "grec": "γρηγορέω",
-        "gloss": "veiller, métaphorique: porter une attention stricte, active",
+        "gloss": "veiller",
         "freq": 23,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1128,
@@ -7999,9 +7999,9 @@
       {
         "strongNb": 1143,
         "grec": "δάκνω",
-        "gloss": "mordre avec les dents, métaphorique: blesser l’âme, déchirer par des reproches",
+        "gloss": "mordre",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1144,
@@ -8293,9 +8293,9 @@
       {
         "strongNb": 1185,
         "grec": "δελεάζω",
-        "gloss": "appâter, attraper avec un appât, amorcer, métaphorique: séduire, attirer, tromper",
+        "gloss": "amorcer, appâter",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1186,
@@ -8314,9 +8314,9 @@
       {
         "strongNb": 1188,
         "grec": "δεξιός, ά, όν",
-        "gloss": "la droite, la main droite, métaphorique:, armes offensives: portées à droite",
+        "gloss": "la droite, la main droite",
         "freq": 54,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1189,
@@ -9399,9 +9399,9 @@
       {
         "strongNb": 1343,
         "grec": "δικαιοσύνη, ης, ἡ",
-        "gloss": "sens large: état de celui qui est comme il doit être, justice, la condition acceptable par Dieu, sens plus étroit: justice qui donne à chacun ce qui lui est dû",
+        "gloss": "justice",
         "freq": 92,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1344,
@@ -9637,9 +9637,9 @@
       {
         "strongNb": 1377,
         "grec": "διώκω",
-        "gloss": "faire courir ou faire s’enfuir, amener à la fuite, courir rapidement pour attraper une personne ou une chose, harceler, troubler, molester, persécuter, courir après, suivre, sans idée hostile, métaphorique: chercher sincèrement, vouloir fermement acquérir",
+        "gloss": "persécuter, courir, poursuivre, chercher, rechercher, exercer",
         "freq": 45,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1378,
@@ -9784,9 +9784,9 @@
       {
         "strongNb": 1398,
         "grec": "δουλεύω",
-        "gloss": "être un esclave, servir, faire le service, métaphorique: obéir à, se soumettre",
+        "gloss": "être un esclave, servir",
         "freq": 24,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1399,
@@ -9805,14 +9805,14 @@
       {
         "strongNb": 1401,
         "grec": "δοῦλος, ου, ὁ",
-        "gloss": "un esclave, homme de condition servile",
+        "gloss": "un esclave",
         "freq": 129,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1402,
         "grec": "δουλόω",
-        "gloss": "rendre esclave de, réduire à l’esclavage, métaphorique: se donner entièrement, se rendre esclave de",
+        "gloss": "rendre esclave de, réduire à l’esclavage",
         "freq": 8,
         "vu": false
       },
@@ -10113,16 +10113,16 @@
       {
         "strongNb": 1445,
         "grec": "Ἑβραῖος, ου, ὁ",
-        "gloss": "Hébreu, dans un sens lus étroit, celui qui vit en Palestine et utilise la langue de cette contrée, les Chrétiens Juifs, qu’ils parlent araméen ou grec",
+        "gloss": "un hébreu",
         "freq": 4,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1446,
         "grec": "Ἑβραΐς, ΐδος, ἡ",
-        "gloss": "l’hébreu, la langue hébraïque, pas le langage utilisé dans l’Ancien Testament, mais le Chaldéen, langue du temps de Jésus et des apôtres",
+        "gloss": "la langue hébraïque, l'hébreu",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1447,
@@ -11128,9 +11128,9 @@
       {
         "strongNb": 1590,
         "grec": "ἐκλύω",
-        "gloss": "perdre, délier, détacher, rendre libre, dissoudre, métaphorique, affaiblir, relâcher, épuiser",
+        "gloss": "affaiblir, relâcher, épuiser",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1591,
@@ -11604,9 +11604,9 @@
       {
         "strongNb": 1658,
         "grec": "ἐλεύθερος, έρα, ερον",
-        "gloss": "né libre, libre, exempt, non lié par une obligation, sens éthique: libre du joug de la Loi Mosaïque",
+        "gloss": "libre",
         "freq": 23,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1659,
@@ -11688,9 +11688,9 @@
       {
         "strongNb": 1670,
         "grec": "ἑλκύω",
-        "gloss": "tirer, traîner, métaphorique, attirer par un pouvoir intérieur, mener, forcer",
+        "gloss": "attirer, tirer, retirer, traîner",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1671,
@@ -11702,9 +11702,9 @@
       {
         "strongNb": 1672,
         "grec": "Ἕλλην, ηνος, ὁ",
-        "gloss": "un Grec de par sa nationalité, ou par sa naissance sur le territoire Grec ou dans les colonies ou îles Grecques, dans un sens plus large, ce mot englobe toutes les nations non Juives qui avaient le langage, les coutumes et l’éducation Grecque; la première référence implique une différence de religion et de culte",
+        "gloss": "grec, païen",
         "freq": 25,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1673,
@@ -12577,9 +12577,9 @@
       {
         "strongNb": 1797,
         "grec": "ἐνυπνιάζομαι",
-        "gloss": "songer, rêves, métaphorique, être trompé par des images sensuelles et emmené vers une conduite impie",
+        "gloss": "songer, rêver",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1798,
@@ -15104,9 +15104,9 @@
       {
         "strongNb": 2158,
         "grec": "εὐσχήμων, ον",
-        "gloss": "d’un beau visage, d’une bonne tenue",
+        "gloss": "honorable, bienséant, honnête",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2159,
@@ -15587,9 +15587,9 @@
       {
         "strongNb": 2227,
         "grec": "ζῳοποιέω",
-        "gloss": "produire la vie, engendrer ou porter un enfant, donner la vie, métaphorique, la semence qui vient dans une vie, qui germe, qui pousse, qui croît",
+        "gloss": "donner la vie, vivifier",
         "freq": 11,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2228,
@@ -23042,9 +23042,9 @@
       {
         "strongNb": 3393,
         "grec": "μίασμα, ατος, τό",
-        "gloss": "ce qui souille, souillure, métaphorique, vices les plus infâmes qui contaminent celui qui est en relation avec la masse impie de l’humanité",
+        "gloss": "souillure",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3394,
@@ -25541,9 +25541,9 @@
       {
         "strongNb": 3750,
         "grec": "ὄσφρησις, εως, ἡ",
-        "gloss": "le sens de l’odorat, sentir",
+        "gloss": "l’odorat",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3751,
@@ -26241,9 +26241,9 @@
       {
         "strongNb": 3850,
         "grec": "παραβολή, ῆς, ἡ",
-        "gloss": "placement d’une chose à côté d’une autre, juxtaposition, comme des navires au combat, métaphorique, un récit instructif et plein de sève, impliquant une ressemblance ou une comparaison, et ayant une force de précepte et d’admonition, un proverbe, un acte par lequel on s’expose, avec ce que l’on possède, au danger, une aventure, un risque",
+        "gloss": "parabole, comparaison, proverbe, figure",
         "freq": 50,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3851,
@@ -27711,9 +27711,9 @@
       {
         "strongNb": 4060,
         "grec": "περιτίθημι",
-        "gloss": "placer autour, fixer autour de, couvrir d’un vêtement, mettre ou lier une chose autour d’une autre, présenter, accorder, conférer, une chose à quelqu’un",
+        "gloss": "entourer, couvrir, fixer, poser sur",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4061,
