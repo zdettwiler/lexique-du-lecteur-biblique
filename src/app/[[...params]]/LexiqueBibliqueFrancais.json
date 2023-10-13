@@ -1,5 +1,5 @@
 {
-  "version": "v23",
+  "version": "v24",
   "lexique": {
     "G": [
       {
@@ -369,9 +369,9 @@
       {
         "strongNb": 53,
         "grec": "ἁγνός, ή, όν",
-        "gloss": "digne de révérence, vénérable, sacré, pur",
+        "gloss": "pur, digne de révérence, vénérable, sacré",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 54,
@@ -383,9 +383,9 @@
       {
         "strongNb": 55,
         "grec": "ἁγνῶς",
-        "gloss": "chaste, propre, pur, avec sincérité",
+        "gloss": "purement, avec sincérité",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 56,
@@ -593,7 +593,7 @@
       {
         "strongNb": 85,
         "grec": "ἀδημονέω",
-        "gloss": "être troublé, grande détresse ou angoisse, dépression",
+        "gloss": "être troublé, être dans la détresse",
         "freq": 3,
         "vu": true
       },
@@ -964,9 +964,9 @@
       {
         "strongNb": 138,
         "grec": "αἱρέω",
-        "gloss": "prendre pour soi, préférer, choisir, choisir par vote, élire pour une fonction",
+        "gloss": "prendre, préférer, choisir",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 139,
@@ -1006,9 +1006,9 @@
       {
         "strongNb": 144,
         "grec": "αἴσθησις, εως, ἡ",
-        "gloss": "perception, pas seulement par les sens, mais par l’intellect, connaissance, discernement",
+        "gloss": "discernement, perception, connaissance",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 145,
@@ -1062,16 +1062,16 @@
       {
         "strongNb": 152,
         "grec": "αἰσχύνη, ης, ἡ",
-        "gloss": "la confusion de celui qui est honteux, ignominie, disgrâce, déshonneur, être honteux d’une chose",
+        "gloss": "honte, impureté, ignominie",
         "freq": 6,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 153,
         "grec": "αἰσχύνομαι",
-        "gloss": "enlaidir, déshonorer, couvrir de honte, être honteux, avoir honte de",
+        "gloss": "déshonorer, couvrir de honte, avoir honte, être confus",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 154,
@@ -1083,9 +1083,9 @@
       {
         "strongNb": 155,
         "grec": "αἴτημα, ατος, τό",
-        "gloss": "pétition, requête, ce qui est exigé",
+        "gloss": "pétition, requête, demande",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 156,
@@ -1153,9 +1153,9 @@
       {
         "strongNb": 165,
         "grec": "αἰών, ῶνος, ὁ",
-        "gloss": "pour toujours, perpétuité du temps, éternité, les mondes, l’univers, période de temps, âge",
+        "gloss": "pour toujours, à perpétuité, tous âges",
         "freq": 123,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 166,
@@ -1573,9 +1573,9 @@
       {
         "strongNb": 225,
         "grec": "ἀλήθεια, ας, ἡ",
-        "gloss": "objectivement, subjectivement,",
+        "gloss": "vérité, véracité",
         "freq": 108,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 226,
@@ -1587,9 +1587,9 @@
       {
         "strongNb": 227,
         "grec": "ἀληθής, ές",
-        "gloss": "vrai, amour de la vérité, parler avec vérité, sincère",
+        "gloss": "vrai, véritable, sincère",
         "freq": 26,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 228,
@@ -26983,9 +26983,9 @@
       {
         "strongNb": 3956,
         "grec": "πᾶς, πᾶσα, πᾶν",
-        "gloss": "individuellement, collectivement",
+        "gloss": "tout, toute sorte, chaque",
         "freq": 1236,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3957,
@@ -28005,9 +28005,9 @@
       {
         "strongNb": 4102,
         "grec": "πίστις, εως, ἡ",
-        "gloss": "conviction de la vérité de toute chose, croyance; dans le Nouveau Testament, une conviction ou confiance concernant la relation avec Dieu et les choses divines, généralement avec l’idée inclue de confiance et de ferveur sainte nées de la foi, et qui lui sont adjointes, fidélité, foi à toute épreuve",
+        "gloss": "foi, fidelité",
         "freq": 242,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4103,
@@ -28915,9 +28915,9 @@
       {
         "strongNb": 4232,
         "grec": "πραιτώριον, ου, τό",
-        "gloss": "«quartier-général» dans un camp Romain, la tente du commandant en chef, le palais où réside le gouverneur ou procurateur d’une province, palais déjà existant dont les Romains avaient coutume de s’approprier l’usage, où demeuraient précédemment rois ou princes; à Jérusalem c’était un magnifique palais que s’était fait construire Hérode le Grand et que les procurateurs Romains semblent avoir occupé toutes les fois qu’ils venaient de Césarée pour traiter les affaires publiques, le camp de la Garde Prétorienne de Rome, établie par Tibère, soldats chargés de veiller sur le palais impérial ()",
+        "gloss": "prétoire",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4233,
@@ -62495,8 +62495,8 @@
       {
         "strongNb": 3972,
         "hebreu": "מְאוּמָה",
-        "gloss": "nerien",
-        "vu": false
+        "gloss": "rien, aucun",
+        "vu": true
       },
       {
         "strongNb": 3973,
@@ -82403,8 +82403,8 @@
       {
         "strongNb": 7290,
         "hebreu": "רָדַם",
-        "gloss": "(Nifal) être endormi, être inconscient, être dans un profond sommeil,être profondément endormi",
-        "vu": false
+        "gloss": "(Nifal) être endormi, être inconscient, être dans un profond sommeil",
+        "vu": true
       },
       {
         "strongNb": 7291,
@@ -88787,8 +88787,8 @@
       {
         "strongNb": 8354,
         "hebreu": "שָׁתָה",
-        "gloss": "Boire",
-        "vu": false
+        "gloss": "boire",
+        "vu": true
       },
       {
         "strongNb": 8355,
