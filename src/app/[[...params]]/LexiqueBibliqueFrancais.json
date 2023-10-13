@@ -1,5 +1,5 @@
 {
-  "version": "v24",
+  "version": "v25",
   "lexique": {
     "G": [
       {
@@ -1699,9 +1699,9 @@
       {
         "strongNb": 243,
         "grec": "ἄλλος, η, ον",
-        "gloss": "un autre, autre",
+        "gloss": "autre",
         "freq": 154,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 244,
@@ -1909,9 +1909,9 @@
       {
         "strongNb": 273,
         "grec": "ἄμεμπτος, ον",
-        "gloss": "innocent, ne méritant pas de censure, libre de faute ou défaut",
+        "gloss": "irréprochable, sans défaut, innocent",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 274,
@@ -2091,9 +2091,9 @@
       {
         "strongNb": 299,
         "grec": "ἄμωμος, ον",
-        "gloss": "sans défaut, moralement: sans défaut, sans faute, irrépréhensible",
+        "gloss": "sans défaut, sans faute, irrépréhensible",
         "freq": 8,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 300,
@@ -2308,9 +2308,9 @@
       {
         "strongNb": 330,
         "grec": "ἀναθάλλω",
-        "gloss": "croître, pousser de nouveau, reverdir, fleurir de nouveau",
+        "gloss": "renouveler, croître, pousser de nouveau, reverdir, fleurir de nouveau",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 331,
@@ -2518,9 +2518,9 @@
       {
         "strongNb": 360,
         "grec": "ἀναλύω",
-        "gloss": "délier, refaire, partir, interrompre, quitter la vie, retourner",
+        "gloss": "revenir, s'en aller, délier, refaire, partir, interrompre",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 361,
@@ -2644,9 +2644,9 @@
       {
         "strongNb": 378,
         "grec": "ἀναπληρόω",
-        "gloss": "remplir, faire déborder, c’est-à-dire un fossé, suppléer",
+        "gloss": "accomplir, suppléer, mettre le comble",
         "freq": 6,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 379,
@@ -2700,9 +2700,9 @@
       {
         "strongNb": 386,
         "grec": "ἀνάστασις, εως, ἡ",
-        "gloss": "se lever, se dresser, ressusciter de la mort",
+        "gloss": "résurrection",
         "freq": 42,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 387,
@@ -3708,9 +3708,9 @@
       {
         "strongNb": 530,
         "grec": "ἅπαξ",
-        "gloss": "une fois, autre fois, une fois pour toute",
+        "gloss": "une fois, une fois pour toute, autrefois",
         "freq": 14,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 531,
@@ -4191,9 +4191,9 @@
       {
         "strongNb": 599,
         "grec": "ἀποθνῄσκω",
-        "gloss": "mourir, mort",
+        "gloss": "mourir, périr",
         "freq": 110,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 600,
