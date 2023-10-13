@@ -6,7 +6,6 @@ export async function POST(request) {
   const body = await request.json();
 
   let CREDS = JSON.parse(process.env.CREDS);
-  console.log(CREDS)
 
   let db = new gsheetdb({
     spreadsheetId: process.env.NEXT_PUBLIC_SPREADSHEETID,
@@ -16,7 +15,7 @@ export async function POST(request) {
 
   // Header: timestamp, name, email, word_id, book, chapter, verse, strong, gloss
   await db.insertRows([ [
-    '',
+    new Date().toLocaleString("en-GB"),
     body.name,
     body.email,
     body.book,
