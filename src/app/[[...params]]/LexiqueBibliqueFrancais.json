@@ -1,5 +1,5 @@
 {
-  "version": "v25",
+  "version": "v26",
   "lexique": {
     "G": [
       {
@@ -20641,9 +20641,9 @@
       {
         "strongNb": 2950,
         "grec": "κύμβαλον, ου, τό",
-        "gloss": "une cymbale, c’est-à-dire une cuvette creuse en cuivre, produisant un son musical lorsqu’elle est frappée contre une autre",
+        "gloss": "une cymbale",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2951,
@@ -44603,8 +44603,8 @@
       {
         "strongNb": 990,
         "hebreu": "בֶּטֶן",
-        "gloss": "ventre, matrice, corps",
-        "vu": false
+        "gloss": "ventre, entrailles",
+        "vu": true
       },
       {
         "strongNb": 991,
@@ -51845,8 +51845,8 @@
       {
         "strongNb": 2197,
         "hebreu": "זַעַף",
-        "gloss": "rage, furieux, fureur, indignation",
-        "vu": false
+        "gloss": "rage, fureur, indignation",
+        "vu": true
       },
       {
         "strongNb": 2198,
@@ -54587,8 +54587,8 @@
       {
         "strongNb": 2654,
         "hebreu": "חָפֵץ",
-        "gloss": "Se complaire dans, prendre plaisir à, désir, se plaire avec",
-        "vu": false
+        "gloss": "vouloir, désirer, aimer",
+        "vu": true
       },
       {
         "strongNb": 2655,
@@ -55102,9 +55102,9 @@
       },
       {
         "strongNb": 2740,
-        "hebreu": "חָרוֹן חָרוֹן",
-        "gloss": "colère, chaleur, être enflammé (de colère)",
-        "vu": false
+        "hebreu": "חָרוֹן",
+        "gloss": "colère, chaleur",
+        "vu": true
       },
       {
         "strongNb": 2741,
@@ -57803,8 +57803,8 @@
       {
         "strongNb": 3190,
         "hebreu": "יָטַב",
-        "gloss": "ce qui est bon, bien, plaisant, être heureux",
-        "vu": false
+        "gloss": "être bon",
+        "vu": true
       },
       {
         "strongNb": 3191,
@@ -57868,9 +57868,9 @@
       },
       {
         "strongNb": 3201,
-        "hebreu": "יָכוֹל יָכוֹל",
-        "gloss": "prévaloir, vaincre, supporter, avoir le pouvoir, être capable",
-        "vu": false
+        "hebreu": "יָכוֹל",
+        "gloss": "pouvoir, prévaloir, vaincre, supporter, avoir le pouvoir",
+        "vu": true
       },
       {
         "strongNb": 3202,
@@ -58908,7 +58908,7 @@
         "strongNb": 3374,
         "hebreu": "יִראָה",
         "gloss": "crainte, terreur",
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3375,
@@ -70685,8 +70685,8 @@
       {
         "strongNb": 5337,
         "hebreu": "נָצַל",
-        "gloss": "saisir, délivrer, délivrance, sauver, dépouiller, piller",
-        "vu": false
+        "gloss": "(Piel) arracher, dépouiller, piller, (Nifal) être délivré, se délivrer, (Hifil) délivrer, sauver",
+        "vu": true
       },
       {
         "strongNb": 5338,
