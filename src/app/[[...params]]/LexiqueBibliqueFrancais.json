@@ -1,5 +1,5 @@
 {
-  "version": "v27",
+  "version": "v28",
   "lexique": {
     "G": [
       {
@@ -124,9 +124,9 @@
       {
         "strongNb": 18,
         "grec": "ἀγαθός, ή, όν",
-        "gloss": "de bonne constitution ou nature, utile, salutaire, bon, agréable, plaisant, joyeux, heureux, excellent, distingué, droit, honorable",
+        "gloss": "bon, bien",
         "freq": 102,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 19,
@@ -299,9 +299,9 @@
       {
         "strongNb": 43,
         "grec": "ἀγκάλη, ης, ἡ",
-        "gloss": "la courbe ou l’angle intérieur du bras, le bras plié, quelque chose d’enfermé, comme les bras de la mer, etc",
+        "gloss": "bras",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 44,
@@ -313,7 +313,7 @@
       {
         "strongNb": 45,
         "grec": "ἄγκυρα, ας, ἡ",
-        "gloss": "une ancre, sauvegarder Les anciennes ancres des navires ressemblaient aux ancres modernes: faites en métal, avec deux crochets",
+        "gloss": "une ancre",
         "freq": 4,
         "vu": false
       },
@@ -348,9 +348,9 @@
       {
         "strongNb": 50,
         "grec": "ἀγνοέω",
-        "gloss": "être ignorant, ne pas connaître, ne pas comprendre, inconnu, errer ou pécher à travers l’erreur, avoir tort",
+        "gloss": "ignorer",
         "freq": 22,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 51,
@@ -411,9 +411,9 @@
       {
         "strongNb": 59,
         "grec": "ἀγοράζω",
-        "gloss": "être sur une place de marché, s’y activer, y faire des affaires, acheter ou vendre, pour les désœuvrés: hanter cette place, y flâner",
+        "gloss": "acheter, racheter",
         "freq": 30,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 60,
@@ -649,9 +649,9 @@
       {
         "strongNb": 93,
         "grec": "ἀδικία, ας, ἡ",
-        "gloss": "l’injustice, d’un juge, la tortuosité d’un cœur ou d’une vie, violation volontaire de la loi et la justice",
+        "gloss": "injustice",
         "freq": 25,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 94,
@@ -782,9 +782,9 @@
       {
         "strongNb": 112,
         "grec": "ἄθεος, ον",
-        "gloss": "sans Dieu, ne connaissant et n’adorant aucun Dieu, niant les dieux, en particulier ceux reconnus par l’état, athée, impie, abandonné des dieux",
+        "gloss": "sans dieu",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 113,
@@ -1160,9 +1160,9 @@
       {
         "strongNb": 166,
         "grec": "αἰώνιος, ία, ιον",
-        "gloss": "sans commencement ni fin, ce qui a toujours été et qui sera toujours, sans commencement, sans fin, ne cessant jamais, éternel",
+        "gloss": "éternel, siècle",
         "freq": 70,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 167,
@@ -1328,9 +1328,9 @@
       {
         "strongNb": 190,
         "grec": "ἀκολουθέω",
-        "gloss": "suivre celui qui précède, se joindre à sa suite, accompagner, se joindre comme disciple, devenir ou être un disciple",
+        "gloss": "suivre",
         "freq": 88,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 191,
@@ -1370,9 +1370,9 @@
       {
         "strongNb": 196,
         "grec": "ἀκριβέστατος",
-        "gloss": "exact, soigneux, dans une secte stricte: l’interprétation la plus précise et la plus rigoureuse de la loi Mosaïque, l’observation des moindres préceptes de la loi et de la tradition",
+        "gloss": "exact, soigneux",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 197,
@@ -1433,9 +1433,9 @@
       {
         "strongNb": 205,
         "grec": "ἀκροθίνιον, ίου, τό",
-        "gloss": "sommet d’un tas, les premiers fruits, le mot grec choisi vient de ce que la meilleure partie, le sommet du tas du butin, est offerte aux dieux",
+        "gloss": "butin",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 206,
@@ -1594,9 +1594,9 @@
       {
         "strongNb": 228,
         "grec": "ἀληθινός, η, ον",
-        "gloss": "ce qui n’a pas seulement le nom et la ressemblance, mais qui a la réelle nature correspondant au nom, dans le respect de l’idée signifiée par le nom, le réel, le vrai, le véritable, vrai, sincère",
+        "gloss": "véritable, vrai, sincère",
         "freq": 28,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 229,
@@ -1748,9 +1748,9 @@
       {
         "strongNb": 250,
         "grec": "ἀλόη, ης, ἡ",
-        "gloss": "aloès nom d’un arbre aromatique qui pousse dans l’est de l’Inde et la Chine, d’où est extrait un bois souple et amer, utilisé pour des fumigations, et pour embaumer des morts L’arbre peut atteindre quarante mètres de hauteur, avec une circonférence de quatre mètres",
+        "gloss": "aloès",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 251,
@@ -2455,9 +2455,9 @@
       {
         "strongNb": 351,
         "grec": "ἀνάκρισις, εως, ἡ",
-        "gloss": "un examen, recherches préliminaires et légales nécessaires pour rassembler les éléments d’informations des juges",
+        "gloss": "examen",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 352,
@@ -2609,9 +2609,9 @@
       {
         "strongNb": 373,
         "grec": "ἀναπαύω",
-        "gloss": "permettre à quelqu’un de cesser toute activité ou travail dans le but de reprendre des forces, se reposer, donner du repos, prendre du repos, rester tranquille, dans une attente calme et patiente",
+        "gloss": "reposer, se reposer, tranquiliser",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 374,
@@ -2686,9 +2686,9 @@
       {
         "strongNb": 384,
         "grec": "ἀνασκευάζω",
-        "gloss": "faire un bagage dans le but de le transporter ailleurs, d’un ennemi, d’un lieu, s’écarter brusquement du droit chemin, devenir subversif",
+        "gloss": "ébranler",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 385,
@@ -2826,9 +2826,9 @@
       {
         "strongNb": 404,
         "grec": "ἀναψύχω",
-        "gloss": "rafraîchir, réparer les effets de la chaleur, retrouver la respiration, prendre l’air, revivre, se rafraîchir, être consolé",
+        "gloss": "consoler",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 405,
@@ -2917,9 +2917,9 @@
       {
         "strongNb": 417,
         "grec": "ἄνεμος, ου, ὁ",
-        "gloss": "vent, violente agitation et courant d’air, très grosse tempête de vent, les quatre vents cardinaux, les vents des quatre coins de la terre",
+        "gloss": "vent, tourbillon",
         "freq": 31,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 418,
@@ -3043,9 +3043,9 @@
       {
         "strongNb": 435,
         "grec": "ἀνήρ, ἀνδρός, ὁ",
-        "gloss": "En référence au sexe, En référence à l’âge, pour distinguer un adulte homme d’un garçon, Tout mâle, D’une manière générique, dans un groupe l’ensemble hommes et femmes",
+        "gloss": "homme, mari",
         "freq": 216,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 436,
@@ -3057,9 +3057,9 @@
       {
         "strongNb": 437,
         "grec": "ἀνθομολογέομαι",
-        "gloss": "répondre en professant ou confessant, faire un accord, agrément mutuel, reconnaître, remercier, louer",
+        "gloss": "reconnaître, remercier, louer",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 438,
@@ -3078,9 +3078,9 @@
       {
         "strongNb": 440,
         "grec": "ἄνθραξ, ακος, ὁ",
-        "gloss": "charbons en feu ou en braise, charbons ardents Une expression proverbiale qui signifie que l’on impose à un ennemi le souvenir du mal qu’il nous a fait, ce qui lui donnera l’impression d’avoir des charbons ardents sur la tête, et qui l’amènera à se repentir Les Arabes appellent une peine mentale très lourde «les charbons ardents sur le cœur»",
+        "gloss": "charbons",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 441,
@@ -3148,9 +3148,9 @@
       {
         "strongNb": 450,
         "grec": "ἀνίστημι",
-        "gloss": "se lever, élevé, se lever, s’élever, apparaître, se tenir debout, susciter, s’élever contre quelqu’un",
+        "gloss": "se lever, ressusciter",
         "freq": 107,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 451,
@@ -3512,9 +3512,9 @@
       {
         "strongNb": 502,
         "grec": "ἄντλημα, ατος, τό",
-        "gloss": "ce qui est puisé, l’action de puiser de l’eau, ce qui est nécessaire pour puiser, par exemple seau et corde du puits",
+        "gloss": "puiser",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 503,
@@ -3596,9 +3596,9 @@
       {
         "strongNb": 514,
         "grec": "ἄξιος, ία, ιον",
-        "gloss": "avoir du poids, avoir le poids d’une autre chose de même valeur, correspondant à une chose, de celui qui a mérité quelque chose, qui est digne",
+        "gloss": "digne",
         "freq": 41,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 515,
@@ -4044,9 +4044,9 @@
       {
         "strongNb": 578,
         "grec": "ἀποβλέπω",
-        "gloss": "tourner les yeux vers une chose et fixer cette chose, regarder fixement avec une attention de l’esprit",
+        "gloss": "regarder fixement",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 579,
@@ -4275,9 +4275,9 @@
       {
         "strongNb": 611,
         "grec": "ἀποκρίνομαι",
-        "gloss": "donner une réponse à une question donnée, répondre, commencer à parler, mais toujours si quelque chose a précédé  et la remarque s’y réfère",
+        "gloss": "répondre",
         "freq": 231,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 612,
@@ -5038,9 +5038,9 @@
       {
         "strongNb": 720,
         "grec": "ἀρνέομαι",
-        "gloss": "nier, renier quelqu’un, dénier, abjurer, renoncer, ne pas accepter, rejeter, refuser une chose offerte",
+        "gloss": "nier, renoncer, refuser",
         "freq": 33,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 721,
@@ -5220,9 +5220,9 @@
       {
         "strongNb": 746,
         "grec": "ἀρχή, ῆς, ἡ",
-        "gloss": "commencement, origine, la personne ou chose qui commence, la première personne ou chose d’une série, le premier, le chef, ce par quoi tout commence, l’origine, la cause, l’extrémité d’une chose, la première place, la magistrature",
+        "gloss": "commencement",
         "freq": 55,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 747,
@@ -5241,9 +5241,9 @@
       {
         "strongNb": 749,
         "grec": "ἀρχιερεύς, έως, ὁ",
-        "gloss": "souverain sacrificateur, chef sacrificateur Celui qui était honoré du titre de souverain sacrificateur Il devait remplir les charges de sa fonction, mais son rôle principal était, une fois par an, le jour de l’expiation, d’entrer dans le Saint des Saints, et d’y offrir des sacrifices pour ses propres péchés, et pour ceux du peuple Il présidait le Sanhédrin, conseil suprême Selon la loi Mosaïque, nul ne pouvait aspirer à ce poste s’il n’était de la tribu d’Aaron et s’il ne descendait d’une famille de souverains sacrificateurs La fonction était conservée jusqu’à la mort Au temps d’Antiochus Epiphane, les princes Hérodiens et les Romains s’arrogèrent le pouvoir des souverains sacrificateurs, et la fonction ne fut plus héréditaire ni à vie Pendant les cent-sept ans qui séparent Hérode le Grand et la destruction de la ville sainte,  personnes ont reçu cette dignité, les principaux sacrificateurs ont continué par la suite à avoir un grand pouvoir dans l’État, et les membres de leurs familles avaient une grande influence sur les affaires publiques, Titre de Christ qui a intercédé par son propre sang dans un sacrifice expiatoire, et est entré dans le sanctuaire céleste où il continue à intercéder en notre faveur",
+        "gloss": "souverain sacrificateur, grand prêtre",
         "freq": 122,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 750,
@@ -5388,9 +5388,9 @@
       {
         "strongNb": 770,
         "grec": "ἀσθενέω",
-        "gloss": "être faible, être sans force, impuissant, être faible en moyens, nécessiteux, pauvre, un malade, être malade",
+        "gloss": "être faible, être sans force, être malade",
         "freq": 34,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 771,
@@ -5423,9 +5423,9 @@
       {
         "strongNb": 775,
         "grec": "Ἀσιάρχης, ου, ὁ",
-        "gloss": "chef dans la province romaine d’Asie Chacune des villes de l’Asie pro-consulaire assemblait ses plus honorables citoyens, lors de l’équinoxe d’automne, pour présider aux jeux de l’année donnés en l’honneur des dieux et de l’Empereur Romain Une assemblée générale se tenait à Ephèse, ou Smyrne, ou Sardes, pour élire dix membres, puis le proconsul en choisissait un qui présidait",
+        "gloss": "asiarques",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 776,
@@ -5815,9 +5815,9 @@
       {
         "strongNb": 831,
         "grec": "αὐθεντέω",
-        "gloss": "celui qui tue de ses propres mains un autre ou lui-même, celui qui agit de sa propre autorité, autocrate, un maître absolu, gouverner, exercer une domination",
+        "gloss": "prendre de l'autorité sur",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 832,
@@ -5892,9 +5892,9 @@
       {
         "strongNb": 842,
         "grec": "αὐτάρκης, ες",
-        "gloss": "avoir suffisamment pour soi-même, sans besoin d’aide ou de support, indépendant des circonstances extérieures, content de son sort, de ses moyens, même s’ils sont minces",
+        "gloss": "content",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 843,
@@ -6095,9 +6095,9 @@
       {
         "strongNb": 871,
         "grec": "ἀφομοιόω",
-        "gloss": "faire qu’un modèle se retrouve dans une image ou une forme semblable, copier, produire un fac-similé, être rendu semblable, rendre similaire",
+        "gloss": "copier, rendre semblable",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 872,
@@ -6298,9 +6298,9 @@
       {
         "strongNb": 900,
         "grec": "βαθύνω",
-        "gloss": "la mer «profonde», la haute mer, profond, pauvreté extrême, les choses profondes de Dieu, cachées à l’homme, les conseils divins, rendre profond, creuser profondément",
+        "gloss": "creuser profondément",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 901,
@@ -6347,9 +6347,9 @@
       {
         "strongNb": 907,
         "grec": "βαπτίζω",
-        "gloss": "plonger, immerger, submerger, purifier en plongeant ou submergeant, laver, rendre pur avec de l’eau, se laver, se baigner, accabler",
+        "gloss": "baptiser",
         "freq": 76,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 908,
@@ -6368,9 +6368,9 @@
       {
         "strongNb": 910,
         "grec": "βαπτιστής, οῦ, ὁ",
-        "gloss": "celui qui baptise, celui qui administre le rite du baptême, le surnom de Jean, l’avant-coureur de Christ",
+        "gloss": "celui qui baptise, baptiste",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 911,
@@ -6522,9 +6522,9 @@
       {
         "strongNb": 932,
         "grec": "βασιλεία, ας, ἡ",
-        "gloss": "pouvoir royal, royauté, domination, autorité, un royaume, le territoire soumis à l’autorité d’un roi, utilisé dans le Nouveau Testament en référence au règne du Messie",
+        "gloss": "pouvoir royal, royauté, royaume",
         "freq": 161,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 933,
@@ -6578,9 +6578,9 @@
       {
         "strongNb": 940,
         "grec": "βασκαίνω",
-        "gloss": "parler en mal de quelqu’un, calomnier, médire, apporter le mal sur quelqu’un par une invocation ou un mauvais œil, charmer, ensorceler, fasciner",
+        "gloss": "calomnier, médire, charmer, ensorceler, fasciner",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 941,
@@ -6613,9 +6613,9 @@
       {
         "strongNb": 945,
         "grec": "βαττολογέω",
-        "gloss": "bégayer, répéter sans cesse les mêmes choses, utiliser de nombreux mots inutiles, babiller, jaser Certains supposent que le mot vient de Battus, roi de Cyrène, dont il est dit qu’il bégayait; d’autres pensent à Battus, un auteur prolixe de poèmes ennuyeux",
+        "gloss": "bégayer, babiller, jaser",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 946,
@@ -6956,9 +6956,9 @@
       {
         "strongNb": 994,
         "grec": "βοάω",
-        "gloss": "celui qui crie, ceux qui crient, crier, s’écrier, parler d’une forte voix, pousser des cris, crier pour de l’aide, implorer un secours",
+        "gloss": "crier, s'écrier",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 995,
@@ -7278,9 +7278,9 @@
       {
         "strongNb": 1040,
         "grec": "βύσσος, ου, ἡ",
-        "gloss": "byssus, une espèce de lin Égyptien, lin fait de byssus, très coûteux, délicat, doux, blanc, mais aussi quelquefois de couleur jaune",
+        "gloss": "fin lin",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1041,
@@ -7306,9 +7306,9 @@
       {
         "strongNb": 1044,
         "grec": "γάγγραινα, ης, ἡ",
-        "gloss": "une gangrène, un chancre, inflammation violente d’un membre du corps, en principe sans remède, le mal continuant jusqu’aux os",
+        "gloss": "gangrène",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1045,
@@ -7467,9 +7467,9 @@
       {
         "strongNb": 1067,
         "grec": "γέεννα, ης, ἡ",
-        "gloss": "L’enfer est le lieu du châtiment futur appelé «Géhenne» ou «Géhenne de feu» C’était à l’origine la vallée de l’Hinnon, au sud de Jérusalem, où les carcasses d’animaux étaient jetées et brûlées;un symbole convenant aux méchants et à leur destruction future",
+        "gloss": "géhenne, enfer",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1068,
@@ -7516,9 +7516,9 @@
       {
         "strongNb": 1074,
         "grec": "γενεά, ᾶς, ἡ",
-        "gloss": "naissance, natalité, ceux d’une même postérité, une famille, l’ensemble des hommes vivant à une même époque, un âge  époque d’environ trente à trente-trois ans",
+        "gloss": "génération, race",
         "freq": 43,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1075,
@@ -7649,9 +7649,9 @@
       {
         "strongNb": 1093,
         "grec": "γῆ, γῆς, ἡ",
-        "gloss": "terre arable, le sol, la terre où l’on se trouve, le terrain, le sol, en opposition à la mer ou à l’eau, la terre dans son ensemble, un pays, contrée entourée de frontières, un territoire, une région",
+        "gloss": "terre, pays, peuple, contrée, lieu",
         "freq": 247,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1094,
@@ -7670,16 +7670,16 @@
       {
         "strongNb": 1096,
         "grec": "γίνομαι",
-        "gloss": "devenir: venir dans l’existence, commencer à être, devenir, revenir au passé, arriver, provenir de, apparaître dans l’histoire, être fait, terminé",
+        "gloss": "devenir",
         "freq": 662,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1097,
         "grec": "γινώσκω",
-        "gloss": "apprendre à connaître, venir à la connaissance, apercevoir, percevoir, sentir, savoir, comprendre, avoir la connaissance de, idiome Juif pour parler de la relation sexuelle entre l’homme et la femme, avoir des accointances avec, connaître",
+        "gloss": "connaître, savoir",
         "freq": 218,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1098,
@@ -7712,9 +7712,9 @@
       {
         "strongNb": 1102,
         "grec": "γναφεύς, έως, ὁ",
-        "gloss": "un foulon ouvrier qui enlève l’huile et la graisse des étoffes non dégrossies et les apprête par des procédés de foulage Celui qui nettoie des habits sales",
+        "gloss": "foulon",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1103,
@@ -7852,9 +7852,9 @@
       {
         "strongNb": 1122,
         "grec": "γραμματεύς, έως, ὁ",
-        "gloss": "clerc, scribe, écrivain public, secrétaire, … dont les offices et l’influence différait selon les lieux, dans la Bible, homme instruit dans la loi Mosaïque, dans les Écritures sacrées, enseignant Les scribes examinaient les plus difficiles des questions posées sur la loi; des décisions variées en découlaient et pouvaient être opposées à la religion Les avis se donnaient devant le Sanhédrin, en présence des sacrificateurs et anciens du peuple, un enseignant religieux: instruit et capable d’enseigner les choses du royaume des cieux",
+        "gloss": "scribe, secrétaire",
         "freq": 62,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1123,
@@ -7866,9 +7866,9 @@
       {
         "strongNb": 1124,
         "grec": "γραφή, ῆς, ἡ",
-        "gloss": "un écrit, une chose écrite, les Écritures, soit pour indiquer le livre lui-même, ou son contenu, une certaine portion ou section des Saintes Écritures",
+        "gloss": "écrit, écriture",
         "freq": 50,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1125,
@@ -7978,9 +7978,9 @@
       {
         "strongNb": 1140,
         "grec": "δαιμόνιον, ου, τό",
-        "gloss": "le pouvoir divin, déité, divinité, un esprit, être inférieur à Dieu, supérieur aux hommes, mauvais esprits, messagers et ministres du diable",
+        "gloss": "démon",
         "freq": 63,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1141,
@@ -8188,9 +8188,9 @@
       {
         "strongNb": 1170,
         "grec": "δεῖνα, ὁ, ἡ, τό",
-        "gloss": "un tel, un certain c’est-à-dire un que je ne peux nommer maintenant, ou celui dont le nom n’a aucune importance dans le récit",
+        "gloss": "un tel",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1171,
@@ -8552,9 +8552,9 @@
       {
         "strongNb": 1222,
         "grec": "δήπου",
-        "gloss": "utilisé pour affirmer quelque chose avec une certaine ironie, mais avec une certaine idée d’incertitude",
+        "gloss": "assurément",
         "freq": 0,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1223,
@@ -8692,9 +8692,9 @@
       {
         "strongNb": 1242,
         "grec": "διαθήκη, ης, ἡ",
-        "gloss": "une disposition, un arrangement, de toute sorte, que l’on voudrait voir validé, la dernière disposition au sujet des possessions terrestres après la mort, un testament, un accord, un pacte, un testament",
+        "gloss": "alliance, testament",
         "freq": 33,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1243,
@@ -8734,16 +8734,16 @@
       {
         "strongNb": 1248,
         "grec": "διακονία, ας, ἡ",
-        "gloss": "service, ministère, de ceux qui répondent aux besoins des autres, de ceux qui, appelés par Dieu, proclament la religion parmi les hommes, l’office du diacre dans l’église, le service de ceux qui préparent et présentent la nourriture",
+        "gloss": "service, ministère, secours",
         "freq": 34,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1249,
         "grec": "διάκονος, οῦ, ὁ, ἡ",
-        "gloss": "domestique, subordonné, messager, celui qui est aux ordres d’un autre, d’un maître: serviteur, intendant, ministre",
+        "gloss": "ministre, serviteur, magistrat, diacre, diaconesse",
         "freq": 30,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1250,
@@ -8895,9 +8895,9 @@
       {
         "strongNb": 1271,
         "grec": "διάνοια, ας, ἡ",
-        "gloss": "l’esprit comme faculté de compréhension, sentiment, compréhension, esprit, moyen de penser et de sentir les choses, les pensées, bonnes ou mauvaises",
+        "gloss": "pensée, coeur, intelligence, esprit, entendement",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1272,
@@ -8944,9 +8944,9 @@
       {
         "strongNb": 1278,
         "grec": "διαπονέομαι",
-        "gloss": "être fatigué, être offensé, être peiné, être mécontent",
+        "gloss": "travailler laborieusement, ce qui est fait par le travail",
         "freq": 2,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 1279,
@@ -9000,9 +9000,9 @@
       {
         "strongNb": 1286,
         "grec": "διασείω",
-        "gloss": "secouer complètement, rendre tremblant, terrifier, agiter, extorquer de l’argent ou autre chose par intimidation",
+        "gloss": "extorquer",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1287,
@@ -9406,9 +9406,9 @@
       {
         "strongNb": 1344,
         "grec": "δικαιόω",
-        "gloss": "rendre juste ou comme il doit être, montrer, exposer, démontrer sa justice, comme on est et qu’on souhaite être considéré, déclarer, prononcer la justice de quelqu’un, le justifier",
+        "gloss": "justifier",
         "freq": 39,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1345,
@@ -9455,9 +9455,9 @@
       {
         "strongNb": 1351,
         "grec": "δίλογος, ον",
-        "gloss": "dire deux fois la même chose, répétition, double langue, double en parole, disant une chose à une personne et autre chose à une autre, duplicité",
+        "gloss": "duplicité",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1352,
@@ -9490,9 +9490,9 @@
       {
         "strongNb": 1356,
         "grec": "διοπετής, ές",
-        "gloss": "tombé de Zeus, c’est-à-dire du ciel, une image de l’Artémis des Éphésiens, qui était supposée être tombée du ciel",
+        "gloss": "simulacre tombé du ciel",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1357,
@@ -9735,16 +9735,16 @@
       {
         "strongNb": 1391,
         "grec": "δόξα, ης, ἡ",
-        "gloss": "opinion, jugement, vue, estimation, ce qui est mauvais ou bon chez quelqu’un, splendeur, éclat, la condition la plus glorieuse, l’état le plus élevé",
+        "gloss": "gloire, honneur, opinion, jugement, estimation",
         "freq": 166,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1392,
         "grec": "δοξάζω",
-        "gloss": "penser, supposer, être d’avis, louer, vanter, magnifier, célébrer, rendre les honneurs, être glorieux, vêtu de splendeur",
+        "gloss": "glorifier, honorer",
         "freq": 60,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1393,
@@ -9770,9 +9770,9 @@
       {
         "strongNb": 1396,
         "grec": "δουλαγωγέω",
-        "gloss": "emmener en esclavage, déclarer quelqu’un son esclave, faire un esclave, et le traiter en esclave, sujet à une stricte et ferme discipline",
+        "gloss": "tenir assujetti",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1397,
@@ -9868,9 +9868,9 @@
       {
         "strongNb": 1410,
         "grec": "δύναμαι",
-        "gloss": "être capable, avoir le pouvoir par sa vertu ou son habilité et ses moyens, à travers des circonstances favorables, par une permission légale, par des coutumes, être capable de faire quelque chose, être capable: être fort et puissant",
+        "gloss": "être capable, pouvoir",
         "freq": 209,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1411,
@@ -10239,9 +10239,9 @@
       {
         "strongNb": 1463,
         "grec": "ἐγκομβόομαι",
-        "gloss": "lien ou bande par laquelle deux choses sont liées ensemble, se revêtir ou se ceindre L’écharpe blanche des esclaves était attachée à la ceinture et les distinguait des hommes libres, il est écrit «revêtez-vous d’humilité» dans  en se référant à cet usage, pour montrer la soumission réciproque C’est aussi une référence au très humble vêtement, espèce de tablier, que les esclaves devaient porter pour ne pas se salir pendant leur travail",
+        "gloss": "se revêtir, se ceindre",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1464,
@@ -10386,9 +10386,9 @@
       {
         "strongNb": 1484,
         "grec": "ἔθνος, ους, τό",
-        "gloss": "une multitude  vivant ensemble, une multitude d’individus de même nature, une race, une nation, un peuple, le mot ayant donné «ethnie», dans le Nouveau Testament, ceux qui n’adorent pas le vrai Dieu, les païens, les Gentils, Paul utilise le terme pour les Chrétiens gentils",
+        "gloss": "nation, peuple",
         "freq": 163,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1485,
@@ -10455,7 +10455,7 @@
       },
       {
         "strongNb": 1494,
-        "grec": "εἰδωλόθυτος, ον / ἱερόθυτος",
+        "grec": "εἰδωλόθυτος, ον / ἱερόθυτος",
         "gloss": "viandes sacrifiées aux idoles, offert en sacrifice",
         "freq": 10,
         "vu": true
@@ -10603,9 +10603,9 @@
       {
         "strongNb": 1515,
         "grec": "εἰρήνη, ης, ἡ",
-        "gloss": "dans un état de tranquillité nationale, paix entre les individus, harmonie, concorde, sûreté, sécurité, prospérité, félicité,, la paix du Messie, pour la Chrétienté, l’état tranquille de l’âme assurée de son salut à travers Christ, qui ne craint rien de Dieu et se contente de son sort terrestre, quel qu’il soit, l’état béni de l’homme juste et pieux après la mort",
+        "gloss": "paix",
         "freq": 92,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1516,
@@ -10820,9 +10820,9 @@
       {
         "strongNb": 1546,
         "grec": "ἐκβολή, ῆς, ἡ",
-        "gloss": "jeter hors de, délester, allégement en jetant par-dessus bord ce qui peut rendre le bateau plus manœuvrable dans une tempête et le préserver du naufrage",
+        "gloss": "jeter hors de, délester",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1547,
@@ -11149,16 +11149,16 @@
       {
         "strongNb": 1593,
         "grec": "ἐκνεύω",
-        "gloss": "plier vers un côté, s’en aller au loin, s’échapper, éviter une chose, nager, s’échapper à la nage, s’échapper, disparaître furtivement",
+        "gloss": "plier vers un côté, s’en aller au loin, s’échapper",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1594,
         "grec": "ἐκνήφω",
-        "gloss": "revenir à soi d’une ivresse, quitter l’ivrognerie, devenir sobre, retourner à la sobriété de l’esprit",
+        "gloss": "revenir à soi d’une ivresse, devenir sobre",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1595,
@@ -11471,9 +11471,9 @@
       {
         "strongNb": 1639,
         "grec": "Ἐλαμίτης, ου, ὁ",
-        "gloss": "un Élamite, un habitant de la province d’Elam, une région située au-delà du Tigre, limitée au sud par le golf Persique et avec Suse pour capitale",
+        "gloss": "Élamite",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1640,
@@ -11569,9 +11569,9 @@
       {
         "strongNb": 1653,
         "grec": "ἐλεέω",
-        "gloss": "avoir miséricorde sur, aider quelqu’un affligé ou cherchant de l’aide, aider l’affligé, apporter du secours au misérable, éprouver de la miséricorde",
+        "gloss": "avoir pitié, faire miséricorde",
         "freq": 31,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1654,
@@ -12626,9 +12626,9 @@
       {
         "strongNb": 1804,
         "grec": "ἐξαγγέλλω",
-        "gloss": "dire clairement, déclarer au loin, divulguer, publier, faire connaître par la louange ou la proclamation, célébrer",
+        "gloss": "dire clairement, déclarer au loin, divulguer, publier, annoncer",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1805,
@@ -12808,9 +12808,9 @@
       {
         "strongNb": 1830,
         "grec": "ἐξερευνάω",
-        "gloss": "rechercher, chercher avec anxiété et diligemment chercher, faire des investigations complètes  Les prophètes cherchaient à découvrir le temps de l’apparition du Messie",
+        "gloss": "rechercher, chercher, investiguer",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1831,
@@ -12941,9 +12941,9 @@
       {
         "strongNb": 1849,
         "grec": "ἐξουσία, ας, ἡ",
-        "gloss": "pouvoir de choisir, liberté de faire ce qui plaît, pouvoir physique et mental, pouvoir d’autorité  et de droit, pouvoir ou règle ou gouvernement",
+        "gloss": "autorité, pouvoir",
         "freq": 102,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1850,
@@ -13900,9 +13900,9 @@
       {
         "strongNb": 1986,
         "grec": "ἐπισπάομαι",
-        "gloss": "ne pas devenir incirconcis aux jours d’Antioche Epiphane  certains Juifs voulant échapper aux persécutions cachaient le signe de leur nationalité, la circoncision, en se faisant reproduire artificiellement le prépuce, par une opération chirurgicale qui étendait la peau restante",
+        "gloss": "demeurer circoncis",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1987,
@@ -14208,7 +14208,7 @@
       {
         "strongNb": 2030,
         "grec": "ἐπόπτης, ου, ὁ",
-        "gloss": "un surveillant, un inspecteur, spectateur, témoin oculaire de quelque chose C’était le nom donné à ceux qui avait atteint le troisième, donc le plus haut niveau, dans l’initiation aux mystères d’Éleusis, ville proche d’Athènes, dans un culte rendu à la déesse de la Végétation, Déméter",
+        "gloss": "surveillant, inspecteur, spectateur, témoin oculaire",
         "freq": 1,
         "vu": false
       },
@@ -14264,9 +14264,9 @@
       {
         "strongNb": 2038,
         "grec": "ἐργάζομαι",
-        "gloss": "travailler, faire un travail, commercer, faire des gains par le commerce, faire, œuvrer, travailler pour, gagner par le travail, acquérir",
+        "gloss": "travailler, commettre, faire, agir, pratiquer",
         "freq": 40,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2039,
@@ -14285,9 +14285,9 @@
       {
         "strongNb": 2041,
         "grec": "ἔργον, ου, τό",
-        "gloss": "affaire, emploi, ce à quoi chacun est employé, tout produit réalisé, ce qui est fait à la main, art, œuvre de l’esprit, acte, ce qui est fait, action",
+        "gloss": "œuvre, travail",
         "freq": 169,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2042,
@@ -14306,9 +14306,9 @@
       {
         "strongNb": 2044,
         "grec": "ἐρεύγομαι",
-        "gloss": "cracher ou vomir, rejeter, être vidé, se décharger, émettre des paroles, parler à voix haute, publier",
+        "gloss": "émettre des paroles, publier",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2045,
@@ -14770,7 +14770,7 @@
         "grec": "εὐεργέτης, ου, ὁ",
         "gloss": "bienfaiteur, un titre d’honneur, décerné à celui qui a rendu des services dans sa région, et aux princes, équivalent à Soter, Pater Patriae",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2111,
@@ -14873,9 +14873,9 @@
       {
         "strongNb": 2125,
         "grec": "εὐλαβέομαι",
-        "gloss": "agir avec précaution, avec circonspection, prendre garde, craindre, révérer, se tenir dans la crainte de",
+        "gloss": "agir avec précaution, craindre, révérer",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2126,
@@ -14887,9 +14887,9 @@
       {
         "strongNb": 2127,
         "grec": "εὐλογέω",
-        "gloss": "louer, célébrer par des louanges, invoquer des bénédictions, consacrer une chose par des prières solennelles, de Dieu",
+        "gloss": "bénir, être béni, rendre grâces",
         "freq": 41,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2128,
@@ -15027,9 +15027,9 @@
       {
         "strongNb": 2147,
         "grec": "εὑρίσκω",
-        "gloss": "venir sur, frapper sur, se rencontrer avec, trouver par enquête, examen, recherche, observation, par la pratique et l’expérience, trouver pour soi-même, acquérir, obtenir, se procurer",
+        "gloss": "trouver",
         "freq": 176,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2148,
@@ -15188,9 +15188,9 @@
       {
         "strongNb": 2170,
         "grec": "εὐχάριστος, ον",
-        "gloss": "attentif aux faveurs, reconnaissant, plaisant, agréable, acceptable pour les autres, libéral, bienfaisant",
+        "gloss": "reconnaissant, plaisant, agréable",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2171,
@@ -15342,9 +15342,9 @@
       {
         "strongNb": 2192,
         "grec": "ἔχω",
-        "gloss": "avoir, c’est-à-dire tenir, détenir, avoir c’est-à-dire posséder, se trouver ou se tenir soi-même de telle ou telle manière, s’attacher à une chose, adhérer à, s’accrocher à",
+        "gloss": "avoir",
         "freq": 706,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2193,
@@ -15384,9 +15384,9 @@
       {
         "strongNb": 2198,
         "grec": "ζάω",
-        "gloss": "vivre, respirer, être parmi les vivants, vivre une vraie vie, vivre c’est-à-dire passer sa vie, manière de vivre et d’agir, eau de vie, avoir un pouvoir vital en soi, être en pleine vigueur",
+        "gloss": "vivre",
         "freq": 139,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2199,
@@ -15671,9 +15671,9 @@
       {
         "strongNb": 2239,
         "grec": "ἦθος, ους, τό",
-        "gloss": "une demeure habituelle, lieu d’habitation, hanter, état coutumier, coutume, usage, morale, caractère, mœurs",
+        "gloss": "coutume, mœurs",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2240,
@@ -15748,9 +15748,9 @@
       {
         "strongNb": 2250,
         "grec": "ἡμέρα, ας, ἡ",
-        "gloss": "le jour, pour le jour naturel, ou l’intervalle entre le lever et le coucher du soleil, en opposition à la nuit, le jour civil, d’une durée de vingt quatre heures, le dernier jour de cet âge présent, le Christ reviendra des cieux, ressuscitera les morts, accomplira le jugement final, et rendra parfait son royaume, la durée de temps en général, les jours, ou l’âge dans cette vie",
+        "gloss": "jour",
         "freq": 388,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2251,
@@ -16210,9 +16210,9 @@
       {
         "strongNb": 2316,
         "grec": "θεός, οῦ, ὁ",
-        "gloss": "un dieu ou déesse, nom général de divinités, la Divinité, la trinité, se dit du seul et vrai Dieu, tout ce qui peut en une certaine manière être comme Dieu, ce qui lui ressemble sur certains points",
+        "gloss": "Dieu",
         "freq": 1311,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2317,
@@ -16378,9 +16378,9 @@
       {
         "strongNb": 2340,
         "grec": "θηρεύω",
-        "gloss": "aller à la chasse, chasser, attraper à la chasse, attendre en embuscade, s’efforcer de prendre au piège, attraper par artifice",
+        "gloss": "surprendre",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2341,
@@ -16392,9 +16392,9 @@
       {
         "strongNb": 2342,
         "grec": "θηρίον, ου, τό",
-        "gloss": "un animal, un animal sauvage, une bête sauvage, une bête, une brute, un homme bestial, un sauvage, quelqu’un de féroce",
+        "gloss": "bête sauvage, bête, animal",
         "freq": 45,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2343,
@@ -16469,9 +16469,9 @@
       {
         "strongNb": 2353,
         "grec": "θρέμμα, ατος, τό",
-        "gloss": "quelque soit ce qui est nourri ou qui est allaité, un troupeau, du bétail, en particulier moutons et chèvres",
+        "gloss": "un troupeau",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2354,
@@ -16567,9 +16567,9 @@
       {
         "strongNb": 2367,
         "grec": "θύϊνος, η, ον",
-        "gloss": "arbre odoriférant Nord Africain, utilisé en encens, très prisé par les anciens Grecs et Romains à cause de la beauté de son bois utilisé pour divers ornements",
+        "gloss": "senteur",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2368,
@@ -16861,9 +16861,9 @@
       {
         "strongNb": 2409,
         "grec": "ἱερεύς, έως, ὁ",
-        "gloss": "un sacrificateur, celui qui offre les sacrifices et en général est chargé des rites sacrés, les Chrétiens, car, purifiés par le sang de Christ et amenés à une relation avec Dieu, ils vouent leur vie à lui seul et à Christ",
+        "gloss": "sacrificateur, prêtre, lévite",
         "freq": 30,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2410,
@@ -17099,9 +17099,9 @@
       {
         "strongNb": 2443,
         "grec": "ἵνα",
-        "gloss": "que, afin que, … Dans certains comptages, le mot est trouvé six-cent-vingt-une fois, et non cinq-cent-quatre-vingt, ceci dépend essentiellement du sens donné à la phrase",
+        "gloss": "que, afin que",
         "freq": 668,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2444,
@@ -17337,9 +17337,9 @@
       {
         "strongNb": 2477,
         "grec": "ἱστορέω",
-        "gloss": "s’enquérir de, examiner, trouver, apprendre, faire une enquête, acquérir de la connaissance par une visite",
+        "gloss": "faire la connaissance",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2478,
@@ -17701,9 +17701,9 @@
       {
         "strongNb": 2529,
         "grec": "καθοράω",
-        "gloss": "regarder vers en bas, voir de dessus, voir d’une hauteur, voir complètement, percevoir clairement, comprendre",
+        "gloss": "voir complètement, percevoir clairement, comprendre",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2530,
@@ -17890,9 +17890,9 @@
       {
         "strongNb": 2556,
         "grec": "κακός, ή, όν",
-        "gloss": "d’une nature mauvaise, d’un mode de pensée, de sentiment, d’action, gênant, injurieux, pernicieux, destructif",
+        "gloss": "méchant, mal, mauvais",
         "freq": 50,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2557,
@@ -17939,9 +17939,9 @@
       {
         "strongNb": 2563,
         "grec": "κάλαμος, ου, ὁ",
-        "gloss": "un roseau, un bâton fait d’un roseau, une verge de roseau, un roseau à mesurer, ou canne, un roseau pour écrire, une plume",
+        "gloss": "roseau, plume",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2564,
@@ -17988,9 +17988,9 @@
       {
         "strongNb": 2570,
         "grec": "καλός, ή, όν",
-        "gloss": "beau, belle, excellent, éminent, de choix, qui surpasse, précieux, utile, convenable, louable, admirable",
+        "gloss": "bon, beau",
         "freq": 101,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2571,
@@ -19122,16 +19122,16 @@
       {
         "strongNb": 2733,
         "grec": "κατοικία, ας, ἡ",
-        "gloss": "une habitation, une demeure, faire demeurer, envoyer ou amener dans une demeure, donner une demeure à",
+        "gloss": "demeure",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2734,
         "grec": "κατοπτρίζομαι",
-        "gloss": "voir dans un miroir, faire se réfléchir, se regarder, se contempler dans un miroir Il est à noter que les miroirs étaient faits de métal poli, et le reflet n’avait pas la vérité qu’apporte nos miroirs actuels",
+        "gloss": "voir dans un miroir",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2735,
@@ -19241,9 +19241,9 @@
       {
         "strongNb": 2750,
         "grec": "κειρία, ας, ἡ",
-        "gloss": "une bande, soit pour emmailloter un enfant, soit pour envelopper un cadavre recouvert avec les linges",
+        "gloss": "bande",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2751,
@@ -19430,9 +19430,9 @@
       {
         "strongNb": 2777,
         "grec": "κεφαλίς, ίδος, ἡ",
-        "gloss": "une petite tête, la partie la plus haute, l’extrémité d’une chose, les écrivains d’Alexandrie transférèrent le nom au rouleau ou volume lui-même",
+        "gloss": "rouleau",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2778,
@@ -19535,9 +19535,9 @@
       {
         "strongNb": 2792,
         "grec": "κινάμωμον, ου, τό",
-        "gloss": "la cinnamone était une substance aromatique bien connue, l’écorce du «laurus cinnamonum» appelé «Korunda-gauhah» à Ceylan Utilisée pour de nombreux parfums, en particulier l’huile sainte",
+        "gloss": "cinnamone",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2793,
@@ -19731,9 +19731,9 @@
       {
         "strongNb": 2820,
         "grec": "κληρόω",
-        "gloss": "déterminer par tirage, choisir par le hasard, accorder, répartir, assigner par tirage, dans le Nouveau Testament: devenir héritier, avoir en héritage, en possession privée",
+        "gloss": "devenir héritier, avoir en héritage",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2821,
@@ -19892,9 +19892,9 @@
       {
         "strongNb": 2843,
         "grec": "κοινωνικός, ή, όν",
-        "gloss": "social, sociable, prêt à former et maintenir la communion et l’entente, poussé à faire des autres des participants à ses biens, libéral, généreux",
+        "gloss": "générosité",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2844,
@@ -20571,9 +20571,9 @@
       {
         "strongNb": 2940,
         "grec": "κυβεία, ας, ἡ",
-        "gloss": "jeux de dés, la déception des hommes, car les joueurs de dés trichaient quelquefois et trompaient leurs partenaires",
+        "gloss": "tromperie",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2941,
@@ -20648,9 +20648,9 @@
       {
         "strongNb": 2951,
         "grec": "κύμινον, ου, τό",
-        "gloss": "le cumin est une plante cultivée en Palestine avec des graines au goût amer et d’un parfum aromatique",
+        "gloss": "cumin",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2952,
@@ -20725,9 +20725,9 @@
       {
         "strongNb": 2962,
         "grec": "κύριος, ου, ὁ",
-        "gloss": "celui à qui une personne ou une chose appartient, sur quoi il a un pouvoir de décision: maître, seigneur",
+        "gloss": "maître, seigneur",
         "freq": 716,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2963,
@@ -20753,9 +20753,9 @@
       {
         "strongNb": 2966,
         "grec": "κῶλον, ου, τό",
-        "gloss": "un membre du corps, en particulier les membres les plus aux extrémités, tels les pieds, un corps mort, un cadavre, une carcasse, d’autant plus si les membres du corps sont disséminés",
+        "gloss": "cadavres",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2967,
@@ -20767,16 +20767,16 @@
       {
         "strongNb": 2968,
         "grec": "κώμη, ης, ἡ",
-        "gloss": "le lieu vers lequel les travailleurs des champs retournent pour dormir, un village, le nom de la cité proche des villages qui l’environnent et dont elle a la gestion, les habitants de villages",
+        "gloss": "village, bourg",
         "freq": 28,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2969,
         "grec": "κωμόπολις, εως, ἡ",
-        "gloss": "village dont la dimension et le nombre d’habitants est proche de celui d’une cité, une bourgade, une petite ville",
+        "gloss": "bourgade",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2970,
@@ -20851,9 +20851,9 @@
       {
         "strongNb": 2980,
         "grec": "λαλέω",
-        "gloss": "faire entendre une voix, émettre un son, parler, discourir, prononcer, dire, utiliser des mots pour décrire et découvrir ses pensées",
+        "gloss": "parler, dire",
         "freq": 296,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2981,
@@ -20935,9 +20935,9 @@
       {
         "strongNb": 2992,
         "grec": "λαός, οῦ, ὁ",
-        "gloss": "un peuple, une tribu, une nation, tous ceux qui ont un même langage, les populations rassemblées ensemble n’importe où",
+        "gloss": "peuple, nation",
         "freq": 141,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2993,
@@ -21355,9 +21355,9 @@
       {
         "strongNb": 3052,
         "grec": "λόγιος, α, ον",
-        "gloss": "instruit, un homme de lettres, expert en littérature et arts, spécialement versé dans l’histoire et l’antiquité, habile dans les discours, éloquent, rationnel, sage",
+        "gloss": "éloquent",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3053,
@@ -21516,9 +21516,9 @@
       {
         "strongNb": 3075,
         "grec": "λυμαίνομαι",
-        "gloss": "apposer un stigmate, déshonorer, tacher, souiller, traiter honteusement ou avec préjudice, ravager, dévaster, ruiner",
+        "gloss": "ravager, dévaster",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3076,
@@ -21614,9 +21614,9 @@
       {
         "strongNb": 3089,
         "grec": "λύω",
-        "gloss": "relâcher une personne  attachée ou liée, délier des liens, relâcher, rendre libre, desserrer, défaire, dissoudre, pour toute chose liée ou amalgamée avec une autre",
+        "gloss": "délier",
         "freq": 42,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3090,
@@ -21971,9 +21971,9 @@
       {
         "strongNb": 3140,
         "grec": "μαρτυρέω",
-        "gloss": "être un témoin, porter témoignage, c’est-à-dire affirmer ce que l’on a vu ou entendu ou expérimenté, ou ce que l’on connaît par ce qui nous est dit par révélation ou inspiration divine",
+        "gloss": "être un témoin, porter témoignage",
         "freq": 76,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3141,
@@ -22671,9 +22671,9 @@
       {
         "strongNb": 3340,
         "grec": "μετανοέω",
-        "gloss": "changer son esprit, se repentir, changer son esprit pour mieux, s’amender de bon cœur avec une aversion extrême pour ses péchés passés",
+        "gloss": "se repentir",
         "freq": 34,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3341,
@@ -22776,16 +22776,16 @@
       {
         "strongNb": 3355,
         "grec": "μετρητής, οῦ, ὁ",
-        "gloss": "un ustensile pour mesurer, sorte d’amphore, servant à mesurer des liquides, et d’une contenance d’environ quarante litres",
+        "gloss": "ustensile pour mesurer, mesure",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3356,
         "grec": "μετριοπαθέω",
-        "gloss": "être modérément affecté ou dans une juste mesure, conserver la modération dans les passions, spécialement colère ou chagrin",
+        "gloss": "être indulgent",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3357,
@@ -23091,9 +23091,9 @@
       {
         "strongNb": 3400,
         "grec": "μίλιον, ου, τό",
-        "gloss": "un mille, chez les Romains la distance de mille pas ou huit stades, le mille faisant environ mille-quatre-cent-quatre-vingt mètres, soit une longueur proche du «mile» anglais",
+        "gloss": "mille",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3401,
@@ -23224,9 +23224,9 @@
       {
         "strongNb": 3419,
         "grec": "μνημεῖον, ου, τό",
-        "gloss": "tout objet visible pour préserver ou rappeler la mémoire d’une personne ou d’un événement, un sépulcre, un tombeau",
+        "gloss": "sépulcre, tombeau",
         "freq": 40,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3420,
@@ -23448,9 +23448,9 @@
       {
         "strongNb": 3451,
         "grec": "μουσικός, ή, όν",
-        "gloss": "dévoué et habile dans les arts sacrés des muses, accomplis dans les arts libéraux, spécifiquement, habile en musique, joueur d’un instrument de musique",
+        "gloss": "musicien",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3452,
@@ -23553,9 +23553,9 @@
       {
         "strongNb": 3466,
         "grec": "μυστήριον, ου, τό",
-        "gloss": "chose cachée, un secret, un mystère, dans les écrits des rabbins, ce mot dénote un sens mystique ou caché; dans un récit de l’Ancien Testament, il s’agit d’une image ou une forme vue dans une vision, d’un songe",
+        "gloss": "mystère, mystérieux",
         "freq": 27,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3467,
@@ -23686,9 +23686,9 @@
       {
         "strongNb": 3485,
         "grec": "ναός, οῦ, ὁ",
-        "gloss": "utilisé pour le temple à Jérusalem, mais seulement pour l’édifice sacré lui-même,  constitué du Lieu Saint, et du Saint des Saints) Dans le Grec classique, c’est le sanctuaire où se trouvait l’image d’or, pour le distinguer de tout le bâtiment",
+        "gloss": "temple",
         "freq": 45,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3486,
@@ -23868,9 +23868,9 @@
       {
         "strongNb": 3511,
         "grec": "νεωκόρος, ου, ὁ, ἡ",
-        "gloss": "celle qui balaye et nettoie un temple, celui qui a charge d’un temple, le garde et le décore, un sacristain, l’adorateur d’une divinité",
+        "gloss": "gardien",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3512,
@@ -23945,9 +23945,9 @@
       {
         "strongNb": 3522,
         "grec": "νηστεύω",
-        "gloss": "s’abstenir à titre religieux de nourriture et de boisson: soit totalement, si le jeûne dure seulement une journée, soit par une nourriture simple et frugale si le jeûne dure plusieurs jours",
+        "gloss": "jeûner",
         "freq": 20,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3523,
@@ -24078,9 +24078,9 @@
       {
         "strongNb": 3541,
         "grec": "νόθος, η, ον",
-        "gloss": "enfant illégitime, bâtard, enfant naturel, celui qui est né, non de l’épouse légitime mais d’une concubine ou d’une esclave",
+        "gloss": "enfant illégitime",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3542,
@@ -24232,9 +24232,9 @@
       {
         "strongNb": 3563,
         "grec": "νοῦς, νοός, νοΐ, νοῦν, ὁ",
-        "gloss": "l’esprit, c’est-à-dire toutes les facultés de perception et de compréhension et celles de sentiment, jugement, détermination, un mode particulier de pensée et de jugement",
+        "gloss": "esprit, sens, entendement, pensée, intelligence, bon sens",
         "freq": 24,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3564,
@@ -24659,9 +24659,9 @@
       {
         "strongNb": 3624,
         "grec": "οἶκος, ου, ὁ",
-        "gloss": "une maison, les pensionnaires d’une maison, toutes les personnes formant une famille, une maisonnée, souche, race, les descendants de quelqu’un",
+        "gloss": "maison",
         "freq": 112,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3625,
@@ -25093,9 +25093,9 @@
       {
         "strongNb": 3686,
         "grec": "ὄνομα, ατος, τό",
-        "gloss": "nom: les noms propres à chacun, le nom est utilisé pour tout ce qu’il recouvre, tout ce qui est pensé ou ressenti quand il est amené à l’esprit par sa mention, en entendant ce nom, en s’en rappelant, tant par le rang, l’autorité, les actions etc, personnes reconnues par leur nom, la cause ou la raison nommée: à cause de ceci, parce qu’il souffre comme un Chrétien, pour cette raison",
+        "gloss": "nom",
         "freq": 229,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3687,
@@ -25212,9 +25212,9 @@
       {
         "strongNb": 3703,
         "grec": "ὀπώρα, ας, ἡ",
-        "gloss": "la saison qui succède à l’été, entre le lever de Sirius et celui d’Arcturus, la fin de l’été, le début de l’automne, les fruits mûrs",
+        "gloss": "fruit",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3704,
@@ -25247,16 +25247,16 @@
       {
         "strongNb": 3708,
         "grec": "ὁράω",
-        "gloss": "voir avec les yeux, voir avec l’esprit, percevoir, savoir, connaître, voir, c’est-à-dire devenir familier par l’expérience, éprouver, voir, regarder, il m’est apparu que …",
+        "gloss": "voir, percevoir, connaître",
         "freq": 113,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3709,
         "grec": "ὀργή, ῆς, ἡ",
-        "gloss": "colère, la disposition naturelle, l’humeur, le caractère, mouvement ou agitation de l’âme, impulsion, désir, toute émotion violente et spécialement colère, colère, courroux, indignation, colère manifestée dans la punition, de là utilisé pour la punition elle-même",
+        "gloss": "colère, indignation",
         "freq": 36,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3710,
@@ -25317,9 +25317,9 @@
       {
         "strongNb": 3718,
         "grec": "ὀρθοτομέω",
-        "gloss": "couper droit, marcher dans le droit chemin, faire droit et lisse, manier bien droit, enseigner la vérité directement et correctement",
+        "gloss": "couper droit",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3719,
@@ -25583,9 +25583,9 @@
       {
         "strongNb": 3756,
         "grec": "οὐ",
-        "gloss": "non, pas; dans des questions directes espérant une réponse affirmative la fréquence du compte de Wigram est de  et non 1453",
+        "gloss": "non, pas",
         "freq": 1667,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3757,
@@ -25695,9 +25695,9 @@
       {
         "strongNb": 3772,
         "grec": "οὐρανός, οῦ, ὁ",
-        "gloss": "la voûte étendue du ciel et tout ce qui y est visible, la région au-dessus des cieux sidéraux, le siège de l’ordre des choses éternelles et du parfait, où Dieu demeure avec les autres êtres célestes",
+        "gloss": "ciel, cieux",
         "freq": 273,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3773,
@@ -25828,9 +25828,9 @@
       {
         "strongNb": 3791,
         "grec": "ὀχλέω",
-        "gloss": "exciter une populace contre quelqu’un, déranger, affliger, molester, être dans la confusion, dans un vacarme, être affligé, molesté, tourmenté: par des démons",
+        "gloss": "exciter, déranger, affliger",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3792,
@@ -25905,9 +25905,9 @@
       {
         "strongNb": 3802,
         "grec": "παγιδεύω",
-        "gloss": "prendre au piège, attraper, tentative de découvrir quelque remarque pouvant se retourner en accusation contre lui",
+        "gloss": "prendre au piège, surprendre",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3803,
@@ -25926,9 +25926,9 @@
       {
         "strongNb": 3805,
         "grec": "παθητός, ή, όν",
-        "gloss": "doté de la capacité de souffrance, capable de sentiment, sujet à la nécessité de souffrance, destiné à souffrir",
+        "gloss": "capable de souffrir",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3806,
@@ -25996,9 +25996,9 @@
       {
         "strongNb": 3815,
         "grec": "παίζω",
-        "gloss": "jouer comme un enfant, jouer, faire du sport, plaisanter, donner lieu à l’hilarité, spécialement par des chants joyeux, de la danse",
+        "gloss": "jouer comme un enfant, divertir",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3816,
@@ -26108,9 +26108,9 @@
       {
         "strongNb": 3831,
         "grec": "πανήγυρις, εως, ἡ",
-        "gloss": "rassemblement de fête de tout le peuple pour célébrer les jeux publics ou autre solennités, une assemblée de fête publique",
+        "gloss": "assemblée de fête publique",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3832,
@@ -26262,9 +26262,9 @@
       {
         "strongNb": 3853,
         "grec": "παραγγέλλω",
-        "gloss": "transmettre un message qui provient d’un autre, déclarer, annoncer, commander, ordonner, charger de faire",
+        "gloss": "ordonner, donner des instructions, transmettre",
         "freq": 31,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3854,
@@ -26367,9 +26367,9 @@
       {
         "strongNb": 3868,
         "grec": "παραιτέομαι",
-        "gloss": "inviter à son côté, prier de venir près de soi, détourner avec supplication ou chercher à détourner, désapprouver",
+        "gloss": "refuser, excuser, repousser, éloigner",
         "freq": 12,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3869,
@@ -26591,9 +26591,9 @@
       {
         "strongNb": 3900,
         "grec": "παράπτωμα, ατος, τό",
-        "gloss": "tomber à côté de ou près de quelque chose, une faute ou déviation par rapport à la vérité et la droiture",
+        "gloss": "offense, péchés, faute, chute",
         "freq": 20,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3901,
@@ -27011,9 +27011,9 @@
       {
         "strongNb": 3960,
         "grec": "πατάσσω",
-        "gloss": "frapper doucement: une partie ou un membre du corps, donner un coup, frapper: avec l’épée, affliger, visiter par des maux, etc comme avec une maladie mortelle, percer, découper, tuer",
+        "gloss": "frapper",
         "freq": 10,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3961,
@@ -27186,9 +27186,9 @@
       {
         "strongNb": 3985,
         "grec": "πειράζω",
-        "gloss": "essayer si une chose peut être faite, essayer, éprouver, dans le but de certifier une quantité, ou ce que pense l’autre, ou comment il se conduit",
+        "gloss": "tenter, éprouver",
         "freq": 38,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3986,
@@ -27655,9 +27655,9 @@
       {
         "strongNb": 4052,
         "grec": "περισσεύω",
-        "gloss": "excéder un nombre fixé de mesure, être laissé et mis de côté au-dessus d’un certain nombre ou d’une certaine mesure, faire abonder",
+        "gloss": "abonder, surpasser",
         "freq": 39,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4053,
@@ -27956,9 +27956,9 @@
       {
         "strongNb": 4095,
         "grec": "πίνω",
-        "gloss": "boire, au figuré, recevoir dans l’âme ce qui sert à la rafraîchir, la fortifier, la nourrir jusqu’à la vie éternelle",
+        "gloss": "boire",
         "freq": 73,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4096,
@@ -27991,9 +27991,9 @@
       {
         "strongNb": 4100,
         "grec": "πιστεύω",
-        "gloss": "penser être vrai, être persuadé de, donner du crédit, placer sa confiance en, confier une chose à quelqu’un, sa fidélité",
+        "gloss": "croire, avoir confiance",
         "freq": 238,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4101,
@@ -28348,9 +28348,9 @@
       {
         "strongNb": 4151,
         "grec": "πνεῦμα, ατος, τό",
-        "gloss": "un mouvement de l’air, l’esprit, c’est-à-dire le principe vital par lequel le corps est animé, un esprit, c’est-à-dire une simple essence, dépourvu de toute matière, possédant un pouvoir de connaissance, de désir, de décision, d’action, de Dieu, la disposition ou influence qui remplit et gouverne l’âme de chacun",
+        "gloss": "esprit, souffle",
         "freq": 378,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4152,
@@ -28404,9 +28404,9 @@
       {
         "strongNb": 4159,
         "grec": "πόθεν",
-        "gloss": "de lieu: vient d’où, vient de quelle condition, d’origine ou de source: vient de quel auteur ou donateur, de cause: comment est-ce?, comment cela peut-il être?",
+        "gloss": "d'où, comment",
         "freq": 29,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4160,
@@ -28516,9 +28516,9 @@
       {
         "strongNb": 4175,
         "grec": "πολίτευμα, ατος, τό",
-        "gloss": "l’administration des affaires civiles ou d’une communauté, la constitution d’une communauté, forme de gouvernement et de lois par laquelle elle est administrée, un état, une communauté d’états",
+        "gloss": "cité",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4176,
@@ -28726,9 +28726,9 @@
       {
         "strongNb": 4205,
         "grec": "πόρνος, ου, ὁ",
-        "gloss": "un homme qui prostitue son corps et le loue à la convoitise d’un autre, un prostitué, homme qui se complaît dans la relation sexuelle illicite, un qui fornique",
+        "gloss": "prostitué, fornicateur, impudique",
         "freq": 10,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4206,
@@ -29034,9 +29034,9 @@
       {
         "strongNb": 4249,
         "grec": "πρίζω",
-        "gloss": "scier, couper en deux avec une scie être «scié en deux» était un des châtiments en cours chez les Hébreux et la tradition s’accorde à dire que ce fut infligé au prophète Esaïe",
+        "gloss": "scier en deux",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4250,
@@ -29713,9 +29713,9 @@
       {
         "strongNb": 4346,
         "grec": "πρόσκλησις, εως, ἡ",
-        "gloss": "une inclination, un penchant de l’esprit, celui qui rejoint un parti, qui donne sa faveur, partialité",
+        "gloss": "faveur",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4347,
@@ -29755,9 +29755,9 @@
       {
         "strongNb": 4352,
         "grec": "προσκυνέω",
-        "gloss": "baiser la main de quelqu’un, en signe de révérence, parmi les Orientaux, surtout les Perses, tomber sur les genoux et toucher le sol avec le front en expression de profonde révérence, dans le Nouveau Testament par agenouillement ou prosternation, rendre hommage, marquer son obéissance, aussi bien comme marque de respect que pour faire une supplication",
+        "gloss": "adorer, se prosterner devant",
         "freq": 60,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4353,
@@ -29797,9 +29797,9 @@
       {
         "strongNb": 4358,
         "grec": "προσορμίζω",
-        "gloss": "amener un navire à l’amarrage, se mettre au mouillage près de la côte, amarrer, venir à l’ancre",
+        "gloss": "amarrer, aborder",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4359,
@@ -29825,9 +29825,9 @@
       {
         "strongNb": 4362,
         "grec": "προσπήγνυμι",
-        "gloss": "attacher",
+        "gloss": "attacher, crucifier",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4363,
@@ -30063,9 +30063,9 @@
       {
         "strongNb": 4396,
         "grec": "προφήτης, ου, ὁ",
-        "gloss": "dans les écrits Grecs, celui qui interprète oracles ou autres choses cachées, quelqu’un qui, poussé par l’Esprit de Dieu et de là son organe ou messager, déclare solennellement ce qu’il a reçu par inspiration, concernant spécialement les futurs événements, et en particulier ceux relatifs à la cause et au royaume de Dieu et au salut de l’humanité, un poète",
+        "gloss": "prophète",
         "freq": 144,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4397,
@@ -30329,9 +30329,9 @@
       {
         "strongNb": 4434,
         "grec": "πτωχός, ή, όν",
-        "gloss": "réduit à la mendicité, à demander l’aumône, privé de richesse, d’influence, de position, d’honneur, manquant de toute chose",
+        "gloss": "pauvre",
         "freq": 34,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4435,
@@ -30700,9 +30700,9 @@
       {
         "strongNb": 4487,
         "grec": "ῥῆμα, ατος, τό",
-        "gloss": "ce qui est ou a été émis par une voix humaine, la chose dite, la parole, le sujet matière du discours, la chose dont il est parlé",
+        "gloss": "parole, discours",
         "freq": 68,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4488,
@@ -30938,9 +30938,9 @@
       {
         "strongNb": 4521,
         "grec": "σάββατον, ου, τό",
-        "gloss": "le septième jour de chaque semaine qui était une fête sacrée, pour lequel les Israélites devaient s’abstenir de tout travail, sept jours, une semaine",
+        "gloss": "sabbat",
         "freq": 68,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4522,
@@ -31176,9 +31176,9 @@
       {
         "strongNb": 4555,
         "grec": "σάρδινος",
-        "gloss": "sardoine, cornaline, sardius, variétés de calcédoine que les Grecs appelaient sardios et aussi sardion Cette pierre précieuse est appelée cornaline quand elle de couleur rouge transparent, comme la chair, d’où son nom, et on appelle sardoine celle qui est de couleur rouge brun",
+        "gloss": "sardoine",
         "freq": 0,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4556,
@@ -31218,9 +31218,9 @@
       {
         "strongNb": 4561,
         "grec": "σάρξ, σαρκός, ἡ",
-        "gloss": "la chair  de l’homme et des animaux, le corps, une créature vivante  que ce soit homme ou animal, la chair, qui dénote la nature humaine, la nature terrestre de l’homme séparé de l’influence divine et de là prompt au péché et à l’opposition à Dieu",
+        "gloss": "chair",
         "freq": 147,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4562,
@@ -32037,9 +32037,9 @@
       {
         "strongNb": 4678,
         "grec": "σοφία, ας, ἡ",
-        "gloss": "sagesse, largeur et plénitude de l’intelligence; mot utilisé pour la connaissance, le savoir, de manières très diverses",
+        "gloss": "sagesse",
         "freq": 51,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4679,
@@ -32541,9 +32541,9 @@
       {
         "strongNb": 4750,
         "grec": "στόμα, ατος, τό",
-        "gloss": "la bouche, comme partie du corps, de l’homme, des animaux, des poissons, etc, le tranchant d’une épée",
+        "gloss": "bouche",
         "freq": 78,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4751,
@@ -33542,9 +33542,9 @@
       {
         "strongNb": 4893,
         "grec": "συνείδησις, εως, ἡ",
-        "gloss": "la conscience de toute chose, l’âme qui distingue entre ce qui est moralement bon ou mauvais, prompte à faire le mal, fuyant le bon, commandant l’un, condamnant l’autre",
+        "gloss": "conscience",
         "freq": 30,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4894,
@@ -34221,16 +34221,16 @@
       {
         "strongNb": 4990,
         "grec": "σωτήρ, ῆρος, ὁ",
-        "gloss": "sauveur, libérateur ce nom était donné par les anciens aux déités, spécialement les déités de tutelle, aux princes, aux rois et en général aux hommes qui avaient apportés de grands bienfaits à leur pays; ce mot fut ensuite employé, en des occasions moins nobles, pour la flatterie de personnages influents",
+        "gloss": "sauveur",
         "freq": 24,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4991,
         "grec": "σωτηρία, ας, ἡ",
-        "gloss": "délivrance, conservation, sûreté, sécurité, salut, le salut, en tant que possession actuelle de tout vrai Chrétien, le salut futur, la somme des bienfaits et bénédictions que les Chrétiens, rachetés de tous les maux terrestres, vont posséder après la seconde venue de Christ depuis les cieux, dans le royaume éternel de Dieu",
+        "gloss": "salut, délivrance",
         "freq": 47,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4992,
@@ -34249,9 +34249,9 @@
       {
         "strongNb": 4994,
         "grec": "σωφρονίζω",
-        "gloss": "remettre quelqu’un dans ses sens, modérer, contrôler, brider, discipliner, contenir quelqu’un à ses devoirs, réprimander, exhorter sérieusement",
+        "gloss": "modérer, contrôler, brider, discipliner, réprimander, exhorter",
         "freq": 0,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4995,
@@ -34935,9 +34935,9 @@
       {
         "strongNb": 5092,
         "grec": "τιμή, ῆς, ἡ",
-        "gloss": "une valeur par laquelle un prix est fixé, les honneurs qui appartiennent ou qui sont manifestés à quelqu’un",
+        "gloss": "honneur, prix, mérite",
         "freq": 41,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5093,
@@ -35684,9 +35684,9 @@
       {
         "strongNb": 5199,
         "grec": "ὑγιής, ές",
-        "gloss": "sain, saine, rendre quelqu’un entier c’est-à-dire le restaurer dans sa santé, enseignement qui ne dévie pas de la vérité",
+        "gloss": "sain, en pleine santé",
         "freq": 11,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5200,
@@ -36258,9 +36258,9 @@
       {
         "strongNb": 5281,
         "grec": "ὑπομονή, ῆς, ἡ",
-        "gloss": "constance, persévérance, endurance, un homme patient, constant dans son attente, une patience qui endure, qui est ferme, persévérante",
+        "gloss": "persévérance, patience, fermeté, constance",
         "freq": 32,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5282,
@@ -36342,9 +36342,9 @@
       {
         "strongNb": 5293,
         "grec": "ὑποτάσσω",
-        "gloss": "disposer sous, subordonner, soumettre, mettre en soumission, se soumettre, obéir à, se soumettre au contrôle de quelqu’un, céder à un avertissement ou un conseil, obéir, être soumis, assujetti un terme militaire Grec du sens de: «placer  d’une manière militaire, sous le commandement d’un chef» Dans un sens non militaire, il y a «une attitude volontaire de donner, de coopérer, d’assumer des responsabilités, de porter une charge»",
+        "gloss": "soumettre, assujettir",
         "freq": 38,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5294,
@@ -36524,9 +36524,9 @@
       {
         "strongNb": 5319,
         "grec": "φανερόω",
-        "gloss": "rendre manifeste ou visible ou connu ce qui a été caché, manifester, que ce soit par des mots ou des faits ou toute autre manière",
+        "gloss": "apparaître, être découvert",
         "freq": 49,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5320,
@@ -36685,9 +36685,9 @@
       {
         "strongNb": 5342,
         "grec": "φέρω",
-        "gloss": "porter, supporter, c’est-à-dire endurer la rigueur d’une chose, supporter patiemment la conduite de quelqu’un, ou épargner quelqu’un, apporter, amener, avancer une chose",
+        "gloss": "porter",
         "freq": 66,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5343,
@@ -37224,9 +37224,9 @@
       {
         "strongNb": 5419,
         "grec": "φράζω",
-        "gloss": "indiquer clairement, rendre connu, déclarer, que ce soit par geste ou par écrit ou parole ou de n’importe quelle manière, expliquer",
+        "gloss": "expliquer",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5420,
@@ -37504,9 +37504,9 @@
       {
         "strongNb": 5459,
         "grec": "φωσφόρος, ον",
-        "gloss": "portant de la lumière, donnant de la lumière, la planète Vénus, l’étoile du matin, l’étoile du jour, du berger, Christ",
+        "gloss": "étoile du matin",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5460,
@@ -37532,9 +37532,9 @@
       {
         "strongNb": 5463,
         "grec": "χαίρω",
-        "gloss": "se réjouir, être heureux, être extrêmement réjoui, être bien, prospérer, dans des salutations: salut!, au commencement de lettres: donner à quelqu’un une salutation, saluer",
+        "gloss": "se réjouir, être heureux",
         "freq": 74,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5464,
@@ -37658,9 +37658,9 @@
       {
         "strongNb": 5481,
         "grec": "χαρακτήρ, ῆρος, ὁ",
-        "gloss": "l’instrument utilisé pour graver ou sculpter, la marque qui est sur cet instrument ou qu’il produit, l’empreinte",
+        "gloss": "empreinte",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5482,
@@ -37686,9 +37686,9 @@
       {
         "strongNb": 5485,
         "grec": "χάρις, ιτος, ἡ",
-        "gloss": "grâce, bonne volonté, bonté, faveur, ce qui résulte de la grâce, remerciements,, action de grâce, récompense",
+        "gloss": "grâce, remerciement, action de grâce, récompense",
         "freq": 154,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5486,
@@ -37756,9 +37756,9 @@
       {
         "strongNb": 5495,
         "grec": "χείρ, χειρός, ἡ",
-        "gloss": "avec l’aide ou l’entremise de quelqu’un, par le moyen de, figuré appliqué à Dieu pour symboliser sa puissance, son activité, son pouvoir",
+        "gloss": "main",
         "freq": 177,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5496,
@@ -37805,9 +37805,9 @@
       {
         "strongNb": 5502,
         "grec": "Χερουβίμ",
-        "gloss": "Gardiens placés à l’est d’Éden pour empêcher nos premiers parents après l’expulsion du jardin, d’atteindre l’arbre de vie Quand on construisit l’arche pour le tabernacle, deux chérubins furent disposés face à face, aux deux extrémités du propitiatoire, le couvrant de leurs ailes Ils symbolisaient la présence de l’Éternel et la distance qui le sépare de nous;sa gloire se manifestait entre les chérubins L’Écriture semble confier aux chérubins la défense de la sainteté de Dieu en face de l’inconscience de l’homme déchu",
+        "gloss": "chérubin",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5503,
@@ -37882,9 +37882,9 @@
       {
         "strongNb": 5513,
         "grec": "χλιαρός, ά, όν",
-        "gloss": "tiède, pas très chaud, la condition de l’âme qui fluctue misérablement entre la torpeur et la ferveur de l’amour",
+        "gloss": "tiède",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5514,
@@ -38162,9 +38162,9 @@
       {
         "strongNb": 5553,
         "grec": "χρυσίον, ου, τό",
-        "gloss": "or, celui qui est enfoui dans la terre, et celui qui en est extrait, celui qui a été fondu et façonné",
+        "gloss": "or",
         "freq": 11,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5554,
@@ -38176,9 +38176,9 @@
       {
         "strongNb": 5555,
         "grec": "χρυσόλιθος, ου, ὁ",
-        "gloss": "chrysolithe, pierre précieuse, faite surtout de silice et de magnésie, d’une couleur d’or, ou vert jaunâtre Elle peut être la topaze des anciens, qui était du corindon de couleur jaune",
+        "gloss": "chrysolithe",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5556,
@@ -38337,9 +38337,9 @@
       {
         "strongNb": 5578,
         "grec": "ψευδοπροφήτης, ου, ὁ",
-        "gloss": "quelqu’un qui, se faisant passer pour un prophète divinement inspiré, annonce des choses fausses, les faisant passer pour des prophéties divines, un faux prophète",
+        "gloss": "faux prophète",
         "freq": 11,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5579,
@@ -38561,9 +38561,9 @@
       {
         "strongNb": 5610,
         "grec": "ὥρα, ας, ἡ",
-        "gloss": "un certain temps défini ou saison fixée par la loi de la nature et qui revient avec une nouvelle année, l’heure du jour, un jour, la douzième partie d’une journée, une heure,, tout temps défini, un instant, un moment",
+        "gloss": "heure, moment",
         "freq": 106,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5611,
