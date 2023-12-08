@@ -170,12 +170,11 @@ export default function Home({ params }) {
               <Form.Label>Fréq. des mots dans le testament</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
-                    { text: "Étudiant raté (<1000x)", value: 1000 },
-                    { text: "Débutant (<150x)", value: 150 },
-                    { text: "Intermédiaire (<70x)", value: 70 },
-                    { text: "Connaisseur (<50x)", value: 50 },
-                    { text: "Expérimenté (<30x)", value: 30 },
-                    { text: "Expert (<10x)", value: 10 },
+                    { text: "Étudiant raté (<1000×)", value: 1000 },
+                    { text: "Débutant (<70×)", value: 70 },
+                    { text: "Intermédiaire (<50×)", value: 50 },
+                    { text: "Connaisseur (<30×)", value: 30 },
+                    { text: "Expert (<10×)", value: 10 },
                   ].map((option, id) => (
                   <option value={option.value} key={id}>{option.text}</option>
                 ))}
