@@ -1,5 +1,5 @@
 {
-  "version": "v26",
+  "version": "v27",
   "lexique": {
     "G": [
       {
@@ -8944,9 +8944,9 @@
       {
         "strongNb": 1278,
         "grec": "διαπονέομαι",
-        "gloss": "travailler laborieusement, ce qui est fait par le travail",
+        "gloss": "être fatigué, être offensé, être peiné, être mécontent",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1279,
@@ -38664,7 +38664,6 @@
         "vu": false
       }
     ],
-
     "H": [
       {
         "strongNb": 1,
