@@ -57,11 +57,11 @@ div.lexOT {
 span.lex {
   font-family: "Times New Roman";
 }
+
 div.lexNT {
   min-width: 100px;
   font-weight: bold;
   margin-left: 10px;
-  /* font-size: 25px; */
 }
 div.lexOT:hover, div.lexNT:hover {
   text-decoration: underline;

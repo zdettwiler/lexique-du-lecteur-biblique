@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal, Button, Form, Row, Col, Container } from 'react-bootstrap';
+import { Modal, Button, Form, Row, Col, Container, Spinner, Alert } from 'react-bootstrap';
 
 import styles from './Lexicon.module.css';
 
@@ -7,9 +7,13 @@ import styles from './Lexicon.module.css';
 function Lexicon({frequency, data}) {
   const [showLexiconCorrectionModal, setShowLexiconCorrectionModal] = React.useState(false);
   const [correctingWord, setCorrectingWord] = React.useState({});
+  const [isSendingCorrection, setIsSendingCorrection] = React.useState(false);
+  const [correctionStatus, setCorrectionStatus] = React.useState(false);
 
   const handleShowLexiconCorrectionModal = (word) => {
     setCorrectingWord(word);
+    setIsSendingCorrection(false);
+    setCorrectionStatus(false);
     setShowLexiconCorrectionModal(true);
   };
   const handleCloseLexiconCorrectionModal = () => setShowLexiconCorrectionModal(false);
@@ -22,6 +26,7 @@ function Lexicon({frequency, data}) {
   };
 
   async function sendLexiconCorrection() {
+    setIsSendingCorrection(true)
     console.log("sending new definition for review:", correctingWord.gloss);
 
     const response = await fetch("/api", {
@@ -38,7 +43,9 @@ function Lexicon({frequency, data}) {
       }),
     });
 
-    console.log(response.json())
+    console.log(response.status)
+    setCorrectionStatus(response.status === 201 ? true : false)
+    setIsSendingCorrection(false)
   };
 
   const styleLang = data[0].strong[0] === "G"
@@ -62,8 +69,14 @@ function Lexicon({frequency, data}) {
             Proposer une modification du mot <span className="lex">{correctingWord.lex}</span>
           </Modal.Title>
         </Modal.Header>
+
         <Modal.Body>
-          <Form>
+        { correctionStatus ? (
+            <Alert variant="success">
+              <i className="bi bi-check2"></i> Bien reçu! Merci!
+            </Alert>
+          ) :
+          (<Form>
           <Row>
             <Col>
               <Form.Group className="mb-3">
@@ -85,12 +98,21 @@ function Lexicon({frequency, data}) {
                 value={correctingWord.gloss}
                 onChange={handleCorrectingWordChange}/>
             </Form.Group>
-          </Form>
+          </Form>)
+}
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="dark" onClick={() => sendLexiconCorrection(document. querySelector('#glossInput').value)}>Envoyer</Button>
+
+        { !correctionStatus && (<Modal.Footer>
+          <Button
+            variant="dark"
+            onClick={() => sendLexiconCorrection(document. querySelector('#glossInput').value)}
+            disabled={isSendingCorrection}
+          >
+            { isSendingCorrection ? <Spinner animation="border" size="sm" /> : "Envoyer" }
+          </Button>
           <Button variant="outline-dark" onClick={handleCloseLexiconCorrectionModal}>Annuler</Button>
-        </Modal.Footer>
+        </Modal.Footer>)}
+
       </Modal>
 
       <Container className={styles.lexicon}>
