@@ -3750,7 +3750,7 @@
       {
         "strongNb": 536,
         "grec": "ἀπαρχή, ῆς, ἡ",
-        "gloss": "offrandes des premiers fruits, prémices, prélever les premiers fruits de la terre pour les offrir à Dieu La première pâte du pain sacré Ceux qui sont consacrés à Dieu pour toujours, ceux qui sont supérieurs aux autres, dans une même population",
+        "gloss": "prémices",
         "freq": 8,
         "vu": false
       },
@@ -26808,9 +26808,9 @@
       {
         "strongNb": 3931,
         "grec": "παρηγορία, ας, ἡ",
-        "gloss": "qui s’adresse à, discours",
+        "gloss": "consolation, réconfort",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3932,
@@ -36881,7 +36881,7 @@
       {
         "strongNb": 5370,
         "grec": "φίλημα, ατος, τό",
-        "gloss": "un baiser, l’action d’embrasser, le baiser par lequel, en signe d’affection fraternelle, les chrétiens avaient coutume d’accueillir ou de congédier leurs compagnons dans la foi",
+        "gloss": "un baiser",
         "freq": 7,
         "vu": false
       },
