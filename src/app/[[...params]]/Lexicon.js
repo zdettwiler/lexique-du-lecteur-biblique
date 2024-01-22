@@ -9,6 +9,7 @@ function Lexicon({frequency, data}) {
   const [correctingWord, setCorrectingWord] = React.useState({});
   const [isSendingCorrection, setIsSendingCorrection] = React.useState(false);
   const [correctionStatus, setCorrectionStatus] = React.useState(false);
+  const [validatedCorrectionForm, setValidatedCorrectionForm] = React.useState(false);
 
   const handleShowLexiconCorrectionModal = (word) => {
     setCorrectingWord(word);
@@ -23,6 +24,19 @@ function Lexicon({frequency, data}) {
       ...correctingWord,
       gloss: e.target.value
     });
+  };
+
+  const handleSubmit = (event) => {
+    let form = document.querySelector('form#correction')
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+      console.log('invalid')
+    } else {
+      console.log('valid')
+      sendLexiconCorrection();
+    }
+    setValidatedCorrectionForm(true);
   };
 
   async function sendLexiconCorrection() {
@@ -76,25 +90,25 @@ function Lexicon({frequency, data}) {
               <i className="bi bi-check2"></i> Bien reçu! Merci!
             </Alert>
           ) :
-          (<Form>
+          (<Form id="correction" validated={validatedCorrectionForm}>
           <Row>
             <Col>
               <Form.Group className="mb-3">
                 <Form.Label>Nom</Form.Label>
-                <Form.Control type="text" id="name" placeholder="Nom" />
+                <Form.Control required type="text" id="name" placeholder="Nom" />
               </Form.Group>
             </Col>
             <Col>
               <Form.Group className="mb-3">
                 <Form.Label>Adresse courriel</Form.Label>
-                <Form.Control type="email" id="email" placeholder="name@example.com" />
+                <Form.Control required type="email" id="email" placeholder="name@example.com" />
               </Form.Group>
             </Col>
           </Row>
 
             <Form.Group className="mb-3">
               <Form.Label>Modifier la définition</Form.Label>
-              <Form.Control as="textarea" id="glossInput" rows={3}
+              <Form.Control required as="textarea" id="glossInput" rows={3}
                 value={correctingWord.gloss}
                 onChange={handleCorrectingWordChange}/>
             </Form.Group>
@@ -105,7 +119,7 @@ function Lexicon({frequency, data}) {
         { !correctionStatus && (<Modal.Footer>
           <Button
             variant="dark"
-            onClick={() => sendLexiconCorrection(document. querySelector('#glossInput').value)}
+            onClick={handleSubmit}
             disabled={isSendingCorrection}
           >
             { isSendingCorrection ? <Spinner animation="border" size="sm" /> : "Envoyer" }
