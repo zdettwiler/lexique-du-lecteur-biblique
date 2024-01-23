@@ -133,7 +133,7 @@ async function createLexicon(book='Genèse', chapters='', frequency=50) {
         chapter: parseInt(word[3]),
         verse: parseInt(word[4]),
         // orig: word[5],
-        lex: word[6],
+        lex: word[6], // TODO: Replace with lex from LLB?
         strong: word[7],
         freq: parseInt(word[8]),
         gloss: searchStrongLexicon(word[7])
