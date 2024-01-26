@@ -109,10 +109,9 @@ export default function Home({ params }) {
         `}
       </Script>
 
-
-        <p className="logo">☧</p>
-        <h1 className="header">Lexique du lecteur biblique</h1>
-        <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
+      <p className="logo">☧</p>
+      <h1 className="header">Lexique du lecteur biblique</h1>
+      <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
       <Container className="p-3 pb-2 mt-5 mb-4 bg-white rounded-3">
         <Form className="mb-4">
@@ -193,11 +192,17 @@ export default function Home({ params }) {
         </Form>
 
         { !!lexicon.length && (
-          <Alert variant="light">
-            <Alert.Heading>📌 Lexique créé!</Alert.Heading>
-            <p><b>{lexicon.length}</b> des mots de <b>{book} {chapters}</b> apparaissent moins de <b>{frequency}</b> fois dans { lexicon[0].strong[0] === 'G' ? "le Nouveau Testament" : "l'Ancien Testament" }.</p>
-            <PDFLexicon frequency={frequency} data={lexicon} />
-          </Alert>
+          <>
+            <Alert variant="light">
+              <Alert.Heading>📌 Lexique créé!</Alert.Heading>
+              <p><b>{lexicon.length}</b> des mots de <b>{book} {chapters}</b> apparaissent moins de <b>{frequency}</b> fois dans { lexicon[0].strong[0] === 'G' ? "le Nouveau Testament" : "l'Ancien Testament" }.</p>
+              <PDFLexicon frequency={frequency} data={lexicon} />
+            </Alert>
+
+            <Alert variant="warning">
+            <b>Contribue au LLB!</b> Tu peux désormais proposer des améliorations pour les définitions en cliquant sur le mot. Merci d'avance!
+            </Alert>
+          </>
         )}
       </Container>
 
@@ -207,7 +212,10 @@ export default function Home({ params }) {
 
       { !!lexicon.length && (
         // <PDFLexicon frequency={frequency} data={lexicon} />
-        <Lexicon frequency={frequency} data={lexicon} />
+        <>
+
+          <Lexicon frequency={frequency} data={lexicon} />
+        </>
       )}
     </Container>
   );
