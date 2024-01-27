@@ -6,6 +6,8 @@ import styles from './Lexicon.module.css';
 
 function Lexicon({frequency, data}) {
   const [showLexiconCorrectionModal, setShowLexiconCorrectionModal] = React.useState(false);
+  const [correctorName, setCorrectorName] = React.useState("");
+  const [correctorEmail, setCorrectorEmail] = React.useState("");
   const [correctingWord, setCorrectingWord] = React.useState({});
   const [isSendingCorrection, setIsSendingCorrection] = React.useState(false);
   const [correctionStatus, setCorrectionStatus] = React.useState(false);
@@ -31,9 +33,7 @@ function Lexicon({frequency, data}) {
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
-      console.log('invalid')
     } else {
-      console.log('valid')
       sendLexiconCorrection();
     }
     setValidatedCorrectionForm(true);
@@ -47,8 +47,8 @@ function Lexicon({frequency, data}) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        name: 'Test',
-        email: 'test@test.com',
+        name: correctorName,
+        email: correctorEmail,
         book: correctingWord.book,
         chapter: correctingWord.chapter,
         verse: correctingWord.verse,
@@ -95,13 +95,19 @@ function Lexicon({frequency, data}) {
             <Col>
               <Form.Group className="mb-3">
                 <Form.Label>Nom</Form.Label>
-                <Form.Control required type="text" id="name" placeholder="Nom" />
+                <Form.Control required type="text" id="name" placeholder="Nom"
+                  value={correctorName}
+                  onChange={(e) => setCorrectorName(e.target.value)}
+                />
               </Form.Group>
             </Col>
             <Col>
               <Form.Group className="mb-3">
                 <Form.Label>Adresse courriel</Form.Label>
-                <Form.Control required type="email" id="email" placeholder="name@example.com" />
+                <Form.Control required type="email" id="email" placeholder="name@example.com"
+                  value={correctorEmail}
+                  onChange={(e) => setCorrectorEmail(e.target.value)}
+                />
               </Form.Group>
             </Col>
           </Row>
