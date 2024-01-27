@@ -1,5 +1,6 @@
 {
-  "version": "v31",
+  "version": "v32",
+  "updated": "2024-01-27",
   "lexique": {
     "G": [
       {
@@ -41671,8 +41672,8 @@
       {
         "strongNb": 430,
         "hebreu": "אֱלוֹהִים",
-        "gloss": "juges, divinités, anges, dieux",
-        "vu": false,
+        "gloss": "Dieu, dieux, juges, divinités, anges",
+        "vu": true,
         "freq": 2598
       },
       {
@@ -63007,14 +63008,14 @@
       {
         "strongNb": 3478,
         "hebreu": "יִשׂרָאֵל",
-        "gloss": "le second nom de Jacob donné par Dieu après qu’il eut lutté avec l’ange à Peniel",
+        "gloss": "Israël",
         "vu": false,
         "freq": 2506
       },
       {
         "strongNb": 3479,
         "hebreu": "יִשׂרָאֵל",
-        "gloss": "le second nom de Jacob que lui a donné Dieu après son combat avec l’ange à Peniel",
+        "gloss": "Israël",
         "vu": false,
         "freq": 8
       },
@@ -63497,7 +63498,7 @@
       {
         "strongNb": 3548,
         "hebreu": "כּוֹהֵן",
-        "gloss": "sacrificateur, intendant principal, ministre d’état",
+        "gloss": "prêtre, sacrificateur",
         "vu": false,
         "freq": 750
       },
@@ -82152,7 +82153,7 @@
       {
         "strongNb": 6213,
         "hebreu": "עָשָׂה",
-        "gloss": "Faire, façonner, accomplir, fabriquer",
+        "gloss": "faire, façonner, accomplir, fabriquer",
         "vu": false,
         "freq": 2630
       },
