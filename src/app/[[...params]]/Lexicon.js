@@ -57,8 +57,7 @@ function Lexicon({frequency, data}) {
       }),
     });
 
-    console.log(response.status)
-    setCorrectionStatus(response.status === 201 ? true : false)
+    setCorrectionStatus(response.status)
     setIsSendingCorrection(false)
   };
 
@@ -85,32 +84,40 @@ function Lexicon({frequency, data}) {
         </Modal.Header>
 
         <Modal.Body>
-        { correctionStatus ? (
-            <Alert variant="success">
-              <i className="bi bi-check2"></i> Bien reçu! Merci!
-            </Alert>
-          ) :
-          (<Form id="correction" validated={validatedCorrectionForm}>
-          <Row>
-            <Col>
-              <Form.Group className="mb-3">
-                <Form.Label>Nom</Form.Label>
-                <Form.Control required type="text" id="name" placeholder="Nom"
-                  value={correctorName}
-                  onChange={(e) => setCorrectorName(e.target.value)}
-                />
-              </Form.Group>
-            </Col>
-            <Col>
-              <Form.Group className="mb-3">
-                <Form.Label>Adresse courriel</Form.Label>
-                <Form.Control required type="email" id="email" placeholder="name@example.com"
-                  value={correctorEmail}
-                  onChange={(e) => setCorrectorEmail(e.target.value)}
-                />
-              </Form.Group>
-            </Col>
-          </Row>
+        { correctionStatus === 201 && (
+          <Alert variant="success">
+            <i className="bi bi-check2"></i> Bien reçu! Merci!
+          </Alert>
+        )}
+
+        { correctionStatus === 500 && (
+          <Alert variant="danger">
+            <i className="bi bi-x-lg"></i> Oups! Ça n'a pas marché...
+          </Alert>
+        )}
+
+        { !correctionStatus && (
+          <Form id="correction" validated={validatedCorrectionForm}>
+            <Row>
+              <Col>
+                <Form.Group className="mb-3">
+                  <Form.Label>Nom</Form.Label>
+                  <Form.Control required type="text" id="name" placeholder="Nom"
+                    value={correctorName}
+                    onChange={(e) => setCorrectorName(e.target.value)}
+                  />
+                </Form.Group>
+              </Col>
+              <Col>
+                <Form.Group className="mb-3">
+                  <Form.Label>Adresse courriel</Form.Label>
+                  <Form.Control required type="email" id="email" placeholder="name@example.com"
+                    value={correctorEmail}
+                    onChange={(e) => setCorrectorEmail(e.target.value)}
+                  />
+                </Form.Group>
+              </Col>
+            </Row>
 
             <Form.Group className="mb-3">
               <Form.Label>Modifier la définition</Form.Label>
@@ -118,8 +125,9 @@ function Lexicon({frequency, data}) {
                 value={correctingWord.gloss}
                 onChange={handleCorrectingWordChange}/>
             </Form.Group>
-          </Form>)
-}
+          </Form>
+        )}
+
         </Modal.Body>
 
         { !correctionStatus && (<Modal.Footer>

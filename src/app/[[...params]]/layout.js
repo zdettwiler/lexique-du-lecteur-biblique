@@ -4,7 +4,7 @@ import LLB from "./LexiqueBibliqueFrancais.json";
 
 export const metadata = {
   title: 'Lexique du lecteur biblique',
-  description: 'Crée un lexique pour le livre que tu veux étudier avec les mots dont tu as besoin.',
+  description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
 }
 
 export default function RootLayout({ children }) {
