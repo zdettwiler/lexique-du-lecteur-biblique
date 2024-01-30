@@ -200,7 +200,7 @@ export default function Home({ params }) {
             </Alert>
 
             <Alert variant="warning">
-            <b>Contribuez au LLB!</b> Vous pouvez désormais proposer des améliorations pour les définitions en cliquant sur le mot. Merci d'avance!
+            <b>🚧 Contribuez au LLB!</b> Vous pouvez désormais proposer des améliorations pour les définitions en cliquant sur le mot. Merci d'avance!
             </Alert>
           </>
         )}
