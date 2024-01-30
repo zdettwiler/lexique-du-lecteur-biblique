@@ -41,9 +41,8 @@ function Lexicon({frequency, data}) {
 
   async function sendLexiconCorrection() {
     setIsSendingCorrection(true)
-    console.log("sending new definition for review:", correctingWord.gloss);
 
-    const response = await fetch("/api", {
+    const response = await fetch("/api/feedback", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -86,7 +85,7 @@ function Lexicon({frequency, data}) {
         <Modal.Body>
         { correctionStatus === 201 && (
           <Alert variant="success">
-            <i className="bi bi-check2"></i> Bien reçu! Merci!
+            <i className="bi bi-check2"></i> Bien reçu! Merci pour votre conversation au LLB!
           </Alert>
         )}
 
