@@ -63,9 +63,9 @@ div.lexNT {
   font-weight: bold;
   margin-left: 10px;
 }
-div.lexOT:hover, div.lexNT:hover {
-  text-decoration: underline;
+div.lexOT span:hover, div.lexNT span:hover {
   cursor: pointer;
+  background-color: #fff3cd;
 }
 div.freq {
   width: 35px;
