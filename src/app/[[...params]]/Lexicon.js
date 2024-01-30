@@ -105,6 +105,7 @@ function Lexicon({frequency, data}) {
                   <Form.Control required type="text" id="name" placeholder="Nom"
                     value={correctorName}
                     onChange={(e) => setCorrectorName(e.target.value)}
+                    disabled={isSendingCorrection}
                   />
                 </Form.Group>
               </Col>
@@ -114,6 +115,7 @@ function Lexicon({frequency, data}) {
                   <Form.Control required type="email" id="email" placeholder="name@example.com"
                     value={correctorEmail}
                     onChange={(e) => setCorrectorEmail(e.target.value)}
+                    disabled={isSendingCorrection}
                   />
                 </Form.Group>
               </Col>
@@ -123,7 +125,9 @@ function Lexicon({frequency, data}) {
               <Form.Label>Modifier la définition</Form.Label>
               <Form.Control required as="textarea" id="glossInput" rows={3}
                 value={correctingWord.gloss}
-                onChange={handleCorrectingWordChange}/>
+                onChange={handleCorrectingWordChange}
+                disabled={isSendingCorrection}
+              />
             </Form.Group>
           </Form>
         )}
