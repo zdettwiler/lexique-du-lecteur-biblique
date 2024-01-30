@@ -85,7 +85,7 @@ function Lexicon({frequency, data}) {
         <Modal.Body>
         { correctionStatus === 201 && (
           <Alert variant="success">
-            <i className="bi bi-check2"></i> Bien reçu! Merci pour votre conversation au LLB!
+            <i className="bi bi-check2"></i> Bien reçu! Merci pour votre contribution au LLB!
           </Alert>
         )}
 
