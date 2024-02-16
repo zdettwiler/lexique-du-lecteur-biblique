@@ -1,6 +1,6 @@
 {
-  "version": "v32",
-  "updated": "2024-01-27",
+  "version": "v33",
+  "updated": "2024-01-31",
   "lexique": {
     "G": [
       {
@@ -4213,9 +4213,9 @@
       {
         "strongNb": 602,
         "grec": "ἀποκάλυψις, εως, ἡ",
-        "gloss": "mettre à nu, révélation d’une vérité, instruction, manifestation, apparence",
+        "gloss": "révélation, manifestation",
         "freq": 18,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 603,
@@ -22700,9 +22700,9 @@
       {
         "strongNb": 3344,
         "grec": "μεταστρέφω",
-        "gloss": "se retourner, renverser",
+        "gloss": "changer, renverser",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3345,
@@ -22714,9 +22714,9 @@
       {
         "strongNb": 3346,
         "grec": "μετατίθημι",
-        "gloss": "transposer",
+        "gloss": "être transporté, se détourner, être changé, être enlevé",
         "freq": 6,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3347,

@@ -1,6 +1,6 @@
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LLB from "./LexiqueBibliqueFrancais.json";
+import LLB from "./LLB.json";
 
 export const metadata = {
   title: 'Lexique du lecteur biblique',
