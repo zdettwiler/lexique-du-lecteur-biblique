@@ -1,6 +1,6 @@
 {
-  "version": "v34",
-  "updated": "2024-02-16",
+  "version": "v35",
+  "updated": "2024-02-19",
   "lexique": {
     "G": [
       {
@@ -2967,9 +2967,9 @@
       {
         "strongNb": 424,
         "grec": "ἀνέρχομαι",
-        "gloss": "monter, aller vers un haut lieu: à Jérusalem",
+        "gloss": "monter",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 425,
@@ -4213,9 +4213,9 @@
       {
         "strongNb": 602,
         "grec": "ἀποκάλυψις, εως, ἡ",
-        "gloss": "mettre à nu, révélation d’une vérité, instruction, manifestation, apparence",
+        "gloss": "révélation, manifestation",
         "freq": 18,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 603,
@@ -19760,9 +19760,9 @@
       {
         "strongNb": 2824,
         "grec": "κλίμα, ατος, τό",
-        "gloss": "une inclinaison, une pente, une déclivité, l’inclinaison de la terre de l’équateur vers les pôles, une zone, une portion de territoire, une région",
+        "gloss": "district, région, contrée",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2825,
@@ -44115,8 +44115,8 @@
       {
         "strongNb": 779,
         "hebreu": "אָרַר",
-        "gloss": "malédiction",
-        "vu": false,
+        "gloss": "maudire",
+        "vu": true,
         "freq": 63
       },
       {
@@ -45375,8 +45375,8 @@
       {
         "strongNb": 959,
         "hebreu": "בָּזָה",
-        "gloss": "mépriser, dédain",
-        "vu": false,
+        "gloss": "mépriser, dédaigner",
+        "vu": true,
         "freq": 44
       },
       {
