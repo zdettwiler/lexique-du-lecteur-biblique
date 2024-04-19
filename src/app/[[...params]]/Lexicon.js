@@ -171,9 +171,11 @@ function Lexicon({frequency, data}) {
                 {chapHeading}
                   <div className={styles.wordEntry}>
                     <div className={styles.verseNb}>{verseIndicator}</div>
-                    <div className={styleLang} onClick={() => handleShowLexiconCorrectionModal(word)}><span>{word.lex}</span></div>
+                    <div className={styleLang} onClick={() => handleShowLexiconCorrectionModal(word)}>
+                      <span>{word.lex}</span>
+                    </div>
                     <div className={styles.freq}>({word.freq})</div>
-                    <div className={styles.gloss}>{word.gloss}</div>
+                    <div className={styles.gloss} dangerouslySetInnerHTML={{ __html: word.gloss }}></div>
                   </div>
               </div>
             )

@@ -137,6 +137,16 @@ async function createLexicon(book='Genèse', chapters='', frequency=50) {
         strong: word[7],
         freq: parseInt(word[8]),
         gloss: searchStrongLexicon(word[7])
+          .replaceAll('(Qal)', '<i>(Qal)</i>')
+          .replaceAll('(Nifal)', '<i>(Nifal)</i>')
+          .replaceAll('(Piel)', '<i>(Piel)</i>')
+          .replaceAll('(Hifil)', '<i>(Hifil)</i>')
+          .replaceAll('(Hofal)', '<i>(Hofal)</i>')
+          .replaceAll('(Hifil)', '<i>(Hifil)</i>')
+          .replaceAll('(moyen)', '<i>(moyen)</i>')
+          .replaceAll('(passif)', '<i>(passif)</i>')
+          .replaceAll('(participe)', '<i>(participe)</i>')
+          .replaceAll('(pluriel)', '<i>(pluriel)</i>')
       })
     }
 
