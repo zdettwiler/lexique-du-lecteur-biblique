@@ -81,7 +81,8 @@ const bookOptions = [
 
 function searchStrongLexicon(strong) {
   const word = LLB.lexique[strong[0]].find(entry => entry.strongNb === parseInt(strong.slice(1)));
-  return word ? word.gloss.split(', ').slice(0,5).join(', ') : '?';
+  // return word ? word.gloss.split(', ').slice(0,5).join(', ') : '?';
+  return word ? word.gloss : '?';
 }
 
 function makeChapterArray(chapterString) {
