@@ -61,12 +61,15 @@ button.clear-chapters-input-button:active {
 
 
 footer {
-  height: 200px;
+  /* height: 250px; */
   text-align: center;
   margin-top: 20px;
   font-size: 12px;
   background-color: #FAFAFA;
   padding: 50px;
+}
+footer .sources {
+  font-size: 12px;
 }
 footer a {
   color: gray;

@@ -78,7 +78,7 @@ function Lexicon({frequency, data}) {
       >
         <Modal.Header closeButton onHide={handleCloseLexiconCorrectionModal}>
           <Modal.Title id="contained-modal-title-vcenter">
-            Proposer une modification du mot <span className="lex">{correctingWord.lex}</span>
+            Proposer une modification du mot <span className="lex">{correctingWord.lex}</span> ({correctingWord.strong})
           </Modal.Title>
         </Modal.Header>
 

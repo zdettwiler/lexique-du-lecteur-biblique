@@ -12,7 +12,7 @@ Le lexique **hébreu-français** est un recoupement:
 
 Le lexique **grec-français** est un recoupement:
 - du texte biblique de la [THGNT](https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT);
-- et du lexique Strong en français collecté chez [emcitv](https://emcitv.com/bible/strong-biblique-grec.html).
+- et du lexique de R. Pigeon publié chez [Bibles et Publications Chrétiennes](https://editeurbpc.com).
 
 Les lexiques sont ensuite modifiés au fur et à mesure de leur utilisation et des corrections des utilisateurs.
 
