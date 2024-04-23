@@ -79,7 +79,7 @@ const bookOptions = [
   { value: "Apocalypse", label: "Apocalypse" },
 ]
 
-function searchStrongLexicon(strong) {
+function getLLBGloss(strong) {
   const word = LLB.lexique[strong[0]].find(entry => entry.strongNb === parseInt(strong.slice(1)));
   // return word ? word.gloss.split(', ').slice(0,5).join(', ') : '?';
   return word ? word.gloss : '?';
@@ -118,26 +118,31 @@ async function createLexicon(book='Genèse', chapters='', frequency=50) {
 
   let lexicon = rawData.reduce((words, currentWord) => {
     let word = currentWord.split(',');
+    const w = {
+      index: parseInt(word[0]),
+      book: word[1],
+      chapter: parseInt(word[2]),
+      verse: parseInt(word[3]),
+      // orig: word[4],
+      lex: word[5], // TODO: Replace with lex from LLB?
+      strong: word[6], // TODO: LLB uses H/G before strong number?
+      freq: parseInt(word[7]),
+    }
 
     let isSameWordInVerse = words.find(lexiconWord =>
-      lexiconWord.chapter === parseInt(word[3])
-      && lexiconWord.verse === parseInt(word[4])
-      && lexiconWord.strong === word[7]
+      lexiconWord.chapter === w.chapter
+      && lexiconWord.verse === w.verse
+      && lexiconWord.strong === w.strong
     );
 
+    // console.log(parseInt(word[7]))
+
     if (!isSameWordInVerse
-    && parseInt(word[8]) <= frequency
-    && (!chapterArray.length || (!!chapterArray.length && chapterArray.includes(parseInt(word[3]))))) {
+    && w.freq <= frequency
+    && (!chapterArray.length || (!!chapterArray.length && chapterArray.includes(w.chapter)))) {
       words.push({
-        // id: word[0],
-        book: word[2],
-        chapter: parseInt(word[3]),
-        verse: parseInt(word[4]),
-        // orig: word[5],
-        lex: word[6], // TODO: Replace with lex from LLB?
-        strong: word[7],
-        freq: parseInt(word[8]),
-        gloss: searchStrongLexicon(word[7])
+        ...w,
+        gloss: getLLBGloss(w.strong) // TODO: LLB uses H/G before strong number?
       })
     }
 

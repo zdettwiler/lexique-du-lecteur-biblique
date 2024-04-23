@@ -1,1683 +1,1208 @@
-,bhsa2021_word_n,book,chapter,verse,orig,lex,strong,freq
-357597,357598,Cantique des Cantiques,1,1,שִׁ֥יר ,שִׁיר,H7892,76
-357598,357599,Cantique des Cantiques,1,1,הַ,הַ,H9009,30386
-357599,357600,Cantique des Cantiques,1,1,שִּׁירִ֖ים ,שִׁיר,H7892,76
-357600,357601,Cantique des Cantiques,1,1,אֲשֶׁ֥ר ,אֲשֶׁר,H834,5500
-357601,357602,Cantique des Cantiques,1,1,לִ,לְ,H9005,20069
-357602,357603,Cantique des Cantiques,1,1,שְׁלֹמֹֽה׃ ,שְׁלֹמֹה,H8010,293
-357603,357604,Cantique des Cantiques,1,2,יִשָּׁקֵ֨נִי֙ ,נשׁק,H5401,32
-357604,357605,Cantique des Cantiques,1,2,מִ,מִן,H4480,7562
-357605,357606,Cantique des Cantiques,1,2,נְּשִׁיקֹ֣ות ,נְשִׁיקָה,H5390,2
-357606,357607,Cantique des Cantiques,1,2,פִּ֔יהוּ ,פֶּה,H6310,498
-357607,357608,Cantique des Cantiques,1,2,כִּֽי־,כִּי,H3588,4483
-357608,357609,Cantique des Cantiques,1,2,טֹובִ֥ים ,טֹוב,H2896,469
-357609,357610,Cantique des Cantiques,1,2,דֹּדֶ֖יךָ ,דֹּוד,H1730,61
-357610,357611,Cantique des Cantiques,1,2,מִ,מִן,H4480,7562
-357611,357612,Cantique des Cantiques,1,2,יָּֽיִן׃ ,יַיִן,H3196,141
-357612,357613,Cantique des Cantiques,1,3,לְ,לְ,H9005,20069
-357613,357614,Cantique des Cantiques,1,3,רֵ֨יחַ֙ ,רֵיחַ,H7381,58
-357614,357615,Cantique des Cantiques,1,3,שְׁמָנֶ֣יךָ ,שֶׁמֶן,H8081,191
-357615,357616,Cantique des Cantiques,1,3,טֹובִ֔ים ,טֹוב,H2896,469
-357616,357617,Cantique des Cantiques,1,3,שֶׁ֖מֶן ,שֶׁמֶן,H8081,191
-357617,357618,Cantique des Cantiques,1,3,תּוּרַ֣ק ,ריק,H7324,19
-357618,357619,Cantique des Cantiques,1,3,שְׁמֶ֑ךָ ,שֵׁם,H8034,864
-357619,357620,Cantique des Cantiques,1,3,עַל־,עַל,H5921,5766
-357620,357621,Cantique des Cantiques,1,3,כֵּ֖ן ,כֵּן,H3651,546
-357621,357622,Cantique des Cantiques,1,3,עֲלָמֹ֥ות ,עַלְמָה,H5959,9
-357622,357623,Cantique des Cantiques,1,3,אֲהֵבֽוּךָ׃ ,אהב,H157,211
-357623,357624,Cantique des Cantiques,1,4,מָשְׁכֵ֖נִי ,משׁך,H4900,36
-357624,357625,Cantique des Cantiques,1,4,אַחֲרֶ֣יךָ ,אַחַר,H310,715
-357625,357626,Cantique des Cantiques,1,4,נָּר֑וּצָה ,רוץ,H7323,104
-357626,357627,Cantique des Cantiques,1,4,הֱבִיאַ֨נִי ,בוא,H935,2570
-357627,357628,Cantique des Cantiques,1,4,הַ,הַ,H9009,30386
-357628,357629,Cantique des Cantiques,1,4,מֶּ֜לֶךְ ,מֶלֶךְ,H4428,2523
-357629,357630,Cantique des Cantiques,1,4,חֲדָרָ֗יו ,חֶדֶר,H2315,38
-357630,357631,Cantique des Cantiques,1,4,נָגִ֤ילָה ,גיל,H1523,45
-357631,357632,Cantique des Cantiques,1,4,וְ,וְ,H9000,50272
-357632,357633,Cantique des Cantiques,1,4,נִשְׂמְחָה֙ ,שׂמח,H8055,154
-357633,357634,Cantique des Cantiques,1,4,בָּ֔ךְ ,בְּ,H9003,15542
-357634,357635,Cantique des Cantiques,1,4,נַזְכִּ֤ירָה ,זכר,H2142,231
-357635,357636,Cantique des Cantiques,1,4,דֹדֶ֨יךָ֙ ,דֹּוד,H1730,61
-357636,357637,Cantique des Cantiques,1,4,מִ,מִן,H4480,7562
-357637,357638,Cantique des Cantiques,1,4,יַּ֔יִן ,יַיִן,H3196,141
-357638,357639,Cantique des Cantiques,1,4,מֵישָׁרִ֖ים ,מֵישָׁרִים,H4339,19
-357639,357640,Cantique des Cantiques,1,4,אֲהֵבֽוּךָ׃ ס ,אהב,H157,211
-357640,357641,Cantique des Cantiques,1,5,שְׁחֹורָ֤ה ,שָׁחֹר,H7838,6
-357641,357642,Cantique des Cantiques,1,5,אֲנִי֙ ,אֲנִי,H589,874
-357642,357643,Cantique des Cantiques,1,5,וְֽ,וְ,H9000,50272
-357643,357644,Cantique des Cantiques,1,5,נָאוָ֔ה ,נָאוֶה,H5000,9
-357644,357645,Cantique des Cantiques,1,5,בְּנֹ֖ות ,בַּת,H1323,588
-357645,357646,Cantique des Cantiques,1,5,יְרוּשָׁלִָ֑ם ,יְרוּשָׁלִַם,H3389,643
-357646,357647,Cantique des Cantiques,1,5,כְּ,כְּ,H9004,2902
-357647,357648,Cantique des Cantiques,1,5,אָהֳלֵ֣י ,אֹהֶל,H168,345
-357648,357649,Cantique des Cantiques,1,5,קֵדָ֔ר ,קֵדָר,H6938,12
-357649,357650,Cantique des Cantiques,1,5,כִּ,כְּ,H9004,2902
-357650,357651,Cantique des Cantiques,1,5,ירִיעֹ֖ות ,יְרִיעָה,H3407,54
-357651,357652,Cantique des Cantiques,1,5,שְׁלֹמֹֽה׃ ,שְׁלֹמֹה,H8010,293
-357652,357653,Cantique des Cantiques,1,6,אַל־,אַל,H408,726
-357653,357654,Cantique des Cantiques,1,6,תִּרְא֨וּנִי֙ ,ראה,H7200,1298
-357654,357655,Cantique des Cantiques,1,6,שֶׁ,שַׁ,H7945,138
-357655,357656,Cantique des Cantiques,1,6,אֲנִ֣י ,אֲנִי,H589,874
-357656,357657,Cantique des Cantiques,1,6,שְׁחַרְחֹ֔רֶת ,שְׁחַרְחֹר,H7840,1
-357657,357658,Cantique des Cantiques,1,6,שֶׁ,שַׁ,H7945,138
-357658,357659,Cantique des Cantiques,1,6,שֱּׁזָפַ֖תְנִי ,שׁזף,H7805,3
-357659,357660,Cantique des Cantiques,1,6,הַ,הַ,H9009,30386
-357660,357661,Cantique des Cantiques,1,6,שָּׁ֑מֶשׁ ,שֶׁמֶשׁ,H8121,135
-357661,357662,Cantique des Cantiques,1,6,בְּנֵ֧י ,בֵּן,H1121,4937
-357662,357663,Cantique des Cantiques,1,6,אִמִּ֣י ,אֵם,H517,220
-357663,357664,Cantique des Cantiques,1,6,נִֽחֲרוּ־,נחר,H2787,1
-357664,357665,Cantique des Cantiques,1,6,בִ֗י ,בְּ,H9003,15542
-357665,357666,Cantique des Cantiques,1,6,שָׂמֻ֨נִי֙ ,שׂים,H7760,583
-357666,357667,Cantique des Cantiques,1,6,נֹטֵרָ֣ה ,נטר,H5201,4
-357667,357668,Cantique des Cantiques,1,6,אֶת־,אֵת,H853,10987
-357668,357669,Cantique des Cantiques,1,6,הַ,הַ,H9009,30386
-357669,357670,Cantique des Cantiques,1,6,כְּרָמִ֔ים ,כֶּרֶם,H3754,92
-357670,357671,Cantique des Cantiques,1,6,כַּרְמִ֥י ,כֶּרֶם,H3754,92
-357671,357672,Cantique des Cantiques,1,6,שֶׁ,שַׁ,H7945,138
-357672,357673,Cantique des Cantiques,1,6,לִּ֖י ,לְ,H9005,20069
-357673,357674,Cantique des Cantiques,1,6,לֹ֥א ,לֹא,H3808,5167
-357674,357675,Cantique des Cantiques,1,6,נָטָֽרְתִּי׃ ,נטר,H5201,4
-357675,357676,Cantique des Cantiques,1,7,הַגִּ֣ידָה ,נגד,H5046,370
-357676,357677,Cantique des Cantiques,1,7,לִּ֗י ,לְ,H9005,20069
-357677,357678,Cantique des Cantiques,1,7,שֶׁ֤,שַׁ,H7945,138
-357678,357679,Cantique des Cantiques,1,7,אָהֲבָה֙ ,אהב,H157,211
-357679,357680,Cantique des Cantiques,1,7,נַפְשִׁ֔י ,נֶפֶשׁ,H5315,754
-357680,357681,Cantique des Cantiques,1,7,אֵיכָ֣ה ,אֵיכָה,H349,17
-357681,357682,Cantique des Cantiques,1,7,תִרְעֶ֔ה ,רעה,H7462,168
-357682,357683,Cantique des Cantiques,1,7,אֵיכָ֖ה ,אֵיכָה,H349,17
-357683,357684,Cantique des Cantiques,1,7,תַּרְבִּ֣יץ ,רבץ,H7257,30
-357684,357685,Cantique des Cantiques,1,7,בַּֽ,בְּ,H9003,15542
-357685,357686,Cantique des Cantiques,1,7,,הַ,H9009,30386
-357686,357687,Cantique des Cantiques,1,7,צָּהֳרָ֑יִם ,צָהֳרַיִם,H6672,23
-357687,357688,Cantique des Cantiques,1,7,שַׁ,שַׁ,H7945,138
-357688,357689,Cantique des Cantiques,1,7,לָּמָ֤ה ,לָמָה,H4100,178
-357689,357690,Cantique des Cantiques,1,7,אֶֽהְיֶה֙ ,היה,H1961,3561
-357690,357691,Cantique des Cantiques,1,7,כְּ,כְּ,H9004,2902
-357691,357692,Cantique des Cantiques,1,7,עֹ֣טְיָ֔ה ,עטה,H5844,13
-357692,357693,Cantique des Cantiques,1,7,עַ֖ל ,עַל,H5921,5766
-357693,357694,Cantique des Cantiques,1,7,עֶדְרֵ֥י ,עֵדֶר,H5739,38
-357694,357695,Cantique des Cantiques,1,7,חֲבֵרֶֽיךָ׃ ,חָבֵר,H2270,12
-357695,357696,Cantique des Cantiques,1,8,אִם־,אִם,H518,1068
-357696,357697,Cantique des Cantiques,1,8,לֹ֤א ,לֹא,H3808,5167
-357697,357698,Cantique des Cantiques,1,8,תֵדְעִי֙ ,ידע,H3045,944
-357698,357699,Cantique des Cantiques,1,8,לָ֔ךְ ,לְ,H9005,20069
-357699,357700,Cantique des Cantiques,1,8,הַ,הַ,H9009,30386
-357700,357701,Cantique des Cantiques,1,8,יָּפָ֖ה ,יָפֶה,H3303,43
-357701,357702,Cantique des Cantiques,1,8,בַּ,בְּ,H9003,15542
-357702,357703,Cantique des Cantiques,1,8,,הַ,H9009,30386
-357703,357704,Cantique des Cantiques,1,8,נָּשִׁ֑ים ,אִשָּׁה,H802,781
-357704,357705,Cantique des Cantiques,1,8,צְֽאִי־,יצא,H3318,1068
-357705,357706,Cantique des Cantiques,1,8,לָ֞ךְ ,לְ,H9005,20069
-357706,357707,Cantique des Cantiques,1,8,בְּ,בְּ,H9003,15542
-357707,357708,Cantique des Cantiques,1,8,עִקְבֵ֣י ,עָקֵב,H6119,14
-357708,357709,Cantique des Cantiques,1,8,הַ,הַ,H9009,30386
-357709,357710,Cantique des Cantiques,1,8,צֹּ֗אן ,צֹאן,H6629,274
-357710,357711,Cantique des Cantiques,1,8,וּ,וְ,H9000,50272
-357711,357712,Cantique des Cantiques,1,8,רְעִי֙ ,רעה,H7462,168
-357712,357713,Cantique des Cantiques,1,8,אֶת־,אֵת,H853,10987
-357713,357714,Cantique des Cantiques,1,8,גְּדִיֹּתַ֔יִךְ ,גְּדִיָּה,H1429,1
-357714,357715,Cantique des Cantiques,1,8,עַ֖ל ,עַל,H5921,5766
-357715,357716,Cantique des Cantiques,1,8,מִשְׁכְּנֹ֥ות ,מִשְׁכָּן,H4908,139
-357716,357717,Cantique des Cantiques,1,8,הָ,הַ,H9009,30386
-357717,357718,Cantique des Cantiques,1,8,רֹעִֽים׃ ס ,רעה,H7462,168
-357718,357719,Cantique des Cantiques,1,9,לְ,לְ,H9005,20069
-357719,357720,Cantique des Cantiques,1,9,סֻסָתִי֙ ,סוּסָה,H5484,1
-357720,357721,Cantique des Cantiques,1,9,בְּ,בְּ,H9003,15542
-357721,357722,Cantique des Cantiques,1,9,רִכְבֵ֣י ,רֶכֶב,H7393,119
-357722,357723,Cantique des Cantiques,1,9,פַרְעֹ֔ה ,פַּרְעֹה,H6547,274
-357723,357724,Cantique des Cantiques,1,9,דִּמִּיתִ֖יךְ ,דמה,H1819,29
-357724,357725,Cantique des Cantiques,1,9,רַעְיָתִֽי׃ ,רַעְיָה,H7474,9
-357725,357726,Cantique des Cantiques,1,10,נָאו֤וּ ,נאה,H4998,3
-357726,357727,Cantique des Cantiques,1,10,לְחָיַ֨יִךְ֙ ,לְחִי,H3895,21
-357727,357728,Cantique des Cantiques,1,10,בַּ,בְּ,H9003,15542
-357728,357729,Cantique des Cantiques,1,10,,הַ,H9009,30386
-357729,357730,Cantique des Cantiques,1,10,תֹּרִ֔ים ,תֹּור,H8447,5
-357730,357731,Cantique des Cantiques,1,10,צַוָּארֵ֖ךְ ,צַוָּאר,H6677,41
-357731,357732,Cantique des Cantiques,1,10,בַּ,בְּ,H9003,15542
-357732,357733,Cantique des Cantiques,1,10,,הַ,H9009,30386
-357733,357734,Cantique des Cantiques,1,10,חֲרוּזִֽים׃ ,חֲרוּזִים,H2737,1
-357734,357735,Cantique des Cantiques,1,11,תֹּורֵ֤י ,תֹּור,H8447,5
-357735,357736,Cantique des Cantiques,1,11,זָהָב֙ ,זָהָב,H2091,389
-357736,357737,Cantique des Cantiques,1,11,נַעֲשֶׂה־,עשׂה,H6213,2629
-357737,357738,Cantique des Cantiques,1,11,לָּ֔ךְ ,לְ,H9005,20069
-357738,357739,Cantique des Cantiques,1,11,עִ֖ם ,עִם,H5973,1049
-357739,357740,Cantique des Cantiques,1,11,נְקֻדֹּ֥ות ,נְקֻדָּה,H5351,1
-357740,357741,Cantique des Cantiques,1,11,הַ,הַ,H9009,30386
-357741,357742,Cantique des Cantiques,1,11,כָּֽסֶף׃ ,כֶּסֶף,H3701,403
-357742,357743,Cantique des Cantiques,1,12,עַד־,עַד,H5704,1263
-357743,357744,Cantique des Cantiques,1,12,שֶׁ֤,שַׁ,H4428,138
-357744,357745,Cantique des Cantiques,1,12,הַ,הַ,H9009,30386
-357745,357746,Cantique des Cantiques,1,12,מֶּ֨לֶךְ֙ ,מֶלֶךְ,H4428,2523
-357746,357747,Cantique des Cantiques,1,12,בִּ,בְּ,H9003,15542
-357747,357748,Cantique des Cantiques,1,12,מְסִבֹּ֔ו ,מֵסַב,H4524,4
-357748,357749,Cantique des Cantiques,1,12,נִרְדִּ֖י ,נֵרְדְּ,H5373,3
-357749,357750,Cantique des Cantiques,1,12,נָתַ֥ן ,נתן,H5414,2010
-357750,357751,Cantique des Cantiques,1,12,רֵיחֹֽו׃ ,רֵיחַ,H7381,58
-357751,357752,Cantique des Cantiques,1,13,צְרֹ֨ור ,צְרֹור,H6872,7
-357752,357753,Cantique des Cantiques,1,13,הַ,הַ,H9009,30386
-357753,357754,Cantique des Cantiques,1,13,מֹּ֤ר׀ ,מֹר,H4753,12
-357754,357755,Cantique des Cantiques,1,13,דֹּודִי֙ ,דֹּוד,H1730,61
-357755,357756,Cantique des Cantiques,1,13,לִ֔י ,לְ,H9005,20069
-357756,357757,Cantique des Cantiques,1,13,בֵּ֥ין ,בַּיִן,H996,407
-357757,357758,Cantique des Cantiques,1,13,שָׁדַ֖י ,שַׁד,H7699,21
-357758,357759,Cantique des Cantiques,1,13,יָלִֽין׃ ,לין,H3885,70
-357759,357760,Cantique des Cantiques,1,14,אֶשְׁכֹּ֨ל ,אֶשְׁכֹּול,H811,9
-357760,357761,Cantique des Cantiques,1,14,הַ,הַ,H9009,30386
-357761,357762,Cantique des Cantiques,1,14,כֹּ֤פֶר׀ ,כֹּפֶר,H3724,3
-357762,357763,Cantique des Cantiques,1,14,דֹּודִי֙ ,דֹּוד,H1730,61
-357763,357764,Cantique des Cantiques,1,14,לִ֔י ,לְ,H9005,20069
-357764,357765,Cantique des Cantiques,1,14,בְּ,בְּ,H9003,15542
-357765,357766,Cantique des Cantiques,1,14,כַרְמֵ֖י ,כֶּרֶם,H3754,92
-357766,357767,Cantique des Cantiques,1,14,עֵ֥ין גֶּֽדִי׃ ס ,עֵין גֶּדִי,H5872,6
-357767,357768,Cantique des Cantiques,1,15,הִנָּ֤ךְ ,הִנֵּה,H2005,1060
-357768,357769,Cantique des Cantiques,1,15,יָפָה֙ ,יָפֶה,H3303,43
-357769,357770,Cantique des Cantiques,1,15,רַעְיָתִ֔י ,רַעְיָה,H7474,9
-357770,357771,Cantique des Cantiques,1,15,הִנָּ֥ךְ ,הִנֵּה,H2005,1060
-357771,357772,Cantique des Cantiques,1,15,יָפָ֖ה ,יָפֶה,H3303,43
-357772,357773,Cantique des Cantiques,1,15,עֵינַ֥יִךְ ,עַיִן,H5869,887
-357773,357774,Cantique des Cantiques,1,15,יֹונִֽים׃ ,יֹונָה,H3123,32
-357774,357775,Cantique des Cantiques,1,16,הִנְּךָ֙ ,הִנֵּה,H2005,1060
-357775,357776,Cantique des Cantiques,1,16,יָפֶ֤ה ,יָפֶה,H3303,43
-357776,357777,Cantique des Cantiques,1,16,דֹודִי֙ ,דֹּוד,H1730,61
-357777,357778,Cantique des Cantiques,1,16,אַ֣ף ,אַף,H637,133
-357778,357779,Cantique des Cantiques,1,16,נָעִ֔ים ,נָעִים,H5273,13
-357779,357780,Cantique des Cantiques,1,16,אַף־,אַף,H637,133
-357780,357781,Cantique des Cantiques,1,16,עַרְשֵׂ֖נוּ ,עֶרֶשׂ,H6210,10
-357781,357782,Cantique des Cantiques,1,16,רַעֲנָנָֽה׃ ,רַעֲנָן,H7488,19
-357782,357783,Cantique des Cantiques,1,17,קֹרֹ֤ות ,קֹורָה,H6982,5
-357783,357784,Cantique des Cantiques,1,17,בָּתֵּ֨ינוּ֙ ,בַּיִת,H1004,2063
-357784,357785,Cantique des Cantiques,1,17,אֲרָזִ֔ים ,אֶרֶז,H730,73
-357785,357786,Cantique des Cantiques,1,17,<QR>רַהִיטֵ֖נוּ <qr>,רָהִיט,H7351,1
-357786,357787,Cantique des Cantiques,1,17,בְּרֹותִֽים׃ ,בְּרֹות,H1266,1
-357787,357788,Cantique des Cantiques,2,1,אֲנִי֙ ,אֲנִי,H589,874
-357788,357789,Cantique des Cantiques,2,1,חֲבַצֶּ֣לֶת ,חֲבַצֶּלֶת,H2261,2
-357789,357790,Cantique des Cantiques,2,1,הַ,הַ,H9009,30386
-357790,357791,Cantique des Cantiques,2,1,שָּׁרֹ֔ון ,שָׁרֹון,H8289,7
-357791,357792,Cantique des Cantiques,2,1,שֹֽׁושַׁנַּ֖ת ,שׁוּשַׁן,H7799,17
-357792,357793,Cantique des Cantiques,2,1,הָ,הַ,H9009,30386
-357793,357794,Cantique des Cantiques,2,1,עֲמָקִֽים׃ ,עֵמֶק,H6010,69
-357794,357795,Cantique des Cantiques,2,2,כְּ,כְּ,H9004,2902
-357795,357796,Cantique des Cantiques,2,2,שֹֽׁושַׁנָּה֙ ,שׁוּשַׁן,H7799,17
-357796,357797,Cantique des Cantiques,2,2,בֵּ֣ין ,בַּיִן,H996,407
-357797,357798,Cantique des Cantiques,2,2,הַ,הַ,H9009,30386
-357798,357799,Cantique des Cantiques,2,2,חֹוחִ֔ים ,חֹוחַ,H2336,11
-357799,357800,Cantique des Cantiques,2,2,כֵּ֥ן ,כֵּן,H3651,546
-357800,357801,Cantique des Cantiques,2,2,רַעְיָתִ֖י ,רַעְיָה,H7474,9
-357801,357802,Cantique des Cantiques,2,2,בֵּ֥ין ,בַּיִן,H996,407
-357802,357803,Cantique des Cantiques,2,2,הַ,הַ,H9009,30386
-357803,357804,Cantique des Cantiques,2,2,בָּנֹֽות׃ ,בַּת,H1323,588
-357804,357805,Cantique des Cantiques,2,3,כְּ,כְּ,H9004,2902
-357805,357806,Cantique des Cantiques,2,3,תַפּ֨וּחַ֙ ,תַּפּוּחַ,H8598,6
-357806,357807,Cantique des Cantiques,2,3,בַּ,בְּ,H9003,15542
-357807,357808,Cantique des Cantiques,2,3,עֲצֵ֣י ,עֵץ,H6086,330
-357808,357809,Cantique des Cantiques,2,3,הַ,הַ,H9009,30386
-357809,357810,Cantique des Cantiques,2,3,יַּ֔עַר ,יַעַר,H3293,55
-357810,357811,Cantique des Cantiques,2,3,כֵּ֥ן ,כֵּן,H3651,546
-357811,357812,Cantique des Cantiques,2,3,דֹּודִ֖י ,דֹּוד,H1730,61
-357812,357813,Cantique des Cantiques,2,3,בֵּ֣ין ,בַּיִן,H996,407
-357813,357814,Cantique des Cantiques,2,3,הַ,הַ,H9009,30386
-357814,357815,Cantique des Cantiques,2,3,בָּנִ֑ים ,בֵּן,H1121,4937
-357815,357816,Cantique des Cantiques,2,3,בְּ,בְּ,H9003,15542
-357816,357817,Cantique des Cantiques,2,3,צִלֹּו֙ ,צֵל,H6738,53
-357817,357818,Cantique des Cantiques,2,3,חִמַּ֣דְתִּי ,חמד,H2530,21
-357818,357819,Cantique des Cantiques,2,3,וְ,וְ,H9000,50272
-357819,357820,Cantique des Cantiques,2,3,יָשַׁ֔בְתִּי ,ישׁב,H3427,1082
-357820,357821,Cantique des Cantiques,2,3,וּ,וְ,H9000,50272
-357821,357822,Cantique des Cantiques,2,3,פִרְיֹ֖ו ,פְּרִי,H6529,119
-357822,357823,Cantique des Cantiques,2,3,מָתֹ֥וק ,מָתֹוק,H4966,12
-357823,357824,Cantique des Cantiques,2,3,לְ,לְ,H9005,20069
-357824,357825,Cantique des Cantiques,2,3,חִכִּֽי׃ ,חֵךְ,H2441,18
-357825,357826,Cantique des Cantiques,2,4,הֱבִיאַ֨נִי֙ ,בוא,H935,2570
-357826,357827,Cantique des Cantiques,2,4,אֶל־,אֶל,H413,5517
-357827,357828,Cantique des Cantiques,2,4,בֵּ֣ית ,בַּיִת,H1004,2063
-357828,357829,Cantique des Cantiques,2,4,הַ,הַ,H9009,30386
-357829,357830,Cantique des Cantiques,2,4,יָּ֔יִן ,יַיִן,H3196,141
-357830,357831,Cantique des Cantiques,2,4,וְ,וְ,H9000,50272
-357831,357832,Cantique des Cantiques,2,4,דִגְלֹ֥ו ,דֶּגֶל,H1714,14
-357832,357833,Cantique des Cantiques,2,4,עָלַ֖י ,עַל,H5921,5766
-357833,357834,Cantique des Cantiques,2,4,אַהֲבָֽה׃ ,אֲהָבָה,H160,36
-357834,357835,Cantique des Cantiques,2,5,סַמְּכ֨וּנִי֙ ,סמך,H5564,48
-357835,357836,Cantique des Cantiques,2,5,בָּֽ,בְּ,H9003,15542
-357836,357837,Cantique des Cantiques,2,5,,הַ,H9009,30386
-357837,357838,Cantique des Cantiques,2,5,אֲשִׁישֹׁ֔ות ,אֲשִׁישָׁה,H809,5
-357838,357839,Cantique des Cantiques,2,5,רַפְּד֖וּנִי ,רפד,H7502,3
-357839,357840,Cantique des Cantiques,2,5,בַּ,בְּ,H9003,15542
-357840,357841,Cantique des Cantiques,2,5,,הַ,H9009,30386
-357841,357842,Cantique des Cantiques,2,5,תַּפּוּחִ֑ים ,תַּפּוּחַ,H8598,6
-357842,357843,Cantique des Cantiques,2,5,כִּי־,כִּי,H3588,4483
-357843,357844,Cantique des Cantiques,2,5,חֹולַ֥ת ,חלה,H2470,75
-357844,357845,Cantique des Cantiques,2,5,אַהֲבָ֖ה ,אֲהָבָה,H160,36
-357845,357846,Cantique des Cantiques,2,5,אָֽנִי׃ ,אֲנִי,H589,874
-357846,357847,Cantique des Cantiques,2,6,שְׂמֹאלֹו֙ ,שְׂמֹאל,H8040,54
-357847,357848,Cantique des Cantiques,2,6,תַּ֣חַת ,תַּחַת,H8478,505
-357848,357849,Cantique des Cantiques,2,6,לְ,לְ,H9005,20069
-357849,357850,Cantique des Cantiques,2,6,רֹאשִׁ֔י ,רֹאשׁ,H7218,599
-357850,357851,Cantique des Cantiques,2,6,וִ,וְ,H9000,50272
-357851,357852,Cantique des Cantiques,2,6,ימִינֹ֖ו ,יָמִין,H3225,139
-357852,357853,Cantique des Cantiques,2,6,תְּחַבְּקֵֽנִי׃ ,חבק,H2263,13
-357853,357854,Cantique des Cantiques,2,7,הִשְׁבַּ֨עְתִּי ,שׁבע,H7650,185
-357854,357855,Cantique des Cantiques,2,7,אֶתְכֶ֜ם ,אֵת,H853,10987
-357855,357856,Cantique des Cantiques,2,7,בְּנֹ֤ות ,בַּת,H1323,588
-357856,357857,Cantique des Cantiques,2,7,יְרוּשָׁלִַ֨ם֙ ,יְרוּשָׁלִַם,H3389,643
-357857,357858,Cantique des Cantiques,2,7,בִּ,בְּ,H9003,15542
-357858,357859,Cantique des Cantiques,2,7,צְבָאֹ֔ות ,צְבָאָה,H6643,2
-357859,357860,Cantique des Cantiques,2,7,אֹ֖ו ,אֹו,H176,320
-357860,357861,Cantique des Cantiques,2,7,בְּ,בְּ,H9003,15542
-357861,357862,Cantique des Cantiques,2,7,אַיְלֹ֣ות ,אַיָּלָה,H355,8
-357862,357863,Cantique des Cantiques,2,7,הַ,הַ,H9009,30386
-357863,357864,Cantique des Cantiques,2,7,שָּׂדֶ֑ה ,שָׂדֶה,H7704,320
-357864,357865,Cantique des Cantiques,2,7,אִם־,אִם,H518,1068
-357865,357866,Cantique des Cantiques,2,7,תָּעִ֧ירוּ׀ ,עור,H5782,80
-357866,357867,Cantique des Cantiques,2,7,וְֽ,וְ,H9000,50272
-357867,357868,Cantique des Cantiques,2,7,אִם־,אִם,H518,1068
-357868,357869,Cantique des Cantiques,2,7,תְּעֹֽורְר֛וּ ,עור,H5782,80
-357869,357870,Cantique des Cantiques,2,7,אֶת־,אֵת,H853,10987
-357870,357871,Cantique des Cantiques,2,7,הָ,הַ,H9009,30386
-357871,357872,Cantique des Cantiques,2,7,אַהֲבָ֖ה ,אֲהָבָה,H160,36
-357872,357873,Cantique des Cantiques,2,7,עַ֥ד ,עַד,H5704,1263
-357873,357874,Cantique des Cantiques,2,7,שֶׁ,שַׁ,H2654,138
-357874,357875,Cantique des Cantiques,2,7,תֶּחְפָּֽץ׃ ס ,חפץ,H2654,77
-357875,357876,Cantique des Cantiques,2,8,קֹ֣ול ,קֹול,H6963,505
-357876,357877,Cantique des Cantiques,2,8,דֹּודִ֔י ,דֹּוד,H1730,61
-357877,357878,Cantique des Cantiques,2,8,הִנֵּה־,הִנֵּה,H2009,1060
-357878,357879,Cantique des Cantiques,2,8,זֶ֖ה ,זֶה,H2088,1177
-357879,357880,Cantique des Cantiques,2,8,בָּ֑א ,בוא,H935,2570
-357880,357881,Cantique des Cantiques,2,8,מְדַלֵּג֙ ,דלג,H1801,5
-357881,357882,Cantique des Cantiques,2,8,עַל־,עַל,H5921,5766
-357882,357883,Cantique des Cantiques,2,8,הֶ֣,הַ,H9009,30386
-357883,357884,Cantique des Cantiques,2,8,הָרִ֔ים ,הַר,H2022,558
-357884,357885,Cantique des Cantiques,2,8,מְקַפֵּ֖ץ ,קפץ,H7092,7
-357885,357886,Cantique des Cantiques,2,8,עַל־,עַל,H5921,5766
-357886,357887,Cantique des Cantiques,2,8,הַ,הַ,H9009,30386
-357887,357888,Cantique des Cantiques,2,8,גְּבָעֹֽות׃ ,גִּבְעָה,H1389,79
-357888,357889,Cantique des Cantiques,2,9,דֹּומֶ֤ה ,דמה,H1819,29
-357889,357890,Cantique des Cantiques,2,9,דֹודִי֙ ,דֹּוד,H1730,61
-357890,357891,Cantique des Cantiques,2,9,לִ,לְ,H9005,20069
-357891,357892,Cantique des Cantiques,2,9,צְבִ֔י ,צְבִי,H6643,11
-357892,357893,Cantique des Cantiques,2,9,אֹ֖ו ,אֹו,H176,320
-357893,357894,Cantique des Cantiques,2,9,לְ,לְ,H9005,20069
-357894,357895,Cantique des Cantiques,2,9,עֹ֣פֶר ,עֹפֶר,H6082,5
-357895,357896,Cantique des Cantiques,2,9,הָֽ,הַ,H9009,30386
-357896,357897,Cantique des Cantiques,2,9,אַיָּלִ֑ים ,אַיָּל,H354,11
-357897,357898,Cantique des Cantiques,2,9,הִנֵּה־,הִנֵּה,H2009,1060
-357898,357899,Cantique des Cantiques,2,9,זֶ֤ה ,זֶה,H2088,1177
-357899,357900,Cantique des Cantiques,2,9,עֹומֵד֙ ,עמד,H5975,521
-357900,357901,Cantique des Cantiques,2,9,אַחַ֣ר ,אַחַר,H310,715
-357901,357902,Cantique des Cantiques,2,9,כָּתְלֵ֔נוּ ,כֹּתֶל,H3796,1
-357902,357903,Cantique des Cantiques,2,9,מַשְׁגִּ֨יחַ֙ ,שׁגח,H7688,3
-357903,357904,Cantique des Cantiques,2,9,מִן־,מִן,H4480,7562
-357904,357905,Cantique des Cantiques,2,9,הַֽ,הַ,H9009,30386
-357905,357906,Cantique des Cantiques,2,9,חֲלֹּנֹ֔ות ,חַלֹּון,H2474,31
-357906,357907,Cantique des Cantiques,2,9,מֵצִ֖יץ ,צוץ,H6692,1
-357907,357908,Cantique des Cantiques,2,9,מִן־,מִן,H4480,7562
-357908,357909,Cantique des Cantiques,2,9,הַֽ,הַ,H9009,30386
-357909,357910,Cantique des Cantiques,2,9,חֲרַכִּֽים׃ ,חֲרַכִּים,H2762,1
-357910,357911,Cantique des Cantiques,2,10,עָנָ֥ה ,ענה,H6030,316
-357911,357912,Cantique des Cantiques,2,10,דֹודִ֖י ,דֹּוד,H1730,61
-357912,357913,Cantique des Cantiques,2,10,וְ,וְ,H9000,50272
-357913,357914,Cantique des Cantiques,2,10,אָ֣מַר ,אמר,H559,5307
-357914,357915,Cantique des Cantiques,2,10,לִ֑י ,לְ,H9005,20069
-357915,357916,Cantique des Cantiques,2,10,ק֥וּמִי ,קום,H6965,629
-357916,357917,Cantique des Cantiques,2,10,לָ֛ךְ ,לְ,H9005,20069
-357917,357918,Cantique des Cantiques,2,10,רַעְיָתִ֥י ,רַעְיָה,H7474,9
-357918,357919,Cantique des Cantiques,2,10,יָפָתִ֖י ,יָפֶה,H3303,43
-357919,357920,Cantique des Cantiques,2,10,וּ,וְ,H9000,50272
-357920,357921,Cantique des Cantiques,2,10,לְכִי־,הלך,H1980,1547
-357921,357922,Cantique des Cantiques,2,10,לָֽךְ׃ ,לְ,H9005,20069
-357922,357923,Cantique des Cantiques,2,11,כִּֽי־,כִּי,H3588,4483
-357923,357924,Cantique des Cantiques,2,11,הִנֵּ֥ה ,הִנֵּה,H2009,1060
-357924,357925,Cantique des Cantiques,2,11,<QR>הַ<qr>,הַ,H9009,30386
-357925,357926,Cantique des Cantiques,2,11,<QR>סְּתָ֖יו <qr>,סְתָו,H5638,1
-357926,357927,Cantique des Cantiques,2,11,עָבָ֑ר ,עבר,H5674,548
-357927,357928,Cantique des Cantiques,2,11,הַ,הַ,H9009,30386
-357928,357929,Cantique des Cantiques,2,11,גֶּ֕שֶׁם ,גֶּשֶׁם,H1653,35
-357929,357930,Cantique des Cantiques,2,11,חָלַ֖ף ,חלף,H2498,26
-357930,357931,Cantique des Cantiques,2,11,הָלַ֥ךְ ,הלך,H1980,1547
-357931,357932,Cantique des Cantiques,2,11,לֹֽו׃ ,לְ,H9005,20069
-357932,357933,Cantique des Cantiques,2,12,הַ,הַ,H9009,30386
-357933,357934,Cantique des Cantiques,2,12,נִּצָּנִים֙ ,נִצָּן,H5339,1
-357934,357935,Cantique des Cantiques,2,12,נִרְא֣וּ ,ראה,H7200,1298
-357935,357936,Cantique des Cantiques,2,12,בָ,בְּ,H9003,15542
-357936,357937,Cantique des Cantiques,2,12,,הַ,H9009,30386
-357937,357938,Cantique des Cantiques,2,12,אָ֔רֶץ ,אֶרֶץ,H776,2504
-357938,357939,Cantique des Cantiques,2,12,עֵ֥ת ,עֵת,H6256,297
-357939,357940,Cantique des Cantiques,2,12,הַ,הַ,H9009,30386
-357940,357941,Cantique des Cantiques,2,12,זָּמִ֖יר ,זָמִיר,H2158,1
-357941,357942,Cantique des Cantiques,2,12,הִגִּ֑יעַ ,נגע,H5060,150
-357942,357943,Cantique des Cantiques,2,12,וְ,וְ,H9000,50272
-357943,357944,Cantique des Cantiques,2,12,קֹ֥ול ,קֹול,H6963,505
-357944,357945,Cantique des Cantiques,2,12,הַ,הַ,H9009,30386
-357945,357946,Cantique des Cantiques,2,12,תֹּ֖ור ,תֹּור,H8449,14
-357946,357947,Cantique des Cantiques,2,12,נִשְׁמַ֥ע ,שׁמע,H8085,1159
-357947,357948,Cantique des Cantiques,2,12,בְּ,בְּ,H9003,15542
-357948,357949,Cantique des Cantiques,2,12,אַרְצֵֽנוּ׃ ,אֶרֶץ,H776,2504
-357949,357950,Cantique des Cantiques,2,13,הַ,הַ,H9009,30386
-357950,357951,Cantique des Cantiques,2,13,תְּאֵנָה֙ ,תְּאֵנָה,H8384,39
-357951,357952,Cantique des Cantiques,2,13,חָֽנְטָ֣ה ,חנט,H2590,4
-357952,357953,Cantique des Cantiques,2,13,פַגֶּ֔יהָ ,פַּג,H6291,1
-357953,357954,Cantique des Cantiques,2,13,וְ,וְ,H9000,50272
-357954,357955,Cantique des Cantiques,2,13,הַ,הַ,H9009,30386
-357955,357956,Cantique des Cantiques,2,13,גְּפָנִ֥ים׀ ,גֶּפֶן,H1612,55
-357956,357957,Cantique des Cantiques,2,13,סְמָדַ֖ר ,סְמָדַר,H5563,3
-357957,357958,Cantique des Cantiques,2,13,נָ֣תְנוּ ,נתן,H5414,2010
-357958,357959,Cantique des Cantiques,2,13,רֵ֑יחַ ,רֵיחַ,H7381,58
-357959,357960,Cantique des Cantiques,2,13,ק֥וּמִי ,קום,H6965,629
-357960,357961,Cantique des Cantiques,2,13,<QR>לָ֛ךְ <qr>,לְ,H1980,20069
-357961,357962,Cantique des Cantiques,2,13,רַעְיָתִ֥י ,רַעְיָה,H7474,9
-357962,357963,Cantique des Cantiques,2,13,יָפָתִ֖י ,יָפֶה,H3303,43
-357963,357964,Cantique des Cantiques,2,13,וּ,וְ,H9000,50272
-357964,357965,Cantique des Cantiques,2,13,לְכִי־,הלך,H1980,1547
-357965,357966,Cantique des Cantiques,2,13,לָֽךְ׃ ס ,לְ,H9005,20069
-357966,357967,Cantique des Cantiques,2,14,יֹונָתִ֞י ,יֹונָה,H3123,32
-357967,357968,Cantique des Cantiques,2,14,בְּ,בְּ,H9003,15542
-357968,357969,Cantique des Cantiques,2,14,חַגְוֵ֣י ,חָגוּ,H2288,3
-357969,357970,Cantique des Cantiques,2,14,הַ,הַ,H9009,30386
-357970,357971,Cantique des Cantiques,2,14,סֶּ֗לַע ,סֶלַע,H5553,60
-357971,357972,Cantique des Cantiques,2,14,בְּ,בְּ,H9003,15542
-357972,357973,Cantique des Cantiques,2,14,סֵ֨תֶר֙ ,סֵתֶר,H5643,35
-357973,357974,Cantique des Cantiques,2,14,הַ,הַ,H9009,30386
-357974,357975,Cantique des Cantiques,2,14,מַּדְרֵגָ֔ה ,מַדְרֵגָה,H4095,2
-357975,357976,Cantique des Cantiques,2,14,הַרְאִ֨ינִי֙ ,ראה,H7200,1298
-357976,357977,Cantique des Cantiques,2,14,אֶת־,אֵת,H853,10987
-357977,357978,Cantique des Cantiques,2,14,מַרְאַ֔יִךְ ,מַרְאֶה,H4758,103
-357978,357979,Cantique des Cantiques,2,14,הַשְׁמִיעִ֖ינִי ,שׁמע,H8085,1159
-357979,357980,Cantique des Cantiques,2,14,אֶת־,אֵת,H853,10987
-357980,357981,Cantique des Cantiques,2,14,קֹולֵ֑ךְ ,קֹול,H6963,505
-357981,357982,Cantique des Cantiques,2,14,כִּי־,כִּי,H3588,4483
-357982,357983,Cantique des Cantiques,2,14,קֹולֵ֥ךְ ,קֹול,H6963,505
-357983,357984,Cantique des Cantiques,2,14,עָרֵ֖ב ,עָרֵב,H6156,2
-357984,357985,Cantique des Cantiques,2,14,וּ,וְ,H9000,50272
-357985,357986,Cantique des Cantiques,2,14,מַרְאֵ֥יךְ ,מַרְאֶה,H4758,103
-357986,357987,Cantique des Cantiques,2,14,נָאוֶֽה׃ ס ,נָאוֶה,H5000,9
-357987,357988,Cantique des Cantiques,2,15,אֶֽחֱזוּ־,אחז,H270,65
-357988,357989,Cantique des Cantiques,2,15,לָ֨נוּ֙ ,לְ,H9005,20069
-357989,357990,Cantique des Cantiques,2,15,שֽׁוּעָלִ֔ים ,שׁוּעָל,H7776,7
-357990,357991,Cantique des Cantiques,2,15,שֽׁוּעָלִ֥ים ,שׁוּעָל,H7776,7
-357991,357992,Cantique des Cantiques,2,15,קְטַנִּ֖ים ,קָטָן,H6996,47
-357992,357993,Cantique des Cantiques,2,15,מְחַבְּלִ֣ים ,חבל,H2254,11
-357993,357994,Cantique des Cantiques,2,15,כְּרָמִ֑ים ,כֶּרֶם,H3754,92
-357994,357995,Cantique des Cantiques,2,15,וּ,וְ,H9000,50272
-357995,357996,Cantique des Cantiques,2,15,כְרָמֵ֖ינוּ ,כֶּרֶם,H3754,92
-357996,357997,Cantique des Cantiques,2,15,סְמָדַֽר׃ ,סְמָדַר,H5563,3
-357997,357998,Cantique des Cantiques,2,16,דֹּודִ֥י ,דֹּוד,H1730,61
-357998,357999,Cantique des Cantiques,2,16,לִי֙ ,לְ,H9005,20069
-357999,358000,Cantique des Cantiques,2,16,וַ,וְ,H9000,50272
-358000,358001,Cantique des Cantiques,2,16,אֲנִ֣י ,אֲנִי,H589,874
-358001,358002,Cantique des Cantiques,2,16,לֹ֔ו ,לְ,H9005,20069
-358002,358003,Cantique des Cantiques,2,16,הָ,הַ,H9009,30386
-358003,358004,Cantique des Cantiques,2,16,רֹעֶ֖ה ,רעה,H7462,168
-358004,358005,Cantique des Cantiques,2,16,בַּ,בְּ,H9003,15542
-358005,358006,Cantique des Cantiques,2,16,,הַ,H9009,30386
-358006,358007,Cantique des Cantiques,2,16,שֹּׁושַׁנִּֽים׃ ,שׁוּשַׁן,H7799,17
-358007,358008,Cantique des Cantiques,2,17,עַ֤ד ,עַד,H5704,1263
-358008,358009,Cantique des Cantiques,2,17,שֶׁ,שַׁ,H6315,138
-358009,358010,Cantique des Cantiques,2,17,יָּפ֨וּחַ֙ ,פוח,H6315,3
-358010,358011,Cantique des Cantiques,2,17,הַ,הַ,H9009,30386
-358011,358012,Cantique des Cantiques,2,17,יֹּ֔ום ,יֹום,H3117,2304
-358012,358013,Cantique des Cantiques,2,17,וְ,וְ,H9000,50272
-358013,358014,Cantique des Cantiques,2,17,נָ֖סוּ ,נוס,H5127,159
-358014,358015,Cantique des Cantiques,2,17,הַ,הַ,H9009,30386
-358015,358016,Cantique des Cantiques,2,17,צְּלָלִ֑ים ,צֵל,H6752,53
-358016,358017,Cantique des Cantiques,2,17,סֹב֩ ,סבב,H5437,161
-358017,358018,Cantique des Cantiques,2,17,דְּמֵה־,דמה,H1819,29
-358018,358019,Cantique des Cantiques,2,17,לְךָ֙ ,לְ,H9005,20069
-358019,358020,Cantique des Cantiques,2,17,דֹודִ֜י ,דֹּוד,H1730,61
-358020,358021,Cantique des Cantiques,2,17,לִ,לְ,H9005,20069
-358021,358022,Cantique des Cantiques,2,17,צְבִ֗י ,צְבִי,H6643,11
-358022,358023,Cantique des Cantiques,2,17,אֹ֛ו ,אֹו,H176,320
-358023,358024,Cantique des Cantiques,2,17,לְ,לְ,H9005,20069
-358024,358025,Cantique des Cantiques,2,17,עֹ֥פֶר ,עֹפֶר,H6082,5
-358025,358026,Cantique des Cantiques,2,17,הָ,הַ,H9009,30386
-358026,358027,Cantique des Cantiques,2,17,אַיָּלִ֖ים ,אַיָּל,H354,11
-358027,358028,Cantique des Cantiques,2,17,עַל־,עַל,H5921,5766
-358028,358029,Cantique des Cantiques,2,17,הָ֥רֵי ,הַר,H2022,558
-358029,358030,Cantique des Cantiques,2,17,בָֽתֶר׃ ס ,בֶּתֶר,H1335,1
-358030,358031,Cantique des Cantiques,3,1,עַל־,עַל,H5921,5766
-358031,358032,Cantique des Cantiques,3,1,מִשְׁכָּבִי֙ ,מִשְׁכָּב,H4904,46
-358032,358033,Cantique des Cantiques,3,1,בַּ,בְּ,H9003,15542
-358033,358034,Cantique des Cantiques,3,1,,הַ,H9009,30386
-358034,358035,Cantique des Cantiques,3,1,לֵּילֹ֔ות ,לַיְלָה,H3915,227
-358035,358036,Cantique des Cantiques,3,1,בִּקַּ֕שְׁתִּי ,בקשׁ,H1245,225
-358036,358037,Cantique des Cantiques,3,1,אֵ֥ת ,אֵת,H853,10987
-358037,358038,Cantique des Cantiques,3,1,שֶׁ,שַׁ,H157,138
-358038,358039,Cantique des Cantiques,3,1,אָהֲבָ֖ה ,אהב,H157,211
-358039,358040,Cantique des Cantiques,3,1,נַפְשִׁ֑י ,נֶפֶשׁ,H5315,754
-358040,358041,Cantique des Cantiques,3,1,בִּקַּשְׁתִּ֖יו ,בקשׁ,H1245,225
-358041,358042,Cantique des Cantiques,3,1,וְ,וְ,H9000,50272
-358042,358043,Cantique des Cantiques,3,1,לֹ֥א ,לֹא,H3808,5167
-358043,358044,Cantique des Cantiques,3,1,מְצָאתִֽיו׃ ,מצא,H4672,453
-358044,358045,Cantique des Cantiques,3,2,אָק֨וּמָה ,קום,H6965,629
-358045,358046,Cantique des Cantiques,3,2,נָּ֜א ,נָא,H4994,404
-358046,358047,Cantique des Cantiques,3,2,וַ,וְ,H9000,50272
-358047,358048,Cantique des Cantiques,3,2,אֲסֹובְבָ֣ה ,סבב,H5437,161
-358048,358049,Cantique des Cantiques,3,2,בָ,בְּ,H9003,15542
-358049,358050,Cantique des Cantiques,3,2,,הַ,H9009,30386
-358050,358051,Cantique des Cantiques,3,2,עִ֗יר ,עִיר,H5892,1090
-358051,358052,Cantique des Cantiques,3,2,בַּ,בְּ,H9003,15542
-358052,358053,Cantique des Cantiques,3,2,,הַ,H9009,30386
-358053,358054,Cantique des Cantiques,3,2,שְּׁוָקִים֙ ,שׁוּק,H7784,4
-358054,358055,Cantique des Cantiques,3,2,וּ,וְ,H9000,50272
-358055,358056,Cantique des Cantiques,3,2,בָ֣,בְּ,H9003,15542
-358056,358057,Cantique des Cantiques,3,2,,הַ,H9009,30386
-358057,358058,Cantique des Cantiques,3,2,רְחֹבֹ֔ות ,רְחֹב,H7339,43
-358058,358059,Cantique des Cantiques,3,2,אֲבַקְשָׁ֕ה ,בקשׁ,H1245,225
-358059,358060,Cantique des Cantiques,3,2,אֵ֥ת ,אֵת,H853,10987
-358060,358061,Cantique des Cantiques,3,2,שֶׁ,שַׁ,H157,138
-358061,358062,Cantique des Cantiques,3,2,אָהֲבָ֖ה ,אהב,H157,211
-358062,358063,Cantique des Cantiques,3,2,נַפְשִׁ֑י ,נֶפֶשׁ,H5315,754
-358063,358064,Cantique des Cantiques,3,2,בִּקַּשְׁתִּ֖יו ,בקשׁ,H1245,225
-358064,358065,Cantique des Cantiques,3,2,וְ,וְ,H9000,50272
-358065,358066,Cantique des Cantiques,3,2,לֹ֥א ,לֹא,H3808,5167
-358066,358067,Cantique des Cantiques,3,2,מְצָאתִֽיו׃ ,מצא,H4672,453
-358067,358068,Cantique des Cantiques,3,3,מְצָא֨וּנִי֙ ,מצא,H4672,453
-358068,358069,Cantique des Cantiques,3,3,הַ,הַ,H9009,30386
-358069,358070,Cantique des Cantiques,3,3,שֹּׁ֣מְרִ֔ים ,שׁמר,H8104,468
-358070,358071,Cantique des Cantiques,3,3,הַ,הַ,H9009,30386
-358071,358072,Cantique des Cantiques,3,3,סֹּבְבִ֖ים ,סבב,H5437,161
-358072,358073,Cantique des Cantiques,3,3,בָּ,בְּ,H9003,15542
-358073,358074,Cantique des Cantiques,3,3,,הַ,H9009,30386
-358074,358075,Cantique des Cantiques,3,3,עִ֑יר ,עִיר,H5892,1090
-358075,358076,Cantique des Cantiques,3,3,אֵ֛ת ,אֵת,H853,10987
-358076,358077,Cantique des Cantiques,3,3,שֶׁ,שַׁ,H157,138
-358077,358078,Cantique des Cantiques,3,3,אָהֲבָ֥ה ,אהב,H157,211
-358078,358079,Cantique des Cantiques,3,3,נַפְשִׁ֖י ,נֶפֶשׁ,H5315,754
-358079,358080,Cantique des Cantiques,3,3,רְאִיתֶֽם׃ ,ראה,H7200,1298
-358080,358081,Cantique des Cantiques,3,4,כִּ,כְּ,H9004,2902
-358081,358082,Cantique des Cantiques,3,4,מְעַט֙ ,מְעַט,H4592,101
-358082,358083,Cantique des Cantiques,3,4,שֶׁ,שַׁ,H7945,138
-358083,358084,Cantique des Cantiques,3,4,עָבַ֣רְתִּי ,עבר,H5674,548
-358084,358085,Cantique des Cantiques,3,4,מֵהֶ֔ם ,מִן,H1992,7562
-358085,358086,Cantique des Cantiques,3,4,עַ֣ד ,עַד,H5704,1263
-358086,358087,Cantique des Cantiques,3,4,שֶֽׁ,שַׁ,H7945,138
-358087,358088,Cantique des Cantiques,3,4,מָּצָ֔אתִי ,מצא,H4672,453
-358088,358089,Cantique des Cantiques,3,4,אֵ֥ת ,אֵת,H853,10987
-358089,358090,Cantique des Cantiques,3,4,שֶׁ,שַׁ,H7945,138
-358090,358091,Cantique des Cantiques,3,4,אָהֲבָ֖ה ,אהב,H157,211
-358091,358092,Cantique des Cantiques,3,4,נַפְשִׁ֑י ,נֶפֶשׁ,H5315,754
-358092,358093,Cantique des Cantiques,3,4,אֲחַזְתִּיו֙ ,אחז,H270,65
-358093,358094,Cantique des Cantiques,3,4,וְ,וְ,H9000,50272
-358094,358095,Cantique des Cantiques,3,4,לֹ֣א ,לֹא,H3808,5167
-358095,358096,Cantique des Cantiques,3,4,אַרְפֶּ֔נּוּ ,רפה,H7503,48
-358096,358097,Cantique des Cantiques,3,4,עַד־,עַד,H5704,1263
-358097,358098,Cantique des Cantiques,3,4,שֶׁ֤,שַׁ,H7945,138
-358098,358099,Cantique des Cantiques,3,4,הֲבֵיאתִיו֙ ,בוא,H935,2570
-358099,358100,Cantique des Cantiques,3,4,אֶל־,אֶל,H413,5517
-358100,358101,Cantique des Cantiques,3,4,בֵּ֣ית ,בַּיִת,H1004,2063
-358101,358102,Cantique des Cantiques,3,4,אִמִּ֔י ,אֵם,H517,220
-358102,358103,Cantique des Cantiques,3,4,וְ,וְ,H9000,50272
-358103,358104,Cantique des Cantiques,3,4,אֶל־,אֶל,H413,5517
-358104,358105,Cantique des Cantiques,3,4,חֶ֖דֶר ,חֶדֶר,H2315,38
-358105,358106,Cantique des Cantiques,3,4,הֹורָתִֽי׃ ,הרה,H2029,43
-358106,358107,Cantique des Cantiques,3,5,הִשְׁבַּ֨עְתִּי ,שׁבע,H7650,185
-358107,358108,Cantique des Cantiques,3,5,אֶתְכֶ֜ם ,אֵת,H853,10987
-358108,358109,Cantique des Cantiques,3,5,בְּנֹ֤ות ,בַּת,H1323,588
-358109,358110,Cantique des Cantiques,3,5,יְרוּשָׁלִַ֨ם֙ ,יְרוּשָׁלִַם,H3389,643
-358110,358111,Cantique des Cantiques,3,5,בִּ,בְּ,H9003,15542
-358111,358112,Cantique des Cantiques,3,5,צְבָאֹ֔ות ,צְבָאָה,H6643,2
-358112,358113,Cantique des Cantiques,3,5,אֹ֖ו ,אֹו,H176,320
-358113,358114,Cantique des Cantiques,3,5,בְּ,בְּ,H9003,15542
-358114,358115,Cantique des Cantiques,3,5,אַיְלֹ֣ות ,אַיָּלָה,H355,8
-358115,358116,Cantique des Cantiques,3,5,הַ,הַ,H9009,30386
-358116,358117,Cantique des Cantiques,3,5,שָּׂדֶ֑ה ,שָׂדֶה,H7704,320
-358117,358118,Cantique des Cantiques,3,5,אִם־,אִם,H518,1068
-358118,358119,Cantique des Cantiques,3,5,תָּעִ֧ירוּ׀ ,עור,H5782,80
-358119,358120,Cantique des Cantiques,3,5,וְֽ,וְ,H9000,50272
-358120,358121,Cantique des Cantiques,3,5,אִם־,אִם,H518,1068
-358121,358122,Cantique des Cantiques,3,5,תְּעֹֽורְר֛וּ ,עור,H5782,80
-358122,358123,Cantique des Cantiques,3,5,אֶת־,אֵת,H853,10987
-358123,358124,Cantique des Cantiques,3,5,הָ,הַ,H9009,30386
-358124,358125,Cantique des Cantiques,3,5,אַהֲבָ֖ה ,אֲהָבָה,H160,36
-358125,358126,Cantique des Cantiques,3,5,עַ֥ד ,עַד,H5704,1263
-358126,358127,Cantique des Cantiques,3,5,שֶׁ,שַׁ,H2654,138
-358127,358128,Cantique des Cantiques,3,5,תֶּחְפָּֽץ׃ ס ,חפץ,H2654,77
-358128,358129,Cantique des Cantiques,3,6,מִ֣י ,מִי,H4310,423
-358129,358130,Cantique des Cantiques,3,6,זֹ֗את ,זֹאת,H2063,604
-358130,358131,Cantique des Cantiques,3,6,עֹלָה֙ ,עלה,H5927,890
-358131,358132,Cantique des Cantiques,3,6,מִן־,מִן,H4480,7562
-358132,358133,Cantique des Cantiques,3,6,הַ,הַ,H9009,30386
-358133,358134,Cantique des Cantiques,3,6,מִּדְבָּ֔ר ,מִדְבָּר,H4057,270
-358134,358135,Cantique des Cantiques,3,6,כְּ,כְּ,H9004,2902
-358135,358136,Cantique des Cantiques,3,6,תִֽימֲרֹ֖ות ,תִּימָרָה,H8490,2
-358136,358137,Cantique des Cantiques,3,6,עָשָׁ֑ן ,עָשָׁן,H6227,25
-358137,358138,Cantique des Cantiques,3,6,מְקֻטֶּ֤רֶת ,קטר,H6999,115
-358138,358139,Cantique des Cantiques,3,6,מֹור֙ ,מֹר,H4753,12
-358139,358140,Cantique des Cantiques,3,6,וּ,וְ,H9000,50272
-358140,358141,Cantique des Cantiques,3,6,לְבֹונָ֔ה ,לְבֹנָה,H3828,21
-358141,358142,Cantique des Cantiques,3,6,מִ,מִן,H4480,7562
-358142,358143,Cantique des Cantiques,3,6,כֹּ֖ל ,כֹּל,H3605,5412
-358143,358144,Cantique des Cantiques,3,6,אַבְקַ֥ת ,אֲבָקָה,H81,1
-358144,358145,Cantique des Cantiques,3,6,רֹוכֵֽל׃ ,רכל,H7402,17
-358145,358146,Cantique des Cantiques,3,7,הִנֵּ֗ה ,הִנֵּה,H2009,1060
-358146,358147,Cantique des Cantiques,3,7,מִטָּתֹו֙ ,מִטָּה,H4296,29
-358147,358148,Cantique des Cantiques,3,7,שֶׁ,שַׁ,H8010,138
-358148,358149,Cantique des Cantiques,3,7,לִּ,לְ,H9005,20069
-358149,358150,Cantique des Cantiques,3,7,שְׁלֹמֹ֔ה ,שְׁלֹמֹה,H8010,293
-358150,358151,Cantique des Cantiques,3,7,שִׁשִּׁ֥ים ,שֵׁשׁ,H8346,274
-358151,358152,Cantique des Cantiques,3,7,גִּבֹּרִ֖ים ,גִּבֹּור,H1368,159
-358152,358153,Cantique des Cantiques,3,7,סָבִ֣יב ,סָבִיב,H5439,336
-358153,358154,Cantique des Cantiques,3,7,לָ֑הּ ,לְ,H9005,20069
-358154,358155,Cantique des Cantiques,3,7,מִ,מִן,H4480,7562
-358155,358156,Cantique des Cantiques,3,7,גִּבֹּרֵ֖י ,גִּבֹּור,H1368,159
-358156,358157,Cantique des Cantiques,3,7,יִשְׂרָאֵֽל׃ ,יִשְׂרָאֵל,H3478,2506
-358157,358158,Cantique des Cantiques,3,8,כֻּלָּם֙ ,כֹּל,H3605,5412
-358158,358159,Cantique des Cantiques,3,8,אֲחֻ֣זֵי ,אָחֻז,H270,1
-358159,358160,Cantique des Cantiques,3,8,חֶ֔רֶב ,חֶרֶב,H2719,412
-358160,358161,Cantique des Cantiques,3,8,מְלֻמְּדֵ֖י ,למד,H3925,86
-358161,358162,Cantique des Cantiques,3,8,מִלְחָמָ֑ה ,מִלְחָמָה,H4421,308
-358162,358163,Cantique des Cantiques,3,8,אִ֤ישׁ ,אִישׁ,H376,2186
-358163,358164,Cantique des Cantiques,3,8,חַרְבֹּו֙ ,חֶרֶב,H2719,412
-358164,358165,Cantique des Cantiques,3,8,עַל־,עַל,H5921,5766
-358165,358166,Cantique des Cantiques,3,8,יְרֵכֹ֔ו ,יָרֵךְ,H3409,34
-358166,358167,Cantique des Cantiques,3,8,מִ,מִן,H4480,7562
-358167,358168,Cantique des Cantiques,3,8,פַּ֖חַד ,פַּחַד,H6343,49
-358168,358169,Cantique des Cantiques,3,8,בַּ,בְּ,H9003,15542
-358169,358170,Cantique des Cantiques,3,8,,הַ,H9009,30386
-358170,358171,Cantique des Cantiques,3,8,לֵּילֹֽות׃ ס ,לַיְלָה,H3915,227
-358171,358172,Cantique des Cantiques,3,9,אַפִּרְיֹ֗ון ,אַפִּרְיֹון,H668,1
-358172,358173,Cantique des Cantiques,3,9,עָ֤שָׂה ,עשׂה,H6213,2629
-358173,358174,Cantique des Cantiques,3,9,לֹו֙ ,לְ,H9005,20069
-358174,358175,Cantique des Cantiques,3,9,הַ,הַ,H9009,30386
-358175,358176,Cantique des Cantiques,3,9,מֶּ֣לֶךְ ,מֶלֶךְ,H4428,2523
-358176,358177,Cantique des Cantiques,3,9,שְׁלֹמֹ֔ה ,שְׁלֹמֹה,H8010,293
-358177,358178,Cantique des Cantiques,3,9,מֵ,מִן,H4480,7562
-358178,358179,Cantique des Cantiques,3,9,עֲצֵ֖י ,עֵץ,H6086,330
-358179,358180,Cantique des Cantiques,3,9,הַ,הַ,H9009,30386
-358180,358181,Cantique des Cantiques,3,9,לְּבָנֹֽון׃ ,לְבָנֹון,H3844,71
-358181,358182,Cantique des Cantiques,3,10,עַמּוּדָיו֙ ,עַמּוּד,H5982,111
-358182,358183,Cantique des Cantiques,3,10,עָ֣שָׂה ,עשׂה,H6213,2629
-358183,358184,Cantique des Cantiques,3,10,כֶ֔סֶף ,כֶּסֶף,H3701,403
-358184,358185,Cantique des Cantiques,3,10,רְפִידָתֹ֣ו ,רְפִידָה,H7507,1
-358185,358186,Cantique des Cantiques,3,10,זָהָ֔ב ,זָהָב,H2091,389
-358186,358187,Cantique des Cantiques,3,10,מֶרְכָּבֹ֖ו ,מֶרְכָּב,H4817,3
-358187,358188,Cantique des Cantiques,3,10,אַרְגָּמָ֑ן ,אַרְגָּמָן,H713,38
-358188,358189,Cantique des Cantiques,3,10,תֹּוכֹו֙ ,תָּוֶךְ,H8432,418
-358189,358190,Cantique des Cantiques,3,10,רָצ֣וּף ,רצף,H7528,1
-358190,358191,Cantique des Cantiques,3,10,אַהֲבָ֔ה ,אֲהָבָה,H160,36
-358191,358192,Cantique des Cantiques,3,10,מִ,מִן,H4480,7562
-358192,358193,Cantique des Cantiques,3,10,בְּנֹ֖ות ,בַּת,H1323,588
-358193,358194,Cantique des Cantiques,3,10,יְרוּשָׁלִָֽם׃ ,יְרוּשָׁלִַם,H3389,643
-358194,358195,Cantique des Cantiques,3,11,צְאֶ֧ינָה׀ ,יצא,H3318,1068
-358195,358196,Cantique des Cantiques,3,11,וּֽ,וְ,H9000,50272
-358196,358197,Cantique des Cantiques,3,11,רְאֶ֛ינָה ,ראה,H7200,1298
-358197,358198,Cantique des Cantiques,3,11,בְּנֹ֥ות ,בַּת,H1323,588
-358198,358199,Cantique des Cantiques,3,11,צִיֹּ֖ון ,צִיֹּון,H6726,154
-358199,358200,Cantique des Cantiques,3,11,בַּ,בְּ,H9003,15542
-358200,358201,Cantique des Cantiques,3,11,,הַ,H9009,30386
-358201,358202,Cantique des Cantiques,3,11,מֶּ֣לֶךְ ,מֶלֶךְ,H4428,2523
-358202,358203,Cantique des Cantiques,3,11,שְׁלֹמֹ֑ה ,שְׁלֹמֹה,H8010,293
-358203,358204,Cantique des Cantiques,3,11,בָּ,בְּ,H9003,15542
-358204,358205,Cantique des Cantiques,3,11,,הַ,H9009,30386
-358205,358206,Cantique des Cantiques,3,11,עֲטָרָ֗ה ,עֲטָרָה,H5850,5
-358206,358207,Cantique des Cantiques,3,11,שֶׁ,שַׁ,H5849,138
-358207,358208,Cantique des Cantiques,3,11,עִטְּרָה־,עטר,H5849,7
-358208,358209,Cantique des Cantiques,3,11,לֹּ֤ו ,לְ,H9005,20069
-358209,358210,Cantique des Cantiques,3,11,אִמֹּו֙ ,אֵם,H517,220
-358210,358211,Cantique des Cantiques,3,11,בְּ,בְּ,H9003,15542
-358211,358212,Cantique des Cantiques,3,11,יֹ֣ום ,יֹום,H3117,2304
-358212,358213,Cantique des Cantiques,3,11,חֲתֻנָּתֹ֔ו ,חֲתֻנָּה,H2861,1
-358213,358214,Cantique des Cantiques,3,11,וּ,וְ,H9000,50272
-358214,358215,Cantique des Cantiques,3,11,בְ,בְּ,H9003,15542
-358215,358216,Cantique des Cantiques,3,11,יֹ֖ום ,יֹום,H3117,2304
-358216,358217,Cantique des Cantiques,3,11,שִׂמְחַ֥ת ,שִׂמְחָה,H8057,94
-358217,358218,Cantique des Cantiques,3,11,לִבֹּֽו׃ ס ,לֵב,H3820,601
-358218,358219,Cantique des Cantiques,4,1,הִנָּ֨ךְ ,הִנֵּה,H2005,1060
-358219,358220,Cantique des Cantiques,4,1,יָפָ֤ה ,יָפֶה,H3303,43
-358220,358221,Cantique des Cantiques,4,1,רַעְיָתִי֙ ,רַעְיָה,H7474,9
-358221,358222,Cantique des Cantiques,4,1,הִנָּ֣ךְ ,הִנֵּה,H2005,1060
-358222,358223,Cantique des Cantiques,4,1,יָפָ֔ה ,יָפֶה,H3303,43
-358223,358224,Cantique des Cantiques,4,1,עֵינַ֣יִךְ ,עַיִן,H5869,887
-358224,358225,Cantique des Cantiques,4,1,יֹונִ֔ים ,יֹונָה,H3123,32
-358225,358226,Cantique des Cantiques,4,1,מִ,מִן,H4480,7562
-358226,358227,Cantique des Cantiques,4,1,בַּ֖עַד ,בַּעַד,H1157,105
-358227,358228,Cantique des Cantiques,4,1,לְ,לְ,H9005,20069
-358228,358229,Cantique des Cantiques,4,1,צַמָּתֵ֑ךְ ,צַמָּה,H6777,4
-358229,358230,Cantique des Cantiques,4,1,שַׂעְרֵךְ֙ ,שֵׂעָר,H8181,28
-358230,358231,Cantique des Cantiques,4,1,כְּ,כְּ,H9004,2902
-358231,358232,Cantique des Cantiques,4,1,עֵ֣דֶר ,עֵדֶר,H5739,38
-358232,358233,Cantique des Cantiques,4,1,הָֽ,הַ,H9009,30386
-358233,358234,Cantique des Cantiques,4,1,עִזִּ֔ים ,עֵז,H5795,74
-358234,358235,Cantique des Cantiques,4,1,שֶׁ,שַׁ,H1570,138
-358235,358236,Cantique des Cantiques,4,1,גָּלְשׁ֖וּ ,גלשׁ,H1570,2
-358236,358237,Cantique des Cantiques,4,1,מֵ,מִן,H4480,7562
-358237,358238,Cantique des Cantiques,4,1,הַ֥ר ,הַר,H2022,558
-358238,358239,Cantique des Cantiques,4,1,גִּלְעָֽד׃ ,גִּלְעָד,H1568,134
-358239,358240,Cantique des Cantiques,4,2,שִׁנַּ֨יִךְ֙ ,שֵׁן,H8127,55
-358240,358241,Cantique des Cantiques,4,2,כְּ,כְּ,H9004,2902
-358241,358242,Cantique des Cantiques,4,2,עֵ֣דֶר ,עֵדֶר,H5739,38
-358242,358243,Cantique des Cantiques,4,2,הַ,הַ,H9009,30386
-358243,358244,Cantique des Cantiques,4,2,קְּצוּבֹ֔ות ,קצב,H7094,2
-358244,358245,Cantique des Cantiques,4,2,שֶׁ,שַׁ,H7945,138
-358245,358246,Cantique des Cantiques,4,2,עָל֖וּ ,עלה,H5927,890
-358246,358247,Cantique des Cantiques,4,2,מִן־,מִן,H4480,7562
-358247,358248,Cantique des Cantiques,4,2,הָ,הַ,H9009,30386
-358248,358249,Cantique des Cantiques,4,2,רַחְצָ֑ה ,רַחְצָה,H7367,2
-358249,358250,Cantique des Cantiques,4,2,שֶׁ,שַׁ,H7945,138
-358250,358251,Cantique des Cantiques,4,2,כֻּלָּם֙ ,כֹּל,H3605,5412
-358251,358252,Cantique des Cantiques,4,2,מַתְאִימֹ֔ות ,תאם,H8382,2
-358252,358253,Cantique des Cantiques,4,2,וְ,וְ,H9000,50272
-358253,358254,Cantique des Cantiques,4,2,שַׁכֻּלָ֖ה ,שַׁכּוּל,H7909,6
-358254,358255,Cantique des Cantiques,4,2,אֵ֥ין ,אַיִן,H369,788
-358255,358256,Cantique des Cantiques,4,2,בָּהֶֽם׃ ,בְּ,H9003,15542
-358256,358257,Cantique des Cantiques,4,3,כְּ,כְּ,H9004,2902
-358257,358258,Cantique des Cantiques,4,3,ח֤וּט ,חוּט,H2339,7
-358258,358259,Cantique des Cantiques,4,3,הַ,הַ,H9009,30386
-358259,358260,Cantique des Cantiques,4,3,שָּׁנִי֙ ,שָׁנִי,H8144,42
-358260,358261,Cantique des Cantiques,4,3,שִׂפְתֹתַ֔יִךְ ,שָׂפָה,H8193,176
-358261,358262,Cantique des Cantiques,4,3,וּ,וְ,H9000,50272
-358262,358263,Cantique des Cantiques,4,3,מִדְבָּרֵ֖יךְ ,מִדְבָּר,H4057,1
-358263,358264,Cantique des Cantiques,4,3,נָאוֶ֑ה ,נָאוֶה,H5000,9
-358264,358265,Cantique des Cantiques,4,3,כְּ,כְּ,H9004,2902
-358265,358266,Cantique des Cantiques,4,3,פֶ֤לַח ,פֶּלַח,H6400,6
-358266,358267,Cantique des Cantiques,4,3,הָֽ,הַ,H9009,30386
-358267,358268,Cantique des Cantiques,4,3,רִמֹּון֙ ,רִמֹּון,H7416,32
-358268,358269,Cantique des Cantiques,4,3,רַקָּתֵ֔ךְ ,רַקָּה,H7541,5
-358269,358270,Cantique des Cantiques,4,3,מִ,מִן,H4480,7562
-358270,358271,Cantique des Cantiques,4,3,בַּ֖עַד ,בַּעַד,H1157,105
-358271,358272,Cantique des Cantiques,4,3,לְ,לְ,H9005,20069
-358272,358273,Cantique des Cantiques,4,3,צַמָּתֵֽךְ׃ ,צַמָּה,H6777,4
-358273,358274,Cantique des Cantiques,4,4,כְּ,כְּ,H9004,2902
-358274,358275,Cantique des Cantiques,4,4,מִגְדַּ֤ל ,מִגְדָּל,H4026,48
-358275,358276,Cantique des Cantiques,4,4,דָּוִיד֙ ,דָּוִד,H1732,1075
-358276,358277,Cantique des Cantiques,4,4,צַוָּארֵ֔ךְ ,צַוָּאר,H6677,41
-358277,358278,Cantique des Cantiques,4,4,בָּנ֖וּי ,בנה,H1129,376
-358278,358279,Cantique des Cantiques,4,4,לְ,לְ,H9005,20069
-358279,358280,Cantique des Cantiques,4,4,תַלְפִּיֹּ֑ות ,תַּלְפִּיֹּות,H8530,1
-358280,358281,Cantique des Cantiques,4,4,אֶ֤לֶף ,אֶלֶף,H505,492
-358281,358282,Cantique des Cantiques,4,4,הַ,הַ,H9009,30386
-358282,358283,Cantique des Cantiques,4,4,מָּגֵן֙ ,מָגֵן,H4043,59
-358283,358284,Cantique des Cantiques,4,4,תָּל֣וּי ,תלה,H8518,27
-358284,358285,Cantique des Cantiques,4,4,עָלָ֔יו ,עַל,H5921,5766
-358285,358286,Cantique des Cantiques,4,4,כֹּ֖ל ,כֹּל,H3605,5412
-358286,358287,Cantique des Cantiques,4,4,שִׁלְטֵ֥י ,שֶׁלֶט,H7982,7
-358287,358288,Cantique des Cantiques,4,4,הַ,הַ,H9009,30386
-358288,358289,Cantique des Cantiques,4,4,גִּבֹּורִֽים׃ ,גִּבֹּור,H1368,159
-358289,358290,Cantique des Cantiques,4,5,שְׁנֵ֥י ,שְׁנַיִם,H8147,768
-358290,358291,Cantique des Cantiques,4,5,שָׁדַ֛יִךְ ,שַׁד,H7699,21
-358291,358292,Cantique des Cantiques,4,5,כִּ,כְּ,H9004,2902
-358292,358293,Cantique des Cantiques,4,5,שְׁנֵ֥י ,שְׁנַיִם,H8147,768
-358293,358294,Cantique des Cantiques,4,5,עֳפָרִ֖ים ,עֹפֶר,H6082,5
-358294,358295,Cantique des Cantiques,4,5,תְּאֹומֵ֣י ,תֹּואֲמִם,H8380,6
-358295,358296,Cantique des Cantiques,4,5,צְבִיָּ֑ה ,צְבִיָּה,H6646,2
-358296,358297,Cantique des Cantiques,4,5,הָ,הַ,H9009,30386
-358297,358298,Cantique des Cantiques,4,5,רֹועִ֖ים ,רעה,H7462,168
-358298,358299,Cantique des Cantiques,4,5,בַּ,בְּ,H9003,15542
-358299,358300,Cantique des Cantiques,4,5,,הַ,H9009,30386
-358300,358301,Cantique des Cantiques,4,5,שֹּׁושַׁנִּֽים׃ ,שׁוּשַׁן,H7799,17
-358301,358302,Cantique des Cantiques,4,6,עַ֤ד ,עַד,H5704,1263
-358302,358303,Cantique des Cantiques,4,6,שֶׁ,שַׁ,H6315,138
-358303,358304,Cantique des Cantiques,4,6,יָּפ֨וּחַ֙ ,פוח,H6315,3
-358304,358305,Cantique des Cantiques,4,6,הַ,הַ,H9009,30386
-358305,358306,Cantique des Cantiques,4,6,יֹּ֔ום ,יֹום,H3117,2304
-358306,358307,Cantique des Cantiques,4,6,וְ,וְ,H9000,50272
-358307,358308,Cantique des Cantiques,4,6,נָ֖סוּ ,נוס,H5127,159
-358308,358309,Cantique des Cantiques,4,6,הַ,הַ,H9009,30386
-358309,358310,Cantique des Cantiques,4,6,צְּלָלִ֑ים ,צֵל,H6752,53
-358310,358311,Cantique des Cantiques,4,6,אֵ֤לֶךְ ,הלך,H1980,1547
-358311,358312,Cantique des Cantiques,4,6,לִי֙ ,לְ,H9005,20069
-358312,358313,Cantique des Cantiques,4,6,אֶל־,אֶל,H413,5517
-358313,358314,Cantique des Cantiques,4,6,הַ֣ר ,הַר,H2022,558
-358314,358315,Cantique des Cantiques,4,6,הַ,הַ,H9009,30386
-358315,358316,Cantique des Cantiques,4,6,מֹּ֔ור ,מֹר,H4753,12
-358316,358317,Cantique des Cantiques,4,6,וְ,וְ,H9000,50272
-358317,358318,Cantique des Cantiques,4,6,אֶל־,אֶל,H413,5517
-358318,358319,Cantique des Cantiques,4,6,גִּבְעַ֖ת ,גִּבְעָה,H1389,79
-358319,358320,Cantique des Cantiques,4,6,הַ,הַ,H9009,30386
-358320,358321,Cantique des Cantiques,4,6,לְּבֹונָֽה׃ ,לְבֹנָה,H3828,21
-358321,358322,Cantique des Cantiques,4,7,כֻּלָּ֤ךְ ,כֹּל,H3605,5412
-358322,358323,Cantique des Cantiques,4,7,יָפָה֙ ,יָפֶה,H3303,43
-358323,358324,Cantique des Cantiques,4,7,רַעְיָתִ֔י ,רַעְיָה,H7474,9
-358324,358325,Cantique des Cantiques,4,7,וּ,וְ,H9000,50272
-358325,358326,Cantique des Cantiques,4,7,מ֖וּם ,מאוּם,H3971,21
-358326,358327,Cantique des Cantiques,4,7,אֵ֥ין ,אַיִן,H369,788
-358327,358328,Cantique des Cantiques,4,7,בָּֽךְ׃ ס ,בְּ,H9003,15542
-358328,358329,Cantique des Cantiques,4,8,אִתִּ֤י ,אֵת,H854,878
-358329,358330,Cantique des Cantiques,4,8,מִ,מִן,H4480,7562
-358330,358331,Cantique des Cantiques,4,8,לְּבָנֹון֙ ,לְבָנֹון,H3844,71
-358331,358332,Cantique des Cantiques,4,8,כַּלָּ֔ה ,כַּלָּה,H3618,34
-358332,358333,Cantique des Cantiques,4,8,אִתִּ֖י ,אֵת,H854,878
-358333,358334,Cantique des Cantiques,4,8,מִ,מִן,H4480,7562
-358334,358335,Cantique des Cantiques,4,8,לְּבָנֹ֣ון ,לְבָנֹון,H3844,71
-358335,358336,Cantique des Cantiques,4,8,תָּבֹ֑ואִי ,בוא,H935,2570
-358336,358337,Cantique des Cantiques,4,8,תָּשׁ֣וּרִי׀ ,שׁור,H7789,2
-358337,358338,Cantique des Cantiques,4,8,מֵ,מִן,H4480,7562
-358338,358339,Cantique des Cantiques,4,8,רֹ֣אשׁ ,רֹאשׁ,H7218,599
-358339,358340,Cantique des Cantiques,4,8,אֲמָנָ֗ה ,אֲמָנָה,H549,2
-358340,358341,Cantique des Cantiques,4,8,מֵ,מִן,H4480,7562
-358341,358342,Cantique des Cantiques,4,8,רֹ֤אשׁ ,רֹאשׁ,H7218,599
-358342,358343,Cantique des Cantiques,4,8,שְׂנִיר֙ ,שְׂנִיר,H8149,4
-358343,358344,Cantique des Cantiques,4,8,וְ,וְ,H9000,50272
-358344,358345,Cantique des Cantiques,4,8,חֶרְמֹ֔ון ,חֶרְמֹון,H2768,13
-358345,358346,Cantique des Cantiques,4,8,מִ,מִן,H4480,7562
-358346,358347,Cantique des Cantiques,4,8,מְּעֹנֹ֣ות ,מְעֹנָה,H4585,8
-358347,358348,Cantique des Cantiques,4,8,אֲרָיֹ֔ות ,אֲרִי,H738,35
-358348,358349,Cantique des Cantiques,4,8,מֵֽ,מִן,H4480,7562
-358349,358350,Cantique des Cantiques,4,8,הַרְרֵ֖י ,הַר,H2042,558
-358350,358351,Cantique des Cantiques,4,8,נְמֵרִֽים׃ ,נָמֵר,H5246,6
-358351,358352,Cantique des Cantiques,4,9,לִבַּבְתִּ֖נִי ,לבב,H3823,3
-358352,358353,Cantique des Cantiques,4,9,אֲחֹתִ֣י ,אָחֹות,H269,114
-358353,358354,Cantique des Cantiques,4,9,כַלָּ֑ה ,כַּלָּה,H3618,34
-358354,358355,Cantique des Cantiques,4,9,לִבַּבְתִּ֨ינִי֙ ,לבב,H3823,3
-358355,358356,Cantique des Cantiques,4,9,<QR>בְּ<qr>,בְּ,H9003,15542
-358356,358357,Cantique des Cantiques,4,9,<QR>אַחַ֣ת <qr>,אֶחָד,H259,970
-358357,358358,Cantique des Cantiques,4,9,מֵ,מִן,H4480,7562
-358358,358359,Cantique des Cantiques,4,9,עֵינַ֔יִךְ ,עַיִן,H5869,887
-358359,358360,Cantique des Cantiques,4,9,בְּ,בְּ,H9003,15542
-358360,358361,Cantique des Cantiques,4,9,אַחַ֥ד ,אֶחָד,H259,970
-358361,358362,Cantique des Cantiques,4,9,עֲנָ֖ק ,עֲנָק,H6060,3
-358362,358363,Cantique des Cantiques,4,9,מִ,מִן,H4480,7562
-358363,358364,Cantique des Cantiques,4,9,צַּוְּרֹנָֽיִךְ׃ ,צַוְּרֹנִים,H6677,1
-358364,358365,Cantique des Cantiques,4,10,מַה־,מָה,H4100,573
-358365,358366,Cantique des Cantiques,4,10,יָּפ֥וּ ,יפה,H3302,8
-358366,358367,Cantique des Cantiques,4,10,דֹדַ֖יִךְ ,דֹּוד,H1730,61
-358367,358368,Cantique des Cantiques,4,10,אֲחֹתִ֣י ,אָחֹות,H269,114
-358368,358369,Cantique des Cantiques,4,10,כַלָּ֑ה ,כַּלָּה,H3618,34
-358369,358370,Cantique des Cantiques,4,10,מַה־,מָה,H4100,573
-358370,358371,Cantique des Cantiques,4,10,טֹּ֤בוּ ,טוב,H2895,44
-358371,358372,Cantique des Cantiques,4,10,דֹדַ֨יִךְ֙ ,דֹּוד,H1730,61
-358372,358373,Cantique des Cantiques,4,10,מִ,מִן,H4480,7562
-358373,358374,Cantique des Cantiques,4,10,יַּ֔יִן ,יַיִן,H3196,141
-358374,358375,Cantique des Cantiques,4,10,וְ,וְ,H9000,50272
-358375,358376,Cantique des Cantiques,4,10,רֵ֥יחַ ,רֵיחַ,H7381,58
-358376,358377,Cantique des Cantiques,4,10,שְׁמָנַ֖יִךְ ,שֶׁמֶן,H8081,191
-358377,358378,Cantique des Cantiques,4,10,מִ,מִן,H4480,7562
-358378,358379,Cantique des Cantiques,4,10,כָּל־,כֹּל,H3605,5412
-358379,358380,Cantique des Cantiques,4,10,בְּשָׂמִֽים׃ ,בֹּשֶׂם,H1314,30
-358380,358381,Cantique des Cantiques,4,11,נֹ֛פֶת ,נֹפֶת,H5317,5
-358381,358382,Cantique des Cantiques,4,11,תִּטֹּ֥פְנָה ,נטף,H5197,18
-358382,358383,Cantique des Cantiques,4,11,שִׂפְתֹותַ֖יִךְ ,שָׂפָה,H8193,176
-358383,358384,Cantique des Cantiques,4,11,כַּלָּ֑ה ,כַּלָּה,H3618,34
-358384,358385,Cantique des Cantiques,4,11,דְּבַ֤שׁ ,דְּבַשׁ,H1706,54
-358385,358386,Cantique des Cantiques,4,11,וְ,וְ,H9000,50272
-358386,358387,Cantique des Cantiques,4,11,חָלָב֙ ,חָלָב,H2461,44
-358387,358388,Cantique des Cantiques,4,11,תַּ֣חַת ,תַּחַת,H8478,505
-358388,358389,Cantique des Cantiques,4,11,לְשֹׁונֵ֔ךְ ,לָשֹׁון,H3956,117
-358389,358390,Cantique des Cantiques,4,11,וְ,וְ,H9000,50272
-358390,358391,Cantique des Cantiques,4,11,רֵ֥יחַ ,רֵיחַ,H7381,58
-358391,358392,Cantique des Cantiques,4,11,שַׂלְמֹתַ֖יִךְ ,שַׂלְמָה,H8008,16
-358392,358393,Cantique des Cantiques,4,11,כְּ,כְּ,H9004,2902
-358393,358394,Cantique des Cantiques,4,11,רֵ֥יחַ ,רֵיחַ,H7381,58
-358394,358395,Cantique des Cantiques,4,11,לְבָנֹֽון׃ ס ,לְבָנֹון,H3844,71
-358395,358396,Cantique des Cantiques,4,12,גַּ֥ן׀ ,גַּן,H1588,41
-358396,358397,Cantique des Cantiques,4,12,נָע֖וּל ,נעל,H5274,8
-358397,358398,Cantique des Cantiques,4,12,אֲחֹתִ֣י ,אָחֹות,H269,114
-358398,358399,Cantique des Cantiques,4,12,כַלָּ֑ה ,כַּלָּה,H3618,34
-358399,358400,Cantique des Cantiques,4,12,גַּ֥ל ,גַּל,H1530,34
-358400,358401,Cantique des Cantiques,4,12,נָע֖וּל ,נעל,H5274,8
-358401,358402,Cantique des Cantiques,4,12,מַעְיָ֥ן ,מַעְיָן,H4599,23
-358402,358403,Cantique des Cantiques,4,12,חָתֽוּם׃ ,חתם,H2856,26
-358403,358404,Cantique des Cantiques,4,13,שְׁלָחַ֨יִךְ֙ ,שְׁלָחִים,H7973,1
-358404,358405,Cantique des Cantiques,4,13,פַּרְדֵּ֣ס ,פַּרְדֵּס,H6508,3
-358405,358406,Cantique des Cantiques,4,13,רִמֹּונִ֔ים ,רִמֹּון,H7416,32
-358406,358407,Cantique des Cantiques,4,13,עִ֖ם ,עִם,H5973,1049
-358407,358408,Cantique des Cantiques,4,13,פְּרִ֣י ,פְּרִי,H6529,119
-358408,358409,Cantique des Cantiques,4,13,מְגָדִ֑ים ,מֶגֶד,H4022,8
-358409,358410,Cantique des Cantiques,4,13,כְּפָרִ֖ים ,כֹּפֶר,H3724,3
-358410,358411,Cantique des Cantiques,4,13,עִם־,עִם,H5973,1049
-358411,358412,Cantique des Cantiques,4,13,נְרָדִֽים׃ ,נֵרְדְּ,H5373,3
-358412,358413,Cantique des Cantiques,4,14,נֵ֣רְדְּ׀ ,נֵרְדְּ,H5373,3
-358413,358414,Cantique des Cantiques,4,14,וְ,וְ,H9000,50272
-358414,358415,Cantique des Cantiques,4,14,כַרְכֹּ֗ם ,כַּרְכֹּום,H3750,1
-358415,358416,Cantique des Cantiques,4,14,קָנֶה֙ ,קָנֶה,H7070,62
-358416,358417,Cantique des Cantiques,4,14,וְ,וְ,H9000,50272
-358417,358418,Cantique des Cantiques,4,14,קִנָּמֹ֔ון ,קִנָּמֹון,H7076,3
-358418,358419,Cantique des Cantiques,4,14,עִ֖ם ,עִם,H5973,1049
-358419,358420,Cantique des Cantiques,4,14,כָּל־,כֹּל,H3605,5412
-358420,358421,Cantique des Cantiques,4,14,עֲצֵ֣י ,עֵץ,H6086,330
-358421,358422,Cantique des Cantiques,4,14,לְבֹונָ֑ה ,לְבֹנָה,H3828,21
-358422,358423,Cantique des Cantiques,4,14,מֹ֚ר ,מֹר,H4753,12
-358423,358424,Cantique des Cantiques,4,14,וַ,וְ,H9000,50272
-358424,358425,Cantique des Cantiques,4,14,אֲהָלֹ֔ות ,אָהָל,H174,4
-358425,358426,Cantique des Cantiques,4,14,עִ֖ם ,עִם,H5973,1049
-358426,358427,Cantique des Cantiques,4,14,כָּל־,כֹּל,H3605,5412
-358427,358428,Cantique des Cantiques,4,14,רָאשֵׁ֥י ,רֹאשׁ,H7218,599
-358428,358429,Cantique des Cantiques,4,14,בְשָׂמִֽים׃ ,בֹּשֶׂם,H1314,30
-358429,358430,Cantique des Cantiques,4,15,מַעְיַ֣ן ,מַעְיָן,H4599,23
-358430,358431,Cantique des Cantiques,4,15,גַּנִּ֔ים ,גַּן,H1588,41
-358431,358432,Cantique des Cantiques,4,15,בְּאֵ֖ר ,בְּאֵר,H875,74
-358432,358433,Cantique des Cantiques,4,15,מַ֣יִם ,מַיִם,H4325,582
-358433,358434,Cantique des Cantiques,4,15,חַיִּ֑ים ,חַי,H2416,239
-358434,358435,Cantique des Cantiques,4,15,וְ,וְ,H9000,50272
-358435,358436,Cantique des Cantiques,4,15,נֹזְלִ֖ים ,נזל,H5140,15
-358436,358437,Cantique des Cantiques,4,15,מִן־,מִן,H4480,7562
-358437,358438,Cantique des Cantiques,4,15,לְבָנֹֽון׃ ,לְבָנֹון,H3844,71
-358438,358439,Cantique des Cantiques,4,16,ע֤וּרִי ,עור,H5782,80
-358439,358440,Cantique des Cantiques,4,16,צָפֹון֙ ,צָפֹון,H6828,152
-358440,358441,Cantique des Cantiques,4,16,וּ,וְ,H9000,50272
-358441,358442,Cantique des Cantiques,4,16,בֹ֣ואִי ,בוא,H935,2570
-358442,358443,Cantique des Cantiques,4,16,תֵימָ֔ן ,תֵּימָן,H8486,23
-358443,358444,Cantique des Cantiques,4,16,הָפִ֥יחִי ,פוח,H6315,3
-358444,358445,Cantique des Cantiques,4,16,גַנִּ֖י ,גַּן,H1588,41
-358445,358446,Cantique des Cantiques,4,16,יִזְּל֣וּ ,נזל,H5140,15
-358446,358447,Cantique des Cantiques,4,16,בְשָׂמָ֑יו ,בֹּשֶׂם,H1314,30
-358447,358448,Cantique des Cantiques,4,16,יָבֹ֤א ,בוא,H935,2570
-358448,358449,Cantique des Cantiques,4,16,דֹודִי֙ ,דֹּוד,H1730,61
-358449,358450,Cantique des Cantiques,4,16,לְ,לְ,H9005,20069
-358450,358451,Cantique des Cantiques,4,16,גַנֹּ֔ו ,גַּן,H1588,41
-358451,358452,Cantique des Cantiques,4,16,וְ,וְ,H9000,50272
-358452,358453,Cantique des Cantiques,4,16,יֹאכַ֖ל ,אכל,H398,810
-358453,358454,Cantique des Cantiques,4,16,פְּרִ֥י ,פְּרִי,H6529,119
-358454,358455,Cantique des Cantiques,4,16,מְגָדָֽיו׃ ,מֶגֶד,H4022,8
-358455,358456,Cantique des Cantiques,5,1,בָּ֣אתִי ,בוא,H935,2570
-358456,358457,Cantique des Cantiques,5,1,לְ,לְ,H9005,20069
-358457,358458,Cantique des Cantiques,5,1,גַנִּי֮ ,גַּן,H1588,41
-358458,358459,Cantique des Cantiques,5,1,אֲחֹתִ֣י ,אָחֹות,H269,114
-358459,358460,Cantique des Cantiques,5,1,כַלָּה֒ ,כַּלָּה,H3618,34
-358460,358461,Cantique des Cantiques,5,1,אָרִ֤יתִי ,ארה,H717,2
-358461,358462,Cantique des Cantiques,5,1,מֹורִי֙ ,מֹר,H4753,12
-358462,358463,Cantique des Cantiques,5,1,עִם־,עִם,H5973,1049
-358463,358464,Cantique des Cantiques,5,1,בְּשָׂמִ֔י ,בֹּשֶׂם,H1314,30
-358464,358465,Cantique des Cantiques,5,1,אָכַ֤לְתִּי ,אכל,H398,810
-358465,358466,Cantique des Cantiques,5,1,יַעְרִי֙ ,יַעַר,H3293,2
-358466,358467,Cantique des Cantiques,5,1,עִם־,עִם,H5973,1049
-358467,358468,Cantique des Cantiques,5,1,דִּבְשִׁ֔י ,דְּבַשׁ,H1706,54
-358468,358469,Cantique des Cantiques,5,1,שָׁתִ֥יתִי ,שׁתה,H8354,217
-358469,358470,Cantique des Cantiques,5,1,יֵינִ֖י ,יַיִן,H3196,141
-358470,358471,Cantique des Cantiques,5,1,עִם־,עִם,H5973,1049
-358471,358472,Cantique des Cantiques,5,1,חֲלָבִ֑י ,חָלָב,H2461,44
-358472,358473,Cantique des Cantiques,5,1,אִכְל֣וּ ,אכל,H398,810
-358473,358474,Cantique des Cantiques,5,1,רֵעִ֔ים ,רֵעַ,H7453,187
-358474,358475,Cantique des Cantiques,5,1,שְׁת֥וּ ,שׁתה,H8354,217
-358475,358476,Cantique des Cantiques,5,1,וְ,וְ,H9000,50272
-358476,358477,Cantique des Cantiques,5,1,שִׁכְר֖וּ ,שׁכר,H7937,18
-358477,358478,Cantique des Cantiques,5,1,דֹּודִֽים׃ ס ,דֹּוד,H1730,61
-358478,358479,Cantique des Cantiques,5,2,אֲנִ֥י ,אֲנִי,H589,874
-358479,358480,Cantique des Cantiques,5,2,יְשֵׁנָ֖ה ,יָשֵׁן,H3462,9
-358480,358481,Cantique des Cantiques,5,2,וְ,וְ,H9000,50272
-358481,358482,Cantique des Cantiques,5,2,לִבִּ֣י ,לֵב,H3820,601
-358482,358483,Cantique des Cantiques,5,2,עֵ֑ר ,עור,H5782,80
-358483,358484,Cantique des Cantiques,5,2,קֹ֣ול׀ ,קֹול,H6963,505
-358484,358485,Cantique des Cantiques,5,2,דֹּודִ֣י ,דֹּוד,H1730,61
-358485,358486,Cantique des Cantiques,5,2,דֹופֵ֗ק ,דפק,H1849,3
-358486,358487,Cantique des Cantiques,5,2,פִּתְחִי־,פתח,H6605,135
-358487,358488,Cantique des Cantiques,5,2,לִ֞י ,לְ,H9005,20069
-358488,358489,Cantique des Cantiques,5,2,אֲחֹתִ֤י ,אָחֹות,H269,114
-358489,358490,Cantique des Cantiques,5,2,רַעְיָתִי֙ ,רַעְיָה,H7474,9
-358490,358491,Cantique des Cantiques,5,2,יֹונָתִ֣י ,יֹונָה,H3123,32
-358491,358492,Cantique des Cantiques,5,2,תַמָּתִ֔י ,תָּם,H8535,16
-358492,358493,Cantique des Cantiques,5,2,שֶׁ,שַׁ,H7218,138
-358493,358494,Cantique des Cantiques,5,2,רֹּאשִׁי֙ ,רֹאשׁ,H7218,599
-358494,358495,Cantique des Cantiques,5,2,נִמְלָא־,מלא,H4390,292
-358495,358496,Cantique des Cantiques,5,2,טָ֔ל ,טַל,H2919,31
-358496,358497,Cantique des Cantiques,5,2,קְוֻּצֹּותַ֖י ,קְוֻצֹּות,H6977,2
-358497,358498,Cantique des Cantiques,5,2,רְסִ֥יסֵי ,רָסִיס,H7447,1
-358498,358499,Cantique des Cantiques,5,2,לָֽיְלָה׃ ,לַיְלָה,H3915,227
-358499,358500,Cantique des Cantiques,5,3,פָּשַׁ֨טְתִּי֙ ,פשׁט,H6584,43
-358500,358501,Cantique des Cantiques,5,3,אֶת־,אֵת,H853,10987
-358501,358502,Cantique des Cantiques,5,3,כֻּתָּנְתִּ֔י ,כֻּתֹּנֶת,H3801,29
-358502,358503,Cantique des Cantiques,5,3,אֵיכָ֖כָה ,אֵיכָכָה,H349,4
-358503,358504,Cantique des Cantiques,5,3,אֶלְבָּשֶׁ֑נָּה ,לבשׁ,H3847,97
-358504,358505,Cantique des Cantiques,5,3,רָחַ֥צְתִּי ,רחץ,H7364,72
-358505,358506,Cantique des Cantiques,5,3,אֶת־,אֵת,H853,10987
-358506,358507,Cantique des Cantiques,5,3,רַגְלַ֖י ,רֶגֶל,H7272,247
-358507,358508,Cantique des Cantiques,5,3,אֵיכָ֥כָה ,אֵיכָכָה,H349,4
-358508,358509,Cantique des Cantiques,5,3,אֲטַנְּפֵֽם׃ ,טנף,H2936,1
-358509,358510,Cantique des Cantiques,5,4,דֹּודִ֗י ,דֹּוד,H1730,61
-358510,358511,Cantique des Cantiques,5,4,שָׁלַ֤ח ,שׁלח,H7971,847
-358511,358512,Cantique des Cantiques,5,4,יָדֹו֙ ,יָד,H3027,1618
-358512,358513,Cantique des Cantiques,5,4,מִן־,מִן,H4480,7562
-358513,358514,Cantique des Cantiques,5,4,הַ,הַ,H9009,30386
-358514,358515,Cantique des Cantiques,5,4,חֹ֔ר ,חֹר,H2356,7
-358515,358516,Cantique des Cantiques,5,4,וּ,וְ,H9000,50272
-358516,358517,Cantique des Cantiques,5,4,מֵעַ֖י ,מֵעִים,H4578,32
-358517,358518,Cantique des Cantiques,5,4,הָמ֥וּ ,המה,H1993,34
-358518,358519,Cantique des Cantiques,5,4,עָלָֽיו׃ ,עַל,H5921,5766
-358519,358520,Cantique des Cantiques,5,5,קַ֥מְתִּֽי ,קום,H6965,629
-358520,358521,Cantique des Cantiques,5,5,אֲנִ֖י ,אֲנִי,H589,874
-358521,358522,Cantique des Cantiques,5,5,לִ,לְ,H9005,20069
-358522,358523,Cantique des Cantiques,5,5,פְתֹּ֣חַ ,פתח,H6605,135
-358523,358524,Cantique des Cantiques,5,5,לְ,לְ,H9005,20069
-358524,358525,Cantique des Cantiques,5,5,דֹודִ֑י ,דֹּוד,H1730,61
-358525,358526,Cantique des Cantiques,5,5,וְ,וְ,H9000,50272
-358526,358527,Cantique des Cantiques,5,5,יָדַ֣י ,יָד,H3027,1618
-358527,358528,Cantique des Cantiques,5,5,נָֽטְפוּ־,נטף,H5197,18
-358528,358529,Cantique des Cantiques,5,5,מֹ֗ור ,מֹר,H4753,12
-358529,358530,Cantique des Cantiques,5,5,וְ,וְ,H9000,50272
-358530,358531,Cantique des Cantiques,5,5,אֶצְבְּעֹתַי֙ ,אֶצְבַּע,H676,31
-358531,358532,Cantique des Cantiques,5,5,מֹ֣ור ,מֹר,H4753,12
-358532,358533,Cantique des Cantiques,5,5,עֹבֵ֔ר ,עבר,H5674,548
-358533,358534,Cantique des Cantiques,5,5,עַ֖ל ,עַל,H5921,5766
-358534,358535,Cantique des Cantiques,5,5,כַּפֹּ֥ות ,כַּף,H3709,192
-358535,358536,Cantique des Cantiques,5,5,הַ,הַ,H9009,30386
-358536,358537,Cantique des Cantiques,5,5,מַּנְעֽוּל׃ ,מַנְעוּל,H4514,6
-358537,358538,Cantique des Cantiques,5,6,פָּתַ֤חְתִּֽי ,פתח,H6605,135
-358538,358539,Cantique des Cantiques,5,6,אֲנִי֙ ,אֲנִי,H589,874
-358539,358540,Cantique des Cantiques,5,6,לְ,לְ,H9005,20069
-358540,358541,Cantique des Cantiques,5,6,דֹודִ֔י ,דֹּוד,H1730,61
-358541,358542,Cantique des Cantiques,5,6,וְ,וְ,H9000,50272
-358542,358543,Cantique des Cantiques,5,6,דֹודִ֖י ,דֹּוד,H1730,61
-358543,358544,Cantique des Cantiques,5,6,חָמַ֣ק ,חמק,H2559,2
-358544,358545,Cantique des Cantiques,5,6,עָבָ֑ר ,עבר,H5674,548
-358545,358546,Cantique des Cantiques,5,6,נַפְשִׁי֙ ,נֶפֶשׁ,H5315,754
-358546,358547,Cantique des Cantiques,5,6,יָֽצְאָ֣ה ,יצא,H3318,1068
-358547,358548,Cantique des Cantiques,5,6,בְ,בְּ,H9003,15542
-358548,358549,Cantique des Cantiques,5,6,דַבְּרֹ֔ו ,דבר,H1696,5
-358549,358550,Cantique des Cantiques,5,6,בִּקַּשְׁתִּ֨יהוּ֙ ,בקשׁ,H1245,225
-358550,358551,Cantique des Cantiques,5,6,וְ,וְ,H9000,50272
-358551,358552,Cantique des Cantiques,5,6,לֹ֣א ,לֹא,H3808,5167
-358552,358553,Cantique des Cantiques,5,6,מְצָאתִ֔יהוּ ,מצא,H4672,453
-358553,358554,Cantique des Cantiques,5,6,קְרָאתִ֖יו ,קרא,H7121,732
-358554,358555,Cantique des Cantiques,5,6,וְ,וְ,H9000,50272
-358555,358556,Cantique des Cantiques,5,6,לֹ֥א ,לֹא,H3808,5167
-358556,358557,Cantique des Cantiques,5,6,עָנָֽנִי׃ ,ענה,H6030,316
-358557,358558,Cantique des Cantiques,5,7,מְצָאֻ֧נִי ,מצא,H4672,453
-358558,358559,Cantique des Cantiques,5,7,הַ,הַ,H9009,30386
-358559,358560,Cantique des Cantiques,5,7,שֹּׁמְרִ֛ים ,שׁמר,H8104,468
-358560,358561,Cantique des Cantiques,5,7,הַ,הַ,H9009,30386
-358561,358562,Cantique des Cantiques,5,7,סֹּבְבִ֥ים ,סבב,H5437,161
-358562,358563,Cantique des Cantiques,5,7,בָּ,בְּ,H9003,15542
-358563,358564,Cantique des Cantiques,5,7,,הַ,H9009,30386
-358564,358565,Cantique des Cantiques,5,7,עִ֖יר ,עִיר,H5892,1090
-358565,358566,Cantique des Cantiques,5,7,הִכּ֣וּנִי ,נכה,H5221,500
-358566,358567,Cantique des Cantiques,5,7,פְצָע֑וּנִי ,פצע,H6481,3
-358567,358568,Cantique des Cantiques,5,7,נָשְׂא֤וּ ,נשׂא,H5375,653
-358568,358569,Cantique des Cantiques,5,7,אֶת־,אֵת,H853,10987
-358569,358570,Cantique des Cantiques,5,7,רְדִידִי֙ ,רְדִיד,H7289,2
-358570,358571,Cantique des Cantiques,5,7,מֵֽ,מִן,H4480,7562
-358571,358572,Cantique des Cantiques,5,7,עָלַ֔י ,עַל,H5921,5766
-358572,358573,Cantique des Cantiques,5,7,שֹׁמְרֵ֖י ,שׁמר,H8104,468
-358573,358574,Cantique des Cantiques,5,7,הַ,הַ,H9009,30386
-358574,358575,Cantique des Cantiques,5,7,חֹמֹֽות׃ ,חֹומָה,H2346,133
-358575,358576,Cantique des Cantiques,5,8,הִשְׁבַּ֥עְתִּי ,שׁבע,H7650,185
-358576,358577,Cantique des Cantiques,5,8,אֶתְכֶ֖ם ,אֵת,H853,10987
-358577,358578,Cantique des Cantiques,5,8,בְּנֹ֣ות ,בַּת,H1323,588
-358578,358579,Cantique des Cantiques,5,8,יְרוּשָׁלִָ֑ם ,יְרוּשָׁלִַם,H3389,643
-358579,358580,Cantique des Cantiques,5,8,אִֽם־,אִם,H518,1068
-358580,358581,Cantique des Cantiques,5,8,תִּמְצְאוּ֙ ,מצא,H4672,453
-358581,358582,Cantique des Cantiques,5,8,אֶת־,אֵת,H853,10987
-358582,358583,Cantique des Cantiques,5,8,דֹּודִ֔י ,דֹּוד,H1730,61
-358583,358584,Cantique des Cantiques,5,8,מַה־,מָה,H4100,573
-358584,358585,Cantique des Cantiques,5,8,תַּגִּ֣ידוּ ,נגד,H5046,370
-358585,358586,Cantique des Cantiques,5,8,לֹ֔ו ,לְ,H9005,20069
-358586,358587,Cantique des Cantiques,5,8,שֶׁ,שַׁ,H2470,138
-358587,358588,Cantique des Cantiques,5,8,חֹולַ֥ת ,חלה,H2470,75
-358588,358589,Cantique des Cantiques,5,8,אַהֲבָ֖ה ,אֲהָבָה,H160,36
-358589,358590,Cantique des Cantiques,5,8,אָֽנִי׃ ,אֲנִי,H589,874
-358590,358591,Cantique des Cantiques,5,9,מַה־,מָה,H4100,573
-358591,358592,Cantique des Cantiques,5,9,דֹּודֵ֣ךְ ,דֹּוד,H1730,61
-358592,358593,Cantique des Cantiques,5,9,מִ,מִן,H4480,7562
-358593,358594,Cantique des Cantiques,5,9,דֹּ֔וד ,דֹּוד,H1730,61
-358594,358595,Cantique des Cantiques,5,9,הַ,הַ,H9009,30386
-358595,358596,Cantique des Cantiques,5,9,יָּפָ֖ה ,יָפֶה,H3303,43
-358596,358597,Cantique des Cantiques,5,9,בַּ,בְּ,H9003,15542
-358597,358598,Cantique des Cantiques,5,9,,הַ,H9009,30386
-358598,358599,Cantique des Cantiques,5,9,נָּשִׁ֑ים ,אִשָּׁה,H802,781
-358599,358600,Cantique des Cantiques,5,9,מַה־,מָה,H4100,573
-358600,358601,Cantique des Cantiques,5,9,דֹּודֵ֣ךְ ,דֹּוד,H1730,61
-358601,358602,Cantique des Cantiques,5,9,מִ,מִן,H4480,7562
-358602,358603,Cantique des Cantiques,5,9,דֹּ֔וד ,דֹּוד,H1730,61
-358603,358604,Cantique des Cantiques,5,9,שֶׁ,שַׁ,H3602,138
-358604,358605,Cantique des Cantiques,5,9,כָּ֖כָה ,כָּכָה,H3602,37
-358605,358606,Cantique des Cantiques,5,9,הִשְׁבַּעְתָּֽנוּ׃ ,שׁבע,H7650,185
-358606,358607,Cantique des Cantiques,5,10,דֹּודִ֥י ,דֹּוד,H1730,61
-358607,358608,Cantique des Cantiques,5,10,צַח֙ ,צַח,H6703,4
-358608,358609,Cantique des Cantiques,5,10,וְ,וְ,H9000,50272
-358609,358610,Cantique des Cantiques,5,10,אָדֹ֔ום ,אָדֹם,H122,9
-358610,358611,Cantique des Cantiques,5,10,דָּג֖וּל ,דגל,H1713,4
-358611,358612,Cantique des Cantiques,5,10,מֵ,מִן,H4480,7562
-358612,358613,Cantique des Cantiques,5,10,רְבָבָֽה׃ ,רְבָבָה,H7233,16
-358613,358614,Cantique des Cantiques,5,11,רֹאשֹׁ֖ו ,רֹאשׁ,H7218,599
-358614,358615,Cantique des Cantiques,5,11,כֶּ֣תֶם ,כֶּתֶם,H3800,9
-358615,358616,Cantique des Cantiques,5,11,פָּ֑ז ,פַּז,H6337,9
-358616,358617,Cantique des Cantiques,5,11,קְוּצֹּותָיו֙ ,קְוֻצֹּות,H6977,2
-358617,358618,Cantique des Cantiques,5,11,תַּלְתַּלִּ֔ים ,תַּלְתָּל,H8534,1
-358618,358619,Cantique des Cantiques,5,11,שְׁחֹרֹ֖ות ,שָׁחֹר,H7838,6
-358619,358620,Cantique des Cantiques,5,11,כָּ,כְּ,H9004,2902
-358620,358621,Cantique des Cantiques,5,11,,הַ,H9009,30386
-358621,358622,Cantique des Cantiques,5,11,עֹורֵֽב׃ ,עֹרֵב,H6158,10
-358622,358623,Cantique des Cantiques,5,12,עֵינָ֕יו ,עַיִן,H5869,887
-358623,358624,Cantique des Cantiques,5,12,כְּ,כְּ,H9004,2902
-358624,358625,Cantique des Cantiques,5,12,יֹונִ֖ים ,יֹונָה,H3123,32
-358625,358626,Cantique des Cantiques,5,12,עַל־,עַל,H5921,5766
-358626,358627,Cantique des Cantiques,5,12,אֲפִ֣יקֵי ,אָפִיק,H650,18
-358627,358628,Cantique des Cantiques,5,12,מָ֑יִם ,מַיִם,H4325,582
-358628,358629,Cantique des Cantiques,5,12,רֹֽחֲצֹות֙ ,רחץ,H7364,72
-358629,358630,Cantique des Cantiques,5,12,בֶּֽ,בְּ,H9003,15542
-358630,358631,Cantique des Cantiques,5,12,,הַ,H9009,30386
-358631,358632,Cantique des Cantiques,5,12,חָלָ֔ב ,חָלָב,H2461,44
-358632,358633,Cantique des Cantiques,5,12,יֹשְׁבֹ֖ות ,ישׁב,H3427,1082
-358633,358634,Cantique des Cantiques,5,12,עַל־,עַל,H5921,5766
-358634,358635,Cantique des Cantiques,5,12,מִלֵּֽאת׃ ,מִלֵּאת,H4402,1
-358635,358636,Cantique des Cantiques,5,13,לְחָיָו֙ ,לְחִי,H3895,21
-358636,358637,Cantique des Cantiques,5,13,כַּ,כְּ,H9004,2902
-358637,358638,Cantique des Cantiques,5,13,עֲרוּגַ֣ת ,עֲרוּגָה,H6170,4
-358638,358639,Cantique des Cantiques,5,13,הַ,הַ,H9009,30386
-358639,358640,Cantique des Cantiques,5,13,בֹּ֔שֶׂם ,בֹּשֶׂם,H1314,30
-358640,358641,Cantique des Cantiques,5,13,מִגְדְּלֹ֖ות ,מִגְדָּל,H4026,48
-358641,358642,Cantique des Cantiques,5,13,מֶרְקָחִ֑ים ,מֶרְקָח,H4840,1
-358642,358643,Cantique des Cantiques,5,13,שִׂפְתֹותָיו֙ ,שָׂפָה,H8193,176
-358643,358644,Cantique des Cantiques,5,13,שֹֽׁושַׁנִּ֔ים ,שׁוּשַׁן,H7799,17
-358644,358645,Cantique des Cantiques,5,13,נֹטְפֹ֖ות ,נטף,H5197,18
-358645,358646,Cantique des Cantiques,5,13,מֹ֥ור ,מֹר,H4753,12
-358646,358647,Cantique des Cantiques,5,13,עֹבֵֽר׃ ,עבר,H5674,548
-358647,358648,Cantique des Cantiques,5,14,יָדָיו֙ ,יָד,H3027,1618
-358648,358649,Cantique des Cantiques,5,14,גְּלִילֵ֣י ,גָּלִיל,H1550,5
-358649,358650,Cantique des Cantiques,5,14,זָהָ֔ב ,זָהָב,H2091,389
-358650,358651,Cantique des Cantiques,5,14,מְמֻלָּאִ֖ים ,מלא,H4390,292
-358651,358652,Cantique des Cantiques,5,14,בַּ,בְּ,H9003,15542
-358652,358653,Cantique des Cantiques,5,14,,הַ,H9009,30386
-358653,358654,Cantique des Cantiques,5,14,תַּרְשִׁ֑ישׁ ,תַּרְשִׁישׁ,H8658,7
-358654,358655,Cantique des Cantiques,5,14,מֵעָיו֙ ,מֵעִים,H4578,32
-358655,358656,Cantique des Cantiques,5,14,עֶ֣שֶׁת ,עֶשֶׁת,H6247,1
-358656,358657,Cantique des Cantiques,5,14,שֵׁ֔ן ,שֵׁן,H8127,55
-358657,358658,Cantique des Cantiques,5,14,מְעֻלֶּ֖פֶת ,עלף,H5968,5
-358658,358659,Cantique des Cantiques,5,14,סַפִּירִֽים׃ ,סַפִּיר,H5601,11
-358659,358660,Cantique des Cantiques,5,15,שֹׁוקָיו֙ ,שֹׁוק,H7785,19
-358660,358661,Cantique des Cantiques,5,15,עַמּ֣וּדֵי ,עַמּוּד,H5982,111
-358661,358662,Cantique des Cantiques,5,15,שֵׁ֔שׁ ,שֵׁשׁ,H8336,3
-358662,358663,Cantique des Cantiques,5,15,מְיֻסָּדִ֖ים ,יסד,H3245,41
-358663,358664,Cantique des Cantiques,5,15,עַל־,עַל,H5921,5766
-358664,358665,Cantique des Cantiques,5,15,אַדְנֵי־,אֶדֶן,H134,57
-358665,358666,Cantique des Cantiques,5,15,פָ֑ז ,פַּז,H6337,9
-358666,358667,Cantique des Cantiques,5,15,מַרְאֵ֨הוּ֙ ,מַרְאֶה,H4758,103
-358667,358668,Cantique des Cantiques,5,15,כַּ,כְּ,H9004,2902
-358668,358669,Cantique des Cantiques,5,15,,הַ,H9009,30386
-358669,358670,Cantique des Cantiques,5,15,לְּבָנֹ֔ון ,לְבָנֹון,H3844,71
-358670,358671,Cantique des Cantiques,5,15,בָּח֖וּר ,בחר,H977,169
-358671,358672,Cantique des Cantiques,5,15,כָּ,כְּ,H9004,2902
-358672,358673,Cantique des Cantiques,5,15,,הַ,H9009,30386
-358673,358674,Cantique des Cantiques,5,15,אֲרָזִֽים׃ ,אֶרֶז,H730,73
-358674,358675,Cantique des Cantiques,5,16,חִכֹּו֙ ,חֵךְ,H2441,18
-358675,358676,Cantique des Cantiques,5,16,מַֽמְתַקִּ֔ים ,מַמְתַקִּים,H4477,2
-358676,358677,Cantique des Cantiques,5,16,וְ,וְ,H9000,50272
-358677,358678,Cantique des Cantiques,5,16,כֻלֹּ֖ו ,כֹּל,H3605,5412
-358678,358679,Cantique des Cantiques,5,16,מַחֲמַדִּ֑ים ,מַחְמָד,H4261,13
-358679,358680,Cantique des Cantiques,5,16,זֶ֤ה ,זֶה,H2088,1177
-358680,358681,Cantique des Cantiques,5,16,דֹודִי֙ ,דֹּוד,H1730,61
-358681,358682,Cantique des Cantiques,5,16,וְ,וְ,H9000,50272
-358682,358683,Cantique des Cantiques,5,16,זֶ֣ה ,זֶה,H2088,1177
-358683,358684,Cantique des Cantiques,5,16,רֵעִ֔י ,רֵעַ,H7453,187
-358684,358685,Cantique des Cantiques,5,16,בְּנֹ֖ות ,בַּת,H1323,588
-358685,358686,Cantique des Cantiques,5,16,יְרוּשָׁלִָֽם׃ ,יְרוּשָׁלִַם,H3389,643
-358686,358687,Cantique des Cantiques,6,1,אָ֚נָה ,אָן,H575,41
-358687,358688,Cantique des Cantiques,6,1,הָלַ֣ךְ ,הלך,H1980,1547
-358688,358689,Cantique des Cantiques,6,1,דֹּודֵ֔ךְ ,דֹּוד,H1730,61
-358689,358690,Cantique des Cantiques,6,1,הַ,הַ,H9009,30386
-358690,358691,Cantique des Cantiques,6,1,יָּפָ֖ה ,יָפֶה,H3303,43
-358691,358692,Cantique des Cantiques,6,1,בַּ,בְּ,H9003,15542
-358692,358693,Cantique des Cantiques,6,1,,הַ,H9009,30386
-358693,358694,Cantique des Cantiques,6,1,נָּשִׁ֑ים ,אִשָּׁה,H802,781
-358694,358695,Cantique des Cantiques,6,1,אָ֚נָה ,אָן,H575,41
-358695,358696,Cantique des Cantiques,6,1,פָּנָ֣ה ,פנה,H6437,135
-358696,358697,Cantique des Cantiques,6,1,דֹודֵ֔ךְ ,דֹּוד,H1730,61
-358697,358698,Cantique des Cantiques,6,1,וּ,וְ,H9000,50272
-358698,358699,Cantique des Cantiques,6,1,נְבַקְשֶׁ֖נּוּ ,בקשׁ,H1245,225
-358699,358700,Cantique des Cantiques,6,1,עִמָּֽךְ׃ ,עִם,H5973,1049
-358700,358701,Cantique des Cantiques,6,2,דֹּודִי֙ ,דֹּוד,H1730,61
-358701,358702,Cantique des Cantiques,6,2,יָרַ֣ד ,ירד,H3381,377
-358702,358703,Cantique des Cantiques,6,2,לְ,לְ,H9005,20069
-358703,358704,Cantique des Cantiques,6,2,גַנֹּ֔ו ,גַּן,H1588,41
-358704,358705,Cantique des Cantiques,6,2,לַ,לְ,H9005,20069
-358705,358706,Cantique des Cantiques,6,2,עֲרוּגֹ֖ות ,עֲרוּגָה,H6170,4
-358706,358707,Cantique des Cantiques,6,2,הַ,הַ,H9009,30386
-358707,358708,Cantique des Cantiques,6,2,בֹּ֑שֶׂם ,בֹּשֶׂם,H1314,30
-358708,358709,Cantique des Cantiques,6,2,לִ,לְ,H9005,20069
-358709,358710,Cantique des Cantiques,6,2,רְעֹות֙ ,רעה,H7462,168
-358710,358711,Cantique des Cantiques,6,2,בַּ,בְּ,H9003,15542
-358711,358712,Cantique des Cantiques,6,2,,הַ,H9009,30386
-358712,358713,Cantique des Cantiques,6,2,גַּנִּ֔ים ,גַּן,H1588,41
-358713,358714,Cantique des Cantiques,6,2,וְ,וְ,H9000,50272
-358714,358715,Cantique des Cantiques,6,2,לִ,לְ,H9005,20069
-358715,358716,Cantique des Cantiques,6,2,לְקֹ֖ט ,לקט,H3950,37
-358716,358717,Cantique des Cantiques,6,2,שֹֽׁושַׁנִּֽים׃ ,שׁוּשַׁן,H7799,17
-358717,358718,Cantique des Cantiques,6,3,אֲנִ֤י ,אֲנִי,H589,874
-358718,358719,Cantique des Cantiques,6,3,לְ,לְ,H9005,20069
-358719,358720,Cantique des Cantiques,6,3,דֹודִי֙ ,דֹּוד,H1730,61
-358720,358721,Cantique des Cantiques,6,3,וְ,וְ,H9000,50272
-358721,358722,Cantique des Cantiques,6,3,דֹודִ֣י ,דֹּוד,H1730,61
-358722,358723,Cantique des Cantiques,6,3,לִ֔י ,לְ,H9005,20069
-358723,358724,Cantique des Cantiques,6,3,הָ,הַ,H9009,30386
-358724,358725,Cantique des Cantiques,6,3,רֹעֶ֖ה ,רעה,H7462,168
-358725,358726,Cantique des Cantiques,6,3,בַּ,בְּ,H9003,15542
-358726,358727,Cantique des Cantiques,6,3,,הַ,H9009,30386
-358727,358728,Cantique des Cantiques,6,3,שֹּׁושַׁנִּֽים׃ ס ,שׁוּשַׁן,H7799,17
-358728,358729,Cantique des Cantiques,6,4,יָפָ֨ה ,יָפֶה,H3303,43
-358729,358730,Cantique des Cantiques,6,4,אַ֤תְּ ,אַתְּ,H859,57
-358730,358731,Cantique des Cantiques,6,4,רַעְיָתִי֙ ,רַעְיָה,H7474,9
-358731,358732,Cantique des Cantiques,6,4,כְּ,כְּ,H9004,2902
-358732,358733,Cantique des Cantiques,6,4,תִרְצָ֔ה ,תִּרְצָה,H8656,14
-358733,358734,Cantique des Cantiques,6,4,נָאוָ֖ה ,נָאוֶה,H5000,9
-358734,358735,Cantique des Cantiques,6,4,כִּ,כְּ,H9004,2902
-358735,358736,Cantique des Cantiques,6,4,ירוּשָׁלִָ֑ם ,יְרוּשָׁלִַם,H3389,643
-358736,358737,Cantique des Cantiques,6,4,אֲיֻמָּ֖ה ,אָיֹם,H366,3
-358737,358738,Cantique des Cantiques,6,4,כַּ,כְּ,H9004,2902
-358738,358739,Cantique des Cantiques,6,4,,הַ,H9009,30386
-358739,358740,Cantique des Cantiques,6,4,נִּדְגָּלֹֽות׃ ,דגל,H1713,4
-358740,358741,Cantique des Cantiques,6,5,הָסֵ֤בִּי ,סבב,H5437,161
-358741,358742,Cantique des Cantiques,6,5,עֵינַ֨יִךְ֙ ,עַיִן,H5869,887
-358742,358743,Cantique des Cantiques,6,5,מִ,מִן,H4480,7562
-358743,358744,Cantique des Cantiques,6,5,נֶּגְדִּ֔י ,נֶגֶד,H5048,151
-358744,358745,Cantique des Cantiques,6,5,שֶׁ֥,שַׁ,H7945,138
-358745,358746,Cantique des Cantiques,6,5,הֵ֖ם ,הֵם,H1992,269
-358746,358747,Cantique des Cantiques,6,5,הִרְהִיבֻ֑נִי ,רהב,H7292,4
-358747,358748,Cantique des Cantiques,6,5,שַׂעְרֵךְ֙ ,שֵׂעָר,H8181,28
-358748,358749,Cantique des Cantiques,6,5,כְּ,כְּ,H9004,2902
-358749,358750,Cantique des Cantiques,6,5,עֵ֣דֶר ,עֵדֶר,H5739,38
-358750,358751,Cantique des Cantiques,6,5,הָֽ,הַ,H9009,30386
-358751,358752,Cantique des Cantiques,6,5,עִזִּ֔ים ,עֵז,H5795,74
-358752,358753,Cantique des Cantiques,6,5,שֶׁ,שַׁ,H7945,138
-358753,358754,Cantique des Cantiques,6,5,גָּלְשׁ֖וּ ,גלשׁ,H1570,2
-358754,358755,Cantique des Cantiques,6,5,מִן־,מִן,H4480,7562
-358755,358756,Cantique des Cantiques,6,5,הַ,הַ,H9009,30386
-358756,358757,Cantique des Cantiques,6,5,גִּלְעָֽד׃ ,גִּלְעָד,H1568,134
-358757,358758,Cantique des Cantiques,6,6,שִׁנַּ֨יִךְ֙ ,שֵׁן,H8127,55
-358758,358759,Cantique des Cantiques,6,6,כְּ,כְּ,H9004,2902
-358759,358760,Cantique des Cantiques,6,6,עֵ֣דֶר ,עֵדֶר,H5739,38
-358760,358761,Cantique des Cantiques,6,6,הָֽ,הַ,H9009,30386
-358761,358762,Cantique des Cantiques,6,6,רְחֵלִ֔ים ,רָחֵל,H7353,4
-358762,358763,Cantique des Cantiques,6,6,שֶׁ,שַׁ,H7945,138
-358763,358764,Cantique des Cantiques,6,6,עָל֖וּ ,עלה,H5927,890
-358764,358765,Cantique des Cantiques,6,6,מִן־,מִן,H4480,7562
-358765,358766,Cantique des Cantiques,6,6,הָ,הַ,H9009,30386
-358766,358767,Cantique des Cantiques,6,6,רַחְצָ֑ה ,רַחְצָה,H7367,2
-358767,358768,Cantique des Cantiques,6,6,שֶׁ,שַׁ,H7945,138
-358768,358769,Cantique des Cantiques,6,6,כֻּלָּם֙ ,כֹּל,H3605,5412
-358769,358770,Cantique des Cantiques,6,6,מַתְאִימֹ֔ות ,תאם,H8382,2
-358770,358771,Cantique des Cantiques,6,6,וְ,וְ,H9000,50272
-358771,358772,Cantique des Cantiques,6,6,שַׁכֻּלָ֖ה ,שַׁכּוּל,H7909,6
-358772,358773,Cantique des Cantiques,6,6,אֵ֥ין ,אַיִן,H369,788
-358773,358774,Cantique des Cantiques,6,6,בָּהֶֽם׃ ,בְּ,H9003,15542
-358774,358775,Cantique des Cantiques,6,7,כְּ,כְּ,H9004,2902
-358775,358776,Cantique des Cantiques,6,7,פֶ֤לַח ,פֶּלַח,H6400,6
-358776,358777,Cantique des Cantiques,6,7,הָ,הַ,H9009,30386
-358777,358778,Cantique des Cantiques,6,7,רִמֹּון֙ ,רִמֹּון,H7416,32
-358778,358779,Cantique des Cantiques,6,7,רַקָּתֵ֔ךְ ,רַקָּה,H7541,5
-358779,358780,Cantique des Cantiques,6,7,מִ,מִן,H4480,7562
-358780,358781,Cantique des Cantiques,6,7,בַּ֖עַד ,בַּעַד,H1157,105
-358781,358782,Cantique des Cantiques,6,7,לְ,לְ,H9005,20069
-358782,358783,Cantique des Cantiques,6,7,צַמָּתֵֽךְ׃ ,צַמָּה,H6777,4
-358783,358784,Cantique des Cantiques,6,8,שִׁשִּׁ֥ים ,שֵׁשׁ,H8346,274
-358784,358785,Cantique des Cantiques,6,8,הֵ֨מָּה֙ ,הֵמָּה,H1992,291
-358785,358786,Cantique des Cantiques,6,8,מְּלָכֹ֔ות ,מַלְכָּה,H4436,35
-358786,358787,Cantique des Cantiques,6,8,וּ,וְ,H9000,50272
-358787,358788,Cantique des Cantiques,6,8,שְׁמֹנִ֖ים ,שְׁמֹנֶה,H8084,147
-358788,358789,Cantique des Cantiques,6,8,פִּֽילַגְשִׁ֑ים ,פִּלֶגֶשׁ,H6370,37
-358789,358790,Cantique des Cantiques,6,8,וַ,וְ,H9000,50272
-358790,358791,Cantique des Cantiques,6,8,עֲלָמֹ֖ות ,עַלְמָה,H5959,9
-358791,358792,Cantique des Cantiques,6,8,אֵ֥ין ,אַיִן,H369,788
-358792,358793,Cantique des Cantiques,6,8,מִסְפָּֽר׃ ,מִסְפָּר,H4557,134
-358793,358794,Cantique des Cantiques,6,9,אַחַ֥ת ,אֶחָד,H259,970
-358794,358795,Cantique des Cantiques,6,9,הִיא֙ ,הִיא,H1931,485
-358795,358796,Cantique des Cantiques,6,9,יֹונָתִ֣י ,יֹונָה,H3123,32
-358796,358797,Cantique des Cantiques,6,9,תַמָּתִ֔י ,תָּם,H8535,16
-358797,358798,Cantique des Cantiques,6,9,אַחַ֥ת ,אֶחָד,H259,970
-358798,358799,Cantique des Cantiques,6,9,הִיא֙ ,הִיא,H1931,485
-358799,358800,Cantique des Cantiques,6,9,לְ,לְ,H9005,20069
-358800,358801,Cantique des Cantiques,6,9,אִמָּ֔הּ ,אֵם,H517,220
-358801,358802,Cantique des Cantiques,6,9,בָּרָ֥ה ,בַּר,H1249,6
-358802,358803,Cantique des Cantiques,6,9,הִ֖יא ,הִיא,H1931,485
-358803,358804,Cantique des Cantiques,6,9,לְ,לְ,H9005,20069
-358804,358805,Cantique des Cantiques,6,9,יֹֽולַדְתָּ֑הּ ,ילד,H3205,492
-358805,358806,Cantique des Cantiques,6,9,רָא֤וּהָ ,ראה,H7200,1298
-358806,358807,Cantique des Cantiques,6,9,בָנֹות֙ ,בַּת,H1323,588
-358807,358808,Cantique des Cantiques,6,9,וַֽ,וְ,H9000,50272
-358808,358809,Cantique des Cantiques,6,9,יְאַשְּׁר֔וּהָ ,אשׁר,H833,9
-358809,358810,Cantique des Cantiques,6,9,מְלָכֹ֥ות ,מַלְכָּה,H4436,35
-358810,358811,Cantique des Cantiques,6,9,וּ,וְ,H9000,50272
-358811,358812,Cantique des Cantiques,6,9,פִֽילַגְשִׁ֖ים ,פִּלֶגֶשׁ,H6370,37
-358812,358813,Cantique des Cantiques,6,9,וַֽ,וְ,H9000,50272
-358813,358814,Cantique des Cantiques,6,9,יְהַלְלֽוּהָ׃ ס ,הלל,H1984,146
-358814,358815,Cantique des Cantiques,6,10,מִי־,מִי,H4310,423
-358815,358816,Cantique des Cantiques,6,10,זֹ֥את ,זֹאת,H2063,604
-358816,358817,Cantique des Cantiques,6,10,הַ,הַ,H9009,30386
-358817,358818,Cantique des Cantiques,6,10,נִּשְׁקָפָ֖ה ,שׁקף,H8259,22
-358818,358819,Cantique des Cantiques,6,10,כְּמֹו־,כְּמֹו,H3644,142
-358819,358820,Cantique des Cantiques,6,10,שָׁ֑חַר ,שַׁחַר,H7837,23
-358820,358821,Cantique des Cantiques,6,10,יָפָ֣ה ,יָפֶה,H3303,43
-358821,358822,Cantique des Cantiques,6,10,כַ,כְּ,H9004,2902
-358822,358823,Cantique des Cantiques,6,10,,הַ,H9009,30386
-358823,358824,Cantique des Cantiques,6,10,לְּבָנָ֗ה ,לְבָנָה,H3842,3
-358824,358825,Cantique des Cantiques,6,10,בָּרָה֙ ,בַּר,H1249,6
-358825,358826,Cantique des Cantiques,6,10,כַּֽ,כְּ,H9004,2902
-358826,358827,Cantique des Cantiques,6,10,,הַ,H9009,30386
-358827,358828,Cantique des Cantiques,6,10,חַמָּ֔ה ,חַמָּה,H2535,6
-358828,358829,Cantique des Cantiques,6,10,אֲיֻמָּ֖ה ,אָיֹם,H366,3
-358829,358830,Cantique des Cantiques,6,10,כַּ,כְּ,H9004,2902
-358830,358831,Cantique des Cantiques,6,10,,הַ,H9009,30386
-358831,358832,Cantique des Cantiques,6,10,נִּדְגָּלֹֽות׃ ס ,דגל,H1713,4
-358832,358833,Cantique des Cantiques,6,11,אֶל־,אֶל,H413,5517
-358833,358834,Cantique des Cantiques,6,11,גִּנַּ֤ת ,גַּנָּה,H1594,16
-358834,358835,Cantique des Cantiques,6,11,אֱגֹוז֙ ,אֱגֹוז,H93,1
-358835,358836,Cantique des Cantiques,6,11,יָרַ֔דְתִּי ,ירד,H3381,377
-358836,358837,Cantique des Cantiques,6,11,לִ,לְ,H9005,20069
-358837,358838,Cantique des Cantiques,6,11,רְאֹ֖ות ,ראה,H7200,1298
-358838,358839,Cantique des Cantiques,6,11,בְּ,בְּ,H9003,15542
-358839,358840,Cantique des Cantiques,6,11,אִבֵּ֣י ,אֵב,H3,2
-358840,358841,Cantique des Cantiques,6,11,הַ,הַ,H9009,30386
-358841,358842,Cantique des Cantiques,6,11,נָּ֑חַל ,נַחַל,H5158,139
-358842,358843,Cantique des Cantiques,6,11,לִ,לְ,H9005,20069
-358843,358844,Cantique des Cantiques,6,11,רְאֹות֙ ,ראה,H7200,1298
-358844,358845,Cantique des Cantiques,6,11,הֲ,הֲ,H9008,743
-358845,358846,Cantique des Cantiques,6,11,פָֽרְחָ֣ה ,פרח,H6524,34
-358846,358847,Cantique des Cantiques,6,11,הַ,הַ,H9009,30386
-358847,358848,Cantique des Cantiques,6,11,גֶּ֔פֶן ,גֶּפֶן,H1612,55
-358848,358849,Cantique des Cantiques,6,11,הֵנֵ֖צוּ ,נצץ,H5132,4
-358849,358850,Cantique des Cantiques,6,11,הָ,הַ,H9009,30386
-358850,358851,Cantique des Cantiques,6,11,רִמֹּנִֽים׃ ,רִמֹּון,H7416,32
-358851,358852,Cantique des Cantiques,6,12,לֹ֣א ,לֹא,H3808,5167
-358852,358853,Cantique des Cantiques,6,12,יָדַ֔עְתִּי ,ידע,H3045,944
-358853,358854,Cantique des Cantiques,6,12,נַפְשִׁ֣י ,נֶפֶשׁ,H5315,754
-358854,358855,Cantique des Cantiques,6,12,שָׂמַ֔תְנִי ,שׂים,H7760,583
-358855,358856,Cantique des Cantiques,6,12,מַרְכְּבֹ֖ות ,מֶרְכָּבָה,H4818,39
-358856,358857,Cantique des Cantiques,6,12,עַמִּי־,עַם,H5971,1866
-358857,358858,Cantique des Cantiques,6,12,נָדִֽיב׃ ,נָדִיב,H5081,27
-358858,358859,Cantique des Cantiques,6,13,שׁ֤וּבִי ,שׁוב,H7725,1038
-358859,358860,Cantique des Cantiques,6,13,שׁ֨וּבִי֙ ,שׁוב,H7725,1038
-358860,358861,Cantique des Cantiques,6,13,הַ,הַ,H9009,30386
-358861,358862,Cantique des Cantiques,6,13,שּׁ֣וּלַמִּ֔ית ,שׁוּלַמִּי,H7759,2
-358862,358863,Cantique des Cantiques,6,13,שׁ֥וּבִי ,שׁוב,H7725,1038
-358863,358864,Cantique des Cantiques,6,13,שׁ֖וּבִי ,שׁוב,H7725,1038
-358864,358865,Cantique des Cantiques,6,13,וְ,וְ,H9000,50272
-358865,358866,Cantique des Cantiques,6,13,נֶחֱזֶה־,חזה,H2372,54
-358866,358867,Cantique des Cantiques,6,13,בָּ֑ךְ ,בְּ,H9003,15542
-358867,358868,Cantique des Cantiques,6,13,מַֽה־,מָה,H4100,573
-358868,358869,Cantique des Cantiques,6,13,תֶּחֱזוּ֙ ,חזה,H2372,54
-358869,358870,Cantique des Cantiques,6,13,בַּ,בְּ,H9003,15542
-358870,358871,Cantique des Cantiques,6,13,,הַ,H9009,30386
-358871,358872,Cantique des Cantiques,6,13,שּׁ֣וּלַמִּ֔ית ,שׁוּלַמִּי,H7759,2
-358872,358873,Cantique des Cantiques,6,13,כִּ,כְּ,H9004,2902
-358873,358874,Cantique des Cantiques,6,13,מְחֹלַ֖ת ,מְחֹלָה,H4246,8
-358874,358875,Cantique des Cantiques,6,13,הַֽ,הַ,H9009,30386
-358875,358876,Cantique des Cantiques,6,13,מַּחֲנָֽיִם׃ ,מַחֲנַיִם,H4264,14
-358876,358877,Cantique des Cantiques,7,1,מַה־,מָה,H4100,573
-358877,358878,Cantique des Cantiques,7,1,יָּפ֧וּ ,יפה,H3303,8
-358878,358879,Cantique des Cantiques,7,1,פְעָמַ֛יִךְ ,פַּעַם,H6471,118
-358879,358880,Cantique des Cantiques,7,1,בַּ,בְּ,H9003,15542
-358880,358881,Cantique des Cantiques,7,1,,הַ,H9009,30386
-358881,358882,Cantique des Cantiques,7,1,נְּעָלִ֖ים ,נַעַל,H5275,22
-358882,358883,Cantique des Cantiques,7,1,בַּת־,בַּת,H1323,588
-358883,358884,Cantique des Cantiques,7,1,נָדִ֑יב ,נָדִיב,H5081,27
-358884,358885,Cantique des Cantiques,7,1,חַמּוּקֵ֣י ,חַמּוּק,H2542,1
-358885,358886,Cantique des Cantiques,7,1,יְרֵכַ֔יִךְ ,יָרֵךְ,H3409,34
-358886,358887,Cantique des Cantiques,7,1,כְּמֹ֣ו ,כְּמֹו,H3644,142
-358887,358888,Cantique des Cantiques,7,1,חֲלָאִ֔ים ,חֲלִי,H2481,2
-358888,358889,Cantique des Cantiques,7,1,מַעֲשֵׂ֖ה ,מַעֲשֶׂה,H4639,235
-358889,358890,Cantique des Cantiques,7,1,יְדֵ֥י ,יָד,H3027,1618
-358890,358891,Cantique des Cantiques,7,1,אָמָּֽן׃ ,אָמָּן,H542,1
-358891,358892,Cantique des Cantiques,7,2,שָׁרְרֵךְ֙ ,שֹׁר,H8326,3
-358892,358893,Cantique des Cantiques,7,2,אַגַּ֣ן ,אַגָּן,H101,3
-358893,358894,Cantique des Cantiques,7,2,הַ,הַ,H9009,30386
-358894,358895,Cantique des Cantiques,7,2,סַּ֔הַר ,סַהַר,H5469,1
-358895,358896,Cantique des Cantiques,7,2,אַל־,אַל,H408,726
-358896,358897,Cantique des Cantiques,7,2,יֶחְסַ֖ר ,חסר,H2637,24
-358897,358898,Cantique des Cantiques,7,2,הַ,הַ,H9009,30386
-358898,358899,Cantique des Cantiques,7,2,מָּ֑זֶג ,מֶזֶג,H4197,1
-358899,358900,Cantique des Cantiques,7,2,בִּטְנֵךְ֙ ,בֶּטֶן,H990,72
-358900,358901,Cantique des Cantiques,7,2,עֲרֵמַ֣ת ,עֲרֵמָה,H6194,11
-358901,358902,Cantique des Cantiques,7,2,חִטִּ֔ים ,חִטָּה,H2406,30
-358902,358903,Cantique des Cantiques,7,2,סוּגָ֖ה ,סוג,H5473,1
-358903,358904,Cantique des Cantiques,7,2,בַּ,בְּ,H9003,15542
-358904,358905,Cantique des Cantiques,7,2,,הַ,H9009,30386
-358905,358906,Cantique des Cantiques,7,2,שֹּׁושַׁנִּֽים׃ ,שׁוּשַׁן,H7799,17
-358906,358907,Cantique des Cantiques,7,3,שְׁנֵ֥י ,שְׁנַיִם,H8147,768
-358907,358908,Cantique des Cantiques,7,3,שָׁדַ֛יִךְ ,שַׁד,H7699,21
-358908,358909,Cantique des Cantiques,7,3,כִּ,כְּ,H9004,2902
-358909,358910,Cantique des Cantiques,7,3,שְׁנֵ֥י ,שְׁנַיִם,H8147,768
-358910,358911,Cantique des Cantiques,7,3,עֳפָרִ֖ים ,עֹפֶר,H6082,5
-358911,358912,Cantique des Cantiques,7,3,תָּאֳמֵ֥י ,תֹּואֲמִם,H8380,6
-358912,358913,Cantique des Cantiques,7,3,צְבִיָּֽה׃ ,צְבִיָּה,H6646,2
-358913,358914,Cantique des Cantiques,7,4,צַוָּארֵ֖ךְ ,צַוָּאר,H6677,41
-358914,358915,Cantique des Cantiques,7,4,כְּ,כְּ,H9004,2902
-358915,358916,Cantique des Cantiques,7,4,מִגְדַּ֣ל ,מִגְדָּל,H4026,48
-358916,358917,Cantique des Cantiques,7,4,הַ,הַ,H9009,30386
-358917,358918,Cantique des Cantiques,7,4,שֵּׁ֑ן ,שֵׁן,H8127,55
-358918,358919,Cantique des Cantiques,7,4,עֵינַ֜יִךְ ,עַיִן,H5869,887
-358919,358920,Cantique des Cantiques,7,4,בְּרֵכֹ֣ות ,בְּרֵכָה,H1295,17
-358920,358921,Cantique des Cantiques,7,4,בְּ,בְּ,H9003,15542
-358921,358922,Cantique des Cantiques,7,4,חֶשְׁבֹּ֗ון ,חֶשְׁבֹּון,H2809,38
-358922,358923,Cantique des Cantiques,7,4,עַל־,עַל,H5921,5766
-358923,358924,Cantique des Cantiques,7,4,שַׁ֨עַר֙ ,שַׁעַר,H8179,374
-358924,358925,Cantique des Cantiques,7,4,בַּת־רַבִּ֔ים ,בַּת רַבִּים,H1337,1
-358925,358926,Cantique des Cantiques,7,4,אַפֵּךְ֙ ,אַף,H639,277
-358926,358927,Cantique des Cantiques,7,4,כְּ,כְּ,H9004,2902
-358927,358928,Cantique des Cantiques,7,4,מִגְדַּ֣ל ,מִגְדָּל,H4026,48
-358928,358929,Cantique des Cantiques,7,4,הַ,הַ,H9009,30386
-358929,358930,Cantique des Cantiques,7,4,לְּבָנֹ֔ון ,לְבָנֹון,H3844,71
-358930,358931,Cantique des Cantiques,7,4,צֹופֶ֖ה ,צפה,H6822,37
-358931,358932,Cantique des Cantiques,7,4,פְּנֵ֥י ,פָּנֶה,H6440,2127
-358932,358933,Cantique des Cantiques,7,4,דַמָּֽשֶׂק׃ ,דַּמֶּשֶׂק,H1834,38
-358933,358934,Cantique des Cantiques,7,5,רֹאשֵׁ֤ךְ ,רֹאשׁ,H7218,599
-358934,358935,Cantique des Cantiques,7,5,עָלַ֨יִךְ֙ ,עַל,H5921,5766
-358935,358936,Cantique des Cantiques,7,5,כַּ,כְּ,H9004,2902
-358936,358937,Cantique des Cantiques,7,5,,הַ,H9009,30386
-358937,358938,Cantique des Cantiques,7,5,כַּרְמֶ֔ל ,כַּרְמֶל,H3760,22
-358938,358939,Cantique des Cantiques,7,5,וְ,וְ,H9000,50272
-358939,358940,Cantique des Cantiques,7,5,דַלַּ֥ת ,דַּלָּה,H1803,2
-358940,358941,Cantique des Cantiques,7,5,רֹאשֵׁ֖ךְ ,רֹאשׁ,H7218,599
-358941,358942,Cantique des Cantiques,7,5,כָּ,כְּ,H9004,2902
-358942,358943,Cantique des Cantiques,7,5,,הַ,H9009,30386
-358943,358944,Cantique des Cantiques,7,5,אַרְגָּמָ֑ן ,אַרְגָּמָן,H713,38
-358944,358945,Cantique des Cantiques,7,5,מֶ֖לֶךְ ,מֶלֶךְ,H4428,2523
-358945,358946,Cantique des Cantiques,7,5,אָס֥וּר ,אסר,H631,70
-358946,358947,Cantique des Cantiques,7,5,בָּ,בְּ,H9003,15542
-358947,358948,Cantique des Cantiques,7,5,,הַ,H9009,30386
-358948,358949,Cantique des Cantiques,7,5,רְהָטִֽים׃ ,רַהַט,H7298,4
-358949,358950,Cantique des Cantiques,7,6,מַה־,מָה,H4100,573
-358950,358951,Cantique des Cantiques,7,6,יָּפִית֙ ,יפה,H3302,8
-358951,358952,Cantique des Cantiques,7,6,וּ,וְ,H9000,50272
-358952,358953,Cantique des Cantiques,7,6,מַה־,מָה,H4100,573
-358953,358954,Cantique des Cantiques,7,6,נָּעַ֔מְתְּ ,נעם,H5276,8
-358954,358955,Cantique des Cantiques,7,6,אַהֲבָ֖ה ,אֲהָבָה,H160,36
-358955,358956,Cantique des Cantiques,7,6,בַּ,בְּ,H9003,15542
-358956,358957,Cantique des Cantiques,7,6,,הַ,H9009,30386
-358957,358958,Cantique des Cantiques,7,6,תַּֽעֲנוּגִֽים׃ ,תַּעֲנוּג,H8588,5
-358958,358959,Cantique des Cantiques,7,7,זֹ֤את ,זֹאת,H2063,604
-358959,358960,Cantique des Cantiques,7,7,קֹֽומָתֵךְ֙ ,קֹומָה,H6967,45
-358960,358961,Cantique des Cantiques,7,7,דָּֽמְתָ֣ה ,דמה,H1819,29
-358961,358962,Cantique des Cantiques,7,7,לְ,לְ,H9005,20069
-358962,358963,Cantique des Cantiques,7,7,תָמָ֔ר ,תָּמָר,H8558,12
-358963,358964,Cantique des Cantiques,7,7,וְ,וְ,H9000,50272
-358964,358965,Cantique des Cantiques,7,7,שָׁדַ֖יִךְ ,שַׁד,H7699,21
-358965,358966,Cantique des Cantiques,7,7,לְ,לְ,H9005,20069
-358966,358967,Cantique des Cantiques,7,7,אַשְׁכֹּלֹֽות׃ ,אֶשְׁכֹּול,H811,9
-358967,358968,Cantique des Cantiques,7,8,אָמַ֨רְתִּי֙ ,אמר,H559,5307
-358968,358969,Cantique des Cantiques,7,8,אֶעֱלֶ֣ה ,עלה,H5927,890
-358969,358970,Cantique des Cantiques,7,8,בְ,בְּ,H9003,15542
-358970,358971,Cantique des Cantiques,7,8,תָמָ֔ר ,תָּמָר,H8558,12
-358971,358972,Cantique des Cantiques,7,8,אֹֽחֲזָ֖ה ,אחז,H270,65
-358972,358973,Cantique des Cantiques,7,8,בְּ,בְּ,H9003,15542
-358973,358974,Cantique des Cantiques,7,8,סַנְסִנָּ֑יו ,סַנְסִנָּה,H5577,1
-358974,358975,Cantique des Cantiques,7,8,וְ,וְ,H9000,50272
-358975,358976,Cantique des Cantiques,7,8,יִֽהְיוּ־,היה,H1961,3561
-358976,358977,Cantique des Cantiques,7,8,נָ֤א ,נָא,H4994,404
-358977,358978,Cantique des Cantiques,7,8,שָׁדַ֨יִךְ֙ ,שַׁד,H7699,21
-358978,358979,Cantique des Cantiques,7,8,כְּ,כְּ,H9004,2902
-358979,358980,Cantique des Cantiques,7,8,אֶשְׁכְּלֹ֣ות ,אֶשְׁכֹּול,H811,9
-358980,358981,Cantique des Cantiques,7,8,הַ,הַ,H9009,30386
-358981,358982,Cantique des Cantiques,7,8,גֶּ֔פֶן ,גֶּפֶן,H1612,55
-358982,358983,Cantique des Cantiques,7,8,וְ,וְ,H9000,50272
-358983,358984,Cantique des Cantiques,7,8,רֵ֥יחַ ,רֵיחַ,H7381,58
-358984,358985,Cantique des Cantiques,7,8,אַפֵּ֖ךְ ,אַף,H639,277
-358985,358986,Cantique des Cantiques,7,8,כַּ,כְּ,H9004,2902
-358986,358987,Cantique des Cantiques,7,8,,הַ,H9009,30386
-358987,358988,Cantique des Cantiques,7,8,תַּפּוּחִֽים׃ ,תַּפּוּחַ,H8598,6
-358988,358989,Cantique des Cantiques,7,9,וְ,וְ,H9000,50272
-358989,358990,Cantique des Cantiques,7,9,חִכֵּ֕ךְ ,חֵךְ,H2441,18
-358990,358991,Cantique des Cantiques,7,9,כְּ,כְּ,H9004,2902
-358991,358992,Cantique des Cantiques,7,9,יֵ֥ין ,יַיִן,H3196,141
-358992,358993,Cantique des Cantiques,7,9,הַ,הַ,H9009,30386
-358993,358994,Cantique des Cantiques,7,9,טֹּ֛וב ,טֹוב,H2896,5
-358994,358995,Cantique des Cantiques,7,9,הֹולֵ֥ךְ ,הלך,H1980,1547
-358995,358996,Cantique des Cantiques,7,9,לְ,לְ,H9005,20069
-358996,358997,Cantique des Cantiques,7,9,דֹודִ֖י ,דֹּוד,H1730,61
-358997,358998,Cantique des Cantiques,7,9,לְ,לְ,H9005,20069
-358998,358999,Cantique des Cantiques,7,9,מֵישָׁרִ֑ים ,מֵישָׁרִים,H4339,19
-358999,359000,Cantique des Cantiques,7,9,דֹּובֵ֖ב ,דבב,H1680,1
-359000,359001,Cantique des Cantiques,7,9,שִׂפְתֵ֥י ,שָׂפָה,H8193,176
-359001,359002,Cantique des Cantiques,7,9,יְשֵׁנִֽים׃ ,יָשֵׁן,H3462,9
-359002,359003,Cantique des Cantiques,7,10,אֲנִ֣י ,אֲנִי,H589,874
-359003,359004,Cantique des Cantiques,7,10,לְ,לְ,H9005,20069
-359004,359005,Cantique des Cantiques,7,10,דֹודִ֔י ,דֹּוד,H1730,61
-359005,359006,Cantique des Cantiques,7,10,וְ,וְ,H9000,50272
-359006,359007,Cantique des Cantiques,7,10,עָלַ֖י ,עַל,H5921,5766
-359007,359008,Cantique des Cantiques,7,10,תְּשׁוּקָתֹֽו׃ ס ,תְּשׁוּקָה,H8669,3
-359008,359009,Cantique des Cantiques,7,11,לְכָ֤ה ,הלך,H1980,1547
-359009,359010,Cantique des Cantiques,7,11,דֹודִי֙ ,דֹּוד,H1730,61
-359010,359011,Cantique des Cantiques,7,11,נֵצֵ֣א ,יצא,H3318,1068
-359011,359012,Cantique des Cantiques,7,11,הַ,הַ,H9009,30386
-359012,359013,Cantique des Cantiques,7,11,שָּׂדֶ֔ה ,שָׂדֶה,H7704,320
-359013,359014,Cantique des Cantiques,7,11,נָלִ֖ינָה ,לין,H3885,70
-359014,359015,Cantique des Cantiques,7,11,בַּ,בְּ,H9003,15542
-359015,359016,Cantique des Cantiques,7,11,,הַ,H9009,30386
-359016,359017,Cantique des Cantiques,7,11,כְּפָרִֽים׃ ,כֹּפֶר,H3723,3
-359017,359018,Cantique des Cantiques,7,12,נַשְׁכִּ֨ימָה֙ ,שׁכם,H7925,65
-359018,359019,Cantique des Cantiques,7,12,לַ,לְ,H9005,20069
-359019,359020,Cantique des Cantiques,7,12,,הַ,H9009,30386
-359020,359021,Cantique des Cantiques,7,12,כְּרָמִ֔ים ,כֶּרֶם,H3754,92
-359021,359022,Cantique des Cantiques,7,12,נִרְאֶ֞ה ,ראה,H7200,1298
-359022,359023,Cantique des Cantiques,7,12,אִם ,אִם,H518,1068
-359023,359024,Cantique des Cantiques,7,12,פָּֽרְחָ֤ה ,פרח,H6524,34
-359024,359025,Cantique des Cantiques,7,12,הַ,הַ,H9009,30386
-359025,359026,Cantique des Cantiques,7,12,גֶּ֨פֶן֙ ,גֶּפֶן,H1612,55
-359026,359027,Cantique des Cantiques,7,12,פִּתַּ֣ח ,פתח,H6605,135
-359027,359028,Cantique des Cantiques,7,12,הַ,הַ,H9009,30386
-359028,359029,Cantique des Cantiques,7,12,סְּמָדַ֔ר ,סְמָדַר,H5563,3
-359029,359030,Cantique des Cantiques,7,12,הֵנֵ֖צוּ ,נצץ,H5132,4
-359030,359031,Cantique des Cantiques,7,12,הָ,הַ,H9009,30386
-359031,359032,Cantique des Cantiques,7,12,רִמֹּונִ֑ים ,רִמֹּון,H7416,32
-359032,359033,Cantique des Cantiques,7,12,שָׁ֛ם ,שָׁם,H8033,834
-359033,359034,Cantique des Cantiques,7,12,אֶתֵּ֥ן ,נתן,H5414,2010
-359034,359035,Cantique des Cantiques,7,12,אֶת־,אֵת,H853,10987
-359035,359036,Cantique des Cantiques,7,12,דֹּדַ֖י ,דֹּוד,H1730,61
-359036,359037,Cantique des Cantiques,7,12,לָֽךְ׃ ,לְ,H9005,20069
-359037,359038,Cantique des Cantiques,7,13,הַֽ,הַ,H9009,30386
-359038,359039,Cantique des Cantiques,7,13,דּוּדָאִ֣ים ,דּוּדַי,H1736,6
-359039,359040,Cantique des Cantiques,7,13,נָֽתְנוּ־,נתן,H5414,2010
-359040,359041,Cantique des Cantiques,7,13,רֵ֗יחַ ,רֵיחַ,H7381,58
-359041,359042,Cantique des Cantiques,7,13,וְ,וְ,H9000,50272
-359042,359043,Cantique des Cantiques,7,13,עַל־,עַל,H5921,5766
-359043,359044,Cantique des Cantiques,7,13,פְּתָחֵ֨ינוּ֙ ,פֶּתַח,H6607,164
-359044,359045,Cantique des Cantiques,7,13,כָּל־,כֹּל,H3605,5412
-359045,359046,Cantique des Cantiques,7,13,מְגָדִ֔ים ,מֶגֶד,H4022,8
-359046,359047,Cantique des Cantiques,7,13,חֲדָשִׁ֖ים ,חָדָשׁ,H2319,52
-359047,359048,Cantique des Cantiques,7,13,גַּם־,גַּם,H1571,769
-359048,359049,Cantique des Cantiques,7,13,יְשָׁנִ֑ים ,יָשָׁן,H3465,8
-359049,359050,Cantique des Cantiques,7,13,דֹּודִ֖י ,דֹּוד,H1730,61
-359050,359051,Cantique des Cantiques,7,13,צָפַ֥נְתִּי ,צפן,H6845,32
-359051,359052,Cantique des Cantiques,7,13,לָֽךְ׃ ,לְ,H9005,20069
-359052,359053,Cantique des Cantiques,8,1,מִ֤י ,מִי,H4310,423
-359053,359054,Cantique des Cantiques,8,1,יִתֶּנְךָ֙ ,נתן,H5414,2010
-359054,359055,Cantique des Cantiques,8,1,כְּ,כְּ,H9004,2902
-359055,359056,Cantique des Cantiques,8,1,אָ֣ח ,אָח,H251,629
-359056,359057,Cantique des Cantiques,8,1,לִ֔י ,לְ,H9005,20069
-359057,359058,Cantique des Cantiques,8,1,יֹונֵ֖ק ,ינק,H3243,27
-359058,359059,Cantique des Cantiques,8,1,שְׁדֵ֣י ,שַׁד,H7699,21
-359059,359060,Cantique des Cantiques,8,1,אִמִּ֑י ,אֵם,H517,220
-359060,359061,Cantique des Cantiques,8,1,אֶֽמְצָאֲךָ֤ ,מצא,H4672,453
-359061,359062,Cantique des Cantiques,8,1,בַ,בְּ,H9003,15542
-359062,359063,Cantique des Cantiques,8,1,,הַ,H9009,30386
-359063,359064,Cantique des Cantiques,8,1,חוּץ֙ ,חוּץ,H2351,164
-359064,359065,Cantique des Cantiques,8,1,אֶשָּׁ֣קְךָ֔ ,נשׁק,H5401,32
-359065,359066,Cantique des Cantiques,8,1,גַּ֖ם ,גַּם,H1571,769
-359066,359067,Cantique des Cantiques,8,1,לֹא־,לֹא,H3808,5167
-359067,359068,Cantique des Cantiques,8,1,יָב֥וּזוּ ,בוז,H936,14
-359068,359069,Cantique des Cantiques,8,1,לִֽי׃ ,לְ,H9005,20069
-359069,359070,Cantique des Cantiques,8,2,אֶנְהָֽגֲךָ֗ ,נהג,H5090,30
-359070,359071,Cantique des Cantiques,8,2,אֲבִֽיאֲךָ֛ ,בוא,H935,2570
-359071,359072,Cantique des Cantiques,8,2,אֶל־,אֶל,H413,5517
-359072,359073,Cantique des Cantiques,8,2,בֵּ֥ית ,בַּיִת,H1004,2063
-359073,359074,Cantique des Cantiques,8,2,אִמִּ֖י ,אֵם,H517,220
-359074,359075,Cantique des Cantiques,8,2,תְּלַמְּדֵ֑נִי ,למד,H3925,86
-359075,359076,Cantique des Cantiques,8,2,אַשְׁקְךָ֙ ,שׁקה,H8248,68
-359076,359077,Cantique des Cantiques,8,2,מִ,מִן,H4480,7562
-359077,359078,Cantique des Cantiques,8,2,יַּ֣יִן ,יַיִן,H3196,141
-359078,359079,Cantique des Cantiques,8,2,הָ,הַ,H9009,30386
-359079,359080,Cantique des Cantiques,8,2,רֶ֔קַח ,רֶקַח,H7544,1
-359080,359081,Cantique des Cantiques,8,2,מֵ,מִן,H4480,7562
-359081,359082,Cantique des Cantiques,8,2,עֲסִ֖יס ,עָסִיס,H6071,5
-359082,359083,Cantique des Cantiques,8,2,רִמֹּנִֽי׃ ,רִמֹּון,H7416,32
-359083,359084,Cantique des Cantiques,8,3,שְׂמֹאלֹו֙ ,שְׂמֹאל,H8040,54
-359084,359085,Cantique des Cantiques,8,3,תַּ֣חַת ,תַּחַת,H8478,505
-359085,359086,Cantique des Cantiques,8,3,רֹאשִׁ֔י ,רֹאשׁ,H7218,599
-359086,359087,Cantique des Cantiques,8,3,וִֽ,וְ,H9000,50272
-359087,359088,Cantique des Cantiques,8,3,ימִינֹ֖ו ,יָמִין,H3225,139
-359088,359089,Cantique des Cantiques,8,3,תְּחַבְּקֵֽנִי׃ ,חבק,H2263,13
-359089,359090,Cantique des Cantiques,8,4,הִשְׁבַּ֥עְתִּי ,שׁבע,H7650,185
-359090,359091,Cantique des Cantiques,8,4,אֶתְכֶ֖ם ,אֵת,H853,10987
-359091,359092,Cantique des Cantiques,8,4,בְּנֹ֣ות ,בַּת,H1323,588
-359092,359093,Cantique des Cantiques,8,4,יְרוּשָׁלִָ֑ם ,יְרוּשָׁלִַם,H3389,643
-359093,359094,Cantique des Cantiques,8,4,מַה־,מָה,H4100,573
-359094,359095,Cantique des Cantiques,8,4,תָּעִ֧ירוּ׀ ,עור,H5782,80
-359095,359096,Cantique des Cantiques,8,4,וּֽ,וְ,H9000,50272
-359096,359097,Cantique des Cantiques,8,4,מַה־,מָה,H4100,573
-359097,359098,Cantique des Cantiques,8,4,תְּעֹֽרְר֛וּ ,עור,H5782,80
-359098,359099,Cantique des Cantiques,8,4,אֶת־,אֵת,H853,10987
-359099,359100,Cantique des Cantiques,8,4,הָ,הַ,H9009,30386
-359100,359101,Cantique des Cantiques,8,4,אַהֲבָ֖ה ,אֲהָבָה,H160,36
-359101,359102,Cantique des Cantiques,8,4,עַ֥ד ,עַד,H5704,1263
-359102,359103,Cantique des Cantiques,8,4,שֶׁ,שַׁ,H2654,138
-359103,359104,Cantique des Cantiques,8,4,תֶּחְפָּֽץ׃ ס ,חפץ,H2654,77
-359104,359105,Cantique des Cantiques,8,5,מִ֣י ,מִי,H4310,423
-359105,359106,Cantique des Cantiques,8,5,זֹ֗את ,זֹאת,H2063,604
-359106,359107,Cantique des Cantiques,8,5,עֹלָה֙ ,עלה,H5927,890
-359107,359108,Cantique des Cantiques,8,5,מִן־,מִן,H4480,7562
-359108,359109,Cantique des Cantiques,8,5,הַ,הַ,H9009,30386
-359109,359110,Cantique des Cantiques,8,5,מִּדְבָּ֔ר ,מִדְבָּר,H4057,270
-359110,359111,Cantique des Cantiques,8,5,מִתְרַפֶּ֖קֶת ,רפק,H7514,1
-359111,359112,Cantique des Cantiques,8,5,עַל־,עַל,H5921,5766
-359112,359113,Cantique des Cantiques,8,5,דֹּודָ֑הּ ,דֹּוד,H1730,61
-359113,359114,Cantique des Cantiques,8,5,תַּ֤חַת ,תַּחַת,H8478,505
-359114,359115,Cantique des Cantiques,8,5,הַ,הַ,H9009,30386
-359115,359116,Cantique des Cantiques,8,5,תַּפּ֨וּחַ֙ ,תַּפּוּחַ,H8598,6
-359116,359117,Cantique des Cantiques,8,5,עֹֽורַרְתִּ֔יךָ ,עור,H5782,80
-359117,359118,Cantique des Cantiques,8,5,שָׁ֚מָּה ,שָׁם,H8033,834
-359118,359119,Cantique des Cantiques,8,5,חִבְּלַ֣תְךָ ,חבל,H2254,3
-359119,359120,Cantique des Cantiques,8,5,אִמֶּ֔ךָ ,אֵם,H517,220
-359120,359121,Cantique des Cantiques,8,5,שָׁ֖מָּה ,שָׁם,H8033,834
-359121,359122,Cantique des Cantiques,8,5,חִבְּלָ֥ה ,חבל,H2254,3
-359122,359123,Cantique des Cantiques,8,5,יְלָדַֽתְךָ׃ ,ילד,H3205,492
-359123,359124,Cantique des Cantiques,8,6,שִׂימֵ֨נִי ,שׂים,H7760,583
-359124,359125,Cantique des Cantiques,8,6,כַֽ,כְּ,H9004,2902
-359125,359126,Cantique des Cantiques,8,6,,הַ,H9009,30386
-359126,359127,Cantique des Cantiques,8,6,חֹותָ֜ם ,חֹותָם,H2368,14
-359127,359128,Cantique des Cantiques,8,6,עַל־,עַל,H5921,5766
-359128,359129,Cantique des Cantiques,8,6,לִבֶּ֗ךָ ,לֵב,H3820,601
-359129,359130,Cantique des Cantiques,8,6,כַּֽ,כְּ,H9004,2902
-359130,359131,Cantique des Cantiques,8,6,,הַ,H9009,30386
-359131,359132,Cantique des Cantiques,8,6,חֹותָם֙ ,חֹותָם,H2368,14
-359132,359133,Cantique des Cantiques,8,6,עַל־,עַל,H5921,5766
-359133,359134,Cantique des Cantiques,8,6,זְרֹועֶ֔ךָ ,זְרֹועַ,H2220,91
-359134,359135,Cantique des Cantiques,8,6,כִּֽי־,כִּי,H3588,4483
-359135,359136,Cantique des Cantiques,8,6,עַזָּ֤ה ,עַז,H5794,22
-359136,359137,Cantique des Cantiques,8,6,כַ,כְּ,H9004,2902
-359137,359138,Cantique des Cantiques,8,6,,הַ,H9009,30386
-359138,359139,Cantique des Cantiques,8,6,מָּ֨וֶת֙ ,מָוֶת,H4194,161
-359139,359140,Cantique des Cantiques,8,6,אַהֲבָ֔ה ,אֲהָבָה,H160,36
-359140,359141,Cantique des Cantiques,8,6,קָשָׁ֥ה ,קָשֶׁה,H7186,36
-359141,359142,Cantique des Cantiques,8,6,כִ,כְּ,H9004,2902
-359142,359143,Cantique des Cantiques,8,6,שְׁאֹ֖ול ,שְׁאֹול,H7585,65
-359143,359144,Cantique des Cantiques,8,6,קִנְאָ֑ה ,קִנְאָה,H7068,43
-359144,359145,Cantique des Cantiques,8,6,רְשָׁפֶ֕יהָ ,רֶשֶׁף,H7565,7
-359145,359146,Cantique des Cantiques,8,6,רִשְׁפֵּ֕י ,רֶשֶׁף,H7565,7
-359146,359147,Cantique des Cantiques,8,6,אֵ֖שׁ ,אֵשׁ,H784,378
-359147,359148,Cantique des Cantiques,8,6,שַׁלְהֶ֥בֶתְיָֽה׃ ,שַׁלְהֶבֶתְיָה,H7957,1
-359148,359149,Cantique des Cantiques,8,7,מַ֣יִם ,מַיִם,H4325,582
-359149,359150,Cantique des Cantiques,8,7,רַבִּ֗ים ,רַב,H7227,424
-359150,359151,Cantique des Cantiques,8,7,לֹ֤א ,לֹא,H3808,5167
-359151,359152,Cantique des Cantiques,8,7,יֽוּכְלוּ֙ ,יכל,H3201,193
-359152,359153,Cantique des Cantiques,8,7,לְ,לְ,H9005,20069
-359153,359154,Cantique des Cantiques,8,7,כַבֹּ֣ות ,כבה,H3518,24
-359154,359155,Cantique des Cantiques,8,7,אֶת־,אֵת,H853,10987
-359155,359156,Cantique des Cantiques,8,7,הָֽ,הַ,H9009,30386
-359156,359157,Cantique des Cantiques,8,7,אַהֲבָ֔ה ,אֲהָבָה,H160,36
-359157,359158,Cantique des Cantiques,8,7,וּ,וְ,H9000,50272
-359158,359159,Cantique des Cantiques,8,7,נְהָרֹ֖ות ,נָהָר,H5104,124
-359159,359160,Cantique des Cantiques,8,7,לֹ֣א ,לֹא,H3808,5167
-359160,359161,Cantique des Cantiques,8,7,יִשְׁטְפ֑וּהָ ,שׁטף,H7857,31
-359161,359162,Cantique des Cantiques,8,7,אִם־,אִם,H518,1068
-359162,359163,Cantique des Cantiques,8,7,יִתֵּ֨ן ,נתן,H5414,2010
-359163,359164,Cantique des Cantiques,8,7,אִ֜ישׁ ,אִישׁ,H376,2186
-359164,359165,Cantique des Cantiques,8,7,אֶת־,אֵת,H853,10987
-359165,359166,Cantique des Cantiques,8,7,כָּל־,כֹּל,H3605,5412
-359166,359167,Cantique des Cantiques,8,7,הֹ֤ון ,הֹון,H1952,26
-359167,359168,Cantique des Cantiques,8,7,בֵּיתֹו֙ ,בַּיִת,H1004,2063
-359168,359169,Cantique des Cantiques,8,7,בָּ,בְּ,H9003,15542
-359169,359170,Cantique des Cantiques,8,7,,הַ,H9009,30386
-359170,359171,Cantique des Cantiques,8,7,אַהֲבָ֔ה ,אֲהָבָה,H160,36
-359171,359172,Cantique des Cantiques,8,7,בֹּ֖וז ,בוז,H936,14
-359172,359173,Cantique des Cantiques,8,7,יָב֥וּזוּ ,בוז,H936,14
-359173,359174,Cantique des Cantiques,8,7,לֹֽו׃ ס ,לְ,H9005,20069
-359174,359175,Cantique des Cantiques,8,8,אָחֹ֥ות ,אָחֹות,H269,114
-359175,359176,Cantique des Cantiques,8,8,לָ֨נוּ֙ ,לְ,H9005,20069
-359176,359177,Cantique des Cantiques,8,8,קְטַנָּ֔ה ,קָטָן,H6996,47
-359177,359178,Cantique des Cantiques,8,8,וְ,וְ,H9000,50272
-359178,359179,Cantique des Cantiques,8,8,שָׁדַ֖יִם ,שַׁד,H7699,21
-359179,359180,Cantique des Cantiques,8,8,אֵ֣ין ,אַיִן,H369,788
-359180,359181,Cantique des Cantiques,8,8,לָ֑הּ ,לְ,H9005,20069
-359181,359182,Cantique des Cantiques,8,8,מַֽה־,מָה,H4100,573
-359182,359183,Cantique des Cantiques,8,8,נַּעֲשֶׂה֙ ,עשׂה,H6213,2629
-359183,359184,Cantique des Cantiques,8,8,לַ,לְ,H9005,20069
-359184,359185,Cantique des Cantiques,8,8,אֲחֹתֵ֔נוּ ,אָחֹות,H269,114
-359185,359186,Cantique des Cantiques,8,8,בַּ,בְּ,H9003,15542
-359186,359187,Cantique des Cantiques,8,8,,הַ,H9009,30386
-359187,359188,Cantique des Cantiques,8,8,יֹּ֖ום ,יֹום,H3117,2304
-359188,359189,Cantique des Cantiques,8,8,שֶׁ,שַׁ,H1696,138
-359189,359190,Cantique des Cantiques,8,8,יְּדֻבַּר־,דבר,H1696,1138
-359190,359191,Cantique des Cantiques,8,8,בָּֽהּ׃ ,בְּ,H9003,15542
-359191,359192,Cantique des Cantiques,8,9,אִם־,אִם,H518,1068
-359192,359193,Cantique des Cantiques,8,9,חֹומָ֣ה ,חֹומָה,H2346,133
-359193,359194,Cantique des Cantiques,8,9,הִ֔יא ,הִיא,H1931,485
-359194,359195,Cantique des Cantiques,8,9,נִבְנֶ֥ה ,בנה,H1129,376
-359195,359196,Cantique des Cantiques,8,9,עָלֶ֖יהָ ,עַל,H5921,5766
-359196,359197,Cantique des Cantiques,8,9,טִ֣ירַת ,טִירָה,H2918,7
-359197,359198,Cantique des Cantiques,8,9,כָּ֑סֶף ,כֶּסֶף,H3701,403
-359198,359199,Cantique des Cantiques,8,9,וְ,וְ,H9000,50272
-359199,359200,Cantique des Cantiques,8,9,אִם־,אִם,H518,1068
-359200,359201,Cantique des Cantiques,8,9,דֶּ֣לֶת ,דֶּלֶת,H1817,87
-359201,359202,Cantique des Cantiques,8,9,הִ֔יא ,הִיא,H1931,485
-359202,359203,Cantique des Cantiques,8,9,נָצ֥וּר ,צור,H6696,31
-359203,359204,Cantique des Cantiques,8,9,עָלֶ֖יהָ ,עַל,H5921,5766
-359204,359205,Cantique des Cantiques,8,9,ל֥וּחַ ,לוּחַ,H3871,43
-359205,359206,Cantique des Cantiques,8,9,אָֽרֶז׃ ,אֶרֶז,H730,73
-359206,359207,Cantique des Cantiques,8,10,אֲנִ֣י ,אֲנִי,H589,874
-359207,359208,Cantique des Cantiques,8,10,חֹומָ֔ה ,חֹומָה,H2346,133
-359208,359209,Cantique des Cantiques,8,10,וְ,וְ,H9000,50272
-359209,359210,Cantique des Cantiques,8,10,שָׁדַ֖י ,שַׁד,H7699,21
-359210,359211,Cantique des Cantiques,8,10,כַּ,כְּ,H9004,2902
-359211,359212,Cantique des Cantiques,8,10,,הַ,H9009,30386
-359212,359213,Cantique des Cantiques,8,10,מִּגְדָּלֹ֑ות ,מִגְדָּל,H4026,48
-359213,359214,Cantique des Cantiques,8,10,אָ֛ז ,אָז,H227,141
-359214,359215,Cantique des Cantiques,8,10,הָיִ֥יתִי ,היה,H1961,3561
-359215,359216,Cantique des Cantiques,8,10,בְ,בְּ,H9003,15542
-359216,359217,Cantique des Cantiques,8,10,עֵינָ֖יו ,עַיִן,H5869,887
-359217,359218,Cantique des Cantiques,8,10,כְּ,כְּ,H9004,2902
-359218,359219,Cantique des Cantiques,8,10,מֹוצְאֵ֥ת ,יצא,H4672,1068
-359219,359220,Cantique des Cantiques,8,10,שָׁלֹֽום׃ פ ,שָׁלֹום,H7965,237
-359220,359221,Cantique des Cantiques,8,11,כֶּ֣רֶם ,כֶּרֶם,H3754,92
-359221,359222,Cantique des Cantiques,8,11,הָיָ֤ה ,היה,H1961,3561
-359222,359223,Cantique des Cantiques,8,11,לִ,לְ,H9005,20069
-359223,359224,Cantique des Cantiques,8,11,שְׁלֹמֹה֙ ,שְׁלֹמֹה,H8010,293
-359224,359225,Cantique des Cantiques,8,11,בְּ,בְּ,H9003,15542
-359225,359226,Cantique des Cantiques,8,11,בַ֣עַל הָמֹ֔ון ,בַּעַל הָמֹון,H1174,1
-359226,359227,Cantique des Cantiques,8,11,נָתַ֥ן ,נתן,H5414,2010
-359227,359228,Cantique des Cantiques,8,11,אֶת־,אֵת,H853,10987
-359228,359229,Cantique des Cantiques,8,11,הַ,הַ,H9009,30386
-359229,359230,Cantique des Cantiques,8,11,כֶּ֖רֶם ,כֶּרֶם,H3754,92
-359230,359231,Cantique des Cantiques,8,11,לַ,לְ,H9005,20069
-359231,359232,Cantique des Cantiques,8,11,,הַ,H9009,30386
-359232,359233,Cantique des Cantiques,8,11,נֹּטְרִ֑ים ,נטר,H5201,4
-359233,359234,Cantique des Cantiques,8,11,אִ֛ישׁ ,אִישׁ,H376,2186
-359234,359235,Cantique des Cantiques,8,11,יָבִ֥א ,בוא,H935,2570
-359235,359236,Cantique des Cantiques,8,11,בְּ,בְּ,H9003,15542
-359236,359237,Cantique des Cantiques,8,11,פִרְיֹ֖ו ,פְּרִי,H6529,119
-359237,359238,Cantique des Cantiques,8,11,אֶ֥לֶף ,אֶלֶף,H505,492
-359238,359239,Cantique des Cantiques,8,11,כָּֽסֶף׃ ,כֶּסֶף,H3701,403
-359239,359240,Cantique des Cantiques,8,12,כַּרְמִ֥י ,כֶּרֶם,H3754,92
-359240,359241,Cantique des Cantiques,8,12,שֶׁ,שַׁ,H7945,138
-359241,359242,Cantique des Cantiques,8,12,לִּ֖י ,לְ,H9005,20069
-359242,359243,Cantique des Cantiques,8,12,לְ,לְ,H9005,20069
-359243,359244,Cantique des Cantiques,8,12,פָנָ֑י ,פָּנֶה,H6440,2127
-359244,359245,Cantique des Cantiques,8,12,הָ,הַ,H9009,30386
-359245,359246,Cantique des Cantiques,8,12,אֶ֤לֶף ,אֶלֶף,H505,492
-359246,359247,Cantique des Cantiques,8,12,לְךָ֙ ,לְ,H9005,20069
-359247,359248,Cantique des Cantiques,8,12,שְׁלֹמֹ֔ה ,שְׁלֹמֹה,H8010,293
-359248,359249,Cantique des Cantiques,8,12,וּ,וְ,H9000,50272
-359249,359250,Cantique des Cantiques,8,12,מָאתַ֖יִם ,מֵאָה,H3967,579
-359250,359251,Cantique des Cantiques,8,12,לְ,לְ,H9005,20069
-359251,359252,Cantique des Cantiques,8,12,נֹטְרִ֥ים ,נטר,H5201,4
-359252,359253,Cantique des Cantiques,8,12,אֶת־,אֵת,H853,10987
-359253,359254,Cantique des Cantiques,8,12,פִּרְיֹֽו׃ ,פְּרִי,H6529,119
-359254,359255,Cantique des Cantiques,8,13,הַ,הַ,H9009,30386
-359255,359256,Cantique des Cantiques,8,13,יֹּושֶׁ֣בֶת ,ישׁב,H3427,1082
-359256,359257,Cantique des Cantiques,8,13,בַּ,בְּ,H9003,15542
-359257,359258,Cantique des Cantiques,8,13,,הַ,H9009,30386
-359258,359259,Cantique des Cantiques,8,13,גַּנִּ֗ים ,גַּן,H1588,41
-359259,359260,Cantique des Cantiques,8,13,חֲבֵרִ֛ים ,חָבֵר,H2270,12
-359260,359261,Cantique des Cantiques,8,13,מַקְשִׁיבִ֥ים ,קשׁב,H7181,46
-359261,359262,Cantique des Cantiques,8,13,לְ,לְ,H9005,20069
-359262,359263,Cantique des Cantiques,8,13,קֹולֵ֖ךְ ,קֹול,H6963,505
-359263,359264,Cantique des Cantiques,8,13,הַשְׁמִיעִֽינִי׃ ,שׁמע,H8085,1159
-359264,359265,Cantique des Cantiques,8,14,בְּרַ֣ח׀ ,ברח,H1272,65
-359265,359266,Cantique des Cantiques,8,14,דֹּודִ֗י ,דֹּוד,H1730,61
-359266,359267,Cantique des Cantiques,8,14,וּֽ,וְ,H9000,50272
-359267,359268,Cantique des Cantiques,8,14,דְמֵה־,דמה,H1819,29
-359268,359269,Cantique des Cantiques,8,14,לְךָ֤ ,לְ,H9005,20069
-359269,359270,Cantique des Cantiques,8,14,לִ,לְ,H9005,20069
-359270,359271,Cantique des Cantiques,8,14,צְבִי֙ ,צְבִי,H6643,11
-359271,359272,Cantique des Cantiques,8,14,אֹ֚ו ,אֹו,H176,320
-359272,359273,Cantique des Cantiques,8,14,לְ,לְ,H9005,20069
-359273,359274,Cantique des Cantiques,8,14,עֹ֣פֶר ,עֹפֶר,H6082,5
-359274,359275,Cantique des Cantiques,8,14,הָֽ,הַ,H9009,30386
-359275,359276,Cantique des Cantiques,8,14,אַיָּלִ֔ים ,אַיָּל,H354,11
-359276,359277,Cantique des Cantiques,8,14,עַ֖ל ,עַל,H5921,5766
-359277,359278,Cantique des Cantiques,8,14,הָרֵ֥י ,הַר,H2022,558
-359278,359279,Cantique des Cantiques,8,14,בְשָׂמִֽים׃ ,בֹּשֶׂם,H1314,30
+Unnamed: 0,book,chapter,verse,orig,lex,strong,freq
+220626,Cantiques,1,1,שִׁ֥יר,שִׁיר,H7892,90
+220627,Cantiques,1,1,הַשִּׁירִ֖ים,שִׁיר,H7892,90
+220628,Cantiques,1,1,אֲשֶׁ֥ר,אֲשֶׁר,H0834,5499
+220629,Cantiques,1,1,לִשְׁלֹמֹֽה׃,שְׁלֹמֹה,H8010,293
+220630,Cantiques,1,2,יִשָּׁקֵ֙נִי֙,נָשַׁק,H5401,35
+220631,Cantiques,1,2,מִנְּשִׁיק֣וֹת,נְשִׁיקָה,H5390,2
+220632,Cantiques,1,2,פִּ֔יהוּ,פֶּה,H6310,498
+220633,Cantiques,1,2,כִּֽי־,כִּי,H3588,4485
+220634,Cantiques,1,2,טוֹבִ֥ים,טוֹב,H2896,562
+220635,Cantiques,1,2,דֹּדֶ֖יךָ,דּוֹד,H1730,61
+220636,Cantiques,1,2,מִיָּֽיִן׃,יַ֫יִן,H3196,141
+220637,Cantiques,1,3,לְרֵ֙יחַ֙,רֵיחַ,H7381,58
+220638,Cantiques,1,3,שְׁמָנֶ֣יךָ,שֶׁ֫מֶן,H8081,193
+220639,Cantiques,1,3,טוֹבִ֔ים,טוֹב,H2896,562
+220640,Cantiques,1,3,שֶׁ֖מֶן,שֶׁ֫מֶן,H8081,193
+220641,Cantiques,1,3,תּוּרַ֣ק,רִיק,H7324,19
+220642,Cantiques,1,3,שְׁמֶ֑ךָ,שֵׁם,H8034,864
+220643,Cantiques,1,3,עַל־,עַל,H5921,5774
+220644,Cantiques,1,3,כֵּ֖ן,כֵּן,H3651,765
+220645,Cantiques,1,3,עֲלָמ֥וֹת,עַלְמָה,H5959,7
+220646,Cantiques,1,3,אֲהֵבֽוּךָ׃,אָהֵב,H0157,211
+220647,Cantiques,1,4,מָשְׁכֵ֖נִי,מָשַׁךְ,H4900,36
+220648,Cantiques,1,4,אַחֲרֶ֣יךָ,אַחַר,H0310,716
+220649,Cantiques,1,4,נָּר֑וּצָה,רוּץ,H7323,103
+220650,Cantiques,1,4,הֱבִיאַ֨נִי,בּוֹא,H0935,2572
+220651,Cantiques,1,4,הַמֶּ֜לֶךְ,מֶ֫לֶךְ,H4428,2526
+220652,Cantiques,1,4,חֲדָרָ֗יו,חֶ֫דֶר,H2315,38
+220653,Cantiques,1,4,נָגִ֤ילָה,גִּיל,H1523,45
+220654,Cantiques,1,4,וְנִשְׂמְחָה֙,שָׂמַח,H8055,155
+220655,Cantiques,1,4,נַזְכִּ֤ירָה,זָכַר,H2142,232
+220656,Cantiques,1,4,דֹדֶ֙יךָ֙,דּוֹד,H1730,61
+220657,Cantiques,1,4,מִיַּ֔יִן,יַ֫יִן,H3196,141
+220658,Cantiques,1,4,מֵישָׁרִ֖ים,מֵישָׁר,H4339,19
+220659,Cantiques,1,4,אֲהֵבֽוּךָ׃ ס,אָהֵב,H0157,211
+220660,Cantiques,1,5,שְׁחוֹרָ֤ה,שָׁחֹר,H7838,6
+220661,Cantiques,1,5,אֲנִי֙,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+220662,Cantiques,1,5,וְֽנָאוָ֔ה,נָאוֶה,H5000,10
+220663,Cantiques,1,5,בְּנ֖וֹת,בַּת,H1323,588
+220664,Cantiques,1,5,יְרוּשָׁלִָ֑ם,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+220665,Cantiques,1,5,כְּאָהֳלֵ֣י,אֹ֫הֶל,H0168,345
+220666,Cantiques,1,5,קֵדָ֔ר,קֵדָר,H6938,12
+220667,Cantiques,1,5,כִּירִיע֖וֹת,יְרִיעָה,H3407,54
+220668,Cantiques,1,5,שְׁלֹמֹֽה׃,שְׁלֹמֹה,H8010,293
+220669,Cantiques,1,6,אַל־,אַל,H0408,725
+220670,Cantiques,1,6,תִּרְא֙וּנִי֙,רָאָה,H7200,1300
+220671,Cantiques,1,6,שֶׁאֲנִ֣י,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+220672,Cantiques,1,6,שְׁחַרְחֹ֔רֶת,שְׁחַרְחֹר,H7840,1
+220673,Cantiques,1,6,שֶׁשֱּׁזָפַ֖תְנִי,שָׁזַף,H7805,3
+220674,Cantiques,1,6,הַשָּׁ֑מֶשׁ,שֶׁ֫מֶשׁ,H8121,134
+220675,Cantiques,1,6,בְּנֵ֧י,בֵּן,H1121,4959
+220676,Cantiques,1,6,אִמִּ֣י,אֵם,H0517,220
+220677,Cantiques,1,6,נִֽחֲרוּ־,חָרָה,H2734,91
+220678,Cantiques,1,6,שָׂמֻ֙נִי֙,שׂוּם,H7760,585
+220679,Cantiques,1,6,נֹטֵרָ֣ה,נָטַר,H5201,9
+220680,Cantiques,1,6,אֶת־,אֵת,H0853,10947
+220681,Cantiques,1,6,הַכְּרָמִ֔ים,כֶּרֶם,H3754,92
+220682,Cantiques,1,6,כַּרְמִ֥י,כֶּרֶם,H3754,92
+220683,Cantiques,1,6,לֹ֥א,לֹא,H3808,5170
+220684,Cantiques,1,6,נָטָֽרְתִּי׃,נָטַר,H5201,9
+220685,Cantiques,1,7,הַגִּ֣ידָה,נָגַד,H5046,371
+220686,Cantiques,1,7,שֶׁ֤אָהֲבָה֙,אָהֵב,H0157,211
+220687,Cantiques,1,7,נַפְשִׁ֔י,נֶ֫פֶשׁ,H5315,754
+220688,Cantiques,1,7,אֵיכָ֣ה,אֵיכָה,H0349,82
+220689,Cantiques,1,7,תִרְעֶ֔ה,רָעָה,H7462,177
+220690,Cantiques,1,7,אֵיכָ֖ה,אֵיכָה,H0349,82
+220691,Cantiques,1,7,תַּרְבִּ֣יץ,רָבַץ,H7257,30
+220692,Cantiques,1,7,בַּֽצָּהֳרָ֑יִם,צֹ֫הַר,H6672,24
+220693,Cantiques,1,7,שַׁלָּמָ֤ה,מָה,H4100,753
+220694,Cantiques,1,7,אֶֽהְיֶה֙,הָיָה,H1961,3562
+220695,Cantiques,1,7,כְּעֹ֣טְיָ֔ה,עָטָה,H5844,17
+220696,Cantiques,1,7,עַ֖ל,עַל,H5921,5774
+220697,Cantiques,1,7,עֶדְרֵ֥י,עֵ֫דֶר,H5739,38
+220698,Cantiques,1,7,חֲבֵרֶֽיךָ׃,חָבֵר,H2270,12
+220699,Cantiques,1,8,אִם־,אִם,H0518,1073
+220700,Cantiques,1,8,לֹ֤א,לֹא,H3808,5170
+220701,Cantiques,1,8,תֵדְעִי֙,יָדַע,H3045,946
+220702,Cantiques,1,8,הַיָּפָ֖ה,יָפֶה,H3303,42
+220703,Cantiques,1,8,בַּנָּשִׁ֑ים,אִשָּׁה,H0802,781
+220704,Cantiques,1,8,צְֽאִי־,יָצָא,H3318,1067
+220705,Cantiques,1,8,בְּעִקְבֵ֣י,עָקֵב,H6119,14
+220706,Cantiques,1,8,הַצֹּ֗אן,צֹאן,H6629,274
+220707,Cantiques,1,8,וּרְעִי֙,רָעָה,H7462,177
+220708,Cantiques,1,8,אֶת־,אֵת,H0853,10947
+220709,Cantiques,1,8,גְּדִיֹּתַ֔יִךְ,גְּדִיָּה,H1429,1
+220710,Cantiques,1,8,עַ֖ל,עַל,H5921,5774
+220711,Cantiques,1,8,מִשְׁכְּנ֥וֹת,מִשְׁכָּן,H4908,139
+220712,Cantiques,1,8,הָרֹעִֽים׃ ס,רָעָה,H7462,177
+220713,Cantiques,1,9,לְסֻסָתִי֙,סוּסָה,H5484,1
+220714,Cantiques,1,9,בְּרִכְבֵ֣י,רֶ֫כֶב,H7393,119
+220715,Cantiques,1,9,פַרְעֹ֔ה,פַּרְעֹה,H6547,274
+220716,Cantiques,1,9,דִּמִּיתִ֖יךְ,דָּמָה,H1819,30
+220717,Cantiques,1,9,רַעְיָתִֽי׃,רַעְיָה,H7474,9
+220718,Cantiques,1,10,נָאו֤וּ,נָאָה,H4998,3
+220719,Cantiques,1,10,לְחָיַ֙יִךְ֙,לְחִי,H3895,21
+220720,Cantiques,1,10,בַּתֹּרִ֔ים,תּוֹר,H8447,4
+220721,Cantiques,1,10,צַוָּארֵ֖ךְ,צַוָּאר,H6677,42
+220722,Cantiques,1,10,בַּחֲרוּזִֽים׃,חָרוּז,H2737,1
+220723,Cantiques,1,11,תּוֹרֵ֤י,תּוֹר,H8447,4
+220724,Cantiques,1,11,זָהָב֙,זָהָב,H2091,389
+220725,Cantiques,1,11,נַעֲשֶׂה־,עָשָׂה,H6213,2629
+220726,Cantiques,1,11,עִ֖ם,עִם,H5973,1052
+220727,Cantiques,1,11,נְקֻדּ֥וֹת,נְקֻדָּה,H5351,1
+220728,Cantiques,1,11,הַכָּֽסֶף׃,כֶּ֫סֶף,H3701,403
+220729,Cantiques,1,12,עַד־,עַד,H5704,1261
+220730,Cantiques,1,12,שֶׁ֤הַמֶּ֙לֶךְ֙,מֶ֫לֶךְ,H4428,2526
+220731,Cantiques,1,12,בִּמְסִבּ֔וֹ,מֵסַב,H4524,5
+220732,Cantiques,1,12,נִרְדִּ֖י,נֵרְדְּ,H5373,3
+220733,Cantiques,1,12,נָתַ֥ן,נָתַן,H5414,2011
+220734,Cantiques,1,12,רֵיחֽוֹ׃,רֵיחַ,H7381,58
+220735,Cantiques,1,13,צְר֨וֹר,צְרוֹר,H6872,10
+220736,Cantiques,1,13,הַמֹּ֤ר׀,מֹר,H4753,12
+220737,Cantiques,1,13,דּוֹדִי֙,דּוֹד,H1730,61
+220738,Cantiques,1,13,בֵּ֥ין,בַּ֫יִן,H0996,407
+220739,Cantiques,1,13,שָׁדַ֖י,שַׁד,H7699,24
+220740,Cantiques,1,13,יָלִֽין׃,לוּן,H3885,84
+220741,Cantiques,1,14,אֶשְׁכֹּ֨ל,אֶשְׁכּוֹל,H0811,9
+220742,Cantiques,1,14,הַכֹּ֤פֶר׀,כֹּ֫פֶר,H3724,17
+220743,Cantiques,1,14,דּוֹדִי֙,דּוֹד,H1730,61
+220744,Cantiques,1,14,בְּכַרְמֵ֖י,כֶּרֶם,H3754,92
+220745,Cantiques,1,14,עֵ֥ין,עֵין גֶּ֫דִי,H5872,12
+220746,Cantiques,1,14,גֶּֽדִי׃ ס,עֵין גֶּ֫דִי,H5872,12
+220747,Cantiques,1,15,הִנָּ֤ךְ,הֵן,H2005,316
+220748,Cantiques,1,15,יָפָה֙,יָפֶה,H3303,42
+220749,Cantiques,1,15,רַעְיָתִ֔י,רַעְיָה,H7474,9
+220750,Cantiques,1,15,הִנָּ֥ךְ,הֵן,H2005,316
+220751,Cantiques,1,15,יָפָ֖ה,יָפֶה,H3303,42
+220752,Cantiques,1,15,עֵינַ֥יִךְ,עַ֫יִן,H5869,887
+220753,Cantiques,1,15,יוֹנִֽים׃,יוֹנָה,H3123,31
+220754,Cantiques,1,16,הִנְּךָ֨,הֵן,H2005,316
+220755,Cantiques,1,16,יָפֶ֤ה,יָפֶה,H3303,42
+220756,Cantiques,1,16,דוֹדִי֙,דּוֹד,H1730,61
+220757,Cantiques,1,16,אַ֣ף,אַף,H0637,134
+220758,Cantiques,1,16,נָעִ֔ים,נָעִים,H5273,13
+220759,Cantiques,1,16,אַף־,אַף,H0637,134
+220760,Cantiques,1,16,עַרְשֵׂ֖נוּ,עֶ֫רֶשׂ,H6210,10
+220761,Cantiques,1,16,רַעֲנָנָֽה׃,רַעֲנָן,H7488,20
+220762,Cantiques,1,17,קֹר֤וֹת,קוֹרָה,H6982,5
+220763,Cantiques,1,17,בָּתֵּ֙ינוּ֙,בַּ֫יִת,H1004,2049
+220764,Cantiques,1,17,אֲרָזִ֔ים,אֶ֫רֶז,H0730,73
+220765,Cantiques,1,17,רַחִיטֵ֖נוּ,רָהִיט,H7351,1
+220766,Cantiques,1,17,בְּרוֹתִֽים׃,בְּרוֹת,H1266,1
+220767,Cantiques,2,1,אֲנִי֙,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+220768,Cantiques,2,1,חֲבַצֶּ֣לֶת,חֲבַצֶּלֶת,H2261,2
+220769,Cantiques,2,1,הַשָּׁר֔וֹן,שָׁרוֹן,H8289,7
+220770,Cantiques,2,1,שֽׁוֹשַׁנַּ֖ת,שׁוּשַׁן,H7799,17
+220771,Cantiques,2,1,הָעֲמָקִֽים׃,עֵ֫מֶק,H6010,69
+220772,Cantiques,2,2,כְּשֽׁוֹשַׁנָּה֙,שׁוּשַׁן,H7799,17
+220773,Cantiques,2,2,בֵּ֣ין,בַּ֫יִן,H0996,407
+220774,Cantiques,2,2,הַחוֹחִ֔ים,חוֹחַ,H2336,12
+220775,Cantiques,2,2,כֵּ֥ן,כֵּן,H3651,765
+220776,Cantiques,2,2,רַעְיָתִ֖י,רַעְיָה,H7474,9
+220777,Cantiques,2,2,בֵּ֥ין,בַּ֫יִן,H0996,407
+220778,Cantiques,2,2,הַבָּנֽוֹת׃,בַּת,H1323,588
+220779,Cantiques,2,3,כְּתַפּ֙וּחַ֙,תַּפּוּחַ,H8598,6
+220780,Cantiques,2,3,בַּעֲצֵ֣י,עֵץ,H6086,330
+220781,Cantiques,2,3,הַיַּ֔עַר,יַ֫עַר,H3293,59
+220782,Cantiques,2,3,כֵּ֥ן,כֵּן,H3651,765
+220783,Cantiques,2,3,דּוֹדִ֖י,דּוֹד,H1730,61
+220784,Cantiques,2,3,בֵּ֣ין,בַּ֫יִן,H0996,407
+220785,Cantiques,2,3,הַבָּנִ֑ים,בֵּן,H1121,4959
+220786,Cantiques,2,3,בְּצִלּוֹ֙,צֵל,H6738,49
+220787,Cantiques,2,3,חִמַּ֣דְתִּי,חָמַד,H2530,25
+220788,Cantiques,2,3,וְיָשַׁ֔בְתִּי,יָשַׁב,H3427,1078
+220789,Cantiques,2,3,וּפִרְי֖וֹ,פְּרִי,H6529,119
+220790,Cantiques,2,3,מָת֥וֹק,מָתוֹק,H4966,12
+220791,Cantiques,2,3,לְחִכִּֽי׃,חֵךְ,H2441,18
+220792,Cantiques,2,4,הֱבִיאַ֙נִי֙,בּוֹא,H0935,2572
+220793,Cantiques,2,4,אֶל־,אֶל,H0413,5515
+220794,Cantiques,2,4,בֵּ֣ית,בַּ֫יִת,H1004,2049
+220795,Cantiques,2,4,הַיָּ֔יִן,יַ֫יִן,H3196,141
+220796,Cantiques,2,4,וְדִגְל֥וֹ,דֶּ֫גֶל,H1714,14
+220797,Cantiques,2,4,עָלַ֖י,עַל,H5921,5774
+220798,Cantiques,2,4,אַהֲבָֽה׃,אַהֲבָה,H0160,38
+220799,Cantiques,2,5,סַמְּכ֙וּנִי֙,סָמַךְ,H5564,48
+220800,Cantiques,2,5,בָּֽאֲשִׁישׁ֔וֹת,אֲשִׁישָׁה,H0809,5
+220801,Cantiques,2,5,רַפְּד֖וּנִי,רָפַד,H7502,3
+220802,Cantiques,2,5,בַּתַּפּוּחִ֑ים,תַּפּוּחַ,H8598,6
+220803,Cantiques,2,5,כִּי־,כִּי,H3588,4485
+220804,Cantiques,2,5,חוֹלַ֥ת,חָלָה,H2470,76
+220805,Cantiques,2,5,אַהֲבָ֖ה,אַהֲבָה,H0160,38
+220806,Cantiques,2,5,אָֽנִי׃,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+220807,Cantiques,2,6,שְׂמֹאלוֹ֙,שְׂמֹאל,H8040,54
+220808,Cantiques,2,6,תַּ֣חַת,תַּחַת,H8478,505
+220809,Cantiques,2,6,לְרֹאשִׁ֔י,רֹאשׁ,H7218,600
+220810,Cantiques,2,6,וִימִינ֖וֹ,יָמִין,H3225,141
+220811,Cantiques,2,6,תְּחַבְּקֵֽנִי׃,חָבַק,H2263,13
+220812,Cantiques,2,7,הִשְׁבַּ֨עְתִּי,שָׁבַע,H7650,186
+220813,Cantiques,2,7,אֶתְכֶ֜ם,אֵת,H0853,10947
+220814,Cantiques,2,7,בְּנ֤וֹת,בַּת,H1323,588
+220815,Cantiques,2,7,יְרוּשָׁלִַ֙ם֙,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+220816,Cantiques,2,7,בִּצְבָא֔וֹת,צְבִי,H6643,33
+220817,Cantiques,2,7,א֖וֹ,אוֹ,H0176,321
+220818,Cantiques,2,7,בְּאַיְל֣וֹת,אַיָּלָה,H0355,11
+220819,Cantiques,2,7,הַשָּׂדֶ֑ה,שָׂדֶה,H7704,334
+220820,Cantiques,2,7,אִם־,אִם,H0518,1073
+220821,Cantiques,2,7,תָּעִ֧ירוּ׀,עוּר,H5782,80
+220822,Cantiques,2,7,וְֽאִם־,אִם,H0518,1073
+220823,Cantiques,2,7,תְּעֽוֹרְר֛וּ,עוּר,H5782,80
+220824,Cantiques,2,7,אֶת־,אֵת,H0853,10947
+220825,Cantiques,2,7,הָאַהֲבָ֖ה,אַהֲבָה,H0160,38
+220826,Cantiques,2,7,עַ֥ד,עַד,H5704,1261
+220827,Cantiques,2,7,שֶׁתֶּחְפָּֽץ׃ ס,חָפֵץ,H2654,74
+220828,Cantiques,2,8,ק֣וֹל,קוֹל,H6963,506
+220829,Cantiques,2,8,דּוֹדִ֔י,דּוֹד,H1730,61
+220830,Cantiques,2,8,הִנֵּה־,הִנֵּה,H2009,843
+220831,Cantiques,2,8,זֶ֖ה,זֶה,H2088,1179
+220832,Cantiques,2,8,בָּ֑א,בּוֹא,H0935,2572
+220833,Cantiques,2,8,מְדַלֵּג֙,דָּלַג,H1801,5
+220834,Cantiques,2,8,עַל־,עַל,H5921,5774
+220835,Cantiques,2,8,הֶ֣הָרִ֔ים,הַר,H2022,547
+220836,Cantiques,2,8,מְקַפֵּ֖ץ,קָפַץ,H7092,7
+220837,Cantiques,2,8,עַל־,עַל,H5921,5774
+220838,Cantiques,2,8,הַגְּבָעֽוֹת׃,גִּבְעָה,H1389,68
+220839,Cantiques,2,9,דּוֹמֶ֤ה,דָּמָה,H1819,30
+220840,Cantiques,2,9,דוֹדִי֙,דּוֹד,H1730,61
+220841,Cantiques,2,9,לִצְבִ֔י,צְבִי,H6643,33
+220842,Cantiques,2,9,א֖וֹ,אוֹ,H0176,321
+220843,Cantiques,2,9,לְעֹ֣פֶר,עֹ֫פֶר,H6082,5
+220844,Cantiques,2,9,הָֽאַיָּלִ֑ים,אַיָּל,H0354,11
+220845,Cantiques,2,9,הִנֵּה־,הִנֵּה,H2009,843
+220846,Cantiques,2,9,זֶ֤ה,זֶה,H2088,1179
+220847,Cantiques,2,9,עוֹמֵד֙,עָמַד,H5975,521
+220848,Cantiques,2,9,אַחַ֣ר,אַחַר,H0310,716
+220849,Cantiques,2,9,כָּתְלֵ֔נוּ,כֹּ֫תֶל,H3796,1
+220850,Cantiques,2,9,מַשְׁגִּ֙יחַ֙,שָׁגַח,H7688,3
+220851,Cantiques,2,9,מִן־,מִן־,H4480,1190
+220852,Cantiques,2,9,הַֽחֲלֹּנ֔וֹת,חַלּוֹן,H2474,31
+220853,Cantiques,2,9,מֵצִ֖יץ,צוּץ,H6692,9
+220854,Cantiques,2,9,מִן־,מִן־,H4480,1190
+220855,Cantiques,2,9,הַֽחֲרַכִּֽים׃,חֲרַכִּים,H2762,1
+220856,Cantiques,2,10,עָנָ֥ה,עָנָה,H6030,332
+220857,Cantiques,2,10,דוֹדִ֖י,דּוֹד,H1730,61
+220858,Cantiques,2,10,וְאָ֣מַר,אָמַר,H0559,5309
+220859,Cantiques,2,10,ק֥וּמִי,קוּם,H6965,628
+220860,Cantiques,2,10,רַעְיָתִ֥י,רַעְיָה,H7474,9
+220861,Cantiques,2,10,יָפָתִ֖י,יָפֶה,H3303,42
+220862,Cantiques,2,10,וּלְכִי־,הָלַךְ,H1980,1549
+220863,Cantiques,2,11,כִּֽי־,כִּי,H3588,4485
+220864,Cantiques,2,11,הִנֵּ֥ה,הִנֵּה,H2009,843
+220865,Cantiques,2,11,הַסְּתָ֖ו,סְתָיו,H5638,1
+220866,Cantiques,2,11,עָבָ֑ר,עָבַר,H5674,556
+220867,Cantiques,2,11,הַגֶּ֕שֶׁם,גֶּ֫שֶׁם,H1653,35
+220868,Cantiques,2,11,חָלַ֖ף,חָלַף,H2498,28
+220869,Cantiques,2,11,הָלַ֥ךְ,הָלַךְ,H1980,1549
+220870,Cantiques,2,12,הַנִּצָּנִים֙,נִצָּן,H5339,1
+220871,Cantiques,2,12,נִרְא֣וּ,רָאָה,H7200,1300
+220872,Cantiques,2,12,בָאָ֔רֶץ,אֶ֫רֶץ,H0776,2504
+220873,Cantiques,2,12,עֵ֥ת,עֵת,H6256,296
+220874,Cantiques,2,12,הַזָּמִ֖יר,זָמִיר,H2159,1
+220875,Cantiques,2,12,הִגִּ֑יעַ,נָגַע,H5060,150
+220876,Cantiques,2,12,וְק֥וֹל,קוֹל,H6963,506
+220877,Cantiques,2,12,הַתּ֖וֹר,תֹּר,H8449,14
+220878,Cantiques,2,12,נִשְׁמַ֥ע,שָׁמַע,H8085,1160
+220879,Cantiques,2,12,בְּאַרְצֵֽנוּ׃,אֶ֫רֶץ,H0776,2504
+220880,Cantiques,2,13,הַתְּאֵנָה֙,תְּאֵנָה,H8384,39
+220881,Cantiques,2,13,חָֽנְטָ֣ה,חָנַט,H2590,5
+220882,Cantiques,2,13,פַגֶּ֔יהָ,פַּגָּה,H6291,1
+220883,Cantiques,2,13,וְהַגְּפָנִ֥ים׀,גֶּ֫פֶן,H1612,55
+220884,Cantiques,2,13,סְמָדַ֖ר,סְמַדֵר,H5563,3
+220885,Cantiques,2,13,נָ֣תְנוּ,נָתַן,H5414,2011
+220886,Cantiques,2,13,רֵ֑יחַ,רֵיחַ,H7381,58
+220887,Cantiques,2,13,ק֥וּמִי,קוּם,H6965,628
+220888,Cantiques,2,13,רַעְיָתִ֥י,רַעְיָה,H7474,9
+220889,Cantiques,2,13,יָפָתִ֖י,יָפֶה,H3303,42
+220890,Cantiques,2,13,וּלְכִי־,הָלַךְ,H1980,1549
+220891,Cantiques,2,14,יוֹנָתִ֞י,יוֹנָה,H3123,31
+220892,Cantiques,2,14,בְּחַגְוֵ֣י,חֲגָוִים,H2288,3
+220893,Cantiques,2,14,הַסֶּ֗לַע,סֶ֫לַע,H5553,58
+220894,Cantiques,2,14,בְּסֵ֙תֶר֙,סֵ֫תֶר,H5643,36
+220895,Cantiques,2,14,הַמַּדְרֵגָ֔ה,מַדְרֵגָה,H4095,2
+220896,Cantiques,2,14,הַרְאִ֙ינִי֙,רָאָה,H7200,1300
+220897,Cantiques,2,14,אֶתּ־,אֵת,H0853,10947
+220898,Cantiques,2,14,מַרְאַ֔יִךְ,מַרְאֶה,H4758,103
+220899,Cantiques,2,14,הַשְׁמִיעִ֖ינִי,שָׁמַע,H8085,1160
+220900,Cantiques,2,14,אֶת־,אֵת,H0853,10947
+220901,Cantiques,2,14,קוֹלֵ֑ךְ,קוֹל,H6963,506
+220902,Cantiques,2,14,כִּי־,כִּי,H3588,4485
+220903,Cantiques,2,14,קוֹלֵ֥ךְ,קוֹל,H6963,506
+220904,Cantiques,2,14,עָרֵ֖ב,עָרֵב,H6156,2
+220905,Cantiques,2,14,וּמַרְאֵ֥יךְ,מַרְאֶה,H4758,103
+220906,Cantiques,2,14,נָאוֶֽה׃ ס,נָאוֶה,H5000,10
+220907,Cantiques,2,15,אֶֽחֱזוּ־,אָחַז,H0270,68
+220908,Cantiques,2,15,שֽׁוּעָלִ֔ים,שׁוּעָל,H7776,7
+220909,Cantiques,2,15,שֽׁוּעָלִ֥ים,שׁוּעָל,H7776,7
+220910,Cantiques,2,15,קְטַנִּ֖ים,קָטָן,H6996,101
+220911,Cantiques,2,15,מְחַבְּלִ֣ים,חָבַל,H2254,27
+220912,Cantiques,2,15,כְּרָמִ֑ים,כֶּרֶם,H3754,92
+220913,Cantiques,2,15,וּכְרָמֵ֖ינוּ,כֶּרֶם,H3754,92
+220914,Cantiques,2,15,סְמָדַֽר׃,סְמַדֵר,H5563,3
+220915,Cantiques,2,16,דּוֹדִ֥י,דּוֹד,H1730,61
+220916,Cantiques,2,16,וַאֲנִ֣י,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+220917,Cantiques,2,16,הָרֹעֶ֖ה,רָעָה,H7462,177
+220918,Cantiques,2,16,בַּשּׁוֹשַׁנִּֽים׃,שׁוּשַׁן,H7799,17
+220919,Cantiques,2,17,עַ֤ד,עַד,H5704,1261
+220920,Cantiques,2,17,שֶׁיָּפ֙וּחַ֙,פּוּחַ,H6315,14
+220921,Cantiques,2,17,הַיּ֔וֹם,יוֹם,H3117,2306
+220922,Cantiques,2,17,וְנָ֖סוּ,נוּס,H5127,159
+220923,Cantiques,2,17,הַצְּלָלִ֑ים,צֵלֶל,H6752,4
+220924,Cantiques,2,17,סֹב֩,סָבַב,H5437,161
+220925,Cantiques,2,17,דְּמֵה־,דָּמָה,H1819,30
+220926,Cantiques,2,17,דוֹדִ֜י,דּוֹד,H1730,61
+220927,Cantiques,2,17,לִצְבִ֗י,צְבִי,H6643,33
+220928,Cantiques,2,17,א֛וֹ,אוֹ,H0176,321
+220929,Cantiques,2,17,לְעֹ֥פֶר,עֹ֫פֶר,H6082,5
+220930,Cantiques,2,17,הָאַיָּלִ֖ים,אַיָּל,H0354,11
+220931,Cantiques,2,17,עַל־,עַל,H5921,5774
+220932,Cantiques,2,17,הָ֥רֵי,הַר,H2022,547
+220933,Cantiques,2,17,בָֽתֶר׃ ס,בֶּ֫תֶר,H1336,1
+220934,Cantiques,3,1,עַל־,עַל,H5921,5774
+220935,Cantiques,3,1,מִשְׁכָּבִי֙,מִשְׁכָּב,H4904,46
+220936,Cantiques,3,1,בַּלֵּיל֔וֹת,לַ֫יְלָה,H3915,233
+220937,Cantiques,3,1,בִּקַּ֕שְׁתִּי,בָּקַשׁ,H1245,225
+220938,Cantiques,3,1,אֵ֥ת,אֵת,H0853,10947
+220939,Cantiques,3,1,שֶׁאָהֲבָ֖ה,אָהֵב,H0157,211
+220940,Cantiques,3,1,נַפְשִׁ֑י,נֶ֫פֶשׁ,H5315,754
+220941,Cantiques,3,1,בִּקַּשְׁתִּ֖יו,בָּקַשׁ,H1245,225
+220942,Cantiques,3,1,וְלֹ֥א,לֹא,H3808,5170
+220943,Cantiques,3,1,מְצָאתִֽיו׃,מָצָא,H4672,455
+220944,Cantiques,3,2,אָק֨וּמָה,קוּם,H6965,628
+220945,Cantiques,3,2,נָּ֜א,נָא,H4994,405
+220946,Cantiques,3,2,וַאֲסוֹבְבָ֣ה,סָבַב,H5437,161
+220947,Cantiques,3,2,בָעִ֗יר,עִיר,H5892,1089
+220948,Cantiques,3,2,בַּשְּׁוָקִים֙,שׁוּק,H7784,4
+220949,Cantiques,3,2,וּבָ֣רְחֹב֔וֹת,רְחוֹב,H7339,43
+220950,Cantiques,3,2,אֲבַקְשָׁ֕ה,בָּקַשׁ,H1245,225
+220951,Cantiques,3,2,אֵ֥ת,אֵת,H0853,10947
+220952,Cantiques,3,2,שֶׁאָהֲבָ֖ה,אָהֵב,H0157,211
+220953,Cantiques,3,2,נַפְשִׁ֑י,נֶ֫פֶשׁ,H5315,754
+220954,Cantiques,3,2,בִּקַּשְׁתִּ֖יו,בָּקַשׁ,H1245,225
+220955,Cantiques,3,2,וְלֹ֥א,לֹא,H3808,5170
+220956,Cantiques,3,2,מְצָאתִֽיו׃,מָצָא,H4672,455
+220957,Cantiques,3,3,מְצָא֙וּנִי֙,מָצָא,H4672,455
+220958,Cantiques,3,3,הַשֹּׁ֣מְרִ֔ים,שָׁמַר,H8104,469
+220959,Cantiques,3,3,הַסֹּבְבִ֖ים,סָבַב,H5437,161
+220960,Cantiques,3,3,בָּעִ֑יר,עִיר,H5892,1089
+220961,Cantiques,3,3,אֵ֛ת,אֵת,H0853,10947
+220962,Cantiques,3,3,שֶׁאָהֲבָ֥ה,אָהֵב,H0157,211
+220963,Cantiques,3,3,נַפְשִׁ֖י,נֶ֫פֶשׁ,H5315,754
+220964,Cantiques,3,3,רְאִיתֶֽם׃,רָאָה,H7200,1300
+220965,Cantiques,3,4,כִּמְעַט֙,מְעַט,H4592,101
+220966,Cantiques,3,4,שֶׁעָבַ֣רְתִּי,עָבַר,H5674,556
+220967,Cantiques,3,4,עַ֣ד,עַד,H5704,1261
+220968,Cantiques,3,4,שֶֽׁמָּצָ֔אתִי,מָצָא,H4672,455
+220969,Cantiques,3,4,אֵ֥ת,אֵת,H0853,10947
+220970,Cantiques,3,4,שֶׁאָהֲבָ֖ה,אָהֵב,H0157,211
+220971,Cantiques,3,4,נַפְשִׁ֑י,נֶ֫פֶשׁ,H5315,754
+220972,Cantiques,3,4,אֲחַזְתִּיו֙,אָחַז,H0270,68
+220973,Cantiques,3,4,וְלֹ֣א,לֹא,H3808,5170
+220974,Cantiques,3,4,אַרְפֶּ֔נּוּ,רָפָה,H7503,46
+220975,Cantiques,3,4,עַד־,עַד,H5704,1261
+220976,Cantiques,3,4,שֶׁ֤הֲבֵיאתִיו֙,בּוֹא,H0935,2572
+220977,Cantiques,3,4,אֶל־,אֶל,H0413,5515
+220978,Cantiques,3,4,בֵּ֣ית,בַּ֫יִת,H1004,2049
+220979,Cantiques,3,4,אִמִּ֔י,אֵם,H0517,220
+220980,Cantiques,3,4,וְאֶל־,אֶל,H0413,5515
+220981,Cantiques,3,4,חֶ֖דֶר,חֶ֫דֶר,H2315,38
+220982,Cantiques,3,4,הוֹרָתִֽי׃,הָרָה,H2029,43
+220983,Cantiques,3,5,הִשְׁבַּ֨עְתִּי,שָׁבַע,H7650,186
+220984,Cantiques,3,5,אֶתְכֶ֜ם,אֵת,H0853,10947
+220985,Cantiques,3,5,בְּנ֤וֹת,בַּת,H1323,588
+220986,Cantiques,3,5,יְרוּשָׁלִַ֙ם֙,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+220987,Cantiques,3,5,בִּצְבָא֔וֹת,צְבִי,H6643,33
+220988,Cantiques,3,5,א֖וֹ,אוֹ,H0176,321
+220989,Cantiques,3,5,בְּאַיְל֣וֹת,אַיָּלָה,H0355,11
+220990,Cantiques,3,5,הַשָּׂדֶ֑ה,שָׂדֶה,H7704,334
+220991,Cantiques,3,5,אִם־,אִם,H0518,1073
+220992,Cantiques,3,5,תָּעִ֧ירוּ׀,עוּר,H5782,80
+220993,Cantiques,3,5,וְֽאִם־,אִם,H0518,1073
+220994,Cantiques,3,5,תְּעֽוֹרְר֛וּ,עוּר,H5782,80
+220995,Cantiques,3,5,אֶת־,אֵת,H0853,10947
+220996,Cantiques,3,5,הָאַהֲבָ֖ה,אַהֲבָה,H0160,38
+220997,Cantiques,3,5,עַ֥ד,עַד,H5704,1261
+220998,Cantiques,3,5,שֶׁתֶּחְפָּֽץ׃ ס,חָפֵץ,H2654,74
+220999,Cantiques,3,6,מִ֣י,מִי,H4310,424
+221000,Cantiques,3,6,זֹ֗את,זֹאת,H2063,604
+221001,Cantiques,3,6,עֹלָה֙,עָלָה,H5927,890
+221002,Cantiques,3,6,מִן־,מִן־,H4480,1190
+221003,Cantiques,3,6,הַמִּדְבָּ֔ר,מִדְבָּר,H4057,271
+221004,Cantiques,3,6,כְּתִֽימֲר֖וֹת,תִּימָרָה,H8490,2
+221005,Cantiques,3,6,עָשָׁ֑ן,עָשָׁן,H6227,25
+221006,Cantiques,3,6,מְקֻטֶּ֤רֶת,קָטַר,H6999,116
+221007,Cantiques,3,6,מוֹר֙,מֹר,H4753,12
+221008,Cantiques,3,6,וּלְבוֹנָ֔ה,לְבֹנָה,H3828,21
+221009,Cantiques,3,6,מִכֹּ֖ל,כֹּל,H3605,5415
+221010,Cantiques,3,6,אַבְקַ֥ת,אֲבָקָה,H0081,1
+221011,Cantiques,3,6,רוֹכֵֽל׃,רָכַל,H7402,17
+221012,Cantiques,3,7,הִנֵּ֗ה,הִנֵּה,H2009,843
+221013,Cantiques,3,7,מִטָּתוֹ֙,מִטָּה,H4296,29
+221014,Cantiques,3,7,שֶׁלִּשְׁלֹמֹ֔ה,שְׁלֹמֹה,H8010,293
+221015,Cantiques,3,7,שִׁשִּׁ֥ים,שִׁשִּׁים,H8346,59
+221016,Cantiques,3,7,גִּבֹּרִ֖ים,גִּבּוֹר,H1368,159
+221017,Cantiques,3,7,סָבִ֣יב,סָבִיב,H5439,336
+221018,Cantiques,3,7,מִגִּבֹּרֵ֖י,גִּבּוֹר,H1368,159
+221019,Cantiques,3,7,יִשְׂרָאֵֽל׃,יִשְׂרָאֵל,H3478,2508
+221020,Cantiques,3,8,כֻּלָּם֙,כֹּל,H3605,5415
+221021,Cantiques,3,8,אֲחֻ֣זֵי,אָחַז,H0270,68
+221022,Cantiques,3,8,חֶ֔רֶב,חֶ֫רֶב,H2719,413
+221023,Cantiques,3,8,מְלֻמְּדֵ֖י,לָמַד,H3925,86
+221024,Cantiques,3,8,מִלְחָמָ֑ה,מִלְחָמָה,H4421,320
+221025,Cantiques,3,8,אִ֤ישׁ,אִישׁ,H0376,1663
+221026,Cantiques,3,8,חַרְבּוֹ֙,חֶ֫רֶב,H2719,413
+221027,Cantiques,3,8,עַל־,עַל,H5921,5774
+221028,Cantiques,3,8,יְרֵכ֔וֹ,יָרֵךְ,H3409,34
+221029,Cantiques,3,8,מִפַּ֖חַד,פַּ֫חַד,H6343,49
+221030,Cantiques,3,8,בַּלֵּילּֽוֹת׃ ס,לַ֫יְלָה,H3915,233
+221031,Cantiques,3,9,אַפִּרְי֗וֹן,אַפִּרְיוֹן,H0668,1
+221032,Cantiques,3,9,עָ֤שָׂה,עָשָׂה,H6213,2629
+221033,Cantiques,3,9,הַמֶּ֣לֶךְ,מֶ֫לֶךְ,H4428,2526
+221034,Cantiques,3,9,שְׁלֹמֹ֔ה,שְׁלֹמֹה,H8010,293
+221035,Cantiques,3,9,מֵעֲצֵ֖י,עֵץ,H6086,330
+221036,Cantiques,3,9,הַלְּבָנֽוֹן׃,לְבָנוֹן,H3844,71
+221037,Cantiques,3,10,עַמּוּדָיו֙,עַמּוּד,H5982,111
+221038,Cantiques,3,10,עָ֣שָׂה,עָשָׂה,H6213,2629
+221039,Cantiques,3,10,כֶ֔סֶף,כֶּ֫סֶף,H3701,403
+221040,Cantiques,3,10,רְפִידָת֣וֹ,רְפִידָה,H7507,1
+221041,Cantiques,3,10,זָהָ֔ב,זָהָב,H2091,389
+221042,Cantiques,3,10,מֶרְכָּב֖וֹ,מֶרְכָּב,H4817,3
+221043,Cantiques,3,10,אַרְגָּמָ֑ן,אַרְגָּמָן,H0713,38
+221044,Cantiques,3,10,תּוֹכוֹ֙,תָּ֫וֶךְ,H8432,418
+221045,Cantiques,3,10,רָצ֣וּף,רָצַף,H7528,1
+221046,Cantiques,3,10,אַהֲבָ֔ה,אַהֲבָה,H0160,38
+221047,Cantiques,3,10,מִבְּנ֖וֹת,בַּת,H1323,588
+221048,Cantiques,3,10,יְרוּשָׁלִָֽם׃,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+221049,Cantiques,3,11,צְאֶ֧ינָה׀,יָצָא,H3318,1067
+221050,Cantiques,3,11,וּֽרְאֶ֛ינָה,רָאָה,H7200,1300
+221051,Cantiques,3,11,בְּנ֥וֹת,בַּת,H1323,588
+221052,Cantiques,3,11,צִיּ֖וֹן,צִיּוֹן,H6726,154
+221053,Cantiques,3,11,בַּמֶּ֣לֶךְ,מֶ֫לֶךְ,H4428,2526
+221054,Cantiques,3,11,שְׁלֹמֹ֑ה,שְׁלֹמֹה,H8010,293
+221055,Cantiques,3,11,בָּעֲטָרָ֗ה,עֲטָרָה,H5850,23
+221056,Cantiques,3,11,שֶׁעִטְּרָה־,עָטַר,H5849,7
+221057,Cantiques,3,11,אִמּוֹ֙,אֵם,H0517,220
+221058,Cantiques,3,11,בְּי֣וֹם,יוֹם,H3117,2306
+221059,Cantiques,3,11,חֲתֻנָּת֔וֹ,חֲתֻנָּה,H2861,1
+221060,Cantiques,3,11,וּבְי֖וֹם,יוֹם,H3117,2306
+221061,Cantiques,3,11,שִׂמְחַ֥ת,שִׂמְחָה,H8057,94
+221062,Cantiques,3,11,לִבּֽוֹ׃ ס,לֵב,H3820,595
+221063,Cantiques,4,1,הִנָּ֨ךְ,הֵן,H2005,316
+221064,Cantiques,4,1,יָפָ֤ה,יָפֶה,H3303,42
+221065,Cantiques,4,1,רַעְיָתִי֙,רַעְיָה,H7474,9
+221066,Cantiques,4,1,הִנָּ֣ךְ,הֵן,H2005,316
+221067,Cantiques,4,1,יָפָ֔ה,יָפֶה,H3303,42
+221068,Cantiques,4,1,עֵינַ֣יִךְ,עַ֫יִן,H5869,887
+221069,Cantiques,4,1,יוֹנִ֔ים,יוֹנָה,H3123,31
+221070,Cantiques,4,1,מִבַּ֖עַד,בַּ֫עַד,H1157,105
+221071,Cantiques,4,1,לְצַמָּתֵ֑ךְ,צַמָּה,H6777,4
+221072,Cantiques,4,1,שַׂעְרֵךְ֙,שֵׂעָר,H8181,28
+221073,Cantiques,4,1,כְּעֵ֣דֶר,עֵ֫דֶר,H5739,38
+221074,Cantiques,4,1,הָֽעִזִּ֔ים,עֵז,H5795,74
+221075,Cantiques,4,1,שֶׁגָּלְשׁ֖וּ,גָּלַשׁ,H1570,2
+221076,Cantiques,4,1,מֵהַ֥ר,הַר,H2022,547
+221077,Cantiques,4,1,גִּלְעָֽד׃,גִּלְעָד,H1568,134
+221078,Cantiques,4,2,שִׁנַּ֙יִךְ֙,שֵׁן,H8127,55
+221079,Cantiques,4,2,כְּעֵ֣דֶר,עֵ֫דֶר,H5739,38
+221080,Cantiques,4,2,הַקְּצוּב֔וֹת,קָצַב,H7094,2
+221081,Cantiques,4,2,שֶׁעָל֖וּ,עָלָה,H5927,890
+221082,Cantiques,4,2,מִן־,מִן־,H4480,1190
+221083,Cantiques,4,2,הָרַחְצָ֑ה,רַחְצָה,H7367,2
+221084,Cantiques,4,2,שֶׁכֻּלָּם֙,כֹּל,H3605,5415
+221085,Cantiques,4,2,מַתְאִימ֔וֹת,תָּאַם,H8382,2
+221086,Cantiques,4,2,וְשַׁכֻּלָ֖ה,שַׁכּוּל,H7909,7
+221087,Cantiques,4,2,אֵ֥ין,אַ֫יִן,H0369,789
+221088,Cantiques,4,3,כְּח֤וּט,חוּט,H2339,7
+221089,Cantiques,4,3,הַשָּׁנִי֙,שָׁנִי,H8144,42
+221090,Cantiques,4,3,שִׂפְתֹתַ֔יִךְ,שָׂפָה,H8193,176
+221091,Cantiques,4,3,וּמִדְבָּרֵ֖יךְ,מִדְבָּר,H4057,271
+221092,Cantiques,4,3,נָאוֶ֑ה,נָאוֶה,H5000,10
+221093,Cantiques,4,3,כְּפֶ֤לַח,פֶּ֫לַח,H6400,6
+221094,Cantiques,4,3,הָֽרִמּוֹן֙,רִמּוֹן,H7416,32
+221095,Cantiques,4,3,רַקָּתֵ֔ךְ,רַקָּה,H7541,5
+221096,Cantiques,4,3,מִבַּ֖עַד,בַּ֫עַד,H1157,105
+221097,Cantiques,4,3,לְצַמָּתֵֽךְ׃,צַמָּה,H6777,4
+221098,Cantiques,4,4,כְּמִגְדַּ֤ל,מִגְדָּל,H4026,48
+221099,Cantiques,4,4,דָּוִיד֙,דָּוִד,H1732,1075
+221100,Cantiques,4,4,צַוָּארֵ֔ךְ,צַוָּאר,H6677,42
+221101,Cantiques,4,4,בָּנ֖וּי,בָּנָה,H1129,376
+221102,Cantiques,4,4,לְתַלְפִּיּ֑וֹת,תַּלְפִּיָּוֹת,H8530,1
+221103,Cantiques,4,4,אֶ֤לֶף,אֶ֫לֶף,H0505,506
+221104,Cantiques,4,4,הַמָּגֵן֙,מָגֵן,H4043,63
+221105,Cantiques,4,4,תָּל֣וּי,תָּלָה,H8518,27
+221106,Cantiques,4,4,עָלָ֔יו,עַל,H5921,5774
+221107,Cantiques,4,4,כֹּ֖ל,כֹּל,H3605,5415
+221108,Cantiques,4,4,שִׁלְטֵ֥י,שֶׁ֫לֶט,H7982,7
+221109,Cantiques,4,4,הַגִּבּוֹרִֽים׃,גִּבּוֹר,H1368,159
+221110,Cantiques,4,5,שְׁנֵ֥י,שְׁנַ֫יִם,H8147,769
+221111,Cantiques,4,5,שָׁדַ֛יִךְ,שַׁד,H7699,24
+221112,Cantiques,4,5,כִּשְׁנֵ֥י,שְׁנַ֫יִם,H8147,769
+221113,Cantiques,4,5,עֳפָרִ֖ים,עֹ֫פֶר,H6082,5
+221114,Cantiques,4,5,תְּאוֹמֵ֣י,תּוֹאָם,H8380,6
+221115,Cantiques,4,5,צְבִיָּ֑ה,צְבִיָּה,H6646,2
+221116,Cantiques,4,5,הָרוֹעִ֖ים,רָעָה,H7462,177
+221117,Cantiques,4,5,בַּשּׁוֹשַׁנִּֽים׃,שׁוּשַׁן,H7799,17
+221118,Cantiques,4,6,עַ֤ד,עַד,H5704,1261
+221119,Cantiques,4,6,שֶׁיָּפ֙וּחַ֙,פּוּחַ,H6315,14
+221120,Cantiques,4,6,הַיּ֔וֹם,יוֹם,H3117,2306
+221121,Cantiques,4,6,וְנָ֖סוּ,נוּס,H5127,159
+221122,Cantiques,4,6,הַצְּלָלִ֑ים,צֵלֶל,H6752,4
+221123,Cantiques,4,6,אֵ֤לֶךְ,הָלַךְ,H1980,1549
+221124,Cantiques,4,6,אֶל־,אֶל,H0413,5515
+221125,Cantiques,4,6,הַ֣ר,הַר,H2022,547
+221126,Cantiques,4,6,הַמּ֔וֹר,מֹר,H4753,12
+221127,Cantiques,4,6,וְאֶל־,אֶל,H0413,5515
+221128,Cantiques,4,6,גִּבְעַ֖ת,גִּבְעָה,H1389,68
+221129,Cantiques,4,6,הַלְּבוֹנָֽה׃,לְבֹנָה,H3828,21
+221130,Cantiques,4,7,כֻּלָּ֤ךְ,כֹּל,H3605,5415
+221131,Cantiques,4,7,יָפָה֙,יָפֶה,H3303,42
+221132,Cantiques,4,7,רַעְיָתִ֔י,רַעְיָה,H7474,9
+221133,Cantiques,4,7,וּמ֖וּם,מוּם,H3971,21
+221134,Cantiques,4,7,אֵ֥ין,אַ֫יִן,H0369,789
+221135,Cantiques,4,8,אִתִּ֤י,אֵת,H0854,929
+221136,Cantiques,4,8,מִלְּבָנוֹן֙,לְבָנוֹן,H3844,71
+221137,Cantiques,4,8,כַּלָּ֔ה,כַּלָּה,H3618,34
+221138,Cantiques,4,8,אִתִּ֖י,אֵת,H0854,929
+221139,Cantiques,4,8,מִלְּבָנ֣וֹן,לְבָנוֹן,H3844,71
+221140,Cantiques,4,8,תָּב֑וֹאִי,בּוֹא,H0935,2572
+221141,Cantiques,4,8,תָּשׁ֣וּרִי׀,שׁוּר,H7788,3
+221142,Cantiques,4,8,מֵרֹ֣אשׁ,רֹאשׁ,H7218,600
+221143,Cantiques,4,8,אֲמָנָ֗ה,אֲמָנָה,H0549,2
+221144,Cantiques,4,8,מֵרֹ֤אשׁ,רֹאשׁ,H7218,600
+221145,Cantiques,4,8,שְׂנִיר֙,שְׂנִיר,H8149,4
+221146,Cantiques,4,8,וְחֶרְמ֔וֹן,חֶרְמוֹן,H2768,13
+221147,Cantiques,4,8,מִמְּעֹנ֣וֹת,מְעֹנָה,H4585,9
+221148,Cantiques,4,8,אֲרָי֔וֹת,אֲרִי,H0738,80
+221149,Cantiques,4,8,מֵֽהַרְרֵ֖י,הָרָר,H2042,12
+221150,Cantiques,4,8,נְמֵרִֽים׃,נָמֵר,H5246,6
+221151,Cantiques,4,9,לִבַּבְתִּ֖נִי,לָבַב,H3823,5
+221152,Cantiques,4,9,אֲחֹתִ֣י,אָחוֹת,H0269,114
+221153,Cantiques,4,9,כַלָּ֑ה,כַּלָּה,H3618,34
+221154,Cantiques,4,9,לִבַּבְתִּ֙ינִי֙,לָבַב,H3823,5
+221155,Cantiques,4,9,בְּאַחַ֣ד,אֶחָד,H0259,971
+221156,Cantiques,4,9,מֵעֵינַ֔יִךְ,עַ֫יִן,H5869,887
+221157,Cantiques,4,9,בְּאַחַ֥ד,אֶחָד,H0259,971
+221158,Cantiques,4,9,עֲנָ֖ק,עֲנָק,H6060,3
+221159,Cantiques,4,9,מִצַּוְּרֹנָֽיִךְ׃,צַוָּרוֹן,H6677,42
+221160,Cantiques,4,10,מַה־,מָה,H4100,753
+221161,Cantiques,4,10,יָּפ֥וּ,יָפָה,H3302,8
+221162,Cantiques,4,10,דֹדַ֖יִךְ,דּוֹד,H1730,61
+221163,Cantiques,4,10,אֲחֹתִ֣י,אָחוֹת,H0269,114
+221164,Cantiques,4,10,כַלָּ֑ה,כַּלָּה,H3618,34
+221165,Cantiques,4,10,מַה־,מָה,H4100,753
+221166,Cantiques,4,10,טֹּ֤בוּ,טוֹב,H2895,21
+221167,Cantiques,4,10,דֹדַ֙יִךְ֙,דּוֹד,H1730,61
+221168,Cantiques,4,10,מִיַּ֔יִן,יַ֫יִן,H3196,141
+221169,Cantiques,4,10,וְרֵ֥יחַ,רֵיחַ,H7381,58
+221170,Cantiques,4,10,שְׁמָנַ֖יִךְ,שֶׁ֫מֶן,H8081,193
+221171,Cantiques,4,10,מִכָּל־,כֹּל,H3605,5415
+221172,Cantiques,4,10,בְּשָׂמִֽים׃,בֶּ֫שֶׂם,H1314,29
+221173,Cantiques,4,11,נֹ֛פֶת,נֹ֫פֶת,H5317,5
+221174,Cantiques,4,11,תִּטֹּ֥פְנָה,נָטַף,H5197,18
+221175,Cantiques,4,11,שִׂפְתוֹתַ֖יִךְ,שָׂפָה,H8193,176
+221176,Cantiques,4,11,כַּלָּ֑ה,כַּלָּה,H3618,34
+221177,Cantiques,4,11,דְּבַ֤שׁ,דְּבַשׁ,H1706,54
+221178,Cantiques,4,11,וְחָלָב֙,חָלָב,H2461,44
+221179,Cantiques,4,11,תַּ֣חַת,תַּחַת,H8478,505
+221180,Cantiques,4,11,לְשׁוֹנֵ֔ךְ,לָשׁוֹן,H3956,117
+221181,Cantiques,4,11,וְרֵ֥יחַ,רֵיחַ,H7381,58
+221182,Cantiques,4,11,שַׂלְמֹתַ֖יִךְ,שַׂלְמָה,H8008,16
+221183,Cantiques,4,11,כְּרֵ֥יחַ,רֵיחַ,H7381,58
+221184,Cantiques,4,11,לְבָנֽוֹן׃ ס,לְבָנוֹן,H3844,71
+221185,Cantiques,4,12,גַּ֥ן׀,גַּן,H1588,42
+221186,Cantiques,4,12,נָע֖וּל,נָעַל,H5274,8
+221187,Cantiques,4,12,אֲחֹתִ֣י,אָחוֹת,H0269,114
+221188,Cantiques,4,12,כַלָּ֑ה,כַּלָּה,H3618,34
+221189,Cantiques,4,12,גַּ֥ל,גַּל,H1530,34
+221190,Cantiques,4,12,נָע֖וּל,נָעַל,H5274,8
+221191,Cantiques,4,12,מַעְיָ֥ן,מַעְיָן,H4599,23
+221192,Cantiques,4,12,חָתֽוּם׃,חָתַם,H2856,26
+221193,Cantiques,4,13,שְׁלָחַ֙יִךְ֙,שֶׁ֫לַח,H7973,8
+221194,Cantiques,4,13,פַּרְדֵּ֣ס,פַּרְדֵּס,H6508,3
+221195,Cantiques,4,13,רִמּוֹנִ֔ים,רִמּוֹן,H7416,32
+221196,Cantiques,4,13,עִ֖ם,עִם,H5973,1052
+221197,Cantiques,4,13,פְּרִ֣י,פְּרִי,H6529,119
+221198,Cantiques,4,13,מְגָדִ֑ים,מֶ֫גֶד,H4022,8
+221199,Cantiques,4,13,כְּפָרִ֖ים,כֹּ֫פֶר,H3724,17
+221200,Cantiques,4,13,עִם־,עִם,H5973,1052
+221201,Cantiques,4,13,נְרָדִֽים׃,נֵרְדְּ,H5373,3
+221202,Cantiques,4,14,נֵ֣רְדְּ׀,נֵרְדְּ,H5373,3
+221203,Cantiques,4,14,וְכַרְכֹּ֗ם,כַּרְכֹּם,H3750,1
+221204,Cantiques,4,14,קָנֶה֙,קָנֶה,H7070,62
+221205,Cantiques,4,14,וְקִנָּמ֔וֹן,קִנָּמוֹן,H7076,3
+221206,Cantiques,4,14,עִ֖ם,עִם,H5973,1052
+221207,Cantiques,4,14,כָּל־,כֹּל,H3605,5415
+221208,Cantiques,4,14,עֲצֵ֣י,עֵץ,H6086,330
+221209,Cantiques,4,14,לְבוֹנָ֑ה,לְבֹנָה,H3828,21
+221210,Cantiques,4,14,מֹ֚ר,מֹר,H4753,12
+221211,Cantiques,4,14,וַאֲהָל֔וֹת,אָהָל,H0174,4
+221212,Cantiques,4,14,עִ֖ם,עִם,H5973,1052
+221213,Cantiques,4,14,כָּל־,כֹּל,H3605,5415
+221214,Cantiques,4,14,רָאשֵׁ֥י,רֹאשׁ,H7218,600
+221215,Cantiques,4,14,בְשָׂמִֽים׃,בֶּ֫שֶׂם,H1314,29
+221216,Cantiques,4,15,מַעְיַ֣ן,מַעְיָן,H4599,23
+221217,Cantiques,4,15,גַּנִּ֔ים,גַּן,H1588,42
+221218,Cantiques,4,15,בְּאֵ֖ר,בְּאֵר,H0875,38
+221219,Cantiques,4,15,מַ֣יִם,מַי,H4325,581
+221220,Cantiques,4,15,חַיִּ֑ים,חַי,H2416,498
+221221,Cantiques,4,15,וְנֹזְלִ֖ים,נָזַל,H5140,16
+221222,Cantiques,4,15,מִן־,מִן־,H4480,1190
+221223,Cantiques,4,15,לְבָנֽוֹן׃,לְבָנוֹן,H3844,71
+221224,Cantiques,4,16,ע֤וּרִי,עוּר,H5782,80
+221225,Cantiques,4,16,צָפוֹן֙,צָפוֹן,H6828,153
+221226,Cantiques,4,16,וּב֣וֹאִי,בּוֹא,H0935,2572
+221227,Cantiques,4,16,תֵימָ֔ן,תֵּימָן,H8486,23
+221228,Cantiques,4,16,הָפִ֥יחִי,פּוּחַ,H6315,14
+221229,Cantiques,4,16,גַנִּ֖י,גַּן,H1588,42
+221230,Cantiques,4,16,יִזְּל֣וּ,נָזַל,H5140,16
+221231,Cantiques,4,16,בְשָׂמָ֑יו,בֶּ֫שֶׂם,H1314,29
+221232,Cantiques,4,16,יָבֹ֤א,בּוֹא,H0935,2572
+221233,Cantiques,4,16,דוֹדִי֙,דּוֹד,H1730,61
+221234,Cantiques,4,16,לְגַנּ֔וֹ,גַּן,H1588,42
+221235,Cantiques,4,16,וְיֹאכַ֖ל,אָכַל,H0398,810
+221236,Cantiques,4,16,פְּרִ֥י,פְּרִי,H6529,119
+221237,Cantiques,4,16,מְגָדָֽיו׃,מֶ֫גֶד,H4022,8
+221238,Cantiques,5,1,בָּ֣אתִי,בּוֹא,H0935,2572
+221239,Cantiques,5,1,לְגַנִּי֮,גַּן,H1588,42
+221240,Cantiques,5,1,אֲחֹתִ֣י,אָחוֹת,H0269,114
+221241,Cantiques,5,1,כַלָּה֒,כַּלָּה,H3618,34
+221242,Cantiques,5,1,אָרִ֤יתִי,אָרָה,H0717,2
+221243,Cantiques,5,1,מוֹרִי֙,מֹר,H4753,12
+221244,Cantiques,5,1,עִם־,עִם,H5973,1052
+221245,Cantiques,5,1,בְּשָׂמִ֔י,בֹּ֫שֶׂם,H1313,1
+221246,Cantiques,5,1,אָכַ֤לְתִּי,אָכַל,H0398,810
+221247,Cantiques,5,1,יַעְרִי֙,יַ֫עַר,H3293,59
+221248,Cantiques,5,1,עִם־,עִם,H5973,1052
+221249,Cantiques,5,1,דִּבְשִׁ֔י,דְּבַשׁ,H1706,54
+221250,Cantiques,5,1,שָׁתִ֥יתִי,שָׁתָה,H8354,217
+221251,Cantiques,5,1,יֵינִ֖י,יַ֫יִן,H3196,141
+221252,Cantiques,5,1,עִם־,עִם,H5973,1052
+221253,Cantiques,5,1,חֲלָבִ֑י,חָלָב,H2461,44
+221254,Cantiques,5,1,אִכְל֣וּ,אָכַל,H0398,810
+221255,Cantiques,5,1,רֵעִ֔ים,רֵעַ,H7453,188
+221256,Cantiques,5,1,שְׁת֥וּ,שָׁתָה,H8354,217
+221257,Cantiques,5,1,וְשִׁכְר֖וּ,שָׁכַר,H7937,19
+221258,Cantiques,5,1,דּוֹדִֽים׃ ס,דּוֹד,H1730,61
+221259,Cantiques,5,2,אֲנִ֥י,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+221260,Cantiques,5,2,יְשֵׁנָ֖ה,יָשֵׁן,H3463,9
+221261,Cantiques,5,2,וְלִבִּ֣י,לֵב,H3820,595
+221262,Cantiques,5,2,עֵ֑ר,עוּר,H5782,80
+221263,Cantiques,5,2,ק֣וֹל׀,קוֹל,H6963,506
+221264,Cantiques,5,2,דּוֹדִ֣י,דּוֹד,H1730,61
+221265,Cantiques,5,2,דוֹפֵ֗ק,דָּפַק,H1849,3
+221266,Cantiques,5,2,פִּתְחִי־,פָּתַח,H6605,144
+221267,Cantiques,5,2,אֲחֹתִ֤י,אָחוֹת,H0269,114
+221268,Cantiques,5,2,רַעְיָתִי֙,רַעְיָה,H7474,9
+221269,Cantiques,5,2,יוֹנָתִ֣י,יוֹנָה,H3123,31
+221270,Cantiques,5,2,תַמָּתִ֔י,תָּם,H8535,15
+221271,Cantiques,5,2,שֶׁרֹּאשִׁי֙,רֹאשׁ,H7218,600
+221272,Cantiques,5,2,נִמְלָא־,מָלֵא,H4390,247
+221273,Cantiques,5,2,טָ֔ל,טַל,H2919,31
+221274,Cantiques,5,2,קְוֻּצּוֹתַ֖י,קְוֻצּוֹת,H6977,2
+221275,Cantiques,5,2,רְסִ֥יסֵי,רָסִיס,H7447,2
+221276,Cantiques,5,2,לָֽיְלָה׃,לַ֫יְלָה,H3915,233
+221277,Cantiques,5,3,פָּשַׁ֙טְתִּי֙,פָּשַׁט,H6584,43
+221278,Cantiques,5,3,אֶת־,אֵת,H0853,10947
+221279,Cantiques,5,3,כֻּתָּנְתִּ֔י,כֻּתֹּ֫נֶת,H3801,29
+221280,Cantiques,5,3,אֵיכָ֖כָה,אֵיכָ֫כָה,H0349,82
+221281,Cantiques,5,3,אֶלְבָּשֶׁ֑נָּה,לָבֵשׁ,H3847,110
+221282,Cantiques,5,3,רָחַ֥צְתִּי,רָחַץ,H7364,72
+221283,Cantiques,5,3,אֶת־,אֵת,H0853,10947
+221284,Cantiques,5,3,רַגְלַ֖י,רֶ֫גֶל,H7272,245
+221285,Cantiques,5,3,אֵיכָ֥כָה,אֵיכָ֫כָה,H0349,82
+221286,Cantiques,5,3,אֲטַנְּפֵֽם׃,טָנַף,H2936,1
+221287,Cantiques,5,4,דּוֹדִ֗י,דּוֹד,H1730,61
+221288,Cantiques,5,4,שָׁלַ֤ח,שָׁלַח,H7971,847
+221289,Cantiques,5,4,יָדוֹ֙,יָד,H3027,1619
+221290,Cantiques,5,4,מִן־,מִן־,H4480,1190
+221291,Cantiques,5,4,הַחֹ֔ר,חֹר,H2356,7
+221292,Cantiques,5,4,וּמֵעַ֖י,מֵעֶה,H4578,32
+221293,Cantiques,5,4,הָמ֥וּ,הָמָה,H1993,34
+221294,Cantiques,5,4,עָלָֽיו׃,עַל,H5921,5774
+221295,Cantiques,5,5,קַ֥מְתִּֽי,קוּם,H6965,628
+221296,Cantiques,5,5,אֲנִ֖י,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+221297,Cantiques,5,5,לִפְתֹּ֣חַ,פָּתַח,H6605,144
+221298,Cantiques,5,5,לְדוֹדִ֑י,דּוֹד,H1730,61
+221299,Cantiques,5,5,וְיָדַ֣י,יָד,H3027,1619
+221300,Cantiques,5,5,נָֽטְפוּ־,נָטַף,H5197,18
+221301,Cantiques,5,5,מ֗וֹר,מֹר,H4753,12
+221302,Cantiques,5,5,וְאֶצְבְּעֹתַי֙,אֶצְבַּע,H0676,31
+221303,Cantiques,5,5,מ֣וֹר,מֹר,H4753,12
+221304,Cantiques,5,5,עֹבֵ֔ר,עָבַר,H5674,556
+221305,Cantiques,5,5,עַ֖ל,עַל,H5921,5774
+221306,Cantiques,5,5,כַּפּ֥וֹת,כַּף,H3709,193
+221307,Cantiques,5,5,הַמַּנְעֽוּל׃,מַנְעוּל,H4514,6
+221308,Cantiques,5,6,פָּתַ֤חְתִּֽי,פָּתַח,H6605,144
+221309,Cantiques,5,6,אֲנִי֙,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+221310,Cantiques,5,6,לְדוֹדִ֔י,דּוֹד,H1730,61
+221311,Cantiques,5,6,וְדוֹדִ֖י,דּוֹד,H1730,61
+221312,Cantiques,5,6,חָמַ֣ק,חָמַק,H2559,2
+221313,Cantiques,5,6,עָבָ֑ר,עָבַר,H5674,556
+221314,Cantiques,5,6,נַפְשִׁי֙,נֶ֫פֶשׁ,H5315,754
+221315,Cantiques,5,6,יָֽצְאָ֣ה,יָצָא,H3318,1067
+221316,Cantiques,5,6,בְדַבְּר֔וֹ,דָבַר,H1696,1142
+221317,Cantiques,5,6,בִּקַּשְׁתִּ֙יהוּ֙,בָּקַשׁ,H1245,225
+221318,Cantiques,5,6,וְלֹ֣א,לֹא,H3808,5170
+221319,Cantiques,5,6,מְצָאתִ֔יהוּ,מָצָא,H4672,455
+221320,Cantiques,5,6,קְרָאתִ֖יו,קָרָא,H7121,733
+221321,Cantiques,5,6,וְלֹ֥א,לֹא,H3808,5170
+221322,Cantiques,5,6,עָנָֽנִי׃,עָנָה,H6030,332
+221323,Cantiques,5,7,מְצָאֻ֧נִי,מָצָא,H4672,455
+221324,Cantiques,5,7,הַשֹּׁמְרִ֛ים,שָׁמַר,H8104,469
+221325,Cantiques,5,7,הַסֹּבְבִ֥ים,סָבַב,H5437,161
+221326,Cantiques,5,7,בָּעִ֖יר,עִיר,H5892,1089
+221327,Cantiques,5,7,הִכּ֣וּנִי,נָכָה,H5221,500
+221328,Cantiques,5,7,פְצָע֑וּנִי,פָּצַע,H6481,3
+221329,Cantiques,5,7,נָשְׂא֤וּ,נָשָׂא,H5375,656
+221330,Cantiques,5,7,אֶת־,אֵת,H0853,10947
+221331,Cantiques,5,7,רְדִידִי֙,רְדִיד,H7289,2
+221332,Cantiques,5,7,מֵֽעָלַ֔י,עַל,H5921,5774
+221333,Cantiques,5,7,שֹׁמְרֵ֖י,שָׁמַר,H8104,469
+221334,Cantiques,5,7,הַחֹמֽוֹת׃,חוֹמָה,H2346,133
+221335,Cantiques,5,8,הִשְׁבַּ֥עְתִּי,שָׁבַע,H7650,186
+221336,Cantiques,5,8,אֶתְכֶ֖ם,אֵת,H0853,10947
+221337,Cantiques,5,8,בְּנ֣וֹת,בַּת,H1323,588
+221338,Cantiques,5,8,יְרוּשָׁלִָ֑ם,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+221339,Cantiques,5,8,אִֽם־,אִם,H0518,1073
+221340,Cantiques,5,8,תִּמְצְאוּ֙,מָצָא,H4672,455
+221341,Cantiques,5,8,אֶת־,אֵת,H0853,10947
+221342,Cantiques,5,8,דּוֹדִ֔י,דּוֹד,H1730,61
+221343,Cantiques,5,8,מַה־,מָה,H4100,753
+221344,Cantiques,5,8,תַּגִּ֣ידוּ,נָגַד,H5046,371
+221345,Cantiques,5,8,שֶׁחוֹלַ֥ת,חָלָה,H2470,76
+221346,Cantiques,5,8,אַהֲבָ֖ה,אַהֲבָה,H0160,38
+221347,Cantiques,5,8,אָֽנִי׃,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+221348,Cantiques,5,9,מַה־,מָה,H4100,753
+221349,Cantiques,5,9,דּוֹדֵ֣ךְ,דּוֹד,H1730,61
+221350,Cantiques,5,9,מִדּ֔וֹד,דּוֹד,H1730,61
+221351,Cantiques,5,9,הַיָּפָ֖ה,יָפֶה,H3303,42
+221352,Cantiques,5,9,בַּנָּשִׁ֑ים,אִשָּׁה,H0802,781
+221353,Cantiques,5,9,מַה־,מָה,H4100,753
+221354,Cantiques,5,9,דּוֹדֵ֣ךְ,דּוֹד,H1730,61
+221355,Cantiques,5,9,מִדּ֔וֹד,דּוֹד,H1730,61
+221356,Cantiques,5,9,שֶׁכָּ֖כָה,כָּ֫כָה,H3602,37
+221357,Cantiques,5,9,הִשְׁבַּעְתָּֽנוּ׃,שָׁבַע,H7650,186
+221358,Cantiques,5,10,דּוֹדִ֥י,דּוֹד,H1730,61
+221359,Cantiques,5,10,צַח֙,צַח,H6703,4
+221360,Cantiques,5,10,וְאָד֔וֹם,אָדֹם,H0122,9
+221361,Cantiques,5,10,דָּג֖וּל,דָּגַל,H1713,4
+221362,Cantiques,5,10,מֵרְבָבָֽה׃,רְבָבָה,H7233,16
+221363,Cantiques,5,11,רֹאשׁ֖וֹ,רֹאשׁ,H7218,600
+221364,Cantiques,5,11,כֶּ֣תֶם,כֶּ֫תֶם,H3800,9
+221365,Cantiques,5,11,פָּ֑ז,פַּז,H6337,9
+221366,Cantiques,5,11,קְוּצּוֹתָיו֙,קְוֻצּוֹת,H6977,2
+221367,Cantiques,5,11,תַּלְתַּלִּ֔ים,תַּלְתַּלִּים,H8534,1
+221368,Cantiques,5,11,שְׁחֹר֖וֹת,שָׁחֹר,H7838,6
+221369,Cantiques,5,11,כָּעוֹרֵֽב׃,עֹרֵב,H6158,10
+221370,Cantiques,5,12,עֵינָ֕יו,עַ֫יִן,H5869,887
+221371,Cantiques,5,12,כְּיוֹנִ֖ים,יוֹנָה,H3123,31
+221372,Cantiques,5,12,עַל־,עַל,H5921,5774
+221373,Cantiques,5,12,אֲפִ֣יקֵי,אָפִיק,H0650,19
+221374,Cantiques,5,12,מָ֑יִם,מַי,H4325,581
+221375,Cantiques,5,12,רֹֽחֲצוֹת֙,רָחַץ,H7364,72
+221376,Cantiques,5,12,בֶּֽחָלָ֔ב,חָלָב,H2461,44
+221377,Cantiques,5,12,יֹשְׁב֖וֹת,יָשַׁב,H3427,1078
+221378,Cantiques,5,12,עַל־,עַל,H5921,5774
+221379,Cantiques,5,12,מִלֵּֽאת׃,מִלֵּאת,H4402,1
+221380,Cantiques,5,13,לְחָיָו֙,לְחִי,H3895,21
+221381,Cantiques,5,13,כַּעֲרוּגַ֣ת,עֲרוּגָה,H6170,4
+221382,Cantiques,5,13,הַבֹּ֔שֶׂם,בֶּ֫שֶׂם,H1314,29
+221383,Cantiques,5,13,מִגְדְּל֖וֹת,מִגְדָּל,H4026,48
+221384,Cantiques,5,13,מֶרְקָחִ֑ים,מֶרְקָח,H4840,1
+221385,Cantiques,5,13,שִׂפְתוֹתָיו֙,שָׂפָה,H8193,176
+221386,Cantiques,5,13,שֽׁוֹשַׁנִּ֔ים,שׁוּשַׁן,H7799,17
+221387,Cantiques,5,13,נֹטְפ֖וֹת,נָטַף,H5197,18
+221388,Cantiques,5,13,מ֥וֹר,מֹר,H4753,12
+221389,Cantiques,5,13,עֹבֵֽר׃,עָבַר,H5674,556
+221390,Cantiques,5,14,יָדָיו֙,יָד,H3027,1619
+221391,Cantiques,5,14,גְּלִילֵ֣י,גָּלִיל,H1550,4
+221392,Cantiques,5,14,זָהָ֔ב,זָהָב,H2091,389
+221393,Cantiques,5,14,מְמֻלָּאִ֖ים,מָלֵא,H4390,247
+221394,Cantiques,5,14,בַּתַּרְשִׁ֑ישׁ,תַּרְשִׁישׁ,H8658,7
+221395,Cantiques,5,14,מֵעָיו֙,מֵעֶה,H4578,32
+221396,Cantiques,5,14,עֶ֣שֶׁת,עֶ֫שֶׁת,H6247,1
+221397,Cantiques,5,14,שֵׁ֔ן,שֵׁן,H8127,55
+221398,Cantiques,5,14,מְעֻלֶּ֖פֶת,עָלַף,H5968,5
+221399,Cantiques,5,14,סַפִּירִֽים׃,סַפִּיר,H5601,11
+221400,Cantiques,5,15,שׁוֹקָיו֙,שׁוֹק,H7785,19
+221401,Cantiques,5,15,עַמּ֣וּדֵי,עַמּוּד,H5982,111
+221402,Cantiques,5,15,שֵׁ֔שׁ,שֵׁשׁ,H8336,41
+221403,Cantiques,5,15,מְיֻסָּדִ֖ים,יָסַד,H3245,43
+221404,Cantiques,5,15,עַל־,עַל,H5921,5774
+221405,Cantiques,5,15,אַדְנֵי־,אֶ֫דֶן,H0134,57
+221406,Cantiques,5,15,פָ֑ז,פַּז,H6337,9
+221407,Cantiques,5,15,מַרְאֵ֙הוּ֙,מַרְאֶה,H4758,103
+221408,Cantiques,5,15,כַּלְּבָנ֔וֹן,לְבָנוֹן,H3844,71
+221409,Cantiques,5,15,בָּח֖וּר,בָּחַר,H0977,171
+221410,Cantiques,5,15,כָּאֲרָזִֽים׃,אֶ֫רֶז,H0730,73
+221411,Cantiques,5,16,חִכּוֹ֙,חֵךְ,H2441,18
+221412,Cantiques,5,16,מַֽמְתַקִּ֔ים,מַמְתַֿקִּים,H4477,2
+221413,Cantiques,5,16,וְכֻלּ֖וֹ,כֹּל,H3605,5415
+221414,Cantiques,5,16,מַחֲמַדִּ֑ים,מַחְמָד,H4261,13
+221415,Cantiques,5,16,זֶ֤ה,זֶה,H2088,1179
+221416,Cantiques,5,16,דוֹדִי֙,דּוֹד,H1730,61
+221417,Cantiques,5,16,וְזֶ֣ה,זֶה,H2088,1179
+221418,Cantiques,5,16,רֵעִ֔י,רֵעַ,H7453,188
+221419,Cantiques,5,16,בְּנ֖וֹת,בַּת,H1323,588
+221420,Cantiques,5,16,יְרוּשָׁלִָֽם׃,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+221421,Cantiques,6,1,אָ֚נָה,אָן,H0575,41
+221422,Cantiques,6,1,הָלַ֣ךְ,הָלַךְ,H1980,1549
+221423,Cantiques,6,1,דּוֹדֵ֔ךְ,דּוֹד,H1730,61
+221424,Cantiques,6,1,הַיָּפָ֖ה,יָפֶה,H3303,42
+221425,Cantiques,6,1,בַּנָּשִׁ֑ים,אִשָּׁה,H0802,781
+221426,Cantiques,6,1,אָ֚נָה,אָן,H0575,41
+221427,Cantiques,6,1,פָּנָ֣ה,פָּנָה,H6437,135
+221428,Cantiques,6,1,דוֹדֵ֔ךְ,דּוֹד,H1730,61
+221429,Cantiques,6,1,וּנְבַקְשֶׁ֖נּוּ,בָּקַשׁ,H1245,225
+221430,Cantiques,6,1,עִמָּֽךְ׃,עִם,H5973,1052
+221431,Cantiques,6,2,דּוֹדִי֙,דּוֹד,H1730,61
+221432,Cantiques,6,2,יָרַ֣ד,יָרַד,H3381,381
+221433,Cantiques,6,2,לְגַנּ֔וֹ,גַּן,H1588,42
+221434,Cantiques,6,2,לַעֲרוּג֖וֹת,עֲרוּגָה,H6170,4
+221435,Cantiques,6,2,הַבֹּ֑שֶׂם,בֶּ֫שֶׂם,H1314,29
+221436,Cantiques,6,2,לִרְעוֹת֙,רָעָה,H7462,177
+221437,Cantiques,6,2,בַּגַּנִּ֔ים,גַּן,H1588,42
+221438,Cantiques,6,2,וְלִלְקֹ֖ט,לָקַט,H3950,37
+221439,Cantiques,6,2,שֽׁוֹשַׁנִּֽים׃,שׁוּשַׁן,H7799,17
+221440,Cantiques,6,3,אֲנִ֤י,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+221441,Cantiques,6,3,לְדוֹדִי֙,דּוֹד,H1730,61
+221442,Cantiques,6,3,וְדוֹדִ֣י,דּוֹד,H1730,61
+221443,Cantiques,6,3,הָרֹעֶ֖ה,רָעָה,H7462,177
+221444,Cantiques,6,3,בַּשׁוֹשַׁנִּֽים׃ ס,שׁוּשַׁן,H7799,17
+221445,Cantiques,6,4,יָפָ֨ה,יָפֶה,H3303,42
+221446,Cantiques,6,4,אַ֤תְּ,אַתְּ,H0859,1094
+221447,Cantiques,6,4,רַעְיָתִי֙,רַעְיָה,H7474,9
+221448,Cantiques,6,4,כְּתִרְצָ֔ה,תִּרְצָה,H8656,18
+221449,Cantiques,6,4,נָאוָ֖ה,נָאוֶה,H5000,10
+221450,Cantiques,6,4,כִּירוּשָׁלִָ֑ם,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+221451,Cantiques,6,4,אֲיֻמָּ֖ה,אָיֹם,H0366,3
+221452,Cantiques,6,4,כַּנִּדְגָּלֽוֹת׃,דָּגַל,H1713,4
+221453,Cantiques,6,5,הָסֵ֤בִּי,סָבַב,H5437,161
+221454,Cantiques,6,5,עֵינַ֙יִךְ֙,עַ֫יִן,H5869,887
+221455,Cantiques,6,5,מִנֶּגְדִּ֔י,נֶ֫גֶד,H5048,151
+221456,Cantiques,6,5,שֶׁ֥הֵ֖ם,הֵ֫מָּה,H1992,552
+221457,Cantiques,6,5,הִרְהִיבֻ֑נִי,רָהַב,H7292,4
+221458,Cantiques,6,5,שַׂעְרֵךְ֙,שֵׂעָר,H8181,28
+221459,Cantiques,6,5,כְּעֵ֣דֶר,עֵ֫דֶר,H5739,38
+221460,Cantiques,6,5,הָֽעִזִּ֔ים,עֵז,H5795,74
+221461,Cantiques,6,5,שֶׁגָּלְשׁ֖וּ,גָּלַשׁ,H1570,2
+221462,Cantiques,6,5,מִן־,מִן־,H4480,1190
+221463,Cantiques,6,5,הַגִּלְעָֽד׃,גִּלְעָד,H1568,134
+221464,Cantiques,6,6,שִׁנַּ֙יִךְ֙,שֵׁן,H8127,55
+221465,Cantiques,6,6,כְּעֵ֣דֶר,עֵ֫דֶר,H5739,38
+221466,Cantiques,6,6,הָֽרְחֵלִ֔ים,רָחֵל,H7353,4
+221467,Cantiques,6,6,שֶׁעָל֖וּ,עָלָה,H5927,890
+221468,Cantiques,6,6,מִן־,מִן־,H4480,1190
+221469,Cantiques,6,6,הָרַחְצָ֑ה,רַחְצָה,H7367,2
+221470,Cantiques,6,6,שֶׁכֻּלָּם֙,כֹּל,H3605,5415
+221471,Cantiques,6,6,מַתְאִימ֔וֹת,תָּאַם,H8382,2
+221472,Cantiques,6,6,וְשַׁכֻּלָ֖ה,שַׁכּוּל,H7909,7
+221473,Cantiques,6,6,אֵ֥ין,אַ֫יִן,H0369,789
+221474,Cantiques,6,7,כְּפֶ֤לַח,פֶּ֫לַח,H6400,6
+221475,Cantiques,6,7,הָרִמּוֹן֙,רִמּוֹן,H7416,32
+221476,Cantiques,6,7,רַקָּתֵ֔ךְ,רַקָּה,H7541,5
+221477,Cantiques,6,7,מִבַּ֖עַד,בַּ֫עַד,H1157,105
+221478,Cantiques,6,7,לְצַמָּתֵֽךְ׃,צַמָּה,H6777,4
+221479,Cantiques,6,8,שִׁשִּׁ֥ים,שִׁשִּׁים,H8346,59
+221480,Cantiques,6,8,הֵ֙מָּה֙,הֵ֫מָּה,H1992,552
+221481,Cantiques,6,8,מְּלָכ֔וֹת,מַלְכָּה,H4436,35
+221482,Cantiques,6,8,וּשְׁמֹנִ֖ים,שְׁמֹנִים,H8084,38
+221483,Cantiques,6,8,פִּֽילַגְשִׁ֑ים,פִּלֶ֫גֶשׁ,H6370,37
+221484,Cantiques,6,8,וַעֲלָמ֖וֹת,עַלְמָה,H5959,7
+221485,Cantiques,6,8,אֵ֥ין,אַ֫יִן,H0369,789
+221486,Cantiques,6,8,מִסְפָּֽר׃,מִסְפָּר,H4557,134
+221487,Cantiques,6,9,אַחַ֥ת,אֶחָד,H0259,971
+221488,Cantiques,6,9,הִיא֙,הוּא,H1931,1878
+221489,Cantiques,6,9,יוֹנָתִ֣י,יוֹנָה,H3123,31
+221490,Cantiques,6,9,תַמָּתִ֔י,תָּם,H8535,15
+221491,Cantiques,6,9,אַחַ֥ת,אֶחָד,H0259,971
+221492,Cantiques,6,9,הִיא֙,הוּא,H1931,1878
+221493,Cantiques,6,9,לְאִמָּ֔הּ,אֵם,H0517,220
+221494,Cantiques,6,9,בָּרָ֥ה,בַּר,H1249,7
+221495,Cantiques,6,9,הִ֖יא,הוּא,H1931,1878
+221496,Cantiques,6,9,לְיֽוֹלַדְתָּ֑הּ,יָלַד,H3205,496
+221497,Cantiques,6,9,רָא֤וּהָ,רָאָה,H7200,1300
+221498,Cantiques,6,9,בָנוֹת֙,בַּת,H1323,588
+221499,Cantiques,6,9,וַֽיְאַשְּׁר֔וּהָ,אָשַׁר,H0833,16
+221500,Cantiques,6,9,מְלָכ֥וֹת,מַלְכָּה,H4436,35
+221501,Cantiques,6,9,וּפִֽילַגְשִׁ֖ים,פִּלֶ֫גֶשׁ,H6370,37
+221502,Cantiques,6,9,וַֽיְהַלְלֽוּהָ׃ ס,הָלַל,H1984,165
+221503,Cantiques,6,10,מִי־,מִי,H4310,424
+221504,Cantiques,6,10,זֹ֥את,זֹאת,H2063,604
+221505,Cantiques,6,10,הַנִּשְׁקָפָ֖ה,שָׁקַף,H8259,22
+221506,Cantiques,6,10,כְּמוֹ־,כְּמוֹ,H3644,143
+221507,Cantiques,6,10,שָׁ֑חַר,שַׁ֫חַר,H7837,24
+221508,Cantiques,6,10,יָפָ֣ה,יָפֶה,H3303,42
+221509,Cantiques,6,10,כַלְּבָנָ֗ה,לְבָנָה,H3842,3
+221510,Cantiques,6,10,בָּרָה֙,בַּר,H1249,7
+221511,Cantiques,6,10,כַּֽחַמָּ֔ה,חַמָּה,H2535,6
+221512,Cantiques,6,10,אֲיֻמָּ֖ה,אָיֹם,H0366,3
+221513,Cantiques,6,10,כַּנִּדְגָּלֽוֹת׃ ס,דָּגַל,H1713,4
+221514,Cantiques,6,11,אֶל־,אֶל,H0413,5515
+221515,Cantiques,6,11,גִּנַּ֤ת,גִּנָּה,H1594,4
+221516,Cantiques,6,11,אֱגוֹז֙,אֱגוֹז,H0093,1
+221517,Cantiques,6,11,יָרַ֔דְתִּי,יָרַד,H3381,381
+221518,Cantiques,6,11,לִרְא֖וֹת,רָאָה,H7200,1300
+221519,Cantiques,6,11,בְּאִבֵּ֣י,אֵב,H0003,2
+221520,Cantiques,6,11,הַנָּ֑חַל,נַ֫חַל,H5158,141
+221521,Cantiques,6,11,לִרְאוֹת֙,רָאָה,H7200,1300
+221522,Cantiques,6,11,הֲפָֽרְחָ֣ה,פָּרַח,H6524,36
+221523,Cantiques,6,11,הַגֶּ֔פֶן,גֶּ֫פֶן,H1612,55
+221524,Cantiques,6,11,הֵנֵ֖צוּ,נָצַץ,H5132,3
+221525,Cantiques,6,11,הָרִמֹּנִֽים׃,רִמּוֹן,H7416,32
+221526,Cantiques,6,12,לֹ֣א,לֹא,H3808,5170
+221527,Cantiques,6,12,יָדַ֔עְתִּי,יָדַע,H3045,946
+221528,Cantiques,6,12,נַפְשִׁ֣י,נֶ֫פֶשׁ,H5315,754
+221529,Cantiques,6,12,שָׂמַ֔תְנִי,שׂוּם,H7760,585
+221530,Cantiques,6,12,מַרְכְּב֖וֹת,מֶרְכָּבָה,H4818,44
+221531,Cantiques,6,12,עַמִּינָדִֽיב׃,עַמִּי נָדִיב,H5993,1
+221532,Cantiques,7,1,שׁ֤וּבִי,שׁוּב,H7725,1057
+221533,Cantiques,7,1,שׁ֙וּבִי֙,שׁוּב,H7725,1057
+221534,Cantiques,7,1,הַשּׁ֣וּלַמִּ֔ית,שׁוּלַמִּית,H7759,2
+221535,Cantiques,7,1,שׁ֥וּבִי,שׁוּב,H7725,1057
+221536,Cantiques,7,1,שׁ֖וּבִי,שׁוּב,H7725,1057
+221537,Cantiques,7,1,וְנֶחֱזֶה־,חָזָה,H2372,55
+221538,Cantiques,7,1,מַֽה־,מָה,H4100,753
+221539,Cantiques,7,1,תֶּחֱזוּ֙,חָזָה,H2372,55
+221540,Cantiques,7,1,בַּשּׁ֣וּלַמִּ֔ית,שׁוּלַמִּית,H7759,2
+221541,Cantiques,7,1,כִּמְחֹלַ֖ת,מְחוֹלָה,H4246,8
+221542,Cantiques,7,1,הַֽמַּחֲנָֽיִם׃,מַחֲנֶה,H4264,215
+221543,Cantiques,7,2,מַה־,מָה,H4100,753
+221544,Cantiques,7,2,יָּפ֧וּ,יָפָה,H3302,8
+221545,Cantiques,7,2,פְעָמַ֛יִךְ,פַּ֫עַם,H6471,118
+221546,Cantiques,7,2,בַּנְּעָלִ֖ים,נַ֫עַל,H5275,22
+221547,Cantiques,7,2,בַּת־,בַּת,H1323,588
+221548,Cantiques,7,2,נָדִ֑יב,נָדִיב,H5081,28
+221549,Cantiques,7,2,חַמּוּקֵ֣י,חַמּוּק,H2542,1
+221550,Cantiques,7,2,יְרֵכַ֔יִךְ,יָרֵךְ,H3409,34
+221551,Cantiques,7,2,כְּמ֣וֹ,כְּמוֹ,H3644,143
+221552,Cantiques,7,2,חֲלָאִ֔ים,חֲלִי,H2481,2
+221553,Cantiques,7,2,מַעֲשֵׂ֖ה,מַעֲשֶׂה,H4639,236
+221554,Cantiques,7,2,יְדֵ֥י,יָד,H3027,1619
+221555,Cantiques,7,2,אָמָּֽן׃,אָמָּן,H0542,1
+221556,Cantiques,7,3,שָׁרְרֵךְ֙,שֹׁרֶר,H8326,1
+221557,Cantiques,7,3,אַגַּ֣ן,אַגָּן,H0101,3
+221558,Cantiques,7,3,הַסַּ֔הַר,סַ֫הַר,H5469,1
+221559,Cantiques,7,3,אַל־,אַל,H0408,725
+221560,Cantiques,7,3,יֶחְסַ֖ר,חָסֵר,H2637,22
+221561,Cantiques,7,3,הַמָּ֑זֶג,מֶ֫זֶג,H4197,1
+221562,Cantiques,7,3,בִּטְנֵךְ֙,בֶּ֫טֶן,H0990,72
+221563,Cantiques,7,3,עֲרֵמַ֣ת,עֲרֵמָה,H6194,11
+221564,Cantiques,7,3,חִטִּ֔ים,חִטָּה,H2406,30
+221565,Cantiques,7,3,סוּגָ֖ה,סוּג,H5473,1
+221566,Cantiques,7,3,בַּשּׁוֹשַׁנִּֽים׃,שׁוּשַׁן,H7799,17
+221567,Cantiques,7,4,שְׁנֵ֥י,שְׁנַ֫יִם,H8147,769
+221568,Cantiques,7,4,שָׁדַ֛יִךְ,שַׁד,H7699,24
+221569,Cantiques,7,4,כִּשְׁנֵ֥י,שְׁנַ֫יִם,H8147,769
+221570,Cantiques,7,4,עֳפָרִ֖ים,עֹ֫פֶר,H6082,5
+221571,Cantiques,7,4,תָּאֳמֵ֥י,תּוֹאָם,H8380,6
+221572,Cantiques,7,4,צְבִיָּֽה׃,צְבִיָּה,H6646,2
+221573,Cantiques,7,5,צַוָּארֵ֖ךְ,צַוָּאר,H6677,42
+221574,Cantiques,7,5,כְּמִגְדַּ֣ל,מִגְדָּל,H4026,48
+221575,Cantiques,7,5,הַשֵּׁ֑ן,שֵׁן,H8127,55
+221576,Cantiques,7,5,עֵינַ֜יִךְ,עַ֫יִן,H5869,887
+221577,Cantiques,7,5,בְּרֵכ֣וֹת,בְּרֵכָה,H1295,17
+221578,Cantiques,7,5,בְּחֶשְׁבּ֗וֹן,חֶשְׁבּוֹן,H2809,38
+221579,Cantiques,7,5,עַל־,עַל,H5921,5774
+221580,Cantiques,7,5,שַׁ֙עַר֙,שַׁ֫עַר,H8179,374
+221581,Cantiques,7,5,בַּת־,בַּת־רַבִּים,H1337,2
+221582,Cantiques,7,5,רַבִּ֔ים,בַּת־רַבִּים,H1337,2
+221583,Cantiques,7,5,אַפֵּךְ֙,אַף,H0639,276
+221584,Cantiques,7,5,כְּמִגְדַּ֣ל,מִגְדָּל,H4026,48
+221585,Cantiques,7,5,הַלְּבָנ֔וֹן,לְבָנוֹן,H3844,71
+221586,Cantiques,7,5,צוֹפֶ֖ה,צָפָה,H6822,36
+221587,Cantiques,7,5,פְּנֵ֥י,פָּנֶה,H6440,2127
+221588,Cantiques,7,5,דַמָּֽשֶׂק׃,דַּמֶּ֫שֶׂק,H1834,45
+221589,Cantiques,7,6,רֹאשֵׁ֤ךְ,רֹאשׁ,H7218,600
+221590,Cantiques,7,6,עָלַ֙יִךְ֙,עַל,H5921,5774
+221591,Cantiques,7,6,כַּכַּרְמֶ֔ל,כַּרְמֶל,H3760,22
+221592,Cantiques,7,6,וְדַלַּ֥ת,דַּלָּה,H1803,8
+221593,Cantiques,7,6,רֹאשֵׁ֖ךְ,רֹאשׁ,H7218,600
+221594,Cantiques,7,6,כָּאַרְגָּמָ֑ן,אַרְגָּמָן,H0713,38
+221595,Cantiques,7,6,מֶ֖לֶךְ,מֶ֫לֶךְ,H4428,2526
+221596,Cantiques,7,6,אָס֥וּר,אָסַר,H0631,72
+221597,Cantiques,7,6,בָּרְהָטִֽים׃,רַ֫הַט,H7298,4
+221598,Cantiques,7,7,מַה־,מָה,H4100,753
+221599,Cantiques,7,7,יָּפִית֙,יָפָה,H3302,8
+221600,Cantiques,7,7,וּמַה־,מָה,H4100,753
+221601,Cantiques,7,7,נָּעַ֔מְתְּ,נָעֵם,H5276,8
+221602,Cantiques,7,7,אַהֲבָ֖ה,אַהֲבָה,H0160,38
+221603,Cantiques,7,7,בַּתַּֽעֲנוּגִֽים׃,תַּעֲנוּג,H8588,5
+221604,Cantiques,7,8,זֹ֤את,זֹאת,H2063,604
+221605,Cantiques,7,8,קֽוֹמָתֵךְ֙,קוֹמָה,H6967,45
+221606,Cantiques,7,8,דָּֽמְתָ֣ה,דָּמָה,H1819,30
+221607,Cantiques,7,8,לְתָמָ֔ר,תָּמָר,H8558,8
+221608,Cantiques,7,8,וְשָׁדַ֖יִךְ,שַׁד,H7699,24
+221609,Cantiques,7,8,לְאַשְׁכֹּלֽוֹת׃,אֶשְׁכּוֹל,H0811,9
+221610,Cantiques,7,9,אָמַ֙רְתִּי֙,אָמַר,H0559,5309
+221611,Cantiques,7,9,אֶעֱלֶ֣ה,עָלָה,H5927,890
+221612,Cantiques,7,9,בְתָמָ֔ר,תָּמָר,H8558,8
+221613,Cantiques,7,9,אֹֽחֲזָ֖ה,אָחַז,H0270,68
+221614,Cantiques,7,9,בְּסַנְסִנָּ֑יו,סַנְסִנִּים,H5577,1
+221615,Cantiques,7,9,וְיִֽהְיוּ־,הָיָה,H1961,3562
+221616,Cantiques,7,9,נָ֤א,נָא,H4994,405
+221617,Cantiques,7,9,שָׁדַ֙יִךְ֙,שַׁד,H7699,24
+221618,Cantiques,7,9,כְּאֶשְׁכְּל֣וֹת,אֶשְׁכּוֹל,H0811,9
+221619,Cantiques,7,9,הַגֶּ֔פֶן,גֶּ֫פֶן,H1612,55
+221620,Cantiques,7,9,וְרֵ֥יחַ,רֵיחַ,H7381,58
+221621,Cantiques,7,9,אַפֵּ֖ךְ,אַף,H0639,276
+221622,Cantiques,7,9,כַּתַּפּוּחִֽים׃,תַּפּוּחַ,H8598,6
+221623,Cantiques,7,10,וְחִכֵּ֕ךְ,חֵךְ,H2441,18
+221624,Cantiques,7,10,כְּיֵ֥ין,יַ֫יִן,H3196,141
+221625,Cantiques,7,10,הַטּ֛וֹב,טוֹב,H2896,562
+221626,Cantiques,7,10,הוֹלֵ֥ךְ,הָלַךְ,H1980,1549
+221627,Cantiques,7,10,לְדוֹדִ֖י,דּוֹד,H1730,61
+221628,Cantiques,7,10,לְמֵישָׁרִ֑ים,מֵישָׁר,H4339,19
+221629,Cantiques,7,10,דּוֹבֵ֖ב,דָּבַב,H1680,1
+221630,Cantiques,7,10,שִׂפְתֵ֥י,שָׂפָה,H8193,176
+221631,Cantiques,7,10,יְשֵׁנִֽים׃,יָשֵׁן,H3463,9
+221632,Cantiques,7,11,אֲנִ֣י,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+221633,Cantiques,7,11,לְדוֹדִ֔י,דּוֹד,H1730,61
+221634,Cantiques,7,11,וְעָלַ֖י,עַל,H5921,5774
+221635,Cantiques,7,11,תְּשׁוּקָתֽוֹ׃ ס,תְּשׁוּקָה,H8669,3
+221636,Cantiques,7,12,לְכָ֤ה,הָלַךְ,H1980,1549
+221637,Cantiques,7,12,דוֹדִי֙,דּוֹד,H1730,61
+221638,Cantiques,7,12,נֵצֵ֣א,יָצָא,H3318,1067
+221639,Cantiques,7,12,הַשָּׂדֶ֔ה,שָׂדֶה,H7704,334
+221640,Cantiques,7,12,נָלִ֖ינָה,לוּן,H3885,84
+221641,Cantiques,7,12,בַּכְּפָרִֽים׃,כָּפָר,H3723,3
+221642,Cantiques,7,13,נַשְׁכִּ֙ימָה֙,שָׁכַם,H7925,65
+221643,Cantiques,7,13,לַכְּרָמִ֔ים,כֶּרֶם,H3754,92
+221644,Cantiques,7,13,נִרְאֶ֞ה,רָאָה,H7200,1300
+221645,Cantiques,7,13,אִם,אִם,H0518,1073
+221646,Cantiques,7,13,פָּֽרְחָ֤ה,פָּרַח,H6524,36
+221647,Cantiques,7,13,הַגֶּ֙פֶן֙,גֶּ֫פֶן,H1612,55
+221648,Cantiques,7,13,פִּתַּ֣ח,פָּתַח,H6605,144
+221649,Cantiques,7,13,הַסְּמָדַ֔ר,סְמַדֵר,H5563,3
+221650,Cantiques,7,13,הֵנֵ֖צוּ,נָצַץ,H5132,3
+221651,Cantiques,7,13,הָרִמּוֹנִ֑ים,רִמּוֹן,H7416,32
+221652,Cantiques,7,13,שָׁ֛ם,שָׁם,H8033,834
+221653,Cantiques,7,13,אֶתֵּ֥ן,נָתַן,H5414,2011
+221654,Cantiques,7,13,אֶת־,אֵת,H0853,10947
+221655,Cantiques,7,13,דֹּדַ֖י,דּוֹד,H1730,61
+221656,Cantiques,7,14,הַֽדּוּדָאִ֣ים,דּוּדַי,H1736,6
+221657,Cantiques,7,14,נָֽתְנוּ־,נָתַן,H5414,2011
+221658,Cantiques,7,14,רֵ֗יחַ,רֵיחַ,H7381,58
+221659,Cantiques,7,14,וְעַל־,עַל,H5921,5774
+221660,Cantiques,7,14,פְּתָחֵ֙ינוּ֙,פֶּ֫תַח,H6607,164
+221661,Cantiques,7,14,כָּל־,כֹּל,H3605,5415
+221662,Cantiques,7,14,מְגָדִ֔ים,מֶ֫גֶד,H4022,8
+221663,Cantiques,7,14,חֲדָשִׁ֖ים,חָדָשׁ,H2319,53
+221664,Cantiques,7,14,גַּם־,גַּם,H1571,769
+221665,Cantiques,7,14,יְשָׁנִ֑ים,יָשָׁן,H3465,7
+221666,Cantiques,7,14,דּוֹדִ֖י,דּוֹד,H1730,61
+221667,Cantiques,7,14,צָפַ֥נְתִּי,צָפַן,H6845,32
+221668,Cantiques,8,1,מִ֤י,מִי,H4310,424
+221669,Cantiques,8,1,יִתֶּנְךָ֙,נָתַן,H5414,2011
+221670,Cantiques,8,1,כְּאָ֣ח,אָח,H0251,630
+221671,Cantiques,8,1,יוֹנֵ֖ק,יָנַק,H3243,32
+221672,Cantiques,8,1,שְׁדֵ֣י,שַׁד,H7699,24
+221673,Cantiques,8,1,אִמִּ֑י,אֵם,H0517,220
+221674,Cantiques,8,1,אֶֽמְצָאֲךָ֤,מָצָא,H4672,455
+221675,Cantiques,8,1,בַחוּץ֙,חוּץ,H2351,164
+221676,Cantiques,8,1,אֶשָׁ֣קְךָ֔,נָשַׁק,H5401,35
+221677,Cantiques,8,1,גַּ֖ם,גַּם,H1571,769
+221678,Cantiques,8,1,לֹא־,לֹא,H3808,5170
+221679,Cantiques,8,1,יָב֥וּזוּ,בּוּז,H0936,12
+221680,Cantiques,8,2,אֶנְהָֽגֲךָ֗,נָהַג,H5090,31
+221681,Cantiques,8,2,אֲבִֽיאֲךָ֛,בּוֹא,H0935,2572
+221682,Cantiques,8,2,אֶל־,אֶל,H0413,5515
+221683,Cantiques,8,2,בֵּ֥ית,בַּ֫יִת,H1004,2049
+221684,Cantiques,8,2,אִמִּ֖י,אֵם,H0517,220
+221685,Cantiques,8,2,תְּלַמְּדֵ֑נִי,לָמַד,H3925,86
+221686,Cantiques,8,2,אַשְׁקְךָ֙,שָׁקָה,H8248,61
+221687,Cantiques,8,2,מִיַּ֣יִן,יַ֫יִן,H3196,141
+221688,Cantiques,8,2,הָרֶ֔קַח,רֶ֫קַח,H7544,1
+221689,Cantiques,8,2,מֵעֲסִ֖יס,עָסִיס,H6071,5
+221690,Cantiques,8,2,רִמֹּנִֽי׃,רִמּוֹן,H7416,32
+221691,Cantiques,8,3,שְׂמֹאלוֹ֙,שְׂמֹאל,H8040,54
+221692,Cantiques,8,3,תַּ֣חַת,תַּחַת,H8478,505
+221693,Cantiques,8,3,רֹאשִׁ֔י,רֹאשׁ,H7218,600
+221694,Cantiques,8,3,וִֽימִינ֖וֹ,יָמִין,H3225,141
+221695,Cantiques,8,3,תְּחַבְּקֵֽנִי׃,חָבַק,H2263,13
+221696,Cantiques,8,4,הִשְׁבַּ֥עְתִּי,שָׁבַע,H7650,186
+221697,Cantiques,8,4,אֶתְכֶ֖ם,אֵת,H0853,10947
+221698,Cantiques,8,4,בְּנ֣וֹת,בַּת,H1323,588
+221699,Cantiques,8,4,יְרוּשָׁלִָ֑ם,"יְרוּשָׁלִַ֫ם, יְרוּשְׁלֵם",H3389,643
+221700,Cantiques,8,4,מַה־,מָה,H4100,753
+221701,Cantiques,8,4,תָּעִ֧ירוּ׀,עוּר,H5782,80
+221702,Cantiques,8,4,וּֽמַה־,מָה,H4100,753
+221703,Cantiques,8,4,תְּעֹֽרְר֛וּ,עוּר,H5782,80
+221704,Cantiques,8,4,אֶת־,אֵת,H0853,10947
+221705,Cantiques,8,4,הָאַהֲבָ֖ה,אַהֲבָה,H0160,38
+221706,Cantiques,8,4,עַ֥ד,עַד,H5704,1261
+221707,Cantiques,8,4,שֶׁתֶּחְפָּֽץ׃ ס,חָפֵץ,H2654,74
+221708,Cantiques,8,5,מִ֣י,מִי,H4310,424
+221709,Cantiques,8,5,זֹ֗את,זֹאת,H2063,604
+221710,Cantiques,8,5,עֹלָה֙,עָלָה,H5927,890
+221711,Cantiques,8,5,מִן־,מִן־,H4480,1190
+221712,Cantiques,8,5,הַמִּדְבָּ֔ר,מִדְבָּר,H4057,271
+221713,Cantiques,8,5,מִתְרַפֶּ֖קֶת,רָפַק,H7514,1
+221714,Cantiques,8,5,עַל־,עַל,H5921,5774
+221715,Cantiques,8,5,דּוֹדָ֑הּ,דּוֹד,H1730,61
+221716,Cantiques,8,5,תַּ֤חַת,תַּחַת,H8478,505
+221717,Cantiques,8,5,הַתַּפּ֙וּחַ֙,תַּפּוּחַ,H8598,6
+221718,Cantiques,8,5,עֽוֹרַרְתִּ֔יךָ,עוּר,H5782,80
+221719,Cantiques,8,5,שָׁ֚מָּה,שָׁם,H8033,834
+221720,Cantiques,8,5,חִבְּלַ֣תְךָ,חָבַל,H2254,27
+221721,Cantiques,8,5,אִמֶּ֔ךָ,אֵם,H0517,220
+221722,Cantiques,8,5,שָׁ֖מָּה,שָׁם,H8033,834
+221723,Cantiques,8,5,חִבְּלָ֥ה,חָבַל,H2254,27
+221724,Cantiques,8,5,יְלָדַֽתְךָ׃,יָלַד,H3205,496
+221725,Cantiques,8,6,שִׂימֵ֨נִי,שׂוּם,H7760,585
+221726,Cantiques,8,6,כַֽחוֹתָ֜ם,חֹתָם,H2368,14
+221727,Cantiques,8,6,עַל־,עַל,H5921,5774
+221728,Cantiques,8,6,לִבֶּ֗ךָ,לֵב,H3820,595
+221729,Cantiques,8,6,כַּֽחוֹתָם֙,חֹתָם,H2368,14
+221730,Cantiques,8,6,עַל־,עַל,H5921,5774
+221731,Cantiques,8,6,זְרוֹעֶ֔ךָ,זְרוֹעַ,H2220,91
+221732,Cantiques,8,6,כִּֽי־,כִּי,H3588,4485
+221733,Cantiques,8,6,עַזָּ֤ה,עַז,H5794,24
+221734,Cantiques,8,6,כַמָּ֙וֶת֙,מָ֫וֶת,H4194,155
+221735,Cantiques,8,6,אַהֲבָ֔ה,אַהֲבָה,H0160,38
+221736,Cantiques,8,6,קָשָׁ֥ה,קָשֶׁה,H7186,36
+221737,Cantiques,8,6,כִשְׁא֖וֹל,שְׁאוֹל,H7585,66
+221738,Cantiques,8,6,קִנְאָ֑ה,קִנְאָה,H7068,43
+221739,Cantiques,8,6,רְשָׁפֶ֕יהָ,רֶ֫שֶׁף,H7565,7
+221740,Cantiques,8,6,רִשְׁפֵּ֕י,רֶ֫שֶׁף,H7565,7
+221741,Cantiques,8,6,אֵ֖שׁ,אֵשׁ,H0784,378
+221742,Cantiques,8,6,שַׁלְהֶ֥בֶתְיָֽה׃,יָהּ,H7957,3
+221743,Cantiques,8,7,מַ֣יִם,מַי,H4325,581
+221744,Cantiques,8,7,רַבִּ֗ים,רַב,H7227,454
+221745,Cantiques,8,7,לֹ֤א,לֹא,H3808,5170
+221746,Cantiques,8,7,יֽוּכְלוּ֙,יָכֹל,H3201,194
+221747,Cantiques,8,7,לְכַבּ֣וֹת,כָּבָה,H3518,24
+221748,Cantiques,8,7,אֶת־,אֵת,H0853,10947
+221749,Cantiques,8,7,הָֽאַהֲבָ֔ה,אַהֲבָה,H0160,38
+221750,Cantiques,8,7,וּנְהָר֖וֹת,נָהָר,H5104,119
+221751,Cantiques,8,7,לֹ֣א,לֹא,H3808,5170
+221752,Cantiques,8,7,יִשְׁטְפ֑וּהָ,שָׁטַף,H7857,31
+221753,Cantiques,8,7,אִם־,אִם,H0518,1073
+221754,Cantiques,8,7,יִתֵּ֨ן,נָתַן,H5414,2011
+221755,Cantiques,8,7,אִ֜ישׁ,אִישׁ,H0376,1663
+221756,Cantiques,8,7,אֶת־,אֵת,H0853,10947
+221757,Cantiques,8,7,כָּל־,כֹּל,H3605,5415
+221758,Cantiques,8,7,ה֤וֹן,הוֹן,H1952,26
+221759,Cantiques,8,7,בֵּיתוֹ֙,בַּ֫יִת,H1004,2049
+221760,Cantiques,8,7,בָּאַהֲבָ֔ה,אַהֲבָה,H0160,38
+221761,Cantiques,8,7,בּ֖וֹז,בּוּז,H0936,12
+221762,Cantiques,8,7,יָב֥וּזוּ,בּוּז,H0936,12
+221763,Cantiques,8,8,אָח֥וֹת,אָחוֹת,H0269,114
+221764,Cantiques,8,8,קְטַנָּ֔ה,קָטָן,H6996,101
+221765,Cantiques,8,8,וְשָׁדַ֖יִם,שַׁד,H7699,24
+221766,Cantiques,8,8,אֵ֣ין,אַ֫יִן,H0369,789
+221767,Cantiques,8,8,מַֽה־,מָה,H4100,753
+221768,Cantiques,8,8,נַּעֲשֶׂה֙,עָשָׂה,H6213,2629
+221769,Cantiques,8,8,לַאֲחֹתֵ֔נוּ,אָחוֹת,H0269,114
+221770,Cantiques,8,8,בַּיּ֖וֹם,יוֹם,H3117,2306
+221771,Cantiques,8,8,שֶׁיְּדֻבַּר־,דָבַר,H1696,1142
+221772,Cantiques,8,9,אִם־,אִם,H0518,1073
+221773,Cantiques,8,9,חוֹמָ֣ה,חוֹמָה,H2346,133
+221774,Cantiques,8,9,הִ֔יא,הוּא,H1931,1878
+221775,Cantiques,8,9,נִבְנֶ֥ה,בָּנָה,H1129,376
+221776,Cantiques,8,9,עָלֶ֖יהָ,עַל,H5921,5774
+221777,Cantiques,8,9,טִ֣ירַת,טִירָה,H2918,7
+221778,Cantiques,8,9,כָּ֑סֶף,כֶּ֫סֶף,H3701,403
+221779,Cantiques,8,9,וְאִם־,אִם,H0518,1073
+221780,Cantiques,8,9,דֶּ֣לֶת,דֶּ֫לֶת,H1817,88
+221781,Cantiques,8,9,הִ֔יא,הוּא,H1931,1878
+221782,Cantiques,8,9,נָצ֥וּר,צוּר,H6696,38
+221783,Cantiques,8,9,עָלֶ֖יהָ,עַל,H5921,5774
+221784,Cantiques,8,9,ל֥וּחַ,לוּחַ,H3871,43
+221785,Cantiques,8,9,אָֽרֶז׃,אֶ֫רֶז,H0730,73
+221786,Cantiques,8,10,אֲנִ֣י,"אֲנִי, אָֽנֹכִ֫י",H0589,874
+221787,Cantiques,8,10,חוֹמָ֔ה,חוֹמָה,H2346,133
+221788,Cantiques,8,10,וְשָׁדַ֖י,שַׁד,H7699,24
+221789,Cantiques,8,10,כַּמִּגְדָּל֑וֹת,מִגְדָּל,H4026,48
+221790,Cantiques,8,10,אָ֛ז,אָז,H0227,141
+221791,Cantiques,8,10,הָיִ֥יתִי,הָיָה,H1961,3562
+221792,Cantiques,8,10,בְעֵינָ֖יו,עַ֫יִן,H5869,887
+221793,Cantiques,8,10,כְּמוֹצְאֵ֥ת,מָצָא,H4672,455
+221794,Cantiques,8,10,שָׁלֽוֹם׃ פ,שָׁלוֹם,H7965,237
+221795,Cantiques,8,11,כֶּ֣רֶם,כֶּרֶם,H3754,92
+221796,Cantiques,8,11,הָיָ֤ה,הָיָה,H1961,3562
+221797,Cantiques,8,11,לִשְׁלֹמֹה֙,שְׁלֹמֹה,H8010,293
+221798,Cantiques,8,11,בְּבַ֣עַל,בַּ֫עַל הָמוֹן,H1174,2
+221799,Cantiques,8,11,הָמ֔וֹן,בַּ֫עַל הָמוֹן,H1174,2
+221800,Cantiques,8,11,נָתַ֥ן,נָתַן,H5414,2011
+221801,Cantiques,8,11,אֶת־,אֵת,H0853,10947
+221802,Cantiques,8,11,הַכֶּ֖רֶם,כֶּרֶם,H3754,92
+221803,Cantiques,8,11,לַנֹּטְרִ֑ים,נָטַר,H5201,9
+221804,Cantiques,8,11,אִ֛ישׁ,אִישׁ,H0376,1663
+221805,Cantiques,8,11,יָבִ֥א,בּוֹא,H0935,2572
+221806,Cantiques,8,11,בְּפִרְי֖וֹ,פְּרִי,H6529,119
+221807,Cantiques,8,11,אֶ֥לֶף,אֶ֫לֶף,H0505,506
+221808,Cantiques,8,11,כָּֽסֶף׃,כֶּ֫סֶף,H3701,403
+221809,Cantiques,8,12,כָּרְמִ֥י,כֶּרֶם,H3754,92
+221810,Cantiques,8,12,לְפָנָ֑י,פָּנֶה,H6440,2127
+221811,Cantiques,8,12,הָאֶ֤לֶף,אֶ֫לֶף,H0505,506
+221812,Cantiques,8,12,שְׁלֹמֹ֔ה,שְׁלֹמֹה,H8010,293
+221813,Cantiques,8,12,וּמָאתַ֖יִם,מֵאָה,H3967,581
+221814,Cantiques,8,12,לְנֹטְרִ֥ים,נָטַר,H5201,9
+221815,Cantiques,8,12,אֶת־,אֵת,H0853,10947
+221816,Cantiques,8,12,פִּרְיֽוֹ׃,פְּרִי,H6529,119
+221817,Cantiques,8,13,הַיוֹשֶׁ֣בֶת,יָשַׁב,H3427,1078
+221818,Cantiques,8,13,בַּגַּנִּ֗ים,גַּן,H1588,42
+221819,Cantiques,8,13,חֲבֵרִ֛ים,חָבֵר,H2270,12
+221820,Cantiques,8,13,מַקְשִׁיבִ֥ים,קָשַׁב,H7181,46
+221821,Cantiques,8,13,לְקוֹלֵ֖ךְ,קוֹל,H6963,506
+221822,Cantiques,8,13,הַשְׁמִיעִֽינִי׃,שָׁמַע,H8085,1160
+221823,Cantiques,8,14,בְּרַ֣ח׀,בָּרַח,H1272,65
+221824,Cantiques,8,14,דּוֹדִ֗י,דּוֹד,H1730,61
+221825,Cantiques,8,14,וּֽדְמֵה־,דָּמָה,H1819,30
+221826,Cantiques,8,14,לִצְבִי֙,צְבִי,H6643,33
+221827,Cantiques,8,14,א֚וֹ,אוֹ,H0176,321
+221828,Cantiques,8,14,לְעֹ֣פֶר,עֹ֫פֶר,H6082,5
+221829,Cantiques,8,14,הָֽאַיָּלִ֔ים,אַיָּל,H0354,11
+221830,Cantiques,8,14,עַ֖ל,עַל,H5921,5774
+221831,Cantiques,8,14,הָרֵ֥י,הַר,H2022,547
+221832,Cantiques,8,14,בְשָׂמִֽים׃,בֶּ֫שֶׂם,H1314,29
