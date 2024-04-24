@@ -5,8 +5,8 @@ export const runtime = 'edge'
 
 // Image metadata
 export const size = {
-  width: 32,
-  height: 32,
+  width: 160,
+  height: 160,
 }
 export const contentType = 'image/png'
 
@@ -27,7 +27,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        L
+        LLB
       </div>
     ),
     // ImageResponse options
