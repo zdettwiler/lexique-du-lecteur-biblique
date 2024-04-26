@@ -86,6 +86,6 @@ export function middleware(request) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next|favicon.ico|bible_books).*):path+',
+    '/((?!api|_next|bible_books|favicon.ico|apple-icon|icon).*):path+',
   ],
 }
