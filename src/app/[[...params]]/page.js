@@ -109,7 +109,7 @@ export default function Home({ params }) {
         `}
       </Script>
 
-      <p className="logo">☧</p>
+      <img id="logo" src="/img/logo-llb.svg" height="50px" width="50px" />
       <h1 className="header">Lexique du lecteur biblique</h1>
       <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 

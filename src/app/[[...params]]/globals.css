@@ -1,12 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 
-p.logo {
-  font-family: "Times New Roman";
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 40px;
+img#logo {
+  display: block;
+  margin: 70px auto 50px;
 }
 
 h1.header {
