@@ -36,7 +36,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" data-bs-theme="dark">
+    <html lang="fr" data-bs-theme="light">
       <body>
         {children}
         <footer>

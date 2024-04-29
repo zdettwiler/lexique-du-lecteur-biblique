@@ -38,13 +38,15 @@ export default function Home({ params }) {
   const [frequency, setFrequency] = React.useState(frequencyParam);
   const [lexicon, setLexicon] = React.useState([]);
 
-
   React.useEffect(() => {
     if (params && params.params && params.params.length === 3) {
       getLexicon();
     } else {
       setIsGeneratingPDF(false);
     }
+
+    let darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    document.querySelector('html').setAttribute('data-bs-theme', darkMode ? 'dark' : 'light');
   }, []);
 
 
