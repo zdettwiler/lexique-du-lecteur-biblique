@@ -30,11 +30,6 @@ p.description {
   display: block;
   margin: 0 auto 70px;
 }
-
-input.clear-chapters-input-button {
-  /* border-right: unset; */
-}
-
 button.clear-chapters-input-button {
   background-color: unset;
   color: #343a40;
@@ -48,12 +43,20 @@ button.clear-chapters-input-button:hover {
   border: var(--bs-border-width) solid var(--bs-border-color);
   border-left: unset;
 }
-
 button.clear-chapters-input-button:active {
   background-color: unset !important;
   color: black !important;
   border: var(--bs-border-width) solid var(--bs-border-color) !important;
   border-left: unset !important;
+}
+
+html[data-bs-theme=dark] button.btn-dark {
+  background-color: #424649;
+  color: #fff;
+}
+html[data-bs-theme=dark] button.btn-dark:hover {
+  background-color: #212529;
+  color: #fff;
 }
 
 
@@ -64,6 +67,9 @@ footer {
   font-size: 12px;
   background-color: #FAFAFA;
   padding: 50px;
+}
+html[data-bs-theme=dark] footer {
+  background-color: #1e2124;
 }
 footer .sources {
   font-size: 12px;

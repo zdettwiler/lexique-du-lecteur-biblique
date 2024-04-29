@@ -109,11 +109,11 @@ export default function Home({ params }) {
         `}
       </Script>
 
-      <img id="logo" src="/img/logo-llb.svg" height="50px" width="50px" />
+      <img id="logo" src="/img/logo-llb.svg" height="50px" width="50px" prefers-color-scheme="dark"/>
       <h1 className="header">Lexique du lecteur biblique</h1>
       <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
-      <Container className="p-3 pb-2 mt-5 mb-4 bg-white rounded-3">
+      <Container className="p-3 pb-2 mt-5 mb-4 rounded-3">
         <Form className="mb-4">
           <Row className="mb-3 align-items-end d-flex justify-content-center">
 
