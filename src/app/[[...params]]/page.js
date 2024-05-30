@@ -19,6 +19,7 @@ import { useRouter } from 'next/navigation'
 
 import Lexicon from './Lexicon';
 import PDFLexicon from './PDFLexicon';
+import DarkModeSwitch from './DarkModeSwitch';
 import * as ga from './ga.js';
 
 
@@ -110,6 +111,9 @@ export default function Home({ params }) {
           gtag('config', '${ga.GA_TRACKING_ID}');
         `}
       </Script>
+
+      <DarkModeSwitch>
+      </DarkModeSwitch>
 
       <img id="logo" src="/img/logo-llb.svg" height="50px" width="50px" prefers-color-scheme="dark"/>
       <h1 className="header">Lexique du lecteur biblique</h1>
