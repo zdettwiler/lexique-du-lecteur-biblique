@@ -19,7 +19,7 @@ import { useRouter } from 'next/navigation'
 
 import Lexicon from './Lexicon';
 import PDFLexicon from './PDFLexicon';
-import DarkModeSwitch from './DarkModeSwitch';
+import LLBNav from './LLBNav';
 import * as ga from './ga.js';
 
 
@@ -45,9 +45,6 @@ export default function Home({ params }) {
     } else {
       setIsGeneratingPDF(false);
     }
-
-    let darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
-    document.querySelector('html').setAttribute('data-bs-theme', darkMode ? 'dark' : 'light');
   }, []);
 
 
@@ -99,7 +96,9 @@ export default function Home({ params }) {
   }
 
 
-  return (
+  return (<>
+    <LLBNav />
+
     <Container fluid="sm">
       <Script src={`https://www.googletagmanager.com/gtag/js?id=${ga.GA_TRACKING_ID}`} />
       <Script id="google-analytics">
@@ -111,9 +110,6 @@ export default function Home({ params }) {
           gtag('config', '${ga.GA_TRACKING_ID}');
         `}
       </Script>
-
-      <DarkModeSwitch>
-      </DarkModeSwitch>
 
       <img id="logo" src="/img/logo-llb.svg" height="50px" width="50px" prefers-color-scheme="dark"/>
       <h1 className="header">Lexique du lecteur biblique</h1>
@@ -223,5 +219,5 @@ export default function Home({ params }) {
         </>
       )}
     </Container>
-  );
+  </>);
 }
