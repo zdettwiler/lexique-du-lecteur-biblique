@@ -1,16 +1,18 @@
-import { Navbar, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import DarkModeSwitch from './DarkModeSwitch';
 
 export default function LLBNav() {
 
   return (
-    <Navbar>
-      <Container>
-        {/* <Navbar.Brand href="#home">Navbar with text</Navbar.Brand> */}
+    <Navbar expand="sm" sticky="top" >
+      <Container fluid>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <DarkModeSwitch />
+          <Nav>
+            {/* <Nav.Link href="#"></Nav.Link> */}
+          </Nav>
         </Navbar.Collapse>
+        <DarkModeSwitch />
       </Container>
     </Navbar>
   )

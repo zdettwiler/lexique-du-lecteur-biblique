@@ -1,9 +1,13 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 
-img#logo {
+#logo {
   display: block;
   margin: 70px auto 50px;
+  background: url("/img/logo-llb.svg") center;
+  background-size: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 h1.header {
@@ -57,6 +61,10 @@ html[data-bs-theme=dark] button.btn-dark {
 html[data-bs-theme=dark] button.btn-dark:hover {
   background-color: #212529;
   color: #fff;
+}
+html[data-bs-theme=dark] #logo{
+  background: url("/img/logo-llb-dark.svg") center;
+  background-size: 50px;
 }
 
 

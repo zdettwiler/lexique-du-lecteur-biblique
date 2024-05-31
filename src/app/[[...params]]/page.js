@@ -97,21 +97,21 @@ export default function Home({ params }) {
 
 
   return (<>
+    <Script src={`https://www.googletagmanager.com/gtag/js?id=${ga.GA_TRACKING_ID}`} />
+    <Script id="google-analytics">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '${ga.GA_TRACKING_ID}');
+      `}
+    </Script>
+
     <LLBNav />
 
     <Container fluid="sm">
-      <Script src={`https://www.googletagmanager.com/gtag/js?id=${ga.GA_TRACKING_ID}`} />
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', '${ga.GA_TRACKING_ID}');
-        `}
-      </Script>
-
-      <img id="logo" src="/img/logo-llb.svg" height="50px" width="50px" prefers-color-scheme="dark"/>
+      <div id="logo" src="/img/logo-llb.svg"/>
       <h1 className="header">Lexique du lecteur biblique</h1>
       <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
