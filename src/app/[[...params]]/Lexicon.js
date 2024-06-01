@@ -1,13 +1,12 @@
 import React from 'react';
 import { Modal, Button, Form, Row, Col, Container, Spinner, Alert } from 'react-bootstrap';
-
 import styles from './Lexicon.module.css';
 
 
 function Lexicon({frequency, data}) {
   const [showLexiconCorrectionModal, setShowLexiconCorrectionModal] = React.useState(false);
-  const [correctorName, setCorrectorName] = React.useState("");
-  const [correctorEmail, setCorrectorEmail] = React.useState("");
+  const [correctorName, setCorrectorName] = React.useState(localStorage.getItem('name') || '');
+  const [correctorEmail, setCorrectorEmail] = React.useState(localStorage.getItem('email') || '');
   const [correctingWord, setCorrectingWord] = React.useState({});
   const [isSendingCorrection, setIsSendingCorrection] = React.useState(false);
   const [correctionStatus, setCorrectionStatus] = React.useState(false);
@@ -56,6 +55,8 @@ function Lexicon({frequency, data}) {
       }),
     });
 
+    localStorage.setItem('name', correctorName);
+    localStorage.setItem('email', correctorEmail);
     setCorrectionStatus(response.status)
     setIsSendingCorrection(false)
   };
