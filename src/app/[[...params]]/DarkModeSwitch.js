@@ -1,4 +1,3 @@
-// 'use client';
 import React, { useContext } from 'react';
 import { DarkModeContext } from './DarkMode';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';

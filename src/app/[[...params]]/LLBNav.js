@@ -1,3 +1,4 @@
+"use client";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import DarkModeSwitch from './DarkModeSwitch';
@@ -16,5 +17,5 @@ export default function LLBNav() {
         <DarkModeSwitch />
       </Container>
     </Navbar>
-  )
+  );
 }

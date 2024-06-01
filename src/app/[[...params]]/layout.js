@@ -2,6 +2,7 @@ import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LLB from "./LLB.json";
 import DarkModeContextProvider from './DarkMode';
+import LLBNav from './LLBNav';
 
 export const metadata = {
   title: 'Lexique du lecteur biblique',
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
     <html lang="fr" data-bs-theme="light">
       <body>
         <DarkModeContextProvider>
+          <LLBNav />
           {children}
 
           <footer>

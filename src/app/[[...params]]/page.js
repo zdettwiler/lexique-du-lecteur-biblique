@@ -108,8 +108,6 @@ export default function Home({ params }) {
       `}
     </Script>
 
-    <LLBNav />
-
     <Container fluid="sm">
       <div id="logo" src="/img/logo-llb.svg"/>
       <h1 className="header">Lexique du lecteur biblique</h1>
