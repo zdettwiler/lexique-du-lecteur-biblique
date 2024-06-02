@@ -68,6 +68,11 @@ div.lexOT span:hover, div.lexNT span:hover {
   cursor: pointer;
   background-color: #fff3cd;
 }
+html[data-bs-theme=dark] div.lexOT span:hover,
+html[data-bs-theme=dark] div.lexNT span:hover {
+  cursor: pointer;
+  background-color: #332701;
+}
 div.freq {
   width: 35px;
   font-size: 16px;
