@@ -6,7 +6,7 @@ export default function DarkModeSwitch() {
   const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext);
 
   return (
-    <div onClick={toggleDarkMode}>
+    <div id="dark-mode-switch" onClick={toggleDarkMode}>
       <OverlayTrigger
         placement="left"
         overlay={

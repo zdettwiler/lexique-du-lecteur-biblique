@@ -71,6 +71,10 @@ html[data-bs-theme=dark] #logo {
   background-size: 50px;
 }
 
+#dark-mode-switch {
+  cursor: pointer;
+}
+
 
 footer {
   /* height: 250px; */
