@@ -37,6 +37,14 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  let [y, m, d] = LLB.updated.split(/\D/);
+  const event = new Date(y, m-1, d);
+  const updated = event.toLocaleDateString('fr-FR', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+
   return (
     <html lang="fr" data-bs-theme="light">
       <body>
@@ -51,7 +59,7 @@ export default function RootLayout({ children }) {
               <a href="https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT">THHOT</a> ∙ <a href="https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT">THGNT</a><br/>
               <a href="https://www.levangile.com/Liste-Strong-Grec.php">Levangile</a> ∙ R. Pigeon (<a href="https://editeurbpc.com">editeurbpc.com</a>).
             </p>
-            <p>LLB {LLB.version}</p>
+            <p>LLB {LLB.version} ({updated})</p>
             <a className="discreet" href="https://github.com/zdettwiler/lexique-du-lecteur-biblique"><i className="bi bi-github"></i></a>
           </footer>
         </DarkModeContextProvider>
