@@ -58,14 +58,20 @@ html[data-bs-theme=dark] button.btn-dark {
   background-color: #424649;
   color: #fff;
 }
-html[data-bs-theme=dark] button.btn-outline-dark {
-  border-color: #dee2e6;
-  color: #dee2e6;
-}
 html[data-bs-theme=dark] button.btn-dark:hover {
   background-color: #212529;
   color: #fff;
 }
+html[data-bs-theme=dark] button.btn-outline-dark {
+  border-color: #dee2e6;
+  color: #dee2e6;
+}
+html[data-bs-theme=dark] button.btn-outline-dark:hover {
+  border-color: #212529; /* #495057; */
+  /* color: #dee2e6; */
+}
+
+
 html[data-bs-theme=dark] #logo {
   background: url("/img/logo-llb-dark.svg") center;
   background-size: 50px;
