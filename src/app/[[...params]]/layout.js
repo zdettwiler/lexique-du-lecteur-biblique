@@ -39,8 +39,9 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  const cookieStore = cookies()
-  const theme = JSON.parse(cookieStore.get('isDarkMode')?.value) || false;
+  const cookieStore = cookies();
+  let theme = cookieStore.get('isDarkMode')
+  theme = theme ? JSON.parse(theme.value) : false;
 
   let [y, m, d] = LLB.updated.split(/\D/);
   const event = new Date(y, m-1, d);
