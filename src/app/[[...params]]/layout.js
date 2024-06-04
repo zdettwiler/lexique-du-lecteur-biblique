@@ -4,6 +4,8 @@ import LLB from "./LLB.json";
 import DarkModeContextProvider from './DarkMode';
 import LLBNav from './LLBNav';
 
+import { cookies } from 'next/headers';
+
 export const metadata = {
   title: 'Lexique du lecteur biblique',
   description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
@@ -37,6 +39,9 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const cookieStore = cookies()
+  const theme = JSON.parse(cookieStore.get('isDarkMode')?.value) || false;
+
   let [y, m, d] = LLB.updated.split(/\D/);
   const event = new Date(y, m-1, d);
   const updated = event.toLocaleDateString('fr-FR', {
@@ -46,9 +51,9 @@ export default function RootLayout({ children }) {
   });
 
   return (
-    <html lang="fr" data-bs-theme="light">
+    <html lang="fr" data-bs-theme={theme ? 'dark' : 'light'}>
       <body>
-        <DarkModeContextProvider>
+        <DarkModeContextProvider theme={theme}>
           <LLBNav />
           {children}
 

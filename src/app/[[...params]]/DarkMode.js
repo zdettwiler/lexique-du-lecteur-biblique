@@ -1,14 +1,15 @@
 "use client";
 import { createContext, useContext, useEffect, useState } from "react";
+import { actionToggleDarkMode } from './actions'
 
 export const DarkModeContext = createContext();
 
-const themeFromLocalStorage = () => {
-  if (typeof window !== 'undefined') {
-    const isDarkMode = JSON.parse(localStorage.getItem('isDarkMode'));
-    return isDarkMode || false;
-  } else { return false }
-}
+// const themeFromLocalStorage = () => {
+//   if (typeof window !== 'undefined') {
+//     const isDarkMode = JSON.parse(localStorage.getItem('isDarkMode'));
+//     return isDarkMode || false;
+//   } else { return false }
+// }
 
 const DarkModeProvider = ({ children }) => {
   const { isDarkMode } = useContext(DarkModeContext);
@@ -24,18 +25,13 @@ const DarkModeProvider = ({ children }) => {
   }
 }
 
-export default function DarkModeContextProvider({ children }) {
-  const [isDarkMode, setDarkMode] = useState(() => {
-    return themeFromLocalStorage();
-  });
+export default function DarkModeContextProvider({ children, theme }) {
+  const [isDarkMode, setDarkMode] = useState(theme);
 
   const toggleDarkMode = () => {
     setDarkMode(!isDarkMode);
+    actionToggleDarkMode(!isDarkMode);
   };
-
-  useEffect(() => {
-    localStorage.setItem('isDarkMode', isDarkMode)
-  }, [isDarkMode]);
 
   return (
     <DarkModeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
