@@ -109,7 +109,7 @@ export default function Home({ params }) {
     </Script>
 
     <Container fluid="sm">
-      <div id="logo" src="/img/logo-llb.svg"/>
+      <div id="logo" />
       <h1 className="header">Lexique du lecteur biblique</h1>
       <p className="description">Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
 
@@ -199,7 +199,8 @@ export default function Home({ params }) {
             </Alert>
 
             <Alert variant="warning">
-            <b>🚧 Contribuez au LLB!</b> Vous pouvez désormais proposer des améliorations pour les définitions en cliquant sur le mot. Merci d'avance!
+              <b>🚧 Contribuez au LLB!</b> Le Lexique du Lecteur Biblique n'est pas parfait. Certaines définitions mériteraient d'être corrigées.
+              N'hésitez pas à cliquer sur un mot et à proposer des améliorations aux définitions. Merci d'avance!
             </Alert>
           </>
         )}

@@ -26,6 +26,10 @@ p.description {
   text-align: center;
 }
 
+span.ibb {
+  font-family: "Arial";
+}
+
 .mt-10 {
   margin-top: 100px;
 }
@@ -102,6 +106,12 @@ footer a {
 footer a.discreet {
   text-decoration: none;
   font-size: 15px;
+}
+footer svg path {
+  fill: #212529;
+}
+[data-bs-theme=dark] footer svg path {
+  fill: #dee2e6;
 }
 
 
