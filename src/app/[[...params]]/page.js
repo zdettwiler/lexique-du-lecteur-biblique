@@ -28,9 +28,9 @@ export default function Home({ params }) {
   const router = useRouter()
 
   const isParams = params && params.params && params.params.length === 3
-  const bookParam = isParams ? decodeURI(params.params[0]) : 'Genèse'
-  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? '' : decodeURIComponent(params.params[1])
-  const frequencyParam = isParams ? params.params[2] : '70'
+  const bookParam = isParams ? decodeURI(params.params[0]) : (localStorage.getItem('book') || 'Genèse')
+  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? (localStorage.getItem('chapters') || '') : decodeURIComponent(params.params[1])
+  const frequencyParam = isParams ? params.params[2] : (localStorage.getItem('frequency') || '70')
 
 
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(true);
@@ -50,12 +50,14 @@ export default function Home({ params }) {
 
   function handleChangeBook(e) {
     setBook(e.target.value);
+    localStorage.setItem('book', e.target.value)
     setChapters("");
     setLexicon([]);
   }
 
   function handleChangeChapters(e) {
     setChapters(e.target.value);
+    localStorage.setItem('chapters', e.target.value)
     setLexicon([]);
   }
 
@@ -66,6 +68,7 @@ export default function Home({ params }) {
 
   function handleChangeFrequency(e) {
     setFrequency(e.target.value);
+    localStorage.setItem('frequency', e.target.value)
     setLexicon([]);
   }
 
@@ -166,7 +169,7 @@ export default function Home({ params }) {
 
             {/* Fréquence */}
             <Col xs={12} lg={3} className="mb-3" >
-              <Form.Label>Fréq. des mots dans le testament</Form.Label>
+              <Form.Label>Nb. d'occurences des mots</Form.Label>
               <Form.Select aria-label="Frequency selection" value={frequency} onChange={handleChangeFrequency}>
                 { [
                     { text: "Étudiant raté (<1000×)", value: 1000 },
