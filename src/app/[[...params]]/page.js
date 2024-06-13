@@ -214,11 +214,7 @@ export default function Home({ params }) {
       )}
 
       { !!lexicon.length && (
-        // <PDFLexicon frequency={frequency} data={lexicon} />
-        <>
-
-          <Lexicon frequency={frequency} data={lexicon} />
-        </>
+        <Lexicon frequency={frequency} data={lexicon} />
       )}
     </Container>
   </>);
