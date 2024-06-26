@@ -1,6 +1,6 @@
 {
-  "version": "v38",
-  "updated": "2024-04-26",
+  "version": "v39",
+  "updated": "2024-06-26",
   "lexique": {
     "G": [
       {
@@ -1154,7 +1154,7 @@
       {
         "strongNb": 165,
         "grec": "αἰών, ῶνος, ὁ",
-        "gloss": "pour toujours, à perpétuité, tous âges",
+        "gloss": "temps; éternité; période, ère; monde; éon",
         "freq": 123,
         "vu": true
       },
@@ -4801,9 +4801,9 @@
       {
         "strongNb": 686,
         "grec": "ἄρα",
-        "gloss": "ainsi, aussi",
+        "gloss": "ainsi, alors, peut-être, par hasard",
         "freq": 49,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 687,
@@ -6579,9 +6579,9 @@
       {
         "strongNb": 940,
         "grec": "βασκαίνω",
-        "gloss": "calomnier, médire, charmer, ensorceler, fasciner",
+        "gloss": "ensorceler, envoûter",
         "freq": 1,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 941,
@@ -12221,9 +12221,9 @@
       {
         "strongNb": 1746,
         "grec": "ἐνδύω",
-        "gloss": "revêtir, (Moy.) s'habiller",
+        "gloss": "revêtir, (moyen) être vêtu, (moyen) porter, (moyen) se vêtir",
         "freq": 27,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 1747,
@@ -14335,9 +14335,9 @@
       {
         "strongNb": 2048,
         "grec": "ἔρημος, ον",
-        "gloss": "désert",
+        "gloss": "délaissé, désert",
         "freq": 48,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 2049,
@@ -15595,7 +15595,7 @@
       {
         "strongNb": 2228,
         "grec": "ἤ",
-        "gloss": "ou",
+        "gloss": "ou, que",
         "freq": 346,
         "vu": true
       },
@@ -19844,9 +19844,9 @@
       {
         "strongNb": 2836,
         "grec": "κοιλία, ας, ἡ",
-        "gloss": "estomac, sein, ventre",
+        "gloss": "estomac, sein maternel, ventre",
         "freq": 22,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2837,
@@ -20938,7 +20938,7 @@
         "grec": "λαός, οῦ, ὁ",
         "gloss": "peuple, nation",
         "freq": 141,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 2993,
@@ -21386,7 +21386,7 @@
         "grec": "λόγος, ου, ὁ",
         "gloss": "parole, propos, discours, mot, parler, rendre compte, question",
         "freq": 330,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 3057,
@@ -22574,9 +22574,9 @@
       {
         "strongNb": 3326,
         "grec": "μετά",
-        "gloss": "avec, parmi, contre",
+        "gloss": "(+A) après, derrière; (+G) avec, parmi, contre",
         "freq": 468,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3327,
@@ -24394,9 +24394,9 @@
       {
         "strongNb": 3586,
         "grec": "ξύλον, ου, τό",
-        "gloss": "bois de thuya",
+        "gloss": "bois, bâton, morceau de bois",
         "freq": 20,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3587,
@@ -26984,7 +26984,7 @@
       {
         "strongNb": 3956,
         "grec": "πᾶς, πᾶσα, πᾶν",
-        "gloss": "tout, toute sorte, chaque",
+        "gloss": "tout, toute sorte, chaque, quiconque",
         "freq": 1236,
         "vu": true
       },
@@ -26998,9 +26998,9 @@
       {
         "strongNb": 3958,
         "grec": "πάσχω",
-        "gloss": "souffrir",
+        "gloss": "souffrir, endurer du mal, être affligé",
         "freq": 41,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 3959,
@@ -27166,7 +27166,7 @@
       {
         "strongNb": 3982,
         "grec": "πείθω",
-        "gloss": "persuader, convaincre",
+        "gloss": "être assuré, avoir confiance, consentir, croire, être d’avis, exhorter, gagner, obéir, persuader, s’appliquer à plaire, se confier, se fier",
         "freq": 52,
         "vu": true
       },
@@ -27992,9 +27992,9 @@
       {
         "strongNb": 4100,
         "grec": "πιστεύω",
-        "gloss": "croire, avoir confiance",
+        "gloss": "croire, se fier, confier",
         "freq": 238,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 4101,
@@ -29448,9 +29448,9 @@
       {
         "strongNb": 4308,
         "grec": "προοράω",
-        "gloss": "contempler, voir devant soi",
+        "gloss": "voir à l'avance, prévoir; voir auparavant; (moyen) (+A) voir devant soi",
         "freq": 4,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4309,
@@ -29490,9 +29490,9 @@
       {
         "strongNb": 4314,
         "grec": "πρός",
-        "gloss": "qui concerne, relativement",
+        "gloss": "(+A) vers, à, auprès de, devant, en présence de, pour, en vue de; (+G) pour, à l'avantage de; (+D) près de",
         "freq": 699,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4315,
@@ -33886,9 +33886,9 @@
       {
         "strongNb": 4942,
         "grec": "συνυποκρίνομαι",
-        "gloss": "user de dissimulation, faire semblant, feindre",
+        "gloss": "(+D) user de dissimulation avec, faire semblant avec, feindre avec",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4943,
@@ -38191,9 +38191,9 @@
       {
         "strongNb": 5557,
         "grec": "χρυσός, οῦ, ὁ",
-        "gloss": "or, il symbolise, la justice divine",
+        "gloss": "or",
         "freq": 9,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5558,
@@ -38485,9 +38485,9 @@
       {
         "strongNb": 5599,
         "grec": "ὦ",
-        "gloss": "l’interjection: Ô!",
+        "gloss": "Ô!",
         "freq": 17,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5600,
@@ -38632,9 +38632,9 @@
       {
         "strongNb": 5620,
         "grec": "ὥστε",
-        "gloss": "de manière à, de sorte que, en sorte que",
+        "gloss": "de manière à, de sorte que, si bien que, donc, ainsi, en conséquence",
         "freq": 83,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5621,
@@ -46117,8 +46117,8 @@
       {
         "strongNb": 1065,
         "hebreu": "בְּכִי",
-        "gloss": "pleurer, ses pleurs, écoulement de larmes",
-        "vu": false,
+        "gloss": "pleurs, larmes",
+        "vu": true,
         "freq": 30
       },
       {
@@ -56512,8 +56512,8 @@
       {
         "strongNb": 2550,
         "hebreu": "חָמַל",
-        "gloss": "épargner, pitié, avoir compassion de",
-        "vu": false,
+        "gloss": "épargner, avoir pitié, avoir compassion de",
+        "vu": true,
         "freq": 41
       },
       {
@@ -58010,8 +58010,8 @@
       {
         "strongNb": 2764,
         "hebreu": "חֵרֶם חֶרֶם",
-        "gloss": "une chose dévouée, chose consacrée, ban, dévouement",
-        "vu": false,
+        "gloss": "chose dévouée, chose consacrée, interdit",
+        "vu": true,
         "freq": 38
       },
       {
@@ -68999,9 +68999,9 @@
       },
       {
         "strongNb": 4334,
-        "hebreu": "מִישׁוֹר מִישׁוֹר",
-        "gloss": "endroit de niveau, droiture",
-        "vu": false,
+        "hebreu": "מִישׁוֹר",
+        "gloss": "pays uni, plaine; droiture",
+        "vu": true,
         "freq": 23
       },
       {
@@ -72017,8 +72017,8 @@
       {
         "strongNb": 4765,
         "hebreu": "מַרבַּד",
-        "gloss": "étendre, couvre-pied",
-        "vu": false,
+        "gloss": "couverture",
+        "vu": true,
         "freq": 2
       },
       {
@@ -81166,8 +81166,8 @@
       {
         "strongNb": 6072,
         "hebreu": "עָסַס",
-        "gloss": "presser, écraser, presser en marchant, fouler aux pieds, presser (du raisin)",
-        "vu": false,
+        "gloss": "presser, écraser, fouler",
+        "vu": true,
         "freq": 1
       },
       {
@@ -91897,8 +91897,8 @@
       {
         "strongNb": 7605,
         "hebreu": "שְׁאָר",
-        "gloss": "le reste, résidu, restant, ce qui reste",
-        "vu": false,
+        "gloss": "reste, résidu, restant, ce qui reste",
+        "vu": true,
         "freq": 26
       },
       {

@@ -22,6 +22,7 @@ export async function POST(request) {
       body.chapter,
       body.verse,
       body.strong,
+      body.lex,
       body.corrected_gloss
     ] ]);
 

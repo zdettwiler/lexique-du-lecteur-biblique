@@ -51,6 +51,7 @@ function Lexicon({frequency, data}) {
         chapter: correctingWord.chapter,
         verse: correctingWord.verse,
         strong: correctingWord.strong,
+        lex: correctingWord.lex,
         corrected_gloss: correctingWord.gloss
       }),
     });
