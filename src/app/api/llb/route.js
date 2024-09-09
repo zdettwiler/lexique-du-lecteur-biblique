@@ -16,15 +16,19 @@ export async function GET(request) {
   //   .eq('strong', 'G0007')
 
   const { data, error, status } = await supabase
-    .from('nt')
-    .select('lex, strong, llb(strong, gloss)')
-    .eq('book', 'Matthieu')
+    .from('ot')
+    .select('lex, strong, llb!inner(freq, gloss)')
+    .eq('book', 'Esdras')
     .eq('chapter', 1)
     .eq('verse', 1)
+    .lt('llb.freq', 70)
 
-  console.log(data.length)
-
-  return NextResponse.json(data, { status });
+  return NextResponse.json(
+    status === 200
+      ? data
+      : error,
+    { status }
+  );
 
 
   // try {
