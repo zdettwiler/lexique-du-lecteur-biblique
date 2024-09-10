@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server'
 
-import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
+import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
 export function middleware(request) {
+  console.log(request.nextUrl.pathname)
   let params = request.nextUrl.pathname.match(/\/(?<book>[^\/]*)\/(?<chapters>[\d\*\,\-]*)\/?(?<frequency>\d*)?/)
 
   if (!params) {
