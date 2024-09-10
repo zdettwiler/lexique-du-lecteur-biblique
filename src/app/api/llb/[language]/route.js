@@ -11,17 +11,16 @@ import createSupabaseClient from '@/utils/supabase/server';
   //   .lt('llb.freq', 70)
 
 
-export async function GET(request) {
-  const supabase = createSupabaseClient();
+export async function GET(request, { params }) {
+  if (!['G', 'H'].includes(params.language[0]))
+    return NextResponse.redirect(new URL('../', request.url))
 
-  // const { data, error, status } = await supabase
-  //   .from('llb')
-  //   .select()
-  //   .eq('strong', 'G0007')
+  const supabase = createSupabaseClient();
 
   const { data, error, status } = await supabase
     .from('llb')
     .select('strong, lex, gloss, freq')
+    .like('strong', `${params.language[0]}%`)
     .order('strong')
 
   return NextResponse.json(
@@ -30,15 +29,4 @@ export async function GET(request) {
       : error,
     { status }
   );
-
-
-  // try {
-
-
-  // } catch (error) {
-  //   return NextResponse.json({ msg: "Error!" }, { status: 500 });
-
-  // }
-
-  // return NextResponse.json({ msg: "Success!" }, { status: 201 });
 }
