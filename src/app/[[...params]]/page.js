@@ -25,13 +25,14 @@ import * as ga from './ga.js';
 
 
 export default function Home({ params }) {
-  const router = useRouter()
+  const router = useRouter();
 
   const isParams = params && params.params && params.params.length === 3
   const bookParam = isParams ? decodeURI(params.params[0]) : (localStorage.getItem('book') || 'Genèse')
-  const chaptersParam = (!isParams) || (isParams && params.params[1] === '*') ? (localStorage.getItem('chapters') || '') : decodeURIComponent(params.params[1])
+  const chaptersParam = isParams
+  ? (params.params[1] === '*' ? '' : params.params[1])
+  : (localStorage.getItem('chapters') || '') //(!isParams) || (isParams && params.params[1] === '*') ? (localStorage.getItem('chapters') || '') : decodeURIComponent(params.params[1])
   const frequencyParam = isParams ? params.params[2] : (localStorage.getItem('frequency') || '70')
-
 
   const [isGeneratingPDF, setIsGeneratingPDF] = React.useState(true);
   const [book, setBook] = React.useState(bookParam);
@@ -52,6 +53,7 @@ export default function Home({ params }) {
     setBook(e.target.value);
     localStorage.setItem('book', e.target.value)
     setChapters("");
+    localStorage.setItem('chapters', '')
     setLexicon([]);
   }
 
@@ -63,6 +65,7 @@ export default function Home({ params }) {
 
   function handleClickClearChapters() {
     setChapters("");
+    localStorage.setItem('chapters', '')
     setLexicon([]);
   }
 

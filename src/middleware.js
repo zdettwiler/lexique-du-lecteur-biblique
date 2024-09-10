@@ -37,8 +37,9 @@ export function middleware(request) {
 
         if (start <= 1) {
           start = 1
+        }
 
-        } else if (end > maxChaptersBook) {
+        if (end > maxChaptersBook) {
           end = maxChaptersBook
         }
 
@@ -46,17 +47,18 @@ export function middleware(request) {
           let oldStart = start
           start = end
           end = oldStart
-        } else if (start === end) {
-          acc.push(start);
-          return acc
         }
 
-        acc.push(start + '-' + end);
+        if (start === end) {
+          acc.push(start);
+          return acc;
+        }
+
       } else {
         chapter = parseInt(chapter.trim());
-        if (chapter
-        && chapter <= maxChaptersBook
-        && acc.indexOf(chapter) < 0) {
+        if (chapter && chapter > maxChaptersBook) chapter = maxChaptersBook
+
+        if (chapter && acc.indexOf(chapter) < 0) {
           acc.push(chapter);
         }
       }
