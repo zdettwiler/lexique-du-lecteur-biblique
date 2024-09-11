@@ -7,12 +7,20 @@ export async function GET(request, { params: { ref }}) {
 
   const supabase = createSupabaseClient();
 
-  const { data, error, status } = await supabase
+  let { data, error, status } = await supabase
     .from('ot')
     .select('lex, strong, llb!inner(freq, gloss)')
     .eq('book', ref[0])
     .eq('chapter', ref[1])
     .lt('llb.freq', ref[2])
+
+  data = data.map(word => {
+    return {
+      ...word,
+      ...word.llb,
+      llb: undefined
+    }
+  })
 
   return NextResponse.json(status === 200
     ? data
