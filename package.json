@@ -25,5 +25,8 @@
     "react-dom": "18.2.0",
     "react-papaparse": "^4.1.0",
     "swr": "^2.2.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
   }
 }
