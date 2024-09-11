@@ -2,11 +2,11 @@ import { NextResponse } from 'next/server'
 
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
-export function middleware(request) {
+export function middleware (request) {
   let params = request.nextUrl.pathname.match(/\/(?<book>[^\/]*)\/(?<chapters>[\d\*\,\-]*)\/?(?<frequency>\d*)?/)
 
   if (!params) {
-    return NextResponse.redirect(new URL(`/`, request.url))
+    return NextResponse.redirect(new URL('/', request.url))
   }
 
   params = params.groups
@@ -17,8 +17,7 @@ export function middleware(request) {
   params.book = decodeURI(params.book)
 
   if (!bookNames[params.book.toLowerCase()]) {
-    return NextResponse.redirect(new URL(`/`, request.url))
-
+    return NextResponse.redirect(new URL('/', request.url))
   } else if (params.book !== bookNames[params.book.toLowerCase()]) {
     params.book = bookNames[params.book.toLowerCase()]
     needsRedirect = true
@@ -26,14 +25,14 @@ export function middleware(request) {
 
   // check param chapters
   if (params.chapters !== '*') {
-    let validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
-      let chapter = cur.trim();
-      let maxChaptersBook = bookChapters[params.book]
+    const validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
+      let chapter = cur.trim()
+      const maxChaptersBook = bookChapters[params.book]
 
       if (chapter.includes('-')) {
-        let [start, end] = cur.split('-');
-        start = parseInt(start.trim());
-        end = parseInt(end.trim());
+        let [start, end] = cur.split('-')
+        start = parseInt(start.trim())
+        end = parseInt(end.trim())
 
         if (start <= 1) {
           start = 1
@@ -44,32 +43,29 @@ export function middleware(request) {
         }
 
         if (start > end) {
-          let oldStart = start
+          const oldStart = start
           start = end
           end = oldStart
         }
 
         if (start === end) {
-          acc.push(start);
-          return acc;
+          acc.push(start)
+          return acc
         }
-
       } else {
-        chapter = parseInt(chapter.trim());
+        chapter = parseInt(chapter.trim())
         if (chapter && chapter > maxChaptersBook) chapter = maxChaptersBook
 
         if (chapter && acc.indexOf(chapter) < 0) {
-          acc.push(chapter);
+          acc.push(chapter)
         }
       }
 
-      return acc;
-    }, []).sort().join(',');
+      return acc
+    }, []).sort().join(',')
 
     if (validatedChapters !== params.chapters) {
-      params.chapters = validatedChapters
-        ? validatedChapters
-        : '*'
+      params.chapters = validatedChapters || '*'
       needsRedirect = true
     }
   }
@@ -88,6 +84,6 @@ export function middleware(request) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next|bible_books|img|favicon.ico|apple-icon|icon).*):path+',
-  ],
+    '/((?!api|_next|bible_books|img|favicon.ico|apple-icon|icon).*):path+'
+  ]
 }

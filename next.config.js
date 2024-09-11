@@ -13,10 +13,8 @@ const nextConfig = {
     return config
   },
   env: {
-    CREDS: process.env.CREDS,
-  },
-};
+    CREDS: process.env.CREDS
+  }
+}
 
-module.exports = nextConfig;
-
-
+module.exports = nextConfig

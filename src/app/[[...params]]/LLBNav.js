@@ -1,21 +1,20 @@
-"use client";
-import { Navbar, Nav, Container } from 'react-bootstrap';
+'use client'
+import { Navbar, Nav, Container } from 'react-bootstrap'
 
-import DarkModeSwitch from './DarkModeSwitch';
+import DarkModeSwitch from './DarkModeSwitch'
 
-export default function LLBNav() {
-
+export default function LLBNav () {
   return (
-    <Navbar expand="sm" sticky="top" >
-      <Container fluid className="justify-content-end">
+    <Navbar expand='sm' sticky='top'>
+      <Container fluid className='justify-content-end'>
         {/* <Navbar.Toggle /> */}
         {/* <Navbar.Collapse className="justify-content-end"> */}
-          {/* <Nav> */}
-            {/* <Nav.Link href="#"></Nav.Link> */}
-          {/* </Nav> */}
+        {/* <Nav> */}
+        {/* <Nav.Link href="#"></Nav.Link> */}
+        {/* </Nav> */}
         {/* </Navbar.Collapse> */}
         <DarkModeSwitch />
       </Container>
     </Navbar>
-  );
+  )
 }

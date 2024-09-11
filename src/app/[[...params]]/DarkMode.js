@@ -1,9 +1,9 @@
-"use client";
-import { createContext, useContext, useEffect, useState } from "react";
+'use client'
+import { createContext, useContext, useEffect, useState } from 'react'
 import { actionToggleDarkMode } from './actions'
-import * as ga from './ga.js';
+import * as ga from './ga.js'
 
-export const DarkModeContext = createContext();
+export const DarkModeContext = createContext()
 
 // const themeFromLocalStorage = () => {
 //   if (typeof window !== 'undefined') {
@@ -13,40 +13,38 @@ export const DarkModeContext = createContext();
 // }
 
 const DarkModeProvider = ({ children }) => {
-  const { isDarkMode } = useContext(DarkModeContext);
-  const [mounted, setMounted] = useState(false);
+  const { isDarkMode } = useContext(DarkModeContext)
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    setMounted(true)
+  }, [])
 
   if (mounted) {
-    document.querySelector('html').setAttribute('data-bs-theme', isDarkMode ? 'dark' : 'light');
-    return children;
+    document.querySelector('html').setAttribute('data-bs-theme', isDarkMode ? 'dark' : 'light')
+    return children
   }
 }
 
-export default function DarkModeContextProvider({ children, theme }) {
-  const [isDarkMode, setDarkMode] = useState(theme);
+export default function DarkModeContextProvider ({ children, theme }) {
+  const [isDarkMode, setDarkMode] = useState(theme)
 
   const toggleDarkMode = () => {
     ga.event({
-      action: "change_theme",
-      params : {
+      action: 'change_theme',
+      params: {
         theme: !isDarkMode ? 'dark' : 'light'
       }
-    });
-    setDarkMode(!isDarkMode);
-    actionToggleDarkMode(!isDarkMode);
-  };
+    })
+    setDarkMode(!isDarkMode)
+    actionToggleDarkMode(!isDarkMode)
+  }
 
   return (
     <DarkModeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
       <DarkModeProvider>
-        { children }
+        {children}
       </DarkModeProvider>
     </DarkModeContext.Provider>
-  );
+  )
 }
-
-

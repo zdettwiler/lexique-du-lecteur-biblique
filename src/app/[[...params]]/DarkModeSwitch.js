@@ -1,20 +1,21 @@
-import React, { useContext } from 'react';
-import { DarkModeContext } from './DarkMode';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import React, { useContext } from 'react'
+import { DarkModeContext } from './DarkMode'
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
-export default function DarkModeSwitch() {
-  const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext);
+export default function DarkModeSwitch () {
+  const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext)
 
   return (
-    <div id="dark-mode-switch" onClick={toggleDarkMode}>
+    <div id='dark-mode-switch' onClick={toggleDarkMode}>
       <OverlayTrigger
-        placement="left"
+        placement='left'
         overlay={
           <Tooltip>
             Passer au mode {isDarkMode ? 'clair' : 'sombre'}
           </Tooltip>
         }
-      ><span>{isDarkMode ? "🌛" : "🌞"}</span></OverlayTrigger>
+      ><span>{isDarkMode ? '🌛' : '🌞'}</span>
+      </OverlayTrigger>
     </div>
   )
 }
