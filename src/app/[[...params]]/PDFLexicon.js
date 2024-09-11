@@ -226,7 +226,7 @@ export default function PDFLexicon ({ frequency, data }) {
 
     // go through data
     while (dataToWrite.length > 0) {
-      let isVerseFirstWord = true
+      // let isVerseFirstWord = true
       let columnAvailableLines = totalColumnAvailableLines(currentY)
       const dataToWriteLines = getDataTotalLines(dataToWrite)
 
@@ -248,7 +248,7 @@ export default function PDFLexicon ({ frequency, data }) {
         dataToWrite = dataToWrite.slice(wordsInColumn.length)
 
         for (const word of wordsInColumn) {
-          isVerseFirstWord = currentVerseNb !== word.verse
+          // isVerseFirstWord = currentVerseNb !== word.verse
           writeWord(word, currentY, 1, currentVerseNb !== word.verse)
           currentVerseNb = word.verse
           currentY += lineHeightToMm(word.gloss.length) + padding // pt to mm

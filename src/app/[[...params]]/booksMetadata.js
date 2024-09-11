@@ -27,12 +27,10 @@ export const bookNames = {
   josué: 'Josué',
   josue: 'Josué',
   jos: 'Josué',
-  jo: 'Josué',
   js: 'Josué',
 
   juges: 'Juges',
   jug: 'Juges',
-  ju: 'Juges',
 
   '1 samuel': '1Samuel',
   '1 sam': '1Samuel',
@@ -107,12 +105,10 @@ export const bookNames = {
 
   jonas: 'Jonas',
   jon: 'Jonas',
-  jo: 'Jonas',
 
   michée: 'Michée',
   michee: 'Michée',
   mich: 'Michée',
-  mi: 'Michée',
   mi: 'Michée',
 
   nahum: 'Nahum',
@@ -175,7 +171,6 @@ export const bookNames = {
 
   esther: 'Esther',
   est: 'Esther',
-  es: 'Esther',
 
   daniel: 'Daniel',
   dan: 'Daniel',
@@ -257,7 +252,6 @@ export const bookNames = {
   phil: 'Philippiens',
   phi: 'Philippiens',
   ph: 'Philippiens',
-  pl: 'Philippiens',
 
   colossiens: 'Colossiens',
   colo: 'Colossiens',

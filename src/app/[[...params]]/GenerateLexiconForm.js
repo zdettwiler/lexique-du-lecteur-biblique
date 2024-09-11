@@ -5,8 +5,7 @@ import {
   Button,
   Form,
   Row,
-  Col,
-  Spinner
+  Col
 } from 'react-bootstrap'
 import { otBooksOptions } from './createLexicon'
 

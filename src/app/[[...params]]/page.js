@@ -11,17 +11,15 @@ import {
   OverlayTrigger,
   Popover,
   Spinner,
-  InputGroup,
-  Stack
+  InputGroup
 } from 'react-bootstrap'
 import Script from 'next/script'
 import { useRouter } from 'next/navigation'
 
 import Lexicon from './Lexicon'
 import PDFLexicon from './PDFLexicon'
-import LLBNav from './LLBNav'
+// import LLBNav from './LLBNav'
 import * as ga from './ga.js'
-
 
 export default function Home ({ params }) {
   const router = useRouter()
@@ -136,20 +134,20 @@ export default function Home ({ params }) {
               {/* Chapitres */}
               <Col xs={5} lg={2} className='mb-3'>
                 <Form.Label>Chapitres <OverlayTrigger
-                  key='top'
-                  placement='top'
-                  overlay={
-                    <Popover id='popover-basic'>
-                  <Popover.Header as='h3'>Sélection des chapitres</Popover.Header>
-                  <Popover.Body>
-                      Indiquer les chapitres désirés, séparés par une virgule. Pour des sections, séparer d'un tiret.<br />
-                      P. ex. pour les chapitres 1, 3 et 7 noter: <strong>1,3,7</strong>. Pour les chapitres 1 et 5 à 8 noter: <strong>1,5-8</strong>.<br />
-                      Pour sélectionner tous les chapitres, laisser le champ vide.
-                    </Popover.Body>
-                </Popover>
+                    key='top'
+                    placement='top'
+                    overlay={
+                      <Popover id='popover-basic'>
+                        <Popover.Header as='h3'>Sélection des chapitres</Popover.Header>
+                        <Popover.Body>
+                          Indiquer les chapitres désirés, séparés par une virgule. Pour des sections, séparer d'un tiret.<br />
+                          P. ex. pour les chapitres 1, 3 et 7 noter: <strong>1,3,7</strong>. Pour les chapitres 1 et 5 à 8 noter: <strong>1,5-8</strong>.<br />
+                          Pour sélectionner tous les chapitres, laisser le champ vide.
+                        </Popover.Body>
+                      </Popover>
                     }
-                                      ><i className='bi bi-info-circle' />
-                </OverlayTrigger>
+                  ><i className='bi bi-info-circle' />
+                  </OverlayTrigger>
                 </Form.Label>
 
                 <InputGroup>
@@ -163,8 +161,8 @@ export default function Home ({ params }) {
                   />
                   {chapters !== '' && (
                     <Button onClick={handleClickClearChapters} className='clear-chapters-input-button'>
-                  <i className='bi bi-x-circle-fill' />
-                </Button>
+                      <i className='bi bi-x-circle-fill' />
+                    </Button>
                   )}
                 </InputGroup>
               </Col>
@@ -180,7 +178,7 @@ export default function Home ({ params }) {
                     { text: 'Connaisseur (<30×)', value: 30 },
                     { text: 'Expert (<10×)', value: 10 }
                   ].map((option, id) => (
-                <option value={option.value} key={id}>{option.text}</option>
+                    <option value={option.value} key={id}>{option.text}</option>
                   ))}
                 </Form.Select>
               </Col>

@@ -146,7 +146,7 @@ function Lexicon ({ frequency, data }) {
             {isSendingCorrection ? <Spinner animation='border' size='sm' /> : 'Envoyer'}
           </Button>
           <Button variant='outline-dark' onClick={handleCloseLexiconCorrectionModal}>Annuler</Button>
-                               </Modal.Footer>)}
+        </Modal.Footer>)}
 
       </Modal>
 
