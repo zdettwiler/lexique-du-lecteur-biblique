@@ -1,6 +1,6 @@
 {
-  "version": "v40",
-  "updated": "2024-09-11",
+  "version": "v41",
+  "updated": "2024-09-13",
   "lexique": {
     "G": [
       {
@@ -6235,10 +6235,10 @@
       },
       {
         "strongNb": 891,
-        "grec": "ἄχρι",
-        "gloss": "au bout de, jusqu’à, en",
+        "grec": "ἄχρι(ς)",
+        "gloss": "jusqu’à, au bout de",
         "freq": 49,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 892,
@@ -59977,7 +59977,7 @@
       {
         "strongNb": 3045,
         "hebreu": "יָדַע",
-        "gloss": "Savoir, connaître",
+        "gloss": "savoir, connaître",
         "vu": false,
         "freq": 946
       },
