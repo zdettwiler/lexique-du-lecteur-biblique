@@ -69658,8 +69658,8 @@
       {
         "strongNb": 4428,
         "hebreu": "מֶלֶך",
-        "gloss": "Malcom = «roi très haut»",
-        "vu": false,
+        "gloss": "roi",
+        "vu": true,
         "freq": 2526
       },
       {
@@ -80459,15 +80459,15 @@
       {
         "strongNb": 5971,
         "hebreu": "עַם",
-        "gloss": "Ammi = «mon peuple»",
-        "vu": false,
+        "gloss": "peuple",
+        "vu": true,
         "freq": 1872
       },
       {
         "strongNb": 5972,
         "hebreu": "עַם",
         "gloss": "peuple",
-        "vu": false,
+        "vu": true,
         "freq": 15
       },
       {
