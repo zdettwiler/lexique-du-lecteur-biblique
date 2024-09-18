@@ -1,6 +1,6 @@
 {
   "version": "v41",
-  "updated": "2024-09-13",
+  "updated": "2024-09-18",
   "lexique": {
     "G": [
       {
@@ -27166,7 +27166,7 @@
       {
         "strongNb": 3982,
         "grec": "πείθω",
-        "gloss": "être assuré, avoir confiance, consentir, croire, être d’avis, exhorter, gagner, obéir, persuader, s’appliquer à plaire, se confier, se fier",
+        "gloss": "persuader, convaincre",
         "freq": 52,
         "vu": true
       },
@@ -37680,9 +37680,9 @@
       {
         "strongNb": 5484,
         "grec": "χάριν",
-        "gloss": "pour quelle raison",
+        "gloss": "(+G) parce que, à cause de, par motif de",
         "freq": 9,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5485,
