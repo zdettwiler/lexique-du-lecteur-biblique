@@ -8,6 +8,8 @@ export async function GET(request) {
   const { data, error, status } = await supabase
     .from('llb')
     .select('*')
+    .order('strong')
+    .limit(15000)
 
   return NextResponse.json(status === 200
     ? data
