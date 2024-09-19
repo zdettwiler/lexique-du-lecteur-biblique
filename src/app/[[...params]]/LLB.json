@@ -1,6 +1,6 @@
 {
   "version": "v41",
-  "updated": "2024-09-18",
+  "updated": "2024-09-19",
   "lexique": {
     "G": [
       {
@@ -20551,9 +20551,9 @@
       {
         "strongNb": 2937,
         "grec": "κτίσις, εως, ἡ",
-        "gloss": "nouvelle création, et sera éternelle",
+        "gloss": "création; créature; institution, autorité",
         "freq": 19,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2938,
