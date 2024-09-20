@@ -17,18 +17,18 @@ export async function GET(request) {
   { status })
 }
 
-export async function PUT(request) {
-  const data = await request.json()
-  console.log(data)
+// export async function PUT(request) {
+//   const data = await request.json()
+//   console.log(data)
 
-  const supabase = createSupabaseClient();
+//   const supabase = createSupabaseClient();
 
-  const { error, status } = await supabase
-    .from('llb_test')
-    .upsert(data)
+//   const { error, status } = await supabase
+//     .from('llb_test')
+//     .upsert(data)
 
-  return NextResponse.json(status === 200
-    ? {}
-    : error,
-  { status })
-}
+//   return NextResponse.json(status === 200
+//     ? {}
+//     : error,
+//   { status })
+// }
