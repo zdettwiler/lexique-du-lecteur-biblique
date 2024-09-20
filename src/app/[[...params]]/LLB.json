@@ -1,6 +1,6 @@
 {
   "version": "v41",
-  "updated": "2024-09-19",
+  "updated": "2024-10-01",
   "lexique": {
     "G": [
       {
@@ -25759,9 +25759,9 @@
       {
         "strongNb": 3781,
         "grec": "ὀφειλέτης, ου, ὁ",
-        "gloss": "débiteur, coupable",
+        "gloss": "débiteur, celui qui est sous obligation, celui qui est tenu, coupable",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3782,
