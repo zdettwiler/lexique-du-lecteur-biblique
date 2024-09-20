@@ -61097,7 +61097,7 @@
       {
         "strongNb": 3205,
         "hebreu": "יָלַד",
-        "gloss": "Enfanter, engendrer, accoucher",
+        "gloss": "enfanter, engendrer, accoucher",
         "vu": false,
         "freq": 496
       },
@@ -98253,8 +98253,8 @@
       {
         "strongNb": 8513,
         "hebreu": "תְּלָאָה",
-        "gloss": "travailler dur, privation, détresse, fatigue",
-        "vu": false,
+        "gloss": "fatigue, peine, mal, adversité",
+        "vu": true,
         "freq": 4
       },
       {
