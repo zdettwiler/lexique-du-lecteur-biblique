@@ -8,7 +8,7 @@ export async function GET(request, { params: { ref }}) {
   const sainRef = sanitiseRef(ref[0], ref[1], ref[2], true)
 
   let query = supabase
-    .from('ot')
+    .from('bible')
     .select('book, chapter, verse, lex, strong, llb!inner(freq, gloss)')
     .eq('book', sainRef.book)
 
