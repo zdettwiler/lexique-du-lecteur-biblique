@@ -51,7 +51,9 @@ export function middleware (request) {
         if (start === end) {
           acc.push(start)
           return acc
-        }
+        } else {
+		  acc.push([start,end].join('-'))
+		}
       } else {
         chapter = parseInt(chapter.trim())
         if (chapter && chapter > maxChaptersBook) chapter = maxChaptersBook
