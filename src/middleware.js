@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
 export function middleware (request) {
-  let params = request.nextUrl.pathname.match(/\/(?<book>[^\/]*)\/(?<chapters>[\d\*\,\-]*)\/?(?<frequency>\d*)?/)
+  let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d*)?/)
 
   if (!params) {
     return NextResponse.redirect(new URL('/', request.url))
@@ -51,6 +51,8 @@ export function middleware (request) {
         if (start === end) {
           acc.push(start)
           return acc
+        } else {
+          acc.push(start + '-' + end)
         }
       } else {
         chapter = parseInt(chapter.trim())
