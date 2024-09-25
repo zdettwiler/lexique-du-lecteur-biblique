@@ -64,7 +64,9 @@ export function middleware (request) {
       }
 
       return acc
-    }, []).sort().join(',')
+    }, []).sort(function(a,b){
+		return parseInt(a)-parseInt(b);
+	} ).join(',')
 
     if (validatedChapters !== params.chapters) {
       params.chapters = validatedChapters || '*'
