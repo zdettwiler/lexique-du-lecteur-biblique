@@ -56,7 +56,10 @@ export function middleware (request) {
         }
       } else {
         chapter = parseInt(chapter.trim())
-        if (chapter && chapter > maxChaptersBook) chapter = maxChaptersBook
+
+        if (chapter && chapter > maxChaptersBook) {
+          chapter = maxChaptersBook
+        }
 
         if (chapter && acc.indexOf(chapter) < 0) {
           acc.push(chapter)
@@ -64,9 +67,7 @@ export function middleware (request) {
       }
 
       return acc
-    }, []).sort(function(a,b){
-		return parseInt(a)-parseInt(b);
-	} ).join(',')
+    }, []).sort((a, b) => parseInt(a) - parseInt(b)).join(',')
 
     if (validatedChapters !== params.chapters) {
       params.chapters = validatedChapters || '*'
