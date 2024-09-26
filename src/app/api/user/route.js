@@ -17,14 +17,7 @@ const userSchema = zod
     password: zod
       .string()
       .min(1, 'Il manque un mot de passe')
-      .min(8, 'Le mot de passe doit avoir au moins 8 caractères'),
-    confirmPassword: zod
-      .string()
-      .min(1, 'Confirmez le mot de passe')
-  })
-  .refine(data => data.password === data.confirmPassword, {
-    path: ['confirmPassword'],
-    message: 'Les mots de passe ne sont pas identiques'
+      .min(8, 'Le mot de passe doit avoir au moins 8 caractères')
   })
 
 export async function POST(request) {

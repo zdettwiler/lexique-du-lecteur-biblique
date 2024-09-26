@@ -9,6 +9,7 @@ import {
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { useRouter } from 'next/navigation'
 
 const signUpSchema = z
   .object({
@@ -34,6 +35,7 @@ const signUpSchema = z
   })
 
 const SignUpForm = () => {
+  const router = useRouter()
   const form = useForm({
     resolver: zodResolver(signUpSchema),
     defaultValues: {
@@ -63,9 +65,10 @@ const SignUpForm = () => {
       })
     })
 
-    // if (response.ok) {
-    console.log(await response.json())
-    // }
+    if (response.status === 201) {
+      router.push('/sign-in')
+      console.log(await response.json())
+    }
   }
 
   return (
