@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
-export function middleware (request) {
+export function middleware(request) {
   let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d*)?/)
 
   if (!params) {
@@ -89,6 +89,6 @@ export function middleware (request) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next|bible_books|img|favicon.ico|apple-icon|icon).*):path+'
+    '/((?!api|_next|bible_books|img|favicon.ico|apple-icon|icon|sign-in).*):path+'
   ]
 }
