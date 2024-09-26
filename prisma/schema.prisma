@@ -1,0 +1,58 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         Int          @id @unique @default(autoincrement())
+  email      String       @unique
+  name       String?
+  password   String
+  created_at DateTime     @default(now())
+  updated_at DateTime     @updatedAt
+  LearntWord LearntWord[]
+}
+
+model LLBWord {
+  strong     String       @id @unique
+  lemma      String
+  gloss      String
+  freq       Int
+  vu         Boolean
+  BibleWord  BibleWord[]
+  LearntWord LearntWord[]
+}
+
+model BibleWord {
+  id      Int     @unique
+  book    String
+  chapter Int
+  verse   Int
+  word    String
+  lemma   String
+  llbword LLBWord @relation(fields: [strong], references: [strong])
+  strong  String
+}
+
+model LearntWord {
+  id             Int      @id @default(autoincrement())
+  user           User     @relation(fields: [userId], references: [id])
+  userId         Int
+  llbword        LLBWord  @relation(fields: [strong], references: [strong])
+  strong         String
+  created_at     DateTime @default(now())
+  reviewed_gh_fr DateTime
+  due_gh_fr      DateTime
+  reviewed_fr_gh DateTime
+  due_fr_gh      DateTime
+}
