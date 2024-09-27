@@ -1,10 +1,11 @@
 import CredentialsProvider from 'next-auth/providers/credentials'
 import { PrismaAdapter } from '@next-auth/prisma-adapter'
 import { db } from './db'
-import { compare } from 'bcrypt'
+import { compare } from 'bcryptjs'
 
 export const authOptions = {
   adapter: PrismaAdapter(db),
+  secret: process.env.NEXTAUTH_SECRET,
   session: { strategy: 'jwt' },
   pages: {
     signIn: '/sign-in'
@@ -16,7 +17,7 @@ export const authOptions = {
         email: { label: 'Email', type: 'email' },
         password: { label: 'Password', type: 'password' }
       },
-      async authorize(credentials) {
+      async authorize (credentials) {
         if (!credentials?.email || !credentials?.password) {
           return null
         }
@@ -36,11 +37,30 @@ export const authOptions = {
         }
 
         return {
-          id: existingUser.id + '',
+          id: existingUser.id,
           name: existingUser.name,
           email: existingUser.email
         }
       }
     })
-  ]
+  ],
+  callbacks: {
+    async jwt ({ token, user }) {
+      if (user) {
+        return {
+          ...token
+          // username: user.username
+        }
+      }
+    },
+    async session ({ session, user, token }) {
+      return {
+        ...session,
+        user: {
+          ...session.user
+          // username: token.username
+        }
+      }
+    }
+  }
 }

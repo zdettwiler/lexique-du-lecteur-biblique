@@ -1,7 +1,7 @@
-'use client'
-import { Navbar, Nav, Container } from 'react-bootstrap'
-
-import DarkModeSwitch from './DarkModeSwitch'
+// 'use client'
+import { Navbar, Container } from 'react-bootstrap'
+import DarkModeSwitch from '@/components/layout/DarkModeSwitch'
+import SignInOutButton from '@/components/SignInOutButton'
 
 export default function LLBNav () {
   return (
@@ -13,6 +13,7 @@ export default function LLBNav () {
         {/* <Nav.Link href="#"></Nav.Link> */}
         {/* </Nav> */}
         {/* </Navbar.Collapse> */}
+        <SignInOutButton />
         <DarkModeSwitch />
       </Container>
     </Navbar>

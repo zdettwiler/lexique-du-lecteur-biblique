@@ -1,9 +1,9 @@
 import '@/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import LLB from './[[...params]]/LLB.json'
-import DarkModeContextProvider from './[[...params]]/DarkMode'
-import LLBNav from './[[...params]]/LLBNav'
-import Footer from './[[...params]]/Footer'
+import DarkModeContextProvider from '@/components/layout/DarkMode'
+import LLBNav from '@/components/layout/LLBNav'
+import Footer from '@/components/layout/Footer'
 import { Container } from 'react-bootstrap'
 
 import { cookies } from 'next/headers'
@@ -40,14 +40,14 @@ export const metadata = {
   ]
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   const cookieStore = cookies()
   let theme = cookieStore.get('isDarkMode')
   theme = theme ? JSON.parse(theme.value) : false
 
   const [y, m, d] = LLB.updated.split(/\D/)
   const event = new Date(y, m - 1, d)
-  const date_updated = event.toLocaleDateString('fr-FR', {
+  const dateUpdated = event.toLocaleDateString('fr-FR', {
     year: 'numeric',
     month: 'short',
     day: 'numeric'
@@ -58,10 +58,10 @@ export default function RootLayout({ children }) {
       <body>
         <DarkModeContextProvider theme={theme}>
           <LLBNav />
-          <Container fluid='sm'>
+          <Container fluid='sm' className='justify-content-center'>
             {children}
           </Container>
-          <Footer version={LLB.version} date_updated={date_updated} />
+          <Footer version={LLB.version} dateUpdated={dateUpdated} />
         </DarkModeContextProvider>
       </body>
     </html>

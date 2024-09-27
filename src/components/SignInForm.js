@@ -45,27 +45,12 @@ const SignInForm = () => {
       console.log(signInData.error)
     } else {
       router.push('/apprendre')
+      router.refresh()
     }
-    // const response = await fetch('/api/user', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json'
-    //   },
-    //   body: JSON.stringify({
-    //     email: values.email,
-    //     name: values.name,
-    //     password: values.password,
-    //     confirmPassword: values.confirmPassword
-    //   })
-    // })
-
-    // if (response.status === 201) {
-    //   router.push('/sign-in')
-    //   console.log(await response.json())
-    // }
   }
 
   return (
+
     <Form className='mb-4' onSubmit={form.handleSubmit(onSubmit)}>
       <Col xs={7} lg={3} className='mb-3'>
         <Row className='mb-3 align-items-end d-flex justify-content-center'>

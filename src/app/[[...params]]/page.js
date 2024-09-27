@@ -19,10 +19,9 @@ import { useRouter } from 'next/navigation'
 import Lexicon from './Lexicon'
 import PDFLexicon from './PDFLexicon'
 // import LLBNav from './LLBNav'
-import * as ga from './ga.js'
+import * as ga from '../../lib/ga.js'
 
-export default function Home({ params }) {
-  console.log('PAGE', params)
+export default function Home ({ params }) {
   const router = useRouter()
 
   const isParams = params && params.params && params.params.length === 3
@@ -46,7 +45,7 @@ export default function Home({ params }) {
     }
   }, [])
 
-  function handleChangeBook(e) {
+  function handleChangeBook (e) {
     setBook(e.target.value)
     localStorage.setItem('book', e.target.value)
     setChapters('')
@@ -54,25 +53,25 @@ export default function Home({ params }) {
     setLexicon([])
   }
 
-  function handleChangeChapters(e) {
+  function handleChangeChapters (e) {
     setChapters(e.target.value)
     localStorage.setItem('chapters', e.target.value)
     setLexicon([])
   }
 
-  function handleClickClearChapters() {
+  function handleClickClearChapters () {
     setChapters('')
     localStorage.setItem('chapters', '')
     setLexicon([])
   }
 
-  function handleChangeFrequency(e) {
+  function handleChangeFrequency (e) {
     setFrequency(e.target.value)
     localStorage.setItem('frequency', e.target.value)
     setLexicon([])
   }
 
-  async function getLexicon() {
+  async function getLexicon () {
     setLexicon([])
     setIsGeneratingPDF(true)
     const data = await createLexicon(book, chapters, frequency)
@@ -80,7 +79,7 @@ export default function Home({ params }) {
     setIsGeneratingPDF(false)
   }
 
-  function getBook(e) { // TODO: rename function
+  function getBook (e) { // TODO: rename function
     e.preventDefault()
     ga.event({
       action: 'make_lexicon',

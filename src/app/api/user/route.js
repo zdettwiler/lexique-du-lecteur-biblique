@@ -20,7 +20,7 @@ const userSchema = zod
       .min(8, 'Le mot de passe doit avoir au moins 8 caractères')
   })
 
-export async function POST(request) {
+export async function POST (request) {
   try {
     const { email, name, password } = userSchema.parse(await request.json())
     // check that email does not already exist

@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 
 import { bookNames, bookChapters } from './app/[[...params]]/booksMetadata'
 
-export function middleware(request) {
+export function middleware (request) {
   let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d*)?/)
 
   if (!params) {
