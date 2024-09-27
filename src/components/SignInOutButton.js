@@ -5,7 +5,6 @@ import UserAccountNav from '@/components/UserAccountNav'
 
 export default async function SignInOutButton () {
   const session = await getServerSession(authOptions)
-  console.log(session)
 
   return (
     <>

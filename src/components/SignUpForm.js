@@ -46,11 +46,6 @@ const SignUpForm = () => {
   })
 
   const onSubmit = async (values) => {
-    console.log(values)
-    // const signInData = await signIn('credentials', {
-    //   email: values.email,
-    //   password: values.password
-    // })
     const response = await fetch('/api/user', {
       method: 'POST',
       headers: {
@@ -66,7 +61,6 @@ const SignUpForm = () => {
 
     if (response.status === 201) {
       router.push('/sign-in')
-      console.log(await response.json())
     }
   }
 
