@@ -4,6 +4,7 @@ import LLB from './[[...params]]/LLB.json'
 import DarkModeContextProvider from './[[...params]]/DarkMode'
 import LLBNav from './[[...params]]/LLBNav'
 import Footer from './[[...params]]/Footer'
+import { Container } from 'react-bootstrap'
 
 import { cookies } from 'next/headers'
 
@@ -57,7 +58,9 @@ export default function RootLayout({ children }) {
       <body>
         <DarkModeContextProvider theme={theme}>
           <LLBNav />
-          {children}
+          <Container fluid='sm'>
+            {children}
+          </Container>
           <Footer version={LLB.version} date_updated={date_updated} />
         </DarkModeContextProvider>
       </body>

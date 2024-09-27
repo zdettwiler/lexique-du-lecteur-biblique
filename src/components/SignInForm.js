@@ -24,37 +24,45 @@ const signInSchema = z
 
 const SignInForm = () => {
   const router = useRouter()
+
   const form = useForm({
     resolver: zodResolver(signInSchema),
     defaultValues: {
       email: '',
-      password: '',
+      password: ''
     }
   })
 
   const onSubmit = async (values) => {
     console.log(values)
-    // const signInData = await signIn('credentials', {
-    //   email: values.email,
-    //   password: values.password
-    // })
-    const response = await fetch('/api/user', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        email: values.email,
-        name: values.name,
-        password: values.password,
-        confirmPassword: values.confirmPassword
-      })
+    const signInData = await signIn('credentials', {
+      email: values.email,
+      password: values.password,
+      redirect: false
     })
-
-    if (response.status === 201) {
-      router.push('/sign-in')
-      console.log(await response.json())
+    console.log(signInData)
+    if (signInData.error) {
+      console.log(signInData.error)
+    } else {
+      router.push('/apprendre')
     }
+    // const response = await fetch('/api/user', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body: JSON.stringify({
+    //     email: values.email,
+    //     name: values.name,
+    //     password: values.password,
+    //     confirmPassword: values.confirmPassword
+    //   })
+    // })
+
+    // if (response.status === 201) {
+    //   router.push('/sign-in')
+    //   console.log(await response.json())
+    // }
   }
 
   return (

@@ -1,13 +1,11 @@
-import CredentialsProvider from "next-auth/providers/credentials"
+import CredentialsProvider from 'next-auth/providers/credentials'
 import { PrismaAdapter } from '@next-auth/prisma-adapter'
 import { db } from './db'
 import { compare } from 'bcrypt'
 
 export const authOptions = {
   adapter: PrismaAdapter(db),
-  session: {
-    strategy: 'jwt'
-  },
+  session: { strategy: 'jwt' },
   pages: {
     signIn: '/sign-in'
   },
@@ -38,8 +36,8 @@ export const authOptions = {
         }
 
         return {
-          id: existingUser.id,
-          username: existingUser.username,
+          id: existingUser.id + '',
+          name: existingUser.name,
           email: existingUser.email
         }
       }
