@@ -10,6 +10,7 @@ import { useForm } from 'react-hook-form'
 import * as z from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useRouter } from 'next/navigation'
+import GoogleSignInButton from '@/components/GoogleSignInButton'
 
 const signInSchema = z
   .object({
@@ -49,34 +50,36 @@ const SignInForm = () => {
   }
 
   return (
+    <>
+      <Form className='mb-4' onSubmit={form.handleSubmit(onSubmit)}>
+        <Col xs={7} lg={3} className='mb-3'>
+          <Row className='mb-3 align-items-end d-flex justify-content-center'>
+            <Form.Label>Adresse courriel</Form.Label>
+            <Form.Control
+              {...form.register('email')}
+              type='email'
+              aria-label='Adresse courriel'
+            />
+          </Row>
 
-    <Form className='mb-4' onSubmit={form.handleSubmit(onSubmit)}>
-      <Col xs={7} lg={3} className='mb-3'>
-        <Row className='mb-3 align-items-end d-flex justify-content-center'>
-          <Form.Label>Adresse courriel</Form.Label>
-          <Form.Control
-            {...form.register('email')}
-            type='email'
-            aria-label='Adresse courriel'
-          />
-        </Row>
+          <Row className='mb-3 align-items-end d-flex justify-content-center'>
+            <Form.Label>Mot de passe</Form.Label>
+            <Form.Control
+              {...form.register('password')}
+              type='password'
+              aria-label='Mot de passe'
+            />
+          </Row>
 
-        <Row className='mb-3 align-items-end d-flex justify-content-center'>
-          <Form.Label>Mot de passe</Form.Label>
-          <Form.Control
-            {...form.register('password')}
-            type='password'
-            aria-label='Mot de passe'
-          />
-        </Row>
-
-        <Row className='mb-3 align-items-end d-flex justify-content-center'>
-          <Button variant='dark' type='submit'>
-            Se connecter
-          </Button>
-        </Row>
-      </Col>
-    </Form>
+          <Row className='mb-3 align-items-end d-flex justify-content-center'>
+            <Button variant='dark' type='submit'>
+              Se connecter
+            </Button>
+          </Row>
+        </Col>
+      </Form>
+      <GoogleSignInButton />
+    </>
   )
 }
 
