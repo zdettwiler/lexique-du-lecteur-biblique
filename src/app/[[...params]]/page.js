@@ -24,6 +24,8 @@ import * as ga from './ga.js'
 export default function Home ({ params }) {
   const router = useRouter()
 
+  console.log('page', params)
+
   const isParams = params && params.params && params.params.length === 3
   const bookParam = isParams ? decodeURI(params.params[0]) : (localStorage.getItem('book') || 'Genèse')
   const chaptersParam = isParams
