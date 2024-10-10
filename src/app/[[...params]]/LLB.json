@@ -1,6 +1,6 @@
 {
-  "version": "v40",
-  "updated": "2024-09-11",
+  "version": "v41",
+  "updated": "2024-10-01",
   "lexique": {
     "G": [
       {
@@ -2483,10 +2483,10 @@
       },
       {
         "strongNb": 355,
-        "grec": "ἀναλίσκω",
+        "grec": "ἀναλίσκω, ἀναλόω",
         "gloss": "consumer, détruire, tuer",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 356,
@@ -6235,10 +6235,10 @@
       },
       {
         "strongNb": 891,
-        "grec": "ἄχρι",
-        "gloss": "au bout de, jusqu’à, en",
+        "grec": "ἄχρι(ς)",
+        "gloss": "jusqu’à, au bout de",
         "freq": 49,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 892,
@@ -18724,9 +18724,9 @@
       {
         "strongNb": 2675,
         "grec": "καταρτίζω",
-        "gloss": "rendre accompli; former; établir; raccomoder; redresser; suppléer; tout préparer; unir parfaitement",
+        "gloss": "mettre en order, restaurer, redresser; préparer, faire, créer",
         "freq": 13,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2676,
@@ -20551,9 +20551,9 @@
       {
         "strongNb": 2937,
         "grec": "κτίσις, εως, ἡ",
-        "gloss": "nouvelle création, et sera éternelle",
+        "gloss": "création; créature; institution, autorité",
         "freq": 19,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2938,
@@ -25759,9 +25759,9 @@
       {
         "strongNb": 3781,
         "grec": "ὀφειλέτης, ου, ὁ",
-        "gloss": "débiteur, coupable",
+        "gloss": "débiteur, celui qui est sous obligation, celui qui est tenu, coupable",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3782,
@@ -27166,7 +27166,7 @@
       {
         "strongNb": 3982,
         "grec": "πείθω",
-        "gloss": "être assuré, avoir confiance, consentir, croire, être d’avis, exhorter, gagner, obéir, persuader, s’appliquer à plaire, se confier, se fier",
+        "gloss": "persuader, convaincre",
         "freq": 52,
         "vu": true
       },
@@ -29399,9 +29399,9 @@
       {
         "strongNb": 4301,
         "grec": "προλαμβάνω",
-        "gloss": "anticiper",
+        "gloss": "prendre avant; anticiper, devancer; surprendre, prendre par surprise",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4302,
@@ -37680,9 +37680,9 @@
       {
         "strongNb": 5484,
         "grec": "χάριν",
-        "gloss": "pour quelle raison",
+        "gloss": "(+G) parce que, à cause de, par motif de",
         "freq": 9,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5485,
@@ -59977,7 +59977,7 @@
       {
         "strongNb": 3045,
         "hebreu": "יָדַע",
-        "gloss": "Savoir, connaître",
+        "gloss": "savoir, connaître",
         "vu": false,
         "freq": 946
       },
@@ -61097,7 +61097,7 @@
       {
         "strongNb": 3205,
         "hebreu": "יָלַד",
-        "gloss": "Enfanter, engendrer, accoucher",
+        "gloss": "enfanter, engendrer, accoucher",
         "vu": false,
         "freq": 496
       },
@@ -69658,8 +69658,8 @@
       {
         "strongNb": 4428,
         "hebreu": "מֶלֶך",
-        "gloss": "Malcom = «roi très haut»",
-        "vu": false,
+        "gloss": "roi",
+        "vu": true,
         "freq": 2526
       },
       {
@@ -80459,15 +80459,15 @@
       {
         "strongNb": 5971,
         "hebreu": "עַם",
-        "gloss": "Ammi = «mon peuple»",
-        "vu": false,
+        "gloss": "peuple",
+        "vu": true,
         "freq": 1872
       },
       {
         "strongNb": 5972,
         "hebreu": "עַם",
         "gloss": "peuple",
-        "vu": false,
+        "vu": true,
         "freq": 15
       },
       {
@@ -98253,8 +98253,8 @@
       {
         "strongNb": 8513,
         "hebreu": "תְּלָאָה",
-        "gloss": "travailler dur, privation, détresse, fatigue",
-        "vu": false,
+        "gloss": "fatigue, peine, mal, adversité",
+        "vu": true,
         "freq": 4
       },
       {
