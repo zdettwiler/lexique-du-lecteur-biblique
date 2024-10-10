@@ -1,34 +1,28 @@
-import { NextResponse } from 'next/server';
-import createSupabaseClient from '@/utils/supabase/server';
+import { NextResponse } from 'next/server'
+import { db } from '@/lib/db'
+
+import { getServerSession } from "next-auth/next"
+import { authOptions } from "@/lib/auth"
 
 
-export async function GET(request) {
-  const supabase = createSupabaseClient();
+export async function GET (request, res) {
+  const session = await getServerSession(authOptions)
+  if (!session) {
+    return NextResponse.json({ msg: 'Pas connecté' }, { status: 401 })
+  }
 
-  const { data, error, status } = await supabase
-    .from('llb')
-    .select('*')
-    .order('strong')
-    .limit(15000)
+  try {
+    console.log(request)
+    const word = await db.lLBWord.findUnique({
+      where: { strong: 'H7225' }
+    })
 
-  return NextResponse.json(status === 200
-    ? data
-    : error,
-  { status })
+    return NextResponse.json({
+      data: word
+    }, { status: 201 })
+
+  } catch (error) {
+    console.log(error)
+    return NextResponse.json({ msg: 'Oups! Il y a eu un problème!', error }, { status: 500 })
+  }
 }
-
-// export async function PUT(request) {
-//   const data = await request.json()
-//   console.log(data)
-
-//   const supabase = createSupabaseClient();
-
-//   const { error, status } = await supabase
-//     .from('llb_test')
-//     .upsert(data)
-
-//   return NextResponse.json(status === 200
-//     ? {}
-//     : error,
-//   { status })
-// }

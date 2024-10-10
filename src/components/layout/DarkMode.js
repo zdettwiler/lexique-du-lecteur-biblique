@@ -1,7 +1,7 @@
 'use client'
 import { createContext, useContext, useEffect, useState } from 'react'
-import { actionToggleDarkMode } from './actions'
-import * as ga from './ga.js'
+import { actionToggleDarkMode } from '@/lib/actions'
+import * as ga from '@/lib/ga'
 
 export const DarkModeContext = createContext()
 

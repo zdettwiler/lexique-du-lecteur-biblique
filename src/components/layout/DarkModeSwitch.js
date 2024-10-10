@@ -1,5 +1,6 @@
+'use client'
 import React, { useContext } from 'react'
-import { DarkModeContext } from './DarkMode'
+import { DarkModeContext } from '@/components/layout/DarkMode'
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 export default function DarkModeSwitch () {
