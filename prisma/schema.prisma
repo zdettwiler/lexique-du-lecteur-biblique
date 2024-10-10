@@ -97,7 +97,7 @@ model LLBWord {
 }
 
 model BibleWord {
-  id      Int     @unique
+  id      Int     @id @unique @default(autoincrement())
   book    String
   chapter Int
   verse   Int

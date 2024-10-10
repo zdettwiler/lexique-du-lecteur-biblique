@@ -34,7 +34,11 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "csvtojson": "^2.0.10",
     "prisma": "^5.20.0",
     "standard": "^17.1.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   }
 }
