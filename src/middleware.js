@@ -3,11 +3,10 @@ import { NextResponse } from 'next/server'
 import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
 export function middleware(request) {
-  console.log('middleware', request.nextUrl.pathname)
-  let params = request.nextUrl.pathname.match(/\/(?<book>[^\/]*)\/(?<chapters>[\d\*\,\-]*)\/?(?<frequency>\d*)?/)
+  let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d*)?/)
 
   if (!params) {
-    return NextResponse.redirect(new URL(`/`, request.url))
+    return NextResponse.redirect(new URL('/', request.url))
   }
 
   params = params.groups
@@ -18,8 +17,7 @@ export function middleware(request) {
   params.book = decodeURI(params.book)
 
   if (!bookNames[params.book.toLowerCase()]) {
-    return NextResponse.redirect(new URL(`/`, request.url))
-
+    return NextResponse.redirect(new URL('/', request.url))
   } else if (params.book !== bookNames[params.book.toLowerCase()]) {
     params.book = bookNames[params.book.toLowerCase()]
     needsRedirect = true
@@ -27,48 +25,52 @@ export function middleware(request) {
 
   // check param chapters
   if (params.chapters !== '*') {
-    let validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
-      let chapter = cur.trim();
-      let maxChaptersBook = bookChapters[params.book]
+    const validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
+      let chapter = cur.trim()
+      const maxChaptersBook = bookChapters[params.book]
 
       if (chapter.includes('-')) {
-        let [start, end] = cur.split('-');
-        start = parseInt(start.trim());
-        end = parseInt(end.trim());
+        let [start, end] = cur.split('-')
+        start = parseInt(start.trim())
+        end = parseInt(end.trim())
 
         if (start <= 1) {
           start = 1
+        }
 
-        } else if (end > maxChaptersBook) {
+        if (end > maxChaptersBook) {
           end = maxChaptersBook
         }
 
         if (start > end) {
-          let oldStart = start
+          const oldStart = start
           start = end
           end = oldStart
-        } else if (start === end) {
-          acc.push(start);
-          return acc
         }
 
-        acc.push(start + '-' + end);
+        if (start === end) {
+          acc.push(start)
+          return acc
+        } else {
+          acc.push(start + '-' + end)
+        }
       } else {
-        chapter = parseInt(chapter.trim());
-        if (chapter
-        && chapter <= maxChaptersBook
-        && acc.indexOf(chapter) < 0) {
-          acc.push(chapter);
+        chapter = parseInt(chapter.trim())
+
+        if (chapter && chapter > maxChaptersBook) {
+          chapter = maxChaptersBook
+        }
+
+        if (chapter && acc.indexOf(chapter) < 0) {
+          acc.push(chapter)
         }
       }
 
-      return acc;
-    }, []).sort().join(',');
+      return acc
+    }, []).sort((a, b) => parseInt(a) - parseInt(b)).join(',')
 
     if (validatedChapters !== params.chapters) {
-      params.chapters = validatedChapters
-        ? validatedChapters
-        : '*'
+      params.chapters = validatedChapters || '*'
       needsRedirect = true
     }
   }
@@ -87,6 +89,6 @@ export function middleware(request) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next|bible_books|img|favicon.ico|apple-icon|icon).*):path+',
-  ],
+    '/((?!api|_next|bible_books|img|favicon.ico|apple-icon|icon).*):path+'
+  ]
 }

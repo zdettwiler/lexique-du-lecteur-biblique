@@ -1,6 +1,6 @@
 {
-  "version": "v39",
-  "updated": "2024-06-26",
+  "version": "v41",
+  "updated": "2024-10-01",
   "lexique": {
     "G": [
       {
@@ -146,7 +146,7 @@
       {
         "strongNb": 21,
         "grec": "ἀγαλλιάω",
-        "gloss": "se réjouir, se réjouir avec allégresse, tressaillir de joie",
+        "gloss": "se réjouir; se réjouir avec allégresse; tressaillir de joie",
         "freq": 11,
         "vu": false
       },
@@ -174,7 +174,7 @@
       {
         "strongNb": 25,
         "grec": "ἀγαπάω",
-        "gloss": "aimer, (participe) bien-aimé",
+        "gloss": "aimer; (participe) bien-aimé",
         "freq": 143,
         "vu": false
       },
@@ -188,9 +188,9 @@
       {
         "strongNb": 27,
         "grec": "ἀγαπητός, ή, όν",
-        "gloss": "bien-aimé, fort cher",
+        "gloss": "bien-aimé",
         "freq": 61,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 28,
@@ -272,7 +272,7 @@
       {
         "strongNb": 39,
         "grec": "ἅγιον",
-        "gloss": "ce qui est saint, lieu saint, sanctuaire",
+        "gloss": "ce qui est saint; lieu saint; sanctuaire",
         "freq": 12,
         "vu": false
       },
@@ -419,7 +419,7 @@
       {
         "strongNb": 60,
         "grec": "ἀγοραῖος, ον",
-        "gloss": "mauvais sujet, tribunal",
+        "gloss": "mauvais sujet; tribunal",
         "freq": 2,
         "vu": false
       },
@@ -475,7 +475,7 @@
       {
         "strongNb": 68,
         "grec": "ἀγρός, οῦ, ὁ",
-        "gloss": "campagne, champ",
+        "gloss": "campagne; champ",
         "freq": 35,
         "vu": false
       },
@@ -524,7 +524,7 @@
       {
         "strongNb": 75,
         "grec": "ἀγωνίζομαι",
-        "gloss": "combattre, (participe) athlète",
+        "gloss": "combattre; (participe) athlète",
         "freq": 8,
         "vu": false
       },
@@ -552,16 +552,16 @@
       {
         "strongNb": 79,
         "grec": "ἀδελφή, ῆς, ἡ",
-        "gloss": "la soeur",
+        "gloss": "sœur",
         "freq": 25,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 80,
         "grec": "ἀδελφός, οῦ, ὁ",
-        "gloss": "un frère",
+        "gloss": "frère, homme juif, croyant",
         "freq": 343,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 81,
@@ -636,7 +636,7 @@
       {
         "strongNb": 91,
         "grec": "ἀδικέω",
-        "gloss": "agir injustement, (passif) supporter des injustices, (passif) souffrir, faire tort, nuire",
+        "gloss": "agir injustement; (passif) supporter des injustices; (passif) souffrir; faire tort; nuire",
         "freq": 25,
         "vu": false
       },
@@ -797,9 +797,9 @@
       {
         "strongNb": 114,
         "grec": "ἀθετέω",
-        "gloss": "annuler, manquer de parole, mépriser",
+        "gloss": "annuler; mettre de côter, rejeter",
         "freq": 16,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 115,
@@ -993,7 +993,7 @@
       {
         "strongNb": 142,
         "grec": "αἴρω",
-        "gloss": "lever, élever, relever, retirer à bord, tenir en suspens, prendre, porter, emporter, recueillir, ramasser, enlever, ôter",
+        "gloss": "lever; élever; relever; retirer à bord; tenir en suspens; prendre; porter; emporter; recueillir; ramasser; enlever; ôter",
         "freq": 102,
         "vu": false
       },
@@ -1077,7 +1077,7 @@
       {
         "strongNb": 154,
         "grec": "αἰτέω",
-        "gloss": "demander, solliciter, redemander",
+        "gloss": "demander; solliciter; redemander",
         "freq": 70,
         "vu": false
       },
@@ -1091,7 +1091,7 @@
       {
         "strongNb": 156,
         "grec": "αἰτία, ας, ἡ",
-        "gloss": "raison, accusation, crime, condition",
+        "gloss": "raison; accusation; crime; condition",
         "freq": 20,
         "vu": false
       },
@@ -1105,7 +1105,7 @@
       {
         "strongNb": 158,
         "grec": "αἴτιον, ου, τό",
-        "gloss": "motif, ce qui est digne, crime",
+        "gloss": "motif; ce qui est digne; crime",
         "freq": 0,
         "vu": false
       },
@@ -1182,7 +1182,7 @@
       {
         "strongNb": 169,
         "grec": "ἀκάθαρτος, ον",
-        "gloss": "immonde, impur",
+        "gloss": "immonde; impur",
         "freq": 31,
         "vu": false
       },
@@ -1294,7 +1294,7 @@
       {
         "strongNb": 185,
         "grec": "ἀκέραιος, ον",
-        "gloss": "pur, simple",
+        "gloss": "pur; simple",
         "freq": 3,
         "vu": false
       },
@@ -1392,7 +1392,7 @@
       {
         "strongNb": 199,
         "grec": "ἀκριβῶς",
-        "gloss": "exactement, diligemment, soigneusement",
+        "gloss": "exactement; diligemment; soigneusement",
         "freq": 5,
         "vu": false
       },
@@ -1455,9 +1455,9 @@
       {
         "strongNb": 208,
         "grec": "ἀκυρόω",
-        "gloss": "annuler, considérer comme inexistant, rendre sans effet",
+        "gloss": "annuler, abroger",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 209,
@@ -1497,7 +1497,7 @@
       {
         "strongNb": 214,
         "grec": "ἀλαλάζω",
-        "gloss": "retentir, pousser des cris",
+        "gloss": "retentir; pousser des cris",
         "freq": 2,
         "vu": false
       },
@@ -1651,9 +1651,9 @@
       {
         "strongNb": 236,
         "grec": "ἀλλάσσω",
-        "gloss": "changer, rendre différent, altérer",
+        "gloss": "changer, altérer",
         "freq": 6,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 237,
@@ -1714,7 +1714,7 @@
       {
         "strongNb": 245,
         "grec": "ἀλλότριος, ία, ιον",
-        "gloss": "d’autrui, étranger",
+        "gloss": "d’autrui; étranger",
         "freq": 14,
         "vu": false
       },
@@ -1903,7 +1903,7 @@
       {
         "strongNb": 272,
         "grec": "ἀμελέω",
-        "gloss": "ne pas tenir compte, délaisser",
+        "gloss": "ne pas tenir compte; délaisser",
         "freq": 4,
         "vu": false
       },
@@ -2134,7 +2134,7 @@
       {
         "strongNb": 305,
         "grec": "ἀναβαίνω",
-        "gloss": "monter, remonter, venir",
+        "gloss": "monter; remonter; venir",
         "freq": 81,
         "vu": false
       },
@@ -2183,7 +2183,7 @@
       {
         "strongNb": 312,
         "grec": "ἀναγγέλλω",
-        "gloss": "annoncer, déclarer, faire connaître, parler, porter la nouvelle, prêcher, raconter",
+        "gloss": "annoncer; déclarer; faire connaître; parler; porter la nouvelle; prêcher; raconter",
         "freq": 14,
         "vu": false
       },
@@ -2197,7 +2197,7 @@
       {
         "strongNb": 314,
         "grec": "ἀναγινώσκω",
-        "gloss": "savoir, lire",
+        "gloss": "savoir; lire",
         "freq": 32,
         "vu": false
       },
@@ -2225,7 +2225,7 @@
       {
         "strongNb": 318,
         "grec": "ἀνάγκη, ης, ἡ",
-        "gloss": "nécessité, contrainte, détresse",
+        "gloss": "nécessité; contrainte; détresse",
         "freq": 17,
         "vu": false
       },
@@ -2246,7 +2246,7 @@
       {
         "strongNb": 321,
         "grec": "ἀνάγω",
-        "gloss": "faire monter, mener, ramener, amener, offrir, faire comparaître, (passif) s’embarquer, (passif) partir [par la mer], (passif) faire voile",
+        "gloss": "faire monter; mener; ramener; amener; offrir; faire comparaître; (passif) s’embarquer; (passif) partir [par la mer]; (passif) faire voile",
         "freq": 23,
         "vu": false
       },
@@ -2267,7 +2267,7 @@
       {
         "strongNb": 324,
         "grec": "ἀναδέχομαι",
-        "gloss": "accueillir, recevoir",
+        "gloss": "accueillir; recevoir",
         "freq": 2,
         "vu": false
       },
@@ -2358,7 +2358,7 @@
       {
         "strongNb": 337,
         "grec": "ἀναιρέω",
-        "gloss": "emporter, faire périr, annuler",
+        "gloss": "emporter; faire périr; annuler",
         "freq": 24,
         "vu": false
       },
@@ -2414,7 +2414,7 @@
       {
         "strongNb": 345,
         "grec": "ἀνάκειμαι",
-        "gloss": "être à table, être assis, être couché",
+        "gloss": "être à table; être assis; être couché",
         "freq": 14,
         "vu": false
       },
@@ -2428,7 +2428,7 @@
       {
         "strongNb": 347,
         "grec": "ἀνακλίνω",
-        "gloss": "coucher, faire asseoir, (passif) se mettre à table",
+        "gloss": "coucher; faire asseoir; (passif) se mettre à table",
         "freq": 6,
         "vu": false
       },
@@ -2449,7 +2449,7 @@
       {
         "strongNb": 350,
         "grec": "ἀνακρίνω",
-        "gloss": "juger, discerner, examiner, interroger, faire subir un interrogatoire, s’informer",
+        "gloss": "juger; discerner; examiner; interroger; faire subir un interrogatoire; s’informer",
         "freq": 16,
         "vu": false
       },
@@ -2463,14 +2463,14 @@
       {
         "strongNb": 352,
         "grec": "ἀνακύπτω",
-        "gloss": "redresser, regarder en haut",
+        "gloss": "redresser; regarder en haut",
         "freq": 2,
         "vu": false
       },
       {
         "strongNb": 353,
         "grec": "ἀναλαμβάνω",
-        "gloss": "élever, porter, prendre",
+        "gloss": "élever; porter; prendre",
         "freq": 13,
         "vu": false
       },
@@ -2483,10 +2483,10 @@
       },
       {
         "strongNb": 355,
-        "grec": "ἀναλίσκω",
+        "grec": "ἀναλίσκω, ἀναλόω",
         "gloss": "consumer, détruire, tuer",
         "freq": 2,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 356,
@@ -2540,7 +2540,7 @@
       {
         "strongNb": 363,
         "grec": "ἀναμιμνήσκω",
-        "gloss": "rappeler, (passif) se souvenir",
+        "gloss": "rappeler; (passif) se souvenir",
         "freq": 6,
         "vu": false
       },
@@ -2638,7 +2638,7 @@
       {
         "strongNb": 377,
         "grec": "ἀναπίπτω",
-        "gloss": "s’asseoir, se mettre, se pencher",
+        "gloss": "s’asseoir; se mettre; se pencher",
         "freq": 12,
         "vu": false
       },
@@ -2729,7 +2729,7 @@
       {
         "strongNb": 390,
         "grec": "ἀναστρέφω",
-        "gloss": "retourner, (passif) se conduire, (passif) être traité",
+        "gloss": "retourner; (passif) se conduire; (passif) être traité",
         "freq": 9,
         "vu": false
       },
@@ -2792,7 +2792,7 @@
       {
         "strongNb": 399,
         "grec": "ἀναφέρω",
-        "gloss": "porter, offrir, mener, élever",
+        "gloss": "porter; offrir; mener; élever",
         "freq": 10,
         "vu": false
       },
@@ -2974,7 +2974,7 @@
       {
         "strongNb": 425,
         "grec": "ἄνεσις, εως, ἡ",
-        "gloss": "liberté, repos",
+        "gloss": "liberté; repos",
         "freq": 5,
         "vu": false
       },
@@ -3016,9 +3016,9 @@
       {
         "strongNb": 431,
         "grec": "ἀνεψιός, οῦ, ὁ",
-        "gloss": "neveu",
+        "gloss": "neveu, cousin",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 432,
@@ -3051,7 +3051,7 @@
       {
         "strongNb": 436,
         "grec": "ἀνθίστημι",
-        "gloss": "résister, s’opposer",
+        "gloss": "résister; s’opposer",
         "freq": 14,
         "vu": false
       },
@@ -3128,7 +3128,7 @@
       {
         "strongNb": 447,
         "grec": "ἀνίημι",
-        "gloss": "détacher, lâcher, laisser, renoncer",
+        "gloss": "détacher; lâcher; laisser; renoncer",
         "freq": 4,
         "vu": false
       },
@@ -3226,7 +3226,7 @@
       {
         "strongNb": 461,
         "grec": "ἀνορθόω",
-        "gloss": "redresser, (passif) se redresser",
+        "gloss": "redresser; (passif) se redresser",
         "freq": 3,
         "vu": false
       },
@@ -3359,7 +3359,7 @@
       {
         "strongNb": 480,
         "grec": "ἀντίκειμαι",
-        "gloss": "(participe) adversaire, s’opposer à",
+        "gloss": "(participe) adversaire; s’opposer à",
         "freq": 8,
         "vu": false
       },
@@ -3548,7 +3548,7 @@
       {
         "strongNb": 507,
         "grec": "ἄνω",
-        "gloss": "au haut, d’en haut",
+        "gloss": "au haut; d’en haut",
         "freq": 9,
         "vu": false
       },
@@ -3562,7 +3562,7 @@
       {
         "strongNb": 509,
         "grec": "ἄνωθεν",
-        "gloss": "d’en haut, depuis le haut, encore, de nouveau, depuis longtemps",
+        "gloss": "d’en haut; depuis le haut; encore; de nouveau; depuis longtemps",
         "freq": 13,
         "vu": false
       },
@@ -3604,7 +3604,7 @@
       {
         "strongNb": 515,
         "grec": "ἀξιόω",
-        "gloss": "croire digne, trouver bon, demander",
+        "gloss": "croire digne; trouver bon; demander",
         "freq": 7,
         "vu": false
       },
@@ -3639,7 +3639,7 @@
       {
         "strongNb": 520,
         "grec": "ἀπάγω",
-        "gloss": "amener, mener, emmener, entraîner, faire exécuter",
+        "gloss": "amener; mener; emmener; entraîner; faire exécuter",
         "freq": 15,
         "vu": false
       },
@@ -3674,7 +3674,7 @@
       {
         "strongNb": 525,
         "grec": "ἀπαλλάσσω",
-        "gloss": "délivrer, (passif) quitter",
+        "gloss": "délivrer; (passif) quitter",
         "freq": 3,
         "vu": false
       },
@@ -3730,7 +3730,7 @@
       {
         "strongNb": 533,
         "grec": "ἀπαρνέομαι",
-        "gloss": "nier, renier, renoncer",
+        "gloss": "nier; renier; renoncer",
         "freq": 11,
         "vu": false
       },
@@ -3765,7 +3765,7 @@
       {
         "strongNb": 538,
         "grec": "ἀπατάω",
-        "gloss": "séduire, tromper",
+        "gloss": "séduire; tromper",
         "freq": 3,
         "vu": false
       },
@@ -3975,7 +3975,7 @@
       {
         "strongNb": 568,
         "grec": "ἀπέχω",
-        "gloss": "avoir, avoir amplement, posséder, être éloigné",
+        "gloss": "avoir; avoir amplement; posséder; être éloigné",
         "freq": 18,
         "vu": false
       },
@@ -4003,7 +4003,7 @@
       {
         "strongNb": 572,
         "grec": "ἁπλότης, τητος, ἡ",
-        "gloss": "simplicité, libéralité",
+        "gloss": "simplicité; libéralité",
         "freq": 7,
         "vu": false
       },
@@ -4024,14 +4024,14 @@
       {
         "strongNb": 575,
         "grec": "ἀπό",
-        "gloss": "d’auprès de, hors, de",
+        "gloss": "d’auprès de; hors; de",
         "freq": 640,
         "vu": false
       },
       {
         "strongNb": 576,
         "grec": "ἀποβαίνω",
-        "gloss": "descendre, tourner",
+        "gloss": "descendre; tourner",
         "freq": 4,
         "vu": false
       },
@@ -4087,7 +4087,7 @@
       {
         "strongNb": 584,
         "grec": "ἀποδείκνυμι",
-        "gloss": "présenter, produire sur la scène, prouver, accréditer",
+        "gloss": "présenter; produire sur la scène; prouver; accréditer",
         "freq": 4,
         "vu": false
       },
@@ -4115,7 +4115,7 @@
       {
         "strongNb": 588,
         "grec": "ἀποδέχομαι",
-        "gloss": "accepter, accueillir",
+        "gloss": "accepter; accueillir",
         "freq": 7,
         "vu": false
       },
@@ -4325,9 +4325,9 @@
       {
         "strongNb": 618,
         "grec": "ἀπολαμβάνω",
-        "gloss": "recevoir, recouvrer, tirer à l’écart",
+        "gloss": "recevoir; récupérer; (moyen) prendre à part",
         "freq": 10,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 619,
@@ -4339,7 +4339,7 @@
       {
         "strongNb": 620,
         "grec": "ἀπολείπω",
-        "gloss": "abandonner, laisser, (passif) rester",
+        "gloss": "abandonner; laisser; (passif) rester",
         "freq": 7,
         "vu": false
       },
@@ -4388,7 +4388,7 @@
       {
         "strongNb": 627,
         "grec": "ἀπολογία, ας, ἡ",
-        "gloss": "défense, réponse, excuse",
+        "gloss": "défense; réponse; excuse",
         "freq": 8,
         "vu": false
       },
@@ -4430,7 +4430,7 @@
       {
         "strongNb": 633,
         "grec": "ἀπονίπτω",
-        "gloss": "(moyen) se laver, les pieds",
+        "gloss": "(moyen) se laver",
         "freq": 1,
         "vu": false
       },
@@ -4514,7 +4514,7 @@
       {
         "strongNb": 645,
         "grec": "ἀποσπάω",
-        "gloss": "(passif) s’éloigner, (passif) s’arracher, entraîner, tirer",
+        "gloss": "(passif) s’éloigner; (passif) s’arracher; entraîner; tirer",
         "freq": 5,
         "vu": false
       },
@@ -4549,7 +4549,7 @@
       {
         "strongNb": 650,
         "grec": "ἀποστερέω",
-        "gloss": "priver de, faire du tort",
+        "gloss": "priver de; faire du tort",
         "freq": 6,
         "vu": false
       },
@@ -4577,7 +4577,7 @@
       {
         "strongNb": 654,
         "grec": "ἀποστρέφω",
-        "gloss": "détourner, remettre, (moyen et/ou passif) se détourner",
+        "gloss": "détourner; remettre; (moyen et/ou passif) se détourner",
         "freq": 9,
         "vu": false
       },
@@ -4598,7 +4598,7 @@
       {
         "strongNb": 657,
         "grec": "ἀποτάσσομαι",
-        "gloss": "(moyen) prendre congé, (moyen) renoncer à",
+        "gloss": "(moyen) prendre congé; (moyen) renoncer à",
         "freq": 6,
         "vu": false
       },
@@ -4612,7 +4612,7 @@
       {
         "strongNb": 659,
         "grec": "ἀποτίθημι",
-        "gloss": "(moyen) déposer, (moyen) rejeter",
+        "gloss": "(moyen) déposer; (moyen) rejeter",
         "freq": 9,
         "vu": false
       },
@@ -4668,7 +4668,7 @@
       {
         "strongNb": 667,
         "grec": "ἀποφέρω",
-        "gloss": "emmener, emporter",
+        "gloss": "emmener; emporter",
         "freq": 6,
         "vu": false
       },
@@ -4780,14 +4780,14 @@
       {
         "strongNb": 683,
         "grec": "ἀπωθέω",
-        "gloss": "(moyen) repousser, (moyen) rejeter",
+        "gloss": "(moyen) repousser; (moyen) rejeter",
         "freq": 6,
         "vu": false
       },
       {
         "strongNb": 684,
         "grec": "ἀπώλεια, ας, ἡ",
-        "gloss": "destruction, perdition, perte",
+        "gloss": "destruction; perdition; perte",
         "freq": 18,
         "vu": false
       },
@@ -4808,9 +4808,9 @@
       {
         "strongNb": 687,
         "grec": "ἆρα",
-        "gloss": "est-ce que?, donc",
+        "gloss": "(partic. interr. attendant une réponse nég.) est-ce que?",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 688,
@@ -4843,7 +4843,7 @@
       {
         "strongNb": 692,
         "grec": "ἀργός, ή, όν",
-        "gloss": "oiseux, oisif, paresseux",
+        "gloss": "oiseux; oisif; paresseux",
         "freq": 8,
         "vu": false
       },
@@ -4899,7 +4899,7 @@
       {
         "strongNb": 700,
         "grec": "ἀρέσκω",
-        "gloss": "plaire, complaire",
+        "gloss": "plaire; complaire",
         "freq": 16,
         "vu": false
       },
@@ -4997,7 +4997,7 @@
       {
         "strongNb": 714,
         "grec": "ἀρκέω",
-        "gloss": "suffire, (passif) se contenter",
+        "gloss": "suffire; (passif) se contenter",
         "freq": 8,
         "vu": false
       },
@@ -5081,7 +5081,7 @@
       {
         "strongNb": 726,
         "grec": "ἁρπάζω",
-        "gloss": "enlever, ravir",
+        "gloss": "enlever; ravir",
         "freq": 14,
         "vu": false
       },
@@ -5158,7 +5158,7 @@
       {
         "strongNb": 737,
         "grec": "ἄρτι",
-        "gloss": "à présent, désormais, maintenant",
+        "gloss": "à présent; désormais; maintenant",
         "freq": 36,
         "vu": false
       },
@@ -5207,7 +5207,7 @@
       {
         "strongNb": 744,
         "grec": "ἀρχαῖος, αία, αῖον",
-        "gloss": "vieux, ancien",
+        "gloss": "vieux; ancien",
         "freq": 11,
         "vu": false
       },
@@ -5305,7 +5305,7 @@
       {
         "strongNb": 758,
         "grec": "ἄρχων, οντος, ὁ",
-        "gloss": "chef, magistrat, prince",
+        "gloss": "chef; magistrat; prince",
         "freq": 37,
         "vu": false
       },
@@ -5361,7 +5361,7 @@
       {
         "strongNb": 766,
         "grec": "ἀσέλγεια, ας, ἡ",
-        "gloss": "débauche, excès, impudicité",
+        "gloss": "débauche; excès; impudicité",
         "freq": 10,
         "vu": false
       },
@@ -5627,14 +5627,14 @@
       {
         "strongNb": 804,
         "grec": "ἀσφαλής, ές",
-        "gloss": "exact, quelque chose de certain, sûr",
+        "gloss": "exact; quelque chose de certain; sûr",
         "freq": 5,
         "vu": false
       },
       {
         "strongNb": 805,
         "grec": "ἀσφαλίζω",
-        "gloss": "(moyen) fixer sûrement, garder avec soin",
+        "gloss": "(moyen) fixer sûrement; garder avec soin",
         "freq": 4,
         "vu": false
       },
@@ -5725,7 +5725,7 @@
       {
         "strongNb": 818,
         "grec": "ἀτιμάζω",
-        "gloss": "jeter du déshoneur, mépriser",
+        "gloss": "jeter du déshoneur; mépriser",
         "freq": 7,
         "vu": false
       },
@@ -5739,7 +5739,7 @@
       {
         "strongNb": 820,
         "grec": "ἄτιμος, ον",
-        "gloss": "sans honneur, dans le mépris, moins honorable",
+        "gloss": "sans honneur; dans le mépris; moins honorable",
         "freq": 4,
         "vu": false
       },
@@ -5830,7 +5830,7 @@
       {
         "strongNb": 833,
         "grec": "αὐλή, ῆς, ἡ",
-        "gloss": "cour, parvis, bergerie, palais",
+        "gloss": "cour; parvis; bergerie; palais",
         "freq": 12,
         "vu": false
       },
@@ -5956,7 +5956,7 @@
       {
         "strongNb": 851,
         "grec": "ἀφαιρέω",
-        "gloss": "ôter, emporter",
+        "gloss": "ôter; emporter",
         "freq": 10,
         "vu": false
       },
@@ -5970,7 +5970,7 @@
       {
         "strongNb": 853,
         "grec": "ἀφανίζω",
-        "gloss": "ternir, détruire, (passif) disparaître",
+        "gloss": "ternir; détruire; (passif) disparaître",
         "freq": 5,
         "vu": false
       },
@@ -6012,7 +6012,7 @@
       {
         "strongNb": 859,
         "grec": "ἄφεσις, εως, ἡ",
-        "gloss": "délivrance, pardon, rémission",
+        "gloss": "délivrance; pardon; rémission",
         "freq": 17,
         "vu": false
       },
@@ -6075,7 +6075,7 @@
       {
         "strongNb": 868,
         "grec": "ἀφίστημι",
-        "gloss": "abandonner, (moyen) se détourner, (moyen) quitter, se retirer, entraîner à la révolte",
+        "gloss": "abandonner; (moyen) se détourner; (moyen) quitter; se retirer; entraîner à la révolte",
         "freq": 14,
         "vu": false
       },
@@ -6110,7 +6110,7 @@
       {
         "strongNb": 873,
         "grec": "ἀφορίζω",
-        "gloss": "mettre à part, exclure, séparer",
+        "gloss": "mettre à part; exclure; séparer",
         "freq": 10,
         "vu": false
       },
@@ -6145,7 +6145,7 @@
       {
         "strongNb": 878,
         "grec": "ἄφρων, ονος, ον",
-        "gloss": "dépourvu d’intelligence, insensé",
+        "gloss": "dépourvu d’intelligence; insensé",
         "freq": 11,
         "vu": false
       },
@@ -6235,10 +6235,10 @@
       },
       {
         "strongNb": 891,
-        "grec": "ἄχρι",
-        "gloss": "au bout de, jusqu’à, en",
+        "grec": "ἄχρι(ς)",
+        "gloss": "jusqu’à, au bout de",
         "freq": 49,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 892,
@@ -6292,7 +6292,7 @@
       {
         "strongNb": 899,
         "grec": "βάθος, ους, τό",
-        "gloss": "profondeur, pleine eau",
+        "gloss": "profondeur; pleine eau",
         "freq": 8,
         "vu": false
       },
@@ -6376,7 +6376,7 @@
       {
         "strongNb": 911,
         "grec": "βάπτω",
-        "gloss": "tremper, teindre",
+        "gloss": "tremper; teindre",
         "freq": 4,
         "vu": false
       },
@@ -6411,7 +6411,7 @@
       {
         "strongNb": 916,
         "grec": "βαρέω",
-        "gloss": "charger, appesantir",
+        "gloss": "charger; appesantir",
         "freq": 6,
         "vu": false
       },
@@ -6453,9 +6453,9 @@
       {
         "strongNb": 922,
         "grec": "βάρος, ους, τό",
-        "gloss": "charge, fardeau, poids",
+        "gloss": "charge, fardeau; poids, importance",
         "freq": 6,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 923,
@@ -6481,7 +6481,7 @@
       {
         "strongNb": 926,
         "grec": "βαρύς, εῖα, ύ",
-        "gloss": "pénible, pesant, grave, important, redoutable",
+        "gloss": "pénible; pesant; grave; important; redoutable",
         "freq": 6,
         "vu": false
       },
@@ -6495,7 +6495,7 @@
       {
         "strongNb": 928,
         "grec": "βασανίζω",
-        "gloss": "battre, tourmenter",
+        "gloss": "battre; tourmenter",
         "freq": 12,
         "vu": false
       },
@@ -6649,7 +6649,7 @@
       {
         "strongNb": 950,
         "grec": "βεβαιόω",
-        "gloss": "affermir, confirmer, lier fermement",
+        "gloss": "affermir; confirmer; lier fermement",
         "freq": 8,
         "vu": false
       },
@@ -6726,7 +6726,7 @@
       {
         "strongNb": 961,
         "grec": "Βεροιαῖος, α, ον",
-        "gloss": "de Bérée, habitant de bérée",
+        "gloss": "de Bérée, de bérée, habitant de bérée",
         "freq": 1,
         "vu": false
       },
@@ -6775,7 +6775,7 @@
       {
         "strongNb": 968,
         "grec": "βῆμα, ατος, τό",
-        "gloss": "estrade, endroit où poser le pied, tribunal",
+        "gloss": "estrade; endroit où poser le pied; tribunal",
         "freq": 12,
         "vu": false
       },
@@ -6796,7 +6796,7 @@
       {
         "strongNb": 971,
         "grec": "βίαζομαι",
-        "gloss": "prendre par violence, (moyen) entrer de force",
+        "gloss": "prendre par violence; (moyen) entrer de force",
         "freq": 2,
         "vu": false
       },
@@ -6852,7 +6852,7 @@
       {
         "strongNb": 979,
         "grec": "βίος, ου, ὁ",
-        "gloss": "bien, subsistance, vie",
+        "gloss": "bien; subsistance; vie",
         "freq": 10,
         "vu": false
       },
@@ -6915,14 +6915,14 @@
       {
         "strongNb": 988,
         "grec": "βλασφημία, ας, ἡ",
-        "gloss": "blasphème, injure, parole injurieuse",
+        "gloss": "blasphème; injure; parole injurieuse",
         "freq": 18,
         "vu": false
       },
       {
         "strongNb": 989,
         "grec": "βλάσφημος, ον",
-        "gloss": "blasphémateur, blasphématoire",
+        "gloss": "blasphémateur; blasphématoire",
         "freq": 4,
         "vu": false
       },
@@ -7041,7 +7041,7 @@
       {
         "strongNb": 1006,
         "grec": "βόσκω",
-        "gloss": "faire paître, (passif) paître",
+        "gloss": "faire paître; (passif) paître",
         "freq": 9,
         "vu": false
       },
@@ -7076,7 +7076,7 @@
       {
         "strongNb": 1011,
         "grec": "βουλεύω",
-        "gloss": "(moyen) résoudre, (moyen) former un projet, (moyen) se demander",
+        "gloss": "(moyen) résoudre; (moyen) former un projet; (moyen) se demander",
         "freq": 6,
         "vu": false
       },
@@ -7181,7 +7181,7 @@
       {
         "strongNb": 1026,
         "grec": "βρέχω",
-        "gloss": "pleuvoir, envoyer la pluie, arroser",
+        "gloss": "pleuvoir; envoyer la pluie; arroser",
         "freq": 7,
         "vu": false
       },
@@ -7230,7 +7230,7 @@
       {
         "strongNb": 1033,
         "grec": "βρῶμα, ατος, τό",
-        "gloss": "viande, vivres",
+        "gloss": "viande; vivres",
         "freq": 17,
         "vu": false
       },
@@ -7244,7 +7244,7 @@
       {
         "strongNb": 1035,
         "grec": "βρῶσις, εως, ἡ",
-        "gloss": "aliment, manger, plat, viande, rouille",
+        "gloss": "aliment; manger; plat; viande; rouille",
         "freq": 11,
         "vu": false
       },
@@ -7377,7 +7377,7 @@
       {
         "strongNb": 1054,
         "grec": "Γαλατικός, ή, όν",
-        "gloss": "de Galatie",
+        "gloss": "de Galatie, de galatie",
         "freq": 2,
         "vu": false
       },
@@ -7433,7 +7433,7 @@
       {
         "strongNb": 1062,
         "grec": "γάμος, ου, ὁ",
-        "gloss": "mariage, noce",
+        "gloss": "mariage; noce",
         "freq": 16,
         "vu": false
       },
@@ -7447,16 +7447,16 @@
       {
         "strongNb": 1064,
         "grec": "γαστήρ, γαστρός, ἡ",
-        "gloss": "ventre, état de grossesse",
+        "gloss": "ventre; état de grossesse",
         "freq": 9,
         "vu": false
       },
       {
         "strongNb": 1065,
         "grec": "γε",
-        "gloss": "néanmoins, pourtant",
+        "gloss": "(particule enclitique) néanmoins, vraiment, sans doute; pourtant, du moins",
         "freq": 26,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1066,
@@ -7559,14 +7559,14 @@
       {
         "strongNb": 1080,
         "grec": "γεννάω",
-        "gloss": "donner naissance (au passif γεννῶμαι = être né)",
+        "gloss": "concevoir; enfanter; (passif) naître",
         "freq": 97,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 1081,
         "grec": "γέννημα, ατος, τό",
-        "gloss": "fruit, produit, race",
+        "gloss": "fruit; produit; race",
         "freq": 4,
         "vu": false
       },
@@ -7720,7 +7720,7 @@
       {
         "strongNb": 1103,
         "grec": "γνήσιος, α, ον",
-        "gloss": "véritable, vrai, sincérité",
+        "gloss": "véritable; vrai; sincérité",
         "freq": 4,
         "vu": false
       },
@@ -7741,7 +7741,7 @@
       {
         "strongNb": 1106,
         "grec": "γνώμη, ης, ἡ",
-        "gloss": "avis, opinion, pensée",
+        "gloss": "avis; opinion; pensée",
         "freq": 9,
         "vu": false
       },
@@ -7769,7 +7769,7 @@
       {
         "strongNb": 1110,
         "grec": "γνωστός, ή, όν",
-        "gloss": "ce que l’on peut connaître, familier, notoire",
+        "gloss": "ce que l’on peut connaître; familier; notoire",
         "freq": 15,
         "vu": false
       },
@@ -7846,7 +7846,7 @@
       {
         "strongNb": 1121,
         "grec": "γράμμα, ατος, τό",
-        "gloss": "lettre, écrit",
+        "gloss": "lettre; écrit",
         "freq": 14,
         "vu": false
       },
@@ -7958,7 +7958,7 @@
       {
         "strongNb": 1137,
         "grec": "γωνία, ας, ἡ",
-        "gloss": "coin, secret",
+        "gloss": "coin; secret",
         "freq": 9,
         "vu": false
       },
@@ -8084,7 +8084,7 @@
       {
         "strongNb": 1155,
         "grec": "δανείζω",
-        "gloss": "prêter, (moyen) emprunter",
+        "gloss": "prêter; (moyen) emprunter",
         "freq": 4,
         "vu": false
       },
@@ -8133,7 +8133,7 @@
       {
         "strongNb": 1162,
         "grec": "δέησις, εως, ἡ",
-        "gloss": "supplication, prière",
+        "gloss": "supplication; prière",
         "freq": 18,
         "vu": false
       },
@@ -8210,7 +8210,7 @@
       {
         "strongNb": 1173,
         "grec": "δεῖπνον, ου, τό",
-        "gloss": "souper, banquet, cène",
+        "gloss": "souper; banquet; cène",
         "freq": 16,
         "vu": false
       },
@@ -8280,14 +8280,14 @@
       {
         "strongNb": 1183,
         "grec": "δεκατόω",
-        "gloss": "dîmer, (passif) payer la dîme",
+        "gloss": "dîmer; (passif) payer la dîme",
         "freq": 2,
         "vu": false
       },
       {
         "strongNb": 1184,
         "grec": "δεκτός, ή, όν",
-        "gloss": "agréé, agréable, favorable, reçu",
+        "gloss": "agréé; agréable; favorable; reçu",
         "freq": 5,
         "vu": false
       },
@@ -8322,14 +8322,14 @@
       {
         "strongNb": 1189,
         "grec": "δέομαι",
-        "gloss": "demander, prier",
+        "gloss": "demander; prier",
         "freq": 22,
         "vu": false
       },
       {
         "strongNb": 1190,
         "grec": "Δερβαῖος, α, ον",
-        "gloss": "de Derbe, originaire de derbe",
+        "gloss": "de Derbe, de derbe, originaire de derbe",
         "freq": 1,
         "vu": false
       },
@@ -8392,7 +8392,7 @@
       {
         "strongNb": 1199,
         "grec": "δεσμός, οῦ, ὁ",
-        "gloss": "chaîne, lien",
+        "gloss": "chaîne; lien",
         "freq": 18,
         "vu": false
       },
@@ -8420,7 +8420,7 @@
       {
         "strongNb": 1203,
         "grec": "δεσπότης, ου, ὁ",
-        "gloss": "maître, seigneur, souverain",
+        "gloss": "maître; seigneur; souverain",
         "freq": 10,
         "vu": false
       },
@@ -8455,7 +8455,7 @@
       {
         "strongNb": 1208,
         "grec": "δεύτερος, α, ον",
-        "gloss": "second, seconde fois",
+        "gloss": "second; seconde fois",
         "freq": 43,
         "vu": false
       },
@@ -8490,7 +8490,7 @@
       {
         "strongNb": 1213,
         "grec": "δηλόω",
-        "gloss": "faire connaître, indiquer",
+        "gloss": "faire connaître; indiquer",
         "freq": 7,
         "vu": false
       },
@@ -8560,7 +8560,7 @@
       {
         "strongNb": 1223,
         "grec": "διά",
-        "gloss": "à cause de, par le moyen de, en faveur de, au bout de",
+        "gloss": "à cause de; par le moyen de; en faveur de; au bout de",
         "freq": 666,
         "vu": false
       },
@@ -8616,7 +8616,7 @@
       {
         "strongNb": 1231,
         "grec": "διαγινώσκω",
-        "gloss": "prendre connaissance, examiner",
+        "gloss": "prendre connaissance; examiner",
         "freq": 2,
         "vu": false
       },
@@ -8651,7 +8651,7 @@
       {
         "strongNb": 1236,
         "grec": "διάγω",
-        "gloss": "mener, vivre",
+        "gloss": "mener; vivre",
         "freq": 2,
         "vu": false
       },
@@ -8672,7 +8672,7 @@
       {
         "strongNb": 1239,
         "grec": "διαδίδωμι",
-        "gloss": "distribuer, donner",
+        "gloss": "distribuer; donner",
         "freq": 4,
         "vu": false
       },
@@ -8728,7 +8728,7 @@
       {
         "strongNb": 1247,
         "grec": "διακονέω",
-        "gloss": "servir, assurer le service, assister, (passif) être rédigé par le ministère, employer",
+        "gloss": "servir; assurer le service; assister; (passif) être rédigé par le ministère; employer",
         "freq": 37,
         "vu": false
       },
@@ -8763,7 +8763,7 @@
       {
         "strongNb": 1252,
         "grec": "διακρίνω",
-        "gloss": "juger, décider, discerner, faire une différence, disputer, (moyen et/ou passif) douter",
+        "gloss": "juger; décider; discerner; faire une différence; disputer; (moyen et/ou passif) douter",
         "freq": 19,
         "vu": false
       },
@@ -8791,7 +8791,7 @@
       {
         "strongNb": 1256,
         "grec": "διαλέγομαι",
-        "gloss": "s’entretenir, discuter",
+        "gloss": "s’entretenir; discuter",
         "freq": 13,
         "vu": false
       },
@@ -8826,7 +8826,7 @@
       {
         "strongNb": 1261,
         "grec": "διαλογισμός, οῦ, ὁ",
-        "gloss": "pensée, raisonnement",
+        "gloss": "pensée; raisonnement",
         "freq": 14,
         "vu": false
       },
@@ -8840,7 +8840,7 @@
       {
         "strongNb": 1263,
         "grec": "διαμαρτύρομαι",
-        "gloss": "affirmer, adjurer",
+        "gloss": "affirmer; adjurer",
         "freq": 15,
         "vu": false
       },
@@ -8861,7 +8861,7 @@
       {
         "strongNb": 1266,
         "grec": "διαμερίζω",
-        "gloss": "diviser, distribuer, (moyen) partager entre soi",
+        "gloss": "diviser; distribuer; (moyen) partager entre soi",
         "freq": 11,
         "vu": false
       },
@@ -8903,7 +8903,7 @@
       {
         "strongNb": 1272,
         "grec": "διανοίγω",
-        "gloss": "ouvrir, expliquer",
+        "gloss": "ouvrir; expliquer",
         "freq": 8,
         "vu": false
       },
@@ -8931,7 +8931,7 @@
       {
         "strongNb": 1276,
         "grec": "διαπεράω",
-        "gloss": "passer, passer à l’autre rive, traverser, repasser",
+        "gloss": "passer; passer à l’autre rive; traverser; repasser",
         "freq": 6,
         "vu": false
       },
@@ -9008,7 +9008,7 @@
       {
         "strongNb": 1287,
         "grec": "διασκορπίζω",
-        "gloss": "disperser, dissiper, répandre",
+        "gloss": "disperser; dissiper; répandre",
         "freq": 9,
         "vu": false
       },
@@ -9057,14 +9057,14 @@
       {
         "strongNb": 1294,
         "grec": "διαστρέφω",
-        "gloss": "détourner, pervertir, (passif) être perverti",
+        "gloss": "détourner; pervertir; (passif) être perverti",
         "freq": 7,
         "vu": false
       },
       {
         "strongNb": 1295,
         "grec": "διασώζω",
-        "gloss": "sauver, guérir complètement, (passif) parvenir saint et sauf, conduire sain et sauf",
+        "gloss": "sauver; guérir complètement; (passif) parvenir saint et sauf; conduire sain et sauf",
         "freq": 8,
         "vu": false
       },
@@ -9092,9 +9092,9 @@
       {
         "strongNb": 1299,
         "grec": "διατάσσω",
-        "gloss": "ordonner, (moyen) régler",
+        "gloss": "ordonner, prescrire, commander; (moyen) régler, résoudre",
         "freq": 16,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1300,
@@ -9155,7 +9155,7 @@
       {
         "strongNb": 1308,
         "grec": "διαφέρω",
-        "gloss": "porter, ballotter, répandre, (participe) être excellent, différer, importer, valoir mieux",
+        "gloss": "porter; ballotter; répandre; (participe) être excellent; différer; importer; valoir mieux",
         "freq": 13,
         "vu": false
       },
@@ -9176,7 +9176,7 @@
       {
         "strongNb": 1311,
         "grec": "διαφθείρω",
-        "gloss": "corrompre, détruire",
+        "gloss": "corrompre; détruire",
         "freq": 6,
         "vu": false
       },
@@ -9232,7 +9232,7 @@
       {
         "strongNb": 1319,
         "grec": "διδασκαλία, ας, ἡ",
-        "gloss": "doctrine, enseignement, instruction",
+        "gloss": "doctrine; enseignement; instruction",
         "freq": 21,
         "vu": false
       },
@@ -9274,14 +9274,14 @@
       {
         "strongNb": 1325,
         "grec": "δίδωμι",
-        "gloss": "donner attention à, se soumettre à un avertissement, obéir à, écouter, consentir à, une requête, être entendu",
+        "gloss": "donner; mettre; communiquer; payer; prononcer; offrir; laisser; jeter; montrer; produire; exercer; permettre",
         "freq": 409,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 1326,
         "grec": "διεγείρω",
-        "gloss": "réveiller, élever",
+        "gloss": "réveiller; élever",
         "freq": 6,
         "vu": false
       },
@@ -9414,7 +9414,7 @@
       {
         "strongNb": 1345,
         "grec": "δικαίωμα, ατος, τό",
-        "gloss": "juste sentence, justification, ordonnance, exigence",
+        "gloss": "juste sentence; justification; ordonnance; exigence",
         "freq": 10,
         "vu": false
       },
@@ -9442,7 +9442,7 @@
       {
         "strongNb": 1349,
         "grec": "δίκη, ης, ἡ",
-        "gloss": "châtiment, peine, condamnation, némésis",
+        "gloss": "châtiment; peine; condamnation; némésis",
         "freq": 3,
         "vu": false
       },
@@ -9666,14 +9666,14 @@
       {
         "strongNb": 1381,
         "grec": "δοκιμάζω",
-        "gloss": "discerner, essayer, approuver",
+        "gloss": "discerner; essayer; approuver",
         "freq": 22,
         "vu": false
       },
       {
         "strongNb": 1382,
         "grec": "δοκιμή, ῆς, ἡ",
-        "gloss": "expérience, preuve",
+        "gloss": "expérience; preuve",
         "freq": 7,
         "vu": false
       },
@@ -9715,7 +9715,7 @@
       {
         "strongNb": 1388,
         "grec": "δόλος, ου, ὁ",
-        "gloss": "fraude, mensonge, ruse",
+        "gloss": "fraude; mensonge; ruse",
         "freq": 11,
         "vu": false
       },
@@ -9876,7 +9876,7 @@
       {
         "strongNb": 1411,
         "grec": "δύναμις, εως, ἡ",
-        "gloss": "force, pouvoir",
+        "gloss": "force, pouvoir; miracle",
         "freq": 119,
         "vu": true
       },
@@ -10044,7 +10044,7 @@
       {
         "strongNb": 1435,
         "grec": "δῶρον, ου, τό",
-        "gloss": "don, offrande, présent",
+        "gloss": "don; offrande; présent",
         "freq": 19,
         "vu": false
       },
@@ -10072,7 +10072,7 @@
       {
         "strongNb": 1439,
         "grec": "ἐάω",
-        "gloss": "abandonner, laisser, permettre",
+        "gloss": "abandonner; laisser; permettre",
         "freq": 11,
         "vu": false
       },
@@ -10135,7 +10135,7 @@
       {
         "strongNb": 1448,
         "grec": "ἐγγίζω",
-        "gloss": "approcher, être proche, venir dans le voisinage",
+        "gloss": "approcher; être proche; venir dans le voisinage",
         "freq": 42,
         "vu": false
       },
@@ -10310,9 +10310,9 @@
       {
         "strongNb": 1473,
         "grec": "ἐγώ",
-        "gloss": "je, moi, je, moi",
+        "gloss": "je, moi",
         "freq": 2462,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1474,
@@ -10436,7 +10436,7 @@
       {
         "strongNb": 1491,
         "grec": "εἶδος, ους, τό",
-        "gloss": "apparence, face, forme, vue",
+        "gloss": "apparence; face; forme; vue",
         "freq": 5,
         "vu": false
       },
@@ -10499,7 +10499,7 @@
       {
         "strongNb": 1500,
         "grec": "εἰκῇ",
-        "gloss": "en vain, légèrement",
+        "gloss": "en vain; légèrement",
         "freq": 6,
         "vu": false
       },
@@ -10632,7 +10632,7 @@
       {
         "strongNb": 1519,
         "grec": "εἰς",
-        "gloss": "par rapport, relativement, vers",
+        "gloss": "par rapport; relativement; vers",
         "freq": 1757,
         "vu": false
       },
@@ -10646,14 +10646,14 @@
       {
         "strongNb": 1521,
         "grec": "εἰσάγω",
-        "gloss": "amener, faire entrer",
+        "gloss": "amener; faire entrer",
         "freq": 11,
         "vu": false
       },
       {
         "strongNb": 1522,
         "grec": "εἰσακούω",
-        "gloss": "(passif) exaucer, ecouter",
+        "gloss": "(passif) exaucer; ecouter",
         "freq": 5,
         "vu": false
       },
@@ -10730,7 +10730,7 @@
       {
         "strongNb": 1533,
         "grec": "εἰσφέρω",
-        "gloss": "apporter dans, introduire, porter, exposer",
+        "gloss": "apporter dans; introduire; porter; exposer",
         "freq": 8,
         "vu": false
       },
@@ -10758,7 +10758,7 @@
       {
         "strongNb": 1537,
         "grec": "ἐκ, ἐξ",
-        "gloss": "de, hors de, par le moyen de, sur la base de",
+        "gloss": "de; hors de; par le moyen de; sur la base de",
         "freq": 912,
         "vu": false
       },
@@ -10891,14 +10891,14 @@
       {
         "strongNb": 1556,
         "grec": "ἐκδικέω",
-        "gloss": "faire justice, venger, tirer vengeance",
+        "gloss": "faire justice; venger; tirer vengeance",
         "freq": 6,
         "vu": false
       },
       {
         "strongNb": 1557,
         "grec": "ἐκδίκησις, εως, ἡ",
-        "gloss": "justice, punition, vengeance",
+        "gloss": "justice; punition; vengeance",
         "freq": 9,
         "vu": false
       },
@@ -10968,7 +10968,7 @@
       {
         "strongNb": 1567,
         "grec": "ἐκζητέω",
-        "gloss": "rechercher, redemander, s’informer",
+        "gloss": "rechercher; redemander; s’informer",
         "freq": 7,
         "vu": false
       },
@@ -11010,7 +11010,7 @@
       {
         "strongNb": 1573,
         "grec": "ἐκκακέω",
-        "gloss": "se lasser, perdre courage",
+        "gloss": "se lasser; perdre courage",
         "freq": 6,
         "vu": false
       },
@@ -11206,7 +11206,7 @@
       {
         "strongNb": 1601,
         "grec": "ἐκπίπτω",
-        "gloss": "tomber, périr, déchoir, être sans effet",
+        "gloss": "tomber; périr; déchoir; être sans effet",
         "freq": 10,
         "vu": false
       },
@@ -11234,7 +11234,7 @@
       {
         "strongNb": 1605,
         "grec": "ἐκπλήσσω",
-        "gloss": "(passif) être étonné, saisir",
+        "gloss": "(passif) être étonné; saisir",
         "freq": 13,
         "vu": false
       },
@@ -11276,7 +11276,7 @@
       {
         "strongNb": 1611,
         "grec": "ἔκστασις, εως, ἡ",
-        "gloss": "admiration, étonnement, extase, trouble",
+        "gloss": "admiration; étonnement; extase; trouble",
         "freq": 7,
         "vu": false
       },
@@ -11297,7 +11297,7 @@
       {
         "strongNb": 1614,
         "grec": "ἐκτείνω",
-        "gloss": "étendre, jeter au loin",
+        "gloss": "étendre; jeter au loin",
         "freq": 16,
         "vu": false
       },
@@ -11339,7 +11339,7 @@
       {
         "strongNb": 1620,
         "grec": "ἐκτίθημι",
-        "gloss": "(moyen) expliquer, exposer",
+        "gloss": "(moyen) expliquer; exposer",
         "freq": 4,
         "vu": false
       },
@@ -11353,7 +11353,7 @@
       {
         "strongNb": 1622,
         "grec": "ἐκτός",
-        "gloss": "à l’exclusion, hors",
+        "gloss": "à l’exclusion; hors",
         "freq": 8,
         "vu": false
       },
@@ -11367,14 +11367,14 @@
       {
         "strongNb": 1624,
         "grec": "ἐκτρέπω",
-        "gloss": "(passif) se détourner, (moyen) fuir, (passif) se tourner, (passif) se démettre",
+        "gloss": "(passif) se détourner; (moyen) fuir; (passif) se tourner; (passif) se démettre",
         "freq": 5,
         "vu": false
       },
       {
         "strongNb": 1625,
         "grec": "ἐκτρέφω",
-        "gloss": "nourrir, élever",
+        "gloss": "nourrir; élever",
         "freq": 2,
         "vu": false
       },
@@ -11388,14 +11388,14 @@
       {
         "strongNb": 1627,
         "grec": "ἐκφέρω",
-        "gloss": "apporter dehors, emporter, porter",
+        "gloss": "apporter dehors; emporter; porter",
         "freq": 8,
         "vu": false
       },
       {
         "strongNb": 1628,
         "grec": "ἐκφεύγω",
-        "gloss": "s’échapper, échapper à",
+        "gloss": "s’échapper; échapper à",
         "freq": 8,
         "vu": false
       },
@@ -11451,7 +11451,7 @@
       {
         "strongNb": 1636,
         "grec": "ἐλαία, ας, ἡ",
-        "gloss": "olive, olivier",
+        "gloss": "olive; olivier",
         "freq": 4,
         "vu": false
       },
@@ -11500,7 +11500,7 @@
       {
         "strongNb": 1643,
         "grec": "ἐλαύνω",
-        "gloss": "emporter, pousser, ramer",
+        "gloss": "emporter; pousser; ramer",
         "freq": 5,
         "vu": false
       },
@@ -11556,7 +11556,7 @@
       {
         "strongNb": 1651,
         "grec": "ἐλέγχω",
-        "gloss": "reprendre, convaincre, réfuter",
+        "gloss": "reprendre; convaincre; réfuter",
         "freq": 17,
         "vu": false
       },
@@ -11787,7 +11787,7 @@
       {
         "strongNb": 1684,
         "grec": "ἐμβαίνω",
-        "gloss": "entrer, monter, remonter",
+        "gloss": "entrer; monter; remonter",
         "freq": 16,
         "vu": false
       },
@@ -11829,7 +11829,7 @@
       {
         "strongNb": 1690,
         "grec": "ἐμβριμάομαι",
-        "gloss": "parler sévèrement, reprendre sévèrement, frémir",
+        "gloss": "parler sévèrement; reprendre sévèrement; frémir",
         "freq": 5,
         "vu": false
       },
@@ -11913,7 +11913,7 @@
       {
         "strongNb": 1702,
         "grec": "ἐμπαίζω",
-        "gloss": "se jouer, se moquer",
+        "gloss": "se jouer; se moquer",
         "freq": 13,
         "vu": false
       },
@@ -11934,7 +11934,7 @@
       {
         "strongNb": 1705,
         "grec": "ἐμπίπλημι",
-        "gloss": "rassasier, remplir, (passif) jouir",
+        "gloss": "rassasier; remplir; (passif) jouir",
         "freq": 5,
         "vu": false
       },
@@ -12025,14 +12025,14 @@
       {
         "strongNb": 1718,
         "grec": "ἐμφανίζω",
-        "gloss": "(passif) apparaître, déclarer, manifester, montrer clairement, porter plainte, proposer",
+        "gloss": "(passif) apparaître; déclarer; manifester; montrer clairement; porter plainte; proposer",
         "freq": 10,
         "vu": false
       },
       {
         "strongNb": 1719,
         "grec": "ἔμφοβος, ον",
-        "gloss": "rempli, tout effrayé, épouvanté",
+        "gloss": "rempli; tout effrayé; épouvanté",
         "freq": 5,
         "vu": false
       },
@@ -12088,7 +12088,7 @@
       {
         "strongNb": 1727,
         "grec": "ἐναντίος, α, ον",
-        "gloss": "contraire, celui qui s’oppose",
+        "gloss": "contraire; celui qui s’oppose",
         "freq": 8,
         "vu": false
       },
@@ -12158,7 +12158,7 @@
       {
         "strongNb": 1737,
         "grec": "ἐνδιδύσκω",
-        "gloss": "revêtir, (moyen) se revêtir",
+        "gloss": "revêtir; (moyen) se revêtir",
         "freq": 2,
         "vu": false
       },
@@ -12193,14 +12193,14 @@
       {
         "strongNb": 1742,
         "grec": "ἔνδυμα, ατος, τό",
-        "gloss": "habit, robe, vêtement",
+        "gloss": "habit; robe; vêtement",
         "freq": 8,
         "vu": false
       },
       {
         "strongNb": 1743,
         "grec": "ἐνδυναμόω",
-        "gloss": "fortifier, (passif) se fortifier",
+        "gloss": "fortifier; (passif) se fortifier",
         "freq": 7,
         "vu": false
       },
@@ -12221,7 +12221,7 @@
       {
         "strongNb": 1746,
         "grec": "ἐνδύω",
-        "gloss": "revêtir, (moyen) être vêtu, (moyen) porter, (moyen) se vêtir",
+        "gloss": "revêtir; (moyen) être vêtu; (moyen) porter; (moyen) se vêtir",
         "freq": 27,
         "vu": false
       },
@@ -12277,7 +12277,7 @@
       {
         "strongNb": 1754,
         "grec": "ἐνεργέω",
-        "gloss": "(moyen) agir, opérer, s’opérer",
+        "gloss": "(moyen) agir; opérer; s’opérer",
         "freq": 21,
         "vu": false
       },
@@ -12305,9 +12305,9 @@
       {
         "strongNb": 1758,
         "grec": "ἐνέχω",
-        "gloss": "en vouloir, presser, retenir sous",
+        "gloss": "en vouloir à, garder de la rancune contre; presser, s'acharner contre; (passif) être retenu, se mettre sous",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1759,
@@ -12487,7 +12487,7 @@
       {
         "strongNb": 1784,
         "grec": "ἔντιμος, ον",
-        "gloss": "d’une grande valeur, en honneur, fort cher",
+        "gloss": "d’une grande valeur; en honneur; fort cher",
         "freq": 5,
         "vu": false
       },
@@ -12515,7 +12515,7 @@
       {
         "strongNb": 1788,
         "grec": "ἐντρέπω",
-        "gloss": "faire honte, respecter",
+        "gloss": "faire honte; respecter",
         "freq": 9,
         "vu": false
       },
@@ -12550,7 +12550,7 @@
       {
         "strongNb": 1793,
         "grec": "ἐντυγχάνω",
-        "gloss": "faire requête, intercéder, solliciter",
+        "gloss": "faire requête; intercéder; solliciter",
         "freq": 5,
         "vu": false
       },
@@ -12634,14 +12634,14 @@
       {
         "strongNb": 1805,
         "grec": "ἐξαγοράζω",
-        "gloss": "racheter, (moyen) saisir",
+        "gloss": "racheter; (moyen) saisir",
         "freq": 4,
         "vu": false
       },
       {
         "strongNb": 1806,
         "grec": "ἐξάγω",
-        "gloss": "conduire dehors, emmener, faire sortir, mener",
+        "gloss": "conduire dehors; emmener; faire sortir; mener",
         "freq": 12,
         "vu": false
       },
@@ -12725,7 +12725,7 @@
       {
         "strongNb": 1818,
         "grec": "ἐξαπατάω",
-        "gloss": "séduire, abuser",
+        "gloss": "séduire; abuser",
         "freq": 6,
         "vu": false
       },
@@ -12746,7 +12746,7 @@
       {
         "strongNb": 1821,
         "grec": "ἐξαποστέλλω",
-        "gloss": "envoyer, renvoyer",
+        "gloss": "envoyer; renvoyer",
         "freq": 12,
         "vu": false
       },
@@ -12781,7 +12781,7 @@
       {
         "strongNb": 1826,
         "grec": "ἔξειμι",
-        "gloss": "partir, gagner",
+        "gloss": "partir; gagner",
         "freq": 4,
         "vu": false
       },
@@ -12872,7 +12872,7 @@
       {
         "strongNb": 1839,
         "grec": "ἐξίστημι",
-        "gloss": "être étonné, être hors de sens, être saisi d’une grande admiration",
+        "gloss": "être étonné; être hors de sens; être saisi d’une grande admiration",
         "freq": 17,
         "vu": false
       },
@@ -12900,7 +12900,7 @@
       {
         "strongNb": 1843,
         "grec": "ἐξομολογέω",
-        "gloss": "confesser, louer, célébrer, s’engager",
+        "gloss": "confesser; louer; célébrer; s’engager",
         "freq": 10,
         "vu": false
       },
@@ -12935,7 +12935,7 @@
       {
         "strongNb": 1848,
         "grec": "ἐξουθενέω",
-        "gloss": "mépriser, être peu estimé",
+        "gloss": "mépriser; être peu estimé",
         "freq": 10,
         "vu": false
       },
@@ -12949,7 +12949,7 @@
       {
         "strongNb": 1850,
         "grec": "ἐξουσιάζω",
-        "gloss": "disposer, exercer l’autorité, laisser asservir",
+        "gloss": "disposer; exercer l’autorité; laisser asservir",
         "freq": 4,
         "vu": false
       },
@@ -12977,7 +12977,7 @@
       {
         "strongNb": 1854,
         "grec": "ἔξω",
-        "gloss": "étranger, extérieur, hors",
+        "gloss": "étranger; extérieur; hors",
         "freq": 62,
         "vu": false
       },
@@ -13026,7 +13026,7 @@
       {
         "strongNb": 1861,
         "grec": "ἐπαγγέλλομαι",
-        "gloss": "faire profession, promettre",
+        "gloss": "faire profession; promettre",
         "freq": 15,
         "vu": false
       },
@@ -13082,7 +13082,7 @@
       {
         "strongNb": 1869,
         "grec": "ἐπαίρω",
-        "gloss": "élever, lever, lever en haut, s’élever",
+        "gloss": "élever; lever; lever en haut; s’élever",
         "freq": 19,
         "vu": false
       },
@@ -13103,7 +13103,7 @@
       {
         "strongNb": 1872,
         "grec": "ἐπακολουθέω",
-        "gloss": "accompagner, s’appliquer, suivre après",
+        "gloss": "accompagner; s’appliquer; suivre après",
         "freq": 4,
         "vu": false
       },
@@ -13348,7 +13348,7 @@
       {
         "strongNb": 1907,
         "grec": "ἐπέχω",
-        "gloss": "faire attention, observer, regarder attentivement, demeurer, présenter",
+        "gloss": "faire attention; observer; regarder attentivement; demeurer; présenter",
         "freq": 5,
         "vu": false
       },
@@ -13362,21 +13362,21 @@
       {
         "strongNb": 1909,
         "grec": "ἐπί",
-        "gloss": "au sujet de, en relation avec, à l’occasion de, moyennant, pour cause de",
+        "gloss": "(+A) sur, dans, pendant, au sujet de; (+G) sur, à, en présence de, du temps de, au sujet de; (+D) sur, à, dans, avec, au sujet de, selon, contre",
         "freq": 884,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1910,
         "grec": "ἐπιβαίνω",
-        "gloss": "monter, arriver, entrer",
+        "gloss": "monter; arriver; entrer",
         "freq": 6,
         "vu": false
       },
       {
         "strongNb": 1911,
         "grec": "ἐπιβάλλω",
-        "gloss": "mettre, enlacer, se jeter sur, revenir, penser",
+        "gloss": "mettre; enlacer; se jeter sur; revenir; penser",
         "freq": 18,
         "vu": false
       },
@@ -13404,7 +13404,7 @@
       {
         "strongNb": 1915,
         "grec": "ἐπίβλημα, ατος, τό",
-        "gloss": "morceau, pièce",
+        "gloss": "morceau; pièce",
         "freq": 4,
         "vu": false
       },
@@ -13453,7 +13453,7 @@
       {
         "strongNb": 1922,
         "grec": "ἐπίγνωσις, εως, ἡ",
-        "gloss": "connaissance",
+        "gloss": "connaissance, savoir plus poussé, compréhension plus exacte; connaissance, perception, discernement",
         "freq": 20,
         "vu": false
       },
@@ -13474,14 +13474,14 @@
       {
         "strongNb": 1925,
         "grec": "ἐπιδείκνυμι",
-        "gloss": "démontrer, montrer",
+        "gloss": "démontrer; montrer",
         "freq": 7,
         "vu": false
       },
       {
         "strongNb": 1926,
         "grec": "ἐπιδέχομαι",
-        "gloss": "recevoir, pratiquer l’hospitalité",
+        "gloss": "recevoir; pratiquer l’hospitalité",
         "freq": 2,
         "vu": false
       },
@@ -13495,14 +13495,14 @@
       {
         "strongNb": 1928,
         "grec": "ἐπιδιατάσσομαι",
-        "gloss": "ajouter, ordonner en outre",
+        "gloss": "ordonner en outre, ajouter un clause à un testament",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 1929,
         "grec": "ἐπιδίδωμι",
-        "gloss": "donner, laisser aller à la dérive",
+        "gloss": "donner; laisser aller à la dérive",
         "freq": 9,
         "vu": false
       },
@@ -13537,7 +13537,7 @@
       {
         "strongNb": 1934,
         "grec": "ἐπιζητέω",
-        "gloss": "chercher, demander, rechercher",
+        "gloss": "chercher; demander; rechercher",
         "freq": 13,
         "vu": false
       },
@@ -13558,7 +13558,7 @@
       {
         "strongNb": 1937,
         "grec": "ἐπιθυμέω",
-        "gloss": "convoiter, désirer",
+        "gloss": "convoiter; désirer",
         "freq": 16,
         "vu": false
       },
@@ -13614,7 +13614,7 @@
       {
         "strongNb": 1945,
         "grec": "ἐπίκειμαι",
-        "gloss": "mettre dessus, se presser, imposer, insister, harceler",
+        "gloss": "mettre dessus; se presser; imposer; insister; harceler",
         "freq": 7,
         "vu": false
       },
@@ -13642,7 +13642,7 @@
       {
         "strongNb": 1949,
         "grec": "ἐπιλαμβάνομαι",
-        "gloss": "prendre, surprendre, saisir",
+        "gloss": "prendre; surprendre; saisir",
         "freq": 19,
         "vu": false
       },
@@ -13726,7 +13726,7 @@
       {
         "strongNb": 1961,
         "grec": "ἐπιμένω",
-        "gloss": "demeurer, persister, arrêter, persévérer",
+        "gloss": "demeurer; persister; arrêter; persévérer",
         "freq": 15,
         "vu": false
       },
@@ -13775,7 +13775,7 @@
       {
         "strongNb": 1968,
         "grec": "ἐπιπίπτω",
-        "gloss": "se jeter sur, se pencher, survenir, tomber, saisir",
+        "gloss": "se jeter sur; se pencher; survenir; tomber; saisir",
         "freq": 11,
         "vu": false
       },
@@ -13796,7 +13796,7 @@
       {
         "strongNb": 1971,
         "grec": "ἐπιποθέω",
-        "gloss": "désirer ardemment, être animé d’une ardente affection",
+        "gloss": "désirer ardemment; être animé d’une ardente affection",
         "freq": 9,
         "vu": false
       },
@@ -13859,7 +13859,7 @@
       {
         "strongNb": 1980,
         "grec": "ἐπισκέπτομαι",
-        "gloss": "visiter, jeter les yeux",
+        "gloss": "visiter; jeter les yeux",
         "freq": 11,
         "vu": false
       },
@@ -13887,7 +13887,7 @@
       {
         "strongNb": 1984,
         "grec": "ἐπισκοπή, ῆς, ἡ",
-        "gloss": "surveillance, visitation",
+        "gloss": "surveillance; visitation",
         "freq": 4,
         "vu": false
       },
@@ -13908,7 +13908,7 @@
       {
         "strongNb": 1987,
         "grec": "ἐπίσταμαι",
-        "gloss": "savoir, avoir la connaissance, connaître",
+        "gloss": "savoir; avoir la connaissance; connaître",
         "freq": 14,
         "vu": false
       },
@@ -14034,7 +14034,7 @@
       {
         "strongNb": 2005,
         "grec": "ἐπιτελέω",
-        "gloss": "achever, accomplir, construire",
+        "gloss": "achever; accomplir; construire",
         "freq": 10,
         "vu": false
       },
@@ -14097,7 +14097,7 @@
       {
         "strongNb": 2014,
         "grec": "ἐπιφαίνω",
-        "gloss": "apparaître, luire, paraître",
+        "gloss": "apparaître; luire; paraître",
         "freq": 4,
         "vu": false
       },
@@ -14125,7 +14125,7 @@
       {
         "strongNb": 2018,
         "grec": "ἐπιφέρω",
-        "gloss": "porter, donner cours, proférer, susciter",
+        "gloss": "porter; donner cours; proférer; susciter",
         "freq": 2,
         "vu": false
       },
@@ -14160,7 +14160,7 @@
       {
         "strongNb": 2023,
         "grec": "ἐπιχορηγέω",
-        "gloss": "alimenter, fournir, joindre",
+        "gloss": "alimenter; fournir; joindre",
         "freq": 5,
         "vu": false
       },
@@ -14230,7 +14230,7 @@
       {
         "strongNb": 2033,
         "grec": "ἑπτά, οἱ, αἱ, τά",
-        "gloss": "sept, septième",
+        "gloss": "sept; septième",
         "freq": 89,
         "vu": false
       },
@@ -14251,7 +14251,7 @@
       {
         "strongNb": 2036,
         "grec": "ἔπω",
-        "gloss": "parler, déclarer, commander",
+        "gloss": "parler; déclarer; commander",
         "freq": 929,
         "vu": false
       },
@@ -14272,7 +14272,7 @@
       {
         "strongNb": 2039,
         "grec": "ἐργασία, ας, ἡ",
-        "gloss": "travail, gain, œuvre, pratique",
+        "gloss": "travail; gain; œuvre; pratique",
         "freq": 6,
         "vu": false
       },
@@ -14335,7 +14335,7 @@
       {
         "strongNb": 2048,
         "grec": "ἔρημος, ον",
-        "gloss": "délaissé, désert",
+        "gloss": "délaissé; désert",
         "freq": 48,
         "vu": false
       },
@@ -14363,9 +14363,9 @@
       {
         "strongNb": 2052,
         "grec": "ἐριθεία, ας, ἡ",
-        "gloss": "contestation, esprit de querelle, esprit de parti, intrigue",
+        "gloss": "contestation, rivalité; esprit de querelle, ambition personnelle",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2053,
@@ -14377,7 +14377,7 @@
       {
         "strongNb": 2054,
         "grec": "ἔρις, ιδος, ἡ",
-        "gloss": "querelle, dissension, esprit de rivalité, esprit de querelle",
+        "gloss": "querelle; dissension; esprit de rivalité; esprit de querelle",
         "freq": 8,
         "vu": false
       },
@@ -14629,7 +14629,7 @@
       {
         "strongNb": 2090,
         "grec": "ἑτοιμάζω",
-        "gloss": "apprêter, préparer",
+        "gloss": "apprêter; préparer",
         "freq": 40,
         "vu": false
       },
@@ -14678,7 +14678,7 @@
       {
         "strongNb": 2097,
         "grec": "εὐαγγελίζω",
-        "gloss": "annoncer, évangéliser",
+        "gloss": "annoncer; évangéliser",
         "freq": 53,
         "vu": false
       },
@@ -14741,14 +14741,14 @@
       {
         "strongNb": 2106,
         "grec": "εὐδοκέω",
-        "gloss": "être disposé, plaire, trouver bon, prendre à cœur, trouver son plaisir",
+        "gloss": "être disposé; plaire; trouver bon; prendre à cœur; trouver son plaisir",
         "freq": 21,
         "vu": false
       },
       {
         "strongNb": 2107,
         "grec": "εὐδοκία, ας, ἡ",
-        "gloss": "bonne volonté, souhait, bon plaisir",
+        "gloss": "bonne volonté; souhait; bon plaisir",
         "freq": 9,
         "vu": false
       },
@@ -14783,7 +14783,7 @@
       {
         "strongNb": 2112,
         "grec": "εὐθέως",
-        "gloss": "aussitôt, bientôt, vite, sur-le-champ",
+        "gloss": "aussitôt; bientôt; vite; sur-le-champ",
         "freq": 85,
         "vu": false
       },
@@ -14888,7 +14888,7 @@
       {
         "strongNb": 2127,
         "grec": "εὐλογέω",
-        "gloss": "bénir, être béni, rendre grâces",
+        "gloss": "bénir, louer, célébrer, dire du bien de",
         "freq": 41,
         "vu": true
       },
@@ -14902,7 +14902,7 @@
       {
         "strongNb": 2129,
         "grec": "εὐλογία, ας, ἡ",
-        "gloss": "bénédiction, abondance, libéralité, beau langage",
+        "gloss": "bénédiction; abondance; libéralité; beau langage",
         "freq": 16,
         "vu": false
       },
@@ -15154,9 +15154,9 @@
       {
         "strongNb": 2165,
         "grec": "εὐφραίνω",
-        "gloss": "se réjouir, faire bonne chère",
+        "gloss": "se réjouir, exulter, s’égayer; faire bonne chère, festoyer",
         "freq": 14,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2166,
@@ -15203,7 +15203,7 @@
       {
         "strongNb": 2172,
         "grec": "εὔχομαι",
-        "gloss": "demander, plaire, souhaiter, prier",
+        "gloss": "demander; plaire; souhaiter; prier",
         "freq": 7,
         "vu": false
       },
@@ -15301,7 +15301,7 @@
       {
         "strongNb": 2186,
         "grec": "ἐφίστημι",
-        "gloss": "arriver, venir, survenir, surprendre, être présent, se pencher, se trouver, insister, assaillir",
+        "gloss": "arriver; venir; survenir; surprendre; être présent; se pencher; se trouver; insister; assaillir",
         "freq": 21,
         "vu": false
       },
@@ -15350,9 +15350,9 @@
       {
         "strongNb": 2193,
         "grec": "ἕως",
-        "gloss": "jusqu’à, tant",
+        "gloss": "jusqu’à, tant que",
         "freq": 145,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2194,
@@ -15434,16 +15434,16 @@
       {
         "strongNb": 2205,
         "grec": "ζῆλος, ου, ὁ",
-        "gloss": "ardeur, travail (de cœur), zèle, affection ardente, jalousie",
+        "gloss": "ardeur; travail (de cœur); zèle; affection ardente; jalousie",
         "freq": 16,
         "vu": false
       },
       {
         "strongNb": 2206,
         "grec": "ζηλόω",
-        "gloss": "montrer du zèle, avoir du zèle, désirer avec ardeur, avoir d’ardents désirs, être envieux, être jaloux",
+        "gloss": "désirer avec ardeur; envier, être jaloux",
         "freq": 11,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2207,
@@ -15469,7 +15469,7 @@
       {
         "strongNb": 2210,
         "grec": "ζημιόω",
-        "gloss": "faire la perte, perdre, recevoir de préjudice",
+        "gloss": "faire la perte; perdre; recevoir de préjudice",
         "freq": 6,
         "vu": false
       },
@@ -15497,7 +15497,7 @@
       {
         "strongNb": 2214,
         "grec": "ζήτησις, εως, ἡ",
-        "gloss": "question, discussion, information",
+        "gloss": "question; discussion; information",
         "freq": 7,
         "vu": false
       },
@@ -15623,7 +15623,7 @@
       {
         "strongNb": 2232,
         "grec": "ἡγεμών, όνος, ὁ",
-        "gloss": "chef-lieu, gouverneur",
+        "gloss": "chef-lieu; gouverneur",
         "freq": 20,
         "vu": false
       },
@@ -15658,7 +15658,7 @@
       {
         "strongNb": 2237,
         "grec": "ἡδονή, ῆς, ἡ",
-        "gloss": "plaisir, volupté",
+        "gloss": "plaisir; volupté",
         "freq": 5,
         "vu": false
       },
@@ -15707,7 +15707,7 @@
       {
         "strongNb": 2244,
         "grec": "ἡλικία, ας, ἡ",
-        "gloss": "âge, stature",
+        "gloss": "âge; stature",
         "freq": 8,
         "vu": false
       },
@@ -15889,7 +15889,7 @@
       {
         "strongNb": 2270,
         "grec": "ἡσυχάζω",
-        "gloss": "se taire, se tenir en repos, vivre paisiblement",
+        "gloss": "se taire; se tenir en repos; vivre paisiblement",
         "freq": 5,
         "vu": false
       },
@@ -15987,7 +15987,7 @@
       {
         "strongNb": 2284,
         "grec": "θαμβέω",
-        "gloss": "étonner, saisir d’étonnement, être stupéfié",
+        "gloss": "étonner; saisir d’étonnement; être stupéfié",
         "freq": 3,
         "vu": false
       },
@@ -16022,7 +16022,7 @@
       {
         "strongNb": 2289,
         "grec": "θανατόω",
-        "gloss": "mettre à mort, faire mourir",
+        "gloss": "mettre à mort; faire mourir",
         "freq": 11,
         "vu": false
       },
@@ -16085,7 +16085,7 @@
       {
         "strongNb": 2298,
         "grec": "θαυμαστός, ή, όν",
-        "gloss": "étonnant, merveilleux",
+        "gloss": "étonnant; merveilleux",
         "freq": 6,
         "vu": false
       },
@@ -16274,9 +16274,9 @@
       {
         "strongNb": 2325,
         "grec": "θερίζω",
-        "gloss": "moissonner, récolter, action de juger",
+        "gloss": "moissonner, récolter",
         "freq": 21,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2326,
@@ -16421,14 +16421,14 @@
       {
         "strongNb": 2346,
         "grec": "θλίβω",
-        "gloss": "presser, resserrer, affliger, être dans la tribulation",
+        "gloss": "presser; resserrer; affliger; être dans la tribulation",
         "freq": 10,
         "vu": false
       },
       {
         "strongNb": 2347,
         "grec": "θλῖψις, εως, ἡ",
-        "gloss": "affliction, tribulation, angoisse, détresse, pression",
+        "gloss": "affliction; tribulation; angoisse; détresse; pression",
         "freq": 45,
         "vu": false
       },
@@ -16449,7 +16449,7 @@
       {
         "strongNb": 2350,
         "grec": "θορυβέω",
-        "gloss": "faire du tumulte, troubler",
+        "gloss": "faire du tumulte; troubler",
         "freq": 5,
         "vu": false
       },
@@ -16512,7 +16512,7 @@
       {
         "strongNb": 2359,
         "grec": "θρίξ, τριχός, ἡ",
-        "gloss": "cheveu, poil",
+        "gloss": "cheveu; poil",
         "freq": 15,
         "vu": false
       },
@@ -16603,7 +16603,7 @@
       {
         "strongNb": 2372,
         "grec": "θυμός, οῦ, ὁ",
-        "gloss": "colère, courroux, indignation, fureur",
+        "gloss": "colère; courroux; indignation; fureur",
         "freq": 18,
         "vu": false
       },
@@ -16659,7 +16659,7 @@
       {
         "strongNb": 2380,
         "grec": "θύω",
-        "gloss": "sacrifier, tuer",
+        "gloss": "sacrifier; tuer",
         "freq": 14,
         "vu": false
       },
@@ -17086,7 +17086,7 @@
       {
         "strongNb": 2441,
         "grec": "ἱματισμός, οῦ, ὁ",
-        "gloss": "habillement, robe, vêtement",
+        "gloss": "habillement; robe; vêtement",
         "freq": 5,
         "vu": false
       },
@@ -17289,7 +17289,7 @@
       {
         "strongNb": 2470,
         "grec": "ἴσος, η, ον",
-        "gloss": "la pareille, égal",
+        "gloss": "la pareille; égal",
         "freq": 8,
         "vu": false
       },
@@ -17548,7 +17548,7 @@
       {
         "strongNb": 2507,
         "grec": "καθαιρέω",
-        "gloss": "descendre, abattre, détruire, anéantir",
+        "gloss": "descendre; abattre; détruire; anéantir",
         "freq": 9,
         "vu": false
       },
@@ -17618,7 +17618,7 @@
       {
         "strongNb": 2517,
         "grec": "καθεξῆς",
-        "gloss": "par ordre, successivement",
+        "gloss": "par ordre; successivement",
         "freq": 5,
         "vu": false
       },
@@ -17674,7 +17674,7 @@
       {
         "strongNb": 2525,
         "grec": "καθίστημι",
-        "gloss": "établir, conduire, constituer",
+        "gloss": "établir; conduire; constituer",
         "freq": 21,
         "vu": false
       },
@@ -17814,7 +17814,7 @@
       {
         "strongNb": 2545,
         "grec": "καίω",
-        "gloss": "allumer, brûler, embraser",
+        "gloss": "allumer; brûler; embraser",
         "freq": 11,
         "vu": false
       },
@@ -17842,7 +17842,7 @@
       {
         "strongNb": 2549,
         "grec": "κακία, ας, ἡ",
-        "gloss": "malice, méchanceté, peine",
+        "gloss": "malice; méchanceté; peine",
         "freq": 11,
         "vu": false
       },
@@ -17856,7 +17856,7 @@
       {
         "strongNb": 2551,
         "grec": "κακολογέω",
-        "gloss": "mal parler, médire",
+        "gloss": "mal parler; médire",
         "freq": 4,
         "vu": false
       },
@@ -17870,7 +17870,7 @@
       {
         "strongNb": 2553,
         "grec": "κακοπαθέω",
-        "gloss": "prendre la part de souffrances, maltraiter",
+        "gloss": "prendre la part de souffrances; maltraiter",
         "freq": 3,
         "vu": false
       },
@@ -17912,14 +17912,14 @@
       {
         "strongNb": 2559,
         "grec": "κακόω",
-        "gloss": "maltraiter, irriter",
+        "gloss": "maltraiter; irriter",
         "freq": 6,
         "vu": false
       },
       {
         "strongNb": 2560,
         "grec": "κακῶς",
-        "gloss": "mal, cruellement, misérablement",
+        "gloss": "mal; cruellement; misérablement",
         "freq": 16,
         "vu": false
       },
@@ -18171,9 +18171,9 @@
       {
         "strongNb": 2596,
         "grec": "κατά",
-        "gloss": "en ce qui concerne, suivant, en divers, à la hauteur, le long de",
+        "gloss": "(+A) selon, conformément à, comme, dans, vers, près de, du côté de, le long de, à travers, au temps de, pendant, pour, en vue de, par, en raison de, du fait de; (+G) contre, en bas de, dans, d'un bout à l'autre de, par, sur",
         "freq": 472,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2597,
@@ -18262,7 +18262,7 @@
       {
         "strongNb": 2609,
         "grec": "κατάγω",
-        "gloss": "faire descendre, aborder, mener",
+        "gloss": "faire descendre; aborder; mener",
         "freq": 9,
         "vu": false
       },
@@ -18318,7 +18318,7 @@
       {
         "strongNb": 2617,
         "grec": "καταισχύνω",
-        "gloss": "couvrir de honte, déshonorer, rendre honteux, être confus",
+        "gloss": "couvrir de honte; déshonorer; rendre honteux; être confus",
         "freq": 13,
         "vu": false
       },
@@ -18346,7 +18346,7 @@
       {
         "strongNb": 2621,
         "grec": "κατάκειμαι",
-        "gloss": "être assis à table, être couché",
+        "gloss": "être assis à table; être couché",
         "freq": 12,
         "vu": false
       },
@@ -18444,7 +18444,7 @@
       {
         "strongNb": 2635,
         "grec": "καταλαλέω",
-        "gloss": "médire, parler contre",
+        "gloss": "médire; parler contre",
         "freq": 5,
         "vu": false
       },
@@ -18465,7 +18465,7 @@
       {
         "strongNb": 2638,
         "grec": "καταλαμβάνω",
-        "gloss": "comprendre, s’apercevoir, se rendre compte, remporter, s’emparer, saisir, surprendre",
+        "gloss": "comprendre; s’apercevoir; se rendre compte; remporter; s’emparer; saisir; surprendre",
         "freq": 13,
         "vu": false
       },
@@ -18528,7 +18528,7 @@
       {
         "strongNb": 2647,
         "grec": "καταλύω",
-        "gloss": "détruire, abolir, renverser, jeter à bas, loger",
+        "gloss": "détruire; abolir; renverser; jeter à bas; loger",
         "freq": 17,
         "vu": false
       },
@@ -18598,14 +18598,14 @@
       {
         "strongNb": 2657,
         "grec": "κατανοέω",
-        "gloss": "apercevoir, regarder, considérer, jeter les yeux, veiller",
+        "gloss": "apercevoir; regarder; considérer; jeter les yeux; veiller",
         "freq": 14,
         "vu": false
       },
       {
         "strongNb": 2658,
         "grec": "καταντάω",
-        "gloss": "arriver, parvenir, atteindre, venir",
+        "gloss": "arriver; parvenir; atteindre; venir",
         "freq": 13,
         "vu": false
       },
@@ -18661,7 +18661,7 @@
       {
         "strongNb": 2666,
         "grec": "καταπίνω",
-        "gloss": "absorber, avaler, engloutir, accabler",
+        "gloss": "absorber; avaler; engloutir; accabler",
         "freq": 7,
         "vu": false
       },
@@ -18724,9 +18724,9 @@
       {
         "strongNb": 2675,
         "grec": "καταρτίζω",
-        "gloss": "rendre accompli, former, établir, raccomoder, redresser, suppléer, tout préparer, unir parfaitement",
+        "gloss": "mettre en order, restaurer, redresser; préparer, faire, créer",
         "freq": 13,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2676,
@@ -18759,7 +18759,7 @@
       {
         "strongNb": 2680,
         "grec": "κατασκευάζω",
-        "gloss": "bâtir, construire, bien disposer, préparer",
+        "gloss": "bâtir; construire; bien disposer; préparer",
         "freq": 11,
         "vu": false
       },
@@ -19011,21 +19011,21 @@
       {
         "strongNb": 2716,
         "grec": "κατεργάζομαι",
-        "gloss": "accomplir, commettre, causer, former, opérer, produire, surmonter, travailler à",
+        "gloss": "accomplir; commettre; causer; former; opérer; produire; surmonter; travailler à",
         "freq": 22,
         "vu": false
       },
       {
         "strongNb": 2718,
         "grec": "κατέρχομαι",
-        "gloss": "descendre, aborder, arriver",
+        "gloss": "descendre; aborder; arriver",
         "freq": 15,
         "vu": false
       },
       {
         "strongNb": 2719,
         "grec": "κατεσθίω",
-        "gloss": "dévorer, manger",
+        "gloss": "dévorer; manger",
         "freq": 14,
         "vu": false
       },
@@ -19046,7 +19046,7 @@
       {
         "strongNb": 2722,
         "grec": "κατέχω",
-        "gloss": "retenir, garder, demeurer ferme, posséder, occuper",
+        "gloss": "retenir; garder; demeurer ferme; posséder; occuper",
         "freq": 17,
         "vu": false
       },
@@ -19081,7 +19081,7 @@
       {
         "strongNb": 2727,
         "grec": "κατηχέω",
-        "gloss": "enseigner, instruire, ouïr dire",
+        "gloss": "enseigner; instruire; ouïr dire",
         "freq": 8,
         "vu": false
       },
@@ -19207,14 +19207,14 @@
       {
         "strongNb": 2745,
         "grec": "καύχημα, ατος, τό",
-        "gloss": "sujet de gloire, sujet de se glorifier, vanterie",
+        "gloss": "sujet de gloire; sujet de se glorifier; vanterie",
         "freq": 11,
         "vu": false
       },
       {
         "strongNb": 2746,
         "grec": "καύχησις, εως, ἡ",
-        "gloss": "sujet de se glorifier, prétention, sujet de gloire, gloriole",
+        "gloss": "sujet de se glorifier; prétention; sujet de gloire; gloriole",
         "freq": 11,
         "vu": false
       },
@@ -19284,7 +19284,7 @@
       {
         "strongNb": 2756,
         "grec": "κενός, ή, όν",
-        "gloss": "vain, vide",
+        "gloss": "vain; vide",
         "freq": 18,
         "vu": false
       },
@@ -19298,7 +19298,7 @@
       {
         "strongNb": 2758,
         "grec": "κενόω",
-        "gloss": "anéantir, mettre à néant, rendre vain",
+        "gloss": "anéantir; mettre à néant; rendre vain",
         "freq": 5,
         "vu": false
       },
@@ -19382,7 +19382,7 @@
       {
         "strongNb": 2770,
         "grec": "κερδαίνω",
-        "gloss": "acquérir, gagner, éviter",
+        "gloss": "acquérir; gagner; éviter",
         "freq": 17,
         "vu": false
       },
@@ -19557,7 +19557,7 @@
       {
         "strongNb": 2795,
         "grec": "κινέω",
-        "gloss": "mouvoir, ôter, remuer, transporter, hocher, être en émoi, provoquer",
+        "gloss": "mouvoir; ôter; remuer; transporter; hocher; être en émoi; provoquer",
         "freq": 8,
         "vu": false
       },
@@ -19648,7 +19648,7 @@
       {
         "strongNb": 2808,
         "grec": "κλείω",
-        "gloss": "enfermer, fermer",
+        "gloss": "enfermer; fermer",
         "freq": 16,
         "vu": false
       },
@@ -19725,7 +19725,7 @@
       {
         "strongNb": 2819,
         "grec": "κλῆρος, ου, ὁ",
-        "gloss": "héritage, part, sort",
+        "gloss": "héritage; part; sort",
         "freq": 10,
         "vu": false
       },
@@ -19781,7 +19781,7 @@
       {
         "strongNb": 2827,
         "grec": "κλίνω",
-        "gloss": "baisser, faire ployer, reposer",
+        "gloss": "baisser; faire ployer; reposer",
         "freq": 7,
         "vu": false
       },
@@ -19865,28 +19865,28 @@
       {
         "strongNb": 2839,
         "grec": "κοινός, ή, όν",
-        "gloss": "commun, impur, profane",
+        "gloss": "commun; impur; profane",
         "freq": 14,
         "vu": false
       },
       {
         "strongNb": 2840,
         "grec": "κοινόω",
-        "gloss": "profaner, souiller, tenir pour impur",
+        "gloss": "profaner; souiller; tenir pour impur",
         "freq": 14,
         "vu": false
       },
       {
         "strongNb": 2841,
         "grec": "κοινωνέω",
-        "gloss": "participer, communiquer, subvenir",
+        "gloss": "participer; communiquer; subvenir",
         "freq": 8,
         "vu": false
       },
       {
         "strongNb": 2842,
         "grec": "κοινωνία, ας, ἡ",
-        "gloss": "communion, contribution, partage de ses biens",
+        "gloss": "communion; contribution; partage de ses biens",
         "freq": 19,
         "vu": false
       },
@@ -19900,7 +19900,7 @@
       {
         "strongNb": 2844,
         "grec": "κοινωνός, οῦ, ὁ, ἡ",
-        "gloss": "associé, personne ayant communion, complice",
+        "gloss": "associé; personne ayant communion; complice",
         "freq": 10,
         "vu": false
       },
@@ -19963,7 +19963,7 @@
       {
         "strongNb": 2853,
         "grec": "κολλάω",
-        "gloss": "se joindre, se lier, s’amonceler, tenir ferme, attacher, unir",
+        "gloss": "se joindre; se lier; s’amonceler; tenir ferme; attacher; unir",
         "freq": 12,
         "vu": false
       },
@@ -20047,7 +20047,7 @@
       {
         "strongNb": 2865,
         "grec": "κομίζω",
-        "gloss": "apporter, recevoir",
+        "gloss": "apporter; recevoir",
         "freq": 10,
         "vu": false
       },
@@ -20103,7 +20103,7 @@
       {
         "strongNb": 2873,
         "grec": "κόπος, ου, ὁ",
-        "gloss": "peine, travail, déplaisir",
+        "gloss": "peine; travail; déplaisir",
         "freq": 18,
         "vu": false
       },
@@ -20187,7 +20187,7 @@
       {
         "strongNb": 2885,
         "grec": "κοσμέω",
-        "gloss": "orner, apprêter, se parer",
+        "gloss": "orner; apprêter; se parer",
         "freq": 10,
         "vu": false
       },
@@ -20320,7 +20320,7 @@
       {
         "strongNb": 2904,
         "grec": "κράτος, ους, τό",
-        "gloss": "puissance, force, pouvoir",
+        "gloss": "puissance; force; pouvoir",
         "freq": 12,
         "vu": false
       },
@@ -20355,14 +20355,14 @@
       {
         "strongNb": 2909,
         "grec": "κρείττων, ον",
-        "gloss": "meilleur, mieux, plus excellent",
+        "gloss": "meilleur; mieux; plus excellent",
         "freq": 0,
         "vu": false
       },
       {
         "strongNb": 2910,
         "grec": "κρεμάννυμι",
-        "gloss": "pendre, dépendre",
+        "gloss": "pendre; dépendre",
         "freq": 7,
         "vu": false
       },
@@ -20411,7 +20411,7 @@
       {
         "strongNb": 2917,
         "grec": "κρίμα, ατος, τό",
-        "gloss": "procès, faute, sentence, jugement",
+        "gloss": "procès; faute; sentence; jugement",
         "freq": 27,
         "vu": false
       },
@@ -20516,14 +20516,14 @@
       {
         "strongNb": 2932,
         "grec": "κτάομαι",
-        "gloss": "faire provision, posséder",
+        "gloss": "faire provision; posséder",
         "freq": 7,
         "vu": false
       },
       {
         "strongNb": 2933,
         "grec": "κτῆμα, ατος, τό",
-        "gloss": "bien, possession",
+        "gloss": "bien; possession",
         "freq": 4,
         "vu": false
       },
@@ -20551,9 +20551,9 @@
       {
         "strongNb": 2937,
         "grec": "κτίσις, εως, ἡ",
-        "gloss": "nouvelle création, et sera éternelle",
+        "gloss": "création; créature; institution, autorité",
         "freq": 19,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 2938,
@@ -20607,7 +20607,7 @@
       {
         "strongNb": 2945,
         "grec": "κύκλος, ου, ὁ",
-        "gloss": "d’alentour, à l’entour, à la ronde",
+        "gloss": "d’alentour; à l’entour; à la ronde",
         "freq": 8,
         "vu": false
       },
@@ -20810,14 +20810,14 @@
       {
         "strongNb": 2974,
         "grec": "κωφός, ή, όν",
-        "gloss": "muet, sourd",
+        "gloss": "muet; sourd",
         "freq": 14,
         "vu": false
       },
       {
         "strongNb": 2975,
         "grec": "λαγχάνω",
-        "gloss": "jeter, recevoir en partage",
+        "gloss": "jeter; recevoir en partage",
         "freq": 4,
         "vu": false
       },
@@ -20922,7 +20922,7 @@
       {
         "strongNb": 2990,
         "grec": "λανθάνω",
-        "gloss": "être caché, ignorer",
+        "gloss": "être caché; ignorer",
         "freq": 6,
         "vu": false
       },
@@ -20936,7 +20936,7 @@
       {
         "strongNb": 2992,
         "grec": "λαός, οῦ, ὁ",
-        "gloss": "peuple, nation",
+        "gloss": "peuple, population",
         "freq": 141,
         "vu": false
       },
@@ -20992,7 +20992,7 @@
       {
         "strongNb": 3000,
         "grec": "λατρεύω",
-        "gloss": "servir, rendre culte",
+        "gloss": "servir; rendre culte",
         "freq": 20,
         "vu": false
       },
@@ -21055,7 +21055,7 @@
       {
         "strongNb": 3009,
         "grec": "λειτουργία, ας, ἡ",
-        "gloss": "charge, ministère, service",
+        "gloss": "charge; ministère; service",
         "freq": 6,
         "vu": false
       },
@@ -21181,7 +21181,7 @@
       {
         "strongNb": 3027,
         "grec": "λῃστής, οῦ, ὁ",
-        "gloss": "brigand, voleur, larron",
+        "gloss": "brigand; voleur; larron",
         "freq": 15,
         "vu": false
       },
@@ -21279,14 +21279,14 @@
       {
         "strongNb": 3041,
         "grec": "λίμνη, ης, ἡ",
-        "gloss": "lac, étang",
+        "gloss": "lac; étang",
         "freq": 11,
         "vu": false
       },
       {
         "strongNb": 3042,
         "grec": "λιμός, οῦ, ὁ, ἡ",
-        "gloss": "faim, famine",
+        "gloss": "faim; famine",
         "freq": 12,
         "vu": false
       },
@@ -21384,7 +21384,7 @@
       {
         "strongNb": 3056,
         "grec": "λόγος, ου, ὁ",
-        "gloss": "parole, propos, discours, mot, parler, rendre compte, question",
+        "gloss": "parole; discours; langage; mot; récit; bruit; sujet; cas; affaire; cause; compte; raison; renommée",
         "freq": 330,
         "vu": false
       },
@@ -21433,7 +21433,7 @@
       {
         "strongNb": 3063,
         "grec": "λοιπόν",
-        "gloss": "au reste, dorénavant",
+        "gloss": "au reste; dorénavant",
         "freq": 13,
         "vu": false
       },
@@ -21531,7 +21531,7 @@
       {
         "strongNb": 3077,
         "grec": "λύπη, ης, ἡ",
-        "gloss": "tristesse, affliction, regret",
+        "gloss": "tristesse; affliction; regret",
         "freq": 16,
         "vu": false
       },
@@ -21790,16 +21790,16 @@
       {
         "strongNb": 3114,
         "grec": "μακροθυμέω",
-        "gloss": "être patient, user de patience",
+        "gloss": "être patient; user de patience",
         "freq": 10,
         "vu": false
       },
       {
         "strongNb": 3115,
         "grec": "μακροθυμία, ας, ἡ",
-        "gloss": "patience, persévérance",
+        "gloss": "patience; persévérance",
         "freq": 14,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3116,
@@ -22133,7 +22133,7 @@
       {
         "strongNb": 3163,
         "grec": "μάχη, ης, ἡ",
-        "gloss": "bataille, contestation, dispute",
+        "gloss": "bataille; contestation; dispute",
         "freq": 4,
         "vu": false
       },
@@ -22182,7 +22182,7 @@
       {
         "strongNb": 3170,
         "grec": "μεγαλύνω",
-        "gloss": "agrandir, donner plus de largeur, louer hautement, magnifier",
+        "gloss": "agrandir; donner plus de largeur; louer hautement; magnifier",
         "freq": 8,
         "vu": false
       },
@@ -22245,7 +22245,7 @@
       {
         "strongNb": 3179,
         "grec": "μεθίστημι",
-        "gloss": "rejeter, détourner, transporter, renvoyer",
+        "gloss": "rejeter; détourner; transporter; renvoyer",
         "freq": 5,
         "vu": false
       },
@@ -22280,7 +22280,7 @@
       {
         "strongNb": 3184,
         "grec": "μεθύω",
-        "gloss": "bien boire, être ivre, s’enivrer",
+        "gloss": "bien boire; être ivre; s’enivrer",
         "freq": 6,
         "vu": false
       },
@@ -22427,7 +22427,7 @@
       {
         "strongNb": 3305,
         "grec": "μέντοι",
-        "gloss": "cependant, en effet, néanmoins",
+        "gloss": "cependant; en effet; néanmoins",
         "freq": 8,
         "vu": false
       },
@@ -22441,21 +22441,21 @@
       {
         "strongNb": 3307,
         "grec": "μερίζω",
-        "gloss": "diviser, partager, donner pour part, départir, avoir une différence",
+        "gloss": "diviser; partager; donner pour part; départir; avoir une différence",
         "freq": 14,
         "vu": false
       },
       {
         "strongNb": 3308,
         "grec": "μέριμνα, ης, ἡ",
-        "gloss": "sollicitude, souci",
+        "gloss": "sollicitude; souci",
         "freq": 6,
         "vu": false
       },
       {
         "strongNb": 3309,
         "grec": "μεριμνάω",
-        "gloss": "avoir une sollicitude, avoir le cœur occupé, être en souci, s’inquiéter",
+        "gloss": "avoir une sollicitude; avoir le cœur occupé; être en souci; s’inquiéter",
         "freq": 19,
         "vu": false
       },
@@ -22581,7 +22581,7 @@
       {
         "strongNb": 3327,
         "grec": "μεταβαίνω",
-        "gloss": "partir, passer, transporter, se retirer",
+        "gloss": "partir; passer; transporter; se retirer",
         "freq": 12,
         "vu": false
       },
@@ -22602,7 +22602,7 @@
       {
         "strongNb": 3330,
         "grec": "μεταδίδωμι",
-        "gloss": "donner, distribuer, communiquer",
+        "gloss": "donner; distribuer; communiquer",
         "freq": 5,
         "vu": false
       },
@@ -22623,7 +22623,7 @@
       {
         "strongNb": 3333,
         "grec": "μετακαλέω",
-        "gloss": "appeler, chercher",
+        "gloss": "appeler; chercher",
         "freq": 4,
         "vu": false
       },
@@ -22637,7 +22637,7 @@
       {
         "strongNb": 3335,
         "grec": "μεταλαμβάνω",
-        "gloss": "prendre, recevoir, obtenir, participer, trouver",
+        "gloss": "prendre; recevoir; obtenir; participer; trouver",
         "freq": 7,
         "vu": false
       },
@@ -22658,7 +22658,7 @@
       {
         "strongNb": 3338,
         "grec": "μεταμέλομαι",
-        "gloss": "avoir du regret, avoir du remords, se repentir",
+        "gloss": "avoir du regret; avoir du remords; se repentir",
         "freq": 6,
         "vu": false
       },
@@ -22686,14 +22686,14 @@
       {
         "strongNb": 3342,
         "grec": "μεταξύ",
-        "gloss": "pendant ce temps, qui vient ensuite",
+        "gloss": "pendant ce temps; qui vient ensuite",
         "freq": 9,
         "vu": false
       },
       {
         "strongNb": 3343,
         "grec": "μεταπέμπω",
-        "gloss": "envoyer chercher, faire venir, mander",
+        "gloss": "envoyer chercher; faire venir; mander",
         "freq": 9,
         "vu": false
       },
@@ -22728,7 +22728,7 @@
       {
         "strongNb": 3348,
         "grec": "μετέχω",
-        "gloss": "participer, appartenir, user de",
+        "gloss": "participer; appartenir; user de",
         "freq": 8,
         "vu": false
       },
@@ -22749,7 +22749,7 @@
       {
         "strongNb": 3351,
         "grec": "μετοικίζω",
-        "gloss": "faire passer, transporter",
+        "gloss": "faire passer; transporter",
         "freq": 2,
         "vu": false
       },
@@ -22931,7 +22931,7 @@
       {
         "strongNb": 3377,
         "grec": "μηνύω",
-        "gloss": "avertir, déclarer, montrer",
+        "gloss": "avertir; déclarer; montrer",
         "freq": 4,
         "vu": false
       },
@@ -22959,7 +22959,7 @@
       {
         "strongNb": 3381,
         "grec": "μήπως",
-        "gloss": "de peur que, peut-être",
+        "gloss": "de peur que; peut-être",
         "freq": 0,
         "vu": false
       },
@@ -23211,7 +23211,7 @@
       {
         "strongNb": 3417,
         "grec": "μνεία, ας, ἡ",
-        "gloss": "mention, souvenir",
+        "gloss": "mention; souvenir",
         "freq": 7,
         "vu": false
       },
@@ -23239,7 +23239,7 @@
       {
         "strongNb": 3421,
         "grec": "μνημονεύω",
-        "gloss": "avoir de la mémoire, faire mention, se souvenir",
+        "gloss": "avoir de la mémoire; faire mention; se souvenir",
         "freq": 21,
         "vu": false
       },
@@ -23519,7 +23519,7 @@
       {
         "strongNb": 3461,
         "grec": "μυριάς, άδος, ἡ",
-        "gloss": "millier, myriade",
+        "gloss": "millier; myriade",
         "freq": 8,
         "vu": false
       },
@@ -23540,7 +23540,7 @@
       {
         "strongNb": 3464,
         "grec": "μύρον, ου, τό",
-        "gloss": "huile aromatique, parfum",
+        "gloss": "huile aromatique; parfum",
         "freq": 14,
         "vu": false
       },
@@ -23757,7 +23757,7 @@
       {
         "strongNb": 3495,
         "grec": "νεανίσκος, ου, ὁ",
-        "gloss": "jeune homme, jeunes gens",
+        "gloss": "jeune homme; jeunes gens",
         "freq": 11,
         "vu": false
       },
@@ -23904,9 +23904,9 @@
       {
         "strongNb": 3516,
         "grec": "νήπιος, α, ον",
-        "gloss": "en bas âge, enfant, petit enfant, très jeune enfant, bébé",
+        "gloss": "en bas âge, petit enfant, bébé",
         "freq": 14,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3517,
@@ -23939,9 +23939,9 @@
       {
         "strongNb": 3521,
         "grec": "νηστεία, ας, ἡ",
-        "gloss": "privation volontaire de nourriture, se priver ainsi de nourriture",
+        "gloss": "jeûne; Jeûne du Jour des Expiation",
         "freq": 6,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3522,
@@ -23967,7 +23967,7 @@
       {
         "strongNb": 3525,
         "grec": "νήφω",
-        "gloss": "être sobre (au sens moral), veiller",
+        "gloss": "être sobre (au sens moral); veiller",
         "freq": 6,
         "vu": false
       },
@@ -24065,14 +24065,14 @@
       {
         "strongNb": 3539,
         "grec": "νοέω",
-        "gloss": "comprendre, penser, considérer",
+        "gloss": "comprendre; penser; considérer",
         "freq": 14,
         "vu": false
       },
       {
         "strongNb": 3540,
         "grec": "νόημα, ατος, τό",
-        "gloss": "pensée, dessein, entendement",
+        "gloss": "pensée; dessein; entendement",
         "freq": 6,
         "vu": false
       },
@@ -24093,7 +24093,7 @@
       {
         "strongNb": 3543,
         "grec": "νομίζω",
-        "gloss": "croire, penser, estimer, avoir coutume",
+        "gloss": "croire; penser; estimer; avoir coutume",
         "freq": 15,
         "vu": false
       },
@@ -24212,7 +24212,7 @@
       {
         "strongNb": 3560,
         "grec": "νουθετέω",
-        "gloss": "avertir, exhorter",
+        "gloss": "avertir; exhorter",
         "freq": 7,
         "vu": false
       },
@@ -24345,7 +24345,7 @@
       {
         "strongNb": 3579,
         "grec": "ξενίζω",
-        "gloss": "loger, trouver étrange",
+        "gloss": "loger; trouver étrange",
         "freq": 10,
         "vu": false
       },
@@ -24359,7 +24359,7 @@
       {
         "strongNb": 3581,
         "grec": "ξένος, η, ον",
-        "gloss": "étranger, hôte, quelque chose d’extraordinaire",
+        "gloss": "étranger; hôte; quelque chose d’extraordinaire",
         "freq": 14,
         "vu": false
       },
@@ -24373,14 +24373,14 @@
       {
         "strongNb": 3583,
         "grec": "ξηραίνω",
-        "gloss": "sécher, devenir sec, dessécher, s’arrêter",
+        "gloss": "sécher; devenir sec; dessécher; s’arrêter",
         "freq": 15,
         "vu": false
       },
       {
         "strongNb": 3584,
         "grec": "ξηρός, ά, όν",
-        "gloss": "sec, personne qui a les membres secs",
+        "gloss": "sec; personne qui a les membres secs",
         "freq": 8,
         "vu": false
       },
@@ -24492,7 +24492,7 @@
       {
         "strongNb": 3600,
         "grec": "ὀδυνάω",
-        "gloss": "être en grande peine, être peiné, tourmenter",
+        "gloss": "être en grande peine; être peiné; tourmenter",
         "freq": 4,
         "vu": false
       },
@@ -24625,7 +24625,7 @@
       {
         "strongNb": 3619,
         "grec": "οἰκοδομή, ῆς, ἡ",
-        "gloss": "bâtiment, édifice, édification",
+        "gloss": "bâtiment; édifice; édification",
         "freq": 18,
         "vu": false
       },
@@ -24653,7 +24653,7 @@
       {
         "strongNb": 3623,
         "grec": "οἰκονόμος, ου, ὁ",
-        "gloss": "administrateur, dispensateur, intendant",
+        "gloss": "administrateur; dispensateur; intendant",
         "freq": 10,
         "vu": false
       },
@@ -24954,7 +24954,7 @@
       {
         "strongNb": 3666,
         "grec": "ὁμοιόω",
-        "gloss": "comparer, être fait semblable, ressembler",
+        "gloss": "comparer; être fait semblable; ressembler",
         "freq": 15,
         "vu": false
       },
@@ -25045,7 +25045,7 @@
       {
         "strongNb": 3679,
         "grec": "ὀνειδίζω",
-        "gloss": "adresser des reproches, injurier, insulter, reprocher, être dans l’opprobre",
+        "gloss": "adresser des reproches; injurier; insulter; reprocher; être dans l’opprobre",
         "freq": 9,
         "vu": false
       },
@@ -25101,7 +25101,7 @@
       {
         "strongNb": 3687,
         "grec": "ὀνομάζω",
-        "gloss": "appeler, nommer, prêcher, prononcer, invoquer",
+        "gloss": "appeler; nommer; prêcher; prononcer; invoquer",
         "freq": 9,
         "vu": false
       },
@@ -25115,7 +25115,7 @@
       {
         "strongNb": 3689,
         "grec": "ὄντως",
-        "gloss": "en réalité, en vérité, véritablement, vraiment",
+        "gloss": "en réalité; en vérité; véritablement; vraiment",
         "freq": 10,
         "vu": false
       },
@@ -25129,7 +25129,7 @@
       {
         "strongNb": 3691,
         "grec": "ὀξύς, εῖα, ύ",
-        "gloss": "aigu, tranchant, rapide",
+        "gloss": "aigu; tranchant; rapide",
         "freq": 8,
         "vu": false
       },
@@ -25150,7 +25150,7 @@
       {
         "strongNb": 3694,
         "grec": "ὀπίσω",
-        "gloss": "arrière, derrière",
+        "gloss": "arrière; derrière",
         "freq": 35,
         "vu": false
       },
@@ -25192,7 +25192,7 @@
       {
         "strongNb": 3700,
         "grec": "ὀπτάνομαι",
-        "gloss": "mettre ordre, montrer",
+        "gloss": "mettre ordre; montrer",
         "freq": 1,
         "vu": false
       },
@@ -25220,7 +25220,7 @@
       {
         "strongNb": 3704,
         "grec": "ὅπως",
-        "gloss": "de manière à, en sorte que, comment",
+        "gloss": "de manière à; en sorte que; comment",
         "freq": 53,
         "vu": false
       },
@@ -25360,7 +25360,7 @@
       {
         "strongNb": 3724,
         "grec": "ὁρίζω",
-        "gloss": "arrêter, destiner, déterminer, établir",
+        "gloss": "arrêter; destiner; déterminer; établir",
         "freq": 8,
         "vu": false
       },
@@ -25479,7 +25479,7 @@
       {
         "strongNb": 3741,
         "grec": "ὅσιος, ία, ιον",
-        "gloss": "pieux, saint",
+        "gloss": "pieux; saint",
         "freq": 8,
         "vu": false
       },
@@ -25528,7 +25528,7 @@
       {
         "strongNb": 3748,
         "grec": "ὅστις, ἥτις, ὅτι",
-        "gloss": "celui qui",
+        "gloss": "celui qui, quiconque, qui",
         "freq": 144,
         "vu": true
       },
@@ -25759,9 +25759,9 @@
       {
         "strongNb": 3781,
         "grec": "ὀφειλέτης, ου, ὁ",
-        "gloss": "débiteur, coupable",
+        "gloss": "débiteur, celui qui est sous obligation, celui qui est tenu, coupable",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3782,
@@ -25920,7 +25920,7 @@
       {
         "strongNb": 3804,
         "grec": "πάθημα, ατος, τό",
-        "gloss": "souffrance, passion",
+        "gloss": "souffrance; passion",
         "freq": 16,
         "vu": false
       },
@@ -25969,7 +25969,7 @@
       {
         "strongNb": 3811,
         "grec": "παιδεύω",
-        "gloss": "apprendre, enseigner, instruire, discipliner, châtier",
+        "gloss": "apprendre; enseigner; instruire; discipliner; châtier",
         "freq": 13,
         "vu": false
       },
@@ -26025,14 +26025,14 @@
       {
         "strongNb": 3819,
         "grec": "πάλαι",
-        "gloss": "autrefois, jadis, longtemps",
+        "gloss": "autrefois; jadis; longtemps",
         "freq": 6,
         "vu": false
       },
       {
         "strongNb": 3820,
         "grec": "παλαιός, ά, όν",
-        "gloss": "ancien, vieux",
+        "gloss": "ancien; vieux",
         "freq": 19,
         "vu": false
       },
@@ -26046,7 +26046,7 @@
       {
         "strongNb": 3822,
         "grec": "παλαιόω",
-        "gloss": "rendre ancien, vieillir",
+        "gloss": "rendre ancien; vieillir",
         "freq": 4,
         "vu": false
       },
@@ -26193,14 +26193,14 @@
       {
         "strongNb": 3843,
         "grec": "πάντως",
-        "gloss": "absolument, assurément, entièrement",
+        "gloss": "absolument; assurément; entièrement",
         "freq": 8,
         "vu": false
       },
       {
         "strongNb": 3844,
         "grec": "παρά",
-        "gloss": "près de, sur le bord, d’une manière contraire, bien que",
+        "gloss": "près de; sur le bord; d’une manière contraire; bien que",
         "freq": 194,
         "vu": false
       },
@@ -26221,16 +26221,16 @@
       {
         "strongNb": 3847,
         "grec": "παράβασις, εως, ἡ",
-        "gloss": "transgression, action d’enfreindre",
+        "gloss": "transgression",
         "freq": 7,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3848,
         "grec": "παραβάτης, ου, ὁ",
-        "gloss": "transgresseur, celui qui contrevient",
+        "gloss": "transgresseur",
         "freq": 5,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3849,
@@ -26256,7 +26256,7 @@
       {
         "strongNb": 3852,
         "grec": "παραγγελία, ας, ἡ",
-        "gloss": "commandement, ordonnance, ordre",
+        "gloss": "commandement; ordonnance; ordre",
         "freq": 5,
         "vu": false
       },
@@ -26277,7 +26277,7 @@
       {
         "strongNb": 3855,
         "grec": "παράγω",
-        "gloss": "aller, passer",
+        "gloss": "aller; passer",
         "freq": 10,
         "vu": false
       },
@@ -26585,14 +26585,14 @@
       {
         "strongNb": 3899,
         "grec": "παραπορεύομαι",
-        "gloss": "passer, traverser",
+        "gloss": "passer; traverser",
         "freq": 5,
         "vu": false
       },
       {
         "strongNb": 3900,
         "grec": "παράπτωμα, ατος, τό",
-        "gloss": "offense, péchés, faute, chute",
+        "gloss": "faute, chute, transgression",
         "freq": 20,
         "vu": true
       },
@@ -26613,7 +26613,7 @@
       {
         "strongNb": 3903,
         "grec": "παρασκευάζω",
-        "gloss": "être prêt, apprêter, préparer",
+        "gloss": "être prêt; apprêter; préparer",
         "freq": 4,
         "vu": false
       },
@@ -26648,7 +26648,7 @@
       {
         "strongNb": 3908,
         "grec": "παρατίθημι",
-        "gloss": "confier, recommander, remettre, offrir, mettre devant, démontrer, dresser, proposer",
+        "gloss": "confier; recommander; remettre; offrir; mettre devant; démontrer; dresser; proposer",
         "freq": 18,
         "vu": false
       },
@@ -26767,7 +26767,7 @@
       {
         "strongNb": 3925,
         "grec": "παρεμβολή, ῆς, ἡ",
-        "gloss": "armée, camp, forteresse",
+        "gloss": "armée; camp; forteresse",
         "freq": 10,
         "vu": false
       },
@@ -26802,9 +26802,9 @@
       {
         "strongNb": 3930,
         "grec": "παρέχω",
-        "gloss": "accorder, faire, montrer, présenter, procurer, produire, user, venir troubler",
+        "gloss": "apporter; procurer, accorder, présenter; montrer",
         "freq": 16,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 3931,
@@ -26977,7 +26977,7 @@
       {
         "strongNb": 3955,
         "grec": "παρρησιάζομαι",
-        "gloss": "parler avec hardiesse, parler ouvertement, s’enhardir",
+        "gloss": "parler avec hardiesse; parler ouvertement; s’enhardir",
         "freq": 9,
         "vu": false
       },
@@ -27166,7 +27166,7 @@
       {
         "strongNb": 3982,
         "grec": "πείθω",
-        "gloss": "être assuré, avoir confiance, consentir, croire, être d’avis, exhorter, gagner, obéir, persuader, s’appliquer à plaire, se confier, se fier",
+        "gloss": "persuader, convaincre",
         "freq": 52,
         "vu": true
       },
@@ -27376,14 +27376,14 @@
       {
         "strongNb": 4012,
         "grec": "περί",
-        "gloss": "touchant, qui concerne, au sujet de, des environs",
+        "gloss": "touchant; qui concerne; au sujet de; des environs",
         "freq": 331,
         "vu": false
       },
       {
         "strongNb": 4013,
         "grec": "περιάγω",
-        "gloss": "parcourir, mener avec soi, se tourner de tous côtés",
+        "gloss": "parcourir; mener avec soi; se tourner de tous côtés",
         "freq": 6,
         "vu": false
       },
@@ -27404,7 +27404,7 @@
       {
         "strongNb": 4016,
         "grec": "περιβάλλω",
-        "gloss": "entourer, vêtir, jeter sur",
+        "gloss": "entourer; vêtir; jeter sur",
         "freq": 22,
         "vu": false
       },
@@ -27439,14 +27439,14 @@
       {
         "strongNb": 4021,
         "grec": "περίεργος, ον",
-        "gloss": "qui se rapporte à la magie, se mêlant de tout",
+        "gloss": "qui se rapporte à la magie; se mêlant de tout",
         "freq": 2,
         "vu": false
       },
       {
         "strongNb": 4022,
         "grec": "περιέρχομαι",
-        "gloss": "aller, courir çà et là, errer ça et là, suivre la côte",
+        "gloss": "aller; courir çà et là; errer ça et là; suivre la côte",
         "freq": 3,
         "vu": false
       },
@@ -27474,7 +27474,7 @@
       {
         "strongNb": 4026,
         "grec": "περιΐστημι",
-        "gloss": "se tenir à l’entour, éviter",
+        "gloss": "se tenir à l’entour; éviter",
         "freq": 4,
         "vu": false
       },
@@ -27495,7 +27495,7 @@
       {
         "strongNb": 4029,
         "grec": "περίκειμαι",
-        "gloss": "entourer, envelopper, charger",
+        "gloss": "entourer; envelopper; charger",
         "freq": 5,
         "vu": false
       },
@@ -27544,7 +27544,7 @@
       {
         "strongNb": 4036,
         "grec": "περίλυπος, ον",
-        "gloss": "fort triste, saisi de tristesse",
+        "gloss": "fort triste; saisi de tristesse",
         "freq": 4,
         "vu": false
       },
@@ -27621,7 +27621,7 @@
       {
         "strongNb": 4047,
         "grec": "περιποίησις, εως, ἡ",
-        "gloss": "possession, conservation",
+        "gloss": "possession; conservation",
         "freq": 5,
         "vu": false
       },
@@ -27677,7 +27677,7 @@
       {
         "strongNb": 4055,
         "grec": "περισσότερος, τέρα, τερον",
-        "gloss": "plus grand, plus sévère, excessif",
+        "gloss": "plus grand; plus sévère; excessif",
         "freq": 9,
         "vu": false
       },
@@ -27740,7 +27740,7 @@
       {
         "strongNb": 4064,
         "grec": "περιφέρω",
-        "gloss": "apporter, emporter çà et là, porter partout, séduire",
+        "gloss": "apporter; emporter çà et là; porter partout; séduire",
         "freq": 3,
         "vu": false
       },
@@ -27803,7 +27803,7 @@
       {
         "strongNb": 4073,
         "grec": "πέτρα, ας, ἡ",
-        "gloss": "roc, rocher",
+        "gloss": "roc; rocher",
         "freq": 15,
         "vu": false
       },
@@ -27992,7 +27992,7 @@
       {
         "strongNb": 4100,
         "grec": "πιστεύω",
-        "gloss": "croire, se fier, confier",
+        "gloss": "croire; se fier; confier",
         "freq": 238,
         "vu": false
       },
@@ -28034,7 +28034,7 @@
       {
         "strongNb": 4106,
         "grec": "πλάνη, ης, ἡ",
-        "gloss": "erreur, séduction, égarement",
+        "gloss": "erreur; séduction; égarement",
         "freq": 10,
         "vu": false
       },
@@ -28181,7 +28181,7 @@
       {
         "strongNb": 4127,
         "grec": "πληγή, ῆς, ἡ",
-        "gloss": "coup, plaie",
+        "gloss": "coup; plaie",
         "freq": 22,
         "vu": false
       },
@@ -28195,7 +28195,7 @@
       {
         "strongNb": 4129,
         "grec": "πληθύνω",
-        "gloss": "croître, prévaloir, multiplier",
+        "gloss": "croître; prévaloir; multiplier",
         "freq": 12,
         "vu": false
       },
@@ -28237,7 +28237,7 @@
       {
         "strongNb": 4135,
         "grec": "πληροφορέω",
-        "gloss": "accomplir pleinement, recevoir pleinement, demeurer bien assurer, être pleinement convaincu",
+        "gloss": "accomplir pleinement; recevoir pleinement; demeurer bien assurer; être pleinement convaincu",
         "freq": 6,
         "vu": false
       },
@@ -28258,7 +28258,7 @@
       {
         "strongNb": 4138,
         "grec": "πλήρωμα, ατος, τό",
-        "gloss": "accomplissement, plénitude, ce qui est plein, contenu, partie ajoutée, tout",
+        "gloss": "accomplissement; plénitude; ce qui est plein; contenu; partie ajoutée; tout",
         "freq": 17,
         "vu": false
       },
@@ -28321,7 +28321,7 @@
       {
         "strongNb": 4147,
         "grec": "πλουτέω",
-        "gloss": "enrichir, être riche",
+        "gloss": "enrichir; être riche",
         "freq": 12,
         "vu": false
       },
@@ -28433,7 +28433,7 @@
       {
         "strongNb": 4163,
         "grec": "ποιητής, οῦ, ὁ",
-        "gloss": "celui qui accomplit, observateur, réalisateur, poète",
+        "gloss": "celui qui accomplit; observateur; réalisateur; poète",
         "freq": 6,
         "vu": false
       },
@@ -28447,7 +28447,7 @@
       {
         "strongNb": 4165,
         "grec": "ποιμαίνω",
-        "gloss": "être le berger, paître, faire paître, se repaître",
+        "gloss": "être le berger; paître, faire paître; se repaître",
         "freq": 11,
         "vu": false
       },
@@ -28489,7 +28489,7 @@
       {
         "strongNb": 4171,
         "grec": "πόλεμος, ου, ὁ",
-        "gloss": "combat, guerre",
+        "gloss": "combat; guerre",
         "freq": 18,
         "vu": false
       },
@@ -28538,7 +28538,7 @@
       {
         "strongNb": 4178,
         "grec": "πολλάκις",
-        "gloss": "plusieurs fois, souvent",
+        "gloss": "plusieurs fois; souvent",
         "freq": 18,
         "vu": false
       },
@@ -28678,9 +28678,9 @@
       {
         "strongNb": 4198,
         "grec": "πορεύομαι",
-        "gloss": "aller, aller son chemin, continuer, aller, marcher, partir, se diriger, se retirer, suivre, venir",
+        "gloss": "aller, marcher, voyager, s'en aller",
         "freq": 150,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4199,
@@ -28818,9 +28818,9 @@
       {
         "strongNb": 4218,
         "grec": "ποτέ",
-        "gloss": "autrefois, un jour",
+        "gloss": "auparavant; autrefois; à quelque moment; jamais; quand",
         "freq": 29,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 4219,
@@ -28846,7 +28846,7 @@
       {
         "strongNb": 4222,
         "grec": "ποτίζω",
-        "gloss": "boire, abreuver, arroser",
+        "gloss": "boire; abreuver; arroser",
         "freq": 15,
         "vu": false
       },
@@ -28895,7 +28895,7 @@
       {
         "strongNb": 4229,
         "grec": "πρᾶγμα, ατος, τό",
-        "gloss": "action, affaire",
+        "gloss": "action; affaire",
         "freq": 11,
         "vu": false
       },
@@ -28930,7 +28930,7 @@
       {
         "strongNb": 4234,
         "grec": "πρᾶξις, εως, ἡ",
-        "gloss": "action, conduite, fonction",
+        "gloss": "action; conduite; fonction",
         "freq": 6,
         "vu": false
       },
@@ -29070,7 +29070,7 @@
       {
         "strongNb": 4254,
         "grec": "προάγω",
-        "gloss": "aller devant, amener, devancer, faire précédemment, mener en avant, précéder, produire",
+        "gloss": "aller devant; amener; devancer; faire précédemment; mener en avant; précéder; produire",
         "freq": 19,
         "vu": false
       },
@@ -29112,7 +29112,7 @@
       {
         "strongNb": 4260,
         "grec": "προβαίνω",
-        "gloss": "passer plus avant, être fort avancé",
+        "gloss": "passer plus avant; être fort avancé",
         "freq": 5,
         "vu": false
       },
@@ -29161,7 +29161,7 @@
       {
         "strongNb": 4267,
         "grec": "προγινώσκω",
-        "gloss": "connaître, préconnaître",
+        "gloss": "connaître; préconnaître",
         "freq": 5,
         "vu": false
       },
@@ -29182,9 +29182,9 @@
       {
         "strongNb": 4270,
         "grec": "προγράφω",
-        "gloss": "être écrit d’avance, avoir été dépeint",
+        "gloss": "écrire d’avance; dépeindre",
         "freq": 4,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4271,
@@ -29259,7 +29259,7 @@
       {
         "strongNb": 4281,
         "grec": "προέρχομαι",
-        "gloss": "aller devant, arriver avant, marcher devant, prendre les devants",
+        "gloss": "aller devant; arriver avant; marcher devant; prendre les devants",
         "freq": 6,
         "vu": false
       },
@@ -29329,7 +29329,7 @@
       {
         "strongNb": 4291,
         "grec": "προΐστημι",
-        "gloss": "conduire, être à la tête, être les premiers, présider",
+        "gloss": "conduire; être à la tête; être les premiers; présider",
         "freq": 8,
         "vu": false
       },
@@ -29357,7 +29357,7 @@
       {
         "strongNb": 4295,
         "grec": "πρόκειμαι",
-        "gloss": "exister, proposer",
+        "gloss": "exister; proposer",
         "freq": 5,
         "vu": false
       },
@@ -29378,7 +29378,7 @@
       {
         "strongNb": 4298,
         "grec": "προκόπτω",
-        "gloss": "avancer, aller plus avant",
+        "gloss": "avancer; aller plus avant",
         "freq": 6,
         "vu": false
       },
@@ -29399,9 +29399,9 @@
       {
         "strongNb": 4301,
         "grec": "προλαμβάνω",
-        "gloss": "anticiper",
+        "gloss": "prendre avant; anticiper, devancer; surprendre, prendre par surprise",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4302,
@@ -29511,7 +29511,7 @@
       {
         "strongNb": 4317,
         "grec": "προσάγω",
-        "gloss": "amener, approcher, présenter à",
+        "gloss": "amener; approcher; présenter à",
         "freq": 4,
         "vu": false
       },
@@ -29581,14 +29581,14 @@
       {
         "strongNb": 4327,
         "grec": "προσδέχομαι",
-        "gloss": "accueillir, attendre avec confiance, accepter, nourrir",
+        "gloss": "accueillir; attendre avec confiance; accepter; nourrir",
         "freq": 14,
         "vu": false
       },
       {
         "strongNb": 4328,
         "grec": "προσδοκάω",
-        "gloss": "attendre, être dans l’attente",
+        "gloss": "attendre; être dans l’attente",
         "freq": 16,
         "vu": false
       },
@@ -29651,7 +29651,7 @@
       {
         "strongNb": 4337,
         "grec": "προσέχω",
-        "gloss": "être adonné, s’attacher à, être attentif, prendre garde",
+        "gloss": "être adonné; s’attacher à; être attentif; prendre garde",
         "freq": 24,
         "vu": false
       },
@@ -29686,7 +29686,7 @@
       {
         "strongNb": 4342,
         "grec": "προσκαρτερέω",
-        "gloss": "persévérer, s’appliquer constamment, se tenir toujours auprès, être à la disposition",
+        "gloss": "persévérer; s’appliquer constamment; se tenir toujours auprès; être à la disposition",
         "freq": 10,
         "vu": false
       },
@@ -29728,7 +29728,7 @@
       {
         "strongNb": 4348,
         "grec": "πρόσκομμα, ατος, τό",
-        "gloss": "occasion de scandale, pierre",
+        "gloss": "occasion de scandale; pierre",
         "freq": 6,
         "vu": false
       },
@@ -29742,7 +29742,7 @@
       {
         "strongNb": 4350,
         "grec": "προσκόπτω",
-        "gloss": "battre, broncher, heurter",
+        "gloss": "battre; broncher; heurter",
         "freq": 8,
         "vu": false
       },
@@ -29777,7 +29777,7 @@
       {
         "strongNb": 4355,
         "grec": "προσλαμβάνω",
-        "gloss": "prendre, recevoir, prendre (de la nourriture)",
+        "gloss": "prendre; recevoir; prendre (de la nourriture)",
         "freq": 12,
         "vu": false
       },
@@ -29833,7 +29833,7 @@
       {
         "strongNb": 4363,
         "grec": "προσπίπτω",
-        "gloss": "donner contre, se jeter",
+        "gloss": "donner contre; se jeter",
         "freq": 8,
         "vu": false
       },
@@ -29875,7 +29875,7 @@
       {
         "strongNb": 4369,
         "grec": "προστίθημι",
-        "gloss": "ajouter, donner par-dessus, continuer, se joindre, réunir, adresser",
+        "gloss": "ajouter; donner par-dessus; continuer; se joindre; réunir; adresser",
         "freq": 18,
         "vu": false
       },
@@ -29931,7 +29931,7 @@
       {
         "strongNb": 4377,
         "grec": "προσφωνέω",
-        "gloss": "s’adresser, appeler, crier, adresser la parole",
+        "gloss": "s’adresser; appeler; crier; adresser la parole",
         "freq": 7,
         "vu": false
       },
@@ -29994,7 +29994,7 @@
       {
         "strongNb": 4386,
         "grec": "πρότερον",
-        "gloss": "précédent, la première fois, auparavant, d’autrefois, d’abord",
+        "gloss": "précédent; la première fois; auparavant; d’autrefois; d’abord",
         "freq": 5,
         "vu": false
       },
@@ -30176,14 +30176,14 @@
       {
         "strongNb": 4412,
         "grec": "πρῶτον",
-        "gloss": "au commencement, auparavant, d’abord, en premier, premièrement",
+        "gloss": "au commencement; auparavant; d’abord; en premier; premièrement",
         "freq": 0,
         "vu": false
       },
       {
         "strongNb": 4413,
         "grec": "πρῶτος, η, ον",
-        "gloss": "premier, de premier rang, plus beau, principal",
+        "gloss": "premier; de premier rang; plus beau; principal",
         "freq": 154,
         "vu": false
       },
@@ -30372,14 +30372,14 @@
       {
         "strongNb": 4440,
         "grec": "πυλών, ῶνος, ὁ",
-        "gloss": "porte, vestibule",
+        "gloss": "porte; vestibule",
         "freq": 18,
         "vu": false
       },
       {
         "strongNb": 4441,
         "grec": "πυνθάνομαι",
-        "gloss": "apprendre, demander",
+        "gloss": "apprendre; demander",
         "freq": 12,
         "vu": false
       },
@@ -30428,7 +30428,7 @@
       {
         "strongNb": 4448,
         "grec": "πυρόω",
-        "gloss": "brûler, embraser, enflammer, flamber",
+        "gloss": "brûler; embraser; enflammer; flamber",
         "freq": 6,
         "vu": false
       },
@@ -30491,21 +30491,21 @@
       {
         "strongNb": 4457,
         "grec": "πώρωσις, εως, ἡ",
-        "gloss": "endurcissement, opiniâtreté",
+        "gloss": "endurcissement, opiniâtreté, aveuglement",
         "freq": 3,
         "vu": true
       },
       {
         "strongNb": 4458,
         "grec": "-πώς",
-        "gloss": "en quelque façon, sur la manière",
+        "gloss": "d'une certaine manière, quelque peu",
         "freq": 15,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4459,
         "grec": "πῶς",
-        "gloss": "comment?",
+        "gloss": "comment? de quelle manière?",
         "freq": 104,
         "vu": true
       },
@@ -30694,7 +30694,7 @@
       {
         "strongNb": 4486,
         "grec": "ῥήγνυμι, ῥήσσω",
-        "gloss": "agiter violemment, déchirer, renverser, rompre, éclater en cris (de joie)",
+        "gloss": "agiter violemment; déchirer; renverser; rompre; éclater en cris (de joie)",
         "freq": 7,
         "vu": false
       },
@@ -31009,7 +31009,7 @@
       {
         "strongNb": 4531,
         "grec": "σαλεύω",
-        "gloss": "agiter, ébranler, se laisser bouleverser, secouer",
+        "gloss": "agiter; ébranler; se laisser bouleverser; secouer",
         "freq": 15,
         "vu": false
       },
@@ -31142,7 +31142,7 @@
       {
         "strongNb": 4550,
         "grec": "σαπρός, ά, όν",
-        "gloss": "mauvais, déshonnête",
+        "gloss": "mauvais; déshonnête",
         "freq": 8,
         "vu": false
       },
@@ -31324,7 +31324,7 @@
       {
         "strongNb": 4576,
         "grec": "σέβομαι",
-        "gloss": "honorer, révérer, servir",
+        "gloss": "honorer; révérer; servir",
         "freq": 10,
         "vu": false
       },
@@ -31345,7 +31345,7 @@
       {
         "strongNb": 4579,
         "grec": "σείω",
-        "gloss": "agiter, être ému, secouer, trembler",
+        "gloss": "agiter; être ému; secouer; trembler",
         "freq": 5,
         "vu": false
       },
@@ -31429,7 +31429,7 @@
       {
         "strongNb": 4591,
         "grec": "σημαίνω",
-        "gloss": "signifier, déclarer, indiquer",
+        "gloss": "signifier; déclarer; indiquer",
         "freq": 6,
         "vu": false
       },
@@ -31499,7 +31499,7 @@
       {
         "strongNb": 4601,
         "grec": "σιγάω",
-        "gloss": "garder le silence, se taire",
+        "gloss": "garder le silence; se taire",
         "freq": 10,
         "vu": false
       },
@@ -31534,7 +31534,7 @@
       {
         "strongNb": 4606,
         "grec": "Σιδώνιος, ία, ιον",
-        "gloss": "Sidonien, Sidonie",
+        "gloss": "Sidonien; Sidonie",
         "freq": 2,
         "vu": false
       },
@@ -31639,7 +31639,7 @@
       {
         "strongNb": 4621,
         "grec": "σῖτος, ου, ὁ",
-        "gloss": "blé, froment",
+        "gloss": "blé; froment",
         "freq": 14,
         "vu": false
       },
@@ -31653,7 +31653,7 @@
       {
         "strongNb": 4623,
         "grec": "σιωπάω",
-        "gloss": "garder le silence, se taire",
+        "gloss": "garder le silence; se taire",
         "freq": 10,
         "vu": false
       },
@@ -31667,7 +31667,7 @@
       {
         "strongNb": 4625,
         "grec": "σκάνδαλον, ου, τό",
-        "gloss": "chute, pierre, scandale",
+        "gloss": "chute; pierre; scandale",
         "freq": 15,
         "vu": false
       },
@@ -31723,7 +31723,7 @@
       {
         "strongNb": 4633,
         "grec": "σκηνή, ῆς, ἡ",
-        "gloss": "habitation, tente, tabernacle",
+        "gloss": "habitation; tente; tabernacle",
         "freq": 20,
         "vu": false
       },
@@ -31786,7 +31786,7 @@
       {
         "strongNb": 4642,
         "grec": "σκληρός, ά, όν",
-        "gloss": "violent, dur",
+        "gloss": "violent; dur",
         "freq": 5,
         "vu": false
       },
@@ -31828,7 +31828,7 @@
       {
         "strongNb": 4648,
         "grec": "σκοπέω",
-        "gloss": "avoir l’œil, fixer les regards, prendre garde, regarder",
+        "gloss": "avoir l’œil; fixer les regards; prendre garde; regarder",
         "freq": 6,
         "vu": false
       },
@@ -31870,7 +31870,7 @@
       {
         "strongNb": 4654,
         "grec": "σκοτίζω",
-        "gloss": "être rempli de ténèbres, obscurcir",
+        "gloss": "être rempli de ténèbres; obscurcir",
         "freq": 5,
         "vu": false
       },
@@ -31912,7 +31912,7 @@
       {
         "strongNb": 4660,
         "grec": "σκύλλω",
-        "gloss": "se donner la peine, tourmenter",
+        "gloss": "se donner la peine; tourmenter",
         "freq": 4,
         "vu": false
       },
@@ -32024,7 +32024,7 @@
       {
         "strongNb": 4676,
         "grec": "σουδάριον, ου, τό",
-        "gloss": "linge, mouchoir, suaire",
+        "gloss": "linge; mouchoir; suaire",
         "freq": 4,
         "vu": false
       },
@@ -32122,7 +32122,7 @@
       {
         "strongNb": 4690,
         "grec": "σπέρμα, ατος, τό",
-        "gloss": "postérité, semence",
+        "gloss": "postérité; semence",
         "freq": 43,
         "vu": false
       },
@@ -32136,7 +32136,7 @@
       {
         "strongNb": 4692,
         "grec": "σπεύδω",
-        "gloss": "hâter, se hâter",
+        "gloss": "hâter; se hâter",
         "freq": 6,
         "vu": false
       },
@@ -32220,9 +32220,9 @@
       {
         "strongNb": 4704,
         "grec": "σπουδάζω",
-        "gloss": "désirer ardemment, s’appliquer, s’empresser, s’étudier",
+        "gloss": "désirer ardemment, s’appliquer, s’empresser, s’efforcer",
         "freq": 11,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4705,
@@ -32262,7 +32262,7 @@
       {
         "strongNb": 4710,
         "grec": "σπουδή, ῆς, ἡ",
-        "gloss": "activité, empressement",
+        "gloss": "activité; empressement",
         "freq": 12,
         "vu": false
       },
@@ -32290,7 +32290,7 @@
       {
         "strongNb": 4714,
         "grec": "στάσις, εως, ἡ",
-        "gloss": "contestation, dispute, place, émeute",
+        "gloss": "contestation; dispute; place; émeute",
         "freq": 9,
         "vu": false
       },
@@ -32465,9 +32465,9 @@
       {
         "strongNb": 4739,
         "grec": "στήκω",
-        "gloss": "se tenir debout, tenir ferme",
+        "gloss": "se tenir debout; tenir ferme",
         "freq": 9,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 4740,
@@ -32479,7 +32479,7 @@
       {
         "strongNb": 4741,
         "grec": "στηρίζω",
-        "gloss": "affermir, dresser résolument, établir fermement, fortifier",
+        "gloss": "affermir; dresser résolument; établir fermement; fortifier",
         "freq": 13,
         "vu": false
       },
@@ -32563,7 +32563,7 @@
       {
         "strongNb": 4753,
         "grec": "στράτευμα, ατος, τό",
-        "gloss": "armée, troupes",
+        "gloss": "armée; troupes",
         "freq": 8,
         "vu": false
       },
@@ -32577,7 +32577,7 @@
       {
         "strongNb": 4755,
         "grec": "στρατηγός, οῦ, ὁ",
-        "gloss": "capitaine, commandant, prêteur",
+        "gloss": "capitaine; commandant; prêteur",
         "freq": 10,
         "vu": false
       },
@@ -32626,7 +32626,7 @@
       {
         "strongNb": 4762,
         "grec": "στρέφω",
-        "gloss": "retourner, tourner, reporter, présenter, changer, convertir",
+        "gloss": "retourner; tourner; reporter; présenter; changer; convertir",
         "freq": 21,
         "vu": false
       },
@@ -32745,7 +32745,7 @@
       {
         "strongNb": 4779,
         "grec": "συγκαλέω",
-        "gloss": "appeler, assembler, convoquer",
+        "gloss": "appeler; assembler; convoquer",
         "freq": 8,
         "vu": false
       },
@@ -32822,7 +32822,7 @@
       {
         "strongNb": 4790,
         "grec": "συγκοινωνέω",
-        "gloss": "avoir de commun avec, participer, prendre part",
+        "gloss": "avoir de commun avec; participer; prendre part",
         "freq": 3,
         "vu": false
       },
@@ -32871,7 +32871,7 @@
       {
         "strongNb": 4797,
         "grec": "συγχέω",
-        "gloss": "confondre, être en confusion, pousser au tumulte",
+        "gloss": "confondre; être en confusion; pousser au tumulte",
         "freq": 5,
         "vu": false
       },
@@ -32906,7 +32906,7 @@
       {
         "strongNb": 4802,
         "grec": "συζητέω",
-        "gloss": "s’interroger, se demander, s’entre-demander, contester",
+        "gloss": "s’interroger; se demander; s’entre-demander; contester",
         "freq": 10,
         "vu": false
       },
@@ -32997,14 +32997,14 @@
       {
         "strongNb": 4815,
         "grec": "συλλαμβάνω",
-        "gloss": "aider, concevoir, prendre",
+        "gloss": "aider; concevoir; prendre",
         "freq": 16,
         "vu": false
       },
       {
         "strongNb": 4816,
         "grec": "συλλέγω",
-        "gloss": "cueillir, mettre ensemble",
+        "gloss": "cueillir; mettre ensemble",
         "freq": 8,
         "vu": false
       },
@@ -33032,7 +33032,7 @@
       {
         "strongNb": 4820,
         "grec": "συμβάλλω",
-        "gloss": "se concerter, contribuer à l’avancement, rejoindre, repasser",
+        "gloss": "se concerter; contribuer à l’avancement; rejoindre; repasser",
         "freq": 6,
         "vu": false
       },
@@ -33046,7 +33046,7 @@
       {
         "strongNb": 4822,
         "grec": "συμβιβάζω",
-        "gloss": "conclure, démontrer, instruire, lier ensemble, unir, tirer",
+        "gloss": "conclure; démontrer; instruire; lier ensemble; unir; tirer",
         "freq": 7,
         "vu": false
       },
@@ -33158,7 +33158,7 @@
       {
         "strongNb": 4838,
         "grec": "συμπαραλαμβάνω",
-        "gloss": "prendre avec, emmener avec soi",
+        "gloss": "prendre avec; emmener avec soi",
         "freq": 2,
         "vu": false
       },
@@ -33228,7 +33228,7 @@
       {
         "strongNb": 4848,
         "grec": "συμπορεύομαι",
-        "gloss": "aller avec, marcher avec, rassembler",
+        "gloss": "aller avec; marcher avec; rassembler",
         "freq": 4,
         "vu": false
       },
@@ -33249,7 +33249,7 @@
       {
         "strongNb": 4851,
         "grec": "συμφέρω",
-        "gloss": "chose profitable, profit",
+        "gloss": "chose profitable; profit",
         "freq": 17,
         "vu": false
       },
@@ -33284,7 +33284,7 @@
       {
         "strongNb": 4856,
         "grec": "συμφωνέω",
-        "gloss": "convenir, être d’accord, s’accorder",
+        "gloss": "convenir; être d’accord; s’accorder",
         "freq": 6,
         "vu": false
       },
@@ -33424,7 +33424,7 @@
       {
         "strongNb": 4876,
         "grec": "συναντάω",
-        "gloss": "aller au-devant, devoir arriver, venir à la rencontre",
+        "gloss": "aller au-devant; devoir arriver; venir à la rencontre",
         "freq": 6,
         "vu": false
       },
@@ -33480,7 +33480,7 @@
       {
         "strongNb": 4884,
         "grec": "συναρπάζω",
-        "gloss": "entraîner, se saisir, entraîner avec soi",
+        "gloss": "entraîner; se saisir; entraîner avec soi",
         "freq": 4,
         "vu": false
       },
@@ -33613,14 +33613,14 @@
       {
         "strongNb": 4903,
         "grec": "συνεργέω",
-        "gloss": "agir avec, coopérer, travailler à l’œuvre, travailler ensemble",
+        "gloss": "agir avec; coopérer; travailler à l’œuvre; travailler ensemble",
         "freq": 5,
         "vu": false
       },
       {
         "strongNb": 4904,
         "grec": "συνεργός, οῦ, ὁ",
-        "gloss": "collaborateur, compagnon d’œuvre, coopérant",
+        "gloss": "collaborateur; compagnon d’œuvre; coopérant",
         "freq": 12,
         "vu": false
       },
@@ -33655,7 +33655,7 @@
       {
         "strongNb": 4909,
         "grec": "συνευδοκέω",
-        "gloss": "consentir, prendre plaisir, vouloir",
+        "gloss": "consentir; prendre plaisir; vouloir",
         "freq": 6,
         "vu": false
       },
@@ -33676,7 +33676,7 @@
       {
         "strongNb": 4912,
         "grec": "συνέχω",
-        "gloss": "affliger, être à l’étroit, être en proie, étreindre, presser, souffrir, serrer, saisir, tenir, boucher",
+        "gloss": "affliger; être à l’étroit; être en proie; étreindre; presser; souffrir; serrer; saisir; tenir; boucher",
         "freq": 12,
         "vu": false
       },
@@ -33739,7 +33739,7 @@
       {
         "strongNb": 4921,
         "grec": "συνίστημι, συνιστάνω",
-        "gloss": "mettre en évidence, constituer, montrer, recommander, subsister",
+        "gloss": "mettre en évidence; constituer; montrer; recommander; subsister",
         "freq": 16,
         "vu": false
       },
@@ -33809,7 +33809,7 @@
       {
         "strongNb": 4931,
         "grec": "συντελέω",
-        "gloss": "accomplir, conclure, consommer",
+        "gloss": "accomplir; conclure; consommer",
         "freq": 6,
         "vu": false
       },
@@ -33830,7 +33830,7 @@
       {
         "strongNb": 4934,
         "grec": "συντίθημι",
-        "gloss": "se mettre d’accord, s’entendre, se joindre pour insister",
+        "gloss": "se mettre d’accord; s’entendre; se joindre pour insister",
         "freq": 3,
         "vu": false
       },
@@ -33851,7 +33851,7 @@
       {
         "strongNb": 4937,
         "grec": "συντρίβω",
-        "gloss": "briser, froisser, mettre en pièces",
+        "gloss": "briser; froisser; mettre en pièces",
         "freq": 7,
         "vu": false
       },
@@ -34075,14 +34075,14 @@
       {
         "strongNb": 4969,
         "grec": "σφάζω",
-        "gloss": "égorger, immoler, tuer, frapper",
+        "gloss": "égorger; immoler; tuer; frapper",
         "freq": 10,
         "vu": false
       },
       {
         "strongNb": 4970,
         "grec": "σφόδρα",
-        "gloss": "extrêmement, fort",
+        "gloss": "extrêmement; fort",
         "freq": 11,
         "vu": false
       },
@@ -34131,7 +34131,7 @@
       {
         "strongNb": 4977,
         "grec": "σχίζω",
-        "gloss": "déchirer, fendre, partager",
+        "gloss": "déchirer; fendre; partager",
         "freq": 11,
         "vu": false
       },
@@ -34166,7 +34166,7 @@
       {
         "strongNb": 4982,
         "grec": "σῴζω",
-        "gloss": "sauver, obtenir le salut, guérir, délivrer, conserver",
+        "gloss": "sauver; obtenir le salut; guérir; délivrer; conserver",
         "freq": 106,
         "vu": false
       },
@@ -34243,7 +34243,7 @@
       {
         "strongNb": 4993,
         "grec": "σωφρονέω",
-        "gloss": "avoir de saines pensées, être dans son bon sens, être sobre",
+        "gloss": "avoir de saines pensées; être dans son bon sens; être sobre",
         "freq": 6,
         "vu": false
       },
@@ -34390,14 +34390,14 @@
       {
         "strongNb": 5014,
         "grec": "ταπείνωσις, εως, ἡ",
-        "gloss": "humiliation, humble état",
+        "gloss": "humiliation; humble état",
         "freq": 4,
         "vu": false
       },
       {
         "strongNb": 5015,
         "grec": "ταράσσω",
-        "gloss": "agiter, troubler",
+        "gloss": "agiter; troubler",
         "freq": 17,
         "vu": false
       },
@@ -34439,7 +34439,7 @@
       {
         "strongNb": 5021,
         "grec": "τάσσω",
-        "gloss": "fixer, destiner, ordonner, placer, décider, se vouer",
+        "gloss": "fixer; destiner; ordonner; placer; décider; se vouer",
         "freq": 8,
         "vu": false
       },
@@ -34502,7 +34502,7 @@
       {
         "strongNb": 5030,
         "grec": "ταχέως",
-        "gloss": "bientôt, précipitamment, promptement",
+        "gloss": "bientôt; précipitamment; promptement",
         "freq": 10,
         "vu": false
       },
@@ -34516,7 +34516,7 @@
       {
         "strongNb": 5032,
         "grec": "τάχιον",
-        "gloss": "bientôt, plus tôt, vite, plus vite",
+        "gloss": "bientôt; plus tôt; vite; plus vite",
         "freq": 4,
         "vu": false
       },
@@ -34537,7 +34537,7 @@
       {
         "strongNb": 5035,
         "grec": "ταχύ",
-        "gloss": "aussitôt, bientôt, promptement",
+        "gloss": "aussitôt; bientôt; promptement",
         "freq": 9,
         "vu": false
       },
@@ -34614,7 +34614,7 @@
       {
         "strongNb": 5046,
         "grec": "τέλειος, α, ον",
-        "gloss": "homme fait, parfait",
+        "gloss": "homme fait; parfait",
         "freq": 19,
         "vu": false
       },
@@ -34663,7 +34663,7 @@
       {
         "strongNb": 5053,
         "grec": "τελευτάω",
-        "gloss": "être mort, mourir, terminer sa vie",
+        "gloss": "être mort; mourir; terminer sa vie",
         "freq": 11,
         "vu": false
       },
@@ -34761,7 +34761,7 @@
       {
         "strongNb": 5067,
         "grec": "τέταρτος, η, ον",
-        "gloss": "quart, quatrième",
+        "gloss": "quart; quatrième",
         "freq": 10,
         "vu": false
       },
@@ -34908,7 +34908,7 @@
       {
         "strongNb": 5088,
         "grec": "τίκτω",
-        "gloss": "accoucher, enfanter, naître, mettre au monde, produire",
+        "gloss": "accoucher; enfanter; naître; mettre au monde; produire",
         "freq": 18,
         "vu": false
       },
@@ -34943,7 +34943,7 @@
       {
         "strongNb": 5093,
         "grec": "τίμιος, α, ον",
-        "gloss": "en honneur, honoré, précieux",
+        "gloss": "en honneur; honoré; précieux",
         "freq": 13,
         "vu": false
       },
@@ -35069,7 +35069,7 @@
       {
         "strongNb": 5111,
         "grec": "τολμάω",
-        "gloss": "avoir de la hardiesse, être osé, prendre sur soi, prendre sur soi d’agir, consentir",
+        "gloss": "avoir de la hardiesse; être osé; prendre sur soi; prendre sur soi d’agir; consentir",
         "freq": 16,
         "vu": false
       },
@@ -35118,14 +35118,14 @@
       {
         "strongNb": 5118,
         "grec": "τοσοῦτος, τοσαύτη, τοσοῦτο",
-        "gloss": "assez, si grand",
+        "gloss": "tant, si grand, si nombreux, si long, etc.",
         "freq": 19,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5119,
         "grec": "τότε",
-        "gloss": "alors",
+        "gloss": "alors, puis, ensuite",
         "freq": 159,
         "vu": true
       },
@@ -35216,7 +35216,7 @@
       {
         "strongNb": 5132,
         "grec": "τράπεζα, ης, ἡ",
-        "gloss": "table, banque",
+        "gloss": "table; banque",
         "freq": 15,
         "vu": false
       },
@@ -35286,7 +35286,7 @@
       {
         "strongNb": 5142,
         "grec": "τρέφω",
-        "gloss": "nourrir, rassasier, élever",
+        "gloss": "nourrir; rassasier; élever",
         "freq": 8,
         "vu": false
       },
@@ -35370,7 +35370,7 @@
       {
         "strongNb": 5154,
         "grec": "τρίτος, η, ον",
-        "gloss": "tiers, troisième, troisième fois",
+        "gloss": "tiers; troisième; troisième fois",
         "freq": 56,
         "vu": false
       },
@@ -35398,7 +35398,7 @@
       {
         "strongNb": 5158,
         "grec": "τρόπος, ου, ὁ",
-        "gloss": "conduite, manière",
+        "gloss": "conduite; manière",
         "freq": 13,
         "vu": false
       },
@@ -35412,7 +35412,7 @@
       {
         "strongNb": 5160,
         "grec": "τροφή, ῆς, ἡ",
-        "gloss": "nourriture, vivres",
+        "gloss": "nourriture; vivres",
         "freq": 16,
         "vu": false
       },
@@ -35531,7 +35531,7 @@
       {
         "strongNb": 5177,
         "grec": "τυγχάνω",
-        "gloss": "obtenir, accepter, recevoir, être ordinaire, venir",
+        "gloss": "obtenir; accepter; recevoir; être ordinaire; venir",
         "freq": 11,
         "vu": false
       },
@@ -35552,7 +35552,7 @@
       {
         "strongNb": 5180,
         "grec": "τύπτω",
-        "gloss": "battre, blesser, frapper",
+        "gloss": "battre; blesser; frapper",
         "freq": 13,
         "vu": false
       },
@@ -35825,7 +35825,7 @@
       {
         "strongNb": 5219,
         "grec": "ὑπακούω",
-        "gloss": "obéir, écouter avec attention",
+        "gloss": "obéir; écouter avec attention",
         "freq": 21,
         "vu": false
       },
@@ -35839,7 +35839,7 @@
       {
         "strongNb": 5221,
         "grec": "ὑπαντάω",
-        "gloss": "venir à la rencontre, affronter",
+        "gloss": "venir à la rencontre; affronter",
         "freq": 10,
         "vu": false
       },
@@ -35860,16 +35860,16 @@
       {
         "strongNb": 5224,
         "grec": "ὑπάρχοντα",
-        "gloss": "biens, choses que l’on possède",
+        "gloss": "biens; choses que l’on possède",
         "freq": 0,
         "vu": false
       },
       {
         "strongNb": 5225,
         "grec": "ὑπάρχω",
-        "gloss": "exister",
+        "gloss": "alléguer; posséder; se trouver; vivre",
         "freq": 60,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 5226,
@@ -35944,9 +35944,9 @@
       {
         "strongNb": 5236,
         "grec": "ὑπερβολή, ῆς, ἡ",
-        "gloss": "au plus haut point, par excellence, excessivement, au delà de toute mesure, l’excellence, à outrance",
+        "gloss": "excellence; extraordinaire; mesure",
         "freq": 8,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 5237,
@@ -35986,7 +35986,7 @@
       {
         "strongNb": 5242,
         "grec": "ὑπερέχω",
-        "gloss": "excellence, surpasser, supérieur",
+        "gloss": "excellence; surpasser; supérieur",
         "freq": 5,
         "vu": false
       },
@@ -36000,7 +36000,7 @@
       {
         "strongNb": 5244,
         "grec": "ὑπερήφανος, ον",
-        "gloss": "hautain, orgueilleux",
+        "gloss": "hautain; orgueilleux",
         "freq": 5,
         "vu": false
       },
@@ -36126,14 +36126,14 @@
       {
         "strongNb": 5262,
         "grec": "ὑπόδειγμα, ατος, τό",
-        "gloss": "exemple, image, figure",
+        "gloss": "exemple; image; figure",
         "freq": 6,
         "vu": false
       },
       {
         "strongNb": 5263,
         "grec": "ὑποδείκνυμι",
-        "gloss": "avertir, montrer",
+        "gloss": "avertir; montrer",
         "freq": 6,
         "vu": false
       },
@@ -36210,7 +36210,7 @@
       {
         "strongNb": 5274,
         "grec": "ὑπολαμβάνω",
-        "gloss": "estimer, recevoir, reprendre",
+        "gloss": "estimer; recevoir; reprendre",
         "freq": 5,
         "vu": false
       },
@@ -36238,14 +36238,14 @@
       {
         "strongNb": 5278,
         "grec": "ὑπομένω",
-        "gloss": "demeurer, endurer, être patient, persévérer, souffrir",
+        "gloss": "demeurer; endurer; être patient; persévérer; souffrir",
         "freq": 17,
         "vu": false
       },
       {
         "strongNb": 5279,
         "grec": "ὑπομιμνῄσκω",
-        "gloss": "faire se souvenir, rappeler, remettre en mémoire, se ressouvenir",
+        "gloss": "faire se souvenir; rappeler; remettre en mémoire; se ressouvenir",
         "freq": 7,
         "vu": false
       },
@@ -36308,7 +36308,7 @@
       {
         "strongNb": 5288,
         "grec": "ὑποστέλλω",
-        "gloss": "cacher, se retirer discrètement",
+        "gloss": "cacher; se retirer discrètement",
         "freq": 4,
         "vu": false
       },
@@ -36385,9 +36385,9 @@
       {
         "strongNb": 5299,
         "grec": "ὑπωπιάζω",
-        "gloss": "rompre la tête, traiter durement",
+        "gloss": "mortifier, casser la tête",
         "freq": 2,
-        "vu": true
+        "vu": false
       },
       {
         "strongNb": 5300,
@@ -36413,7 +36413,7 @@
       {
         "strongNb": 5303,
         "grec": "ὑστέρημα, ατος, τό",
-        "gloss": "besoin, ce qui manque, ce qui reste, pénurie",
+        "gloss": "besoin; ce qui manque; ce qui reste; pénurie",
         "freq": 9,
         "vu": false
       },
@@ -36427,7 +36427,7 @@
       {
         "strongNb": 5305,
         "grec": "ὕστερον",
-        "gloss": "à la fin, plus tard",
+        "gloss": "à la fin; plus tard",
         "freq": 0,
         "vu": false
       },
@@ -36448,7 +36448,7 @@
       {
         "strongNb": 5308,
         "grec": "ὑψηλός, ή, όν",
-        "gloss": "élevé, haut, ce qui est haut estimé",
+        "gloss": "élevé; haut; ce qui est haut estimé",
         "freq": 11,
         "vu": false
       },
@@ -36469,7 +36469,7 @@
       {
         "strongNb": 5311,
         "grec": "ὕψος, ους, τό",
-        "gloss": "élévation, en haut, hauteur",
+        "gloss": "élévation; en haut; hauteur",
         "freq": 6,
         "vu": false
       },
@@ -36497,7 +36497,7 @@
       {
         "strongNb": 5315,
         "grec": "φάγω",
-        "gloss": "manger, dévorer",
+        "gloss": "manger; dévorer",
         "freq": 92,
         "vu": false
       },
@@ -36665,7 +36665,7 @@
       {
         "strongNb": 5339,
         "grec": "φείδομαι",
-        "gloss": "épargner, s’abstenir",
+        "gloss": "épargner; s’abstenir",
         "freq": 10,
         "vu": false
       },
@@ -36728,7 +36728,7 @@
       {
         "strongNb": 5348,
         "grec": "φθάνω",
-        "gloss": "arriver, devancer, parvenir, venir",
+        "gloss": "arriver; devancer; parvenir; venir",
         "freq": 7,
         "vu": false
       },
@@ -36770,9 +36770,9 @@
       {
         "strongNb": 5354,
         "grec": "φθονέω",
-        "gloss": "porter envie, envier, jalouser",
+        "gloss": "envier, être jaloux",
         "freq": 1,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5355,
@@ -37141,7 +37141,7 @@
       {
         "strongNb": 5407,
         "grec": "φονεύω",
-        "gloss": "mettre à mort, tuer",
+        "gloss": "mettre à mort; tuer",
         "freq": 12,
         "vu": false
       },
@@ -37295,7 +37295,7 @@
       {
         "strongNb": 5429,
         "grec": "φρόνιμος, ον",
-        "gloss": "intelligent, prudent, sage",
+        "gloss": "intelligent; prudent; sage",
         "freq": 14,
         "vu": false
       },
@@ -37435,7 +37435,7 @@
       {
         "strongNb": 5449,
         "grec": "φύσις, εως, ἡ",
-        "gloss": "espèce, nature",
+        "gloss": "espèce; nature",
         "freq": 14,
         "vu": false
       },
@@ -37519,7 +37519,7 @@
       {
         "strongNb": 5461,
         "grec": "φωτίζω",
-        "gloss": "éclairer, faire briller la lumière, faire luire, mettre en lumière",
+        "gloss": "éclairer; faire briller la lumière; faire luire; mettre en lumière",
         "freq": 11,
         "vu": false
       },
@@ -37547,7 +37547,7 @@
       {
         "strongNb": 5465,
         "grec": "χαλάω",
-        "gloss": "descendre, dévaler, lâcher",
+        "gloss": "descendre; dévaler; lâcher",
         "freq": 7,
         "vu": false
       },
@@ -37680,9 +37680,9 @@
       {
         "strongNb": 5484,
         "grec": "χάριν",
-        "gloss": "pour quelle raison",
+        "gloss": "(+G) parce que, à cause de, par motif de",
         "freq": 9,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5485,
@@ -37855,7 +37855,7 @@
       {
         "strongNb": 5509,
         "grec": "χιτών, ῶνος, ὁ",
-        "gloss": "robe, tunique, vêtement de dessous",
+        "gloss": "robe; tunique; vêtement de dessous",
         "freq": 11,
         "vu": false
       },
@@ -37897,7 +37897,7 @@
       {
         "strongNb": 5515,
         "grec": "χλωρός, ά, όν",
-        "gloss": "vert, livide, verdure",
+        "gloss": "vert; livide; verdure",
         "freq": 4,
         "vu": false
       },
@@ -37974,7 +37974,7 @@
       {
         "strongNb": 5526,
         "grec": "χορτάζω",
-        "gloss": "rassasier, remplir son ventre",
+        "gloss": "rassasier; remplir son ventre",
         "freq": 16,
         "vu": false
       },
@@ -37988,7 +37988,7 @@
       {
         "strongNb": 5528,
         "grec": "χόρτος, ου, ὁ",
-        "gloss": "foin, herbe, tige",
+        "gloss": "foin; herbe; tige",
         "freq": 15,
         "vu": false
       },
@@ -38002,7 +38002,7 @@
       {
         "strongNb": 5530,
         "grec": "χράομαι",
-        "gloss": "employer, traiter, user",
+        "gloss": "employer; traiter; user",
         "freq": 11,
         "vu": false
       },
@@ -38226,28 +38226,28 @@
       {
         "strongNb": 5562,
         "grec": "χωρέω",
-        "gloss": "aller, avoir une entrée, se trouver de place, venir, recevoir, contenir",
+        "gloss": "aller; avoir une entrée; se trouver de place; venir; recevoir; contenir",
         "freq": 10,
         "vu": false
       },
       {
         "strongNb": 5563,
         "grec": "χωρίζω",
-        "gloss": "aller, partir",
+        "gloss": "aller; partir",
         "freq": 13,
         "vu": false
       },
       {
         "strongNb": 5564,
         "grec": "χωρίον, ου, τό",
-        "gloss": "champ, lieu, domaine, terre",
+        "gloss": "champ; lieu; domaine; terre",
         "freq": 10,
         "vu": false
       },
       {
         "strongNb": 5565,
         "grec": "χωρίς",
-        "gloss": "outre, sans",
+        "gloss": "outre; sans",
         "freq": 40,
         "vu": false
       },
@@ -38527,9 +38527,9 @@
       {
         "strongNb": 5605,
         "grec": "ὠδίνω",
-        "gloss": "être en travail d’enfant, travailler pour l’enfantement",
+        "gloss": "souffrir les douleurs de l'enfantement",
         "freq": 3,
-        "vu": false
+        "vu": true
       },
       {
         "strongNb": 5606,
@@ -38653,7 +38653,7 @@
       {
         "strongNb": 5623,
         "grec": "ὠφελέω",
-        "gloss": "être profitable, gagner, avoir un profit, servir, tirer profit",
+        "gloss": "être profitable; gagner; avoir un profit; servir; tirer profit",
         "freq": 15,
         "vu": false
       },
@@ -39138,8 +39138,8 @@
       {
         "strongNb": 68,
         "hebreu": "אֶבֶן",
-        "gloss": "pierre (grande ou petite)",
-        "vu": false,
+        "gloss": "pierre, rocher",
+        "vu": true,
         "freq": 273
       },
       {
@@ -40167,8 +40167,8 @@
       {
         "strongNb": 215,
         "hebreu": "אוֹר",
-        "gloss": "être ou devenir brillant, lumière",
-        "vu": false,
+        "gloss": "(Qal) être brillant, devenir brillant; (Nif) être illuminé; (Hif) luire, briller, illuminer, allumer",
+        "vu": true,
         "freq": 43
       },
       {
@@ -41245,8 +41245,8 @@
       {
         "strongNb": 369,
         "hebreu": "אַיִן",
-        "gloss": "rien, pas, zéro, nullement",
-        "vu": false,
+        "gloss": "il n'y a pas, il n'est pas",
+        "vu": true,
         "freq": 789
       },
       {
@@ -42322,14 +42322,14 @@
       },
       {
         "strongNb": 523,
-        "hebreu": "אוּמַּה",
-        "gloss": "peuple, tribu, nation, peuplade",
-        "vu": false,
+        "hebreu": "אֻמַּה",
+        "gloss": "peuple, tribu",
+        "vu": true,
         "freq": 7
       },
       {
         "strongNb": 524,
-        "hebreu": "אוּמָּה",
+        "hebreu": "אֻמָּה",
         "gloss": "peuple, tribu, nation",
         "vu": false,
         "freq": 8
@@ -43932,9 +43932,9 @@
       },
       {
         "strongNb": 753,
-        "hebreu": "אוֹרֶך",
+        "hebreu": "אֹרֶךְ",
         "gloss": "longueur",
-        "vu": false,
+        "vu": true,
         "freq": 95
       },
       {
@@ -44268,9 +44268,9 @@
       },
       {
         "strongNb": 801,
-        "hebreu": "אִשָּׁה",
-        "gloss": "holocaustes, offrandes consumées par le feu",
-        "vu": false,
+        "hebreu": "אִשֶּׁה",
+        "gloss": "offrande, sacrifice consumé par le feu",
+        "vu": true,
         "freq": 65
       },
       {
@@ -44948,8 +44948,8 @@
       {
         "strongNb": 898,
         "hebreu": "בָּגַד",
-        "gloss": "agir en trichant, en trahissant, être infidèle",
-        "vu": false,
+        "gloss": "trahir, tromper",
+        "vu": true,
         "freq": 49
       },
       {
@@ -45480,8 +45480,8 @@
       {
         "strongNb": 974,
         "hebreu": "בָּחַן",
-        "gloss": "examiner, essayer, éprouver",
-        "vu": false,
+        "gloss": "(Qal) tester, mettre à l'épreuve; (Nif) subir une épreuve",
+        "vu": true,
         "freq": 29
       },
       {
@@ -46117,7 +46117,7 @@
       {
         "strongNb": 1065,
         "hebreu": "בְּכִי",
-        "gloss": "pleurs, larmes",
+        "gloss": "pleur",
         "vu": true,
         "freq": 30
       },
@@ -46466,9 +46466,9 @@
       },
       {
         "strongNb": 1115,
-        "hebreu": "בִּלתִּי",
-        "gloss": "pas, excepté, sauf",
-        "vu": false,
+        "hebreu": "בִּלְתִּי",
+        "gloss": "absence de, rien; sauf, excepté",
+        "vu": true,
         "freq": 112
       },
       {
@@ -46824,8 +46824,8 @@
       {
         "strongNb": 1166,
         "hebreu": "בָּעַל",
-        "gloss": "épouser, dominer, posséder",
-        "vu": false,
+        "gloss": "(Qal) dominer, épouser; (Nif) se marier",
+        "vu": true,
         "freq": 15
       },
       {
@@ -47300,8 +47300,8 @@
       {
         "strongNb": 1234,
         "hebreu": "בָּקַע",
-        "gloss": "fendre, diviser, rompre, briser, déchirer",
-        "vu": false,
+        "gloss": "(Qal) fendre, forcer l'entrée; (Nif) se fendre, éclater; (Pi) fendre, faire éclater, percer; (Pu) être éventré; (Hif) forcer l'entrée, faire une percée; (Hof) être forcée, percée; (Hit) être éventré, se fendre",
+        "vu": true,
         "freq": 51
       },
       {
@@ -48434,8 +48434,8 @@
       {
         "strongNb": 1396,
         "hebreu": "גָּבַר",
-        "gloss": "prévaloir, avoir de la force, être fort, puissant, grand",
-        "vu": false,
+        "gloss": "prévaloir, être fort, être puissant, être grand",
+        "vu": true,
         "freq": 25
       },
       {
@@ -51485,9 +51485,9 @@
       },
       {
         "strongNb": 1832,
-        "hebreu": "דִּמעָה",
-        "gloss": "larmes",
-        "vu": false,
+        "hebreu": "דִּמְעָה",
+        "gloss": "pleurs",
+        "vu": true,
         "freq": 23
       },
       {
@@ -52550,7 +52550,7 @@
       {
         "strongNb": 1984,
         "hebreu": "הָלַל",
-        "gloss": "briller",
+        "gloss": "(Qal) briller, se vanter; (Pi) louer",
         "vu": false,
         "freq": 165
       },
@@ -52942,8 +52942,8 @@
       {
         "strongNb": 2040,
         "hebreu": "הָרַס",
-        "gloss": "déchirer, rompre, renverser, battre, détruire, ruiner",
-        "vu": false,
+        "gloss": "(Qal) démolir, détruire, casser; (Nif) être démoli, être mis en ruines; (Pi) démolir, détruire",
+        "vu": true,
         "freq": 43
       },
       {
@@ -53102,9 +53102,9 @@
       },
       {
         "strongNb": 2063,
-        "hebreu": "זוֹאתּ",
-        "gloss": "ce, celui-ci, ici, lequel, cecicela, l’un l’autre, tel",
-        "vu": false,
+        "hebreu": "זֹאת",
+        "gloss": "cette, cela, celle-ci, celle-là",
+        "vu": true,
         "freq": 604
       },
       {
@@ -54020,8 +54020,8 @@
       {
         "strongNb": 2194,
         "hebreu": "זָעַם",
-        "gloss": "dénoncer, exprimer de l’indignation, être indigné",
-        "vu": false,
+        "gloss": "(Qal) maudire, être en colère; (Nif) se mettre en colère",
+        "vu": true,
         "freq": 12
       },
       {
@@ -54195,8 +54195,8 @@
       {
         "strongNb": 2219,
         "hebreu": "זָרָה",
-        "gloss": "éparpiller, vanner, disperser, étendre, être éparpillé, être dispersé",
-        "vu": false,
+        "gloss": "(Qal) jeter, répandre, vanner, disperser; (Nif) être dispersé; (Pi) répandre, disperser; (Pi) pénétrer, connaître",
+        "vu": true,
         "freq": 39
       },
       {
@@ -55483,8 +55483,8 @@
       {
         "strongNb": 2403,
         "hebreu": "חַטָּאָה חַטָּאתּ",
-        "gloss": "péché, pécheur, pécheresse",
-        "vu": false,
+        "gloss": "péché",
+        "vu": true,
         "freq": 295
       },
       {
@@ -57247,15 +57247,15 @@
       {
         "strongNb": 2655,
         "hebreu": "חָפֵץ",
-        "gloss": "désir, être bien disposé, prendre plaisir à",
-        "vu": false,
+        "gloss": "vouloir, désirer, aimer, prendre plaisir à",
+        "vu": true,
         "freq": 12
       },
       {
         "strongNb": 2656,
         "hebreu": "חֵפֶץ",
-        "gloss": "délices, plaisir",
-        "vu": false,
+        "gloss": "délice, plaisir",
+        "vu": true,
         "freq": 39
       },
       {
@@ -57723,8 +57723,8 @@
       {
         "strongNb": 2723,
         "hebreu": "חָרבָּה",
-        "gloss": "un lieu laissé en ruines, désolation",
-        "vu": false,
+        "gloss": "terre sèche, lieu de désolation",
+        "vu": true,
         "freq": 42
       },
       {
@@ -58415,9 +58415,9 @@
       },
       {
         "strongNb": 2822,
-        "hebreu": "חוֹשֶׁך",
+        "hebreu": "חֹשֶׁךְ",
         "gloss": "obscurité, ténèbres",
-        "vu": false,
+        "vu": true,
         "freq": 80
       },
       {
@@ -59809,8 +59809,8 @@
       {
         "strongNb": 3021,
         "hebreu": "יָגַע",
-        "gloss": "peiner, travailler, se lasser, être las",
-        "vu": false,
+        "gloss": "(Qal) être fatigué, se fatiguer; (Pi) fatiguer, imposer une fatigue; (Hif) fatiguer",
+        "vu": true,
         "freq": 26
       },
       {
@@ -59977,7 +59977,7 @@
       {
         "strongNb": 3045,
         "hebreu": "יָדַע",
-        "gloss": "Savoir, connaître",
+        "gloss": "savoir, connaître",
         "vu": false,
         "freq": 946
       },
@@ -61097,7 +61097,7 @@
       {
         "strongNb": 3205,
         "hebreu": "יָלַד",
-        "gloss": "Enfanter, engendrer, accoucher",
+        "gloss": "enfanter, engendrer, accoucher",
         "vu": false,
         "freq": 496
       },
@@ -65150,8 +65150,8 @@
       {
         "strongNb": 3784,
         "hebreu": "כָּשַׁף",
-        "gloss": "(Piel) pratiquer la sorcellerie ou la magie",
-        "vu": false,
+        "gloss": "(Pi) pratiquer la sorcellerie ou la magie",
+        "vu": true,
         "freq": 6
       },
       {
@@ -65472,8 +65472,8 @@
       {
         "strongNb": 3830,
         "hebreu": "לְבוּשׁ לְבוּשׁ",
-        "gloss": "vêtements, appareil, habillement, habits",
-        "vu": false,
+        "gloss": "vêtement, habit, appareil",
+        "vu": true,
         "freq": 33
       },
       {
@@ -65661,8 +65661,8 @@
       {
         "strongNb": 3857,
         "hebreu": "לָהַט",
-        "gloss": "brûler, flamber, roussir, allumer, flamme",
-        "vu": false,
+        "gloss": "(Qal) brûler; (Pi) brûler, consummer",
+        "vu": true,
         "freq": 11
       },
       {
@@ -66634,8 +66634,8 @@
       {
         "strongNb": 3996,
         "hebreu": "מָבוֹא",
-        "gloss": "entrée, une venue, entrer",
-        "vu": false,
+        "gloss": "entrée, venue, coucher, couchant",
+        "vu": true,
         "freq": 22
       },
       {
@@ -69000,7 +69000,7 @@
       {
         "strongNb": 4334,
         "hebreu": "מִישׁוֹר",
-        "gloss": "pays uni, plaine; droiture",
+        "gloss": "plaine; droiture",
         "vu": true,
         "freq": 23
       },
@@ -69406,8 +69406,8 @@
       {
         "strongNb": 4392,
         "hebreu": "מָלֵא",
-        "gloss": "plein, plénitude, ce qui remplit",
-        "vu": false,
+        "gloss": "être plein, remplir, être accompli; (Nif) être plein; (Pi) remplir, achever, accomplir; (Pu) être plein; (Hit) s'amasser, s'assembler",
+        "vu": true,
         "freq": 66
       },
       {
@@ -69609,8 +69609,8 @@
       {
         "strongNb": 4421,
         "hebreu": "מִלחָמָה",
-        "gloss": "bataille, guerre, combattant",
-        "vu": false,
+        "gloss": "bataille, guerre",
+        "vu": true,
         "freq": 320
       },
       {
@@ -69658,8 +69658,8 @@
       {
         "strongNb": 4428,
         "hebreu": "מֶלֶך",
-        "gloss": "Malcom = «roi très haut»",
-        "vu": false,
+        "gloss": "roi",
+        "vu": true,
         "freq": 2526
       },
       {
@@ -70890,15 +70890,15 @@
       {
         "strongNb": 4604,
         "hebreu": "מַעַל",
-        "gloss": "action infidèle ou traître, transgression",
-        "vu": false,
+        "gloss": "infidélité, fausseté",
+        "vu": true,
         "freq": 29
       },
       {
         "strongNb": 4605,
         "hebreu": "מַעַל",
-        "gloss": "partie la plus haute, partie supérieure",
-        "vu": false,
+        "gloss": "au-dessus, en haut",
+        "vu": true,
         "freq": 140
       },
       {
@@ -71736,9 +71736,9 @@
       },
       {
         "strongNb": 4725,
-        "hebreu": "מָקוֹם מָקוֹם מְקוֹמָה מְקוֹמָה",
-        "gloss": "lieu où l’on se tient",
-        "vu": false,
+        "hebreu": "מָקוֹם",
+        "gloss": "lieu, endroit, espace, position",
+        "vu": true,
         "freq": 401
       },
       {
@@ -73675,9 +73675,9 @@
       },
       {
         "strongNb": 5002,
-        "hebreu": "נְאוּם",
-        "gloss": "(Qal) parole, déclaration (de prophète)",
-        "vu": false,
+        "hebreu": "נְאֻם",
+        "gloss": "parole, déclaration",
+        "vu": true,
         "freq": 376
       },
       {
@@ -74417,9 +74417,9 @@
       },
       {
         "strongNb": 5108,
-        "hebreu": "נוֹב נֵיבּ",
+        "hebreu": "נִיב",
         "gloss": "fruit",
-        "vu": false,
+        "vu": true,
         "freq": 2
       },
       {
@@ -75272,8 +75272,8 @@
       {
         "strongNb": 5230,
         "hebreu": "נָכַל",
-        "gloss": "être trompeur, être rusé, être fripon",
-        "vu": false,
+        "gloss": "(Qal) tricher; (Pi) tromper, duper; (Hit) intriguer",
+        "vu": true,
         "freq": 4
       },
       {
@@ -75769,8 +75769,8 @@
       {
         "strongNb": 5301,
         "hebreu": "נָפַח",
-        "gloss": "respirer, souffler, renifler, bouillir, perdre (la vie)",
-        "vu": false,
+        "gloss": "(Qal) souffler, haleter; (Pu) être attisé; (Hif) faire rendre l'âme, souffler en signe de mépris",
+        "vu": true,
         "freq": 12
       },
       {
@@ -75965,8 +75965,8 @@
       {
         "strongNb": 5329,
         "hebreu": "נָצַח",
-        "gloss": "exceller, être brillant, être prééminent, être perpétuel, être préposé, surveillant, être durable",
-        "vu": false,
+        "gloss": "(Nif) continuer, prolonger; (Pi) surveiller, inspecter, chef? (suscription de Ps., sens inc.)",
+        "vu": true,
         "freq": 65
       },
       {
@@ -76329,8 +76329,8 @@
       {
         "strongNb": 5381,
         "hebreu": "נָשַׂג",
-        "gloss": "atteindre, rattraper, avoir la main sur",
-        "vu": false,
+        "gloss": "(Hif) atteindre, rattraper, avoir la main sur",
+        "vu": true,
         "freq": 50
       },
       {
@@ -76734,7 +76734,7 @@
       },
       {
         "strongNb": 5439,
-        "hebreu": "סָבִיבּ סֶבִיבָּה",
+        "hebreu": "סָבִיב",
         "gloss": "lieux qui sont autour, les environs",
         "vu": false,
         "freq": 336
@@ -78905,15 +78905,15 @@
       {
         "strongNb": 5749,
         "hebreu": "עוּד",
-        "gloss": "rendre, répéter, refaire, faire de nouveau",
-        "vu": false,
+        "gloss": "(Pi) étreindre, ligoter; (Po) soutenir, aider; (Hitpo) s'entraider; (Hif) prendre à temoin, témoigner, avertir, exhorter; (Hof) être averti",
+        "vu": true,
         "freq": 44
       },
       {
         "strongNb": 5750,
         "hebreu": "עוֹד עוֹד",
-        "gloss": "une continuation, un séjour",
-        "vu": false,
+        "gloss": "Encore, encore une fois, de nouveau, encore plus, beaucoup, continuellement",
+        "vu": true,
         "freq": 490
       },
       {
@@ -79045,8 +79045,8 @@
       {
         "strongNb": 5769,
         "hebreu": "עוֹלָם עוֹלָם",
-        "gloss": "longue durée, antiquité, le futur, pour toujours, jamais, éternel, perpétuel, vieux, ancien, monde",
-        "vu": false,
+        "gloss": "longue durée, éternité, antiquité, le futur, pour toujours",
+        "vu": true,
         "freq": 438
       },
       {
@@ -79059,8 +79059,8 @@
       {
         "strongNb": 5771,
         "hebreu": "עָווֹן עָווֹן",
-        "gloss": "perversité, dépravation, iniquité, culpabilité ou châtiment de l’iniquité",
-        "vu": false,
+        "gloss": "iniquité, culpabilité, châtiment de l’iniquité",
+        "vu": true,
         "freq": 233
       },
       {
@@ -80459,15 +80459,15 @@
       {
         "strongNb": 5971,
         "hebreu": "עַם",
-        "gloss": "Ammi = «mon peuple»",
-        "vu": false,
+        "gloss": "peuple",
+        "vu": true,
         "freq": 1872
       },
       {
         "strongNb": 5972,
         "hebreu": "עַם",
         "gloss": "peuple",
-        "vu": false,
+        "vu": true,
         "freq": 15
       },
       {
@@ -82467,9 +82467,9 @@
       },
       {
         "strongNb": 6258,
-        "hebreu": "עַתּתָּה",
+        "hebreu": "עַתָּה",
         "gloss": "maintenant",
-        "vu": false,
+        "vu": true,
         "freq": 433
       },
       {
@@ -84490,7 +84490,7 @@
       },
       {
         "strongNb": 6547,
-        "hebreu": "פַּרעוֹה",
+        "hebreu": "פַּרְעוֹה",
         "gloss": "Pharaon = «grand palais»",
         "vu": false,
         "freq": 274
@@ -87178,9 +87178,9 @@
       },
       {
         "strongNb": 6931,
-        "hebreu": "קַדמוֹנִי קַדמוֹנִי",
-        "gloss": "précédent, ancien, oriental",
-        "vu": false,
+        "hebreu": "קַדְמֹנִי",
+        "gloss": "oriental; d'autrefois, ancien",
+        "vu": true,
         "freq": 10
       },
       {
@@ -87270,8 +87270,8 @@
       {
         "strongNb": 6944,
         "hebreu": "קוֹדֶשׁ",
-        "gloss": "mise à part, sainteté, consécration, séparation",
-        "vu": false,
+        "gloss": "saintété, sacré",
+        "vu": true,
         "freq": 469
       },
       {
@@ -90111,9 +90111,9 @@
       },
       {
         "strongNb": 7350,
-        "hebreu": "רָחוֹק רָחוֹק",
-        "gloss": "éloigné, loin, distant, terres distantes, ceux qui sont éloignés",
-        "vu": false,
+        "hebreu": "רָחוֹק",
+        "gloss": "loin, éloigné",
+        "vu": true,
         "freq": 84
       },
       {
@@ -90406,8 +90406,8 @@
       {
         "strongNb": 7392,
         "hebreu": "רָכַב",
-        "gloss": "monter et faire du cheval",
-        "vu": false,
+        "gloss": "(Qal) monter (cheval, âne, char), conduire; (Hif) faire chevaucher, faire monter",
+        "vu": true,
         "freq": 78
       },
       {
@@ -91897,7 +91897,7 @@
       {
         "strongNb": 7605,
         "hebreu": "שְׁאָר",
-        "gloss": "reste, résidu, restant, ce qui reste",
+        "gloss": "reste",
         "vu": true,
         "freq": 26
       },
@@ -94109,8 +94109,8 @@
       {
         "strongNb": 7921,
         "hebreu": "שָׁכוֹל",
-        "gloss": "être privé, rendu sans enfant, échouer, avorter, faire une fausse couche",
-        "vu": false,
+        "gloss": "qui a perdu ses enfants, qui est privé d'enfant, stéril",
+        "vu": true,
         "freq": 23
       },
       {
@@ -94235,8 +94235,8 @@
       {
         "strongNb": 7939,
         "hebreu": "שָׂכָר",
-        "gloss": "louage, gages",
-        "vu": false,
+        "gloss": "louage, gages, salaire",
+        "vu": true,
         "freq": 28
       },
       {
@@ -96181,8 +96181,8 @@
       {
         "strongNb": 8217,
         "hebreu": "שָׁפָל",
-        "gloss": "bas, humble",
-        "vu": false,
+        "gloss": "bas, abaissé, humble",
+        "vu": true,
         "freq": 17
       },
       {
@@ -98253,8 +98253,8 @@
       {
         "strongNb": 8513,
         "hebreu": "תְּלָאָה",
-        "gloss": "travailler dur, privation, détresse, fatigue",
-        "vu": false,
+        "gloss": "fatigue, peine, mal, adversité",
+        "vu": true,
         "freq": 4
       },
       {
@@ -98498,8 +98498,8 @@
       {
         "strongNb": 8548,
         "hebreu": "תָּמִידּ",
-        "gloss": "continuité, perpétuité, étendre",
-        "vu": false,
+        "gloss": "continuité, perpétuité; perpétuellement, toujours",
+        "vu": true,
         "freq": 104
       },
       {
@@ -98701,8 +98701,8 @@
       {
         "strongNb": 8577,
         "hebreu": "תַּנִּין תַּנִּים",
-        "gloss": "dragon, serpent, monstre marin",
-        "vu": false,
+        "gloss": "dragon, monstre marin; crocodile; serpent; chacal",
+        "vu": true,
         "freq": 28
       },
       {
