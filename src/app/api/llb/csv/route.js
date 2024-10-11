@@ -1,22 +1,11 @@
 import { NextResponse } from 'next/server';
-import createSupabaseClient from '@/utils/supabase/server';
 
+export async function GET (request) {
+  return NextResponse.json({
+    msg: "Le téléchargement du LLB au format CSV n'est pas encore disponible..."
+  }, { status: 201 })
 
-export async function GET(request) {
-  const supabase = createSupabaseClient();
-
-  const { data, error, status } = await supabase
-    .from('llb')
-    .select('*')
-    .order('strong')
-    .csv()
-
-  const headers = new Headers();
-  headers.set("Content-Type", "text/csv")
-  headers.set("Content-Disposition", `attachment; filename="llb.csv"`)
-
-  return new NextResponse(status === 200
-    ? data
-    : error,
-  { status, headers })
+  // const headers = new Headers();
+  // headers.set("Content-Type", "text/csv")
+  // headers.set("Content-Disposition", `attachment; filename="llb.csv"`)
 }
