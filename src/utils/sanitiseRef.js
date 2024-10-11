@@ -1,6 +1,6 @@
 import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
-export default function sanitiseRef(book, chap, freq, detailCh=false) {
+export default function sanitiseRef (book, chap, freq, detailCh = false) {
   if (!bookNames[book.toLowerCase()])
     return {}
 
@@ -16,8 +16,8 @@ export default function sanitiseRef(book, chap, freq, detailCh=false) {
 
       if (chapter.includes('-')) {
         let [start, end] = cur.split('-');
-        start = parseInt(start.trim());
-        end = parseInt(end.trim());
+        start = Number(start.trim());
+        end = Number(end.trim());
 
         if (start <= 1) {
           start = 1
@@ -44,10 +44,10 @@ export default function sanitiseRef(book, chap, freq, detailCh=false) {
         }
 
       } else {
-        chapter = parseInt(chapter.trim());
+        chapter = Number(chapter.trim());
         if (chapter
-        && chapter <= maxChaptersBook
-        && acc.indexOf(chapter) < 0) {
+          && chapter <= maxChaptersBook
+          && acc.indexOf(chapter) < 0) {
           acc.push(chapter);
         }
       }
@@ -55,14 +55,14 @@ export default function sanitiseRef(book, chap, freq, detailCh=false) {
       return acc;
     }, []).sort()
 
-    if (!detailCh) {
-      sainChap = sainChap.join(',')
-    }
+  if (!detailCh) {
+    sainChap = sainChap.join(',')
+  }
 
   // frequency
   const sainFreq = !freq || freq === '*'
     ? '*'
-    : parseInt(freq)
+    : Number(freq)
 
   return {
     book: sainBook,

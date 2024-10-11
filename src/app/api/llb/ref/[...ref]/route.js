@@ -6,6 +6,7 @@ export async function GET (request, { params: { ref } }) {
   const sainRef = sanitiseRef(ref[0], ref[1], ref[2], true)
   try {
     const words = await db.bibleWord.findMany({
+      orderBy: { id: 'asc' },
       where: {
         book: { equals: sainRef.book },
         chapter: sainRef.chap !== '*'
