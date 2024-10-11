@@ -1,24 +1,23 @@
 import { NextResponse } from 'next/server'
 import { db } from '@/lib/db'
 
-import { getServerSession } from "next-auth/next"
-import { authOptions } from "@/lib/auth"
+// import { getServerSession } from "next-auth/next"
+// import { authOptions } from "@/lib/auth"
 
 
-export async function GET (request, { params: { strong } }) {
-  const session = await getServerSession(authOptions)
-  if (!session) {
-    return NextResponse.json({ msg: 'Pas connecté' }, { status: 401 })
-  }
+export async function GET (request) {
+  // const session = await getServerSession(authOptions)
+  // if (!session) {
+  //   return NextResponse.json({ msg: 'Pas connecté' }, { status: 401 })
+  // }
 
   try {
-    console.log(request)
-    const word = await db.lLBWord.findUnique({
-      where: { strong }
+    const data = await db.lLBWord.findMany({
+      orderBy: { strong: 'asc' }
     })
 
     return NextResponse.json({
-      data: word
+      data
     }, { status: 201 })
 
   } catch (error) {
