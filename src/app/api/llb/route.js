@@ -5,7 +5,7 @@ import { getServerSession } from "next-auth/next"
 import { authOptions } from "@/lib/auth"
 
 
-export async function GET (request, res) {
+export async function GET (request, { params: { strong } }) {
   const session = await getServerSession(authOptions)
   if (!session) {
     return NextResponse.json({ msg: 'Pas connecté' }, { status: 401 })
@@ -14,7 +14,7 @@ export async function GET (request, res) {
   try {
     console.log(request)
     const word = await db.lLBWord.findUnique({
-      where: { strong: 'H7225' }
+      where: { strong }
     })
 
     return NextResponse.json({

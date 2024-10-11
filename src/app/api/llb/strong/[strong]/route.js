@@ -1,21 +1,23 @@
 import { NextResponse } from 'next/server';
-import createSupabaseClient from '@/utils/supabase/server';
+
+import { db } from '@/lib/db'
 
 
-export async function GET(request, { params: { strong }}) {
-  const supabase = createSupabaseClient();
+export async function GET (request, { params: { strong } }) {
+  try {
+    // clean strong, ex: add trailing zeros, G509 -> G0509
+    const word = await db.lLBWord.findUnique({
+      where: { strong }
+    })
 
-  // clean strong, ex: add trailing zeros, G509 -> G0509
+    return NextResponse.json({
+      data: word
+    }, { status: 201 })
 
-  const { data, error, status } = await supabase
-    .from('llb')
-    .select('*')
-    .eq('strong', strong)
-    .limit(1)
-    .single()
-
-  return NextResponse.json(status === 200
-    ? data
-    : error,
-  { status })
+  } catch (error) {
+    return NextResponse.json({
+      msg: 'Oups! Il y a eu un problème!',
+      error
+    }, { status: 500 })
+  }
 }
