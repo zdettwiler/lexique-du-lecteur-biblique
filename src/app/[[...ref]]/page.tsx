@@ -19,7 +19,7 @@ export default async function Home({ params }
   const occurences = decodeURIComponent(occurencesParam)
 
   return (
-    <div className="">
+    <div className="dark:bg-yellow">
       <Title />
       <LexiconForm
         book={book}

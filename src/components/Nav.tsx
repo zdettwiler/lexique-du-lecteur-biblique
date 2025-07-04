@@ -4,6 +4,7 @@ export default async function Nav() {
   return (
     <nav className="p-3 flex flex-row-reverse items-end">
       <DarkModeSwitch />
+      {/* <Link href="">Télécharcher le LLB</Link> */}
     </nav>
   )
 };

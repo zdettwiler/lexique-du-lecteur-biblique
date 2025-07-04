@@ -1,6 +1,5 @@
 'use client'
-// import React, { useContext } from 'react'
-// import { DarkModeContext } from './DarkMode'
+import { useTheme } from "next-themes"
 import {
   Tooltip,
   TooltipContent,
@@ -8,19 +7,18 @@ import {
 } from "@/components/ui/tooltip"
 
 export default function DarkModeSwitch () {
-  // const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext)
-  const isDarkMode = false
-  const toggleDarkMode = () => {}
+  const { theme, setTheme } = useTheme()
+  console.log(theme)
 
   return (
     <Tooltip>
       <TooltipTrigger asChild>
-        <button onClick={toggleDarkMode}>
-          {isDarkMode ? '🌛' : '🌞'}
+        <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
+          {theme === 'light' ? '🌞' : '🌛'}
         </button>
       </TooltipTrigger>
       <TooltipContent side='left'>
-        <p>Passer au mode {isDarkMode ? 'clair' : 'sombre'}</p>
+        <p>Passer au mode {theme === 'light' ? 'sombre' : 'clair'}</p>
       </TooltipContent>
     </Tooltip>
   )
