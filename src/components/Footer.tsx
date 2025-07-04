@@ -1,16 +1,24 @@
+import Link from 'next/link'
+import { db } from '@/lib/db'
+import moment from 'moment'
+import 'moment/locale/fr'
+moment.locale('fr')
+
 export default async function Footer() {
-  const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/status`)
-  let status = undefined
-  try {
-    status = await data.json()
-  } catch { }
+  const lastUpdatedWord = await db.lLBWord.findFirst({
+    where: { updatedAt: { not: null } },
+    orderBy: { updatedAt: 'desc' }
+  })
+
+  const updatedAt = moment(lastUpdatedWord?.updatedAt).format("D MMM YYYY")
 
   return (
     <footer className='font-sans text-center mt-20 bg-gray-100 p-12 text-xs'>
       <p className='mb-5'>🔧 par Zacharie Dettwiler en 2023<br />
-        {status && (
-          `mis à jour le ${status.updatedAt}`
-        )}
+        {updatedAt && (
+          `mis à jour le ${updatedAt}`
+        )}<br />
+        <Link className='text-gray-600 underline' href='/changelog'>changelog</Link>
       </p>
 
       <p className='mb-5'>
