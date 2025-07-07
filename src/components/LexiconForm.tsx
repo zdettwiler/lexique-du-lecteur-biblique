@@ -3,7 +3,7 @@
 import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
-import { bookOptions } from '@/utils/booksMetadata'
+import { bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
 import { useRouter } from 'next/navigation'
 
 import { Button } from "@/components/ui/button"
@@ -22,6 +22,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
+  SelectGroup,
   SelectLabel
 } from "@/components/ui/select"
 
@@ -89,12 +90,14 @@ export default function LexiconForm({
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      {bookOptions.map((book, id) => {
-                        return !book.value
-                          ? (<SelectLabel key={id}>{book.label}</SelectLabel>)
-                          : (<SelectItem value={book.value} key={id}>{book.label}</SelectItem>)
-                        }
-                      )}
+                      {bookSectionsOptions.map((section, id) => (
+                        <SelectGroup key={id}>
+                          <SelectLabel>{section.section}</SelectLabel>
+                          {section.options.map((option, id) => (
+                            <SelectItem value={option.value} key={id}>{option.label}</SelectItem>
+                          ))}
+                        </SelectGroup>
+                      ))}
                     </SelectContent>
                   </Select>
                   <FormMessage />

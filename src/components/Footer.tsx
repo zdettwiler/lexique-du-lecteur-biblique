@@ -13,19 +13,20 @@ export default async function Footer() {
   const updatedAt = moment(lastUpdatedWord?.updatedAt).format("D MMM YYYY")
 
   return (
-    <footer className='font-sans text-center mt-20 bg-gray-100 dark:bg-neutral-900 p-12 text-xs'>
-      <p className='mb-5'>🔧 par Zacharie Dettwiler en 2023<br />
-        {updatedAt && (
-          `mis à jour le ${updatedAt}`
-        )}<br />
-        <Link className='text-gray-600 dark:text-gray-400 underline' href='/changelog'>changelog</Link>
-      </p>
+    <footer className='font-sans text-center mt-20 bg-neutral-100 dark:bg-neutral-900 p-12 text-xs'>
+      <p className='mb-5'>🔧 par Zacharie Dettwiler en 2023</p>
 
       <p className='mb-5'>
         avec les données de<br />
         <a className='text-gray-600 dark:text-gray-400 underline' href='https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT'>THHOT</a> ∙ <a className='text-gray-600 dark:text-gray-400 underline' href='https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT'>THGNT</a><br />
         <a className='text-gray-600 dark:text-gray-400 underline' href='https://www.levangile.com/Liste-Strong-Grec.php'>Levangile</a> ∙ R. Pigeon (<a className='text-gray-600 dark:text-gray-400 underline' href='https://editeurbpc.com'>editeurbpc.com</a>).
       </p>
+
+      {updatedAt && (
+        <p className='mb-5'>
+          <Link className='text-gray-600 dark:text-gray-400 underline' href='/changelog'>lexique mis à jour le {updatedAt}</Link>
+        </p>
+      )}
 
       <p className='mb-5 text-center'>
         <a className='text-gray-600 dark:text-gray-400 underline' href='https://www.institutbiblique.be'>
