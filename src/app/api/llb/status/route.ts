@@ -6,7 +6,7 @@ moment.locale('fr')
 
 export async function GET() {
   try {
-    const lastUpdatedWord = await db.lLBWord.findFirst({
+    const lastUpdatedWord = await db.LLB.findFirst({
       where: { updatedAt: { not: null } },
       orderBy: { updatedAt: 'desc' }
     })

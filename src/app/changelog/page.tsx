@@ -10,7 +10,7 @@ export default async function ChangelogPage() {
   const threeMonthsAgo = new Date();
   threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
 
-  const updatedWords = await db.lLBWord.findMany({
+  const updatedWords = await db.lLB.findMany({
     where: {
       updatedAt: { gte: threeMonthsAgo, },
     },
@@ -19,14 +19,14 @@ export default async function ChangelogPage() {
     }
   })
 
-  const updatedWordsCount = await db.lLBWord.count({
+  const updatedWordsCount = await db.lLB.count({
     select: {
       _all: true, // Count all records
       updatedAt: true, // Count all non-null field values
     },
   })
 
-  const groupedByDay: Record<string, LLBWord[]> = updatedWords.reduce((acc: Record<string, LLBWord[]>, word) => {
+  const groupedByDay: Record<string, LLB[]> = updatedWords.reduce((acc: Record<string, LLB[]>, word) => {
     const day = moment(word.updatedAt).format('YYYY-MM-DD');
     if (!acc[day]) acc[day] = [];
     acc[day].push(word);

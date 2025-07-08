@@ -6,7 +6,7 @@ export async function GET(request, { params: { strong } }: { params: { strong: s
     const match = strong.match(/^(?<lang>[GH])(?<nb>\d{1,4})$/)
     if (!match) throw new Error('Invalid strong code.')
 
-    const word = await db.lLBWord.findUnique({
+    const word = await db.lLB.findUnique({
       where: { strong: `${match.groups.lang}${match.groups.nb.padStart(4, '0')}` }
     })
 

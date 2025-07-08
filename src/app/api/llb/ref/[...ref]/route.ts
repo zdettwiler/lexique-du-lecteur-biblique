@@ -10,7 +10,7 @@ export async function GET(request, { params }: {
 
   try {
 
-    const words = await db.bibleWord.findMany({
+    const words = await db.bible.findMany({
       orderBy: { id: 'asc' },
       where: {
         book: { equals: sainRef.book },

@@ -5,7 +5,7 @@ import 'moment/locale/fr'
 moment.locale('fr')
 
 export default async function Footer() {
-  const lastUpdatedWord = await db.lLBWord.findFirst({
+  const lastUpdatedWord = await db.lLB.findFirst({
     where: { updatedAt: { not: null } },
     orderBy: { updatedAt: 'desc' }
   })
