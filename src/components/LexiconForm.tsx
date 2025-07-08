@@ -37,7 +37,7 @@ const occurenceOptions = [
 
 const formSchema = z.object({
   book: z.string().default('Genèse'), // z.enum(books).default('Genèse'),
-  chapters: z.string().max(50).default(1),
+  chapters: z.string().max(50).default('1'),
   occurences: z.string().default('70') // z.enum(occurenceOptions.map(o => o.value)).default('70')
 })
 
@@ -53,21 +53,23 @@ export default function LexiconForm({
     resolver: zodResolver(formSchema),
     defaultValues: !!book && !!occurences
     ? {
-        book,
-        chapters: chapters === '*' ? '' : chapters,
-        occurences
+        book: localStorage?.getItem('book') || book,
+        chapters: localStorage?.getItem('chapters') || chapters === '*' ? '' : chapters,
+        occurences: localStorage?.getItem('occurences') || occurences
       }
     : undefined,
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
+    localStorage.setItem('book', values.book)
+    localStorage.setItem('chapters', values.chapters === '' ? '*' : values.chapters)
+    localStorage.setItem('occurences', values.occurences)
+
     router.push(
       `/${values.book}/${!values.chapters || values.chapters === '' ? '*' : values.chapters}/${values.occurences}`,
       undefined,
       { shallow: true }
     )
-
-    console.log(`/${values.book}/${!values.chapters || values.chapters === '' ? '*' : values.chapters}/${values.occurences}`)
   }
 
   return (

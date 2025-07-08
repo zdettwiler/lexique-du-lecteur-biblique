@@ -14,6 +14,10 @@ export default async function Home({ params }
     ? ref.ref
     : ['Genèse', '', '70']
 
+  // (localStorage.getItem('book') || 'Genèse')
+  // (localStorage.getItem('chapters') || '')
+  // (localStorage.getItem('freoquency') || '70')
+
   const book = decodeURIComponent(bookParam)
   const chapters = decodeURIComponent(chaptersParam) //chaptersParam === '*' ? '' :
   const occurences = decodeURIComponent(occurencesParam)
