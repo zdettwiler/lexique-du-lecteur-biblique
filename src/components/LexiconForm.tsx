@@ -37,7 +37,7 @@ const occurenceOptions = [
 
 const formSchema = z.object({
   book: z.string().default('Genèse'), // z.enum(books).default('Genèse'),
-  chapters: z.string().max(50),
+  chapters: z.string().max(50).default(1),
   occurences: z.string().default('70') // z.enum(occurenceOptions.map(o => o.value)).default('70')
 })
 
@@ -113,9 +113,6 @@ export default function LexiconForm({
                   <FormControl>
                     <Input placeholder='tous' {...field} />
                   </FormControl>
-                  {/* <FormDescription>
-                  This is your public display name.
-                </FormDescription> */}
                   <FormMessage />
                 </FormItem>
               )}
@@ -137,7 +134,7 @@ export default function LexiconForm({
                   </FormControl>
                   <SelectContent>
                     {occurenceOptions.map((occ, id) => (
-                      <SelectItem value={occ.value} key={id}>{occ.label} {occ.value==='pegonduff' && (<span className='inline-flex items-center rounded-md bg-yellow-50 px-1 text-xs font-medium text-yellow-800 ring-1 ring-yellow-600/20 ring-inset'>Nouveau</span>)}</SelectItem>
+                      <SelectItem value={occ.value} key={id}>{occ.label} {occ.value==='pegonduff' && (<span className='ml-1 inline-flex items-center rounded-md bg-yellow-100 text-yellow-800 dark:bg-yellow-50/20 dark:text-yellow-300 px-1 text-xs font-medium border border-yellow-300'>Nouveau</span>)}</SelectItem>
                     ))}
                   </SelectContent>
                 </Select>

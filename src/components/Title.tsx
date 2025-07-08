@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Title() {
   return (
-    <div className="mt-5">
+    <div className="mt-5 p-5">
       <Image
         className="m-auto my-12 dark:invert"
         src="/img/logo-llb.svg"

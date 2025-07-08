@@ -8,7 +8,6 @@ import {
 
 export default function DarkModeSwitch () {
   const { theme, setTheme } = useTheme()
-  console.log(theme)
 
   return (
     <Tooltip>

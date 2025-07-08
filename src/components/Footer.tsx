@@ -13,7 +13,7 @@ export default async function Footer() {
   const updatedAt = moment(lastUpdatedWord?.updatedAt).format("D MMM YYYY")
 
   return (
-    <footer className='font-sans text-center mt-20 bg-neutral-100 dark:bg-neutral-900 p-12 text-xs'>
+    <footer className='font-sans text-center mt-20 bg-neutral-100 dark:bg-neutral-950 p-12 text-xs'>
       <p className='mb-5'>🔧 par Zacharie Dettwiler en 2023</p>
 
       <p className='mb-5'>
