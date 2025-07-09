@@ -70,8 +70,10 @@ function normalizeToOxia(input: string): string {
     'έ': 'έ',
     'ή': 'ή',
     'ί': 'ί',
+    'ΐ': 'ΐ',
     'ό': 'ό',
     'ύ': 'ύ',
+    'ΰ': 'ΰ',
     'ώ': 'ώ'
   };
 
