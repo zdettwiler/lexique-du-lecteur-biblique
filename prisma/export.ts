@@ -69,9 +69,41 @@ async function main() {
     })
   }
 
-  // const exportBible: ExportTask<Bible> = {}
+  const exportBible: ExportTask<Bible> = {
+    table: 'Bible',
+    path: 'bible-ex.csv',
+    getTotal: () => prisma.bible.count(),
+    getBatch: (skip, take) => prisma.bible.findMany({ skip, take, orderBy: { id: 'asc' } }),
+    getHeaders: () => [
+      { id: 'id', title: 'id' },
+      { id: 'book', title: 'book' },
+      { id: 'chapter', title: 'chapter' },
+      { id: 'verse', title: 'verse' },
+      { id: 'word', title: 'word' },
+      { id: 'lemma', title: 'lemma' },
+      { id: 'strong', title: 'word' },
+    ],
+    parseRow: row => ({
+      ...row
+    })
+  }
 
-  await Promise.all([exportLLB].map(exportTable))
+  const exportPegonDuff: ExportTask<PegonDuff> = {
+    table: 'PegonDuff',
+    path: 'pegonduff-ex.csv',
+    getTotal: () => prisma.pegonDuff.count(),
+    getBatch: (skip, take) => prisma.pegonDuff.findMany({ skip, take, orderBy: { strong: 'asc' } }),
+    getHeaders: () => [
+      { id: 'strong', title: 'strong' }
+    ],
+    parseRow: row => (row)
+  }
+
+  await Promise.all([
+    exportTable<LLB>(exportLLB),
+    exportTable<Bible>(exportBible),
+    exportTable<PegonDuff>(exportPegonDuff)
+  ])
 
   multiBar.stop()
   console.log('✅ All tables exported!')

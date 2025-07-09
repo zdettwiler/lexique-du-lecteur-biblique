@@ -1,72 +1,72 @@
-const { PrismaClient } = require('@prisma/client');
-const fs = require('fs');
-const path = require('path');
-const { parse } = require('csv-parse');
-const cliProgress = require('cli-progress');
-const readline = require('readline')
+import { PrismaClient } from '@prisma/client'
+import fs from 'fs'
+import path from 'path'
+import { parse } from 'csv-parse'
+import cliProgress from 'cli-progress'
+import readline from 'readline'
 
 
-const prisma = new PrismaClient();
-const DATA_PATH = path.join(__dirname, '../data');
-const BATCH_SIZE = 5000;
+const prisma = new PrismaClient()
+const DATA_PATH = path.join(__dirname, '../data')
+const BATCH_SIZE = 5000
 
 const multiBar = new cliProgress.MultiBar({
   clearOnComplete: false,
   hideCursor: true,
   format: '📦 Seeding {table} [{bar}] {percentage}% | {value}/{total} rows',
-}, cliProgress.Presets.shades_classic);
+}, cliProgress.Presets.shades_classic)
 
 type ImportTask = {
   table: string
   path: string
   parseRow: (row: Record<string, string>) => any
   insertBatch: (data: any[]) => Promise<unknown>
-};
+}
 
 function countCsvRowsStream(filePath: string): Promise<number> {
   return new Promise((resolve, reject) => {
-    let count = 0;
+    let count = 0
 
-    const stream = fs.createReadStream(filePath);
-    const rl = readline.createInterface({ input: stream });
+    const stream = fs.createReadStream(filePath)
+    const rl = readline.createInterface({ input: stream })
 
-    rl.on('line', () => count++);
-    rl.on('close', () => resolve(count > 0 ? count - 1 : 0)); // subtract header
-    rl.on('error', reject);
-  });
+    rl.on('line', () => count++)
+    rl.on('close', () => resolve(count > 0 ? count - 1 : 0)) // subtract header
+    rl.on('error', reject)
+  })
 }
 
 async function importTable(importTask: ImportTask) {
-  const total = await countCsvRowsStream(importTask.path);
-  const bar = multiBar.create(total, 0, { table: importTask.table });
+  const total = await countCsvRowsStream(importTask.path)
+  const bar = multiBar.create(total, 0, { table: importTask.table })
 
   const stream = fs.createReadStream(importTask.path).pipe(
     parse({ columns: true, skip_empty_lines: true, trim: true })
-  );
+  )
 
-  let batch: any[] = [];
+  let batch: any[] = []
   for await (const row of stream) {
-    batch.push(importTask.parseRow(row));
+    batch.push(importTask.parseRow(row))
     if (batch.length >= BATCH_SIZE) {
-      await importTask.insertBatch(batch);
-      bar.increment(batch.length);
-      batch = [];
+      await importTask.insertBatch(batch)
+      bar.increment(batch.length)
+      batch = []
     }
   }
 
   // Final flush
   if (batch.length > 0) {
-    await importTask.insertBatch(batch);
-    bar.increment(batch.length);
+    await importTask.insertBatch(batch)
+    bar.increment(batch.length)
   }
 
-  bar.update(total); // force exact value
+  bar.update(total) // force exact value
 }
 
 async function main() {
   console.log('🧽 Wiping all tables')
-  await prisma.bible.deleteMany(); // wipe
-  await prisma.lLB.deleteMany(); // wipe
+  await prisma.bible.deleteMany() // wipe
+  await prisma.lLB.deleteMany() // wipe
 
   const importTasks: ImportTask[] = [
     {
@@ -101,18 +101,18 @@ async function main() {
       parseRow: row => ({
         strong: row.strong
       }),
-      insertBatch: batch => prisma.location.createMany({ data: batch }),
+      insertBatch: batch => prisma.pegonDuff.createMany({ data: batch }),
     },
-  ];
+  ]
 
-  await Promise.all(importTasks.map(importTable));
-  multiBar.stop();
-  console.log('✅ All tables imported successfully');
+  await Promise.all(importTasks.map(importTable))
+  multiBar.stop()
+  console.log('✅ All tables imported successfully')
 }
 
 main()
   .catch(err => {
-    console.error('❌ Import failed:', err);
-    process.exit(1);
+    console.error('❌ Import failed:', err)
+    process.exit(1)
   })
-  .finally(() => prisma.$disconnect());
+  .finally(() => prisma.$disconnect())
