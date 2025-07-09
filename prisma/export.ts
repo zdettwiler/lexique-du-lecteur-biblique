@@ -14,7 +14,7 @@ const DATA_PATH = path.join(__dirname, '../data')
 const multiBar = new cliProgress.MultiBar({
   clearOnComplete: false,
   hideCursor: true,
-  format: ' - {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
+  format: '  - {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
 }, cliProgress.Presets.rect)
 
 type ExportTask<T> = {
