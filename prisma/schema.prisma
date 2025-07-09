@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:./llb.db" // env("DATABASE_URL")
+  url      = env("DATABASE_URL")
 }
 
 model LLB {
