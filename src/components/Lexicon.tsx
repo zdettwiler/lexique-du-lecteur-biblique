@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button"
+
 interface LLBWord {
   id: number
   verse: number
@@ -37,29 +39,33 @@ export default async function Lexicon({ book, chapters, occurences }:
       </div>
 
       {lexicon.map((word: LLBWord, id: number, data: LLBWord[]) => {
-          const prevChapter = id > 0 ? data[id - 1].chapter : 0
-          const chapHeading = prevChapter !== word.chapter
-            ? <h3 className='font-serif text-lg text-center italic uppercase tracking-[5px] mt-5 mb-3'>CHAPITRE {word.chapter}</h3>
-            : null
+        const prevChapter = id > 0 ? data[id - 1].chapter : 0
+        const chapHeading = prevChapter !== word.chapter
+          ? <h3 className='font-serif text-lg text-center italic uppercase tracking-[5px] mt-5 mb-3'>CHAPITRE {word.chapter}</h3>
+          : null
 
-          const prevVerse = id > 0 ? data[id - 1].verse : 0
-          const verse = prevVerse !== word.verse
-            ? word.verse
-            : null
+        const prevVerse = id > 0 ? data[id - 1].verse : 0
+        const verse = prevVerse !== word.verse
+          ? word.verse
+          : null
 
-          return (
-            <div key={id}>
-              {chapHeading}
-              <div key={word.id} className='flex flex-row items-baseline'>
-                <div className='font-sans font-bold text-lg w-6 shrink-0 text-right mr-1'><sup>{verse}</sup></div>
-                <div className={`shrink-0 font-serif font-semibold ${lang === 'H' ? 'min-w-[80px] text-2xl text-right' : 'min-w-[120px] text-xl'} `}>{word.lemma}</div>
-                <div className='font-serif text-center text-sm w-9 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</div>
-                <div className='font-serif text-xl grow ml-3'>{word.llbword.gloss}</div>
-              </div>
+        return (
+          <div key={id}>
+            {chapHeading}
+            <div key={word.id} className='flex flex-row items-baseline'>
+              <div className='font-sans font-bold text-lg w-6 shrink-0 text-right mr-1'><sup>{verse}</sup></div>
+              <div className={`shrink-0 font-serif font-semibold ${lang === 'H' ? 'min-w-[80px] text-2xl text-right' : 'min-w-[120px] text-xl'} `}>{word.lemma}</div>
+              <div className='font-serif text-center text-sm w-9 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</div>
+              <div className='font-serif text-xl grow ml-3'>{word.llbword.gloss}</div>
             </div>
-          )
-        })}
+          </div>
+        )
+      })}
 
+      <div className="flex flex-row justify-between mt-10">
+        <Button type="submit" size='sm' variant='secondary' className='font-600'>← Colossiens 1</Button>
+        <Button type="submit" size='sm' variant='secondary' className='font-semibold'>Colossiens 3 →</Button>
+      </div>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "next-themes"
-import Nav from "@/components/Nav";
+
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export const geistSans = localFont({
 	src: './fonts/GeistVF.woff',
 	variable: '--font-geist-sans',
-	weight: '100 900',
+	weight: '100 200 300 400 500 600 700 800 900',
 });
 
 export default function RootLayout({
@@ -57,7 +57,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Nav />
+
           <main className='container mx-auto dark:bg-red'>
             {children}
           </main>

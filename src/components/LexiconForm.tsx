@@ -4,6 +4,7 @@ import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
+import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation'
 
 import { Button } from "@/components/ui/button"
@@ -49,6 +50,18 @@ export default function LexiconForm({
   occurences: string
 }) {
   const router = useRouter()
+  // const ref = useRef<HTMLDivElement>(null);
+  // const [stuck, setStuck] = useState(false);
+
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(
+  //     ([e]) => setStuck(e.intersectionRatio < 1),
+  //     { threshold: [1] }
+  //   );
+  //   if (ref.current) observer.observe(ref.current);
+  //   return () => observer.disconnect();
+  // }, []);
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: !!book && !!occurences
@@ -73,7 +86,7 @@ export default function LexiconForm({
   }
 
   return (
-    <div className="font-sans w-full lg:w-[850px] sm:w-5/6 md: mx-auto mt-10 p-5">
+    <div className="top-0 z-50 font-sans w-full lg:w-[850px] sm:w-5/6 md: mx-auto mt-10 p-5">
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className='box-border lg:space-x-5 flex flex-wrap lg:flex-nowrap lg:items-end flex-col md:flex-row'>
           <div className='space-x-5 md:pr-5 lg:pr-0 mb-4 w-full md:w-3/5 lg:w-3/5 flex flew-row'>
@@ -82,7 +95,7 @@ export default function LexiconForm({
               name="book"
               render={({ field }) => (
                 <FormItem className='w-3/5'>
-                  <FormLabel className=''>Livre</FormLabel>
+                  <FormLabel className={''}>Livre</FormLabel>
                   <Select key={field.value} onValueChange={field.onChange} value={field.value}>
                     <FormControl>
                       <SelectTrigger>

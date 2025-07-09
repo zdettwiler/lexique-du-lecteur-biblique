@@ -3,6 +3,7 @@
 import Title from '@/components/Title'
 import LexiconForm from '@/components/LexiconForm'
 import Lexicon from '@/components/Lexicon'
+import Nav from "@/components/Nav";
 import { Suspense } from "react";
 
 export default async function Home({ params }
@@ -24,6 +25,9 @@ export default async function Home({ params }
 
   return (
     <div>
+      <Nav book={book}
+        chapters={chapters}
+        occurences={occurences} />
       <Title />
       <LexiconForm
         book={book}
