@@ -73,7 +73,7 @@ async function main() {
     table: 'BibleWord',
     path: 'bible-supabase-export.csv',
     getTotal: () => prisma.bibleWord.count(),
-    getBatch: (skip, take) => prisma.bibleWord.findMany({ skip, take, orderBy: { strong: 'asc' } }),
+    getBatch: (skip, take) => prisma.bibleWord.findMany({ skip, take, orderBy: { id: 'asc' } }),
     getHeaders: () => [
       { id: 'id', title: 'id' },
       { id: 'book', title: 'book' },
