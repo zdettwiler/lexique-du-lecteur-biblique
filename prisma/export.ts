@@ -52,7 +52,7 @@ async function exportTable<T>(exportTask: ExportTask<T>) {
 
 async function main() {
   const exportLLB: ExportTask<LLB> = {
-    table: 'LLB',
+    table: 'LLB'.padEnd(10, " "),
     path: 'llb.csv',
     getTotal: () => prisma.lLB.count(),
     getBatch: (skip, take) => prisma.lLB.findMany({ skip, take, orderBy: { strong: 'asc' } }),
@@ -70,7 +70,7 @@ async function main() {
   }
 
   const exportBible: ExportTask<Bible> = {
-    table: 'Bible',
+    table: 'Bible'.padEnd(10, " "),
     path: 'bible.csv',
     getTotal: () => prisma.bible.count(),
     getBatch: (skip, take) => prisma.bible.findMany({ skip, take, orderBy: { id: 'asc' } }),
@@ -89,7 +89,7 @@ async function main() {
   }
 
   const exportPegonDuff: ExportTask<PegonDuff> = {
-    table: 'PegonDuff',
+    table: 'PegonDuff'.padEnd(10, " "),
     path: 'pegonduff.csv',
     getTotal: () => prisma.pegonDuff.count(),
     getBatch: (skip, take) => prisma.pegonDuff.findMany({ skip, take, orderBy: { strong: 'asc' } }),

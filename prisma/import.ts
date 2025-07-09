@@ -89,7 +89,7 @@ async function main() {
   await prisma.pegonDuff.deleteMany() // wipe
 
   const importLLB: ImportTask<LLB> = {
-    table: 'LLB',
+    table: 'LLB'.padEnd(10, " "),
     path: path.join(DATA_PATH, 'llb.csv'),
     parseRow: row => ({
       strong: row.strong,
@@ -102,7 +102,7 @@ async function main() {
   }
 
   const importBible: ImportTask<Bible> = {
-    table: 'Bible',
+    table: 'Bible'.padEnd(10, " "),
     path: path.join(DATA_PATH, 'bible.csv'),
     parseRow: row => ({
       id: Number(row.id),
@@ -117,7 +117,7 @@ async function main() {
   }
 
   const importPegonDuff: ImportTask<PegonDuff> = {
-    table: 'PegonDuff',
+    table: 'PegonDuff'.padEnd(10, " "),
     path: path.join(DATA_PATH, 'pegonduff.csv'),
     parseRow: row => ({
       strong: row.strong
