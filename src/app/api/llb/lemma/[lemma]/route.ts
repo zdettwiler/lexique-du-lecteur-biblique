@@ -742,7 +742,7 @@ export async function GET(request, { params }: { params: { lemma: string } }) {
   console.log([...decodeURI(lemma)].map(c => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`))
   lemma = normalizeToOxia(decodeURI(lemma))
 
-  // const test = "ἀγαθοεργέω"
+  // const test = "בָּיַי  בָּיַי"
   // console.log([...test].map(c => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`))
 
   const match = await db.$queryRaw`

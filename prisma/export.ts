@@ -81,7 +81,7 @@ async function main() {
       { id: 'verse', title: 'verse' },
       { id: 'word', title: 'word' },
       { id: 'lemma', title: 'lemma' },
-      { id: 'strong', title: 'word' },
+      { id: 'strong', title: 'strong' },
     ],
     parseRow: row => ({
       ...row
