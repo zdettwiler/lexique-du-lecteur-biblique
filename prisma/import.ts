@@ -87,8 +87,8 @@ function normalizeToOxia(input: string): string {
 async function main() {
   console.log('🧽 Wiping all tables')
   await prisma.bible.deleteMany() // wipe
-  await prisma.lLB.deleteMany() // wipe
   await prisma.pegonDuff.deleteMany() // wipe
+  await prisma.lLB.deleteMany() // wipe
 
   const importLLB: ImportTask<LLB> = {
     table: 'LLB'.padEnd(10, " "),
@@ -122,17 +122,17 @@ async function main() {
     table: 'PegonDuff'.padEnd(10, " "),
     path: path.join(DATA_PATH, 'pegonduff.csv'),
     parseRow: row => ({
-      strong: row.strong
+      strong: row.strong,
+      chapter: row.chapter
     }),
     insertBatch: batch => prisma.pegonDuff.createMany({ data: batch }),
   }
 
   console.log('📦 Seeding')
-  await importTable(importLLB);
-  await Promise.all([
-    importTable(importBible),
-    importTable(importPegonDuff),
-  ]);
+  await importTable(importLLB)
+  await importTable(importPegonDuff)
+  await importTable(importBible)
+  // await Promise.all([]);
   multiBar.stop()
   console.log('✅ All tables imported successfully')
 }

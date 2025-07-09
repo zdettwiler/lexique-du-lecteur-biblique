@@ -94,7 +94,8 @@ async function main() {
     getTotal: () => prisma.pegonDuff.count(),
     getBatch: (skip, take) => prisma.pegonDuff.findMany({ skip, take, orderBy: { strong: 'asc' } }),
     getHeaders: () => [
-      { id: 'strong', title: 'strong' }
+      { id: 'strong', title: 'strong' },
+      { id: 'chapter', title: 'chapter' }
     ],
     parseRow: row => (row)
   }

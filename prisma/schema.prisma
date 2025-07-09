@@ -25,8 +25,9 @@ model LLB {
 }
 
 model PegonDuff {
-  strong  String  @id @unique
-  llbword LLB @relation(fields: [strong], references: [strong])
+  strong   String @id @unique
+  chapter String @default("")
+  llbword  LLB    @relation(fields: [strong], references: [strong])
 }
 
 model Bible {

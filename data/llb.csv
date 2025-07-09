@@ -660,7 +660,7 @@ G0676,ἀπρόσιτος,inaccessible,1,
 G0677,ἀπρόσκοπος,irréprochable,3,2024-11-01T08:15:49.825Z
 G0678,ἀπροσωπολήπτως,"sans acception de personnes, impartialement, sans parti pris",1,
 G0679,ἄπταιστος,qui est sans chute,1,2025-05-15T09:07:37.000Z
-G0681,ἅπτω,"allumer, enflammer, faire flamber",39,
+G0681,ἅπτω,"allumer, enflammer; (moyen +G) toucher",39,2025-07-09T16:13:37.000Z
 G0682,Ἀπφία,Apphia = «fructueux»,1,
 G0683,ἀπωθέω,(moyen) repousser; (moyen) rejeter,6,
 G0684,ἀπώλεια,destruction; perdition; perte,18,
@@ -735,7 +735,7 @@ G0752,ἀρχισυνάγωγος,chef de synagogue,9,
 G0753,ἀρχιτέκτων,"architecte, constructeur en chef, entrepreneur en bâtiments",1,
 G0754,ἀρχιτελώνης,chef des publicains,1,
 G0755,ἀρχιτρίκλινος,ordonnateur du repas,3,2024-11-01T08:15:49.825Z
-G0757,ἄρχω,"gouverner, régner sur, diriger",85,
+G0757,ἄρχω,"régner sur, diriger; (moyen) commencer",85,2025-07-09T16:21:49.825Z
 G0758,ἄρχων,chef; magistrat; prince,37,
 G0759,ἄρωμα,aromates,4,
 G0760,Ἀσά,"Asa = «médecin, guérisseur»",2,
@@ -3156,6 +3156,7 @@ G3374,μηλωτή,"peau de brebis, toison des moutons",1,
 G3375,μήν,"certes, vraiment, certainement",1,
 G3376,μήν,mois,18,
 G3377,μηνύω,avertir; déclarer; montrer,4,
+G3379,μήποτε,"de peur que, afin que",0,
 G3380,μήπω,ne… pas encore,2,
 G3382,μηρός,cuisse,1,
 G3383,μήτε,"et pas, ni …ni …, pas ainsi",34,2024-11-01T08:15:49.825Z
@@ -3518,6 +3519,7 @@ G3761,οὐδέ,"non plus, ni l’un ni l’autre, ni, pas même …",140,2024-
 G3762,οὐδείς,"aucun, rien, personne",232,2024-11-01T08:15:49.825Z
 G3763,οὐδέποτε,"jamais, en aucun cas",16,
 G3764,οὐδέπω,"jamais, pas encore, jusqu’ici",4,
+G3765,οὐκέτι,ne plus,0,
 G3766,οὐκοῦν,"n’est-ce pas, donc",1,
 G3767,οὖν,"alors, donc, c’est pourquoi, par conséquent",494,2024-11-01T08:15:49.825Z
 G3768,οὔπω,pas encore,26,2024-11-01T08:15:49.825Z
@@ -5433,7 +5435,7 @@ H0052,אֲבִישַׁי,Abischaï = «mon père est Isaï»,25,
 H0053,אֲבִישָׁלוֹם,Absalom (Abisalom) = «père de la paix»,111,
 H0054,אֶבְיָתָר,Abiathar = «père de l’abondance»,30,
 H0055,אָבַךְ,"rouler, tourner",1,
-H0056,אָבַל,"pleur, lamentation",39,
+H0056,אָבַל,"être en deuil, être désolé",39,2025-07-09T15:08:00.000Z
 H0057,אָבֵל,deuil,8,
 H0059,אָבֵל,"Abel = «endroit verdoyant, prairie»",2,
 H0060,אֵ֫בֶל,deuil,24,
@@ -11492,7 +11494,7 @@ H6227,עָשָׁן,fumée,25,
 H6228,עָשָׁן,Aschan = «fumée»,4,
 H6229,עָשַׂק,"(Hitpael) lutter, disputer, se quereller",1,
 H6230,עֵ֫שֶׂק,Ések = «dispute»,1,
-H6231,עָשַׁק,"presser sur, opprimer, violer, frauder, faire violence, obtenir trompeusement, tort, extorquer",36,
+H6231,עָשַׁק,"opprimer, maltraiter, extorquer, tromper",36,2025-07-09T14:47:12.000Z
 H6232,עֵ֫שֶׁק,"Éschek = «oppression, violence»",1,
 H6233,עֹ֫שֶׁק,"oppression, extorsion, préjudice",15,
 H6234,עׇשְׁקָה,"oppression, abus, détresse",1,
