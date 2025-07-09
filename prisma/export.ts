@@ -14,7 +14,7 @@ const DATA_PATH = path.join(__dirname, '../data')
 const multiBar = new cliProgress.MultiBar({
   clearOnComplete: false,
   hideCursor: true,
-  format: '📦 Exporting {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
+  format: ' - {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
 }, cliProgress.Presets.rect)
 
 type ExportTask<T> = {
@@ -99,6 +99,7 @@ async function main() {
     parseRow: row => (row)
   }
 
+  console.log('📦 Exporting')
   await Promise.all([
     exportTable<LLB>(exportLLB),
     exportTable<Bible>(exportBible),
@@ -106,7 +107,7 @@ async function main() {
   ])
 
   multiBar.stop()
-  console.log('✅ All tables exported!')
+  console.log('✅ All tables exported successfully')
 }
 
 main()

@@ -14,7 +14,7 @@ const BATCH_SIZE = 5000
 const multiBar = new cliProgress.MultiBar({
   clearOnComplete: false,
   hideCursor: true,
-  format: '📦 Seeding {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
+  format: ' - {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
 }, cliProgress.Presets.rect)
 
 type ImportTask<T> = {
@@ -127,6 +127,7 @@ async function main() {
     insertBatch: batch => prisma.pegonDuff.createMany({ data: batch }),
   }
 
+  console.log('📦 Seeding')
   await importTable(importLLB);
   await Promise.all([
     importTable(importBible),
