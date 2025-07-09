@@ -1,4 +1,5 @@
 import { PrismaClient } from '@prisma/client'
+import type { LLB, Bible, PegonDuff } from '@prisma/client'
 import fs from 'fs'
 import path from 'path'
 import { parse } from 'csv-parse'
@@ -16,11 +17,11 @@ const multiBar = new cliProgress.MultiBar({
   format: '📦 Seeding {table} [{bar}] {percentage}% | {value}/{total} rows',
 }, cliProgress.Presets.shades_classic)
 
-type ImportTask = {
+type ImportTask<T> = {
   table: string
   path: string
-  parseRow: (row: Record<string, string>) => any
-  insertBatch: (data: any[]) => Promise<unknown>
+  parseRow: (row: Record<string, string>) => T
+  insertBatch: (data: T[]) => Promise<unknown>
 }
 
 function countCsvRowsStream(filePath: string): Promise<number> {
@@ -36,7 +37,7 @@ function countCsvRowsStream(filePath: string): Promise<number> {
   })
 }
 
-async function importTable(importTask: ImportTask) {
+async function importTable<T>(importTask: ImportTask<T>) {
   const total = await countCsvRowsStream(importTask.path)
   const bar = multiBar.create(total, 0, { table: importTask.table })
 
@@ -44,7 +45,7 @@ async function importTable(importTask: ImportTask) {
     parse({ columns: true, skip_empty_lines: true, trim: true })
   )
 
-  let batch: any[] = []
+  let batch: T[] = []
   for await (const row of stream) {
     batch.push(importTask.parseRow(row))
     if (batch.length >= BATCH_SIZE) {
@@ -63,49 +64,72 @@ async function importTable(importTask: ImportTask) {
   bar.update(total) // force exact value
 }
 
+function normalizeToOxia(input: string): string {
+  const tonosToOxiaMap: Record<string, string> = {
+    'ά': 'ά', // U+03AC → U+1F71
+    'έ': 'έ',
+    'ή': 'ή',
+    'ί': 'ί',
+    'ό': 'ό',
+    'ύ': 'ύ',
+    'ώ': 'ώ'
+  };
+
+  const replaced = [...input.normalize('NFC')]
+    .map(char => tonosToOxiaMap[char] || char)
+    .join('');
+
+  return replaced;
+}
+
 async function main() {
   console.log('🧽 Wiping all tables')
   await prisma.bible.deleteMany() // wipe
   await prisma.lLB.deleteMany() // wipe
+  await prisma.pegonDuff.deleteMany() // wipe
 
-  const importTasks: ImportTask[] = [
-    {
-      table: 'LLB',
-      path: path.join(DATA_PATH, 'llb-ex.csv'),
-      parseRow: row => ({
-        strong: row.strong,
-        lemma: row.lemma,
-        gloss: row.gloss,
-        freq: Number(row.freq),
-        updatedAt: new Date(row.updatedAt)
-      }),
-      insertBatch: batch => prisma.lLB.createMany({ data: batch }),
-    },
-    {
-      table: 'Bible',
-      path: path.join(DATA_PATH, 'bible.csv'),
-      parseRow: row => ({
-        id: Number(row.id),
-        book: row.book,
-        chapter: Number(row.chapter),
-        verse: Number(row.verse),
-        word: row.word,
-        lemma: row.lemma,
-        strong: row.strong
-      }),
-      insertBatch: batch => prisma.bible.createMany({ data: batch }),
-    },
-    {
-      table: 'PegonDuff',
-      path: path.join(DATA_PATH, 'pegonduff.csv'),
-      parseRow: row => ({
-        strong: row.strong
-      }),
-      insertBatch: batch => prisma.pegonDuff.createMany({ data: batch }),
-    },
-  ]
+  const importLLB: ImportTask<LLB> = {
+    table: 'LLB',
+    path: path.join(DATA_PATH, 'llb.csv'),
+    parseRow: row => ({
+      strong: row.strong,
+      lemma: normalizeToOxia(row.lemma),
+      gloss: row.gloss,
+      freq: Number(row.freq),
+      updatedAt: row.updatedAt ? new Date(row.updatedAt) : null
+    }),
+    insertBatch: batch => prisma.lLB.createMany({ data: batch }),
+  }
 
-  await Promise.all(importTasks.map(importTable))
+  const importBible: ImportTask<Bible> = {
+    table: 'Bible',
+    path: path.join(DATA_PATH, 'bible.csv'),
+    parseRow: row => ({
+      id: Number(row.id),
+      book: row.book,
+      chapter: Number(row.chapter),
+      verse: Number(row.verse),
+      word: normalizeToOxia(row.word),
+      lemma: normalizeToOxia(row.lemma),
+      strong: row.strong
+    }),
+    insertBatch: batch => prisma.bible.createMany({ data: batch }),
+  }
+
+  const importPegonDuff: ImportTask<PegonDuff> = {
+    table: 'PegonDuff',
+    path: path.join(DATA_PATH, 'pegonduff.csv'),
+    parseRow: row => ({
+      strong: row.strong
+    }),
+    insertBatch: batch => prisma.pegonDuff.createMany({ data: batch }),
+  }
+
+  await importTable(importLLB);
+  await Promise.all([
+    importTable(importBible),
+    importTable(importPegonDuff),
+  ]);
   multiBar.stop()
   console.log('✅ All tables imported successfully')
 }

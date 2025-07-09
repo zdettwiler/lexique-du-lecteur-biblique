@@ -21,7 +21,7 @@ type ExportTask<T> = {
   table: string
   path: string
   getTotal: () => Promise<number>
-  getBatch: (offset: number, size: number) => Promise<any[]>
+  getBatch: (offset: number, size: number) => Promise<T[]>
   getHeaders: () => { id: string, title: string }[]
   parseRow: (row: T) => Record<string, string | number | null>
 }
@@ -53,7 +53,7 @@ async function exportTable<T>(exportTask: ExportTask<T>) {
 async function main() {
   const exportLLB: ExportTask<LLB> = {
     table: 'LLB',
-    path: 'llb-ex.csv',
+    path: 'llb.csv',
     getTotal: () => prisma.lLB.count(),
     getBatch: (skip, take) => prisma.lLB.findMany({ skip, take, orderBy: { strong: 'asc' } }),
     getHeaders: () => [
@@ -71,7 +71,7 @@ async function main() {
 
   const exportBible: ExportTask<Bible> = {
     table: 'Bible',
-    path: 'bible-ex.csv',
+    path: 'bible.csv',
     getTotal: () => prisma.bible.count(),
     getBatch: (skip, take) => prisma.bible.findMany({ skip, take, orderBy: { id: 'asc' } }),
     getHeaders: () => [
@@ -90,7 +90,7 @@ async function main() {
 
   const exportPegonDuff: ExportTask<PegonDuff> = {
     table: 'PegonDuff',
-    path: 'pegonduff-ex.csv',
+    path: 'pegonduff.csv',
     getTotal: () => prisma.pegonDuff.count(),
     getBatch: (skip, take) => prisma.pegonDuff.findMany({ skip, take, orderBy: { strong: 'asc' } }),
     getHeaders: () => [

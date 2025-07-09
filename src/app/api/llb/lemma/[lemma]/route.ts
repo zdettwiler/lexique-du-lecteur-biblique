@@ -739,41 +739,50 @@ function normalizeToOxia(input: string): string {
 
 export async function GET(request, { params }: { params: { lemma: string } }) {
   let { lemma } = await params
-  // lemma = normalizeToOxia(decodeURI(lemma))
-  // console.log([...lemma].map(c => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`))
+  console.log([...decodeURI(lemma)].map(c => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`))
+  lemma = normalizeToOxia(decodeURI(lemma))
 
-  let words = []
-  for (let word of pegon) {
-    try {
-      let match = await db.$queryRaw`
-        SELECT *
-        FROM "LLBWord"
-        WHERE lemma = ${word}
-        LIMIT 1;
-      `;
+  // const test = "ἀγαθοεργέω"
+  // console.log([...test].map(c => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`))
 
-      if (!match) {
-        match = await db.$queryRaw`
-          SELECT *
-          FROM "BibleWord"
-          WHERE lemma = ${word}
-          LIMIT 1;
-        `;
-      }
+  const match = await db.$queryRaw`
+    SELECT *
+    FROM "LLB"
+    WHERE lemma = ${lemma}
+    LIMIT 1;
+  `;
+  // const words = [lemma]
+  // for (const word of words) {
+  //   try {
+  //     let match = await db.$queryRaw`
+  //       SELECT *
+  //       FROM "LLBWord"
+  //       WHERE lemma = ${word}
+  //       LIMIT 1;
+  //     `;
 
-      words.push({
-        pegon: word,
-        strong: match[0]?.strong
-      })
+  //     if (!match) {
+  //       match = await db.$queryRaw`
+  //         SELECT *
+  //         FROM "BibleWord"
+  //         WHERE lemma = ${word}
+  //         LIMIT 1;
+  //       `;
+  //     }
 
-    } catch (error) {
-      // console.log(word, error)
-      words.push({})
-    }
-  }
+      // words.push({
+      //   pegon: word,
+      //   strong: match[0]?.strong
+      // })
+
+    // } catch (error) {
+    //   // console.log(word, error)
+    //   // words.push({})
+    // }
+
 
   return NextResponse.json({
-    words
+    match
   }, { status: 201 })
 
   // try {
