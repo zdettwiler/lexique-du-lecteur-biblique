@@ -14,8 +14,8 @@ const BATCH_SIZE = 5000
 const multiBar = new cliProgress.MultiBar({
   clearOnComplete: false,
   hideCursor: true,
-  format: '📦 Seeding {table} [{bar}] {percentage}% | {value}/{total} rows',
-}, cliProgress.Presets.shades_classic)
+  format: '📦 Seeding {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
+}, cliProgress.Presets.rect)
 
 type ImportTask<T> = {
   table: string
