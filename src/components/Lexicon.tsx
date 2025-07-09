@@ -54,7 +54,7 @@ export default async function Lexicon({ book, chapters, occurences }:
                 <div className='font-sans font-bold text-lg w-6 shrink-0 text-right mr-1'><sup>{verse}</sup></div>
                 <div className={`shrink-0 font-serif font-semibold ${lang === 'H' ? 'min-w-[80px] text-2xl text-right' : 'min-w-[120px] text-xl'} `}>{word.lemma}</div>
                 <div className='font-serif text-center text-sm w-9 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</div>
-                <div className='font-serif text-xl grow '>{word.llbword.gloss}</div>
+                <div className='font-serif text-xl grow ml-3'>{word.llbword.gloss}</div>
               </div>
             </div>
           )

@@ -50,7 +50,7 @@ export default async function ChangelogPage() {
               {words.map((word) => (
                 <li key={word.strong} className='flex flex-row'>
                   <div className={`shrink-0 font-serif font-semibold min-w-[120px] ${word.strong[0] === 'H' ? 'text-2xl' : 'text-xl'} `}>{word.lemma}</div>
-                  <div className='font-serif text-xl grow '>{word.gloss} <span className='inline-flex items-center rounded-md bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-400 px-1 text-xs font-sans font-semibold border border-gray-500'>{word.strong}</span></div>
+                  <div className='font-serif text-xl grow ml-3'>{word.gloss} <span className='inline-flex items-center rounded-md bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-400 px-1 text-xs font-sans font-semibold border border-gray-500'>{word.strong}</span></div>
                 </li>
               ))}
             </ul>
