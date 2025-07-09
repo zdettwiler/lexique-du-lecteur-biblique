@@ -1,6 +1,6 @@
 # 📓 Lexique du lecteur biblique
 
-[Disponible ici](https://zdettwiler.github.io/lexique-du-lecteur-biblique/)
+[Disponible ici](https://lexique.ibbxl.be)
 
 Un lexique pour le lecteur de la Bible dans ses langues originales. Au lieu d'être présentés dans un ordre alphabétique, les mots sont regroupés verset par verset pour faciliter la lecture cursive du texte. Pour prendre en compte son niveau, le lecteur peut choisir la rareté des mots figurant dans le lexique.
 
