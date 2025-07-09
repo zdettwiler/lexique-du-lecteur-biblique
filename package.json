@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "db:import": "ts-node prisma/import.ts",
-    "db:export": "npx ts-node prisma/export.ts"
+    "db:export": "ts-node prisma/export.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
