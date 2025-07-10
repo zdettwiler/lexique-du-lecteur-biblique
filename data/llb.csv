@@ -147,7 +147,7 @@ G0147,αἰσχροκερδῶς,"pour un gain honteux, bassement, avec cupidit�
 G0148,αἰσχρολογία,"parole honteuse, parole grossière, propos inconvenant",1,
 G0150,αἰσχρός,"honteux, inconvenant, déshonnête",4,
 G0151,αἰσχρότης,"chose honteuse, parole grossière, obscénité",1,
-G0152,αἰσχύνη,"honte, impureté, ignominie",6,2024-11-01T08:15:49.825Z
+G0152,αἰσχύνη,"honte, ignominie; turpitude",6,2025-07-10T15:11:11.000Z
 G0153,αἰσχύνω,"déshonorer, couvrir de honte, avoir honte, être confus",5,2024-11-01T08:15:49.825Z
 G0154,αἰτέω,demander; solliciter; redemander,70,
 G0155,αἴτημα,"pétition, requête, demande",3,2024-11-01T08:15:49.825Z
@@ -251,7 +251,7 @@ G0256,Ἀλφαῖος,Alphée = «éphémère»,5,
 G0257,ἅλων,aire,2,
 G0258,ἀλώπηξ,renard,3,
 G0259,ἅλωσις,"capture, prise",1,
-G0260,ἅμα,"en même temps, ensemble, avec",10,
+G0260,ἅμα,"en même temps; ensemble, (+D) avec",10,2025-07-10T14:48:37.000Z
 G0261,ἀμαθής,"ignorant, sans instruction, ignare",1,
 G0262,ἀμαράντινος,"inflétrissable, qui demeure perpétuellement, incorruptible",1,
 G0263,ἀμάραντος,"inaltérable, qui demeure perpétuellement, incorruptible, immarcescible",1,
@@ -374,7 +374,7 @@ G0383,ἀνασείω,"exciter, provoquer, soulever",2,
 G0384,ἀνασκευάζω,ébranler,1,2024-11-01T08:15:49.825Z
 G0385,ἀνασπάω,"retirer, faire sortir, reprendre",2,
 G0386,ἀνάστασις,résurrection,42,2024-11-01T08:15:49.825Z
-G0387,ἀναστατόω,"bouleverser, soulever, troubler, exciter une sédition",3,
+G0387,ἀναστατόω,"bouleverser, agiter, troubler, exciter une sédition",3,2025-07-10T14:54:54.000Z
 G0388,ἀνασταυρόω,crucifier de nouveau une personne,1,
 G0389,ἀναστενάζω,soupirer profondément,1,
 G0390,ἀναστρέφω,retourner; (passif) se conduire; (passif) être traité,9,
@@ -501,7 +501,7 @@ G0512,ἀνωφελής,"inutile, sans profit, sans bénéfice, inutilité",2,
 G0513,ἀξίνη,"cognée, grosse hache",2,
 G0514,ἄξιος,digne,41,2024-11-01T08:15:49.825Z
 G0515,ἀξιόω,croire digne; trouver bon; demander,7,
-G0516,ἀξίως,"comme il convient, dignement, d’une manière bienséante",6,
+G0516,ἀξίως,"comme il convient, dignement",6,2025-07-10T15:06:04.000Z
 G0517,ἀόρατος,invisible,5,
 G0518,ἀπαγγέλλω,annoncer,45,2024-11-01T08:15:49.825Z
 G0519,ἀπάγχω,"se pendre, s’étouffer",1,
@@ -1667,7 +1667,7 @@ G1726,ἐναντίον,"devant, auprès",5,
 G1727,ἐναντίος,contraire; celui qui s’oppose,8,
 G1728,ἐνάρχομαι,"commencer, débuter",2,
 G1729,ἐνδεής,"nécessiteux, indigent, pauvre",1,
-G1730,ἔνδειγμα,"démonstration, preuve, indice",1,
+G1730,ἔνδειγμα,preuve,1,2025-07-10T15:07:07.000Z
 G1731,ἐνδείκνυμι,"(moyen) montrer, faire connaître, manifester, démontrer",10,
 G1732,ἔνδειξις,"démonstration, preuve, indice",4,
 G1733,ἕνδεκα,onze,6,
@@ -2156,7 +2156,7 @@ G2228,ἤ,"ou, que",346,2024-11-01T08:15:49.825Z
 G2230,ἡγεμονεύω,"avoir le gouvernement, être gouverneur, guider, diriger",2,
 G2231,ἡγεμονία,"règne, gouvernement",1,
 G2232,ἡγεμών,chef-lieu; gouverneur,20,
-G2233,ἡγέομαι,"mener, conduire, considérer, juger, penser, estimer",28,2024-11-01T08:15:49.825Z
+G2233,ἡγέομαι,"mener, conduire; considérer, penser, estimer",28,2025-07-10T16:52:49.825Z
 G2234,ἡδέως,"avec plaisir, agréablement, volontiers",3,
 G2235,ἤδη,"maintenant, déjà",61,2024-11-01T08:15:49.825Z
 G2236,ἥδιστα,très volontiers,2,
@@ -3086,7 +3086,7 @@ G3201,μέμφομαι,"censurer, blâmer, être mécontent, plaindre",2,
 G3202,μεμψίμοιρος,"insatisfait, mécontent",1,2025-06-24T15:18:14.000Z
 G3303,μέν,d'une part,178,2024-11-01T08:15:49.825Z
 G3304,μενοῦνγε,"oui certes, sans aucun doute",4,
-G3305,μέντοι,cependant; en effet; néanmoins,8,
+G3305,μέντοι,"cependant, toutefois; en effet",8,2025-07-10T15:05:05.000Z
 G3306,μένω,"rester, demeurer, s’attendre, attendre quelqu’un",118,2024-11-01T08:15:49.825Z
 G3307,μερίζω,diviser; partager; donner pour part; départir; avoir une différence,14,
 G3308,μέριμνα,sollicitude; souci,6,
@@ -3164,7 +3164,7 @@ G3384,μήτηρ,mère,83,2024-11-01T08:15:49.825Z
 G3385,μή,"est-ce que, n’est-ce pas",18,
 G3388,μήτρα,matrice,2,
 G3389,μητραλῴας,batteur de mère,1,
-G3392,μιαίνω,"souiller, contaminer, infecter",5,
+G3392,μιαίνω,"souiller, contaminer, infecter",5,2025-07-10T15:03:03.000Z
 G3393,μίασμα,souillure,1,2024-11-01T08:15:49.825Z
 G3394,μιασμός,"impureté, action de souiller, souillure",1,
 G3395,μίγμα,"mixtion, mélange de substances",1,
@@ -3218,7 +3218,7 @@ G3445,μορφόω,former,1,
 G3446,μόρφωσις,"forme, ressemblance extérieure, formule",2,
 G3447,μοσχοποιέω,faire un veau,1,
 G3448,μόσχος,veau,6,
-G3449,μόχθος,labeur,3,
+G3449,μόχθος,"labeur, peine",3,2025-07-10T14:55:55.000Z
 G3451,μουσικός,musicien,1,2024-11-01T08:15:49.825Z
 G3452,μυελός,moelle,1,
 G3453,μυέω,"enseigner, instruire, apprendre",1,
@@ -3768,7 +3768,7 @@ G4016,περιβάλλω,entourer; vêtir; jeter sur,22,
 G4017,περιβλέπω,regarder,7,
 G4018,περιβόλαιον,"vêtement, manteau, voile",2,
 G4019,περιδέω,"envelopper, recouvrir",1,
-G4020,περιεργάζομαι,se mêler de tout,1,
+G4020,περιεργάζομαι,se mêler de tout,1,2025-07-10T15:20:20.000Z
 G4021,περίεργος,qui se rapporte à la magie; se mêlant de tout,2,
 G4022,περιέρχομαι,aller; courir çà et là; errer ça et là; suivre la côte,3,
 G4023,περιέχω,"saisir, prendre possession, concevoir, contenir",2,
@@ -3911,7 +3911,7 @@ G4160,ποιέω,"faire, créer",568,2024-11-01T08:15:49.825Z
 G4161,ποίημα,"ouvrage, œuvre, création",2,
 G4163,ποιητής,celui qui accomplit; observateur; réalisateur; poète,6,
 G4164,ποικίλος,"divers, varié, de toutes sortes",10,
-G4165,ποιμαίνω,"être le berger; paître, faire paître; se repaître",11,
+G4165,ποιμαίνω,"être le berger; paître, faire paître; se repaître",11,2025-07-10T15:18:18.000Z
 G4166,ποιμήν,"berger, pasteur",18,2024-11-01T08:15:49.825Z
 G4167,ποίμνη,troupeau,5,
 G4168,ποίμνιον,troupeau,5,
@@ -4624,7 +4624,7 @@ G4900,συναλλάσσω,"engager, inciter, exhorter",1,
 G4901,συνεπιμαρτυρέω,rendre témoignage avec,1,
 G4902,συνέπομαι,"accompagner, voyager comme compagnon",1,
 G4903,συνεργέω,agir avec; coopérer; travailler à l’œuvre; travailler ensemble,5,
-G4904,συνεργός,collaborateur; compagnon d’œuvre; coopérant,12,
+G4904,συνεργός,collaborateur; compagnon d’œuvre,12,2025-07-10T14:46:32.000Z
 G4905,συνέρχομαι,"venir ensemble, venir avec qqn",30,2024-11-01T08:15:49.825Z
 G4906,συνεσθίω,manger avec,5,
 G4907,σύνεσις,"intelligence, capacité de comprendre",7,
@@ -4689,7 +4689,7 @@ G4965,Συχάρ,Sychar = «ivresse»,1,
 G4966,Συχέμ,Sichem = «épaule»,2,
 G4967,σφαγή,"sacrifice, boucherie",3,
 G4968,σφάγιον,"bête égorgée, victime pour sacrifice",1,
-G4969,σφάζω,égorger; immoler; tuer; frapper,10,
+G4969,σφάζω,"égorger; immoler; tuer, abattre",10,2025-07-10T15:19:19.000Z
 G4970,σφόδρα,extrêmement; fort,11,
 G4971,σφοδρῶς,"violemment, fortement, excessivement",1,
 G4972,σφραγίζω,"sceller, apposer un sceau",15,
@@ -4975,7 +4975,7 @@ G5275,ὑπολείπω,"demeurer, rester, laisser",1,
 G5276,ὑπολήνιον,fosse pour un pressoir,1,
 G5277,ὑπολιμπάνω,"laisser, laisser derrière",1,
 G5278,ὑπομένω,demeurer; endurer; être patient; persévérer; souffrir,17,
-G5279,ὑπομιμνήσκω,faire se souvenir; rappeler; remettre en mémoire; se ressouvenir,7,
+G5279,ὑπομιμνήσκω,rappeler; se souvenir,7,2025-07-10T15:01:01.000Z
 G5280,ὑπόμνησις,"rappel à la mémoire, souvenir",3,
 G5281,ὑπομονή,"persévérance, patience, fermeté, constance",32,2024-11-01T08:15:49.825Z
 G5282,ὑπονοέω,"supposer, présumer, considérer, penser",3,
@@ -5176,7 +5176,7 @@ G5480,χάραγμα,"marque, empreinte, œuvre sculptée",8,
 G5481,χαρακτήρ,empreinte,1,2024-11-01T08:15:49.825Z
 G5482,χάραξ,"tranchée, rempart",1,
 G5483,χαρίζω,"donner gratuitement, faire cadeau",23,2024-11-01T08:15:49.825Z
-G5484,χάριν,pour quelle raison,9,
+G5484,χάριν,"(+G, gén. ap. le mot qu'il gouverne) en faveur de, pour, à cause de",9,2025-07-10T14:58:58.000Z
 G5485,χάρις,"grâce, remerciement, action de grâce, récompense",154,2024-11-01T08:15:49.825Z
 G5486,χάρισμα,don de grâce,17,
 G5487,χαριτόω,"faire jouir de la faveur, favoriser, rendre agréable",2,
@@ -6568,7 +6568,7 @@ H1215,בֶּ֫צַע,"profit, gain injuste, profit acquit par la violence",23,
 H1216,בָּצֵק,"gonfler, enfler",2,
 H1217,בָּצֵק,pâte (sans levain),5,
 H1218,בׇּצְקַת,Botskath = «hauteur rocheuse»,2,
-H1219,בָּצַר,"recueillir, contenir, enclore, fortifier, rendre inaccessible,",37,
+H1219,בָּצַר,"(Qal) couper, vendanger, fortifier, rendre inaccessible; (Nif) être inaccessible, être impossible; (Pi) fortifier",37,2025-07-10T14:40:47.000Z
 H1220,בֶּ֫צֶר,"or, minerai précieux",2,
 H1221,בֶּ֫צֶר,Betser = «minerai d’or»,5,
 H1223,בׇּצְרָה,"enclos, bergerie",1,
@@ -6838,7 +6838,7 @@ H1493,גִּזוֹנִי,"Guizon = «tondeur», «dans une carrière»",1,
 H1494,גָּזַז,"tondre, faucher",15,
 H1495,גָּזֵז,Gazez = «tondeur»,2,
 H1496,גָּזִית,"incision, coupure, taille (de pierre)",11,
-H1497,גָּזַל,"déchirer, saisir, piller, voler, dérober, prendre, emporter de force",30,
+H1497,גָּזַל,"arracher, prendre de force, dérober, voler",30,2025-07-10T14:32:45.000Z
 H1498,גָּזֵל,"vol, quelque chose de volé",6,
 H1500,גְּזֵלָה,"vol, pillage, chose volée",6,
 H1501,גָּזָם,"sauterelles, ver de palmier",3,
@@ -7957,7 +7957,7 @@ H2626,חֲסִין,"fort, puissant",1,
 H2627,חַסִּר,"manquant de, ayant besoin, insuffisant, déficient",1,
 H2628,חָסַל,"(Qal) consumer, finir, terminer, amener à une fin",1,
 H2629,חָסַם,"(Qal) arrêter, empêcher, museler",2,
-H2630,חָסַן,"(Niphal) être conservé, être thésaurisé, mis en magasin",1,
+H2630,חָסַן,"(Nif) être conservé, être thésaurisé, mis en magasin",1,2025-07-10T14:41:21.004Z
 H2631,חֲסַן,(Aphel) prendre possession de,2,
 H2632,חֵ֫סֶן,"puissance, force, pouvoir (du roi)",2,
 H2633,חֹ֫סֶן,"richesse, trésor, abondance",5,
@@ -8255,7 +8255,7 @@ H2929,טַלְמוֹן,Thalmon = «oppresseur»,5,
 H2930,טָמֵא,"être impur, devenir impur",162,
 H2931,טָמֵא,"impur, impure",88,
 H2932,טֻמְאָה,impureté,36,
-H2933,טָמָה,(Niphal) être empêché,1,
+H2933,טָמָה,(Nif) être empêché,1,2025-07-10T14:41:21.004Z
 H2934,טָמַן,"cacher, dissimuler, enterrer",31,
 H2935,טֶ֫נֶא,"panier, corbeille",4,
 H2936,טָנַף,"(Piel) souiller, salir",1,
@@ -9098,7 +9098,7 @@ H3795,כָּתִית,"battu, pur, concassé, pulvérisé (dans un mortier), coû
 H3796,כֹּ֫תֶל,mur (d’une maison),1,
 H3797,כְּתַל,un mur,2,
 H3798,כִּתְלִישׁ,Kithlisch = «mur de l’homme»,1,
-H3799,כָּתַם,"(Niphal) être tâché, être souillé, être profondément marqué",1,
+H3799,כָּתַם,"(Nif) être tâché, être souillé, être profondément marqué",1,2025-07-10T14:41:21.004Z
 H3800,כֶּ֫תֶם,"or pur, or",9,
 H3801,כֻּתֹּ֫נֶת,"tunique, vêtement de dessus",29,
 H3802,כָּתֵף,"épaule, épaulette, côté, bord",67,
@@ -9362,7 +9362,7 @@ H4065,מַדּוּחַ,"séduction, appât, une chose qui détourne",1,
 H4066,מָדוֹן,"lutte, dispute",10,
 H4067,מָדוֹן,"stature, taille, grandeur",1,
 H4068,מָדוֹן,"Madon = «lutte, querelle»",2,
-H4069,מַדּוּעַ,"pourquoi?, pour quelle cause?, pour quelle raison?",72,
+H4069,מַדּוּעַ,"pourquoi?, pour quelle raison?",72,2025-07-10T13:18:12.000Z
 H4070,מְדָר,lieu d’habitation,4,
 H4071,מְדוּרָה,"tas (de combustible), bûcher, pile (de bois)",2,
 H4072,מִדְחֶה,"occasion de trébucher, moyens de faux-pas",1,
@@ -10492,7 +10492,7 @@ H5213,נִיצוֹץ,étincelle,1,
 H5214,נִיר,"(Qal) briser, labour ou culture récente",2,
 H5215,נִיר,"sol labourable ou sans sillon, en jachère",3,
 H5216,נֵר,lampe,49,
-H5217,נָכָא,"(Niph) frapper, châtier, battre",1,
+H5217,נָכָא,"(Nif) frapper, châtier, battre",1,2025-07-10T14:41:21.004Z
 H5218,נָכֵא,frappé,4,
 H5219,נְכֹאת,une épice,2,
 H5220,נֶ֫כֶד,"progéniture, postérité",3,
@@ -10709,7 +10709,7 @@ H5433,סָבָא,"boire amplement ou grandement, absorber",5,
 H5434,סְבָא,"Saba = «homme, boisson»",4,
 H5435,סֹ֫בֶא,"boisson, liqueur, vin",3,
 H5436,סְבָאִים,Sabéens = «ivrognes»,2,
-H5437,סָבַב,"tourner, se retourner, tourner autour ou de côté ou en arrière, entourer, encercler, changer de direction",161,
+H5437,סָבַב,"Tourner, tourner autour, faire le tour; entourer, environner; occasionner",161,2025-07-10T14:29:53.365Z
 H5438,סִבָּה,"tournure d’événements, d’affaires",1,
 H5439,סָבִיב,"lieux qui sont autour, les environs",336,
 H5440,סָבַךְ,entrelacer,2,
@@ -12850,7 +12850,7 @@ H7599,שָׁאַן,"(Pilel) être à l’aise, être en paix, se reposer, être 
 H7600,שַׁאֲנָן,"à l’aise, tranquille, sûr",10,
 H7602,שָׁאַף,"haleter, soupirer, respirer lourdement",14,
 H7603,שְׂאֹר,levain,5,
-H7604,שָׁאַר,"(Qal) rester; (Niph.) être de reste, rester, demeurer; (Hiph.) avoir de reste, laisser",133,2025-02-05T11:02:14.000Z
+H7604,שָׁאַר,"(Qal) rester; (Nif) être de reste, rester, demeurer; (Hif) avoir de reste, laisser",133,2025-07-10T14:41:21.004Z
 H7605,שְׁאָר,reste,26,2024-11-01T08:15:49.825Z
 H7606,שְׁאָר,"le reste, le restant",12,
 H7607,שְׁאֵר,"chair, nourriture, corps, proche parent, proche parente",16,
