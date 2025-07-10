@@ -18,40 +18,29 @@ function sortCanonically(refA, refB) {
 
 export async function GET() {
   try {
-    const llb = await db.lLB.findMany({
-      // take: 10,
-      select: {
-        strong: true,
-        lemma: true,
-        gloss: true,
-        freq: true,
-        bibleword: {
-          select: {
-            book: true,
-            chapter: true
-          }
-        }
-      }
-    });
-
-    const withReferences = llb.map(word => {
-      const sortedOccurrences = word.bibleword
-        .sort(sortCanonically)
-        .map(ref => `${ref.book}_${ref.chapter}`)
-
-      const uniqueOccurrences = Array.from(
-        new Set(sortedOccurrences)
-      ).join(" ")
-
-      return {
-        ...word,
-        bibleword: undefined,
-        uniqueOccurrences,
-      };
-    });
+    const tagged = await db.$queryRaw`
+      SELECT
+        strong,
+        "LLB".lemma,
+        "LLB".gloss,
+        "LLB".freq,
+        -- ARRAY_AGG (DISTINCT book || '_' || chapter) occurences_arr,
+        STRING_AGG (
+          DISTINCT (book || '_' || chapter),
+          ' '
+        ) occurences
+      FROM
+        "LLB"
+      INNER JOIN "Bible" USING (strong)
+      -- WHERE "LLB".strong LIKE 'G%' -- change here G% for greek, H% for hebrew
+      GROUP BY
+        strong
+      ORDER BY
+        strong;
+    `
 
     return NextResponse.json({
-      withReferences
+      tagged
     }, { status: 201 })
   } catch (error) {
     console.log(error)
