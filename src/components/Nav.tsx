@@ -25,11 +25,11 @@ export default function Nav({
   return (
     // <nav className='left-0 w-full bg-neutral-100/30 dark:bg-neutral-950/30 backdrop-blur-md text-white p-4 z-50 transform transition-all duration-300'>
     <nav className="fixed top-0 left-0 w-full bg-background/30 dark:bg-background/30 backdrop-blur-md text-white p-4 z-50">
-      <div className="flex flex-row items-center justify-between space-x-4">
+      <div className="flex flex-row items-center justify-between">
         <div className={`${show ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0 pointer-events-none'} transform transition-all duration-300`}>
-          <h3 className="font-bold text-xl">{book} {chapters} {occurences}</h3>
+          <h3 className="font-bold text-xl text-primary">{book} {chapters} {occurences}</h3>
         </div>
-        <div>
+        <div className="space-x-4">
           <Link href="" className="text-md font-medium text-gray-600 dark:text-gray-400">Télécharcher le LLB</Link>
           <DarkModeSwitch />
         </div>

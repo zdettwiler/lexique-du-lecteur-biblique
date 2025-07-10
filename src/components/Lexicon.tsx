@@ -1,4 +1,8 @@
+import { bookMeta, type BookName } from '@/utils/booksMetadata'
+import getNextRef from '@/utils/getNextRef'
+import Link from 'next/link'
 import { Button } from "@/components/ui/button"
+import { ArrowLeft, ArrowRight } from "lucide-react"
 
 interface LLBWord {
   id: number
@@ -12,7 +16,7 @@ interface LLBWord {
 }
 
 export default async function Lexicon({ book, chapters, occurences }:
-  { book: string, chapters: string, occurences: string }
+  { book: BookName, chapters: string, occurences: string }
 ) {
   if (!book || !chapters || !occurences) {
     return
@@ -25,6 +29,9 @@ export default async function Lexicon({ book, chapters, occurences }:
 
   const lang = lexicon[0].strong[0]
   const testament = lang === 'H' ? "l'Ancien Testament" : 'le Nouveau Testament'
+
+  const prevRef = getNextRef("prev", book, chapters)
+  const nextRef = getNextRef("next", book, chapters)
 
   return (
     <div className='container max-w-[600px] mx-auto px-4 mt-10'>
@@ -53,7 +60,7 @@ export default async function Lexicon({ book, chapters, occurences }:
           <div key={id}>
             {chapHeading}
             <div key={word.id} className='flex flex-row items-baseline'>
-              <div className='font-sans font-bold text-lg w-6 shrink-0 text-right mr-1'><sup>{verse}</sup></div>
+              <div className='font-sans font-semibold text-lg w-6 shrink-0 text-right mr-1'><sup>{verse}</sup></div>
               <div className={`shrink-0 font-serif font-semibold ${lang === 'H' ? 'min-w-[80px] text-2xl text-right' : 'min-w-[120px] text-xl'} `}>{word.lemma}</div>
               <div className='font-serif text-center text-sm w-9 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</div>
               <div className='font-serif text-xl grow ml-3'>{word.llbword.gloss}</div>
@@ -63,8 +70,12 @@ export default async function Lexicon({ book, chapters, occurences }:
       })}
 
       <div className="flex flex-row justify-between mt-10">
-        <Button type="submit" size='sm' variant='secondary' className='font-600'>← Colossiens 1</Button>
-        <Button type="submit" size='sm' variant='secondary' className='font-semibold'>Colossiens 3 →</Button>
+        <Button type="submit" size='xs' variant='outline' className='font-sans' asChild>
+          <Link href={`/${prevRef.book}/${prevRef.chapter}/${occurences}`}><ArrowLeft /> {bookMeta[prevRef.book].label} {prevRef.chapter}</Link>
+        </Button>
+        <Button type="submit" size='xs' variant='outline' className='font-sans' asChild>
+          <Link href={`/${nextRef.book}/${nextRef.chapter}/${occurences}`}>{bookMeta[nextRef.book].label} {nextRef.chapter} <ArrowRight /></Link>
+        </Button>
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-import { bookNames, bookChapters } from '@/utils/booksMetadata'
+import { bookNames, bookMeta } from '@/utils/booksMetadata'
 
 export function middleware(request) {
   let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d+|pegonduff)?/)
@@ -27,7 +27,7 @@ export function middleware(request) {
   if (params.chapters !== '*') {
     const validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
       let chapter = cur.trim()
-      const maxChaptersBook = bookChapters[params.book]
+      const maxChaptersBook = bookMeta[params.book].nbChap
 
       if (chapter.includes('-')) {
         let [start, end] = cur.split('-')

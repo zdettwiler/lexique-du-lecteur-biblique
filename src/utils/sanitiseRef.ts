@@ -1,4 +1,4 @@
-import { bookNames, bookChapters } from '@/utils/booksMetadata'
+import { bookNames, bookMeta } from '@/utils/booksMetadata'
 
 export default function sanitiseRef(book: string, chap: string, freq: string, detailCh = false): {
   book: string,
@@ -16,7 +16,7 @@ export default function sanitiseRef(book: string, chap: string, freq: string, de
     ? '*'
     : chap.split(',').reduce((acc, cur) => {
       let chapter = cur.trim();
-      let maxChaptersBook = bookChapters[sainBook]
+      const maxChaptersBook = bookMeta[sainBook].nbChap
 
       if (chapter.includes('-')) {
         let [start, end] = cur.split('-');
