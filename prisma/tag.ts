@@ -1,0 +1,96 @@
+import { db } from '@/lib/db'
+import type { LLB, Bible, PegonDuff } from '@prisma/client'
+
+import fs from 'fs'
+import path from 'path'
+import cliProgress from 'cli-progress'
+import { createObjectCsvStringifier } from 'csv-writer'
+
+const DATA_PATH = path.join(__dirname, '../data')
+const BATCH_SIZE = 5000
+const TOTAL_WORDS = await db.lLB.count()
+
+const bar = new cliProgress.SingleBar({
+    clearOnComplete: false,
+    hideCursor: true,
+    format: '{bar} {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
+  }, cliProgress.Presets.rect)
+
+function sortCanonically(refA, refB) {
+  const indexA = books.indexOf(refA.book)
+  const indexB = books.indexOf(refB.book)
+
+  if (indexA === indexB) {
+    return refA.chapter - refB.chapter
+  }
+
+  return indexA - indexB
+}
+
+async function main() {
+  console.log('📦 Exporting')
+  bar.start(TOTAL_WORDS, 0);
+
+  const output = fs.createWriteStream(path.join(DATA_PATH, 'llb-tagged.csv'), 'utf-8')
+  const csvWriter = createObjectCsvStringifier({ header: [
+    { id: 'strong', title: 'strong' },
+    { id: 'lemma', title: 'lemma' },
+    { id: 'gloss', title: 'gloss' },
+    { id: 'freq', title: 'freq' },
+    { id: 'occurrences', title: 'occurrences' },
+  ] })
+
+  let offset = 0
+  while (true) {
+    const llbRows = await db.lLB.findMany({
+      skip,
+      take: BATCH_SIZE,
+      select: {
+        strong: true,
+        lemma: true,
+        gloss: true,
+        freq: true,
+        bibleword: {
+          select: {
+            book: true,
+            chapter: true
+          }
+        }
+      }
+    });
+
+    if (llbRows.length === 0) break
+
+    const taggedLLB = llbRows.map(word => {
+      const sortedOccurrences = word.bibleword
+        .sort(sortCanonically)
+        .map(ref => `${ref.book}_${ref.chapter}`)
+
+      const uniqueOccurrences = Array.from(
+        new Set(sortedOccurrences)
+      ).join(" ")
+
+      return {
+        ...word,
+        bibleword: undefined,
+        uniqueOccurrences,
+      };
+    });
+
+    output.write(csvWriter.stringifyRecords(taggedLLB))
+    offset += llbRows.length
+    bar.increment(llbRows.length)
+  }
+  output.end()
+  bar.update(TOTAL_WORDS)
+
+  bar.stop()
+  console.log('✅ All tables exported successfully')
+}
+
+main()
+  .catch((err) => {
+    console.error('❌ Export failed:', err)
+    process.exit(1)
+  })
+  .finally(() => prisma.$disconnect())
