@@ -6,17 +6,31 @@ import {
   DrawerDescription,
   DrawerFooter,
   DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
+  DrawerTitle
 } from "@/components/ui/drawer"
 import type { LLB } from '@prisma/client'
 import StrongTag from '@/components/StrongTag'
 
-export default function FeedbackFormDrawer({ isOpen, setIsOpen, word }): {
-  isOpen: boolean,
-  setIsOpen: Function,
-  word: LLB
-} {
+export default function FeedbackFormDrawer(
+  { isOpen, setIsOpen, word }:
+  { isOpen: boolean, setIsOpen: (arg0: boolean) => void, word: LLB }) {
+  // await fetch(process.env.NEXT_PUBLIC_GSHEET_FEEDBACK, {
+  //   method: 'POST',
+  //   body: JSON.stringify({
+  //     name: 'test',
+  //     email: 'test',
+  //     book: 'test',
+  //     chapter: 'test',
+  //     verse: 'test',
+  //     strong: 'test',
+  //     lex: 'test',
+  //     corrected_gloss: 'test',
+  //   }),
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  // })
+
   return word && (
     <>
       <Drawer open={isOpen} onOpenChange={setIsOpen}>

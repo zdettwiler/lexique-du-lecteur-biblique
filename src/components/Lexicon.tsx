@@ -19,24 +19,6 @@ export default async function Lexicon({ book, chapters, occurences }:
     return
   }
 
-  // await fetch(process.env.NEXT_PUBLIC_GSHEET_FEEDBACK, {
-  //   method: 'POST',
-  //   body: JSON.stringify({
-  //     name: 'test',
-  //     email: 'test',
-  //     book: 'test',
-  //     chapter: 'test',
-  //     verse: 'test',
-  //     strong: 'test',
-  //     lex: 'test',
-  //     corrected_gloss: 'test',
-  //   }),
-  //   headers: {
-  //     'Content-Type': 'application/json',
-  //   },
-  // })
-
-
   const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapters}/${occurences}`)
   const { lexicon } = await data.json()
 
