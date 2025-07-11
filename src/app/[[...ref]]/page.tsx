@@ -4,26 +4,23 @@ import Title from '@/components/Title'
 import LexiconForm from '@/components/LexiconForm'
 import Lexicon from '@/components/Lexicon'
 import { Suspense } from "react";
+import FeedbackFormDrawer from '@/components/FeedbackFormDrawer';
 
 export default async function Home({ params }
   : { params: { ref?: [string, string, string] } }) {
 
   const ref = await params
 
-  const [bookParam, chaptersParam, occurencesParam] = Array.isArray(ref.ref) && ref.ref.length === 3
-    ? ref.ref
+  const [book, chapters, occurences] = Array.isArray(ref.ref) && ref.ref.length === 3
+    ? ref.ref.map(r => decodeURIComponent(r))
     : ['Genèse', '', '70']
 
   // (localStorage.getItem('book') || 'Genèse')
   // (localStorage.getItem('chapters') || '')
   // (localStorage.getItem('freoquency') || '70')
 
-  const book = decodeURIComponent(bookParam)
-  const chapters = decodeURIComponent(chaptersParam) //chaptersParam === '*' ? '' :
-  const occurences = decodeURIComponent(occurencesParam)
-
   return (
-    <div>
+    <main className='container mx-auto dark:bg-red'>
       <Title />
       <LexiconForm
         book={book}
@@ -52,6 +49,7 @@ export default async function Home({ params }
           occurences={occurences}
         />
       </Suspense>
-    </div>
+      <FeedbackFormDrawer />
+    </main>
   )
 }

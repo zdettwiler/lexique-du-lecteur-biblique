@@ -1,4 +1,6 @@
-interface LLBWord {
+import LexiconWord from '@/components/LexiconWord';
+
+interface LLB {
   id: number
   verse: number
   chapter: number
@@ -12,26 +14,27 @@ interface LLBWord {
 export default async function Lexicon({ book, chapters, occurences }:
   { book: string, chapters: string, occurences: string }
 ) {
+  console.log(book, chapters, occurences)
   if (!book || !chapters || !occurences) {
     return
   }
 
-  await fetch(process.env.NEXT_PUBLIC_GSHEET_FEEDBACK, {
-    method: 'POST',
-    body: JSON.stringify({
-      name: 'test',
-      email: 'test',
-      book: 'test',
-      chapter: 'test',
-      verse: 'test',
-      strong: 'test',
-      lex: 'test',
-      corrected_gloss: 'test',
-    }),
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  })
+  // await fetch(process.env.NEXT_PUBLIC_GSHEET_FEEDBACK, {
+  //   method: 'POST',
+  //   body: JSON.stringify({
+  //     name: 'test',
+  //     email: 'test',
+  //     book: 'test',
+  //     chapter: 'test',
+  //     verse: 'test',
+  //     strong: 'test',
+  //     lex: 'test',
+  //     corrected_gloss: 'test',
+  //   }),
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  // })
 
 
   const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapters}/${occurences}`)
@@ -54,7 +57,7 @@ export default async function Lexicon({ book, chapters, occurences }:
         </p>
       </div>
 
-      {lexicon.map((word: LLBWord, id: number, data: LLBWord[]) => {
+      {lexicon.map((word: LLB, id: number, data: LLB[]) => {
           const prevChapter = id > 0 ? data[id - 1].chapter : 0
           const chapHeading = prevChapter !== word.chapter
             ? <h3 className='font-serif text-lg text-center italic uppercase tracking-[5px] mt-5 mb-3'>CHAPITRE {word.chapter}</h3>
@@ -66,15 +69,12 @@ export default async function Lexicon({ book, chapters, occurences }:
             : null
 
           return (
-            <div key={id}>
-              {chapHeading}
-              <div key={word.id} className='flex flex-row items-baseline'>
-                <div className='font-sans font-bold text-lg w-6 shrink-0 text-right mr-1'><sup>{verse}</sup></div>
-                <div className={`shrink-0 font-serif font-semibold ${lang === 'H' ? 'min-w-[80px] text-2xl text-right' : 'min-w-[120px] text-xl'} `}>{word.lemma}</div>
-                <div className='font-serif text-center text-sm w-9 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</div>
-                <div className='font-serif text-xl grow ml-3'>{word.llbword.gloss}</div>
-              </div>
-            </div>
+            <LexiconWord
+              key={id}
+              chapHeading={chapHeading}
+              verse={verse}
+              word={word}
+            />
           )
         })}
 

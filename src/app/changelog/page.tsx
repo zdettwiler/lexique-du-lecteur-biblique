@@ -1,7 +1,8 @@
 import Title from '@/components/Title'
+import StrongTag from '@/components/StrongTag'
 import { Progress } from "@/components/ui/progress"
 import { db } from '@/lib/db'
-import { LLBWord } from '@prisma/client'
+import { LLB } from '@prisma/client'
 import moment from 'moment'
 import 'moment/locale/fr'
 moment.locale('fr')
@@ -50,7 +51,7 @@ export default async function ChangelogPage() {
               {words.map((word) => (
                 <li key={word.strong} className='flex flex-row'>
                   <div className={`shrink-0 font-serif font-semibold min-w-[120px] ${word.strong[0] === 'H' ? 'text-2xl' : 'text-xl'} `}>{word.lemma}</div>
-                  <div className='font-serif text-xl grow ml-3'>{word.gloss} <span className='inline-flex items-center rounded-md bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-400 px-1 text-xs font-sans font-semibold border border-gray-500'>{word.strong}</span></div>
+                  <div className='font-serif text-xl grow ml-3'>{word.gloss} <StrongTag strong={word.strong} /></div>
                 </li>
               ))}
             </ul>

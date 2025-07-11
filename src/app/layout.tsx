@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes"
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import FeedbackFormProvider from "@/components/FeedbackFormProvider"
 
 export const metadata: Metadata = {
   title: 'Lexique du lecteur biblique',
@@ -57,11 +58,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Nav />
-          <main className='container mx-auto dark:bg-red'>
+          <FeedbackFormProvider>
+            <Nav />
             {children}
-          </main>
-          <Footer />
+            <Footer />
+          </FeedbackFormProvider>
         </ThemeProvider>
       </body>
     </html>
