@@ -7,6 +7,7 @@ import { bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
 import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation'
 
+import { ArrowRight } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import {
   Form,
@@ -43,11 +44,12 @@ const formSchema = z.object({
 })
 
 export default function LexiconForm({
-  book, chapters, occurences
+  book, chapters, occurences, compact=false
 }: {
   book: string,
   chapters: string,
-  occurences: string
+  occurences: string,
+  compact: boolean
 }) {
   const router = useRouter()
   // const ref = useRef<HTMLDivElement>(null);
@@ -55,8 +57,8 @@ export default function LexiconForm({
 
   // useEffect(() => {
   //   const observer = new IntersectionObserver(
-  //     ([e]) => setStuck(e.intersectionRatio < 1),
-  //     { threshold: [1] }
+  //     ([entry]) => setStuck(!entry.isIntersecting),
+  //     { threshold: 0 }
   //   );
   //   if (ref.current) observer.observe(ref.current);
   //   return () => observer.disconnect();
@@ -66,18 +68,14 @@ export default function LexiconForm({
     resolver: zodResolver(formSchema),
     defaultValues: !!book && !!occurences
     ? {
-        book: localStorage?.getItem('book') || book,
-        chapters: localStorage?.getItem('chapters') || chapters === '*' ? '' : chapters,
-        occurences: localStorage?.getItem('occurences') || occurences
+        book: book,
+        chapters: chapters === '*' ? '' : chapters,
+        occurences: occurences
       }
     : undefined,
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    localStorage.setItem('book', values.book)
-    localStorage.setItem('chapters', values.chapters === '' ? '*' : values.chapters)
-    localStorage.setItem('occurences', values.occurences)
-
     router.push(
       `/${values.book}/${!values.chapters || values.chapters === '' ? '*' : values.chapters}/${values.occurences}`,
       undefined,
@@ -86,32 +84,72 @@ export default function LexiconForm({
   }
 
   return (
-    <div className="top-0 z-50 font-sans w-full lg:w-[850px] sm:w-5/6 md: mx-auto mt-10 p-5">
-      <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className='box-border lg:space-x-5 flex flex-wrap lg:flex-nowrap lg:items-end flex-col md:flex-row'>
-          <div className='space-x-5 md:pr-5 lg:pr-0 mb-4 w-full md:w-3/5 lg:w-3/5 flex flew-row'>
+    <>
+      {/* <div ref={ref}></div> */}
+      <div className={`${compact ? '' : 'mt-10 p-5 lg:w-[850px] sm:w-5/6 md:mx-auto'} font-sans w-full`}>
+        <Form {...form}>
+          <form onSubmit={form.handleSubmit(onSubmit)} className={`${compact ? 'space-x-1 flex flex-nowrap p-1' : 'lg:space-x-5 flex flex-wrap lg:flex-nowrap lg:items-end flex-col md:flex-row'}  `}>
+            <div className={`${compact ? 'space-x-1 grow-2' : 'space-x-5 md:w-3/5 lg:w-3/5 md:pr-5 lg:pr-0 mb-4 w-full'} flex flew-row`}>
+              <FormField
+                control={form.control}
+                name="book"
+                render={({ field }) => (
+                  <FormItem className={compact ? 'grow mb-0' : 'w-3/5'}>
+                    {!compact && (<FormLabel className={''}>Livre</FormLabel>)}
+                    <Select key={field.value} onValueChange={field.onChange} value={field.value}>
+                      <FormControl>
+                        <SelectTrigger>
+                          <SelectValue placeholder="Livre">
+                            {bookOptions.find(book => book.value === field.value)?.label ?? ''}
+                          </SelectValue>
+                        </SelectTrigger>
+                      </FormControl>
+                      <SelectContent>
+                        {bookSectionsOptions.map((section, id) => (
+                          <SelectGroup key={id}>
+                            <SelectLabel>{section.section}</SelectLabel>
+                            {section.options.map((option, id) => (
+                              <SelectItem value={option.value} key={id}>{option.label}</SelectItem>
+                            ))}
+                          </SelectGroup>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="chapters"
+                render={({ field }) => (
+                  <FormItem className={compact ? 'w-10 mb-0' : 'w-2/5'}>
+                    {!compact && (<FormLabel className=''>Chapitres</FormLabel>)}
+                    <FormControl>
+                      <Input placeholder='tous' {...field} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </div>
             <FormField
               control={form.control}
-              name="book"
+              name='occurences'
               render={({ field }) => (
-                <FormItem className='w-3/5'>
-                  <FormLabel className={''}>Livre</FormLabel>
-                  <Select key={field.value} onValueChange={field.onChange} value={field.value}>
+                <FormItem className={compact ? ' mb-0' : ' mb-4 w-full md:w-2/5 lg:w-1/3'}>
+                  {!compact && (<FormLabel className=''>Nb. d&apos;occurences</FormLabel>)}
+                  <Select onValueChange={field.onChange} value={field.value}>
                     <FormControl>
                       <SelectTrigger>
-                        <SelectValue placeholder="Livre">
-                          {bookOptions.find(book => book.value === field.value)?.label ?? ''}
+                        <SelectValue>
+                          {occurenceOptions.find(occ => occ.value === field.value)?.label ?? ''}
                         </SelectValue>
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      {bookSectionsOptions.map((section, id) => (
-                        <SelectGroup key={id}>
-                          <SelectLabel>{section.section}</SelectLabel>
-                          {section.options.map((option, id) => (
-                            <SelectItem value={option.value} key={id}>{option.label}</SelectItem>
-                          ))}
-                        </SelectGroup>
+                      {occurenceOptions.map((occ, id) => (
+                        <SelectItem value={occ.value} key={id}>{occ.label} {occ.value==='pegonduff' && (<span className='ml-1 inline-flex items-center rounded-md bg-yellow-100 text-yellow-800 dark:bg-yellow-50/20 dark:text-yellow-300 px-1 text-xs font-medium border border-yellow-300'>Nouveau</span>)}</SelectItem>
                       ))}
                     </SelectContent>
                   </Select>
@@ -119,47 +157,13 @@ export default function LexiconForm({
                 </FormItem>
               )}
             />
-            <FormField
-              control={form.control}
-              name="chapters"
-              render={({ field }) => (
-                <FormItem className='w-2/5'>
-                  <FormLabel className=''>Chapitres</FormLabel>
-                  <FormControl>
-                    <Input placeholder='tous' {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-          </div>
-          <FormField
-            control={form.control}
-            name='occurences'
-            render={({ field }) => (
-              <FormItem className='box-border mb-4 w-full md:w-2/5 lg:w-1/3'>
-                <FormLabel className=''>Nb. d&apos;occurences</FormLabel>
-                <Select onValueChange={field.onChange} value={field.value}>
-                  <FormControl>
-                    <SelectTrigger>
-                      <SelectValue>
-                        {occurenceOptions.find(occ => occ.value === field.value)?.label ?? ''}
-                      </SelectValue>
-                    </SelectTrigger>
-                  </FormControl>
-                  <SelectContent>
-                    {occurenceOptions.map((occ, id) => (
-                      <SelectItem value={occ.value} key={id}>{occ.label} {occ.value==='pegonduff' && (<span className='ml-1 inline-flex items-center rounded-md bg-yellow-100 text-yellow-800 dark:bg-yellow-50/20 dark:text-yellow-300 px-1 text-xs font-medium border border-yellow-300'>Nouveau</span>)}</SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          <Button type="submit" size='sm' className='font-sans font-medium grow-0 mx-auto mt-4 mb-4'>Générer le lexique</Button>
-        </form>
-      </Form>
-    </div>
+            {compact
+              ? <Button type="submit" size='icon' variant='secondary' className='size-9 grow-0'><ArrowRight /></Button>
+              : <Button type="submit" size='sm' className='font-sans font-medium grow-0 mx-auto mt-4 mb-4'>Générer le lexique</Button>
+            }
+          </form>
+        </Form>
+      </div>
+    </>
   );
 }
