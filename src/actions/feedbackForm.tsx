@@ -11,18 +11,20 @@ const formSchema = z.object({
 })
 
 export default async function sendFeedback(formData: FormSchemaType, word) {
+  console.log('sending feedback')
   const raw = {
     name: formData.name,
     email: formData.email,
     correctedGloss: formData.correctedGloss,
+    originalGloss: word.llbword.gloss
   }
 
   const parse = formSchema.safeParse(raw)
 
   console.log(parse, formSchema)
-  // if (!parse.success) {
-  //   return { success: false, errors: parse.error.flatten().fieldErrors };
-  // }
+  if (!parse.success) {
+    return { success: false, errors: parse.error.flatten().fieldErrors };
+  }
 
   const res = await fetch(process.env.NEXT_PUBLIC_GOOGLESHEETS_FEEDBACK, {
     method: 'POST',
@@ -31,6 +33,7 @@ export default async function sendFeedback(formData: FormSchemaType, word) {
     },
     body: JSON.stringify({
       ...parse.data,
+      originalGloss: undefined,
       book: word.book,
       chapter: word.chapter,
       verse: word.verse,

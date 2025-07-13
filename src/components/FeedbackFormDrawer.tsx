@@ -25,19 +25,27 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import sendFeedback from "@/actions/feedbackForm"
-
+import { useTransition } from 'react'
 
 export const formSchema = z.object({
   name: z.string().min(1, 'Un nom est requis'),
   email: z.string().email('Une adresse courriel valide est requise'),
   correctedGloss: z.string().min(1, "Vous n'avez pas fait de modification"),
-})
+  originalGloss: z.string().min(1)
+}).refine(
+  (data) => data.correctedGloss !== data.originalGloss,
+  {
+    message: "Le texte n'a pas été modifié",
+    path: ['correctedGloss'], // show error under correctedGloss
+  }
+);
 
 export type FormSchemaType = z.infer<typeof formSchema>;
 
 export default function FeedbackFormDrawer(
-  { isOpen, setIsOpen, word }:
-  { isOpen: boolean, setIsOpen: (arg0: boolean) => void, word: LLB }) {
+{ isOpen, setIsOpen, word }:
+{ isOpen: boolean, setIsOpen: (arg0: boolean) => void, word: LLB }) {
+
 
   const form = useForm<FormSchema>({
     resolver: zodResolver(formSchema),
@@ -49,11 +57,17 @@ export default function FeedbackFormDrawer(
   })
 
   form.setValue('correctedGloss', word?.llbword.gloss)
+  form.setValue('originalGloss', word?.llbword.gloss)
 
   const onSubmit: SubmitHandler<FormSchema> = async (values) => {
     console.log(values)
     const result = await sendFeedback(values, word);
     console.log(result)
+    // startTransition(() => {
+    //   sendFeedback(formData, originalGloss).then((res) => {
+    //     // handle success or display errors
+    //   });
+    // });
   }
 
 
