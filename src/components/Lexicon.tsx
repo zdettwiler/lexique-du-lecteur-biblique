@@ -1,15 +1,7 @@
 import LexiconWord from '@/components/LexiconWord';
 
-interface LLB {
-  id: number
-  verse: number
-  chapter: number
-  lemma: string
-  llbword: {
-    gloss: string,
-    freq: number
-  }
-}
+import type { BibleWithLLB } from '@/types';
+
 
 export default async function Lexicon({ book, chapters, occurences }:
   { book: string, chapters: string, occurences: string }
@@ -20,7 +12,7 @@ export default async function Lexicon({ book, chapters, occurences }:
   }
 
   const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapters}/${occurences}`)
-  const { lexicon } = await data.json()
+  const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
 
   if (!lexicon) return []
 
@@ -39,7 +31,7 @@ export default async function Lexicon({ book, chapters, occurences }:
         </p>
       </div>
 
-      {lexicon.map((word: LLB, id: number, data: LLB[]) => {
+      {lexicon.map((word: BibleWithLLB, id: number, data: BibleWithLLB[]) => {
           const prevChapter = id > 0 ? data[id - 1].chapter : 0
           const chapHeading = prevChapter !== word.chapter
             ? <h3 className='font-serif text-lg text-center italic uppercase tracking-[5px] mt-5 mb-3'>CHAPITRE {word.chapter}</h3>
@@ -54,7 +46,7 @@ export default async function Lexicon({ book, chapters, occurences }:
             <LexiconWord
               key={id}
               chapHeading={chapHeading}
-              verse={verse}
+              verseNb={verse}
               word={word}
             />
           )

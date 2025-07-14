@@ -14,8 +14,12 @@ import { SubmitHandler, useForm } from "react-hook-form"
 import sendLLBCorrectionForm from "@/actions/sendLLBCorrectionForm"
 import { llbCorrectionFormSchema, LLBCorrectionFormSchemaType } from '@/utils/validationLLBCorrectionForm'
 import { toast } from "sonner"
+import type { BibleWithLLB } from '@/types'
 
-export default function LLBCorrectionForm({ word, setIsLLBCorrectionDrawerOpen }) {
+export default function LLBCorrectionForm({ word, setIsLLBCorrectionDrawerOpen }: {
+  word: BibleWithLLB,
+  setIsLLBCorrectionDrawerOpen: (isOpen: boolean) => void;
+}) {
   const form = useForm<LLBCorrectionFormSchemaType>({
     resolver: zodResolver(llbCorrectionFormSchema),
     defaultValues: {

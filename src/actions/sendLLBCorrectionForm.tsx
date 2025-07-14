@@ -1,11 +1,10 @@
 'use server'
 
-import { z } from 'zod'
-
+import type { BibleWithLLB } from '@/types'
 import { llbCorrectionFormSchema, LLBCorrectionFormSchemaType } from '@/utils/validationLLBCorrectionForm'
 
 
-export default async function sendLLBCorrectionForm(formData: LLBCorrectionFormSchemaType, word) {
+export default async function sendLLBCorrectionForm(formData: LLBCorrectionFormSchemaType, word: BibleWithLLB) {
   console.log('sending feedback')
   const raw = {
     name: formData.name,

@@ -9,17 +9,15 @@ import {
   DrawerHeader,
   DrawerTitle
 } from "@/components/ui/drawer"
-import type { LLB, Bible } from '@prisma/client'
+import type { BibleWithLLB } from '@/types'
 import LLBCorrectionForm from '@/components/LLBCorrectionForm'
 import StrongTag from '@/components/StrongTag'
 
-
-
-
-export default function FeedbackFormDrawer(
-{ isOpen, setIsLLBCorrectionDrawerOpen, word }:
-{ isOpen: boolean, setIsLLBCorrectionDrawerOpen: (arg0: boolean) => void, word: LLB }) {
-
+export default function CorrectionFormDrawer({ isOpen, setIsLLBCorrectionDrawerOpen, word }: {
+  isOpen: boolean,
+  setIsLLBCorrectionDrawerOpen: (arg0: boolean) => void,
+  word: BibleWithLLB
+}) {
 
   return word && (
     <>

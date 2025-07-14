@@ -10,9 +10,9 @@ import { Toaster } from "@/components/ui/sonner"
 export const metadata: Metadata = {
   title: 'Lexique du lecteur biblique',
   description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
-  background_color: 'white',
-  theme_color: 'black',
-  display: 'standalone',
+  // backgroundColor: 'white',
+  themeColor: 'black',
+  // display: 'standalone',
   // icons: [
   //   {
   //     rel: 'icon',

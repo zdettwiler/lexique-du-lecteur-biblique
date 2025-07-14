@@ -1,17 +1,18 @@
 'use client'
-import { createContext, useState } from 'react'
-import FeedbackFormDrawer from '@/components/CorrectionFormDrawer'
+import { ReactNode, createContext, useState } from 'react'
+import CorrectionFormDrawer from '@/components/CorrectionFormDrawer'
+import type { BibleWithLLB } from '@/types'
 
-export const LLBCorrectionFormContext = createContext()
+export const LLBCorrectionFormContext = createContext({})
 
-export default function FeedbackFormProvider({children}) {
-  const [isOpen, setIsLLBCorrectionDrawerOpen] = useState();
-  const [feedbackWord, setLLBCorrectionWord] = useState();
+export default function FeedbackFormProvider({children}: { children: ReactNode }) {
+  const [isOpen, setIsLLBCorrectionDrawerOpen] = useState<boolean>(false);
+  const [feedbackWord, setLLBCorrectionWord] = useState<BibleWithLLB | undefined>(undefined);
 
-  return (
+  return feedbackWord && (
     <LLBCorrectionFormContext.Provider value={{ setIsLLBCorrectionDrawerOpen, feedbackWord, setLLBCorrectionWord }}>
       {children}
-      <FeedbackFormDrawer
+      <CorrectionFormDrawer
         isOpen={isOpen}
         setIsLLBCorrectionDrawerOpen={setIsLLBCorrectionDrawerOpen}
         word={feedbackWord}
