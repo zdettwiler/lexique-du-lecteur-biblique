@@ -37,25 +37,12 @@ export default function LLBCorrectionForm({ word, setIsLLBCorrectionDrawerOpen }
     toast.loading('Envoi de la correction...', { id: 'loading', style: { background: 'white' } })
     const result = await sendLLBCorrectionForm(values, word);
     toast.dismiss('loading')
+
     if (result.success) {
-      toast.success("Merci pour votre correction!")
+      toast.success("Bien reçu! Merci pour votre correction.")
     } else {
       toast.error(`Oups! Une erreur est survenue.`)
     }
-
-    // toast.promise(result, {
-    //   loading: 'Loading...',
-    //   success: (data) => {
-    //     return `${data.name} toast has been added`;
-    //   },
-    //   error: 'Error',
-    // });
-
-    // startTransition(() => {
-    //   sendFeedback(formData, originalGloss).then((res) => {
-    //     // handle success or display errors
-    //   });
-    // });
   }
 
   return (

@@ -1,11 +1,16 @@
 import LexiconWord from '@/components/LexiconWord';
+import { Pencil } from 'lucide-react'
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 
 import type { BibleWithLLB } from '@/types';
 
+type Props = {
+  book: string,
+  chapters: string,
+  occurences: string
+}
 
-export default async function Lexicon({ book, chapters, occurences }:
-  { book: string, chapters: string, occurences: string }
-) {
+export default async function Lexicon({ book, chapters, occurences }: Props) {
   if (!book || !chapters || !occurences) {
     return
   }
@@ -20,6 +25,7 @@ export default async function Lexicon({ book, chapters, occurences }:
 
   return (
     <div className='container max-w-[600px] mx-auto px-4 mt-10'>
+
       <div className='font-serif text-center mb-7'>
         <h1 className='uppercase text-center tracking-[12px] text-4xl'>{book} {chapters !== '*' ? chapters.replace('-', '–') : ''}</h1>
         {/* <h2 className='uppercase tracking-widest text-lg'>Lexique du lecteur biblique</h2> */}
@@ -29,6 +35,13 @@ export default async function Lexicon({ book, chapters, occurences }:
           Entre parenthèses figure le nombre d&apos;occurences du mot dans {testament}.
         </p>
       </div>
+      <Alert variant="default" className="has-[svg]:grid-cols-[auto_1fr]">
+        <Pencil />
+        <AlertTitle>Contribuez au LLB!</AlertTitle>
+        <AlertDescription>
+          Cliquez sur une définition pour proposer une correction.
+        </AlertDescription>
+      </Alert>
 
       {lexicon.map((word: BibleWithLLB, id: number, data: BibleWithLLB[]) => {
           const prevChapter = id > 0 ? data[id - 1].chapter : 0
