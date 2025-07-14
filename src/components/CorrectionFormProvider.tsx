@@ -9,14 +9,16 @@ export default function FeedbackFormProvider({children}: { children: ReactNode }
   const [isOpen, setIsLLBCorrectionDrawerOpen] = useState<boolean>(false);
   const [feedbackWord, setLLBCorrectionWord] = useState<BibleWithLLB | undefined>(undefined);
 
-  return feedbackWord && (
+  return (
     <LLBCorrectionFormContext.Provider value={{ setIsLLBCorrectionDrawerOpen, feedbackWord, setLLBCorrectionWord }}>
       {children}
-      <CorrectionFormDrawer
-        isOpen={isOpen}
-        setIsLLBCorrectionDrawerOpen={setIsLLBCorrectionDrawerOpen}
-        word={feedbackWord}
-      />
+      {feedbackWord && (
+        <CorrectionFormDrawer
+          isOpen={isOpen}
+          setIsLLBCorrectionDrawerOpen={setIsLLBCorrectionDrawerOpen}
+          word={feedbackWord}
+        />
+      )}
     </LLBCorrectionFormContext.Provider>
   );
 }

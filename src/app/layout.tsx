@@ -1,17 +1,21 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { ThemeProvider } from "next-themes"
+import { ThemeProvider } from "@/components/ThemeProvider"
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FeedbackFormProvider from "@/components/CorrectionFormProvider"
 import { Toaster } from "@/components/ui/sonner"
+import type { Viewport } from 'next'
+
+export const viewport: Viewport = {
+  themeColor: 'black',
+  // backgroundColor: 'white',
+}
 
 export const metadata: Metadata = {
   title: 'Lexique du lecteur biblique',
   description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
-  // backgroundColor: 'white',
-  themeColor: 'black',
   // display: 'standalone',
   // icons: [
   //   {

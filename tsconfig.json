@@ -9,7 +9,7 @@
     // "module": "esnext",
     "module": "commonjs",
     "target": "es2020",
-    "moduleResolution": "bundler",
+    // "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",

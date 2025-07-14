@@ -6,7 +6,6 @@ import type { BibleWithLLB } from '@/types';
 export default async function Lexicon({ book, chapters, occurences }:
   { book: string, chapters: string, occurences: string }
 ) {
-  console.log(book, chapters, occurences)
   if (!book || !chapters || !occurences) {
     return
   }
