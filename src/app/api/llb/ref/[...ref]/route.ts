@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server'
 import sanitiseRef from '@/utils/sanitiseRef'
 import { db } from '@/lib/db'
 
+import type { BibleWithLLB } from '@/types'
+
 export async function GET(request, { params }: {
   params: { ref: [string, string, string] }
 }) {
@@ -10,7 +12,7 @@ export async function GET(request, { params }: {
 
   try {
 
-    const words = await db.bible.findMany({
+    const words: BibleWithLLB[] = await db.bible.findMany({
       orderBy: { id: 'asc' },
       where: {
         book: { equals: sainRef.book },
@@ -34,7 +36,7 @@ export async function GET(request, { params }: {
       },
     })
 
-    const lexicon = words.reduce((lexicon, word) => {
+    const lexicon = words.reduce((lexicon: BibleWithLLB[], word) => {
       const isSameWordInVerse = lexicon.find(lexiconWord =>
         lexiconWord.chapter === word.chapter &&
         lexiconWord.verse === word.verse &&
