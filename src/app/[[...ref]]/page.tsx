@@ -3,8 +3,8 @@
 import Title from '@/components/Title'
 import LexiconForm from '@/components/LexiconForm'
 import Lexicon from '@/components/Lexicon'
-import { Suspense } from "react";
-import FeedbackFormDrawer from '@/components/FeedbackFormDrawer';
+import { Suspense } from "react"
+import FeedbackFormDrawer from '@/components/CorrectionFormDrawer';
 
 export default async function Home({ params }
   : { params: { ref?: [string, string, string] } }) {

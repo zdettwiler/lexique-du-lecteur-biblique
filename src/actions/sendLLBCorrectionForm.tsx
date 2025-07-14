@@ -2,15 +2,10 @@
 
 import { z } from 'zod'
 
-import type { FormSchemaType } from '@/components/FeedbackFormDrawer'
+import { llbCorrectionFormSchema, LLBCorrectionFormSchemaType } from '@/utils/validationLLBCorrectionForm'
 
-const formSchema = z.object({
-  name: z.string().min(1, 'Un nom est requis'),
-  email: z.string().email('Une adresse courriel valide est requise'),
-  correctedGloss: z.string().min(1, "Vous n'avez pas fait de modification"),
-})
 
-export default async function sendFeedback(formData: FormSchemaType, word) {
+export default async function sendLLBCorrectionForm(formData: LLBCorrectionFormSchemaType, word) {
   console.log('sending feedback')
   const raw = {
     name: formData.name,
@@ -19,9 +14,7 @@ export default async function sendFeedback(formData: FormSchemaType, word) {
     originalGloss: word.llbword.gloss
   }
 
-  const parse = formSchema.safeParse(raw)
-
-  console.log(parse, formSchema)
+  const parse = llbCorrectionFormSchema.safeParse(raw)
   if (!parse.success) {
     return { success: false, errors: parse.error.flatten().fieldErrors };
   }
@@ -40,9 +33,7 @@ export default async function sendFeedback(formData: FormSchemaType, word) {
       strong: word.strong,
       lemma: word.lemma
     }),
-  });
-
-  console.log(res)
+  })
 
   return res.ok
     ? { success: true }

@@ -4,7 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes"
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import FeedbackFormProvider from "@/components/FeedbackFormProvider"
+import FeedbackFormProvider from "@/components/CorrectionFormProvider"
+import { Toaster } from "@/components/ui/sonner"
 
 export const metadata: Metadata = {
   title: 'Lexique du lecteur biblique',
@@ -63,6 +64,7 @@ export default function RootLayout({
             {children}
             <Footer />
           </FeedbackFormProvider>
+          <Toaster richColors/>
         </ThemeProvider>
       </body>
     </html>

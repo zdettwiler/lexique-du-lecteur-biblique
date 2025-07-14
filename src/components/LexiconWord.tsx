@@ -1,10 +1,10 @@
 'use client'
 import { useContext } from 'react'
-import { FeedbackFormContext } from '@/components/FeedbackFormProvider'
+import { LLBCorrectionFormContext } from '@/components/CorrectionFormProvider'
 import { Button } from '@/components/ui/button'
 
 export default function LexiconWord({ chapHeading, verse, word }) {
-  const { setIsOpen, setFeedbackWord } = useContext(FeedbackFormContext)
+  const { setIsLLBCorrectionDrawerOpen, setLLBCorrectionWord } = useContext(LLBCorrectionFormContext)
 
   const lang = word.strong[0]
 
@@ -17,8 +17,8 @@ export default function LexiconWord({ chapHeading, verse, word }) {
         <div className='font-serif text-center text-sm w-9 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</div>
         <div className='font-serif text-xl grow ml-3'>{word.llbword.gloss}</div>
         <Button size='sm' className='' onClick={() => {
-          setIsOpen(true)
-          setFeedbackWord(word)
+          setIsLLBCorrectionDrawerOpen(true)
+          setLLBCorrectionWord(word)
         }}>feedback</Button>
       </div>
     </div>
