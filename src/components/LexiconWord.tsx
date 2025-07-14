@@ -10,7 +10,10 @@ type Props = {
 }
 
 export default function LexiconWord({ chapHeading, verseNb, word }: Props) {
-  const { setIsLLBCorrectionDrawerOpen, setLLBCorrectionWord } = useContext(LLBCorrectionFormContext)
+  const context = useContext(LLBCorrectionFormContext)
+  if (!context) throw new Error("Must be inside LLBCorrectionFormProvider")
+
+  const { setIsLLBCorrectionDrawerOpen, setLLBCorrectionWord } = context
 
   const lang = word.strong[0]
 

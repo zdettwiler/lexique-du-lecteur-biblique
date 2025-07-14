@@ -3,20 +3,25 @@ import { ReactNode, createContext, useState } from 'react'
 import CorrectionFormDrawer from '@/components/CorrectionFormDrawer'
 import type { BibleWithLLB } from '@/types'
 
-export const LLBCorrectionFormContext = createContext({})
+type LLBCorrectionFormContextType = {
+  setIsLLBCorrectionDrawerOpen: (open: boolean) => void
+  correctionWord: BibleWithLLB | undefined
+  setLLBCorrectionWord: (word: BibleWithLLB) => void
+}
+export const LLBCorrectionFormContext = createContext<LLBCorrectionFormContextType | undefined>(undefined)
 
 export default function FeedbackFormProvider({children}: { children: ReactNode }) {
   const [isOpen, setIsLLBCorrectionDrawerOpen] = useState<boolean>(false);
-  const [feedbackWord, setLLBCorrectionWord] = useState<BibleWithLLB | undefined>(undefined);
+  const [correctionWord, setLLBCorrectionWord] = useState<BibleWithLLB | undefined>(undefined);
 
   return (
-    <LLBCorrectionFormContext.Provider value={{ setIsLLBCorrectionDrawerOpen, feedbackWord, setLLBCorrectionWord }}>
+    <LLBCorrectionFormContext.Provider value={{ setIsLLBCorrectionDrawerOpen, correctionWord, setLLBCorrectionWord }}>
       {children}
-      {feedbackWord && (
+      {correctionWord && (
         <CorrectionFormDrawer
           isOpen={isOpen}
           setIsLLBCorrectionDrawerOpen={setIsLLBCorrectionDrawerOpen}
-          word={feedbackWord}
+          word={correctionWord}
         />
       )}
     </LLBCorrectionFormContext.Provider>
