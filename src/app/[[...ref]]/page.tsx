@@ -28,7 +28,7 @@ export default async function Home({ params }
         occurences={occurences}
       />
       <Suspense fallback={
-        <LoaderCircle className="animate-spin w-12 h-12 text-blue-500 text-center mx-auto mt-20" />
+        <LoaderCircle className="animate-spin size-10 text-primary text-center mx-auto mt-20" />
       }>
         <Lexicon
           book={book}
