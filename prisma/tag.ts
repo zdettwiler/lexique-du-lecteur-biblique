@@ -1,5 +1,5 @@
-import { db } from '@/lib/db'
-import type { LLB, Bible, PegonDuff } from '@prisma/client'
+import { db } from '../src/lib/db'
+import { books } from '../src/utils/booksMetadata'
 
 import fs from 'fs'
 import path from 'path'
@@ -7,8 +7,7 @@ import cliProgress from 'cli-progress'
 import { createObjectCsvStringifier } from 'csv-writer'
 
 const DATA_PATH = path.join(__dirname, '../data')
-const BATCH_SIZE = 5000
-const TOTAL_WORDS = await db.lLB.count()
+const BATCH_SIZE = 1000
 
 const bar = new cliProgress.SingleBar({
     clearOnComplete: false,
@@ -16,7 +15,11 @@ const bar = new cliProgress.SingleBar({
     format: '{bar} {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
   }, cliProgress.Presets.rect)
 
-function sortCanonically(refA, refB) {
+type BibleRef = {
+  book: string,
+  chapter: number
+}
+function sortCanonically(refA: BibleRef, refB: BibleRef) {
   const indexA = books.indexOf(refA.book)
   const indexB = books.indexOf(refB.book)
 
@@ -28,7 +31,8 @@ function sortCanonically(refA, refB) {
 }
 
 async function main() {
-  console.log('📦 Exporting')
+  console.log('📦 Tagging')
+  const TOTAL_WORDS = await db.lLB.count()
   bar.start(TOTAL_WORDS, 0);
 
   const output = fs.createWriteStream(path.join(DATA_PATH, 'llb-tagged.csv'), 'utf-8')
@@ -40,10 +44,12 @@ async function main() {
     { id: 'occurrences', title: 'occurrences' },
   ] })
 
+  output.write(csvWriter.getHeaderString())
+
   let offset = 0
   while (true) {
     const llbRows = await db.lLB.findMany({
-      skip,
+      skip: offset,
       take: BATCH_SIZE,
       select: {
         strong: true,
@@ -73,7 +79,7 @@ async function main() {
       return {
         ...word,
         bibleword: undefined,
-        uniqueOccurrences,
+        occurrences: uniqueOccurrences,
       };
     });
 
@@ -93,4 +99,4 @@ main()
     console.error('❌ Export failed:', err)
     process.exit(1)
   })
-  .finally(() => prisma.$disconnect())
+  .finally(() => db.$disconnect())
