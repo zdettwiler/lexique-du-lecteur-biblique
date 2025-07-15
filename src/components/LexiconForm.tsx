@@ -4,7 +4,6 @@ import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
-import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation'
 
 import { ArrowRight } from 'lucide-react'
@@ -43,14 +42,14 @@ const formSchema = z.object({
   occurences: z.string().default('70') // z.enum(occurenceOptions.map(o => o.value)).default('70')
 })
 
-export default function LexiconForm({
-  book, chapters, occurences, compact=false
-}: {
+type Props = {
   book: string,
   chapters: string,
   occurences: string,
-  compact: boolean
-}) {
+  compact?: boolean
+}
+
+export default function LexiconForm({book, chapters, occurences, compact=false}: Props) {
   const router = useRouter()
   // const ref = useRef<HTMLDivElement>(null);
   // const [stuck, setStuck] = useState(false);
@@ -76,6 +75,10 @@ export default function LexiconForm({
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
+    // localStorage.setItem('book', values.book)
+    // localStorage.setItem('chapters', values.chapters === '' ? '*' : values.chapters)
+    // localStorage.setItem('occurences', values.occurences)
+
     router.push(
       `/${values.book}/${!values.chapters || values.chapters === '' ? '*' : values.chapters}/${values.occurences}`,
       undefined,

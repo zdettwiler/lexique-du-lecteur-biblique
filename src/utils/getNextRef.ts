@@ -2,7 +2,7 @@ import { books, type BookName, bookMeta } from '@/utils/booksMetadata'
 
 
 export default function getNextRef(dir: "prev" | "next", book: BookName, chapter: string):
-{ book: string, chapter: number } {
+{ book: BookName, chapter: number } {
   const bookNbChap = bookMeta[book].nbChap
 
   if (dir === "prev" && Number(chapter) === 1) {

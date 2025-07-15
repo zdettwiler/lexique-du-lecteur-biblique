@@ -1,16 +1,21 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
+import type { Metadata } from "next"
+import localFont from "next/font/local"
 import "./globals.css";
-import { ThemeProvider } from "next-themes"
+import { ThemeProvider } from "@/components/ThemeProvider"
+import Footer from "@/components/Footer"
+import FeedbackFormProvider from "@/components/CorrectionFormProvider"
+import { Toaster } from "@/components/ui/sonner"
+import type { Viewport } from 'next'
 
-import Footer from "@/components/Footer";
+export const viewport: Viewport = {
+  themeColor: 'black',
+  // backgroundColor: 'white',
+}
 
 export const metadata: Metadata = {
   title: 'Lexique du lecteur biblique',
   description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
-  background_color: 'white',
-  theme_color: 'black',
-  display: 'standalone',
+  // display: 'standalone',
   // icons: [
   //   {
   //     rel: 'icon',
@@ -50,18 +55,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${geistSans.variable} antialiased`}>
+      <body className={`${geistSans.variable} font-sans antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-
-          <main className='container mx-auto dark:bg-red'>
+          <FeedbackFormProvider>
             {children}
-          </main>
-          <Footer />
+            <Footer />
+          </FeedbackFormProvider>
+          <Toaster richColors/>
         </ThemeProvider>
       </body>
     </html>
