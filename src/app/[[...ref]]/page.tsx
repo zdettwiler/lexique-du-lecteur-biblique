@@ -4,6 +4,7 @@ import Title from '@/components/Title'
 import LexiconForm from '@/components/LexiconForm'
 import Lexicon from '@/components/Lexicon'
 import { Suspense } from "react"
+import { LoaderCircle } from 'lucide-react'
 
 export default async function Home({ params }
   : { params: { ref?: [string, string, string] } }) {
@@ -27,20 +28,7 @@ export default async function Home({ params }
         occurences={occurences}
       />
       <Suspense fallback={
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="40"
-          height="40"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="animate-spin text-center mx-auto mt-20"
-        >
-          <path d="M21 12a9 9 0 1 1-6.219-8.56" />
-        </svg>
+        <LoaderCircle className="animate-spin w-12 h-12 text-blue-500 text-center mx-auto mt-20" />
       }>
         <Lexicon
           book={book}
