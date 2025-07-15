@@ -26,7 +26,7 @@ export default async function Home({ params }
         chapters={chapters}
         occurences={occurences}
       />
-      <main className='container mx-auto'>
+      <main className='container mx-auto mt-14'>
         <Title />
         <LexiconForm
           book={book}

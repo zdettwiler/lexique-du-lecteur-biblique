@@ -468,7 +468,7 @@ export const bookMeta: Record<BookName, { nbChap: number; label: string }> = {
   Esdras: { nbChap: 10, label: 'Esd' },
   Néhémie: { nbChap: 13, label: 'Né' },
   '1Chroniques': { nbChap: 29, label: '1Ch' },
-  '2Chroniques': { nbChap: 36, label: '1Ch' },
+  '2Chroniques': { nbChap: 36, label: '2Ch' },
 
   // NT
   Matthieu: { nbChap: 28, label: 'Mt' },
@@ -491,11 +491,11 @@ export const bookMeta: Record<BookName, { nbChap: number; label: string }> = {
   Philémon: { nbChap: 1, label: 'Phl' },
   Hébreux: { nbChap: 13, label: 'Hb' },
   Jacques: { nbChap: 5, label: 'Jc' },
-  '1Pierre': { nbChap: 5, label: '1P' },
-  '2Pierre': { nbChap: 3, label: '2P' },
-  '1Jean': { nbChap: 5, label: '1J' },
-  '2Jean': { nbChap: 1, label: '2J' },
-  '3Jean': { nbChap: 1, label: '3J' },
+  '1Pierre': { nbChap: 5, label: '1Pi' },
+  '2Pierre': { nbChap: 3, label: '2Pi' },
+  '1Jean': { nbChap: 5, label: '1Jn' },
+  '2Jean': { nbChap: 1, label: '2Jn' },
+  '3Jean': { nbChap: 1, label: '3Jn' },
   Jude: { nbChap: 1, label: 'Jd' },
   Apocalypse: { nbChap: 22, label: 'Ap' },
 } as const

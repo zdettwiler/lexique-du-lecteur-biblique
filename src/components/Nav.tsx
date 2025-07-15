@@ -25,7 +25,7 @@ export default function Nav({
 
   return (
     // <nav className='left-0 w-full bg-neutral-100/30 dark:bg-neutral-950/30 backdrop-blur-md text-white p-4 z-50 transform transition-all duration-300'>
-    <nav className="fixed top-0 left-0 w-full bg-background/80 dark:bg-background/30 backdrop-blur-md py-2 px-4 z-50">
+    <nav className="fixed top-0 left-0 h-14 w-full bg-background/80 dark:bg-background/30 backdrop-blur-md py-2 px-4 z-50">
       <div className="flex flex-row items-center justify-between">
         {/* <div className={`${show ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0 pointer-events-none'} transform transition-all duration-300`}>
           <h3 className="font-bold text-xl text-primary">{book} {chapters} {occurences}</h3>
