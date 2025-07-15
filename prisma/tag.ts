@@ -1,5 +1,6 @@
 import { db } from '../src/lib/db'
-import { books } from '../src/utils/booksMetadata'
+import { books, bookMeta, type BookName } from '../src/utils/booksMetadata'
+import { LLBWithBible } from '../src/types'
 
 import fs from 'fs'
 import path from 'path'
@@ -16,7 +17,7 @@ const bar = new cliProgress.SingleBar({
   }, cliProgress.Presets.rect)
 
 type BibleRef = {
-  book: string,
+  book: BookName
   chapter: number
 }
 function sortCanonically(refA: BibleRef, refB: BibleRef) {
@@ -63,14 +64,14 @@ async function main() {
           }
         }
       }
-    });
+    }) as LLBWithBible[];
 
     if (llbRows.length === 0) break
 
-    const taggedLLB = llbRows.map(word => {
+    const taggedLLB = llbRows.map((word) => {
       const sortedOccurrences = word.bibleword
         .sort(sortCanonically)
-        .map(ref => `${ref.book}_${ref.chapter}`)
+        .map((ref ) => `${bookMeta[ref.book].label}_${ref.chapter}`)
 
       const uniqueOccurrences = Array.from(
         new Set(sortedOccurrences)
