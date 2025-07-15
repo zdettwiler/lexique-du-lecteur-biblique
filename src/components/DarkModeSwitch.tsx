@@ -1,5 +1,6 @@
 'use client'
 import { useTheme } from "next-themes"
+import { useState, useEffect } from 'react'
 import {
   Tooltip,
   TooltipContent,
@@ -8,6 +9,13 @@ import {
 
 export default function DarkModeSwitch () {
   const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null; // or a loading skeleton
 
   return (
     <Tooltip>

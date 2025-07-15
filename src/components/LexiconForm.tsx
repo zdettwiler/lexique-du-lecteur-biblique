@@ -53,17 +53,17 @@ export default function LexiconForm({
     resolver: zodResolver(formSchema),
     defaultValues: !!book && !!occurences
     ? {
-        book: localStorage?.getItem('book') || book,
-        chapters: localStorage?.getItem('chapters') || chapters === '*' ? '' : chapters,
-        occurences: localStorage?.getItem('occurences') || occurences
+        book: book,
+        chapters: chapters === '*' ? '' : chapters,
+        occurences: occurences
       }
     : undefined,
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    localStorage.setItem('book', values.book)
-    localStorage.setItem('chapters', values.chapters === '' ? '*' : values.chapters)
-    localStorage.setItem('occurences', values.occurences)
+    // localStorage.setItem('book', values.book)
+    // localStorage.setItem('chapters', values.chapters === '' ? '*' : values.chapters)
+    // localStorage.setItem('occurences', values.occurences)
 
     router.push(
       `/${values.book}/${!values.chapters || values.chapters === '' ? '*' : values.chapters}/${values.occurences}`,
