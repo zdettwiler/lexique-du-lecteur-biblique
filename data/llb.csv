@@ -801,7 +801,7 @@ G0819,ἀτιμία,"déshonneur, honte, ignominie, infâmie",7,
 G0820,ἄτιμος,sans honneur; dans le mépris; moins honorable,4,
 G0822,ἀτμίς,vapeur,2,
 G0823,ἄτομος,"instant, moment",1,
-G0824,ἄτοπος,"extraordinaire, anormal, fâcheux, déplacé",4,
+G0824,ἄτοπος,"extraordinaire, anormal; fâcheux, déplacé",4,2025-07-16T13:44:23.262Z
 G0825,Ἀττάλεια,Attalie = «appartenant à Attale»,1,
 G0826,αὐγάζω,"briller, resplendir",1,
 G0827,αὐγή,"aube, éclat du jour, lever du soleil",1,
@@ -2031,7 +2031,7 @@ G2102,εὐαρέστως,"d’une manière qui soit agréable, agréablement",
 G2103,Εὔβουλος,"Eubulus = «prudent, avisé»",1,
 G2104,εὐγενής,"noble, de haute naissance, de rang élevé, honorable",3,
 G2105,εὐδία,"beau temps, temps agréable",1,
-G2106,εὐδοκέω,être disposé; plaire; trouver bon; prendre à cœur; trouver son plaisir,21,
+G2106,εὐδοκέω,"être disposé, plaire, trouver bon; prendre à cœur, trouver son plaisir",21,2025-07-16T13:35:28.124Z
 G2107,εὐδοκία,bonne volonté; souhait; bon plaisir,9,
 G2108,εὐεργεσία,"bonne œuvre qui a été faite, bonne action",2,
 G2109,εὐεργετέω,"faire du bien, être un bienfaiteur",1,
@@ -2841,7 +2841,7 @@ G2945,κύκλῳ,d’alentour; à l’entour; à la ronde,8,
 G2946,κύλισμα,vautrement,1,
 G2947,κυλίω,"rouler, tourner sur soi",1,
 G2948,κυλλός,"estropié, infirme",4,
-G2949,κῦμα,"vague, flot, grosse vague",5,
+G2949,κῦμα,vague,5,2025-07-16T13:38:56.721Z
 G2950,κύμβαλον,une cymbale,1,2024-11-01T08:15:49.825Z
 G2951,κύμινον,cumin,1,2024-11-01T08:15:49.825Z
 G2952,κυνάριον,chien,4,
@@ -3174,7 +3174,7 @@ G3399,Μίλητος,Milet = «laine blanche pure et fine»,3,
 G3400,μίλιον,mille,1,2024-11-01T08:15:49.825Z
 G3401,μιμέομαι,"imiter, suivre le modèle",4,
 G3402,μιμητής,imitateur,6,
-G3403,μιμνήσκω,"venir en mémoire, rappeler à l’esprit, remémorer, se souvenir",23,
+G3403,μιμνήσκω,"se souvenir, se rappeler",23,2025-07-16T13:46:01.829Z
 G3404,μισέω,haïr,40,2024-11-01T08:15:49.825Z
 G3405,μισθαποδοσία,"rétribution, récompense, revanche, rémunération",3,
 G3406,μισθαποδότης,rémunérateur,1,
@@ -4067,7 +4067,7 @@ G4323,προσανατίθημι,"imposer, demander de plus; consulter",2,2025-
 G4324,προσαπειλέω,menacer davantage,1,
 G4325,προσδαπανάω,dépenser de plus,1,
 G4326,προσδέω,avoir besoin,1,
-G4327,προσδέχομαι,accueillir; attendre avec confiance; accepter; nourrir,14,
+G4327,προσδέχομαι,accueillir; attendre avec confiance; accepter,14,2025-07-16T13:40:53.393Z
 G4328,προσδοκάω,attendre; être dans l’attente,16,
 G4329,προσδοκία,"attente, perspective, crainte, souhait",2,
 G4330,προσεάω,"permettre d’avancer, laisser approcher",1,
@@ -4094,7 +4094,7 @@ G4351,προσκυλίω,rouler contre,2,
 G4352,προσκυνέω,"adorer, se prosterner devant",60,2024-11-01T08:15:49.825Z
 G4353,προσκυνητής,"adorateur, qui rend hommage",1,
 G4354,προσλαλέω,"parler, adresser la parole",2,
-G4355,προσλαμβάνω,prendre; recevoir; prendre (de la nourriture),12,
+G4355,προσλαμβάνω,prendre; recevoir,12,2025-07-16T13:32:32.000Z
 G4356,πρόσληψις,"réception, intégration, admission",1,
 G4357,προσμένω,"demeurer auprès, demeurer attaché, rester auprès, rester attaché",7,
 G4358,προσορμίζω,"amarrer, aborder",1,2024-11-01T08:15:49.825Z
@@ -4431,7 +4431,7 @@ G4700,σποδός,cendre,3,
 G4701,σπορά,semence semée,1,
 G4702,σπόριμος,blé,3,
 G4703,σπόρος,ensemencement,5,
-G4704,σπουδάζω,"désirer ardemment, s’appliquer, s’empresser, s’efforcer",11,2024-11-01T08:15:49.825Z
+G4704,σπουδάζω,"se hâter; s'efforcer, tâcher de",11,2025-07-16T13:43:14.475Z
 G4705,σπουδαῖος,"zélé, sérieux, diligent",3,
 G4708,σπουδαιοτέρως,"avec d’autant plus d’empressement, en toute hâte",1,
 G4709,σπουδαίως,"instamment, diligemment, sérieusement, avec soin",3,
@@ -8081,7 +8081,7 @@ H2754,חָרִיט,"sac, bourse",2,
 H2756,חָרִיף,Hariph = «d’automne»,2,
 H2757,חָרִיץ,"une coupe, chose coupée, instrument tranchant, herse, houe",3,
 H2758,חָרִישׁ,"labourage, temps des labours",3,
-H2759,חֲרִישִׁי,"rude, chaud, étouffant, silencieux (sens incertain)",1,
+H2759,חֲרִישִׁי,"(sens incertain) chaud?, silencieux?",1,2025-07-16T13:25:25.000Z
 H2760,חָרַךְ,"(Qal) se mettre en mouvement, démarrer",1,
 H2761,חֲרַךְ,"(Ithpael) flamber, roussir",1,
 H2762,חֲרַכִּים,"treillis, autre ouverture par où l’on peut voir",1,
@@ -10628,7 +10628,7 @@ H5351,נְקֻדָּה,"point, goutte",1,
 H5352,נָקָה,"être vide, être clair, être pur, être libre, être innocent, être dégagé, être retranché",44,
 H5353,נְקוֹדָא,"Nekoda = «qui se distingue, moucheté»",4,
 H5354,נָקַט,"détester, être chagriné, ressentir un dégoût",1,
-H5355,נָקִי,"propre, libre de, exempt, clair, innocent",43,
+H5355,נָקִי,"pur, innocent; dégagé, exempté, dispensé",43,2025-07-16T13:10:00.000Z
 H5356,נִקָּיוֹן,innocence,5,
 H5357,נָקִיק,fente (d’un rocher),3,
 H5358,נָקַם,"venger, tirer vengeance, se venger, être vengé, être puni",35,
