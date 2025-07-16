@@ -1,8 +1,7 @@
 import LexiconWord from '@/components/LexiconWord';
 import { Pencil } from 'lucide-react'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import type { BookName } from '@/utils/booksMetadata'
-import type { BibleWithLLB } from '@/types';
+import type { BookName, BibleWithLLB } from '@/types'
 
 type Props = {
   book: BookName | undefined,

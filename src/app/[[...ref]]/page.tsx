@@ -5,7 +5,7 @@ import LexiconForm from '@/components/LexiconForm'
 import Lexicon from '@/components/Lexicon'
 import { Suspense } from "react"
 import { LoaderCircle } from 'lucide-react'
-import type { BookName } from '@/utils/booksMetadata'
+import type { BookName } from '@/types'
 
 export default async function Home({ params }
   : { params: { ref?: [BookName, string, string] } }) {
