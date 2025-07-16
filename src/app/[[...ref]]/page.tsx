@@ -32,7 +32,7 @@ export default async function Home({ params }
       }>
         <Lexicon
           book={book}
-          chapter={chapter}
+          chapter={Number(chapter)}
           occurences={occurences}
         />
       </Suspense>
