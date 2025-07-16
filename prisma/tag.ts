@@ -45,7 +45,12 @@ async function main() {
     { id: 'occurrences', title: 'occurrences' },
   ] })
 
-  output.write(csvWriter.getHeaderString())
+  output.write("#separator:Comma\n")
+  output.write("#html:false\n")
+  output.write(`#columns:${csvWriter.getHeaderString()}`)
+  output.write("#notetype:Vocabulaire LLB\n")
+  // output.write("#deck:📖 LLB Hébreux\n")
+  output.write("#tagscolumn:5\n")
 
   let offset = 0
   while (true) {
