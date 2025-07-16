@@ -67,17 +67,15 @@ export default function LexiconForm({
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values)
-    // localStorage.setItem('book', values.book)
-    // localStorage.setItem('chapter', values.chapter === '' ? '*' : values.chapter)
-    // localStorage.setItem('occurences', values.occurences)
+    // TODO validate form here?
+    localStorage.setItem('book', values.book)
+    localStorage.setItem('chapter', values.chapter.toString())
+    localStorage.setItem('occurences', values.occurences)
 
-    router.push(
-      `/${values.book}/${!values.chapter || values.chapter === '' ? '*' : values.chapter}/${values.occurences}`,
-      undefined,
-      { shallow: true }
-    )
+    router.push(`/${values.book}/${values.chapter}/${values.occurences}`)
   }
+
+  const maxChapters = bookChapters[form.watch('book')]
 
   return (
     <div className="font-sans w-full lg:w-[850px] sm:w-5/6 md: mx-auto mt-10 p-5">
@@ -120,7 +118,14 @@ export default function LexiconForm({
                 <FormItem className='w-2/5'>
                   <FormLabel className=''>Chapitre</FormLabel>
                   <FormControl>
-                    <Input placeholder='tous' type='number' {...field} />
+                    <Input placeholder='tous' type='number' {...field} onBlur={() => {
+                      const value = Number(field.value);
+                      if (value > maxChapters) {
+                        form.setValue('chapter', maxChapters)
+                      } else if (value < 1) {
+                        form.setValue('chapter', 1)
+                      }
+                    }}/>
                   </FormControl>
                   <FormMessage />
                 </FormItem>

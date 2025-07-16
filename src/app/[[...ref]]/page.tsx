@@ -13,7 +13,7 @@ export default async function Home({ params }
 
   const [book, chapter, occurences] = Array.isArray(ref.ref) && ref.ref.length === 3
     ? ref.ref.map(r => decodeURIComponent(r))
-    : ['Genèse', 1, '70']
+    : []
 
   // (localStorage.getItem('book') || 'Genèse')
   // (localStorage.getItem('chapters') || '')
