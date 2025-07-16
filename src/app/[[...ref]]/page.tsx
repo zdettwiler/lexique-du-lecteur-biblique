@@ -5,19 +5,20 @@ import LexiconForm from '@/components/LexiconForm'
 import Lexicon from '@/components/Lexicon'
 import { Suspense } from "react"
 import { LoaderCircle } from 'lucide-react'
+import type { BookName } from '@/utils/booksMetadata'
 
 export default async function Home({ params }
-  : { params: { ref?: [string, string, string] } }) {
+  : { params: { ref?: [BookName, string, string] } }) {
 
   const ref = await params
 
   const [book, chapter, occurences] = Array.isArray(ref.ref) && ref.ref.length === 3
-    ? ref.ref.map(r => decodeURIComponent(r))
-    : []
-
-  // (localStorage.getItem('book') || 'Genèse')
-  // (localStorage.getItem('chapters') || '')
-  // (localStorage.getItem('freoquency') || '70')
+    ? [
+      decodeURIComponent(ref.ref[0]) as BookName,
+      Number(decodeURIComponent(ref.ref[1])),
+      decodeURIComponent(ref.ref[2])
+    ]
+    : [undefined, undefined, undefined]
 
   return (
     <main className='container mx-auto dark:bg-red'>

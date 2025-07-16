@@ -1,9 +1,10 @@
 'use client'
-
+import { useEffect } from 'react'
 import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { books, bookChapters, bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
+import type { BookName } from '@/types'
 import createZodEnum from '@/utils/createZodEnum'
 import { useRouter } from 'next/navigation'
 
@@ -35,11 +36,12 @@ const occurenceOptions = [
   { label: 'Connaisseur (<30×)', value: '30' },
   { label: 'Expert (<10×)', value: '10' }
 ]
+const occurenceValues = occurenceOptions.map(o => o.value) as [string, ...string[]]
 
 const formSchema = z.object({
-  book: createZodEnum(books).default('Genèse'), // z.string().default('Genèse'), //
+  book: createZodEnum(books).default('Genèse'),
   chapter: z.coerce.number().int().min(1).default(1),
-  occurences: z.string().default('70') // z.enum(occurenceOptions.map(o => o.value)).default('70')
+  occurences: z.enum(occurenceValues).default('70')
 }).transform(form => {
   const maxChapters = bookChapters[form.book]
 
@@ -52,9 +54,9 @@ const formSchema = z.object({
 export default function LexiconForm({
   book, chapter, occurences
 }: {
-  book: string,
-  chapter: number,
-  occurences: string
+  book: BookName | undefined,
+  chapter: number | undefined,
+  occurences: string | undefined
 }) {
   const router = useRouter()
   const form = useForm<z.infer<typeof formSchema>>({
@@ -65,17 +67,31 @@ export default function LexiconForm({
       occurences: occurences || '70'
     }
   })
+  const {reset} = form
+
+  useEffect(() => {
+    const stored = localStorage.getItem('lexicon-form')
+    if (!stored) return
+    try {
+      const parsed = JSON.parse(stored)
+      reset({
+        book: parsed.book,
+        chapter: Number(parsed.chapter),
+        occurences: parsed.occurences
+      })
+    } catch (e) {
+      console.error('Failed to parse form data from localStorage', e)
+    }
+  }, [reset])
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     // TODO validate form here?
-    localStorage.setItem('book', values.book)
-    localStorage.setItem('chapter', values.chapter.toString())
-    localStorage.setItem('occurences', values.occurences)
+    localStorage.setItem('lexicon-form', JSON.stringify(values))
 
     router.push(`/${values.book}/${values.chapter}/${values.occurences}`)
   }
 
-  const maxChapters = bookChapters[form.watch('book')]
+  const maxChapters = bookChapters[form.watch('book') as BookName]
 
   return (
     <div className="font-sans w-full lg:w-[850px] sm:w-5/6 md: mx-auto mt-10 p-5">
@@ -138,10 +154,10 @@ export default function LexiconForm({
             render={({ field }) => (
               <FormItem className='box-border mb-4 w-full md:w-2/5 lg:w-1/3'>
                 <FormLabel className=''>Nb. d&apos;occurences</FormLabel>
-                <Select onValueChange={field.onChange} value={field.value}>
+                <Select key={field.value} onValueChange={field.onChange} value={field.value}>
                   <FormControl>
                     <SelectTrigger>
-                      <SelectValue>
+                      <SelectValue placeholder="Nb d&apos;occurences">
                         {occurenceOptions.find(occ => occ.value === field.value)?.label ?? ''}
                       </SelectValue>
                     </SelectTrigger>

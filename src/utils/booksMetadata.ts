@@ -70,7 +70,6 @@ export const books = [
   'Apocalypse'
 ] as const
 
-
 export const bookNames = {
   genèse: 'Genèse',
   genese: 'Genèse',

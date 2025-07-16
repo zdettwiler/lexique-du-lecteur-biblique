@@ -1,13 +1,13 @@
 import LexiconWord from '@/components/LexiconWord';
 import { Pencil } from 'lucide-react'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-
+import type { BookName } from '@/utils/booksMetadata'
 import type { BibleWithLLB } from '@/types';
 
 type Props = {
-  book: string,
-  chapter: number,
-  occurences: string
+  book: BookName | undefined,
+  chapter: number | undefined,
+  occurences: string | undefined
 }
 
 export default async function Lexicon({ book, chapter, occurences }: Props) {
