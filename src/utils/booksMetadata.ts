@@ -68,8 +68,7 @@ export const books = [
   '3Jean',
   'Jude',
   'Apocalypse'
-]
-
+] as const
 
 export const bookNames = {
   genèse: 'Genèse',

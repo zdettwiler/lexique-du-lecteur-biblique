@@ -1,21 +1,20 @@
 import LexiconWord from '@/components/LexiconWord';
 import { Pencil } from 'lucide-react'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-
-import type { BibleWithLLB } from '@/types';
+import type { BookName, BibleWithLLB } from '@/types'
 
 type Props = {
-  book: string,
-  chapters: string,
-  occurences: string
+  book: BookName | undefined,
+  chapter: number | undefined,
+  occurences: string | undefined
 }
 
-export default async function Lexicon({ book, chapters, occurences }: Props) {
-  if (!book || !chapters || !occurences) {
+export default async function Lexicon({ book, chapter, occurences }: Props) {
+  if (!book || !chapter || !occurences) {
     return
   }
 
-  const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapters}/${occurences}`)
+  const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapter}/${occurences}`)
   const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
 
   if (!lexicon) return []
@@ -27,7 +26,7 @@ export default async function Lexicon({ book, chapters, occurences }: Props) {
     <div className='container max-w-[600px] mx-auto px-4 mt-10'>
 
       <div className='font-serif text-center mb-7'>
-        <h1 className='uppercase text-center tracking-[12px] text-4xl'>{book} {chapters !== '*' ? chapters.replace('-', '–') : ''}</h1>
+        <h1 className='uppercase text-center tracking-[12px] text-4xl'>{book} {chapter}</h1>
         {/* <h2 className='uppercase tracking-widest text-lg'>Lexique du lecteur biblique</h2> */}
 
         <p className='italic mt-3'>

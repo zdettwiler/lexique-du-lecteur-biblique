@@ -1,4 +1,5 @@
 import { Prisma } from '@prisma/client';
+import { books } from '@/utils/booksMetadata'
 
 export type BibleWithLLB = Prisma.BibleGetPayload<{
   include: {
@@ -10,3 +11,5 @@ export type BibleWithLLB = Prisma.BibleGetPayload<{
     }
   }
 }>;
+
+export type BookName = typeof books[number]
