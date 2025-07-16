@@ -11,9 +11,9 @@ export default async function Home({ params }
 
   const ref = await params
 
-  const [book, chapters, occurences] = Array.isArray(ref.ref) && ref.ref.length === 3
+  const [book, chapter, occurences] = Array.isArray(ref.ref) && ref.ref.length === 3
     ? ref.ref.map(r => decodeURIComponent(r))
-    : ['Genèse', '', '70']
+    : ['Genèse', 1, '70']
 
   // (localStorage.getItem('book') || 'Genèse')
   // (localStorage.getItem('chapters') || '')
@@ -24,7 +24,7 @@ export default async function Home({ params }
       <Title />
       <LexiconForm
         book={book}
-        chapters={chapters}
+        chapter={Number(chapter)}
         occurences={occurences}
       />
       <Suspense fallback={
@@ -32,7 +32,7 @@ export default async function Home({ params }
       }>
         <Lexicon
           book={book}
-          chapters={chapters}
+          chapter={chapter}
           occurences={occurences}
         />
       </Suspense>

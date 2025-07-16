@@ -3,7 +3,8 @@
 import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
-import { bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
+import { books, bookChapters, bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
+import createZodEnum from '@/utils/createZodEnum'
 import { useRouter } from 'next/navigation'
 
 import { Button } from "@/components/ui/button"
@@ -36,37 +37,43 @@ const occurenceOptions = [
 ]
 
 const formSchema = z.object({
-  book: z.string().default('Genèse'), // z.enum(books).default('Genèse'),
-  chapters: z.string().max(50).default('1'),
+  book: createZodEnum(books).default('Genèse'), // z.string().default('Genèse'), //
+  chapter: z.coerce.number().int().min(1).default(1),
   occurences: z.string().default('70') // z.enum(occurenceOptions.map(o => o.value)).default('70')
+}).transform(form => {
+  const maxChapters = bookChapters[form.book]
+
+  return {
+    ...form,
+    chapter: Math.min(form.chapter, maxChapters),
+  }
 })
 
 export default function LexiconForm({
-  book, chapters, occurences
+  book, chapter, occurences
 }: {
   book: string,
-  chapters: string,
+  chapter: number,
   occurences: string
 }) {
   const router = useRouter()
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
-    defaultValues: !!book && !!occurences
-    ? {
-        book: book,
-        chapters: chapters === '*' ? '' : chapters,
-        occurences: occurences
-      }
-    : undefined,
+    defaultValues: {
+      book: book || 'Genèse',
+      chapter: chapter || 1,
+      occurences: occurences || '70'
+    }
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
+    console.log(values)
     // localStorage.setItem('book', values.book)
-    // localStorage.setItem('chapters', values.chapters === '' ? '*' : values.chapters)
+    // localStorage.setItem('chapter', values.chapter === '' ? '*' : values.chapter)
     // localStorage.setItem('occurences', values.occurences)
 
     router.push(
-      `/${values.book}/${!values.chapters || values.chapters === '' ? '*' : values.chapters}/${values.occurences}`,
+      `/${values.book}/${!values.chapter || values.chapter === '' ? '*' : values.chapter}/${values.occurences}`,
       undefined,
       { shallow: true }
     )
@@ -108,12 +115,12 @@ export default function LexiconForm({
             />
             <FormField
               control={form.control}
-              name="chapters"
+              name="chapter"
               render={({ field }) => (
                 <FormItem className='w-2/5'>
-                  <FormLabel className=''>Chapitres</FormLabel>
+                  <FormLabel className=''>Chapitre</FormLabel>
                   <FormControl>
-                    <Input placeholder='tous' {...field} />
+                    <Input placeholder='tous' type='number' {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

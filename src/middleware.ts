@@ -3,7 +3,8 @@ import { NextResponse } from 'next/server'
 import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
 export function middleware(request) {
-  let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d+|pegonduff)?/)
+  let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>\d+)\/?(?<frequency>\d+|pegonduff)?/)
+  // let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d+|pegonduff)?/)
 
   if (!params) {
     return NextResponse.redirect(new URL('/', request.url))
@@ -24,53 +25,11 @@ export function middleware(request) {
   }
 
   // check param chapters
-  if (params.chapters !== '*') {
-    const validatedChapters = params.chapters.split(',').reduce((acc, cur) => {
-      let chapter = cur.trim()
-      const maxChaptersBook = bookChapters[params.book]
+  if (params.chapters) {
+    const maxChaptersBook = bookChapters[params.book]
 
-      if (chapter.includes('-')) {
-        let [start, end] = cur.split('-')
-        start = parseInt(start.trim())
-        end = parseInt(end.trim())
-
-        if (start <= 1) {
-          start = 1
-        }
-
-        if (end > maxChaptersBook) {
-          end = maxChaptersBook
-        }
-
-        if (start > end) {
-          const oldStart = start
-          start = end
-          end = oldStart
-        }
-
-        if (start === end) {
-          acc.push(start)
-          return acc
-        } else {
-          acc.push(start + '-' + end)
-        }
-      } else {
-        chapter = parseInt(chapter.trim())
-
-        if (chapter && chapter > maxChaptersBook) {
-          chapter = maxChaptersBook
-        }
-
-        if (chapter && acc.indexOf(chapter) < 0) {
-          acc.push(chapter)
-        }
-      }
-
-      return acc
-    }, []).sort((a, b) => parseInt(a) - parseInt(b)).join(',')
-
-    if (validatedChapters !== params.chapters) {
-      params.chapters = validatedChapters || '*'
+    if (params.chapters > maxChaptersBook) {
+      params.chapters = maxChaptersBook
       needsRedirect = true
     }
   }
