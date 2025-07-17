@@ -5381,12 +5381,12 @@ G7530,εὖγε,bravo; bien fait,1,2025-02-21T10:52:49.857Z
 G9315,συνεπιτίθημι,joindre à; ajouter à,1,2025-02-21T10:52:49.857Z
 G9402,ταπεινοφροσύνη,humilité; modestie,1,2025-02-21T10:52:49.857Z
 G9577,ὑπόλειμμα,reste; résidu,1,2025-02-21T10:52:49.858Z
-H0001,אָב,père d’un individu,1213,
+H0001,אָב,"père, aïeul, ancêtre",1213,2025-07-17T13:33:06.174Z
 H0002,אַב,père,9,
 H0003,אֵב,"fraîcheur, herbe verte, ou verdure",2,
 H0004,אֵב,"fruit frais, jeune",3,
 H0005,אֲבַגְתָא,"Abagtha = «heureux, prospère»",1,
-H0006,אָבַד,"périr, s’évanouir, être détruit",184,
+H0006,אָבַד,se perdre; périr,184,2025-07-17T13:33:06.174Z
 H0007,אֲבַד,"périr, s’évanouir, détruire, être détruit",7,
 H0008,אֹבֵד,destruction,2,
 H0009,אֲבֵדָה,"une chose perdue, quelque-chose de perdu",4,
@@ -5494,11 +5494,11 @@ H0113,אָדוֹן,"Le Seigneur Dieu, Seigneur de toute la terre",333,
 H0114,אַדּוֹן,"Addon = «puissant», « fort», «calamité»",1,
 H0115,אֲדוֹרַ֫יִם,Adoraïm = «double gloire»,1,
 H0116,אֱדַ֫יִן,"alors, ensuite, depuis ce temps",57,
-H0117,אַדִּיר,"grandeur, majesté",27,
+H0117,אַדִּיר,"puissant, majestueux",27,2025-07-17T13:38:54.321Z
 H0118,אֲדַלְיָא,"Adalia = «ferme, déterminé»",1,
 H0119,אָדֹם,être de couleur rouge,10,
-H0120,אָדָם,"Adam = «être humain», «de la terre» Adamah  terre, sol",551,
-H0121,אָדָם,Adam = « être humain»,12,
+H0120,אָדָם,"homme; humanité; Adam = «être humain», «de la terre»",551,2025-07-17T13:41:42.791Z
+H0121,אָדָם,"homme; humanité; Adam = «être humain», «de la terre»",12,2025-07-17T13:41:42.791Z
 H0122,אֱדֹם,"rouge, roux",9,2024-11-01T08:15:49.825Z
 H0123,אֱדוֹם,Édom = «rouge»,100,
 H0124,אֹ֫דֶם,rubis,3,
@@ -5511,9 +5511,9 @@ H0130,אֲדֹמִי,Édomite,12,
 H0131,אֲדֻמִּים,Adummim = «terrains rouges»,2,
 H0132,אַדְמוֹנִי,"rouge, roux",3,2024-11-01T08:15:49.825Z
 H0133,אַדְמָתָא,Admatha = «un témoignage»,1,
-H0134,אֶ֫דֶן,"base, piédestal, socle (fort, ferme)",57,
+H0134,אֶ֫דֶן,"base, piédestal, socle",57,2025-07-17T13:49:41.730Z
 H0135,אַדָּן,"Addan = «fort, ferme»",1,
-H0136,אֲדֹנָי,"mon seigneur, seigneur",440,
+H0136,אֲדֹנָי,"mon seigneur, Seigneur",440,2025-07-17T13:49:51.996Z
 H0137,אֲדֹנִי־בֶ֫זֶק,Adoni-Bézek = «mon Seigneur est Bézek»,6,
 H0138,אֲדֹנִיָּ֫הוּ,Adonija = «Yahvé est seigneur»,26,
 H0139,אֲדֹנִי־צֶ֫דֶק,Adoni-Tsédek = «mon seigneur est juste»,4,
@@ -5533,7 +5533,7 @@ H0152,אַדְרַמֶּ֫לֶךְ,Adrammélec = « (le dieu) Adar est roi»,3,
 H0153,אֶדְרַע,"fort, force, arme, pouvoir, puissance, violence",1,
 H0154,אֶדְרֶ֫עִי,Édréi = «bon pâturage»,8,
 H0155,אַדֶּ֫רֶת,"gloire, magnificence; manteau",12,2025-06-11T09:55:35.000Z
-H0157,אָהֵב,aimer,211,
+H0157,אָהֵב,"désirer, aimer",211,2025-07-17T13:50:03.754Z
 H0158,אַ֫הַב,amours (seulement au pluriel),2,
 H0159,אֹ֫הַב,objet aimé,1,
 H0160,אַהֲבָה,amour,38,
@@ -5591,7 +5591,7 @@ H0211,אוֹפִיר,Ophir = «débarrassé des cendres»,13,
 H0212,אוֹפָן,roue,35,
 H0213,אוּץ,"se presser, être pressé, faire en hâte, être étroit",10,
 H0214,אוֹצָר,"trésor, magasin de stockage",79,
-H0215,אוֹר,"(Qal) être brillant, devenir brillant; (Nif) être illuminé; (Hif) luire, briller, illuminer, allumer",43,2024-11-01T08:15:49.825Z
+H0215,אוֹר,"(Qal) briller, éclairer; (Nif) être illuminé; (Hif) luire, briller, illuminer, allumer",43,2025-07-17T13:56:15.920Z
 H0216,אוֹר,lumière,121,
 H0217,אֻרִים,"flamme, lumière du feu",6,
 H0218,אוּר,Ur = «flamme»,5,
@@ -5614,10 +5614,10 @@ H0234,אַזְכָּרָה,"offrande de souvenir, la portion de nourriture offer
 H0235,אָזַל,Uzal = «va-et-vient»,5,2024-11-01T08:15:49.825Z
 H0236,אֲזַל,"aller, sortir, se rendre",7,
 H0237,אֶזֶל,"Ézel = «séparation, départ»",1,
-H0238,אָזַן,"entendre, écouter",41,
+H0238,אָזַן,"(Hif) entendre, écouter",41,2025-07-17T14:03:29.931Z
 H0239,אָזַן,"peser, tester, prouver, considérer",1,
 H0240,אָזֵן,"outils, armes, bagages",1,
-H0241,אֹ֫זֶן,"oreille, comme partie du corps",187,
+H0241,אֹ֫זֶן,oreille,187,2025-07-17T13:58:18.658Z
 H0242,אֻזֵּן שֶׁאֱרָה,Uzzen-Schééra = «l’oreille de Schééra»,2,
 H0243,אַזְנוֹת תָּבוֹר,Aznoth-Thabor = «sommets du Thabor»,2,
 H0244,אׇזְנִי,"Ozni ou Oznite = «attentif, mon oreille (entendre)»",2,
@@ -5625,7 +5625,7 @@ H0245,אֲזַנְיָ֫הוּ,Azania = «l’Éternel entend»,1,
 H0246,אֲזֵק,"chaînes, menottes",2,
 H0247,אָזַר,"ceinture, équipement, vêtement",16,
 H0248,אֶזְרוֹעַ,bras,2,
-H0249,אֶזְרָח,un natif,17,
+H0249,אֶזְרָח,"natif, indigène",17,2025-07-17T14:03:29.931Z
 H0250,אֶזְרָחִי,"Ezrachite = «un natif (provenant du terroir)», «levé»",3,
 H0251,אָח,frère,630,
 H0252,אַח,frère,1,
@@ -5635,7 +5635,7 @@ H0255,אֹחַ,animal hurlant,1,
 H0256,אַחְאָב,Achab = «un frère du père»,93,
 H0257,אַחְבָן,Achban = «le frère a discerné»,1,
 H0258,אָחַד,"aller d’un côté ou d’un autre, tranchant",1,
-H0259,אֶחָד,un (le nombre),971,
+H0259,אֶחָד,"un, une (le nombre)",971,2025-07-17T14:03:29.931Z
 H0260,אָחוּ,"roseaux, joncs",3,
 H0261,אֵחוּד,Ehud = «unis»,1,
 H0262,אַחְוָה,déclaration,1,
@@ -5685,10 +5685,10 @@ H0305,אַחֲלַי,Oh! que!; que ceci arrive!,2,
 H0306,אַחְלָ֑מָה,améthyste,2,
 H0307,אַחְמְתָא,Achmetha»,1,2024-11-01T08:15:49.825Z
 H0308,אֲחַסְבַּי,Achasbaï = «frère de ceux qui m’environnent»,1,
-H0309,אָחַר,"retarder, hésiter, différer, rester derrière",17,
-H0310,אַחַר,"après, derrière (un lieu), ensuite (dans le temps)",716,
-H0311,אַחַר,après,3,
-H0312,אַחֵר,"un autre, autre, suivant",166,
+H0309,אָחַר,"tarder, s'attarder",17,2025-07-17T14:16:30.770Z
+H0310,אַחַר,"après, derrière, ensuite",716,2025-07-17T14:08:45.397Z
+H0311,אַחַר,"après, derrière, ensuite",3,2025-07-17T14:08:45.397Z
+H0312,אַחֵר,"autre, suivant",166,2025-07-17T14:08:45.397Z
 H0313,אַחֵר,Acher = «un autre»,1,
 H0314,אַחֲרוֹן,"derrière, suivant, subséquent, de l’ouest",51,
 H0315,אַחְרַח,Achrach = «un frère suivant»,1,
@@ -5717,7 +5717,7 @@ H0337,אִי,"hélas!, malheur!",2,
 H0338,אִי,"bêtes hurlantes, chacals",3,
 H0339,אִי,"côte, île, rivage, région",36,
 H0340,אָיַב,"être hostile à, être un ennemi de, traiter comme un ennemi",1,
-H0341,אֹיֵב,ennemi personnel ou national,283,
+H0341,אֹיֵב,"adversaire, ennemi",283,2025-07-17T13:53:04.754Z
 H0342,אֵיבָה,"inimitié, haine",5,
 H0343,אֵיד,"détresse, fardeau, calamité, désastre",24,
 H0344,אַיָּה,"faucon, autour, vautour, oiseau de proie",3,
@@ -7927,7 +7927,7 @@ H2596,חָנַךְ,"entraîner, dédier, inaugurer",5,
 H2597,חֲנֻכָּה,dedicace,4,
 H2598,חֲנֻכָּה,"dédicace, consécration",8,
 H2599,חֲנֹכִי,Hénokites = voir Hénoc «dédié»,1,
-H2600,חִנָּם,"librement, pour rien, sans cause",32,
+H2600,חִנָּם,"gratuitement; en vain, sans raison",32,2025-07-17T13:25:12.795Z
 H2601,חֲנַמְאֵל,Hanameel = «Dieu a pitié»,4,
 H2602,חֲנָמֵל,"gelée, inondation, grésil (sens incertain)",1,
 H2603,חָנַן,"être miséricordieux, montrer de la faveur, pitié",78,
@@ -8156,7 +8156,7 @@ H2830,חַשְׁמַל,"un produit brillant, ambre ou airain (incertain)",3,
 H2831,חַשְׁמַן,"ambassadeurs, princes, bronze (sens incertain)",1,
 H2832,חַשְׁמֹנָה,Haschmona = «embonpoint»,2,
 H2833,חֹ֫שֶׁן,"pectoral, cuirasse",25,
-H2834,חָשַׂף,"dépouiller, mettre à nu, découvrir, puiser",11,
+H2834,חָשַׂף,"dépouiller; mettre à nu, découvrir; puiser",11,2025-07-17T13:23:36.660Z
 H2835,חָשִׂף,petits troupeaux,1,
 H2836,חָשַׁק,"(Qal) aimer, être attaché à, désirer",11,
 H2837,חֵ֫שֶׁק,"désir, chose désirée",4,
@@ -10562,7 +10562,7 @@ H5284,נַעֲמָתִי,De Naama = voir Naama «agréable»,4,
 H5285,נַעֲצוּץ,buisson d’épines,2,
 H5286,נָעַר,(Qal) grogner,1,
 H5287,נָעַר,"secouer, déployer, bien secouer, se débarrasser",11,
-H5288,נַ֫עַר,"un garçon, serviteur, jeunesse, jeune homme",239,
+H5288,נַ֫עַר,"garçon, jeune homme; serviteur, jeune guerrier",239,2025-07-17T13:20:01.017Z
 H5289,נַ֫עַר,"un déploiement, une dispersion",1,
 H5290,נֹ֫עַר,"jeunesse, première jeunesse, première vie",4,
 H5291,נַעֲרָה,"jeune fille, demoiselle, servante",63,
