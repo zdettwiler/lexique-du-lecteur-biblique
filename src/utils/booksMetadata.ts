@@ -1,3 +1,5 @@
+import type { BookName } from '@/types'
+
 export const books = [
   // AT
   'Genèse',
@@ -70,6 +72,79 @@ export const books = [
   'Apocalypse'
 ] as const
 
+export const bookMeta: Record<BookName, { nbChap: number; label: string }> = {
+  // AT
+  Genèse: { nbChap: 50, label: 'Gn' },
+  Exode: { nbChap: 40, label: 'Ex' },
+  Lévitique: { nbChap: 27, label: 'Lv' },
+  Nombres: { nbChap: 36, label: 'Nb' },
+  Deutéronome: { nbChap: 34, label: '' },
+  Josué: { nbChap: 24, label: 'Dt' },
+  Juges: { nbChap: 21, label: 'Jg' },
+  '1Samuel': { nbChap: 31, label: '1S' },
+  '2Samuel': { nbChap: 24, label: '2S' },
+  '1Rois': { nbChap: 22, label: '1R' },
+  '2Rois': { nbChap: 25, label: '2R' },
+  Ésaïe: { nbChap: 66, label: 'És' },
+  Jérémie: { nbChap: 52, label: 'Jr' },
+  Ezékiel: { nbChap: 48, label: 'Éz' },
+  Osée: { nbChap: 14, label: 'Os' },
+  Joël: { nbChap: 3, label: 'Jl' },
+  Amos: { nbChap: 9, label: 'Am' },
+  Abdias: { nbChap: 1, label: 'Ab' },
+  Jonas: { nbChap: 4, label: 'Jon' },
+  Michée: { nbChap: 7, label: 'Mi' },
+  Nahum: { nbChap: 3, label: 'Na' },
+  Habaquq: { nbChap: 3, label: 'Ha' },
+  Sophonie: { nbChap: 3, label: 'So' },
+  Aggée: { nbChap: 2, label: 'Ag' },
+  Zacharie: { nbChap: 14, label: 'Za' },
+  Malachie: { nbChap: 4, label: 'Ma' },
+  Psaumes: { nbChap: 150, label: 'Ps' },
+  Proverbes: { nbChap: 31, label: 'Pr' },
+  Job: { nbChap: 42, label: 'Jb' },
+  Cantiques: { nbChap: 8, label: 'Ct' },
+  Ruth: { nbChap: 4, label: 'Rt' },
+  Lamentations: { nbChap: 5, label: 'Lm' },
+  Ecclésiastes: { nbChap: 12, label: 'Ec' },
+  Esther: { nbChap: 10, label: 'Est' },
+  Daniel: { nbChap: 12, label: 'Dn' },
+  Esdras: { nbChap: 10, label: 'Esd' },
+  Néhémie: { nbChap: 13, label: 'Né' },
+  '1Chroniques': { nbChap: 29, label: '1Ch' },
+  '2Chroniques': { nbChap: 36, label: '2Ch' },
+
+  // NT
+  Matthieu: { nbChap: 28, label: 'Mt' },
+  Marc: { nbChap: 16, label: 'Mc' },
+  Luc: { nbChap: 24, label: 'Lc' },
+  Jean: { nbChap: 21, label: 'Jn' },
+  Actes: { nbChap: 28, label: 'Ac' },
+  Romains: { nbChap: 16, label: 'Rm' },
+  '1Corinthiens': { nbChap: 16, label: '1Co' },
+  '2Corinthiens': { nbChap: 13, label: '2Co' },
+  Galates: { nbChap: 6, label: 'Ga' },
+  Éphésiens: { nbChap: 6, label: 'Ép' },
+  Philippiens: { nbChap: 4, label: 'Ph' },
+  Colossiens: { nbChap: 4, label: 'Col' },
+  '1Thessaloniciens': { nbChap: 5, label: '1Th' },
+  '2Thessaloniciens': { nbChap: 3, label: '2Th' },
+  '1Timothée': { nbChap: 6, label: '1Tm' },
+  '2Timothée': { nbChap: 4, label: '2Tm' },
+  Tite: { nbChap: 3, label: 'Tt' },
+  Philémon: { nbChap: 1, label: 'Phl' },
+  Hébreux: { nbChap: 13, label: 'Hb' },
+  Jacques: { nbChap: 5, label: 'Jc' },
+  '1Pierre': { nbChap: 5, label: '1Pi' },
+  '2Pierre': { nbChap: 3, label: '2Pi' },
+  '1Jean': { nbChap: 5, label: '1Jn' },
+  '2Jean': { nbChap: 1, label: '2Jn' },
+  '3Jean': { nbChap: 1, label: '3Jn' },
+  Jude: { nbChap: 1, label: 'Jd' },
+  Apocalypse: { nbChap: 22, label: 'Ap' },
+} as const
+
+// TODO: Needs a better name
 export const bookNames = {
   genèse: 'Genèse',
   genese: 'Genèse',
@@ -498,6 +573,8 @@ export const bookChapters = {
   Apocalypse: 22
 }
 
+
+// TODO: Do we still need this?
 export const bookOptions = [
   // OT
   // { label: 'ANCIEN TESTAMENT' },
