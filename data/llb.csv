@@ -5686,11 +5686,11 @@ H0306,אַחְלָ֑מָה,améthyste,2,
 H0307,אַחְמְתָא,Achmetha»,1,2024-11-01T08:15:49.825Z
 H0308,אֲחַסְבַּי,Achasbaï = «frère de ceux qui m’environnent»,1,
 H0309,אָחַר,"tarder, s'attarder",17,2025-07-17T14:16:30.770Z
-H0310,אַחַר,"après, derrière, ensuite",716,2025-07-17T14:08:45.397Z
-H0311,אַחַר,"après, derrière, ensuite",3,2025-07-17T14:08:45.397Z
+H0310,אַחַר / אַחֲרֵי,"après, derrière, ensuite",716,2025-07-18T14:44:46.718Z
+H0311,אַחַר / אַחֲרֵי,"après, derrière, ensuite",3,2025-07-18T14:44:46.718Z
 H0312,אַחֵר,"autre, suivant",166,2025-07-17T14:08:45.397Z
 H0313,אַחֵר,Acher = «un autre»,1,
-H0314,אַחֲרוֹן,"derrière, suivant, subséquent, de l’ouest",51,
+H0314,אַחֲרוֹן,"derrière, suivant, dernier, de l’ouest",51,2025-07-18T14:44:46.718Z
 H0315,אַחְרַח,Achrach = «un frère suivant»,1,
 H0316,אֲחַרְחֵל,Acharchel = peut-être «la force a subsisté»,1,
 H0317,אׇחֳרִי,"autre, un autre",6,
@@ -5711,7 +5711,7 @@ H0331,אָטַם,"fermer, se taire, clore",8,
 H0332,אָטַר,fermer,1,
 H0333,אָטֵר,"Ather = «lié, enfermé»",5,
 H0334,אִטֵּר,"lié, entravé de la droite, c’est-à-dire gaucher",2,
-H0335,אַי,où?,39,
+H0335,אַיֵּה / אַי / אֵי,où?,39,2025-07-18T14:51:16.127Z
 H0336,אִי,"non, pas de",1,
 H0337,אִי,"hélas!, malheur!",2,
 H0338,אִי,"bêtes hurlantes, chacals",3,
@@ -5725,7 +5725,7 @@ H0345,אַיָּה,"Ajja = «oiseau de proie, faucon»",6,
 H0346,אַיֵּה,où?,45,
 H0347,אִיּוֹב,"Job = «haï, ennemi»",58,
 H0348,אִיזֶבֶל,Jézabel = «Baal est l’époux»,22,
-H0349,אֵיךְ,comment?,82,
+H0349,אֵיךְ,comment? ah! comme!,82,2025-07-18T14:52:46.416Z
 H0350,אִי־כָבוֹד,I-Kabod = «privé de gloire»,3,
 H0351,אֵיכֹה,où!,1,
 H0352,אַ֫יִל,bélier,187,
@@ -5744,7 +5744,7 @@ H0364,אֵיל פָּארָן,El-Paran = «chêne de Paran»,2,
 H0366,אָיֹם,"terrible, affreux",3,
 H0367,אֵימָה,"terreur, crainte",17,
 H0368,אֵימִים,Émim = «terreurs»,3,
-H0369,אַ֫יִן,"il n'y a pas, il n'est pas",789,2024-11-01T08:15:49.825Z
+H0369,אַ֫יִן,"ne... pas, il n'y a pas",789,2025-07-18T14:54:54.542Z
 H0370,אַ֫יִן,"où?, avec quoi?",17,
 H0371,אִין,"n’est-il pas?, n’avez-vous pas?",1,
 H0372,אִיעֶזֶר,Jézer = «sans secours»,1,
@@ -5762,7 +5762,7 @@ H0385,אִיתָמָר,Ithamar = «côte des palmiers»,21,
 H0386,אֵיתָן,"perpétuel, constant, vivace, intarissable",13,
 H0387,אֵיתָן,"Éthan = «durable, permanent»",8,
 H0388,אֵיתָנִים,Éthanim = «pluies constantes»,1,
-H0389,אַךְ,"en effet, sûrement",161,
+H0389,אַךְ,"en effet, sûrement, mais",161,2025-07-18T14:56:23.626Z
 H0390,אַכַּד,Accad = «subtil»,1,
 H0391,אַכְזָב,"trompeur, tricheur, duperie, mensonge, désappointement",2,
 H0392,אַכְזִיב,Aczib = «trompeur»,4,
@@ -5783,7 +5783,7 @@ H0406,אִכָּר,"laboureur, agriculteur, fermier",7,
 H0407,אַכְשָׁף,Acschaph = «fascination»,3,
 H0408,אַל,"non ni, non plus, rien",725,
 H0409,אַל,"non, pas",4,
-H0410,אֵל,"Dieu, comme Dieu, puissant",241,
+H0410,אֵל,Dieu,241,2025-07-18T14:58:44.641Z
 H0411,אֵל,ces,9,
 H0412,אֵל,ces,1,
 H0413,אֶל,"à, vers (mouvement)",5515,
@@ -5800,8 +5800,8 @@ H0424,אֵלָה,"térébinthe, chêne",13,
 H0425,אֵלָה,"Éla = «Un chêne, un térébinthe»",16,
 H0426,אֱלָהּ,"dieu, Dieu",95,
 H0427,אַלָּה,chêne,1,
-H0428,אֵ֫לֶּה,ces,746,
-H0429,אֵלֶּה,ces,1,
+H0428,אֵ֫לֶּה,"ceux-ci, celles-ci, ces",746,2025-07-18T15:00:35.232Z
+H0429,אֵלֶּה,"ceux-ci, celles-ci, ces",1,2025-07-18T15:00:35.232Z
 H0430,אֱלֹהִים,"Dieu, dieux, juges, divinités, anges",2603,2024-11-01T08:15:49.825Z
 H0431,אֲלוּ,"voici!, voilà!",5,
 H0432,אִלּוּ,"si, quoique (contraire d’un fait)",2,
@@ -5876,20 +5876,20 @@ H0501,אֶלְעָשָׂה,Éleasa = «Dieu a fait»,6,
 H0502,אָלַף,"apprendre, enseigner",4,
 H0503,אָלַף,reproduire par milliers,1,
 H0504,אֶ֫לֶף,"bétail, bœufs",7,
-H0505,אֶ֫לֶף,un millier,506,
-H0506,אֲלַ֑ף,"un millier, mille, 1000",4,
+H0505,אֶ֫לֶף,"un millier, mille",506,2025-07-18T15:04:36.617Z
+H0506,אֲלַ֑ף,"un millier, mille",4,2025-07-18T15:04:36.617Z
 H0507,הָאֶ֫לֶף,Eleph = «mille»,1,
 H0508,אֶלְפַּ֫עַל,Elpaal = «Dieu a agi»,3,
 H0509,אָלַץ,"prier, importuner",1,
 H0510,אַלְקוּם,"non, pas, ni, ni l’un ni l’autre",1,
-H0511,אֶלְקָנָה,Elkana = «Dieu a acquis»,21,
+H0511,אֶלְקָנָה,Elqana = «Dieu a acquis»,21,2025-07-18T15:05:29.366Z
 H0512,אֶלְקֹשִׁי,"natif et, ou descendant d’Elkosch",1,
 H0513,אֶלְתּוֹלַד,Eltholad = «générations de Dieu»,2,
 H0514,אֶלְתְּקֵא,Eltheké = «laisse Dieu les chasser»,2,
 H0515,אֶלְתְּקֹן,Elthekon = «Dieu est droit»,1,
 H0516,אַל תַּשְׁחֵת,"commande pour le chef musicien, ou peut-être titre d’une mélodie utilisée pour plusieurs Psaumes",8,
-H0517,אֵם,mère,220,
-H0518,אִם,si,1073,
+H0517,אֵם,"mère, aïeule",220,2025-07-18T15:06:24.368Z
+H0518,אִם,"si, quoique, ou, mais, certes",1073,2025-07-18T15:05:29.366Z
 H0519,אָמָה,"servante, une esclave, une concubine",56,
 H0520,אַמָּה,coudée,247,
 H0521,אַמָּה,coudée,4,2024-11-01T08:15:49.825Z
@@ -5900,7 +5900,7 @@ H0525,אָמוֹן,"architecte, contremaître, homme habile",2,
 H0526,אָמוֹן,Amon = «travailleur caché»,17,
 H0528,אָמוֹן,"Amon = «nourrir, être fidèle»",2,
 H0529,אֵמֻן,"fidélité, confiance",8,
-H0530,אֱמוּנָה,"fermement, fidélité, constance, le devoir accompli",49,
+H0530,אֱמוּנָה,"fidélité, vérité, probité",49,2025-07-18T15:09:49.847Z
 H0531,אָמוֹץ,"Amots = «fort, puissant, courageux»",13,
 H0532,אָמִי,Ami = «serviteur lié»,1,
 H0533,אַמִּיץ,"fort, puissant",6,
@@ -5918,7 +5918,7 @@ H0544,אֹ֫מֶן,fidélité,1,
 H0545,אׇמְנָה,"apporter, nourriture, élever, entraîner, fournir",1,
 H0546,אׇמְנָה,"véritablement, en vérité",2,
 H0547,אֹמְנָה,"linteaux, pilier, supports d’une porte",1,
-H0548,אֲמָנָה,"foi, support, sûr, certain",2,
+H0548,אֲמָנָה,alliance; salaire,2,2025-07-18T15:09:49.847Z
 H0549,אֲמָנָה,"Abana, Amana = «rocailleux?»",2,
 H0550,אַמְנוֹן,Amnon = «fidèle»,28,
 H0551,אׇמְנָם,"véritablement, vraiment, sûrement",9,
