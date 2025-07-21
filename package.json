@@ -1,6 +1,6 @@
 {
-  "name": "Lexique du lecteur biblique",
-  "version": "1.0.0",
+  "name": "lexique-du-lecteur-biblique",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -87,9 +87,9 @@ G0086,ᾍδης,hadès,9,
 G0087,ἀδιάκριτος,"sans partialité, sans distinction, sans parti-pris préalable",1,
 G0088,ἀδιάλειπτος,"continuel, incessant, constant",2,
 G0089,ἀδιαλείπτως,"sans cesse, sans relâche, continuellement",4,
-G0091,ἀδικέω,agir injustement; (passif) supporter des injustices; (passif) souffrir; faire tort; nuire,25,
+G0091,ἀδικέω,"agir injustement, faire le mal; (passif) supporter des injustices; (passif) souffrir; nuire",25,2025-07-18T19:17:48.782Z
 G0092,ἀδίκημα,"injustice, délit, iniquité",3,
-G0093,ἀδικία,injustice,25,2024-11-01T08:15:49.825Z
+G0093,ἀδικία,"injustice, mal",25,2025-07-18T19:25:55.484Z
 G0094,ἄδικος,injuste,12,
 G0095,ἀδίκως,"injustement, de manière inéquitable",1,
 G0096,ἀδόκιμος,"réprouvé, sans valeur, déréglé",8,
@@ -149,7 +149,7 @@ G0150,αἰσχρός,"honteux, inconvenant, déshonnête",4,
 G0151,αἰσχρότης,"chose honteuse, parole grossière, obscénité",1,
 G0152,αἰσχύνη,"honte, ignominie; turpitude",6,2025-07-10T15:11:11.000Z
 G0153,αἰσχύνω,"déshonorer, couvrir de honte, avoir honte, être confus",5,2024-11-01T08:15:49.825Z
-G0154,αἰτέω,demander; solliciter; redemander,70,
+G0154,αἰτέω,(+A +A) demander; solliciter; redemander,70,2025-07-18T19:25:55.484Z
 G0155,αἴτημα,"pétition, requête, demande",3,2024-11-01T08:15:49.825Z
 G0156,αἰτία,raison; accusation; crime; condition,20,
 G0157,αἰτίαμα,"accusation, grief, sujet d’accusation",1,
@@ -159,10 +159,10 @@ G0161,αἰχμαλωσία,"captivité, privation de liberté, emprisonnement"
 G0162,αἰχμαλωτεύω,"emmener captif, mener captif, faire prisonnier",1,
 G0163,αἰχμαλωτίζω,"amener captif, mener captif, rendre captif, faire prisonnier, emmener en captivité",4,
 G0164,αἰχμάλωτος,"captif, prisonnier de guerre",1,
-G0165,αἰών,"temps; éternité; période, ère; monde; éon",123,2024-11-01T08:15:49.825Z
-G0166,αἰώνιος,"éternel, siècle",70,2024-11-01T08:15:49.825Z
+G0165,αἰών,"âge, siècle, ère, éternité, éon",123,2025-07-18T19:25:55.484Z
+G0166,αἰώνιος,éternel,70,2025-07-18T19:25:55.484Z
 G0167,ἀκαθαρσία,"impureté, saleté, souillure",10,
-G0169,ἀκάθαρτος,immonde; impur,31,
+G0169,ἀκάθαρτος,impur,31,2025-07-18T19:25:55.484Z
 G0170,ἀκαιρέω,"ne pas avoir l’occasion, manquer une opportunité",1,
 G0171,ἀκαίρως,hors de temps,1,
 G0172,ἄκακος,"innocent, simple",2,
@@ -181,8 +181,8 @@ G0185,ἀκέραιος,pur; simple,3,
 G0186,ἀκλινής,"sans chanceler, sans fléchir, ferme, stable",1,
 G0187,ἀκμάζω,"mûrir, arriver à maturité",1,
 G0188,ἀκμήν,"encore, de nouveau, une autre fois",1,
-G0189,ἀκοή,"l’ouïe, l’oreille, la chose entendue",24,2024-11-01T08:15:49.825Z
-G0190,ἀκολουθέω,suivre,88,2024-11-01T08:15:49.825Z
+G0189,ἀκοή,"l’ouïe; l’oreille; la renommée, le rapport",24,2025-07-18T19:25:55.484Z
+G0190,ἀκολουθέω,(+D) suivre,88,2025-07-18T19:31:47.296Z
 G0191,ἀκούω,"écouter, entendre",426,2024-11-01T08:15:49.825Z
 G0192,ἀκρασία,"intempérance, dérèglement, incontinence",2,
 G0193,ἀκρατής,"incontinent, sans frein",1,
@@ -235,7 +235,7 @@ G0239,ἀλληλουϊα,alléluia = «Louez l’Éternel!»,4,2024-11-01T08:15
 G0240,ἀλλήλων,"les uns les autres, eux, mutuel, réciproque",100,
 G0241,ἀλλογενής,étranger,1,
 G0242,ἅλλομαι,"jaillir, sortir puissamment, sauter",3,
-G0243,ἄλλος,autre,154,2024-11-01T08:15:49.825Z
+G0243,ἄλλος,l'autre,154,2025-07-18T19:31:47.296Z
 G0244,ἀλλοτριεπίσκοπος,"qui s’ingère dans les affaires d’autrui, indiscret",1,
 G0245,ἀλλότριος,d’autrui; étranger,14,
 G0246,ἀλλόφυλος,étranger,1,
@@ -255,11 +255,11 @@ G0260,ἅμα,"en même temps; ensemble, (+D) avec",10,2025-07-10T14:48:37.000Z
 G0261,ἀμαθής,"ignorant, sans instruction, ignare",1,
 G0262,ἀμαράντινος,"inflétrissable, qui demeure perpétuellement, incorruptible",1,
 G0263,ἀμάραντος,"inaltérable, qui demeure perpétuellement, incorruptible, immarcescible",1,
-G0264,ἁμαρτάνω,pécher,42,2024-11-01T08:15:49.825Z
+G0264,ἁμαρτάνω,"pécher, faire mal",42,2025-07-18T19:31:47.296Z
 G0265,ἁμάρτημα,péché,4,
 G0266,ἁμαρτία,"péché, offense",173,2024-11-01T08:15:49.825Z
 G0267,ἀμάρτυρος,"sans témoignage, sans attestation",1,
-G0268,ἁμαρτωλός,"pécheur, pécheresse, pécheur, pécheresse",47,
+G0268,ἁμαρτωλός,pécheur,47,2025-07-18T19:31:47.296Z
 G0269,ἄμαχος,"non querelleur, non disputeur, pacifique",2,
 G0270,ἀμάω,"moissonner, récolter",1,
 G0271,ἀμέθυστος,"améthyste, variété de quartz",1,
@@ -281,7 +281,7 @@ G0286,ἀμνός,agneau,4,
 G0287,ἀμοιβή,soins reçus,1,
 G0288,ἄμπελος,vigne,9,
 G0289,ἀμπελουργός,"vigneron, vigneronne",1,
-G0290,ἀμπελών,vignoble,23,
+G0290,ἀμπελών,"vigne, vignoble",23,2025-07-18T19:31:47.296Z
 G0291,Ἀμπλίας,"Amplias = «large, agrandi»",1,
 G0292,ἀμύνω,"prendre la défense, défendre, protéger, aider",1,
 G0293,ἀμφίβληστρον,jeter un filet,1,
@@ -292,7 +292,7 @@ G0297,ἀμφότερος,"tous les deux, tous deux, l’un et l’autre",14,
 G0298,ἀμώμητος,"irréprochable, sans tache, sans défaut",1,
 G0299,ἄμωμος,"sans défaut, sans faute, irrépréhensible",8,2024-11-01T08:15:49.825Z
 G0301,Ἀμώς,Amos = «qui porte le fardeau»,3,
-G0302,ἄν,"qui que ce soit, quiconque, où que ce soit, quoi qu’il arrive, etc.",167,2024-11-01T08:15:49.825Z
+G0302,ἄν,"(part. condit.) qui que ce soit, quiconque, où que ce soit, quoi qu’il arrive, etc.",167,2025-07-18T19:31:47.296Z
 G0303,ἀνά,"parmi, au milieu, chacun, tout",12,
 G0304,ἀναβαθμός,"surface plane, marche",2,
 G0305,ἀναβαίνω,monter; remonter; venir,81,
@@ -304,7 +304,7 @@ G0310,ἀναβοάω,"s’écrier, pousser des cris",1,
 G0311,ἀναβολή,"délai, suspension, sursis",1,
 G0312,ἀναγγέλλω,annoncer; déclarer; faire connaître; parler; porter la nouvelle; prêcher; raconter,14,
 G0313,ἀναγεννάω,régénérer,2,
-G0314,ἀναγινώσκω,savoir; lire,32,
+G0314,ἀναγινώσκω,lire,32,2025-07-18T19:31:47.296Z
 G0315,ἀναγκάζω,"contraindre, forcer, obliger, imposer",9,
 G0316,ἀναγκαῖος,"nécessaire, indispensable, intime",8,
 G0317,ἀναγκαστῶς,"par contrainte, par nécessité, par obligation",1,
@@ -326,7 +326,7 @@ G0332,ἀναθεματίζω,s’obliger par un serment d’exécration,4,
 G0333,ἀναθεωρέω,"considérer à nouveau, regarder très attentivement, contempler",2,
 G0335,ἀναίδεια,"importunité, impudence, insistance",1,
 G0336,ἀναίρεσις,"mort, assassinat, meurtre",1,
-G0337,ἀναιρέω,emporter; faire périr; annuler,24,
+G0337,ἀναιρέω,"emporter; faire périr; recueillir, prendre pour soi",24,2025-07-18T19:37:56.971Z
 G0338,ἀναίτιος,"non coupable, innocent, non fautif",2,
 G0339,ἀνακαθίζω,se lever,2,
 G0340,ἀνακαινίζω,"renouveler, rendre nouveau",1,
@@ -431,12 +431,12 @@ G0440,ἄνθραξ,charbons,1,2024-11-01T08:15:49.825Z
 G0441,ἀνθρωπάρεσκος,"voulant plaire aux hommes, leur faveur",2,
 G0442,ἀνθρώπινος,humain,7,
 G0443,ἀνθρωποκτόνος,"meurtrier, homicide",3,
-G0444,ἄνθρωπος,"l'homme, l'individu, la personne",549,2024-11-01T08:15:49.825Z
+G0444,ἄνθρωπος,"homme, individu, être humain",549,2025-07-18T19:37:56.971Z
 G0446,ἀνθύπατος,"proconsul, à l’origine",5,
 G0447,ἀνίημι,détacher; lâcher; laisser; renoncer,4,
 G0448,ἀνίλεως,sans miséricorde,1,
 G0449,ἄνιπτος,"non lavé, non nettoyé, souillé",2,
-G0450,ἀνίστημι,"se lever, ressusciter",107,2024-11-01T08:15:49.825Z
+G0450,ἀνίστημι,"élever, ressusciter",107,2025-07-18T19:37:56.971Z
 G0451,Ἄννα,Anne = «grâce»,1,
 G0452,Ἄννας,Anne = «humble»,4,
 G0453,ἀνόητος,"insensé, gens sans intelligence, inintelligent, sot",6,
@@ -458,7 +458,7 @@ G0468,ἀνταπόδομα,"rétribution, récompense, revanche",2,
 G0469,ἀνταπόδοσις,"récompense, restitution en échange",1,
 G0470,ἀνταποκρίνομαι,"répliquer, répondre en s’opposant, contester",2,
 G0472,ἀντέχω,"(moyen et/ou passif) s’attacher à, tenir fermement, demeurer ferme, honorer, venir en aide",4,
-G0473,ἀντί,"au lieu de, plutôt que de, sur, pour",22,
+G0473,ἀντί,"(+G) au lieu de, plutôt que de, sur, pour",22,2025-07-18T19:37:56.971Z
 G0474,ἀντιβάλλω,échanger,1,
 G0475,ἀντιδιατίθημι,(moyen et/ou passif) s’opposer,1,
 G0476,ἀντίδικος,"partie adverse, adversaire",5,
@@ -521,7 +521,7 @@ G0532,ἀπαρασκεύαστος,"pas prêt, non préparé",1,
 G0533,ἀπαρνέομαι,nier; renier; renoncer,11,
 G0535,ἀπαρτισμός,"bonne fin, achèvement",1,
 G0536,ἀπαρχή,premier fruit,8,
-G0537,ἅπας,"tout, toutes",31,2024-11-01T08:15:49.825Z
+G0537,ἅπας,"tout, toute",31,2025-07-18T19:37:56.971Z
 G0538,ἀπατάω,séduire; tromper,3,
 G0539,ἀπάτη,"tromperie, séduction",7,
 G0540,ἀπάτωρ,sans père,1,
@@ -556,7 +556,7 @@ G0571,ἄπιστος,"infidèle, sans foi, incroyant, incrédule",23,2024-11-01
 G0572,ἁπλότης,simplicité; libéralité,7,
 G0573,ἁπλοῦς,simple,2,
 G0574,ἁπλῶς,"libéralement, gratuitement",1,
-G0575,ἀπό,d’auprès de; hors; de,640,
+G0575,ἀπό,(+G) loin de; d’auprès de; hors; de,640,2025-07-18T19:43:31.954Z
 G0576,ἀποβαίνω,descendre; tourner,4,
 G0577,ἀποβάλλω,"jeter loin, abandonner, se débarrasser, rejeter",2,
 G0578,ἀποβλέπω,regarder fixement,1,2024-11-01T08:15:49.825Z
@@ -592,7 +592,7 @@ G0607,ἀποκεφαλίζω,"décapiter, trancher la tête",4,
 G0608,ἀποκλείω,fermer,1,
 G0609,ἀποκόπτω,"couper, retrancher, sectionner",6,
 G0610,ἀπόκριμα,"sentence, décision judiciaire",1,
-G0611,ἀποκρίνω,répondre,231,2024-11-01T08:15:49.825Z
+G0611,ἀποκρίνομαι,répondre,231,2025-07-18T19:43:31.954Z
 G0612,ἀπόκρισις,réponse,4,
 G0613,ἀποκρύπτω,"cacher, tenir secret, dissimuler",4,
 G0614,ἀπόκρυφος,"caché, soustrait aux regards, tenu secret, dissimulé",3,
@@ -603,7 +603,7 @@ G0618,ἀπολαμβάνω,recevoir; récupérer; (moyen) prendre à part,10,2
 G0619,ἀπόλαυσις,"jouissance, plaisir, satisfaction",2,
 G0620,ἀπολείπω,abandonner; laisser; (passif) rester,7,
 G0621,ἀπολείχω,lécher,1,
-G0622,ἀπολλύω,"périr, tuer, détruire, disparaître",90,2024-11-01T08:15:49.825Z
+G0622,ἀπόλλυμι,"périr, tuer, détruire, disparaître",90,2025-07-18T19:49:11.709Z
 G0623,Ἀπολλύων,Apollyon = «Destructeur»,1,
 G0624,Ἀπολλωνία,Apollonie = «appartenant à Apollon»,1,
 G0625,Ἀπολλῶς,Apollos = «donné par Apollon»,10,
@@ -770,7 +770,7 @@ G0788,ἆσσον,de près,1,
 G0789,Ἄσσος,Assos = «les approches»,2,
 G0790,ἀστατέω,"être sans demeure fixe, errer",1,
 G0791,ἀστεῖος,"beau, agréable, gracieux",2,
-G0792,ἀστήρ,étoile,24,
+G0792,ἀστήρ,"étoile, astre",24,2025-07-18T19:49:11.709Z
 G0793,ἀστήρικτος,"mal affermi, instable, sans solidité",2,
 G0794,ἄστοργος,"sans affection naturelle, sans tendresse",2,
 G0795,ἀστοχέω,"écarter, échouer, éloigner",3,
@@ -823,7 +823,7 @@ G0842,αὐτάρκης,content,1,2024-11-01T08:15:49.825Z
 G0843,αὐτοκατάκριτος,"condamné par soi-même, jugé par soi-même",1,
 G0844,αὐτόματος,de soi-même,2,
 G0845,αὐτόπτης,témoin oculaire,1,
-G0846,αὐτός,"lui-même, elle-même, eux-mêmes, il, elle, le même",5558,2024-11-01T08:15:49.825Z
+G0846,αὐτός,"lui, elle, le même, lui-même, elle-même, eux-mêmes",5558,2025-07-18T19:50:10.051Z
 G0847,αὐτοῦ,"ici, là, dans cet endroit",4,
 G0849,αὐτόχειρ,de ses propres mains,1,
 G0850,αὐχμηρός,"obscur, sombre",1,
@@ -867,7 +867,7 @@ G0887,ἀχλύς,"obscurité, brouillard",1,
 G0888,ἀχρεῖος,"inutile, non indispensable",2,
 G0889,ἀχρειόω,"(passif) se rendre inutile, devenir inutile, être sans profit",1,
 G0890,ἄχρηστος,inutile,1,
-G0891,ἄχρι,"au bout de, jusqu’à, en",49,
+G0891,ἄχρι,"(+G) au bout de, jusqu’à, en",49,2025-07-18T19:50:10.051Z
 G0892,ἄχυρον,"balle, paille, chaume",2,
 G0893,ἀψευδής,qui ne peut mentir,1,
 G0894,ἄψινθος,absinthe,2,
@@ -896,7 +896,7 @@ G0916,βαρέω,charger; appesantir,6,
 G0917,βαρέως,"durement, avec difficulté",2,
 G0918,Βαρθολομαῖος,Barthélemy = «fils de Tolmaï»,4,
 G0920,Βαριωνᾶς,Fils de Jonas = «fils de Jonas»,1,
-G0921,Βαρνάβας,Barnabas = «fils de la prophétie»,28,2024-11-01T08:15:49.825Z
+G0921,Βαρνάβας,"Barnabas, Barnabé = «fils de la prophétie»",28,2025-07-18T20:00:09.745Z
 G0922,βάρος,"charge, fardeau; poids, importance",6,2024-11-01T08:15:49.825Z
 G0923,Βαρσαβᾶς,Barsabas = «fils de Sabas»,2,
 G0924,Βαρτιμαῖος,Bartimée = «fils de Timée»,1,
@@ -906,7 +906,7 @@ G0928,βασανίζω,battre; tourmenter,12,
 G0929,βασανισμός,"tourment, torture, épreuve",6,
 G0930,βασανιστής,bourreau,1,
 G0931,βάσανος,"tourment, épreuve, tourment, épreuve",3,
-G0932,βασιλεία,"pouvoir royal, royauté, royaume",161,2024-11-01T08:15:49.825Z
+G0932,βασιλεία,"règne, royauté, royaume",161,2025-07-18T20:00:09.745Z
 G0933,βασίλειον,"palais du roi, cour, habitation du roi",1,
 G0934,βασίλειος,royal,1,
 G0935,βασιλεύς,roi,115,2024-11-01T08:15:49.825Z
@@ -1034,9 +1034,9 @@ G1059,Γαμαλιήλ,Gamaliel = «récompense de Dieu»,2,
 G1060,γαμέω,"se marier, épouser",29,2024-11-01T08:15:49.825Z
 G1061,γαμίσκω,"donner en mariage, marier ses enfants",8,
 G1062,γάμος,mariage; noce,16,
-G1063,γάρ,"car, parce que, en effet",1039,2024-11-01T08:15:49.825Z
+G1063,γάρ,"car, parce que",1039,2025-07-18T20:00:09.745Z
 G1064,γαστήρ,ventre; état de grossesse,9,
-G1065,γέ,"(particule enclitique) néanmoins, vraiment, sans doute; pourtant, du moins",26,2024-11-01T08:15:49.825Z
+G1065,γέ,"(particule enclitique) en effet, néanmoins, vraiment, sans doute; pourtant, du moins",26,2025-07-18T20:00:09.745Z
 G1066,Γεδεών,"Gédéon = «celui qui coupe, qui fait tomber»",1,
 G1067,γέεννα,"géhenne, enfer",12,2024-11-01T08:15:49.825Z
 G1068,Γεθσημανῆ,Gethsémané = «pressoir à huile»,2,
@@ -1045,7 +1045,7 @@ G1070,γελάω,"rire, exprimer sa joie, sa satisfaction",2,
 G1071,γέλως,"rire, de la satisfaction",1,
 G1072,γεμίζω,"remplir, rendre plein, charger complètement",8,
 G1073,γέμω,"être plein, être rempli",11,
-G1074,γενεά,"génération, race",43,2024-11-01T08:15:49.825Z
+G1074,γενεά,"génération, famille",43,2025-07-18T20:00:09.745Z
 G1075,γενεαλογέω,"(passif) tirer généalogiquement son origine, descendre généalogiquement de",1,
 G1076,γενεαλογία,"généalogie, d’une famille",2,
 G1077,γενέσια,anniversaire de naissance,2,
@@ -1066,7 +1066,7 @@ G1092,γεωργός,"cultivateur, laboureur, vigneron",19,
 G1093,γῆ,"terre, pays, peuple, contrée, lieu",247,2024-11-01T08:15:49.825Z
 G1094,γῆρας,"vieillesse, âge avancé",1,
 G1095,γηράσκω,"devenir vieux, devenir âgé, vieillir",2,
-G1096,γίνομαι,devenir,662,2024-11-01T08:15:49.825Z
+G1096,γίνομαι,"devenir, se passer",662,2025-07-18T20:00:09.745Z
 G1097,γινώσκω,"connaître, savoir",218,2024-11-01T08:15:49.825Z
 G1098,γλεῦκος,vin doux,1,
 G1099,γλυκύς,"doux, sucré",4,
@@ -1136,7 +1136,7 @@ G1162,δέησις,supplication; prière,18,
 G1163,δεῖ,"il faut, il est nécessaire",102,2024-11-01T08:15:49.825Z
 G1164,δεῖγμα,"exemple; indice, preuve",1,2025-06-12T09:31:48.000Z
 G1165,δειγματίζω,"faire un exemple, diffamer, produire",2,
-G1166,δεικνύω,montrer,33,2024-11-01T08:15:49.825Z
+G1166,δείκνυμι,montrer,33,2025-07-18T20:00:09.745Z
 G1167,δειλία,"crainte, timidité, réticence",1,
 G1168,δειλιάω,"être craintif, être timide, être peureux",1,
 G1169,δειλός,"timide, qui manque d’assurance, craintif, lâche",3,
@@ -1187,12 +1187,12 @@ G1217,δημιουργός,"créateur, artisan, fabricateur, constructeur publi
 G1218,δῆμος,"peuple, foule",4,
 G1219,δημόσιος,publiquement,4,
 G1220,δηνάριον,denier = «contenant dix»,16,
-G1223,διά,à cause de; par le moyen de; en faveur de; au bout de,666,
+G1223,διά,"(+A) à cause de, grâce à; (+G) à travers, par le moyen de",666,2025-07-18T20:00:09.745Z
 G1224,διαβαίνω,"traverser, marcher à travers, passer",3,
 G1225,διαβάλλω,accuser,1,
 G1226,διαβεβαιόω,"insister, affirmer fortement",2,
 G1227,διαβλέπω,"voir clair, regarder distinctement",3,
-G1228,διάβολος,diable = «calomniateur»,37,2024-11-01T08:15:49.825Z
+G1228,διάβολος,"le diviseur, le diable = «calomniateur»",37,2025-07-18T20:00:09.745Z
 G1229,διαγγέλλω,"annoncer, publier, proclamer, faire savoir",3,
 G1230,διαγίνομαι,"s’écouler, passer",3,
 G1231,διαγινώσκω,prendre connaissance; examiner,2,
@@ -1210,9 +1210,9 @@ G1243,διαίρεσις,"diversité, variété, pluralité",3,
 G1244,διαιρέω,"distribuer, diviser, partager",2,
 G1245,διακαθαρίζω,"nettoyer entièrement, nettoyer complètement, purifier à fond",1,
 G1246,διακατελέγχομαι,réfuter,1,
-G1247,διακονέω,servir; assurer le service; assister; (passif) être rédigé par le ministère; employer,37,
+G1247,διακονέω,(+D) servir; assurer le service; assister; (passif) être rédigé par le ministère; employer,37,2025-07-18T20:00:09.745Z
 G1248,διακονία,"service, ministère, secours",34,2024-11-01T08:15:49.825Z
-G1249,διάκονος,"ministre, serviteur, diacre, diaconesse",30,2024-11-01T08:15:49.825Z
+G1249,διάκονος,"ministre, serviteur",30,2025-07-18T20:00:09.745Z
 G1250,διακόσιοι,deux cents,8,
 G1251,διακούω,entendre à fond,1,
 G1252,διακρίνω,juger; décider; discerner; faire une différence; disputer; (moyen et/ou passif) douter,19,
@@ -1280,9 +1280,9 @@ G1316,διαχωρίζω,"séparer, quitter, s’en aller",1,
 G1317,διδακτικός,propre à enseigner,2,
 G1318,διδακτός,"enseigné, instruit",3,
 G1319,διδασκαλία,doctrine; enseignement; instruction,21,
-G1320,διδάσκαλος,"professeur, enseignant",58,2024-11-01T08:15:49.825Z
+G1320,διδάσκαλος,"le maître, le professeur, l'enseignant",58,2025-07-18T20:00:09.745Z
 G1321,διδάσκω,"(+A) enseigner, instruire",96,2024-11-01T08:15:49.825Z
-G1322,διδαχή,enseignement,30,2024-11-01T08:15:49.825Z
+G1322,διδαχή,l'enseignement,30,2025-07-18T20:00:09.745Z
 G1323,δίδραχμος,didrachme,2,
 G1324,Δίδυμος,"Didyme = «deux, jumeaux»",3,
 G1325,δίδωμι,donner; mettre; communiquer; payer; prononcer; offrir; laisser; jeter; montrer; produire; exercer; permettre,409,
@@ -1359,7 +1359,7 @@ G1395,δότης,"celui qui donne, donateur",1,
 G1396,δουλαγωγέω,tenir assujetti,1,2024-11-01T08:15:49.825Z
 G1397,δουλεία,"servitude, esclavage",5,
 G1398,δουλεύω,"être un esclave, servir",24,2024-11-01T08:15:49.825Z
-G1401,δοῦλος,un esclave,129,2024-11-01T08:15:49.825Z
+G1401,δοῦλος,l'esclave,129,2025-07-21T06:56:48.323Z
 G1402,δουλόω,"asservir, rendre serviteur, réduire en esclavage",8,
 G1403,δοχή,"festin, fête, banquet, réception",2,
 G1404,δράκων,"dragon, serpent très gros",13,
@@ -1394,7 +1394,7 @@ G1433,δωρέω,"donner, accorder gratuitement",3,
 G1434,δώρημα,"don, présent, offrande",2,
 G1435,δῶρον,don; offrande; présent,19,
 G1436,ἔα,"ha!, interj. de surprise, de colère",1,
-G1437,ἐάν,"si, à moins que, si du moins",327,
+G1437,ἐάν,"(+subj.) si, à moins que, si du moins",327,2025-07-21T06:56:48.323Z
 G1438,ἑαυτοῦ,"lui-même, elle-même, par lui-même, eux-mêmes, …",317,2024-11-01T08:15:49.825Z
 G1439,ἐάω,abandonner; laisser; permettre,11,
 G1440,ἑβδομήκοντα,soixante-dix,5,
@@ -1404,7 +1404,7 @@ G1443,Ἐβέρ,"Éber = «l’autre côté, la région au delà»",1,
 G1445,Ἑβραῖος,un hébreu,4,2024-11-01T08:15:49.825Z
 G1446,Ἑβραΐς,"la langue hébraïque, l'hébreu",3,2024-11-01T08:15:49.825Z
 G1447,Ἑβραϊστί,"En hébreu, en langue hébraïque",7,
-G1448,ἐγγίζω,approcher; être proche; venir dans le voisinage,42,
+G1448,ἐγγίζω,(+D) s'approcher; être proche; venir dans le voisinage,42,2025-07-21T06:56:48.323Z
 G1449,ἐγγράφω,"écrire, inscrire, graver",3,
 G1450,ἔγγυος,"garant, personne responsable légalement, répondant",1,
 G1451,ἐγγύς,proche,30,2024-11-01T08:15:49.825Z
@@ -1440,7 +1440,7 @@ G1480,ἐθίζω,"(participe) l’usage, la coutume",1,
 G1481,ἐθνάρχης,"ethnarque, gouverneur d’une province",1,
 G1482,ἐθνικός,"homme des nations, celui des nations",4,
 G1483,ἐθνικῶς,comme les nations,1,
-G1484,ἔθνος,"nation, peuple",163,2024-11-01T08:15:49.825Z
+G1484,ἔθνος,"nation, peuple; (pl.) les nations, les non-juifs",163,2025-07-21T06:56:48.323Z
 G1485,ἔθος,"coutume, habitude, usage",12,
 G1486,ἔθω,"avoir coutume, avoir l’habitude",4,
 G1487,εἰ,"si, soit que",506,2024-11-01T08:15:49.825Z
@@ -1458,13 +1458,13 @@ G1503,εἴκω,"être comme, être semblable",2,
 G1504,εἰκών,image,23,
 G1505,εἰλικρίνεια,"sincérité, pureté",3,
 G1506,εἰλικρινής,"pur, sain, sincère, non souillé",2,2024-11-01T08:15:49.825Z
-G1510,εἰμί,"être, exister, arriver, se trouver, être présent",2458,2024-11-01T08:15:49.825Z
+G1510,εἰμί,être,2458,2025-07-21T07:02:35.007Z
 G1514,εἰρηνεύω,"être en paix, vivre en paix",4,
 G1515,εἰρήνη,paix,92,2024-11-01T08:15:49.825Z
 G1516,εἰρηνικός,paisible,2,
 G1517,εἰρηνοποιέω,"faire la paix, procurer la paix",1,
 G1518,εἰρηνοποιός,"celui qui fait la paix, pacificateur",1,
-G1519,εἰς,par rapport; relativement; vers,1757,
+G1519,εἰς,"(+A) vers, dans (+mvmt.), en vue de",1757,2025-07-21T07:02:35.007Z
 G1520,εἷς,"un, quelqu'un",336,2024-11-01T08:15:49.825Z
 G1521,εἰσάγω,amener; faire entrer,11,
 G1522,εἰσακούω,(passif) exaucer; ecouter,5,
@@ -1479,7 +1479,7 @@ G1532,εἰστρέχω,"rentrer en courant, courir vers l’intérieur",1,
 G1533,εἰσφέρω,apporter dans; introduire; porter; exposer,8,
 G1534,εἶτα,"ensuite, alors",15,
 G1535,εἴτε,"si … si, soit que … ou",65,2024-11-01T08:15:49.825Z
-G1537,ἐκ,de; hors de; par le moyen de; sur la base de,912,
+G1537,ἐκ,"(+G) de, hors de, par le moyen de, sur la base de",912,2025-07-21T07:02:35.007Z
 G1538,ἕκαστος,"chacun, chaque",81,2024-11-01T08:15:49.825Z
 G1539,ἑκάστοτε,"en tout temps, à chaque occasion, à tout moment",1,
 G1540,ἑκατόν,cent,17,
@@ -1503,8 +1503,8 @@ G1559,ἐκδιώκω,chasser par la persécution,1,
 G1560,ἔκδοτος,ayant été livré,1,
 G1561,ἐκδοχή,"attente, expectative",1,
 G1562,ἐκδύω,"dépouiller, ôter, dévêtir, ôter les vêtements",5,
-G1563,ἐκεῖ,"là, à cet endroit",95,2024-11-01T08:15:49.825Z
-G1564,ἐκεῖθεν,"de là, de ce lieu",27,2024-11-01T08:15:49.825Z
+G1563,ἐκεῖ,"ici, là, à cet endroit",95,2025-07-21T07:02:35.007Z
+G1564,ἐκεῖθεν,"d'ici, de là, de ce lieu",27,2025-07-21T07:02:35.007Z
 G1565,ἐκεῖνος,"celui-là, celle-là..",243,2024-11-01T08:15:49.825Z
 G1566,ἐκεῖσε,"là, là-bas",2,
 G1567,ἐκζητέω,rechercher; redemander; s’informer,7,
@@ -1517,7 +1517,7 @@ G1573,ἐκκακέω,se lasser; perdre courage,6,
 G1574,ἐκκεντέω,"percer, transpercer",2,
 G1575,ἐκκλάω,"arracher, écarter en brisant, élaguer",3,
 G1576,ἐκκλείω,"exclure, écarter, ôter",2,
-G1577,ἐκκλησία,"église, assemblée",114,2024-11-01T08:15:49.825Z
+G1577,ἐκκλησία,"l'assemblée, l'Église",114,2025-07-21T07:02:35.007Z
 G1578,ἐκκλίνω,"s’éloigner, se détourner",2,
 G1579,ἐκκολυμβάω,"se sauver à la nage, s’échapper en nageant",1,
 G1580,ἐκκομίζω,"porter dehors, porter en terre",1,
@@ -1547,7 +1547,7 @@ G1603,ἐκπληρόω,"accomplir, remplir entièrement",1,
 G1604,ἐκπλήρωσις,"accomplissement, action de remplir, achèvement",1,
 G1605,ἐκπλήσσω,(passif) être étonné; saisir,13,
 G1606,ἐκπνέω,"expirer, mourir, s’éteindre",3,
-G1607,ἐκπορεύω,"se rendre, s’en aller, partir, sortir",32,2024-11-01T08:15:49.825Z
+G1607,ἐκπορεύομαι,"sortir, se rendre, s’en aller, partir",32,2025-07-21T07:13:06.612Z
 G1608,ἐκπορνεύω,"s’abandonner à la fornication, se prostituer",1,
 G1609,ἐκπτύω,"rejeter, rejeter avec dégoût, avoir en horreur",1,
 G1610,ἐκριζόω,déraciner,4,
@@ -1586,7 +1586,7 @@ G1642,ἐλαττόω,"faire moindre, rendre inférieur, diminuer",3,
 G1643,ἐλαύνω,emporter; pousser; ramer,5,
 G1644,ἐλαφρία,"légèreté, de sérieux",1,
 G1645,ἐλαφρός,"léger, facile à porter",2,
-G1646,ἐλάχιστος,"plus petit, moindre",14,2024-11-01T08:15:49.825Z
+G1646,ἐλάχιστος,"le plus petit, le moindre",14,2025-07-21T07:13:06.612Z
 G1648,Ἐλεάζαρ,Éléazar = «secours de Dieu»,2,
 G1649,ἔλεγξις,"recevoir un blâme, blâmer, réprimander",1,
 G1650,ἔλεγχος,"conviction, preuve, démonstration",1,
@@ -1595,7 +1595,7 @@ G1652,ἐλεεινός,misérable,2,
 G1653,ἐλεέω,"avoir pitié, faire miséricorde",31,2024-11-01T08:15:49.825Z
 G1654,ἐλεημοσύνη,aumône,13,
 G1655,ἐλεήμων,miséricordieux,2,
-G1656,ἔλεος,"pitié, miséricorde",27,2024-11-01T08:15:49.825Z
+G1656,ἔλεος,"la pitié, la miséricorde",27,2025-07-21T07:13:06.612Z
 G1657,ἐλευθερία,liberté,11,2024-11-01T08:15:49.825Z
 G1658,ἐλεύθερος,libre,23,2024-11-01T08:15:49.825Z
 G1659,ἐλευθερόω,"affranchir, rendre libre",7,
@@ -1611,7 +1611,7 @@ G1668,ἕλκος,"ulcère, blessure, plaie purulente",3,
 G1669,ἑλκόω,(passif) être tout couvert d’ulcères,1,
 G1670,ἑλκύω,"attirer, tirer, retirer, traîner",8,2024-11-01T08:15:49.825Z
 G1671,Ἑλλάς,"Grèce = «instable: argileuse, souple»",1,
-G1672,Ἕλλην,"grec, païen",25,2024-11-01T08:15:49.825Z
+G1672,Ἕλλην,"le Grec, le païen",25,2025-07-21T07:13:06.612Z
 G1673,Ἑλληνικός,"Grec, langage grec",1,
 G1674,Ἑλληνίς,"Grec, Grecque, grec, grecque",2,
 G1675,Ἑλληνιστής,Helléniste,3,
@@ -1619,7 +1619,7 @@ G1676,Ἑλληνιστί,"Langue grecque, en grec",2,
 G1677,ἐλλογέω,"mettre en compte, mettre au compte, imputer, attribuer",2,
 G1678,Ἐλμωδάμ,Elmadan = «mesure»,1,
 G1679,ἐλπίζω,"espérer, aspirer à",31,2024-11-01T08:15:49.825Z
-G1680,ἐλπίς,espérance,53,
+G1680,ἐλπίς,l'espérance,53,2025-07-21T07:13:06.612Z
 G1681,Ἐλύμας,Élymas = «un homme sage»,1,
 G1682,ἐλωΐ,Éloï = «mon Dieu»,2,
 G1683,ἐμαυτοῦ,moi-même,37,2024-11-01T08:15:49.825Z
@@ -1637,7 +1637,7 @@ G1695,Ἐμμαούς,Emmaüs = «bains chauds»,1,
 G1696,ἐμμένω,"persévérer, continuer fermement",4,
 G1697,Ἐμμόρ,Hémor = «un âne»,1,
 G1699,ἐμός,"mon, ma, mien",72,2024-11-01T08:15:49.825Z
-G1700,ἐγώ,"moi, mon, mien",113,
+G1700,ἐμοῦ,"moi, mon, mien",113,2025-07-21T07:13:06.612Z
 G1701,ἐμπαιγμός,moquerie,1,
 G1702,ἐμπαίζω,se jouer; se moquer,13,
 G1703,ἐμπαίκτης,moqueur,2,2025-06-12T09:32:45.000Z
@@ -1652,14 +1652,14 @@ G1711,ἐμπορία,"trafic, commerce, marchandise",1,
 G1712,ἐμπόριον,"trafic, marché, magasin, commerce",1,
 G1713,ἔμπορος,marchand,5,
 G1714,ἐμπρήθω,"brûler, mettre en feu, incendier",1,
-G1715,ἔμπροσθεν,"en la présence, devant, en face, avant",48,
+G1715,ἔμπροσθεν,"(+G) devant, en la présence, en face, avant",48,2025-07-21T07:13:06.612Z
 G1716,ἐμπτύω,cracher,6,
 G1717,ἐμφανής,"manifesté, rendu apparent, connu",2,
 G1718,ἐμφανίζω,(passif) apparaître; déclarer; manifester; montrer clairement; porter plainte; proposer,10,
 G1719,ἔμφοβος,rempli; tout effrayé; épouvanté,5,
 G1720,ἐμφυσάω,"souffler en, souffler sur",1,
 G1721,ἔμφυτος,implanté,1,
-G1722,ἐν,"en, en ce qui concerne, en, sur, au sujet de, avec, à, par, parmi, entre",2728,
+G1722,ἐν,"(+D) dans, en",2728,
 G1723,ἐναγκαλίζομαι,prendre entre ses bras,2,
 G1724,ἐνάλιος,animal marin,1,
 G1725,ἔναντι,"devant, en présence",2,
@@ -1688,7 +1688,7 @@ G1747,ἐνέδρα,"embûche, embuscade, guet-apens",2,
 G1748,ἐνεδρεύω,"dresser, tendre des pièges, dresser un guet-apens",2,
 G1750,ἐνειλέω,"envelopper, enrouler",1,
 G1751,ἔνειμι,"être dans, avoir",1,
-G1752,ἕνεκα,"pour l’amour de, en raison de",26,
+G1752,ἕνεκα,"(+G) pour l’amour de, en raison de",26,
 G1753,ἐνέργεια,"opération, action puissante, énergie, activité, force",8,
 G1754,ἐνεργέω,(moyen) agir; opérer; s’opérer,21,
 G1755,ἐνέργημα,"opération, effet produit, activité",2,
@@ -1703,7 +1703,7 @@ G1763,ἐνιαυτός,année,14,
 G1764,ἐνίστημι,"être présent, être proche, être imminent, survenir",7,
 G1765,ἐνισχύω,"fortifier, redonner des forces, reprendre des forces",2,
 G1766,ἔννατος,"neuvième, un nombre ord.",10,
-G1767,ἐννέα,"neuf, un nombre",5,
+G1767,ἐννέα,neuf,5,2025-07-21T07:15:42.107Z
 G1768,ἐνενήκοντα,quatre-vingt-dix-neuf,4,
 G1769,ἐννεός,"tout interdit, incapable de parler, muet, stupéfait",1,
 G1770,ἐννεύω,faire signe,1,
@@ -1721,7 +1721,7 @@ G1781,ἐντέλλω,"donner un ou des ordres, ordonner, commander, enjoindre"
 G1782,ἐντεῦθεν,de chaque côté,10,
 G1783,ἔντευξις,"intercession, prière",2,
 G1784,ἔντιμος,d’une grande valeur; en honneur; fort cher,5,
-G1785,ἐντολή,"commandement, précepte",68,2024-11-01T08:15:49.825Z
+G1785,ἐντολή,"le commandement, le précepte",68,2025-07-21T07:15:42.107Z
 G1786,ἐντόπιος,celui (qui est) du lieu,1,
 G1787,ἐντός,"au milieu, à l’intérieur, parmi",2,
 G1788,ἐντρέπω,faire honte; respecter,9,
@@ -1735,7 +1735,7 @@ G1795,ἐντυπόω,graver,1,
 G1796,ἐνυβρίζω,"outrager, insulter",1,
 G1797,ἐνυπνιάζομαι,"songer, rêver",2,2024-11-01T08:15:49.825Z
 G1798,ἐνύπνιον,"songe, rêve",1,
-G1799,ἐνώπιον,"en la présence, devant, en face",94,
+G1799,ἐνώπιον,"(+G) en la présence, devant, en face",94,2025-07-21T07:15:42.107Z
 G1800,Ἐνώς,Énos = «homme mortel»,1,
 G1801,ἐνωτίζομαι,"prêter l’oreille, ouvrir l’oreille, écouter",1,
 G1802,Ἑνώχ,Énoch = «dédié»,3,
@@ -1789,13 +1789,13 @@ G1850,ἐξουσιάζω,disposer; exercer l’autorité; laisser asservir,4,
 G1851,ἐξοχή,"prééminence, excellence, élite",1,
 G1852,ἐξυπνίζω,"éveiller, réveiller, tirer du sommeil",1,
 G1853,ἔξυπνος,"éveillé, réveillé, tiré du sommeil",1,
-G1854,ἔξω,étranger; extérieur; hors,62,
+G1854,ἔξω,"(+G) hors de, en dehors",62,2025-07-21T07:15:42.107Z
 G1855,ἔξωθεν,"extérieur, du dehors, en dehors",13,
 G1856,ἐξωθέω,"chasser, chasser dehors, repousser, faire sortir, faire échouer",2,
 G1857,ἐξώτερος,"extérieur, de dehors",3,
 G1858,ἑορτάζω,célébrer la fête,1,
-G1859,ἑορτή,"fête, jour de fête",25,2024-11-01T08:15:49.825Z
-G1860,ἐπαγγελία,"annonce, nouvelle, promesse",52,2024-11-01T08:15:49.825Z
+G1859,ἑορτή,la fête,25,2025-07-21T07:15:42.107Z
+G1860,ἐπαγγελία,la promesse,52,2025-07-21T07:15:42.107Z
 G1861,ἐπαγγέλλω,faire profession; promettre,15,
 G1862,ἐπάγγελμα,promesse faite,2,
 G1863,ἐπάγω,"venir, faire retomber",3,
@@ -1871,7 +1871,7 @@ G1935,ἐπιθανάτιος,"voué à la mort, condamné à mort",1,
 G1936,ἐπίθεσις,"imposition (des mains), imposition",4,
 G1937,ἐπιθυμέω,convoiter; désirer,16,
 G1938,ἐπιθυμητής,convoiteur,1,
-G1939,ἐπιθυμία,désir,38,2024-11-01T08:15:49.825Z
+G1939,ἐπιθυμία,le désir,38,2025-07-21T07:19:24.263Z
 G1940,ἐπικαθίζω,s’asseoir dessus,1,
 G1941,ἐπικαλέω,"nommer, appeler",30,2024-11-01T08:15:49.825Z
 G1942,ἐπικάλυμμα,"voile, couverture, voile, couverture",1,
@@ -1923,7 +1923,7 @@ G1988,ἐπιστάτης,"maître, responsable, surveillant",7,
 G1989,ἐπιστέλλω,"écrire, envoyer un message",3,
 G1990,ἐπιστήμων,intelligent,1,
 G1991,ἐπιστηρίζω,"fortifier, établir, affermir",3,
-G1992,ἐπιστολή,"lettre, épître",24,2024-11-01T08:15:49.825Z
+G1992,ἐπιστολή,"la lettre, l'épître",24,2025-07-21T07:19:24.263Z
 G1993,ἐπιστομίζω,"fermer la bouche, faire taire",1,
 G1994,ἐπιστρέφω,"se (re)tourner, se convertir",36,2024-11-01T08:15:49.825Z
 G1995,ἐπιστροφή,"conversion, changement de direction",1,
@@ -5931,7 +5931,7 @@ H0557,אַמְצִי,"Amtsi = «ma force, robuste»",2,
 H0558,אֲמַצְיָ֫הוּ,Amatsia = «l’Éternel est fort»,40,
 H0559,אָמַר,"dire, parler, prononcer",5309,
 H0560,אֲמַר,"dire, parler, commander, relater",71,
-H0561,אֵמֶר,"émission, discours, parole, dire, promesse",49,
+H0561,אֵמֶר,"parole, ordre, émission, discours, dire, promesse",49,2025-07-21T07:24:30.821Z
 H0562,אֹמֶר,"émission, discours, parole",6,
 H0563,אִמַּר,agneau,3,
 H0564,אִמֵּר,Immer = «il a dit»,10,
@@ -5941,7 +5941,7 @@ H0567,אֱמֹרִי,"Amoréen = «diseur», «montagnard»",87,
 H0568,אֲמַרְיָ֫הוּ,"Amaria = «l’Éternel a dit, ou a promis»",16,
 H0569,אַמְרָפֶל,Amraphel = «annonceur de ténèbres»,2,
 H0570,אֶ֫מֶשׁ,"hier, la nuit dernière",5,
-H0571,אֱמֶת,"fermeté, fidélité, vérité",127,
+H0571,אֱמֶת,"vérité, fermeté, fidélité",127,2025-07-21T07:25:13.979Z
 H0572,אַמְתַּ֫חַת,"sac, récipient souple",15,
 H0573,אֲמִתַּי,Amitthaï = «véridique»,2,
 H0574,אֵימְתָן,terrible,1,
@@ -5958,13 +5958,13 @@ H0585,אֲנָחָה,"soupir, gémissement (expression de chagrin ou détresse p
 H0586,אֲנַ֫חְנָא,nous (première personne du pluriel),4,
 H0587,אֲנַ֫חְנוּ,nous (première personne du pluriel – généralement avec emphase),120,
 H0588,אֲנָֽחֲרָ֑ת,Anacharath = «le gémissement de crainte»,1,
-H0589,"אֲנִי, אָֽנֹכִ֫י",Je (première personne du singulier – généralement avec emphase),874,
+H0589,"אֲנִי, אָֽנֹכִ֫י",je (première personne du singulier – généralement avec emphase),874,2025-07-21T07:34:08.570Z
 H0590,אֳנִי,"flotte, navires",7,
 H0591,אֳנִיָּה,navires,31,
 H0592,אֲנִיָּה,"deuil, lamentations, gémissements",2,
 H0593,אֲנִיעָם,Aniam = «soupir du peuple»,1,
 H0594,אֲנָךְ,"fil à plomb, niveau",4,
-H0595,אָֽנֹכִ֫י,Je (première personne du singulier),359,
+H0595,אָֽנֹכִ֫י,je (première personne du singulier),359,2025-07-21T07:34:08.570Z
 H0596,אָנַן,"se plaindre, murmurer",2,
 H0597,אָנַס,"forcer, contraindre",1,
 H0598,אֲנַס,"forcer, contraignant",1,
@@ -5991,7 +5991,7 @@ H0618,אָסָם,"magasin, grange, grenier",2,
 H0619,אַסְנָה,Asna = «je serai haï»,1,
 H0620,אָֽסְנַפַּר,Osnappar = « épine disparue»,1,
 H0621,אָֽסְנַת,Asnath = «appartenant à la déesse Neith»,3,
-H0622,אָסַף,"recueillir, recevoir, enlever, rassembler",200,
+H0622,אָסַף,"amasser, assembler, rassembler, recevoir; enlever, ôter",200,2025-07-21T07:39:53.035Z
 H0623,אָסָף,"Asaph = «celui qui rassemble, collecteur»",46,
 H0624,אָסֹף,"Asuppim  collection, magasin",3,
 H0625,אֹ֫סֵף,"rassemblement, collecte, moisson",3,
@@ -6026,7 +6026,7 @@ H0653,אֲפֵלָה,"obscurité, calamité",10,
 H0654,אֶפְלָל,Ephlal = «intercesseur»,2,
 H0655,אֹ֫פֶן,"circonstance, condition, opportunité",1,
 H0656,אָפֵס,"cesser, rompre, aller vers une fin",5,
-H0657,אֶ֫פֶס,"cessation, fin, finalité",44,
+H0657,אֶ֫פֶס,"cessation, fin, extrémité",44,2025-07-21T07:41:50.616Z
 H0658,אֶ֫פֶס דַּמִּים,Éphès-Dammim = «frontière de sang»,2,
 H0659,אֶ֫פַע,"sans valeur, nul",1,
 H0660,אֶפְעֶה,"une vipère, serpent",3,
@@ -6050,7 +6050,7 @@ H0677,אֶצְבַּע,"doigt, orteil",3,
 H0678,אָצִיל,"côté, coin, chef",2,
 H0679,אַצִּיל,"joindre, joint (comme le coude etc)",3,
 H0680,אָצַל,"poser de côté, réserver, refuser",5,
-H0681,אֵ֫צֶל,"à côté de, près de, proche, joignant, proximité",61,
+H0681,אֵ֫צֶל,"à côté de, près de",61,2025-07-21T07:45:22.673Z
 H0682,אָצֵל,Atsel (Atzel) = «proximité »,7,
 H0683,אֲצַלְיָ֫הוּ,"Atsalia = «l’Éternel a épargné, mis à part»",2,
 H0684,אֹ֫צֶם,Otsem = «je les activerai»,2,
@@ -6075,7 +6075,7 @@ H0702,אַרְבַּע,quatre,318,
 H0703,אַרְבַּע,quatre,8,
 H0704,אַרְבַּע,Arba = «quatrième»,1,
 H0705,אַרְבָּעִים,quarante,136,
-H0706,אַרְבַּעְתַּיִם,"quadruple, quatre",1,
+H0706,אַרְבַּעְתַּיִם,au quadruple,1,2025-07-21T07:45:22.673Z
 H0707,אָרַג,tisser,14,
 H0708,אֶ֫רֶג,"métier (à tisser), navette",2,
 H0709,אַרְגֹּב,Argob = «tas de pierres»,5,
@@ -6144,7 +6144,7 @@ H0772,אֲרַע,"terre, monde, sol",21,
 H0773,אַרְעִי,"le fond, le bas",1,
 H0774,אַרְפַּד,Arpad = «je serai supporté»,6,
 H0775,אַרְפַּכְשַׁד,troisième fils de Sem,9,2024-11-01T08:15:49.825Z
-H0776,אֶ֫רֶץ,"terre, territoire, sol",2504,
+H0776,אֶ֫רֶץ,"terre, territoire, pays, sol",2504,2025-07-21T07:47:19.422Z
 H0777,אַרְצָא,Artsa = «sol»,1,
 H0778,אֲרַק,la terre,1,
 H0779,אָרַר,maudire,63,2024-11-01T08:15:49.825Z
