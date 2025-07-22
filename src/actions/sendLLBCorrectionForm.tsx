@@ -5,7 +5,7 @@ import { llbCorrectionFormSchema, LLBCorrectionFormSchemaType } from '@/utils/va
 
 
 export default async function sendLLBCorrectionForm(formData: LLBCorrectionFormSchemaType, word: BibleWithLLB) {
-  console.log('sending feedback')
+  console.log('sending feedback for:', word.strong)
   const raw = {
     name: formData.name,
     email: formData.email,
