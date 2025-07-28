@@ -1972,14 +1972,14 @@ G2037,Ἔραστος,Éraste = «bien-aimé»,3,
 G2038,ἐργάζομαι,"travailler, commettre, faire, agir, pratiquer",40,2024-11-01T08:15:49.825Z
 G2039,ἐργασία,travail; gain; œuvre; pratique,6,
 G2040,ἐργάτης,ouvrier,16,
-G2041,ἔργον,"œuvre, travail",169,2024-11-01T08:15:49.825Z
+G2041,ἔργον,"l'œuvre, le travail",169,2025-07-28T14:31:46.737Z
 G2042,ἐρεθίζω,"irriter, provoquer, exaspérer, exciter",2,
 G2043,ἐρείδω,"se trouver engagé, être enfoncé",1,
 G2044,ἐρεύγομαι,"émettre des paroles, publier",1,2024-11-01T08:15:49.825Z
 G2045,ἐρευνάω,"sonder, examiner, chercher, s’enquérir, rechercher",6,
 G2046,ἔπω,"parler, dire, prescrire",47,
 G2047,ἐρημία,"désert, lieu inhabité, inculte",4,
-G2048,ἔρημος,délaissé; désert,48,
+G2048,ἔρημος,(adj.) délaissé; (subst.) le désert,48,2025-07-28T14:31:46.737Z
 G2049,ἐρημόω,"changer en désolation, être désolé, dévaster, rendre désert",5,
 G2050,ἐρήμωσις,"désolation, dévastation, destruction totale",3,
 G2051,ἐρίζω,"contester, se disputer, se quereller",1,
@@ -2019,10 +2019,10 @@ G2090,ἑτοιμάζω,apprêter; préparer,40,
 G2091,ἑτοιμασία,"préparation, disposition, promptitude",1,
 G2092,ἕτοιμος,"prêt, préparé",17,
 G2093,ἑτοίμως,prêt,3,
-G2094,ἔτος,"année, an",49,2024-11-01T08:15:49.825Z
+G2094,ἔτος,"l'année, l'an",49,2025-07-28T14:31:46.737Z
 G2095,εὖ,bien,5,2024-11-01T08:15:49.825Z
 G2096,Εὖα,Eve = «vie»,2,
-G2097,εὐαγγελίζομαι,annoncer; évangéliser,53,
+G2097,εὐαγγελίζομαι,annoncer une bonne nouvelle; évangéliser,53,2025-07-28T14:31:46.737Z
 G2098,εὐαγγέλιον,"la bonne nouvelle, l'évangile",76,2024-11-01T08:15:49.825Z
 G2099,εὐαγγελιστής,évangéliste,3,
 G2100,εὐαρεστέω,"prendre plaisir, trouver agréable, accepter, plaire",3,
@@ -2116,8 +2116,8 @@ G2188,ἐφφαθά,Éphphatha = «ouvre-toi!»,1,2024-11-01T08:15:49.825Z
 G2189,ἔχθρα,"inimitié, hostilité, haine, opposition",6,
 G2190,ἐχθρός,ennemi,32,2024-11-01T08:15:49.825Z
 G2191,ἔχιδνα,"vipère, serpent venimeux",5,
-G2192,ἔχω,avoir,706,2024-11-01T08:15:49.825Z
-G2193,ἕως,"jusqu’à, tant que",145,2024-11-01T08:15:49.825Z
+G2192,ἔχω,"avoir, posséder",706,2025-07-28T14:32:50.812Z
+G2193,ἕως,"(+G) jusqu’à, tant que",145,2025-07-28T14:32:50.812Z
 G2194,Ζαβουλών,Zabulon = «une habitation»,3,
 G2195,Ζακχαῖος,Zachée= «pur»,3,
 G2196,Ζαρά,Zara = «un lever (comme le soleil)»,1,
@@ -2146,11 +2146,11 @@ G2218,ζυγός,"joug, balance",6,
 G2219,ζύμη,levain,13,
 G2220,ζυμόω,lever sous l’action du levain,4,
 G2221,ζωγρέω,"prendre vivant, attraper",2,
-G2222,ζωή,vie,135,2024-11-01T08:15:49.825Z
+G2222,ζωή,la vie,135,2025-07-28T14:34:25.467Z
 G2223,ζώνη,ceinture,8,
 G2224,ζώννυμι,"ceindre, entourer d’une ceinture",3,
 G2225,ζωογονέω,"conserver en vie, préserver vivant, demeurer en vie",3,
-G2226,ζῷον,être vivant,23,2024-11-01T08:15:49.825Z
+G2226,ζῷον,"l'être vivant, l'animal",23,2025-07-28T14:34:25.467Z
 G2227,ζωοποιέω,"donner la vie, vivifier",11,2024-11-01T08:15:49.825Z
 G2228,ἤ,"ou, que",346,2024-11-01T08:15:49.825Z
 G2230,ἡγεμονεύω,"avoir le gouvernement, être gouverneur, guider, diriger",2,
@@ -2169,9 +2169,9 @@ G2242,Ἡλί,Héli= «celui qui monte»,1,
 G2243,Ἡλίας,Élie= «mon Dieu est l’Éternel»,29,2024-11-01T08:15:49.825Z
 G2244,ἡλικία,âge; stature,8,
 G2245,ἡλίκος,"quel, combien",3,
-G2246,ἥλιος,soleil,32,2024-11-01T08:15:49.825Z
+G2246,ἥλιος,le soleil,32,2025-07-28T14:34:25.467Z
 G2247,ἧλος,clou,2,
-G2250,ἡμέρα,jour,388,2024-11-01T08:15:49.825Z
+G2250,ἡμέρα,le jour,388,2025-07-28T14:34:25.467Z
 G2251,ἡμέτερος,"nôtre, vôtre",7,
 G2253,ἡμιθανής,"à demi mort, presque mort, mourant",1,
 G2255,ἥμισυς,"demi, moitié",5,
@@ -2197,14 +2197,14 @@ G2276,ἥττον,"au détriment, inférieur, moindre",2,
 G2278,ἠχέω,"faire un grand bruit, résonner",1,
 G2279,ἦχος,"renommée, son",4,
 G2280,Θαδδαῖος,"Thaddée = «grand cœur, courageux»",2,
-G2281,θάλασσα,mer,91,2024-11-01T08:15:49.825Z
+G2281,θάλασσα,la mer,91,2025-07-28T14:34:25.467Z
 G2282,θάλπω,"chérir, entourer d’attention, prendre soin tendrement",2,
 G2283,Θάμαρ,Thamar = «palmier»,1,2024-11-01T08:15:49.825Z
 G2284,θαμβέω,étonner; saisir d’étonnement; être stupéfié,3,
 G2285,θάμβος,"étonnement, merveille, stupeur, frayeur",3,
 G2286,θανάσιμος,mortel,1,
 G2287,θανατήφορος,"mortel, apportant la mort",1,
-G2288,θάνατος,mort,120,2024-11-01T08:15:49.825Z
+G2288,θάνατος,la mort,120,2025-07-28T14:34:25.467Z
 G2289,θανατόω,mettre à mort; faire mourir,11,
 G2290,θάπτω,"ensevelir, enterrer",11,
 G2291,Θάρα,"Thara = «halte, délai, retard»",1,
@@ -2212,7 +2212,7 @@ G2292,θαρρέω,"avoir confiance, avoir de l’assurance, user de hardiesse"
 G2293,θαρσέω,"avoir bon courage, être réconforté, avoir confiance",7,
 G2294,θάρσος,"courage, réconfort, confiance",1,
 G2295,θαῦμα,"étonnement, stupéfaction, surprise",2,
-G2296,θαυμάζω,"étonner, être dans l’admiration",43,2024-11-01T08:15:49.825Z
+G2296,θαυμάζω,"s'étonner, être dans l’admiration",43,2025-07-28T14:34:25.467Z
 G2297,θαυμάσιος,"merveilleux, admirable, étonnant, extraordinaire",1,
 G2298,θαυμαστός,étonnant; merveilleux,6,
 G2299,θεά,"déesse, divinité féminine",1,
@@ -2223,7 +2223,7 @@ G2303,θεῖον,soufre,7,
 G2304,θεῖος,"La Divinité, divin",3,
 G2305,θειότης,divinité,1,
 G2306,θειώδης,de soufre,1,
-G2307,θέλημα,"volonté, choix, décision",62,
+G2307,θέλημα,"la volonté, le choix, la décision",62,2025-07-28T14:37:14.570Z
 G2308,θέλησις,"volonté, bon vouloir, volonté, bon vouloir, désir",1,
 G2309,θέλω,vouloir,208,2024-11-01T08:15:49.825Z
 G2310,θεμέλιος,"fondement, base, fondations, principe",16,
@@ -2257,12 +2257,12 @@ G2338,θῆλυς,"femelle, femme",5,
 G2339,θήρα,"piège, instrument pour attraper",1,
 G2340,θηρεύω,surprendre,1,2024-11-01T08:15:49.825Z
 G2341,θηριομαχέω,combattre contre les bêtes sauvages,1,
-G2342,θηρίον,"bête sauvage, bête, animal",45,2024-11-01T08:15:49.825Z
+G2342,θηρίον,"la bête, l'animal",45,2025-07-28T14:37:14.570Z
 G2343,θησαυρίζω,"accumuler, amasser, mettre en réserve, réserver",8,
 G2344,θησαυρός,"trésor, bien précieux",17,
 G2345,θιγγάνω,toucher,3,
 G2346,θλίβω,presser; resserrer; affliger; être dans la tribulation,10,
-G2347,θλῖψις,affliction; tribulation; angoisse; détresse; pression,45,
+G2347,θλῖψις,l'affliction; la tribulation; l'angoisse; la détresse; la pression,45,2025-07-28T14:37:14.570Z
 G2348,θνῄσκω,"être mort, être décédé",9,
 G2349,θνητός,"mortel, susceptible de mourir",6,
 G2350,θορυβέω,faire du tumulte; troubler,5,
@@ -2276,9 +2276,9 @@ G2358,θριαμβεύω,mener en triomphe,2,
 G2359,θρίξ,cheveu; poil,15,
 G2360,θροέω,"être troublé, être effrayé, être alarmé",3,
 G2361,θρόμβος,"grumeau, grosse goutte, caillot",1,
-G2362,θρόνος,un trône,62,2024-11-01T08:15:49.825Z
+G2362,θρόνος,le trône,62,2025-07-28T14:44:53.456Z
 G2363,Θυάτειρα,Thyatire = «odeur d’affliction»,4,
-G2364,θυγάτηρ,fille,27,
+G2364,θυγάτηρ,la fille,27,2025-07-28T14:44:53.456Z
 G2365,θυγάτριον,"petite fille, jeune fille",2,
 G2366,θύελλα,"tempête, orage soudain, cyclone",1,
 G2367,θύϊνος,senteur,1,2024-11-01T08:15:49.825Z
@@ -2288,12 +2288,12 @@ G2370,θυμιάω,"offrir le parfum, brûler l’encens",1,
 G2371,θυμομαχέω,"être très irrité, être très fâché, être exaspéré",1,
 G2372,θυμός,colère; courroux; indignation; fureur,18,
 G2373,θυμόω,"être en colère, être en fureur, être enragé",1,
-G2374,θύρα,une porte,39,2024-11-01T08:15:49.825Z
+G2374,θύρα,la porte,39,2025-07-28T14:44:53.456Z
 G2375,θυρεός,bouclier,1,
 G2376,θυρίς,fenêtre,2,
 G2377,θυρωρός,"portier, portière",4,
-G2378,θυσία,"un sacrifice, une victime",28,2024-11-01T08:15:49.825Z
-G2379,θυσιαστήριον,autel,23,2024-11-01T08:15:49.825Z
+G2378,θυσία,"le sacrifice, la victime",28,2025-07-28T14:44:53.456Z
+G2379,θυσιαστήριον,l'autel,23,2025-07-28T14:44:53.456Z
 G2380,θύω,sacrifier; tuer,14,
 G2381,Θωμᾶς,Thomas = «un jumeau»,11,
 G2382,θώραξ,cuirasse,5,
@@ -2323,9 +2323,9 @@ G2405,ἱερατεία,"sacrificature, puis au temple",2,
 G2406,ἱεράτευμα,"sacrificature, puis au temple",2,
 G2407,ἱερατεύω,"exercer la sacrificature, puis au temple",1,
 G2408,Ἱερεμίας,Jérémie = «celui que l’Éternel a nommé»,3,
-G2409,ἱερεύς,"sacrificateur, prêtre, lévite",30,2024-11-01T08:15:49.825Z
+G2409,ἱερεύς,"le sacrificateur, le prêtre",30,2025-07-28T14:44:53.456Z
 G2410,Ἱεριχώ,Jéricho = «lieu de parfums»,7,
-G2411,ἱερόν,temple,70,2024-11-01T08:15:49.825Z
+G2411,ἱερόν,le temple,70,2025-07-28T14:44:53.456Z
 G2412,ἱεροπρεπής,comme il convient à de saintes femmes,1,
 G2413,ἱερός,"sacré, saint, consacré à dieu",2,
 G2414,Ἱεροσόλυμα,Jérusalem = «fondement de la paix»,62,
@@ -2354,19 +2354,19 @@ G2436,ἵλεως,"clément, miséricordieux, indulgent, favorable, favorablemen
 G2437,Ἰλλυρικόν,Illyrie = «la troupe lyrique»,1,
 G2438,ἱμάς,"courroie, lanière",4,
 G2439,ἱματίζω,"vêtir, mettre un vêtement",2,
-G2440,ἱμάτιον,"vêtement, chemise",59,2024-11-01T08:15:49.825Z
+G2440,ἱμάτιον,"le vêtement, la chemise, l'himation",59,2025-07-28T14:44:53.456Z
 G2441,ἱματισμός,habillement; robe; vêtement,5,
 G2442,ὁμείρομαι,"être tendrement affectionné, aimer",1,
-G2443,ἵνα,"que, afin que",668,2024-11-01T08:15:49.825Z
+G2443,ἵνα,"(+subj.) que, afin que",668,2025-07-28T14:44:53.456Z
 G2445,Ἰόππη,"Joppé = «beau, belle»",10,
 G2446,Ἰορδάνης,Jourdain = «qui descend»,15,
 G2447,ἰός,"rouille, venin",3,
 G2448,Ἰουδά,Juda = «il sera loué»,3,
-G2449,Ἰουδαία,Judée = «il sera loué»,44,
+G2449,Ἰουδαία,la Judée = «il sera loué»,44,2025-07-28T14:44:53.456Z
 G2450,Ἰουδαΐζω,judaïser,1,
 G2451,Ἰουδαϊκός,judaïque,1,
 G2452,Ἰουδαϊκῶς,Comme les Juifs,1,
-G2453,Ἰουδαῖος,juif,194,2024-11-01T08:15:49.825Z
+G2453,Ἰουδαῖος,le Juif,194,2025-07-28T14:44:53.456Z
 G2454,Ἰουδαϊσμός,judaïsme,2,
 G2455,Ἰούδας,"(= «il (Dieu) sera loué»), Judas, Juda, Jude, Joda",41,2024-11-01T08:15:49.825Z
 G2456,Ἰουλία,Julie = «douce chevelure»,1,
@@ -2392,7 +2392,7 @@ G2476,ἵστημι,"faire tenir debout, se tenir debout",152,2024-11-01T08:15:4
 G2477,ἱστορέω,faire la connaissance,1,2024-11-01T08:15:49.825Z
 G2478,ἰσχυρός,"fort, puissant",29,2024-11-01T08:15:49.825Z
 G2479,ἰσχύς,"force, capacité, puissance",10,
-G2480,ἰσχύω,"être fort, avoir le pouvoir",27,2024-11-01T08:15:49.825Z
+G2480,ἰσχύω,être fort; être en bonne santé; avoir le pouvoir,27,2025-07-28T14:44:53.456Z
 G2481,ἴσως,"peut-être, probablement, possiblement",1,
 G2482,Ἰταλία,Italie = «comme un veau»,4,
 G2483,Ἰταλικός,"Italienne, italique, italienne, italique, nom d’une cohorte",1,
@@ -3886,7 +3886,7 @@ G4135,πληροφορέω,accomplir pleinement; recevoir pleinement; demeurer 
 G4136,πληροφορία,"plénitude d’assurance, pleine assurance, pleine certitude, entière conviction",4,
 G4137,πληρόω,"remplir, accomplir",85,2024-11-01T08:15:49.825Z
 G4138,πλήρωμα,accomplissement; plénitude; ce qui est plein; contenu; partie ajoutée; tout,17,
-G4139,πλησίον,"prochain, tel un voisin",17,
+G4139,πλησίον,(subst.) le prochain; (prép. +G) près de,17,2025-07-23T13:41:25.407Z
 G4140,πλησμονή,"satisfaction, contentement, rassasiement",1,
 G4141,πλήσσω,"frapper, battre",1,
 G4142,πλοιάριον,petite barque,4,
