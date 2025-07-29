@@ -34,6 +34,10 @@ function sortCanonically(refA: BibleRef, refB: BibleRef) {
 async function main() {
   console.log('📦 Tagging')
   const TOTAL_WORDS = await db.lLB.count()
+  // const LAST_UPDATED_WORD = await db.lLB.findFirst({
+  //     where: { updatedAt: { not: null } },
+  //     orderBy: { updatedAt: 'desc' }
+  //   })
   bar.start(TOTAL_WORDS, 0);
 
   const output = fs.createWriteStream(path.join(DATA_PATH, 'llb-tagged.csv'), 'utf-8')
@@ -45,6 +49,9 @@ async function main() {
     { id: 'occurrences', title: 'occurrences' },
   ] })
 
+  // output.write(`# LLB updated ${LAST_UPDATED_WORD?.updatedAt}\n`)
+  // output.write(`### lexique.ibbxl.be ###\n`)
+  // output.write(`\n# Pour Anki:\n`)
   output.write("#separator:Comma\n")
   output.write("#html:false\n")
   output.write(`#columns:${csvWriter.getHeaderString()}`)
