@@ -97,7 +97,7 @@ async function main() {
   bar.update(TOTAL_WORDS)
 
   bar.stop()
-  console.log('✅ All tables exported successfully')
+  console.log('✅ LLB tagged successfully')
 }
 
 main()

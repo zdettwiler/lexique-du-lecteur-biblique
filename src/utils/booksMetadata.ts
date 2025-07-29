@@ -488,7 +488,7 @@ export const bookMeta: Record<BookName, { nbChap: number; label: string }> = {
   '1Timothée':        { nbChap: 6,   label: '1Tm' },
   '2Timothée':        { nbChap: 4,   label: '2Tm' },
   Tite:               { nbChap: 3,   label: 'Tt' },
-  Philémon:           { nbChap: 1,   label: 'Phl' },
+  Philémon:           { nbChap: 1,   label: 'Phm' },
   Hébreux:            { nbChap: 13,  label: 'Hb' },
   Jacques:            { nbChap: 5,   label: 'Jc' },
   '1Pierre':          { nbChap: 5,   label: '1Pi' },
