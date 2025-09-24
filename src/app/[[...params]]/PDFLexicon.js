@@ -3,7 +3,7 @@ import { jsPDF } from 'jspdf'
 import timesNewRoman from './timesNewRoman_binary.js'
 import { Button } from 'react-bootstrap'
 
-export default function PDFLexicon ({ frequency, data }) {
+export default function PDFLexicon({ frequency, data }) {
   const doc = new jsPDF()
   const page = {
     height: doc.internal.pageSize.getHeight(),
@@ -23,31 +23,28 @@ export default function PDFLexicon ({ frequency, data }) {
 
   // book title
   let string = data[0].book.toUpperCase()
-  let xOffset = page.width / 2 - ((string.length - 1) * 0.84) // manually accounting for letter spacing!
-  doc
-    .setFontSize(30)
-    .text(string, xOffset, page.margin.top, {
-      align: 'center',
-      charSpace: 3
-    })
+  let xOffset = page.width / 2 - (string.length - 1) * 0.84 // manually accounting for letter spacing!
+  doc.setFontSize(30).text(string, xOffset, page.margin.top, {
+    align: 'center',
+    charSpace: 3
+  })
 
   // Lexique du lecteur biblique
   string = 'LEXIQUE DU LECTEUR BIBLIQUE'
-  xOffset = page.width / 2 - ((string.length - 1) * 0.31) // manually accounting for letter spacing!
-  doc
-    .setFontSize(9)
-    .text(string, xOffset, page.margin.top + 5, {
-      align: 'center',
-      charSpace: 1
-    })
+  xOffset = page.width / 2 - (string.length - 1) * 0.31 // manually accounting for letter spacing!
+  doc.setFontSize(9).text(string, xOffset, page.margin.top + 5, {
+    align: 'center',
+    charSpace: 1
+  })
 
   // Mots apparaissant moins de X fois dans le Testament
-  const testament = data[0].strong[0] === 'G'
-    ? 'le Nouveau Testament'
-    : "l'Ancien Testament"
+  const testament =
+    data[0].strong[0] === 'G' ? 'le Nouveau Testament' : "l'Ancien Testament"
   string = [
     'Mots apparaissant moins de ' + frequency + ' fois dans ' + testament + '.',
-    "Entre parenthèses figure le nombre d'apparitions du mot dans " + testament + '.',
+    "Entre parenthèses figure le nombre d'apparitions du mot dans " +
+      testament +
+      '.',
     'Généré par lexique.ibbxl.be.'
   ]
   let textWidth = doc
@@ -62,7 +59,11 @@ export default function PDFLexicon ({ frequency, data }) {
     .setFontSize(9)
     .getTextWidth(string[1])
   xOffset = page.width / 2 - textWidth / 2
-  doc.text(string[1], xOffset, page.margin.top + 15 + doc.getLineHeight() * 0.3527777778)
+  doc.text(
+    string[1],
+    xOffset,
+    page.margin.top + 15 + doc.getLineHeight() * 0.3527777778
+  )
 
   textWidth = doc
     .setFont('Times', 'italic')
@@ -70,10 +71,17 @@ export default function PDFLexicon ({ frequency, data }) {
     .getTextWidth(string[2])
   xOffset = page.width / 2 - textWidth / 2
   // doc.text(string[2], xOffset, 35 + 2 * doc.getLineHeight() * 0.3527777778);
-  doc.textWithLink('Généré par lexique.ibbxl.be.', xOffset, page.margin.top + 15 + 2 * doc.getLineHeight() * 0.3527777778, { url: 'http://lexique.ibbxl.be/' })
+  doc.textWithLink(
+    'Généré par lexique.ibbxl.be.',
+    xOffset,
+    page.margin.top + 15 + 2 * doc.getLineHeight() * 0.3527777778,
+    { url: 'http://lexique.ibbxl.be/' }
+  )
   doc.line(
-    xOffset + 15.3, page.margin.top + 15.5 + 2 * doc.getLineHeight() * 0.3527777778,
-    xOffset + 35.5, page.margin.top + 15.5 + 2 * doc.getLineHeight() * 0.3527777778
+    xOffset + 15.3,
+    page.margin.top + 15.5 + 2 * doc.getLineHeight() * 0.3527777778,
+    xOffset + 35.5,
+    page.margin.top + 15.5 + 2 * doc.getLineHeight() * 0.3527777778
   )
 
   let currentY = 55
@@ -96,13 +104,21 @@ export default function PDFLexicon ({ frequency, data }) {
     if (acc[word.chapter]) {
       acc[word.chapter].push({
         ...word,
-        gloss: doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
+        gloss: doc.splitTextToSize(
+          word.gloss,
+          columnWidth - xTabGloss + page.margin.left
+        )
       })
     } else {
-      acc[word.chapter] = [{
-        ...word,
-        gloss: doc.splitTextToSize(word.gloss, columnWidth - xTabGloss + page.margin.left)
-      }]
+      acc[word.chapter] = [
+        {
+          ...word,
+          gloss: doc.splitTextToSize(
+            word.gloss,
+            columnWidth - xTabGloss + page.margin.left
+          )
+        }
+      ]
     }
 
     return acc
@@ -115,7 +131,9 @@ export default function PDFLexicon ({ frequency, data }) {
 
   const totalColumnAvailableLines = (y) => {
     doc.setFontSize(11)
-    return Math.floor((page.height - page.margin.top - y) / (doc.getLineHeight() * 0.3527777778))
+    return Math.floor(
+      (page.height - page.margin.top - y) / (doc.getLineHeight() * 0.3527777778)
+    )
   }
 
   const produceColumn = (columnAvailableLines, data) => {
@@ -125,7 +143,9 @@ export default function PDFLexicon ({ frequency, data }) {
       if (occupiedLines + word.gloss.length <= columnAvailableLines) {
         wordsInColumn.push(word)
         occupiedLines += word.gloss.length
-      } else { break }
+      } else {
+        break
+      }
     }
 
     return wordsInColumn
@@ -139,19 +159,23 @@ export default function PDFLexicon ({ frequency, data }) {
 
     doc
       .setFont('Times', 'italic')
-      .text(book.toUpperCase() + ' ' + chapter + '.' + verse, page.width - page.margin.right, 15, { align: 'right' })
+      .text(
+        book.toUpperCase() + ' ' + chapter + '.' + verse,
+        page.width - page.margin.right,
+        15,
+        {
+          align: 'right'
+        }
+      )
   }
 
   const writeChapter = (nb, y) => {
     const string = 'CHAPITRE ' + nb.toString()
     const xOffset = 210 / 2 - string.length / 2 // accounting for letter spacing
-    doc
-      .setFont('Times', 'italic')
-      .setFontSize(10)
-      .text(string, xOffset, y, {
-        align: 'center',
-        charSpace: 1
-      })
+    doc.setFont('Times', 'italic').setFontSize(10).text(string, xOffset, y, {
+      align: 'center',
+      charSpace: 1
+    })
   }
 
   const writeWord = (word, y, colNb, writeVerseNb) => {
@@ -162,7 +186,9 @@ export default function PDFLexicon ({ frequency, data }) {
       doc
         .setFont('Helvetica', 'bold')
         .setFontSize(7)
-        .text(word.verse.toString(), columnOffset + xTabVerse, y - 1, { align: 'right' })
+        .text(word.verse.toString(), columnOffset + xTabVerse, y - 1, {
+          align: 'right'
+        })
     }
 
     // lex
@@ -176,17 +202,14 @@ export default function PDFLexicon ({ frequency, data }) {
       .setR2L(false)
 
     // lex freq
-    doc
-      .setFontSize(9)
-      .text('(' + word.freq + ')', columnOffset + xTabFreq, y)
+    doc.setFontSize(9).text('(' + word.freq + ')', columnOffset + xTabFreq, y)
 
     // gloss
-    doc
-      .setFontSize(11)
-      .text(word.gloss, columnOffset + xTabGloss, y)
+    doc.setFontSize(11).text(word.gloss, columnOffset + xTabGloss, y)
   }
 
-  const getDataTotalLines = (data) => data.reduce((sum, word) => sum + word.gloss.length, 0)
+  const getDataTotalLines = (data) =>
+    data.reduce((sum, word) => sum + word.gloss.length, 0)
 
   const splitDataColumns = (words, availableLines) => {
     if (words.length === 1) return [words, []]
@@ -216,7 +239,12 @@ export default function PDFLexicon ({ frequency, data }) {
     // if there is not enough room to write words below new chapter division, go to next page.
     if (currentY + 30 > page.height - page.margin.bottom) {
       doc.addPage()
-      writePageHeaderFooter('X', dataToWrite[0].book, dataToWrite[0].chapter, dataToWrite[0].verse)
+      writePageHeaderFooter(
+        'X',
+        dataToWrite[0].book,
+        dataToWrite[0].chapter,
+        dataToWrite[0].verse
+      )
       currentY = page.margin.top
       topColumnY = page.margin.top
     }
@@ -261,7 +289,9 @@ export default function PDFLexicon ({ frequency, data }) {
           let refVerse = dataToWrite[0].verse
 
           if (dataToWrite[0].verse === currentVerseNb) {
-            const nextVerse = dataToWrite.find(word => word.verse !== currentVerseNb)
+            const nextVerse = dataToWrite.find(
+              (word) => word.verse !== currentVerseNb
+            )
             refVerse = nextVerse ? nextVerse.verse : 1
             refChapter = refVerse === 1 ? refChapter + 1 : refChapter
           }
@@ -272,7 +302,8 @@ export default function PDFLexicon ({ frequency, data }) {
         currentY = page.margin.top
         topColumnY = page.margin.top
         // currentVerseNb = 0;
-      } else { // if we can't, find the middle
+      } else {
+        // if we can't, find the middle
         columnAvailableLines = dataToWriteLines / 2
         const columnData = splitDataColumns(dataToWrite, columnAvailableLines)
 
@@ -319,8 +350,16 @@ export default function PDFLexicon ({ frequency, data }) {
 
   // return (<iframe title="preview" width="100%" height="500" src={URL.createObjectURL(blob)} ></iframe>);
   return (
-    <a href={URL.createObjectURL(blob)} download={data[0].book + ' (<' + frequency + ') - Lexique du lecteur biblique.pdf'} className='text-decoration-none d-flex justify-content-end'>
-      <Button variant='outline-dark' size='sm'><i className='bi bi-file-earmark-arrow-down' /> Télécharger en PDF</Button>
+    <a
+      href={URL.createObjectURL(blob)}
+      download={
+        data[0].book + ' (<' + frequency + ') - Lexique du lecteur biblique.pdf'
+      }
+      className='text-decoration-none d-flex justify-content-end'
+    >
+      <Button variant='outline-dark' size='sm'>
+        <i className='bi bi-file-earmark-arrow-down' /> Télécharger en PDF
+      </Button>
     </a>
   )
 }

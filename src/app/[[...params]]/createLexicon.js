@@ -78,38 +78,42 @@ const bookOptions = [
   { value: 'Apocalypse', label: 'Apocalypse' }
 ]
 
-function getLLBGloss (strong) {
-  const word = LLB.lexique[strong[0]].find(entry => entry.strongNb === parseInt(strong.slice(1)))
+function getLLBGloss(strong) {
+  const word = LLB.lexique[strong[0]].find(
+    (entry) => entry.strongNb === parseInt(strong.slice(1))
+  )
   // return word ? word.gloss.split(', ').slice(0,5).join(', ') : '?';
   return word ? word.gloss : '?'
 }
 
-function makeChapterArray (chapterString) {
+function makeChapterArray(chapterString) {
   return chapterString === ''
     ? []
     : chapterString.split(',').reduce((acc, cur) => {
-      let chapter = cur.trim()
-      if (chapter.includes('-')) {
-        let [start, end] = cur.split('-')
-        start = parseInt(start.trim())
-        end = parseInt(end.trim())
+        let chapter = cur.trim()
+        if (chapter.includes('-')) {
+          let [start, end] = cur.split('-')
+          start = parseInt(start.trim())
+          end = parseInt(end.trim())
 
-        acc.push(...Array.from({ length: end - start + 1 }, (x, i) => start + i))
-      } else {
-        chapter = parseInt(chapter.trim())
-        if (chapter) {
-          acc.push(chapter)
+          acc.push(
+            ...Array.from({ length: end - start + 1 }, (x, i) => start + i)
+          )
+        } else {
+          chapter = parseInt(chapter.trim())
+          if (chapter) {
+            acc.push(chapter)
+          }
         }
-      }
 
-      return acc
-    }, [])
+        return acc
+      }, [])
 }
 
-async function createLexicon (book = 'Genèse', chapters = '', frequency = 50) {
+async function createLexicon(book = 'Genèse', chapters = '', frequency = 50) {
   const rawData = await fetch('/bible_books/' + book + '.csv')
-    .then(t => t.text())
-    .then(text => {
+    .then((t) => t.text())
+    .then((text) => {
       return text.split('\n')
     })
 
@@ -128,17 +132,21 @@ async function createLexicon (book = 'Genèse', chapters = '', frequency = 50) {
       freq: parseInt(word[7])
     }
 
-    const isSameWordInVerse = words.find(lexiconWord =>
-      lexiconWord.chapter === w.chapter &&
-      lexiconWord.verse === w.verse &&
-      lexiconWord.strong === w.strong
+    const isSameWordInVerse = words.find(
+      (lexiconWord) =>
+        lexiconWord.chapter === w.chapter &&
+        lexiconWord.verse === w.verse &&
+        lexiconWord.strong === w.strong
     )
 
     // console.log(parseInt(word[7]))
 
-    if (!isSameWordInVerse &&
-    w.freq <= frequency &&
-    (!chapterArray.length || (!!chapterArray.length && chapterArray.includes(w.chapter)))) {
+    if (
+      !isSameWordInVerse &&
+      w.freq <= frequency &&
+      (!chapterArray.length ||
+        (!!chapterArray.length && chapterArray.includes(w.chapter)))
+    ) {
       words.push({
         ...w,
         gloss: getLLBGloss(w.strong) // TODO: LLB uses H/G before strong number?
@@ -151,7 +159,4 @@ async function createLexicon (book = 'Genèse', chapters = '', frequency = 50) {
   return lexicon
 }
 
-export {
-  createLexicon,
-  bookOptions
-}
+export { createLexicon, bookOptions }

@@ -1,17 +1,16 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
-
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css');
 
 #logo {
   display: block;
   margin: 50px auto;
-  background: url("/img/logo-llb.svg") center;
+  background: url('/img/logo-llb.svg') center;
   background-size: 50px;
   height: 50px;
   width: 50px;
 }
 
 h1.header {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -20,14 +19,14 @@ h1.header {
 }
 
 p.description {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   font-size: 20px;
   font-style: italic;
   text-align: center;
 }
 
 span.ibb {
-  font-family: "Arial";
+  font-family: 'Arial';
 }
 
 .mt-10 {
@@ -58,26 +57,25 @@ button.clear-chapters-input-button:active {
   border-left: unset !important;
 }
 
-html[data-bs-theme=dark] button.btn-dark {
+html[data-bs-theme='dark'] button.btn-dark {
   background-color: #424649;
   color: #fff;
 }
-html[data-bs-theme=dark] button.btn-dark:hover {
+html[data-bs-theme='dark'] button.btn-dark:hover {
   background-color: #212529;
   color: #fff;
 }
-html[data-bs-theme=dark] button.btn-outline-dark {
+html[data-bs-theme='dark'] button.btn-outline-dark {
   border-color: #dee2e6;
   color: #dee2e6;
 }
-html[data-bs-theme=dark] button.btn-outline-dark:hover {
+html[data-bs-theme='dark'] button.btn-outline-dark:hover {
   border-color: #212529; /* #495057; */
   /* color: #dee2e6; */
 }
 
-
-html[data-bs-theme=dark] #logo {
-  background: url("/img/logo-llb-dark.svg") center;
+html[data-bs-theme='dark'] #logo {
+  background: url('/img/logo-llb-dark.svg') center;
   background-size: 50px;
 }
 
@@ -85,16 +83,15 @@ html[data-bs-theme=dark] #logo {
   cursor: pointer;
 }
 
-
 footer {
   /* height: 250px; */
   text-align: center;
   margin-top: 20px;
   font-size: 12px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 50px;
 }
-html[data-bs-theme=dark] footer {
+html[data-bs-theme='dark'] footer {
   background-color: #1e2124;
 }
 footer .sources {
@@ -110,8 +107,6 @@ footer a.discreet {
 footer svg path {
   fill: #212529;
 }
-[data-bs-theme=dark] footer svg path {
+[data-bs-theme='dark'] footer svg path {
   fill: #dee2e6;
 }
-
-

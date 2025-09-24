@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 
 import DarkModeSwitch from './DarkModeSwitch'
 
-export default function LLBNav () {
+export default function LLBNav() {
   return (
     <Navbar expand='sm' sticky='top'>
       <Container fluid className='justify-content-end'>

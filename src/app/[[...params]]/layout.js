@@ -9,7 +9,8 @@ import { cookies } from 'next/headers'
 
 export const metadata = {
   title: 'Lexique du lecteur biblique',
-  description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
+  description:
+    'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
   background_color: 'white',
   theme_color: 'black',
   display: 'standalone',
@@ -39,7 +40,7 @@ export const metadata = {
   ]
 }
 
-export default function RootLayout ({ children }) {
+export default function RootLayout({ children }) {
   const cookieStore = cookies()
   let theme = cookieStore.get('isDarkMode')
   theme = theme ? JSON.parse(theme.value) : false

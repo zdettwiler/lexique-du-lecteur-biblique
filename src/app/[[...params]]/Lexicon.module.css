@@ -56,7 +56,7 @@ div.lexOT {
   direction: rtl;
 }
 span.lex {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
 }
 
 div.lexNT {
@@ -64,12 +64,13 @@ div.lexNT {
   font-weight: bold;
   margin-left: 10px;
 }
-div.lexOT span:hover, div.lexNT span:hover {
+div.lexOT span:hover,
+div.lexNT span:hover {
   cursor: pointer;
   background-color: #fff3cd;
 }
-html[data-bs-theme=dark] div.lexOT span:hover,
-html[data-bs-theme=dark] div.lexNT span:hover {
+html[data-bs-theme='dark'] div.lexOT span:hover,
+html[data-bs-theme='dark'] div.lexNT span:hover {
   cursor: pointer;
   background-color: #332701;
 }

@@ -21,12 +21,14 @@ const DarkModeProvider = ({ children }) => {
   }, [])
 
   if (mounted) {
-    document.querySelector('html').setAttribute('data-bs-theme', isDarkMode ? 'dark' : 'light')
+    document
+      .querySelector('html')
+      .setAttribute('data-bs-theme', isDarkMode ? 'dark' : 'light')
     return children
   }
 }
 
-export default function DarkModeContextProvider ({ children, theme }) {
+export default function DarkModeContextProvider({ children, theme }) {
   const [isDarkMode, setDarkMode] = useState(theme)
 
   const toggleDarkMode = () => {
@@ -42,9 +44,7 @@ export default function DarkModeContextProvider ({ children, theme }) {
 
   return (
     <DarkModeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
-      <DarkModeProvider>
-        {children}
-      </DarkModeProvider>
+      <DarkModeProvider>{children}</DarkModeProvider>
     </DarkModeContext.Provider>
   )
 }
