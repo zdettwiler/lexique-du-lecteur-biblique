@@ -70,14 +70,17 @@ export default function LexiconForm({
   const {reset} = form
 
   useEffect(() => {
-    const stored = localStorage.getItem('lexicon-form')
-    if (!stored) return
+    const storedForm = localStorage.getItem('lexicon-form')
+    if (!storedForm || (book && chapter && occurences)) {
+      localStorage.setItem('lexicon-form', JSON.stringify({ book, chapter, occurences }))
+      return
+    }
     try {
-      const parsed = JSON.parse(stored)
+      const parsedStoredForm = JSON.parse(storedForm)
       reset({
-        book: parsed.book,
-        chapter: Number(parsed.chapter),
-        occurences: parsed.occurences
+        book: parsedStoredForm.book,
+        chapter: Number(parsedStoredForm.chapter),
+        occurences: parsedStoredForm.occurences
       })
     } catch (e) {
       console.error('Failed to parse form data from localStorage', e)
@@ -87,7 +90,6 @@ export default function LexiconForm({
   function onSubmit(values: z.infer<typeof formSchema>) {
     // TODO validate form here?
     localStorage.setItem('lexicon-form', JSON.stringify(values))
-
     router.push(`/${values.book}/${values.chapter}/${values.occurences}`)
   }
 

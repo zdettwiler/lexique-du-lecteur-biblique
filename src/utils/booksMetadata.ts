@@ -335,9 +335,9 @@ export const bookNames = {
   '1 chroniques': '1Chroniques',
   '1 chr': '1Chroniques',
   '1 ch': '1Chroniques',
-  '1ccroniques': '1Chroniques',
-  '1ccr': '1Chroniques',
-  '1cc': '1Chroniques',
+  '1chroniques': '1Chroniques',
+  '1chr': '1Chroniques',
+  '1ch': '1Chroniques',
 
   '2 chroniques': '2Chroniques',
   '2 chr': '2Chroniques',
