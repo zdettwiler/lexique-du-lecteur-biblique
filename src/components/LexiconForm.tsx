@@ -30,7 +30,7 @@ import {
 
 const occurenceOptions = [
   { label: 'Étudiant raté (<1000×)', value: '1000' },
-  { label: 'Pégon/Duff', value: 'pegonduff' },
+  // { label: 'Pégon/Duff', value: 'pegonduff' },
   { label: 'Débutant (<70×)', value: '70' },
   { label: 'Intermédiaire (<50×)', value: '50' },
   { label: 'Connaisseur (<30×)', value: '30' },
