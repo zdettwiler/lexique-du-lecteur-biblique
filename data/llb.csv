@@ -592,7 +592,7 @@ G0607,ἀποκεφαλίζω,"décapiter, trancher la tête",4,
 G0608,ἀποκλείω,fermer,1,
 G0609,ἀποκόπτω,"couper, retrancher, sectionner",6,
 G0610,ἀπόκριμα,"sentence, décision judiciaire",1,
-G0611,ἀποκρίνομαι,répondre,231,2025-07-18T19:43:31.954Z
+G0611,ἀποκρίνομαι,répondre,231,2025-07-18T19:43:31.954Z
 G0612,ἀπόκρισις,réponse,4,
 G0613,ἀποκρύπτω,"cacher, tenir secret, dissimuler",4,
 G0614,ἀπόκρυφος,"caché, soustrait aux regards, tenu secret, dissimulé",3,
@@ -603,7 +603,7 @@ G0618,ἀπολαμβάνω,recevoir; récupérer; (moyen) prendre à part,10,2
 G0619,ἀπόλαυσις,"jouissance, plaisir, satisfaction",2,
 G0620,ἀπολείπω,abandonner; laisser; (passif) rester,7,
 G0621,ἀπολείχω,lécher,1,
-G0622,ἀπόλλυμι,"périr, tuer, détruire, disparaître",90,2025-07-18T19:49:11.709Z
+G0622,ἀπόλλυμι,"périr, tuer, détruire, disparaître",90,2025-07-18T19:49:11.709Z
 G0623,Ἀπολλύων,Apollyon = «Destructeur»,1,
 G0624,Ἀπολλωνία,Apollonie = «appartenant à Apollon»,1,
 G0625,Ἀπολλῶς,Apollos = «donné par Apollon»,10,
@@ -1136,7 +1136,7 @@ G1162,δέησις,supplication; prière,18,
 G1163,δεῖ,"il faut, il est nécessaire",102,2024-11-01T08:15:49.825Z
 G1164,δεῖγμα,"exemple; indice, preuve",1,2025-06-12T09:31:48.000Z
 G1165,δειγματίζω,"faire un exemple, diffamer, produire",2,
-G1166,δείκνυμι,montrer,33,2025-07-18T20:00:09.745Z
+G1166,δείκνυμι,montrer,33,2025-07-18T20:00:09.745Z
 G1167,δειλία,"crainte, timidité, réticence",1,
 G1168,δειλιάω,"être craintif, être timide, être peureux",1,
 G1169,δειλός,"timide, qui manque d’assurance, craintif, lâche",3,
@@ -1547,7 +1547,7 @@ G1603,ἐκπληρόω,"accomplir, remplir entièrement",1,
 G1604,ἐκπλήρωσις,"accomplissement, action de remplir, achèvement",1,
 G1605,ἐκπλήσσω,(passif) être étonné; saisir,13,
 G1606,ἐκπνέω,"expirer, mourir, s’éteindre",3,
-G1607,ἐκπορεύομαι,"sortir, se rendre, s’en aller, partir",32,2025-07-21T07:13:06.612Z
+G1607,ἐκπορεύομαι,"sortir, se rendre, s’en aller, partir",32,2025-07-21T07:13:06.612Z
 G1608,ἐκπορνεύω,"s’abandonner à la fornication, se prostituer",1,
 G1609,ἐκπτύω,"rejeter, rejeter avec dégoût, avoir en horreur",1,
 G1610,ἐκριζόω,déraciner,4,
@@ -3877,7 +3877,7 @@ G4126,πλέω,"faire voile, naviguer, voguer",6,
 G4127,πληγή,coup; plaie,22,
 G4128,πλῆθος,une multitude,31,2024-11-01T08:15:49.825Z
 G4129,πληθύνω,croître; prévaloir; multiplier,12,
-G4130,πλήθω / πίμπλημι,remplir,24,2025-07-18T15:35:44.084Z
+G4130,πλήθω / πίμπλημι,remplir,24,2025-07-18T15:35:44.084Z
 G4131,πλήκτης,"batteur, batailleur, brutal",2,
 G4132,πλήμμυρα,"inondation, crue",1,
 G4133,πλήν,cependant,31,2024-11-01T08:15:49.825Z
@@ -6118,7 +6118,7 @@ H0746,אַרְיוֹךְ,Arjoc = «comme un lion»,7,
 H0747,אֲרִיסַי,Arizaï = «le lion de mes bannières»,1,
 H0748,אָרַךְ,"être long, prolongé",34,
 H0749,אֲרִיךְ,"arriver à, faire face à",1,
-H0750,אָרֵךְ,long (pour des ailes),15,2025-07-01T11:03:56.000Z
+H0750,אָרֵךְ,"long; lent à la colère, patient, longanime",15,2025-10-03T11:33:27.262Z
 H0751,אֶ֫רֶךְ,Érec = «long»,1,
 H0752,אָרֹךְ,longueur,3,
 H0753,אֹ֫רֶךְ,longueur,95,2024-11-01T08:15:49.825Z
@@ -6200,7 +6200,7 @@ H0831,אַשְׁקְלוֹן,Askalon = «feu de l’infamie»,12,
 H0832,אֶשְׁקְלוֹנִי,D’Askalon = «feu d’infamie  je serai pesé»,1,
 H0833,אָשַׁר,"(Pi) guider, diriger, conduire, marcher, estimer heureux; (Pou) être conduit, être estimé heureux",16,2025-03-04T11:27:08.000Z
 H0834,אֲשֶׁר,"lequel, qui, ce que",5499,
-H0835,אֶ֫שֶׁר,"bonheur, bénédiction, heureux, heureuse",45,
+H0835,אֶ֫שֶׁר,"heureux, béni",45,2025-10-03T11:32:45.453Z
 H0836,אָשֵׁר,Aser = «heureux»,43,
 H0837,אֹ֫שֶׁר,"bonheur, heureux, heureuse",1,
 H0838,אֲשׁוּר,"un ou des pas, aller, marcher",9,
@@ -8262,7 +8262,7 @@ H2936,טָנַף,"(Piel) souiller, salir",1,
 H2937,טָעָה,"errer, égaré, errer dans l’égarement",1,
 H2938,טָעַם,"goûter, percevoir, manger",11,
 H2939,טְעֵם,"(P’al) nourrir, amener à manger",3,
-H2940,טַ֫עַם,"goût, jugement",13,
+H2940,טַ֫עַם,"goût; sens, raison; décret, ordre",13,2025-10-03T11:45:48.106Z
 H2941,טְעֵם,"goût, jugement, ordre",2,
 H2942,טְעֵם,"décret, goût, jugement, commandement",28,
 H2943,טָעַן,(Qal) charger,1,
@@ -11160,7 +11160,7 @@ H5888,עִיף,"être faible, être las",5,
 H5889,עָיֵף,"faible, épuisé, las",17,
 H5890,עֵיפָה,"obscurité, ténèbres",2,
 H5891,עֵיפָה,Épha = «obscurité»,5,
-H5892,עִיר,ville,1089,2025-02-14T10:07:03.000Z
+H5892,עִיר,"ville; haine, colère",1089,2025-10-03T11:31:09.702Z
 H5893,עִיר,Ir = «appartenant à une ville»,2,
 H5894,עִיר,"éveillé, vigilant, celui qui ne dort pas, veilleur, ange",3,
 H5895,עַ֫יִר,un âne,9,
@@ -12701,7 +12701,7 @@ H7447,רָסִיס,goutte (de rosée),2,
 H7448,רֶ֫סֶן,"quelque chose qui contient, licou, longe, bride",4,
 H7449,רֶ֫סֶן,Résen = «bride»,1,
 H7450,רָסַס,(Qal) humecter,1,
-H7451,רַע,"mauvais, mal",665,
+H7451,רַע,"méchant, mauvais, mal; la méchanceté, le mal",665,2025-10-03T11:37:00.663Z
 H7452,רֵעַ,"hurlement, rugissement",3,
 H7453,רֵעַ,"ami, compagnon, camarade, une autre personne",188,
 H7454,רֵעַ,"but, ce qui est visé, pensée",2,
@@ -12738,7 +12738,7 @@ H7485,רַעַמְיָה,Raamia = «tonnerre de l’Éternel»,1,
 H7486,רַֽעַמְסֵס,Ramsès = «enfant de Re (dieu solaire)»,5,
 H7487,רַעֲנַן,"prospère, fructifiant",1,
 H7488,רַעֲנָן,"(Palel) être verdoyant, être fais, verdir",20,
-H7489,רָעַע,"être mauvais, être mal",104,
+H7489,רָעַע,"(Qal) être mauvais, déplaire, briser, ruiner; (Nif) être brisé, souffrir; (Hif) faire le mal, affliger",104,2025-10-03T11:40:53.445Z
 H7490,רְעַע,"(Pal) écraser, casser, briser",2,
 H7491,רָעַף,"couler, dégoutter",5,
 H7492,רָעַץ,(Qal) briser,2,
