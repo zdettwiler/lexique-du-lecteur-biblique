@@ -17,30 +17,30 @@ export const metadata: Metadata = {
   title: 'Lexique du lecteur biblique',
   description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
   // display: 'standalone',
-  // icons: [
-  //   {
-  //     rel: 'icon',
-  //     type: 'image/png',
-  //     media: '(prefers-color-scheme: light)',
-  //     url: '/favicon-light.png'
-  //   },
-  //   {
-  //     rel: 'icon',
-  //     type: 'image/png',
-  //     media: '(prefers-color-scheme: dark)',
-  //     url: '/favicon-dark.png'
-  //   },
-  //   {
-  //     src: '/img/icon-192.png',
-  //     sizes: '192x192',
-  //     type: 'image/png'
-  //   },
-  //   {
-  //     src: '/img/icon-512.png',
-  //     sizes: '512x512',
-  //     type: 'image/png'
-  //   }
-  // ]
+  icons: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      media: '(prefers-color-scheme: light)',
+      url: '/img/favicon-light.png'
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      media: '(prefers-color-scheme: dark)',
+      url: '/image/favicon-dark.png'
+    },
+    // {
+    //   src: '/img/icon-192.png',
+    //   sizes: '192x192',
+    //   type: 'image/png'
+    // },
+    // {
+    //   src: '/img/icon-512.png',
+    //   sizes: '512x512',
+    //   type: 'image/png'
+    // }
+  ]
 }
 
 export const geistSans = localFont({
