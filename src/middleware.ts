@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server'
-
+import sanitiseRef from '@/utils/sanitiseRef'
 import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
 export function middleware(request) {
-  let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>\d+)\/?(?<frequency>\d+|pegonduff)?/)
-  // let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d+|pegonduff)?/)
+  // let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>\d+)\/?(?<frequency>\d+|pegonduff)?/)
+  let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d+|pegonduff)?/)
 
   if (!params) {
     return NextResponse.redirect(new URL('/', request.url))
@@ -12,37 +12,20 @@ export function middleware(request) {
 
   params = params.groups
 
-  let needsRedirect = false
-
   // check param book
-  params.book = decodeURI(params.book)
+  const paramBook = decodeURI(params.book)
+  const paramChapters = decodeURI(params.chapters)
+  const paramOccurences = decodeURI(params.frequency)
 
-  if (!bookNames[params.book.toLowerCase()]) {
-    return NextResponse.redirect(new URL('/', request.url))
-  } else if (params.book !== bookNames[params.book.toLowerCase()]) {
-    params.book = bookNames[params.book.toLowerCase()]
-    needsRedirect = true
-  }
+  const { book, chapters, occurences } = sanitiseRef(paramBook, paramChapters, paramOccurences)
+  console.log('middleware', book, chapters, occurences)
 
-  // check param chapters
-  if (params.chapters) {
-    const maxChaptersBook = bookChapters[params.book]
-
-    if (params.chapters > maxChaptersBook) {
-      params.chapters = maxChaptersBook
-      needsRedirect = true
-    }
-  }
-
-  // check param frequency
-  if (!params.frequency) {
-    params.frequency = 70
-    needsRedirect = true
-  }
-
-  // redirect with corrected url if necessary
-  if (needsRedirect) {
-    return NextResponse.redirect(new URL(`/${params.book}/${params.chapters}/${params.frequency}`, request.url))
+  if (!book) {
+    console.log('no book redirect')
+    return NextResponse.redirect(new URL(`/`, request.url))
+  } else if (paramBook !== book || paramChapters !== chapters || paramOccurences != occurences) {
+    console.log('redirect')
+    return NextResponse.redirect(new URL(`/${book}/${chapters}/${occurences}`, request.url))
   }
 }
 

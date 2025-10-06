@@ -12,10 +12,10 @@ export default async function Home({ params }
 
   const ref = await params
 
-  const [book, chapter, occurences] = Array.isArray(ref.ref) && ref.ref.length === 3
+  const [book, chapters, occurences] = Array.isArray(ref.ref) && ref.ref.length === 3
     ? [
       decodeURIComponent(ref.ref[0]) as BookName,
-      Number(decodeURIComponent(ref.ref[1])),
+      decodeURIComponent(ref.ref[1]),
       decodeURIComponent(ref.ref[2])
     ]
     : [undefined, undefined, undefined]
@@ -25,7 +25,7 @@ export default async function Home({ params }
       <Title />
       <LexiconForm
         book={book}
-        chapter={Number(chapter)}
+        chapters={chapters}
         occurences={occurences}
       />
       <Suspense fallback={
@@ -33,7 +33,7 @@ export default async function Home({ params }
       }>
         <Lexicon
           book={book}
-          chapter={Number(chapter)}
+          chapters={chapters}
           occurences={occurences}
         />
       </Suspense>

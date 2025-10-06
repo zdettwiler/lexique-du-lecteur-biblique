@@ -1,24 +1,25 @@
 import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
-export default function sanitiseRef(book: string, chap: string, freq: string, detailCh = false): {
-  book: string,
-  chap: number[] | '*',
-  freq: number | '*' | 'pegonduff'
+export default function sanitiseRef(book: string, chapters: string, occurences: string, returnAllChNb = false): {
+  book?: string,
+  chapters?: number[] | '*',
+  occurences?: number | '*' | 'pegonduff'
 } {
-  if (!bookNames[book.toLowerCase()])
-    return {}
 
   // book
   const sainBook = bookNames[book.toLowerCase()]
+  if (!sainBook)
+    return {}
 
-  // chapter
-  let sainChap = !chap || chap === '*'
-    ? '*'
-    : chap.split(',').reduce((acc, cur) => {
-      let chapter = cur.trim();
+
+  // chapters
+  let sainChapters = !chapters || chapters === '*'
+    ? ['*']
+    : chapters.split(',').reduce((acc, cur) => {
+      let ch = cur.trim();
       let maxChaptersBook = bookChapters[sainBook]
 
-      if (chapter.includes('-')) {
+      if (ch.includes('-')) {
         let [start, end] = cur.split('-');
         start = Number(start.trim());
         end = Number(end.trim());
@@ -39,7 +40,7 @@ export default function sanitiseRef(book: string, chap: string, freq: string, de
           return acc
         }
 
-        if (detailCh) {
+        if (returnAllChNb) {
           acc.push(
             ...Array.from({ length: end - start + 1 }, (_, i) => i + 1)
           )
@@ -48,29 +49,30 @@ export default function sanitiseRef(book: string, chap: string, freq: string, de
         }
 
       } else {
-        chapter = Number(chapter.trim());
-        if (chapter
-          && chapter <= maxChaptersBook
-          && acc.indexOf(chapter) < 0) {
-          acc.push(chapter);
+        ch = Number(ch.trim());
+        if (ch
+          && ch <= maxChaptersBook
+          && acc.indexOf(ch) < 0) {
+          acc.push(ch);
         }
       }
 
       return acc;
-    }, []).sort()
+    }, []).sort((a, b) => parseInt(a) - parseInt(b))
 
-  if (!detailCh) {
-    sainChap = sainChap.join(',')
+  if (!returnAllChNb) {
+    sainChapters = sainChapters.join(',')
   }
 
-  // frequency
-  const sainFreq = !freq || freq === '*' || freq === 'pegonduff'
-    ? freq
-    : parseInt(freq)
+  // occurencesuency
+  const sainOccurences = !occurences || occurences === '*' || occurences === 'pegonduff'
+    ? occurences
+    : Number(occurences)
+
 
   return {
     book: sainBook,
-    chap: sainChap,
-    freq: sainFreq
+    chapters: sainChapters,
+    occurences: sainOccurences
   }
 }

@@ -40,30 +40,32 @@ const occurenceValues = occurenceOptions.map(o => o.value) as [string, ...string
 
 const formSchema = z.object({
   book: createZodEnum(books).default('Genèse'),
-  chapter: z.coerce.number().int().min(1).default(1),
+  chapters: z.string(), //.regex(/^[0-9,-]?$/, "Seuls les chiffres, virgules et tirets sont autorisés"),
   occurences: z.enum(occurenceValues).default('70')
-}).transform(form => {
-  const maxChapters = bookChapters[form.book]
-
-  return {
-    ...form,
-    chapter: Math.min(form.chapter, maxChapters),
-  }
 })
+// .transform(form => {
+//   const maxChapters = bookChapters[form.book]
+
+//   return {
+//     ...form,
+//     chapter: Math.min(form.chapter, maxChapters),
+//   }
+// })
 
 export default function LexiconForm({
-  book, chapter, occurences
+  book, chapters, occurences
 }: {
   book: BookName | undefined,
-  chapter: number | undefined,
+  chapters: string | undefined,
   occurences: string | undefined
 }) {
+  console.log('form', chapters)
   const router = useRouter()
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       book: book || 'Genèse',
-      chapter: chapter || 1,
+      chapters: chapters || '',
       occurences: occurences || '70'
     }
   })
@@ -71,15 +73,15 @@ export default function LexiconForm({
 
   useEffect(() => {
     const storedForm = localStorage.getItem('lexicon-form')
-    if (!storedForm || (book && chapter && occurences)) {
-      localStorage.setItem('lexicon-form', JSON.stringify({ book, chapter, occurences }))
+    if (!storedForm || (book && chapters && occurences)) {
+      localStorage.setItem('lexicon-form', JSON.stringify({ book, chapters, occurences }))
       return
     }
     try {
       const parsedStoredForm = JSON.parse(storedForm)
       reset({
         book: parsedStoredForm.book,
-        chapter: Number(parsedStoredForm.chapter),
+        chapters: parsedStoredForm.chapter,
         occurences: parsedStoredForm.occurences
       })
     } catch (e) {
@@ -90,10 +92,8 @@ export default function LexiconForm({
   function onSubmit(values: z.infer<typeof formSchema>) {
     // TODO validate form here?
     localStorage.setItem('lexicon-form', JSON.stringify(values))
-    router.push(`/${values.book}/${values.chapter}/${values.occurences}`)
+    router.push(`/${values.book}/${values.chapters}/${values.occurences}`)
   }
-
-  const maxChapters = bookChapters[form.watch('book') as BookName]
 
   return (
     <div className="font-sans w-full lg:w-[850px] sm:w-5/6 md: mx-auto mt-10 p-5">
@@ -131,19 +131,12 @@ export default function LexiconForm({
             />
             <FormField
               control={form.control}
-              name="chapter"
+              name="chapters"
               render={({ field }) => (
                 <FormItem className='w-2/5'>
-                  <FormLabel className=''>Chapitre</FormLabel>
+                  <FormLabel className=''>Chapitres</FormLabel>
                   <FormControl>
-                    <Input placeholder='tous' type='number' {...field} onBlur={() => {
-                      const value = Number(field.value);
-                      if (value > maxChapters) {
-                        form.setValue('chapter', maxChapters)
-                      } else if (value < 1) {
-                        form.setValue('chapter', 1)
-                      }
-                    }}/>
+                    <Input placeholder='tous' {...field} value={field.value} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

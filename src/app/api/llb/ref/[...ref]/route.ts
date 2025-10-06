@@ -16,14 +16,14 @@ export async function GET(request, { params }: {
       orderBy: { id: 'asc' },
       where: {
         book: { equals: sainRef.book },
-        chapter: sainRef.chap !== '*'
-          ? { in: sainRef.chap }
+        chapter: sainRef.chapters !== '*'
+          ? { in: sainRef.chapters }
           : undefined,
         llbword: {
-          freq: typeof sainRef.freq === 'number' && Number.isInteger(sainRef.freq)
-            ? { lte: sainRef.freq }
+          freq: typeof sainRef.occurences === 'number' && Number.isInteger(sainRef.occurences)
+            ? { lte: sainRef.occurences }
             : undefined,
-          pegonduff: sainRef.freq === 'pegonduff' ? { is: null } : undefined
+          pegonduff: sainRef.occurences === 'pegonduff' ? { is: null } : undefined
         }
       },
       include: {
