@@ -18,13 +18,10 @@ export function middleware(request) {
   const paramOccurences = decodeURI(params.frequency)
 
   const { book, chapters, occurences } = sanitiseRef(paramBook, paramChapters, paramOccurences)
-  console.log('middleware', book, chapters, occurences)
 
   if (!book) {
-    console.log('no book redirect')
     return NextResponse.redirect(new URL(`/`, request.url))
   } else if (paramBook !== book || paramChapters !== chapters || paramOccurences != occurences) {
-    console.log('redirect')
     return NextResponse.redirect(new URL(`/${book}/${chapters}/${occurences}`, request.url))
   }
 }

@@ -1,18 +1,23 @@
-import puppeteer from 'puppeteer';
-import { NextResponse } from 'next/server';
+import puppeteer from 'puppeteer'
+import { NextResponse } from 'next/server'
+import sanitiseRef from '@/utils/sanitiseRef'
+import type { BibleWithLLB } from '@/types'
 
-export async function GET() {
-  const book = 'Jean'
-  const chapter = '1'
-  const occurences = '100'
-  const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapter}/${occurences}`)
+export async function GET(request, { params }: {
+  params: { ref: [string, string, string] }
+}) {
+  const { ref: [bookParam, chaptersParam, occurencesParam] } = await params
+  const sainRef = sanitiseRef(bookParam, chaptersParam, occurencesParam)
+  console.log(sainRef)
+
+  const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${sainRef.chapters}/${sainRef.occurences}`)
   const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
 
   if (!lexicon) return []
 
-  const title = chapter !== '*'
-    ? book + ' ' + chapter
-    : book
+  const title = sainRef.chapters !== '*'
+    ? sainRef.book + ' ' + sainRef.chapters.replace('-', '–')
+    : sainRef.book
 
   const lang = lexicon[0].strong[0]
   const testament = lang === 'H' ? "l'Ancien Testament" : 'le Nouveau Testament'
@@ -21,11 +26,10 @@ export async function GET() {
   const browser = await puppeteer.launch({
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
-  });
+  })
 
-  const page = await browser.newPage();
+  const page = await browser.newPage()
 
-  // HTML that uses Tailwind (via CDN)
   const html = `
   <!DOCTYPE html>
   <html lang="en">
@@ -35,12 +39,12 @@ export async function GET() {
       <!-- Tailwind CDN -->
       <script src="https://cdn.tailwindcss.com"></script>
       <style>
-        @page { margin: 40px; }
+        @page { margin: 40px }
         .font-times {
-          font-family: 'Times New Roman';
+          font-family: 'Times New Roman'
         }
         .col-span-all {
-          column-span: all;
+          column-span: all
         }
       </style>
     </head>
@@ -50,8 +54,8 @@ export async function GET() {
         <h2 class='uppercase tracking-[5px] text-sm'>Lexique du lecteur biblique</h2>
 
         <p class='italic mt-3 text-xs leading-none'>
-          Mots apparaissant moins de ${occurences} fois dans ${testament}. <br/>
-          Entre parenthèses figure le nombre d&apos;occurences du mot dans ${testament}. <br/>
+          Mots apparaissant moins de ${sainRef.occurences} fois dans ${testament}. <br/>
+          Entre parenthèses figure le nombre d&aposoccurences du mot dans ${testament}. <br/>
           Généré par <a class='underline' href='https://lexique.ibbxl.be'>lexique.ibbxl.be</a>.
         </p>
       </div>
@@ -85,24 +89,24 @@ export async function GET() {
       </div>
     </body>
   </html>
-  `;
+  `
 
   // Load HTML into Puppeteer
-  await page.setContent(html, { waitUntil: 'networkidle0' });
+  await page.setContent(html, { waitUntil: 'load' })
 
   // Generate the PDF
   const pdfBuffer = await page.pdf({
     format: 'A4',
     printBackground: true,
-  });
+  })
 
-  await browser.close();
+  await browser.close()
 
   // Send as response
   return new NextResponse(pdfBuffer, {
     headers: {
       'Content-Type': 'application/pdf',
-      'Content-Disposition': 'inline; filename="two-columns-tailwind.pdf"',
+      'Content-Disposition': 'inline filename="two-columns-tailwind.pdf"',
     },
-  });
+  })
 }

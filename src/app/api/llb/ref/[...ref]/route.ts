@@ -9,6 +9,9 @@ export async function GET(request, { params }: {
 }) {
   const { ref: [bookParam, chaptersParam, occurencesParam] } = await params
   const sainRef = sanitiseRef(bookParam, chaptersParam, occurencesParam, true)
+  // return NextResponse.json({
+  //   sainRef
+  // }, { status: 201 })
 
   try {
 

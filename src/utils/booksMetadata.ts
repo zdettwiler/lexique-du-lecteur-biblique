@@ -145,7 +145,7 @@ export const bookMeta: Record<BookName, { nbChap: number; label: string }> = {
 } as const
 
 // TODO: Needs a better name
-export const bookNames = {
+export const bookNames: Record<string, BookName> = {
   genèse: 'Genèse',
   genese: 'Genèse',
   gen: 'Genèse',
@@ -501,7 +501,7 @@ export const bookNames = {
   ap: 'Apocalypse'
 }
 
-export const bookChapters = {
+export const bookChapters: Record<BookName, number> = {
   // AT
   Genèse: 50,
   Exode: 40,

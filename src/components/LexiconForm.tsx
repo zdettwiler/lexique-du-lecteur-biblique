@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { z } from 'zod'
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
-import { books, bookChapters, bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
+import { books, bookOptions, bookSectionsOptions } from '@/utils/booksMetadata'
 import type { BookName } from '@/types'
 import createZodEnum from '@/utils/createZodEnum'
 import { useRouter } from 'next/navigation'
@@ -59,7 +59,6 @@ export default function LexiconForm({
   chapters: string | undefined,
   occurences: string | undefined
 }) {
-  console.log('form', chapters)
   const router = useRouter()
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -136,7 +135,7 @@ export default function LexiconForm({
                 <FormItem className='w-2/5'>
                   <FormLabel className=''>Chapitres</FormLabel>
                   <FormControl>
-                    <Input placeholder='tous' {...field} value={field.value} />
+                    <Input placeholder='tous' {...field} value={field.value === '*' ? '' : field.value} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

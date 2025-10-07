@@ -1,10 +1,9 @@
 import { Pencil } from 'lucide-react'
-import PDFDownloadButton from '@/components/PDFDownloadButton'
+// import PDFDownloadButton from '@/components/PDFDownloadButton'
 import LexiconWord from '@/components/LexiconWord'
 import ReferenceNavButtons from '@/components/ReferenceNavButtons'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import type { BookName, BibleWithLLB } from '@/types'
-import sanitiseRef from '@/utils/sanitiseRef'
 
 type Props = {
   book: BookName | undefined,
@@ -12,17 +11,12 @@ type Props = {
   occurences: string | undefined
 }
 
-export default async function Lexicon({ book, chapters, occurences }: Props) {
-  if (!book || !chapters || !occurences) {
+export default async function Lexicon({ book, chapter, occurences }: Props) {
+  if (!book || !chapter || !occurences) {
     return
   }
 
-  const sainRef = sanitiseRef(book, String(chapters), occurences, true)
-  const singleChapter = sainRef.chapters[0]
-
-  console.log(`lexicon fetch /api/llb/ref/${sainRef.book}/${singleChapter}/${sainRef.occurences}`)
-
-  const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${singleChapter}/${sainRef.occurences}`)
+  const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapter}/${occurences}`)
   const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
 
   if (!lexicon) return []
@@ -32,10 +26,8 @@ export default async function Lexicon({ book, chapters, occurences }: Props) {
 
   return (
     <div className='container max-w-[600px] mx-auto px-4 mt-10'>
-      <PDFDownloadButton section={`${book} ${chapters}`} />
-
       <div className='font-serif text-center mb-7'>
-        <h3 className='font-serif text-xl text-center italic uppercase tracking-[5px] mt-5 mb-3'>{book} {singleChapter}</h3>
+        <h3 className='font-serif text-xl text-center italic uppercase tracking-[5px] mt-5 mb-3'>{book} {chapter}</h3>
 
         <p className='italic mt-3'>
           Mots apparaissant moins de {occurences} fois dans {testament}. <br />
@@ -68,7 +60,7 @@ export default async function Lexicon({ book, chapters, occurences }: Props) {
 
       <ReferenceNavButtons
         book={book}
-        chapter={singleChapter}
+        chapter={chapter}
         occurences={occurences}
       />
     </div>

@@ -2,6 +2,7 @@
 
 import Title from '@/components/Title'
 import LexiconForm from '@/components/LexiconForm'
+import PDFLexicon from '@/components/PDFLexicon'
 import Lexicon from '@/components/Lexicon'
 import { Suspense } from "react"
 import { LoaderCircle } from 'lucide-react'
@@ -20,6 +21,8 @@ export default async function Home({ params }
     ]
     : [undefined, undefined, undefined]
 
+  const isChapterRange = chapters === '' || chapters === '*' || chapters?.includes(',') || chapters?.includes('-')
+
   return (
     <main className='container mx-auto dark:bg-red'>
       <Title />
@@ -29,13 +32,24 @@ export default async function Home({ params }
         occurences={occurences}
       />
       <Suspense fallback={
-        <LoaderCircle className="animate-spin size-10 text-primary text-center mx-auto mt-20" />
+        <LoaderCircle className="animate-spin size-10 text-primary text-center mx-auto mt-10" />
       }>
-        <Lexicon
-          book={book}
-          chapters={chapters}
-          occurences={occurences}
-        />
+        {isChapterRange
+          ? ( // if a range of chapters or whole book is selected, generate and display PDF
+            <PDFLexicon
+              book={book}
+              chapters={chapters}
+              occurences={occurences}
+            />
+          )
+          : ( // if a single chapter is selected, display lexicon in browser (button available for optional download)
+            <Lexicon
+              book={book}
+              chapter={Number(chapters)}
+              occurences={occurences}
+            />
+          )
+        }
       </Suspense>
     </main>
   )
