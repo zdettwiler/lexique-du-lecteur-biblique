@@ -23,9 +23,9 @@ export default function LexiconWord({ chapHeading, verseNb, word }: Props) {
         }}>
       <div key={word.id} className='flex flex-row items-baseline'>
         <div className='font-sans font-bold text-lg w-6 shrink-0 text-right mr-1'><sup>{verseNb}</sup></div>
-        <div className={`shrink-0 font-serif font-semibold ${lang === 'H' ? 'min-w-[80px] text-2xl text-right' : 'min-w-[130px] text-xl'} `}>
-          {word.lemma}
-          <span className='font-serif font-normal text-center text-sm mx-3 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</span>
+        <div className={`flex flex-row items-baseline shrink-0 font-serif font-semibold ${lang === 'H' ? 'justify-end-safe min-w-[120px]' : 'min-w-[140px]'} `}>
+          <div className={lang === 'H' ? 'grow text-2xl text-right' : 'text-xl'}>{word.lemma}</div>
+          <div className='font-serif font-normal text-center text-sm mx-3 pt-2 shrink-0 text-gray-500 dark:text-gray-400'>({word.llbword.freq})</div>
         </div>
         <div className='font-serif text-xl grow cursor-pointer hover:underline underline-offset-4 decoration-1'>{word.llbword.gloss}</div>
       </div>

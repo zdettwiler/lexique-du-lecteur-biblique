@@ -14,10 +14,11 @@ export default function sanitiseRef(book: string, chapters: string, occurences: 
   // chapters
   let sainChapters
   let maxChaptersBook = bookChapters[sainBook]
+  console.log(sainBook, maxChaptersBook)
 
   if (!chapters || chapters === '*') {
     sainChapters = returnAllChNb
-      ? Array.from({ length: maxChaptersBook + 1 }, (_, i) => i + 1)
+      ? Array.from({ length: maxChaptersBook }, (_, i) => i + 1)
       : '*'
 
   } else {
