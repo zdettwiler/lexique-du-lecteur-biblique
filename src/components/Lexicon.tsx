@@ -1,6 +1,7 @@
-import { Pencil } from 'lucide-react'
+import { Pencil, FileText } from 'lucide-react'
 // import PDFDownloadButton from '@/components/PDFDownloadButton'
 import LexiconWord from '@/components/LexiconWord'
+import PDFLexicon from '@/components/PDFLexicon'
 import ReferenceNavButtons from '@/components/ReferenceNavButtons'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import type { BookName, BibleWithLLB } from '@/types'
@@ -30,7 +31,7 @@ export default async function Lexicon({ book, chapter, occurences }: Props) {
     <div className='container max-w-[600px] mx-auto px-4 mt-10'>
       <div className='font-serif text-center mb-7'>
         <h3 className='font-serif text-xl text-center italic uppercase tracking-[5px] mt-5 mb-3'>{book} {chapter}</h3>
-
+        <PDFLexicon book={book} chapters={chapter} occurences={occurences} link />
         <p className='italic mt-3'>
           {nbUniqueWords} mots apparaissent moins de {occurences} fois dans {testament}. <br />
           Entre parenthèses figure le nombre d&apos;occurences du mot dans {testament}.

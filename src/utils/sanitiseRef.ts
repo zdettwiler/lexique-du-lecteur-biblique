@@ -21,7 +21,7 @@ export default function sanitiseRef(book: string, chapters: string, occurences: 
       : '*'
 
   } else {
-    const chapArray = chapters.split(',').reduce<(number | string)[]>((acc, cur) => {
+    const chapArray = String(chapters).split(',').reduce<(number | string)[]>((acc, cur) => {
       let ch = cur.trim();
       // let maxChaptersBook = bookChapters[sainBook]
 
