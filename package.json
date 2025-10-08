@@ -10,7 +10,8 @@
     "format": "prettier . --write",
     "db:import": "ts-node prisma/import.ts",
     "db:export": "ts-node prisma/export.ts",
-    "db:tag": "ts-node prisma/export-and-tag.ts"
+    "db:tag": "ts-node prisma/export-and-tag.ts",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -45,6 +46,8 @@
     "csv-writer": "^1.6.0",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
     "postcss": "^8",
     "prettier": "^3.6.2",
     "prisma": "^5.22.0",
@@ -52,5 +55,9 @@
     "tailwindcss": "^3.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.--write": "prettier --write"
   }
 }
