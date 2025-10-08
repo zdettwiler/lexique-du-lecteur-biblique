@@ -17,7 +17,7 @@ export default function LexiconWord({ chapHeading, verseNb, word }: Props) {
   const lang = word.strong[0]
 
   return (
-    <div className="" onClick={() => {
+    <div className="hover:bg-gray-100 rounded-md" onClick={() => {
           setIsLLBCorrectionDrawerOpen(true)
           setLLBCorrectionWord(word)
         }}>

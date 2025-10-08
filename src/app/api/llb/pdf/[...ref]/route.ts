@@ -8,7 +8,6 @@ export async function GET(request, { params }: {
 }) {
   const { ref: [bookParam, chaptersParam, occurencesParam] } = await params
   const sainRef = sanitiseRef(bookParam, chaptersParam, occurencesParam)
-  console.log(sainRef)
 
   const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${sainRef.chapters}/${sainRef.occurences}`)
   const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
@@ -16,8 +15,10 @@ export async function GET(request, { params }: {
   if (!lexicon) return []
 
   const title = sainRef.chapters !== '*'
-    ? sainRef.book + ' ' + sainRef.chapters.replace('-', '–')
+    ? `${sainRef.book} ${sainRef.chapters.replace('-', '–')}`
     : sainRef.book
+
+  const nbUniqueWords: number = new Set(lexicon.map(w => w.strong)).size
 
   const lang = lexicon[0].strong[0]
   const testament = lang === 'H' ? "l'Ancien Testament" : 'le Nouveau Testament'
@@ -54,8 +55,8 @@ export async function GET(request, { params }: {
         <h2 class='uppercase tracking-[5px] text-sm'>Lexique du lecteur biblique</h2>
 
         <p class='italic mt-3 text-xs leading-none'>
-          Mots apparaissant moins de ${sainRef.occurences} fois dans ${testament}. <br/>
-          Entre parenthèses figure le nombre d&aposoccurences du mot dans ${testament}. <br/>
+          ${nbUniqueWords} mots apparaissent moins de ${sainRef.occurences} fois dans ${testament}. <br/>
+          Entre parenthèses figure le nombre d&apos;occurences du mot dans ${testament}. <br/>
           Généré par <a class='underline' href='https://lexique.ibbxl.be'>lexique.ibbxl.be</a>.
         </p>
       </div>
@@ -68,20 +69,23 @@ export async function GET(request, { params }: {
             : ""
 
           const prevVerse = id > 0 ? data[id - 1].verse : 0
-          const verseNb = prevVerse !== word.verse
-            ? `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup>${word.verse}</sup></div>`
-            : `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup></sup></div>`
+          // const verseNb = prevVerse !== word.verse
+          //   ? `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup>${word.verse}</sup></div>`
+          //   : `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup></sup></div>`
+          const verseNb = prevVerse !== word.verse ? word.verse : ''
 
           return (`
             <div>
               ${chapHeading}
-              <div class='flex flex-row items-baseline leading-none m-0'>
-                ${verseNb}
-                <div class='shrink-0 ${lang === 'H' ? 'min-w-[50px]' : 'min-w-[80px]'}'>
-                  <span class='font-times text-sm leading-none font-semibold ${lang === 'H' ? 'text-md text-right' : 'text-sm'}'>${word.lemma}</span>
-                  <span class='font-times text-center text-[8px] leading-none w-9 shrink-0 text-gray-500 dark:text-gray-400'>(${word.llbword.freq})</span>
+
+
+              <div class=''>
+                <div class='float-left flex flex-row ${lang === 'H' ? 'justify-items-end-safe min-w-[80px]' : 'min-w-[100px]'}'>
+                  <div class='font-sans font-bold text-xs inline-block w-[12px] shrink-0 text-right mr-1'><sup>${verseNb}</sup></div>
+                  <div class='font-times font-semibold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}</div>
+                  <div class='font-times font-normal text-center text-[8px] mx-1 pt-1 shrink-0 text-gray-500 dark:text-gray-400'>(${word.llbword.freq})</div>
                 </div>
-                <div class='font-times text-sm leading-none grow ml-1 cursor-pointer hover:underline underline-offset-4 decoration-1'>${word.llbword.gloss}</div>
+                <div class='${lang === 'H' ? ' pl-[80px]' : 'pl-[100px]'} font-times text-sm'>${word.llbword.gloss}</div>
               </div>
             </div>
           `)
@@ -92,7 +96,7 @@ export async function GET(request, { params }: {
   `
 
   // Load HTML into Puppeteer
-  await page.setContent(html, { waitUntil: 'load' })
+  await page.setContent(html, { waitUntil: 'domcontentloaded' })
 
   // Generate the PDF
   const pdfBuffer = await page.pdf({

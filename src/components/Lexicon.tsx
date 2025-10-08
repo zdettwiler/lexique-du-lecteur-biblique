@@ -21,6 +21,8 @@ export default async function Lexicon({ book, chapter, occurences }: Props) {
 
   if (!lexicon) return []
 
+  const nbUniqueWords: number = new Set(lexicon.map(w => w.strong)).size
+
   const lang = lexicon[0].strong[0]
   const testament = lang === 'H' ? "l'Ancien Testament" : 'le Nouveau Testament'
 
@@ -30,7 +32,7 @@ export default async function Lexicon({ book, chapter, occurences }: Props) {
         <h3 className='font-serif text-xl text-center italic uppercase tracking-[5px] mt-5 mb-3'>{book} {chapter}</h3>
 
         <p className='italic mt-3'>
-          Mots apparaissant moins de {occurences} fois dans {testament}. <br />
+          {nbUniqueWords} mots apparaissent moins de {occurences} fois dans {testament}. <br />
           Entre parenthèses figure le nombre d&apos;occurences du mot dans {testament}.
         </p>
       </div>

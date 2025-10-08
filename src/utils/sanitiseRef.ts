@@ -14,7 +14,6 @@ export default function sanitiseRef(book: string, chapters: string, occurences: 
   // chapters
   let sainChapters
   let maxChaptersBook = bookChapters[sainBook]
-  console.log(sainBook, maxChaptersBook)
 
   if (!chapters || chapters === '*') {
     sainChapters = returnAllChNb

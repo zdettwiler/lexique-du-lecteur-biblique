@@ -91,7 +91,7 @@ export default function LexiconForm({
   function onSubmit(values: z.infer<typeof formSchema>) {
     // TODO validate form here?
     localStorage.setItem('lexicon-form', JSON.stringify(values))
-    router.push(`/${values.book}/${values.chapters}/${values.occurences}`)
+    router.push(`/${values.book}/${values.chapters === '' ? '*' : values.chapters}/${values.occurences}`)
   }
 
   return (
