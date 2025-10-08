@@ -1,5 +1,5 @@
-import { NextResponse } from 'next/server'
-import { db } from '@/lib/db'
+import { NextResponse } from "next/server";
+import { db } from "@/lib/db";
 
 // const pegon = [
 // 'אֹ֫הֶל',
@@ -717,30 +717,32 @@ import { db } from '@/lib/db'
 // 'תָּקַע',
 // ]
 
-
-
 function normalizeToOxia(input: string): string {
   const tonosToOxiaMap: Record<string, string> = {
-    'ά': 'ά', // U+03AC → U+1F71
-    'έ': 'έ',
-    'ή': 'ή',
-    'ί': 'ί',
-    'ό': 'ό',
-    'ύ': 'ύ',
-    'ώ': 'ώ'
+    ά: "ά", // U+03AC → U+1F71
+    έ: "έ",
+    ή: "ή",
+    ί: "ί",
+    ό: "ό",
+    ύ: "ύ",
+    ώ: "ώ",
   };
 
-  const replaced = [...input.normalize('NFC')]
-    .map(char => tonosToOxiaMap[char] || char)
-    .join('');
+  const replaced = [...input.normalize("NFC")]
+    .map((char) => tonosToOxiaMap[char] || char)
+    .join("");
 
   return replaced;
 }
 
 export async function GET(request, { params }: { params: { lemma: string } }) {
-  let { lemma } = await params
-  console.log([...decodeURI(lemma)].map(c => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`))
-  lemma = normalizeToOxia(decodeURI(lemma))
+  let { lemma } = await params;
+  console.log(
+    [...decodeURI(lemma)].map(
+      (c) => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`,
+    ),
+  );
+  lemma = normalizeToOxia(decodeURI(lemma));
 
   // const test = "בָּיַי  בָּיַי"
   // console.log([...test].map(c => `${c} (U+${c.codePointAt(0)!.toString(16).toUpperCase()})`))
@@ -770,20 +772,22 @@ export async function GET(request, { params }: { params: { lemma: string } }) {
   //       `;
   //     }
 
-      // words.push({
-      //   pegon: word,
-      //   strong: match[0]?.strong
-      // })
+  // words.push({
+  //   pegon: word,
+  //   strong: match[0]?.strong
+  // })
 
-    // } catch (error) {
-    //   // console.log(word, error)
-    //   // words.push({})
-    // }
+  // } catch (error) {
+  //   // console.log(word, error)
+  //   // words.push({})
+  // }
 
-
-  return NextResponse.json({
-    match
-  }, { status: 201 })
+  return NextResponse.json(
+    {
+      match,
+    },
+    { status: 201 },
+  );
 
   // try {
   //   // const words = await db.$queryRaw`
