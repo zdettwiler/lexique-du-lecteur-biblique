@@ -40,7 +40,7 @@ export default function PDFLexicon({ book, chapters, occurences, link=false }: P
   }
 
   useEffect(() => {
-    if (!pdfUrl && !link && !isLoading) fetchPDF()
+    if (!pdfUrl && !link) fetchPDF()
 
     // Cleanup
     return () => {
