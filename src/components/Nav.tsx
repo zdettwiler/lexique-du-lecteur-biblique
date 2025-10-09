@@ -8,4 +8,4 @@ export default async function Nav() {
       <DarkModeSwitch />
     </nav>
   )
-};
+}

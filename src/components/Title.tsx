@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Title() {
   return (
@@ -13,9 +13,14 @@ export default function Title() {
           height={50}
           priority
         />
-        <h1 className='font-serif text-5xl uppercase tracking-widest text-center mb-5'>Lexique du lecteur biblique</h1>
+        <h1 className="font-serif text-5xl uppercase tracking-widest text-center mb-5">
+          Lexique du lecteur biblique
+        </h1>
       </Link>
-      <p className='font-serif text-xl italic text-center'>Lexique verset par verset pour le lecteur de la Bible dans ses langues originales.</p>
+      <p className="font-serif text-xl italic text-center">
+        Lexique verset par verset pour le lecteur de la Bible dans ses langues
+        originales.
+      </p>
     </div>
-  );
+  )
 }

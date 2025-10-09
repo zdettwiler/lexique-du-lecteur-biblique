@@ -4,7 +4,9 @@ import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
 export function middleware(request) {
   // let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>\d+)\/?(?<frequency>\d+|pegonduff)?/)
-  let params = request.nextUrl.pathname.match(/\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d+|pegonduff)?/)
+  let params = request.nextUrl.pathname.match(
+    /\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<frequency>\d+|pegonduff)?/
+  )
 
   if (!params) {
     return NextResponse.redirect(new URL('/', request.url))
@@ -17,12 +19,22 @@ export function middleware(request) {
   const paramChapters = decodeURI(params.chapters)
   const paramOccurences = decodeURI(params.frequency)
 
-  const { book, chapters, occurences } = sanitiseRef(paramBook, paramChapters, paramOccurences)
+  const { book, chapters, occurences } = sanitiseRef(
+    paramBook,
+    paramChapters,
+    paramOccurences
+  )
 
   if (!book) {
     return NextResponse.redirect(new URL(`/`, request.url))
-  } else if (paramBook !== book || paramChapters !== chapters || paramOccurences != occurences) {
-    return NextResponse.redirect(new URL(`/${book}/${chapters}/${occurences}`, request.url))
+  } else if (
+    paramBook !== book ||
+    paramChapters !== chapters ||
+    paramOccurences != occurences
+  ) {
+    return NextResponse.redirect(
+      new URL(`/${book}/${chapters}/${occurences}`, request.url)
+    )
   }
 }
 

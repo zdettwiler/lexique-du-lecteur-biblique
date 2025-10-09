@@ -5,7 +5,6 @@ declare global {
       NEXT_PUBLIC_URL: string
       NEXTAUTH_SECRET: string
       NEXT_PUBLIC_GA_TRACKING_ID: string
-      NEXT_PUBLIC_GOOGLESHEETS_FEEDBACK: string
     }
   }
 }

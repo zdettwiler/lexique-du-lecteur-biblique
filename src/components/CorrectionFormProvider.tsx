@@ -8,14 +8,28 @@ type LLBCorrectionFormContextType = {
   correctionWord: BibleWithLLB | undefined
   setLLBCorrectionWord: (word: BibleWithLLB) => void
 }
-export const LLBCorrectionFormContext = createContext<LLBCorrectionFormContextType | undefined>(undefined)
+export const LLBCorrectionFormContext = createContext<
+  LLBCorrectionFormContextType | undefined
+>(undefined)
 
-export default function FeedbackFormProvider({children}: { children: ReactNode }) {
-  const [isOpen, setIsLLBCorrectionDrawerOpen] = useState<boolean>(false);
-  const [correctionWord, setLLBCorrectionWord] = useState<BibleWithLLB | undefined>(undefined);
+export default function FeedbackFormProvider({
+  children
+}: {
+  children: ReactNode
+}) {
+  const [isOpen, setIsLLBCorrectionDrawerOpen] = useState<boolean>(false)
+  const [correctionWord, setLLBCorrectionWord] = useState<
+    BibleWithLLB | undefined
+  >(undefined)
 
   return (
-    <LLBCorrectionFormContext.Provider value={{ setIsLLBCorrectionDrawerOpen, correctionWord, setLLBCorrectionWord }}>
+    <LLBCorrectionFormContext.Provider
+      value={{
+        setIsLLBCorrectionDrawerOpen,
+        correctionWord,
+        setLLBCorrectionWord
+      }}
+    >
       {children}
       {correctionWord && (
         <CorrectionFormDrawer
@@ -25,5 +39,5 @@ export default function FeedbackFormProvider({children}: { children: ReactNode }
         />
       )}
     </LLBCorrectionFormContext.Provider>
-  );
+  )
 }

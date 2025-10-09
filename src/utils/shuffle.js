@@ -1,4 +1,4 @@
-export default function shuffle (array) {
+export default function shuffle(array) {
   const suffledArray = array
   let arrayLength = suffledArray.length
 

@@ -10,12 +10,19 @@ type Props = {
   occurences: string
 }
 
-export default function ReferenceNavButtons({ book, chapter, occurences }: Props) {
-
-  function getRef(dir: "prev" | "next", book: BookName, chapter: number): { book: BookName, chapter: number } {
+export default function ReferenceNavButtons({
+  book,
+  chapter,
+  occurences
+}: Props) {
+  function getRef(
+    dir: 'prev' | 'next',
+    book: BookName,
+    chapter: number
+  ): { book: BookName; chapter: number } {
     const bookNbChap = bookMeta[book].nbChap
 
-    if (dir === "prev" && Number(chapter) === 1) {
+    if (dir === 'prev' && Number(chapter) === 1) {
       // go to last chapter of previous book
       const bookIndex = books.indexOf(book)
       const prevBook = books[bookIndex === 0 ? books.length - 1 : bookIndex - 1] // if book = Gn, go to Ap
@@ -25,24 +32,22 @@ export default function ReferenceNavButtons({ book, chapter, occurences }: Props
         book: prevBook,
         chapter: prevBookNbChap
       }
-
-    } else if (dir === "next" && Number(chapter) === bookNbChap) {
+    } else if (dir === 'next' && Number(chapter) === bookNbChap) {
       // go to fist chapter of next book
       const bookIndex = books.indexOf(book)
-      const nextBook = books[bookIndex === books.length - 1 ? 0 : bookIndex + 1]  // if book = Ap, go to Gn
+      const nextBook = books[bookIndex === books.length - 1 ? 0 : bookIndex + 1] // if book = Ap, go to Gn
 
       return {
         book: nextBook,
         chapter: 1
       }
-
-    } else if (dir === "prev") {
+    } else if (dir === 'prev') {
       return {
         book,
         chapter: Number(chapter) - 1
       }
-
-    } else { // if (dir === "next")
+    } else {
+      // if (dir === "next")
       return {
         book,
         chapter: Number(chapter) + 1
@@ -50,16 +55,32 @@ export default function ReferenceNavButtons({ book, chapter, occurences }: Props
     }
   }
 
-  const prevRef = getRef("prev", book, chapter)
-  const nextRef = getRef("next", book, chapter)
+  const prevRef = getRef('prev', book, chapter)
+  const nextRef = getRef('next', book, chapter)
 
   return (
     <div className="flex flex-row justify-between mt-10">
-      <Button type="submit" size='xs' variant='outline' className='font-sans' asChild>
-        <Link href={`/${prevRef.book}/${prevRef.chapter}/${occurences}`}><ArrowLeft /> {bookMeta[prevRef.book].label} {prevRef.chapter}</Link>
+      <Button
+        type="submit"
+        size="xs"
+        variant="outline"
+        className="font-sans"
+        asChild
+      >
+        <Link href={`/${prevRef.book}/${prevRef.chapter}/${occurences}`}>
+          <ArrowLeft /> {bookMeta[prevRef.book].label} {prevRef.chapter}
+        </Link>
       </Button>
-      <Button type="submit" size='xs' variant='outline' className='font-sans' asChild>
-        <Link href={`/${nextRef.book}/${nextRef.chapter}/${occurences}`}>{bookMeta[nextRef.book].label} {nextRef.chapter} <ArrowRight /></Link>
+      <Button
+        type="submit"
+        size="xs"
+        variant="outline"
+        className="font-sans"
+        asChild
+      >
+        <Link href={`/${nextRef.book}/${nextRef.chapter}/${occurences}`}>
+          {bookMeta[nextRef.book].label} {nextRef.chapter} <ArrowRight />
+        </Link>
       </Button>
     </div>
   )

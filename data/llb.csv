@@ -134,7 +134,7 @@ G0134,αἰνέω,"célébrer, louer, glorifier",8,
 G0135,αἴνιγμα,"énigme, parole obscure",1,
 G0136,αἶνος,"louange, célébration, glorification d’une personne",2,
 G0137,Αἰνών,Énon = «sources»,1,
-G0138,αἱρέω,"prendre, préférer, choisir",3,2024-11-01T08:15:49.825Z
+G0138,αἱρέω,"(+A) prendre, préférer, choisir",3,2025-10-06T08:03:01.878Z
 G0139,αἵρεσις,"secte, parti, dissension, division",9,2024-11-01T08:15:49.825Z
 G0140,αἱρετίζω,élire,1,
 G0141,αἱρετικός,"sectaire, hérétique, de parti",1,
@@ -1845,7 +1845,7 @@ G1908,ἐπηρεάζω,"faire du tort, insulter, mépriser, menacer, calomnier
 G1909,ἐπί,"(+A) sur, dans, pendant, au sujet de; (+G) sur, à, en présence de, du temps de, au sujet de; (+D) sur, à, dans, avec, au sujet de, selon, contre",884,2024-11-01T08:15:49.825Z
 G1910,ἐπιβαίνω,monter; arriver; entrer,6,
 G1911,ἐπιβάλλω,mettre; enlacer; se jeter sur; revenir; penser,18,
-G1912,ἐπιβαρέω,"mettre un fardeau sur quelqu’un, être à charge",3,
+G1912,ἐπιβαρέω,"poser un fardeau, charger",3,2025-10-06T07:56:36.824Z
 G1913,ἐπιβιβάζω,"faire monter, mettre sur, transporter",3,
 G1914,ἐπιβλέπω,regarder,3,
 G1915,ἐπίβλημα,morceau; pièce,4,
@@ -2032,7 +2032,7 @@ G2103,Εὔβουλος,"Eubulus = «prudent, avisé»",1,
 G2104,εὐγενής,"noble, de haute naissance, de rang élevé, honorable",3,
 G2105,εὐδία,"beau temps, temps agréable",1,
 G2106,εὐδοκέω,"être disposé, plaire, trouver bon; prendre à cœur, trouver son plaisir",21,2025-07-16T13:35:28.124Z
-G2107,εὐδοκία,bonne volonté; souhait; bon plaisir,9,
+G2107,εὐδοκία,bonne volonté; souhait; bon plaisir,9,2025-10-06T10:06:48.000Z
 G2108,εὐεργεσία,"bonne œuvre qui a été faite, bonne action",2,
 G2109,εὐεργετέω,"faire du bien, être un bienfaiteur",1,
 G2110,εὐεργέτης,"bienfaiteur, un titre d’honneur, décerné à celui qui a rendu des services dans sa région, et aux princes, équivalent à Soter, Pater Patriae",1,2024-11-01T08:15:49.825Z
@@ -2274,7 +2274,7 @@ G2356,θρησκεία,"culte, religion",4,
 G2357,θρησκός,religieux,1,
 G2358,θριαμβεύω,mener en triomphe,2,
 G2359,θρίξ,cheveu; poil,15,
-G2360,θροέω,"être troublé, être effrayé, être alarmé",3,
+G2360,θροέω,être alarmé,3,2025-10-06T07:59:25.068Z
 G2361,θρόμβος,"grumeau, grosse goutte, caillot",1,
 G2362,θρόνος,le trône,62,2025-07-28T14:44:53.456Z
 G2363,Θυάτειρα,Thyatire = «odeur d’affliction»,4,
@@ -2286,7 +2286,7 @@ G2368,θυμίαμα,"parfum, encens",6,
 G2369,θυμιατήριον,encensoir,1,
 G2370,θυμιάω,"offrir le parfum, brûler l’encens",1,
 G2371,θυμομαχέω,"être très irrité, être très fâché, être exaspéré",1,
-G2372,θυμός,colère; courroux; indignation; fureur,18,
+G2372,θυμός,colère; indignation,18,2025-10-06T07:57:30.214Z
 G2373,θυμόω,"être en colère, être en fureur, être enragé",1,
 G2374,θύρα,la porte,39,2025-07-28T14:44:53.456Z
 G2375,θυρεός,bouclier,1,
@@ -2449,7 +2449,7 @@ G2536,Καϊνάν,Kaïnam = «leur forgeron»,2,
 G2537,καινός,"nouveau, neuf",41,2024-11-01T08:15:49.825Z
 G2538,καινότης,nouveauté,2,
 G2539,καίπερ,"quoique, bien que",5,
-G2540,καιρός,"temps, saison",85,2024-11-01T08:15:49.825Z
+G2540,καιρός,"le temps, la saison",85,2025-10-06T07:02:58.698Z
 G2541,Καῖσαρ,"César = «séparé», «chef»",29,
 G2542,Καισάρεια,Césarée = «appartenant à César»,17,
 G2545,καίω,allumer; brûler; embraser,11,
@@ -2493,7 +2493,7 @@ G2586,καπνός,fumée,13,
 G2587,Καππαδοκία,Cappadoce = «province des bons chevaux»,2,
 G2588,καρδία,le cœur,155,2024-11-01T08:15:49.825Z
 G2589,καρδιογνώστης,"celui qui connaît les cœurs, qui comprend",2,
-G2590,καρπός,fruit,66,2024-11-01T08:15:49.825Z
+G2590,καρπός,le fruit,66,2025-10-06T07:07:41.128Z
 G2591,Κάρπος,Carpus = «le fruit»,1,
 G2592,καρποφορέω,"porter, produire du fruit, donner des résultats, produire un effet",8,
 G2593,καρποφόρος,"fertile, fructueux, productif",1,
@@ -2571,7 +2571,7 @@ G2667,καταπίπτω,"tomber, s’écrouler",3,
 G2668,καταπλέω,"aborder, naviguer en descendant, accoster, arriver",1,
 G2669,καταπονέω,"opprimer, affliger",2,
 G2670,καταποντίζω,"enfoncer, couler, sombrer, noyer",2,
-G2671,κατάρα,"malédiction, à quelqu’un, exécration, imprécation",6,
+G2671,κατάρα,"malédiction, imprécation",6,2025-10-06T08:10:40.715Z
 G2672,καταράομαι,maudire,5,
 G2673,καταργέω,"rendre ineffectif, abolir",27,2024-11-01T08:15:49.825Z
 G2674,καταριθμέω,"compter, être du nombre",1,
@@ -2673,7 +2673,7 @@ G2772,κέρμα,monnaie,1,
 G2773,κερματιστής,changeur de monnaie,1,
 G2774,κεφάλαιος,somme,2,
 G2775,κεφαλαιόω,"meurtrir la tête, frapper",1,
-G2776,κεφαλή,"tête, chef",75,2024-11-01T08:15:49.825Z
+G2776,κεφαλή,"la tête, le chef",75,2025-10-06T07:10:28.725Z
 G2777,κεφαλίς,rouleau,1,2024-11-01T08:15:49.825Z
 G2778,κῆνσος,tribut,4,
 G2779,κῆπος,jardin,5,
@@ -2782,7 +2782,7 @@ G2885,κοσμέω,orner; apprêter; se parer,10,
 G2886,κοσμικός,"mondain, terrestre",2,
 G2887,κόσμιος,"honorable, de bonne tenue, digne",2,
 G2888,κοσμοκράτωρ,dominateur,1,
-G2889,κόσμος,"monde, univers",185,2024-11-01T08:15:49.825Z
+G2889,κόσμος,"le monde, l'univers",185,2025-10-06T07:11:27.821Z
 G2890,Κούαρτος,Quartus = «quatrième»,1,
 G2891,κοῦμι,talitha coumi,1,
 G2892,κουστωδία,garde,3,
@@ -2795,7 +2795,7 @@ G2898,κρανίον,Crâne,4,
 G2899,κράσπεδον,"france, bord, marge",5,2024-11-01T08:15:49.825Z
 G2900,κραταιός,"puissant, fort",1,
 G2901,κραταιόω,"fortifier, augmenter en force, s’affermir",4,
-G2902,κρατέω,"mettre la main sur, s'emparer, arrêter",47,2024-11-01T08:15:49.825Z
+G2902,κρατέω,prévaloir; dominer; saisir,47,2025-10-06T07:15:30.239Z
 G2903,κράτιστος,"très excellent, très honorable",4,
 G2904,κράτος,puissance; force; pouvoir,12,
 G2905,κραυγάζω,"crier, vociférer",8,
@@ -2809,7 +2809,7 @@ G2913,Κρήσκης,"Crescens = «qui croît, qui augmente»",1,
 G2914,Κρήτη,Crète = «charnu»,5,
 G2915,κριθή,orge,1,
 G2916,κρίθινος,"d’orge, fait d’orge",2,
-G2917,κρίμα,procès; faute; sentence; jugement,27,
+G2917,κρίμα,le jugement,27,2025-10-06T07:16:26.647Z
 G2918,κρίνον,"lis, bleue ou rose",2,
 G2919,κρίνω,"juger, décider",113,2024-11-01T08:15:49.825Z
 G2920,κρίσις,jugement,47,2024-11-01T08:15:49.825Z
@@ -2854,13 +2854,13 @@ G2958,Κυρήνιος,Quirinius = «guerrier»,1,
 G2959,Κυρία,dame,2,
 G2960,κυριακός,dominical,2,
 G2961,κυριεύω,dominer,7,
-G2962,κύριος,"maître, seigneur",716,2024-11-01T08:15:49.825Z
+G2962,κύριος,"le maître, le seigneur",716,2025-10-06T07:17:08.181Z
 G2963,κυριότης,"domination, seigneurie, autorité",4,
 G2964,κυρόω,"confirmer, ratifier, rendre valide",2,
 G2965,κύων,chien,5,
 G2966,κῶλον,cadavres,1,2024-11-01T08:15:49.825Z
 G2967,κωλύω,empêcher,23,2024-11-01T08:15:49.825Z
-G2968,κώμη,"village, bourg",28,2024-11-01T08:15:49.825Z
+G2968,κώμη,le village,28,2025-10-06T07:17:52.079Z
 G2969,κωμόπολις,bourgade,1,2024-11-01T08:15:49.825Z
 G2970,κῶμος,"orgie, grande fête, luxure",3,
 G2971,κώνωψ,"moucheron, petite mouche, moustique, moucheron du vin",1,
@@ -2927,7 +2927,7 @@ G3033,Λιβύη,Libye = «affligé ou pleurant»,1,
 G3034,λιθάζω,lapider,8,
 G3035,λίθινος,"de pierre, fabriqué en pierre",3,
 G3036,λιθοβολέω,lapider,7,
-G3037,λίθος,une pierre,58,2024-11-01T08:15:49.825Z
+G3037,λίθος,la pierre,58,2025-10-06T07:19:29.330Z
 G3038,λιθόστρωτος,pavé,1,
 G3039,λικμάω,"broyer, réduire en poudre, écraser, vanner",2,
 G3040,λιμήν,port,3,
@@ -2946,7 +2946,7 @@ G3052,λόγιος,éloquent,1,2024-11-01T08:15:49.825Z
 G3053,λογισμός,"pensée, raisonnement",2,
 G3054,λογομαχέω,avoir des disputes de mots,1,
 G3055,λογομαχία,"dispute de mots, logomachie",1,
-G3056,λόγος,parole; discours; langage; mot; récit; bruit; sujet; cas; affaire; cause; compte; raison; renommée,330,
+G3056,λόγος,le mot; la parole; le discours,330,2025-10-06T07:20:07.909Z
 G3057,λόγχη,lance,1,
 G3058,λοιδορέω,"injurier, faire des reproches, insulter",4,
 G3059,λοιδορία,"mauvais propos, insulte, outrage, médisance",3,
@@ -2991,7 +2991,7 @@ G3097,μάγος,"mage, magicien",6,
 G3098,Μαγώγ,"Magog = «qui domine, territoire de montagne»",1,
 G3099,Μαδιάν,"Madian = «lutte, dispute»",1,
 G3100,μαθητεύω,"être disciple, faire disciple",3,
-G3101,μαθητής,"un étudiant, un élève, un disciple",261,2024-11-01T08:15:49.825Z
+G3101,μαθητής,le disciple,261,2025-10-06T07:21:02.738Z
 G3102,μαθήτρια,femme disciple,1,
 G3103,Μαθουσάλα,Mathusala (Methuselah) = «ce qui sera envoyé lors de sa mort»,1,
 G3104,Μαϊνάν,"Menna = «devin, enchanteur»",1,
@@ -3026,14 +3026,14 @@ G3132,μαντεύομαι,"prophétiser, exercer la divination, faire des pré
 G3133,μαραίνω,"flétrir, faner, faire disparaître",1,
 G3135,μαργαρίτης,perle,9,
 G3136,Μάρθα,"Marthe = «dame, maîtresse»",13,
-G3137,Μαρία,Marie = «leur rébellion»,54,2024-11-01T08:15:49.825Z
+G3137,Μαρία / Μαριάμμη,Marie = «leur rébellion»,54,2025-10-06T07:23:45.221Z
 G3138,Μάρκος,Marc = «une défense»,8,
 G3139,μάρμαρος,marbre,1,
-G3140,μαρτυρέω,"être un témoin, porter témoignage",76,2024-11-01T08:15:49.825Z
-G3141,μαρτυρία,témoignage,37,2024-11-01T08:15:49.825Z
+G3140,μαρτυρέω,témoigner,76,2025-10-06T07:24:11.804Z
+G3141,μαρτυρία,le témoignage,37,2025-10-06T07:24:38.535Z
 G3142,μαρτύριον,"témoignage, déclaration",19,
 G3143,μαρτύρομαι,"témoigner, déclarer solennellement, prendre à témoin, protester",5,
-G3144,μάρτυς,témoin,35,
+G3144,μάρτυς,le témoin,35,2025-10-06T07:24:53.262Z
 G3145,μασσάομαι,mordre,1,
 G3146,μαστιγόω,"fouetter, battre de verges, flageller",7,
 G3147,μαστίζω,"fouetter, appliquer le fouet",1,
@@ -3051,7 +3051,7 @@ G3158,Ματθάτ,Matthat = «don de Dieu»,2,
 G3159,Ματθίας,Matthias = «don de Dieu»,2,
 G3160,Ματταθά,Mattatha = «don»,1,
 G3161,Ματταθίας,Mattathias = «don de l’Éternel»,2,
-G3162,μάχαιρα,épée,29,2024-11-01T08:15:49.825Z
+G3162,μάχαιρα,l'épée,29,2025-10-06T07:25:18.216Z
 G3163,μάχη,bataille; contestation; dispute,4,
 G3164,μάχομαι,"contester, avoir des querelles, lutter, disputer",4,
 G3167,μεγαλεῖος,"magnifique, grand, merveileux",1,
@@ -3070,6 +3070,7 @@ G3180,μεθοδεία,"voie détournée, artifice, ruse, subterfuge",2,
 G3182,μεθύσκω,"s’enivrer, boire beaucoup",4,
 G3183,μέθυσος,"ivrogne, de s’enivrer, buveur",2,
 G3184,μεθύω,bien boire; être ivre; s’enivrer,6,
+G3187,μείζων,plus grand,0,2025-10-06T07:29:50.090Z
 G3188,μέλαν,encre,3,
 G3189,μέλας,noir,3,
 G3190,Μελεᾶς,"Méléa = «mon cher ami, objet de soin»",1,
@@ -3121,7 +3122,7 @@ G3336,μετάληψις,"action de prendre part, participation",1,
 G3337,μεταλλάσσω,"changer, transformer",2,
 G3338,μεταμέλλομαι,avoir du regret; avoir du remords; se repentir,6,
 G3339,μεταμορφόω,"transfigurer, transformer la personne",4,
-G3340,μετανοέω,se repentir,34,2024-11-01T08:15:49.825Z
+G3340,μετανοέω,"se repentir, se convertir",34,2025-10-06T07:36:34.017Z
 G3341,μετάνοια,repentance,22,
 G3342,μεταξύ,pendant ce temps; qui vient ensuite,9,
 G3343,μεταπέμπω,envoyer chercher; faire venir; mander,9,
@@ -3156,11 +3157,11 @@ G3374,μηλωτή,"peau de brebis, toison des moutons",1,
 G3375,μήν,"certes, vraiment, certainement",1,
 G3376,μήν,mois,18,
 G3377,μηνύω,avertir; déclarer; montrer,4,
-G3379,μήποτε,"de peur que, afin que",0,
+G3379,μήποτε,"jamais; de peur que, afin que",0,2025-10-06T07:39:46.161Z
 G3380,μήπω,ne… pas encore,2,
 G3382,μηρός,cuisse,1,
 G3383,μήτε,"et pas, ni …ni …, pas ainsi",34,2024-11-01T08:15:49.825Z
-G3384,μήτηρ,mère,83,2024-11-01T08:15:49.825Z
+G3384,μήτηρ,la mère,83,2025-10-06T07:42:19.982Z
 G3385,μή,"est-ce que, n’est-ce pas",18,
 G3388,μήτρα,matrice,2,
 G3389,μητραλῴας,batteur de mère,1,
@@ -3169,12 +3170,12 @@ G3393,μίασμα,souillure,1,2024-11-01T08:15:49.825Z
 G3394,μιασμός,"impureté, action de souiller, souillure",1,
 G3395,μίγμα,"mixtion, mélange de substances",1,
 G3396,μίγνυμι,"mêler, mélanger",4,
-G3398,μικρός,"petit, un peu",46,2024-11-01T08:15:49.825Z
+G3398,μικρός,"petit, peu",46,2025-10-06T07:46:10.144Z
 G3399,Μίλητος,Milet = «laine blanche pure et fine»,3,
 G3400,μίλιον,mille,1,2024-11-01T08:15:49.825Z
 G3401,μιμέομαι,"imiter, suivre le modèle",4,
 G3402,μιμητής,imitateur,6,
-G3403,μιμνήσκω,"se souvenir, se rappeler",23,2025-07-16T13:46:01.829Z
+G3403,μιμνῄσκομαι,(+G) se souvenir,23,2025-10-06T07:47:57.675Z
 G3404,μισέω,haïr,40,2024-11-01T08:15:49.825Z
 G3405,μισθαποδοσία,"rétribution, récompense, revanche, rémunération",3,
 G3406,μισθαποδότης,rémunérateur,1,
@@ -3944,7 +3945,7 @@ G4195,Πόντος,le Pont = «la mer»,2,
 G4196,Πόπλιος,Publius = «populaire»,2,
 G4197,πορεία,"chemin, marche, trajet, voyage, voie",2,
 G4198,πορεύω,"aller, marcher, voyager, s'en aller",150,2024-11-01T08:15:49.825Z
-G4199,πορθέω,"détruire, malmener, dévaster, faire des ravages",3,
+G4199,πορθέω,"détruire, ravager",3,2025-10-06T07:54:46.326Z
 G4200,πορισμός,"gain, source de gain, source de profit",2,
 G4201,Πόρκιος,"Porcius (Festus) = «de cochon, bestial»",1,
 G4202,πορνεία,"la fornication, la prostitution",25,2024-11-01T08:15:49.825Z
@@ -4039,7 +4040,7 @@ G4294,προκαταρτίζω,"compléter d’avance, préparer d’avance",1,
 G4295,πρόκειμαι,exister; proposer,5,
 G4296,προκηρύσσω,"prêcher, annoncer d’avance",1,
 G4297,προκοπή,"avancement, progrès, progression",3,
-G4298,προκόπτω,avancer; aller plus avant,6,
+G4298,προκόπτω,être avancé; progresser,6,2025-10-06T08:00:59.023Z
 G4299,πρόκριμα,"préférence, jugement préconçu, partialité",1,
 G4300,προκυρόομαι,"confirmer antérieurement, ratifier, confirmer d’avance",1,
 G4301,προλαμβάνω,anticiper,3,
@@ -6762,7 +6763,7 @@ H1414,גְּדַד,"couper, abattre",2,
 H1415,גָּדָה,la rive d’un fleuve,4,
 H1416,גְּדוּד,"une bande, troupe, bande de maraudeurs",33,
 H1417,גְּדוּד,"quelque chose de coupé, sillon, coupure",2,
-H1419,גַּל,grand,526,
+H1419,גָּדוֹל,grand,526,2025-10-03T11:57:49.390Z
 H1420,גְּדוּלָּה,grandeur,12,
 H1421,גִּדּוּפִים,"insultes, mots insultants, outrageux",3,
 H1422,גְּדוּפָה,"une insulte, un reproche",1,
@@ -7212,8 +7213,8 @@ H1872,דְּרַע,bras,1,
 H1873,דָּרַע,Dara = «le bras»,1,
 H1874,דַּרְקוֹן,Darkon = «qui disperse»,2,
 H1875,דָּרַשׁ,"Avoir recours à, chercher, s’enquérir, exiger",164,
-H1876,דָּשָׁא,"pousser, tirer, herbe qui pousse",2,
-H1877,דֶּ֫שֶׁא,"herbe, herbe verte, végétation, jeune",14,
+H1876,דָּשָׁא,(Qal) verdir; (Hif) produire de la verdure,2,2025-10-06T08:08:42.110Z
+H1877,דֶּ֫שֶׁא,"herbe, verdure",14,2025-10-06T08:09:51.741Z
 H1878,דָּשֵׁן,"être gras, engraisser, devenir prospère, oindre",11,
 H1879,דָּשֵׁן,gras,3,
 H1880,דֶּ֫שֶׁן,"cendres grasses, embonpoint",15,
@@ -10004,7 +10005,7 @@ H4719,מַקֵּדָה,Makkéda = «endroit des bergers»,9,
 H4720,מִקְדָּשׁ,"lieu sacré, sanctuaire, lieu saint",75,
 H4721,מַקְהֵל,"assemblée, chœur, congrégation",2,
 H4722,מַקְהֵלֹת,Makhéloth = «lieu de l’assemblée»,2,
-H4723,מִקְוֶה,espérance,12,
+H4723,מִקְוֶה,"espérance, ressource; assemblage, amas ",12,2025-10-03T12:07:18.780Z
 H4724,מִקְוָה,"réservoir, fossé",1,
 H4725,מָקוֹם,"lieu, endroit, espace, position",401,2024-11-01T08:15:49.825Z
 H4726,מָקוֹר,"source, fontaine",18,
@@ -12217,7 +12218,7 @@ H6956,קְהָתִי,Kehathites = voir Kehath «assemblée»,15,
 H6957,קַו,"cordeau, règle, ligne ou cordon pour mesurer",21,
 H6958,קִיא,"vomir, dégorger, déglutir",8,
 H6959,קוֹבַע,casque,2,
-H6960,קָוָה,"attendre, regarder à, espérer, s’attendre à",49,
+H6960,קָוָה,"(Qal) attendre, espérer; (Nif) être amassé ",49,2025-10-03T12:12:18.698Z
 H6962,קוּט,"détester, être affligé, chagriné, ressentir du dégoût",6,
 H6963,קוֹל,"voix, son, bruit",506,
 H6964,קוֹלָיָה,Kolaja = «voix de l’Éternel»,2,
@@ -12681,8 +12682,8 @@ H7426,רָמֹם,"être exalté, être élevé",6,
 H7427,רוֹמֵמוּת,"une élévation, un lever, se lever, s’élever",1,
 H7428,רִמֹּן פָּ֑רֶץ,Rimmon-Pérets = «grenadier de la brèche»,4,
 H7429,רָמַס,piétiner,19,
-H7430,רָמַשׂ,"ramper, se mouvoir légèrement, se déplacer prudemment",17,
-H7431,רֶ֫מֶשׂ,"choses rampantes, grouillantes, organisme rampant, reptile",17,
+H7430,רָמַשׂ,"ramper, se mouvoir",17,2025-10-06T07:53:53.904Z
+H7431,רֶ֫מֶשׂ,ce qui rampe; reptile,17,2025-10-06T07:52:46.473Z
 H7432,רֶמֶת,"Rémeth = «hauteur, lieu élevé»",1,
 H7433,רָמֹת,Ramoth = «hauteurs»,1,
 H7434,רָמַת הַמִּצְפֶּה,Ramath-Mitspé = «haut lieu de la tour de garde»,2,

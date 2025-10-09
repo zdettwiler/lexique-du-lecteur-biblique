@@ -11,16 +11,22 @@ export async function GET() {
       orderBy: { updatedAt: 'desc' }
     })
 
-    const updatedAt = moment(lastUpdatedWord?.updatedAt).format("D MMM YYYY")
+    const updatedAt = moment(lastUpdatedWord?.updatedAt).format('D MMM YYYY')
 
-    return NextResponse.json({
-      updatedAt
-    }, { status: 201 })
+    return NextResponse.json(
+      {
+        updatedAt
+      },
+      { status: 201 }
+    )
   } catch (error) {
     console.log(error)
-    return NextResponse.json({
-      msg: 'Oups! Il y a eu un problème!',
-      error
-    }, { status: 500 })
+    return NextResponse.json(
+      {
+        msg: 'Oups! Il y a eu un problème!',
+        error
+      },
+      { status: 500 }
+    )
   }
 }

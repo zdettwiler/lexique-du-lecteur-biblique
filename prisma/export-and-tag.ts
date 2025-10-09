@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client'
-import type { LLB, Bible, PegonDuff } from '@prisma/client'
+import { bookMeta } from '../src/utils/booksMetadata'
+import type { BookName } from '../src/types'
 
 import fs from 'fs'
 import path from 'path'
@@ -7,7 +8,7 @@ import cliProgress from 'cli-progress'
 import { createObjectCsvStringifier } from 'csv-writer'
 
 const prisma = new PrismaClient()
-const BATCH_SIZE = 5000
+const BATCH_SIZE = 1000
 const DATA_PATH = path.join(__dirname, '../data')
 
 const multiBar = new cliProgress.MultiBar(
@@ -20,13 +21,15 @@ const multiBar = new cliProgress.MultiBar(
   cliProgress.Presets.rect
 )
 
+type CsvValue = string | number | null
+
 type ExportTask<T> = {
   table: string
   path: string
   getTotal: () => Promise<number>
   getBatch: (offset: number, size: number) => Promise<T[]>
-  getHeaders: () => { id: string; title: string }[]
-  parseRow: (row: T) => Record<string, string | number | null>
+  getHeaders: () => { id: keyof T & string; title: string }[]
+  parseRow: (row: T) => Record<string, CsvValue>
 }
 
 async function exportTable<T>(exportTask: ExportTask<T>) {
@@ -46,12 +49,10 @@ async function exportTable<T>(exportTask: ExportTask<T>) {
   let offset = 0
   while (true) {
     const rows = await exportTask.getBatch(offset, BATCH_SIZE)
-
     if (rows.length === 0) break
 
-    output.write(
-      csvWriter.stringifyRecords(rows.map((row) => exportTask.parseRow(row)))
-    )
+    const parsed = rows.map((row) => exportTask.parseRow(row))
+    output.write(csvWriter.stringifyRecords(parsed))
     offset += rows.length
     bar.increment(rows.length)
   }
@@ -61,65 +62,74 @@ async function exportTable<T>(exportTask: ExportTask<T>) {
 }
 
 async function main() {
-  const exportLLB: ExportTask<LLB> = {
+  // Define the shape of what we actually export (custom fields)
+  type LLBExportRow = {
+    strong: string
+    lemma: string
+    gloss: string
+    occ: number
+    tag: string
+  }
+
+  const exportLLB: ExportTask<LLBExportRow> = {
     table: 'LLB'.padEnd(10, ' '),
-    path: 'llb.csv',
+    path: 'llb-tagged.csv',
+
     getTotal: () => prisma.lLB.count(),
-    getBatch: (skip, take) =>
-      prisma.lLB.findMany({ skip, take, orderBy: { strong: 'asc' } }),
+
+    getBatch: async (skip, take) => {
+      const lexicon = await prisma.lLB.findMany({
+        skip,
+        take,
+        include: {
+          bibleword: {
+            select: {
+              book: true,
+              chapter: true
+            }
+          }
+        },
+        orderBy: { strong: 'asc' }
+      })
+
+      return lexicon.map((l) => ({
+        strong: l.strong,
+        lemma: l.lemma,
+        gloss: l.gloss,
+        occ: l.freq,
+        tag: [
+          ...new Set(
+            l.bibleword.map((w) => {
+              const book = w.book as BookName
+              const meta = bookMeta[book]
+              return meta
+                ? `${meta.label}_${w.chapter}`
+                : `${w.book}_${w.chapter}`
+            })
+          )
+        ].join(' ')
+      }))
+    },
+
     getHeaders: () => [
       { id: 'strong', title: 'strong' },
       { id: 'lemma', title: 'lemma' },
       { id: 'gloss', title: 'gloss' },
-      { id: 'freq', title: 'freq' },
-      { id: 'updatedAt', title: 'updatedAt' }
+      { id: 'occ', title: 'freq' },
+      { id: 'tag', title: 'tag' }
     ],
-    parseRow: (row) => ({
-      ...row,
-      updatedAt: row.updatedAt?.toISOString() ?? ''
-    })
-  }
 
-  const exportBible: ExportTask<Bible> = {
-    table: 'Bible'.padEnd(10, ' '),
-    path: 'bible.csv',
-    getTotal: () => prisma.bible.count(),
-    getBatch: (skip, take) =>
-      prisma.bible.findMany({ skip, take, orderBy: { id: 'asc' } }),
-    getHeaders: () => [
-      { id: 'id', title: 'id' },
-      { id: 'book', title: 'book' },
-      { id: 'chapter', title: 'chapter' },
-      { id: 'verse', title: 'verse' },
-      { id: 'word', title: 'word' },
-      { id: 'lemma', title: 'lemma' },
-      { id: 'strong', title: 'strong' }
-    ],
     parseRow: (row) => ({
-      ...row
+      strong: row.strong,
+      lemma: row.lemma,
+      gloss: row.gloss,
+      occ: row.occ,
+      tag: row.tag
     })
-  }
-
-  const exportPegonDuff: ExportTask<PegonDuff> = {
-    table: 'PegonDuff'.padEnd(10, ' '),
-    path: 'pegonduff.csv',
-    getTotal: () => prisma.pegonDuff.count(),
-    getBatch: (skip, take) =>
-      prisma.pegonDuff.findMany({ skip, take, orderBy: { strong: 'asc' } }),
-    getHeaders: () => [
-      { id: 'strong', title: 'strong' },
-      { id: 'chapter', title: 'chapter' }
-    ],
-    parseRow: (row) => row
   }
 
   console.log('📦 Exporting')
-  await Promise.all([
-    exportTable<LLB>(exportLLB),
-    exportTable<Bible>(exportBible),
-    exportTable<PegonDuff>(exportPegonDuff)
-  ])
-
+  await exportTable(exportLLB)
   multiBar.stop()
   console.log('✅ All tables exported successfully')
 }

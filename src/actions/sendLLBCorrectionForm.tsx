@@ -1,10 +1,15 @@
 'use server'
 
 import type { BibleWithLLB } from '@/types'
-import { llbCorrectionFormSchema, LLBCorrectionFormSchemaType } from '@/utils/validationLLBCorrectionForm'
+import {
+  llbCorrectionFormSchema,
+  LLBCorrectionFormSchemaType
+} from '@/utils/validationLLBCorrectionForm'
 
-
-export default async function sendLLBCorrectionForm(formData: LLBCorrectionFormSchemaType, word: BibleWithLLB) {
+export default async function sendLLBCorrectionForm(
+  formData: LLBCorrectionFormSchemaType,
+  word: BibleWithLLB
+) {
   console.log('sending feedback for:', word.strong)
   const raw = {
     name: formData.name,
@@ -15,13 +20,13 @@ export default async function sendLLBCorrectionForm(formData: LLBCorrectionFormS
 
   const parse = llbCorrectionFormSchema.safeParse(raw)
   if (!parse.success) {
-    return { success: false, errors: parse.error.flatten().fieldErrors };
+    return { success: false, errors: parse.error.flatten().fieldErrors }
   }
 
   const res = await fetch(process.env.NEXT_PUBLIC_GOOGLESHEETS_FEEDBACK, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
+      'Content-Type': 'application/x-www-form-urlencoded'
     },
     body: JSON.stringify({
       ...parse.data,
@@ -31,10 +36,10 @@ export default async function sendLLBCorrectionForm(formData: LLBCorrectionFormS
       verse: word.verse,
       strong: word.strong,
       lemma: word.lemma
-    }),
+    })
   })
 
   return res.ok
     ? { success: true }
-    : { success: false, errors: { server: ['Could not submit feedback.'] } };
+    : { success: false, errors: { server: ['Could not submit feedback.'] } }
 }

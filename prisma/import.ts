@@ -6,16 +6,20 @@ import { parse } from 'csv-parse'
 import cliProgress from 'cli-progress'
 import readline from 'readline'
 
-
 const prisma = new PrismaClient()
 const DATA_PATH = path.join(__dirname, '../data')
 const BATCH_SIZE = 5000
 
-const multiBar = new cliProgress.MultiBar({
-  clearOnComplete: false,
-  hideCursor: true,
-  format: '  - {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)',
-}, cliProgress.Presets.rect)
+const multiBar = new cliProgress.MultiBar(
+  {
+    clearOnComplete: false,
+    hideCursor: true,
+    autopadding: true,
+    format:
+      '  - {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)'
+  },
+  cliProgress.Presets.rect
+)
 
 type ImportTask<T> = {
   table: string
@@ -41,9 +45,9 @@ async function importTable<T>(importTask: ImportTask<T>) {
   const total = await countCsvRowsStream(importTask.path)
   const bar = multiBar.create(total, 0, { table: importTask.table })
 
-  const stream = fs.createReadStream(importTask.path).pipe(
-    parse({ columns: true, skip_empty_lines: true, trim: true })
-  )
+  const stream = fs
+    .createReadStream(importTask.path)
+    .pipe(parse({ columns: true, skip_empty_lines: true, trim: true }))
 
   let batch: T[] = []
   for await (const row of stream) {
@@ -66,22 +70,22 @@ async function importTable<T>(importTask: ImportTask<T>) {
 
 function normalizeToOxia(input: string): string {
   const tonosToOxiaMap: Record<string, string> = {
-    'ά': 'ά', // U+03AC → U+1F71
-    'έ': 'έ',
-    'ή': 'ή',
-    'ί': 'ί',
-    'ΐ': 'ΐ',
-    'ό': 'ό',
-    'ύ': 'ύ',
-    'ΰ': 'ΰ',
-    'ώ': 'ώ'
-  };
+    ά: 'ά', // U+03AC → U+1F71
+    έ: 'έ',
+    ή: 'ή',
+    ί: 'ί',
+    ΐ: 'ΐ',
+    ό: 'ό',
+    ύ: 'ύ',
+    ΰ: 'ΰ',
+    ώ: 'ώ'
+  }
 
   const replaced = [...input.normalize('NFC')]
-    .map(char => tonosToOxiaMap[char] || char)
-    .join('');
+    .map((char) => tonosToOxiaMap[char] || char)
+    .join('')
 
-  return replaced;
+  return replaced
 }
 
 async function main() {
@@ -91,22 +95,22 @@ async function main() {
   await prisma.lLB.deleteMany() // wipe
 
   const importLLB: ImportTask<LLB> = {
-    table: 'LLB'.padEnd(10, " "),
+    table: 'LLB'.padEnd(10, ' '),
     path: path.join(DATA_PATH, 'llb.csv'),
-    parseRow: row => ({
+    parseRow: (row) => ({
       strong: row.strong,
       lemma: normalizeToOxia(row.lemma),
       gloss: row.gloss,
       freq: Number(row.freq),
       updatedAt: row.updatedAt ? new Date(row.updatedAt) : null
     }),
-    insertBatch: batch => prisma.lLB.createMany({ data: batch }),
+    insertBatch: (batch) => prisma.lLB.createMany({ data: batch })
   }
 
   const importBible: ImportTask<Bible> = {
-    table: 'Bible'.padEnd(10, " "),
+    table: 'Bible'.padEnd(10, ' '),
     path: path.join(DATA_PATH, 'bible.csv'),
-    parseRow: row => ({
+    parseRow: (row) => ({
       id: Number(row.id),
       book: row.book,
       chapter: Number(row.chapter),
@@ -115,17 +119,17 @@ async function main() {
       lemma: normalizeToOxia(row.lemma),
       strong: row.strong
     }),
-    insertBatch: batch => prisma.bible.createMany({ data: batch }),
+    insertBatch: (batch) => prisma.bible.createMany({ data: batch })
   }
 
   const importPegonDuff: ImportTask<PegonDuff> = {
-    table: 'PegonDuff'.padEnd(10, " "),
+    table: 'PegonDuff'.padEnd(10, ' '),
     path: path.join(DATA_PATH, 'pegonduff.csv'),
-    parseRow: row => ({
+    parseRow: (row) => ({
       strong: row.strong,
       chapter: row.chapter
     }),
-    insertBatch: batch => prisma.pegonDuff.createMany({ data: batch }),
+    insertBatch: (batch) => prisma.pegonDuff.createMany({ data: batch })
   }
 
   console.log('📦 Seeding')
@@ -138,7 +142,7 @@ async function main() {
 }
 
 main()
-  .catch(err => {
+  .catch((err) => {
     console.error('❌ Import failed:', err)
     process.exit(1)
   })

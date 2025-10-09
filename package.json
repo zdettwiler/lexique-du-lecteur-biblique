@@ -7,8 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier . --write",
     "db:import": "ts-node prisma/import.ts",
-    "db:export": "ts-node prisma/export.ts"
+    "db:export": "ts-node prisma/export.ts",
+    "db:tag": "ts-node prisma/export-and-tag.ts",
+    "prepare": "husky install"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -29,8 +37,8 @@
     "next-themes": "^0.4.6",
     "playwright": "^1.56.0",
     "puppeteer": "^24.23.0",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-hook-form": "^7.53.2",
     "sonner": "^2.0.6",
     "tailwind-merge": "^2.5.4",
@@ -46,11 +54,18 @@
     "csv-writer": "^1.6.0",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
     "postcss": "^8",
+    "prettier": "^3.6.2",
     "prisma": "^5.22.0",
     "supabase": "^2.24.3",
     "tailwindcss": "^3.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.--write": "prettier --write"
   }
 }

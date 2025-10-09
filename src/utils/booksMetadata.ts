@@ -141,7 +141,7 @@ export const bookMeta: Record<BookName, { nbChap: number; label: string }> = {
   '2Jean': { nbChap: 1, label: '2Jn' },
   '3Jean': { nbChap: 1, label: '3Jn' },
   Jude: { nbChap: 1, label: 'Jd' },
-  Apocalypse: { nbChap: 22, label: 'Ap' },
+  Apocalypse: { nbChap: 22, label: 'Ap' }
 } as const
 
 // TODO: Needs a better name
@@ -573,7 +573,6 @@ export const bookChapters: Record<BookName, number> = {
   Apocalypse: 22
 }
 
-
 // TODO: Do we still need this?
 export const bookOptions = [
   // OT
@@ -704,7 +703,7 @@ export const bookSectionsOptions = [
       { value: 'Esdras', label: 'Esdras' },
       { value: 'Néhémie', label: 'Néhémie' },
       { value: '1Chroniques', label: '1 Chroniques' },
-      { value: '2Chroniques', label: '2 Chroniques' },
+      { value: '2Chroniques', label: '2 Chroniques' }
     ]
   },
   {
