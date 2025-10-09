@@ -7,23 +7,28 @@ export async function POST(req: Request) {
   try {
     const { ref } = await req.json()
 
-    if (!ref) { // TODO Check types
+    if (!ref) {
+      // TODO Check types
       return NextResponse.json({ error: 'Missing ref' }, { status: 400 })
     }
 
     const sainRef = sanitiseRef(ref.book, ref.chapters, ref.occurences)
 
-    const data = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${sainRef.chapters}/${sainRef.occurences}`)
+    const data = await fetch(
+      `${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${sainRef.chapters}/${sainRef.occurences}`
+    )
     const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
     if (!lexicon) return []
 
-    const title = sainRef.chapters !== '*'
-      ? `${sainRef.book} ${sainRef.chapters.replace('-', '–')}`
-      : sainRef.book
+    const title =
+      sainRef.chapters && sainRef.chapters !== '*'
+        ? `${sainRef.book} ${String(sainRef.chapters).replace('-', '–')}`
+        : sainRef.book
 
-    const nbUniqueWords: number = new Set(lexicon.map(w => w.strong)).size
+    const nbUniqueWords: number = new Set(lexicon.map((w) => w.strong)).size
     const lang = lexicon[0].strong[0]
-    const testament = lang === 'H' ? "l'Ancien Testament" : 'le Nouveau Testament'
+    const testament =
+      lang === 'H' ? "l'Ancien Testament" : 'le Nouveau Testament'
 
     const html = `
       <!DOCTYPE html>
@@ -56,19 +61,21 @@ export async function POST(req: Request) {
           </div>
 
           <div class='columns-2'>
-            ${lexicon.map((word: BibleWithLLB, id: number, data: BibleWithLLB[]) => {
-              const prevChapter = id > 0 ? data[id - 1].chapter : 0
-              const chapHeading = prevChapter !== word.chapter
-                ? `<h3 class='col-span-all font-times text-sm text-center italic uppercase tracking-[5px] mt-5 mb-3'>CHAPITRE ${word.chapter}</h3>`
-                : ""
+            ${lexicon
+              .map((word: BibleWithLLB, id: number, data: BibleWithLLB[]) => {
+                const prevChapter = id > 0 ? data[id - 1].chapter : 0
+                const chapHeading =
+                  prevChapter !== word.chapter
+                    ? `<h3 class='col-span-all font-times text-sm text-center italic uppercase tracking-[5px] mt-5 mb-3'>CHAPITRE ${word.chapter}</h3>`
+                    : ''
 
-              const prevVerse = id > 0 ? data[id - 1].verse : 0
-              // const verseNb = prevVerse !== word.verse
-              //   ? `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup>${word.verse}</sup></div>`
-              //   : `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup></sup></div>`
-              const verseNb = prevVerse !== word.verse ? word.verse : ''
+                const prevVerse = id > 0 ? data[id - 1].verse : 0
+                // const verseNb = prevVerse !== word.verse
+                //   ? `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup>${word.verse}</sup></div>`
+                //   : `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup></sup></div>`
+                const verseNb = prevVerse !== word.verse ? word.verse : ''
 
-              return (`
+                return `
                 <div>
                   ${chapHeading}
 
@@ -82,8 +89,9 @@ export async function POST(req: Request) {
                     <div class='${lang === 'H' ? ' pl-[80px]' : 'pl-[100px]'} font-times text-sm'>${word.llbword.gloss}</div>
                   </div>
                 </div>
-              `)
-            }).join('')}
+              `
+              })
+              .join('')}
           </div>
         </body>
       </html>
@@ -91,14 +99,17 @@ export async function POST(req: Request) {
 
     const pdfBuffer = await generatePDF(html)
 
-    return new NextResponse(pdfBuffer, {
+    return new NextResponse(new Uint8Array(pdfBuffer), {
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': 'inline; filename="lexicon.pdf"',
-      },
+        'Content-Disposition': 'inline; filename="lexicon.pdf"'
+      }
     })
   } catch (err) {
     console.error('Error generating PDF:', err)
-    return NextResponse.json({ error: 'Failed to generate PDF' }, { status: 500 })
+    return NextResponse.json(
+      { error: 'Failed to generate PDF' },
+      { status: 500 }
+    )
   }
 }

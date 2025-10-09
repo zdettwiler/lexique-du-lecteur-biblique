@@ -156,19 +156,7 @@ export default function LexiconForm({
                 <FormItem className="w-2/5">
                   <FormLabel className="">Chapitre</FormLabel>
                   <FormControl>
-                    <Input
-                      placeholder="tous"
-                      type="number"
-                      {...field}
-                      onBlur={() => {
-                        const value = Number(field.value)
-                        if (value > maxChapters) {
-                          form.setValue('chapter', maxChapters)
-                        } else if (value < 1) {
-                          form.setValue('chapter', 1)
-                        }
-                      }}
-                    />
+                    <Input placeholder="tous" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

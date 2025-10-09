@@ -1,5 +1,3 @@
-// 'use client'
-
 import Title from '@/components/Title'
 import LexiconForm from '@/components/LexiconForm'
 import PDFLexicon from '@/components/PDFLexicon'
