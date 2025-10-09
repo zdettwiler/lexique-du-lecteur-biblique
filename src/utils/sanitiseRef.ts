@@ -1,76 +1,83 @@
-import { bookNames, bookChapters } from '@/utils/booksMetadata'
+import { bookNames, bookChapters } from "@/utils/booksMetadata";
 
-export default function sanitiseRef(book: string, chap: string, freq: string, detailCh = false): {
+export default function sanitiseRef(
   book: string,
-  chap: number[] | '*',
-  freq: number | '*' | 'pegonduff'
+  chap: string,
+  freq: string,
+  detailCh = false,
+): {
+  book: string;
+  chap: number[] | "*";
+  freq: number | "*" | "pegonduff";
 } {
-  if (!bookNames[book.toLowerCase()])
-    return {}
+  if (!bookNames[book.toLowerCase()]) return {};
 
   // book
-  const sainBook = bookNames[book.toLowerCase()]
+  const sainBook = bookNames[book.toLowerCase()];
 
   // chapter
-  let sainChap = !chap || chap === '*'
-    ? '*'
-    : chap.split(',').reduce((acc, cur) => {
-      let chapter = cur.trim();
-      let maxChaptersBook = bookChapters[sainBook]
+  let sainChap =
+    !chap || chap === "*"
+      ? "*"
+      : chap
+          .split(",")
+          .reduce((acc, cur) => {
+            let chapter = cur.trim();
+            let maxChaptersBook = bookChapters[sainBook];
 
-      if (chapter.includes('-')) {
-        let [start, end] = cur.split('-');
-        start = Number(start.trim());
-        end = Number(end.trim());
+            if (chapter.includes("-")) {
+              let [start, end] = cur.split("-");
+              start = Number(start.trim());
+              end = Number(end.trim());
 
-        if (start <= 1) {
-          start = 1
+              if (start <= 1) {
+                start = 1;
+              } else if (end > maxChaptersBook) {
+                end = maxChaptersBook;
+              }
 
-        } else if (end > maxChaptersBook) {
-          end = maxChaptersBook
-        }
+              if (start > end) {
+                let oldStart = start;
+                start = end;
+                end = oldStart;
+              } else if (start === end) {
+                acc.push(start);
+                return acc;
+              }
 
-        if (start > end) {
-          let oldStart = start
-          start = end
-          end = oldStart
-        } else if (start === end) {
-          acc.push(start);
-          return acc
-        }
+              if (detailCh) {
+                acc.push(
+                  ...Array.from({ length: end - start + 1 }, (_, i) => i + 1),
+                );
+              } else {
+                acc.push(start + "-" + end);
+              }
+            } else {
+              chapter = Number(chapter.trim());
+              if (
+                chapter &&
+                chapter <= maxChaptersBook &&
+                acc.indexOf(chapter) < 0
+              ) {
+                acc.push(chapter);
+              }
+            }
 
-        if (detailCh) {
-          acc.push(
-            ...Array.from({ length: end - start + 1 }, (_, i) => i + 1)
-          )
-        } else {
-          acc.push(start + '-' + end)
-        }
-
-      } else {
-        chapter = Number(chapter.trim());
-        if (chapter
-          && chapter <= maxChaptersBook
-          && acc.indexOf(chapter) < 0) {
-          acc.push(chapter);
-        }
-      }
-
-      return acc;
-    }, []).sort()
+            return acc;
+          }, [])
+          .sort();
 
   if (!detailCh) {
-    sainChap = sainChap.join(',')
+    sainChap = sainChap.join(",");
   }
 
   // frequency
-  const sainFreq = !freq || freq === '*' || freq === 'pegonduff'
-    ? freq
-    : parseInt(freq)
+  const sainFreq =
+    !freq || freq === "*" || freq === "pegonduff" ? freq : parseInt(freq);
 
   return {
     book: sainBook,
     chap: sainChap,
-    freq: sainFreq
-  }
+    freq: sainFreq,
+  };
 }
