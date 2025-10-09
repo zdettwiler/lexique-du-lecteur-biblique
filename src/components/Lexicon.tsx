@@ -4,6 +4,7 @@ import LexiconWord from '@/components/LexiconWord'
 import PDFLexicon from '@/components/PDFLexicon'
 import ReferenceNavButtons from '@/components/ReferenceNavButtons'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
+import { bookMeta } from '@/utils/booksMetadata'
 import type { BookName, BibleWithLLB } from '@/types'
 
 type Props = {
@@ -40,7 +41,7 @@ export default async function Lexicon({ book, chapter, occurrences }: Props) {
     <div className="container max-w-[600px] mx-auto px-4 mt-10">
       <div className="font-serif text-center mb-7">
         <h3 className="font-serif text-xl text-center italic uppercase tracking-[5px] mt-5 mb-3">
-          {book} {chapter}
+          {bookMeta[book].fullName} {chapter}
         </h3>
         <PDFLexicon
           book={book}

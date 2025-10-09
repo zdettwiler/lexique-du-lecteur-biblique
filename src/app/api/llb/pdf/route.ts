@@ -1,7 +1,8 @@
 import sanitiseRef from '@/utils/sanitiseRef'
-import type { BibleWithLLB } from '@/types'
+import type { BibleWithLLB, BookName } from '@/types'
 import { NextResponse } from 'next/server'
 import { generatePDF } from '@/utils/pdf'
+import { bookMeta } from '@/utils/booksMetadata'
 
 export async function POST(req: Request) {
   try {
@@ -30,8 +31,8 @@ export async function POST(req: Request) {
 
     const title =
       sainRef.chapters && sainRef.chapters !== '*'
-        ? `${sainRef.book} ${String(sainRef.chapters).replace('-', '–')}`
-        : sainRef.book
+        ? `${bookMeta[sainRef.book as BookName].fullName} ${String(sainRef.chapters).replace('-', '–')}`
+        : bookMeta[sainRef.book as BookName].fullName
 
     const nbUniqueWords: number = new Set(lexicon.map((w) => w.strong)).size
     const lang = lexicon[0].strong[0]
