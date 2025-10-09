@@ -7,13 +7,13 @@ import { books, bookMeta } from '@/utils/booksMetadata'
 type Props = {
   book: BookName
   chapter: number
-  occurences: string
+  occurrences: string
 }
 
 export default function ReferenceNavButtons({
   book,
   chapter,
-  occurences
+  occurrences
 }: Props) {
   function getRef(
     dir: 'prev' | 'next',
@@ -67,7 +67,7 @@ export default function ReferenceNavButtons({
         className="font-sans"
         asChild
       >
-        <Link href={`/${prevRef.book}/${prevRef.chapter}/${occurences}`}>
+        <Link href={`/${prevRef.book}/${prevRef.chapter}/${occurrences}`}>
           <ArrowLeft /> {bookMeta[prevRef.book].label} {prevRef.chapter}
         </Link>
       </Button>
@@ -78,7 +78,7 @@ export default function ReferenceNavButtons({
         className="font-sans"
         asChild
       >
-        <Link href={`/${nextRef.book}/${nextRef.chapter}/${occurences}`}>
+        <Link href={`/${nextRef.book}/${nextRef.chapter}/${occurrences}`}>
           {bookMeta[nextRef.book].label} {nextRef.chapter} <ArrowRight />
         </Link>
       </Button>

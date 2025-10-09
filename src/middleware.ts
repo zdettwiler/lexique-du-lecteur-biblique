@@ -4,39 +4,36 @@ import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
 export function middleware(request: NextRequest) {
   let match = request.nextUrl.pathname.match(
-    /\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<occurences>\d+|pegonduff)?/
+    /\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<occurrences>\d+|pegonduff)?/
   )
 
-  if (!match) return NextResponse.redirect(new URL('/', request.url))
+  if (!match) return NextResponse.redirect(new URL(`/`, request.url))
 
   // check param book
   const paramBook = decodeURI(match.groups?.book ?? '')
   const paramChapters = decodeURI(match.groups?.chapters ?? '')
-  const paramOccurences = decodeURI(match.groups?.occurences ?? '')
+  const paramOccurrences = decodeURI(match.groups?.occurrences ?? '')
 
-  const { book, chapters, occurences } = sanitiseRef(
-    paramBook,
-    paramChapters,
-    paramOccurences
-  )
+  const sainRef = sanitiseRef(paramBook, paramChapters, paramOccurrences)
 
-  console.log(book, chapters, occurences)
-
-  if (!book) {
+  if (!sainRef) {
     return NextResponse.redirect(new URL(`/`, request.url))
   } else if (
-    paramBook !== book ||
-    paramChapters !== chapters ||
-    paramOccurences != occurences
+    paramBook !== sainRef.book ||
+    paramChapters !== sainRef.chapters ||
+    paramOccurrences !== String(sainRef.occurrences)
   ) {
     return NextResponse.redirect(
-      new URL(`/${book}/${chapters}/${occurences}`, request.url)
+      new URL(
+        `/${sainRef.book}/${sainRef.chapters}/${sainRef.occurrences}`,
+        request.url
+      )
     )
   }
 }
 
 export const config = {
   matcher: [
-    '/((?!apprendre|api|changelog|_next|img|favicon.ico|apple-icon|icon).*)'
+    '/((?!apprendre|api|changelog|_next|img|favicon.ico|apple-icon|icon|$).*)'
   ]
 }

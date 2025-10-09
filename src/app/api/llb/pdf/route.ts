@@ -8,14 +8,22 @@ export async function POST(req: Request) {
     const { ref } = await req.json()
 
     if (!ref) {
-      // TODO Check types
-      return NextResponse.json({ error: 'Missing ref' }, { status: 400 })
+      return NextResponse.json(
+        { error: 'Erreur: Problème de paramètres.' },
+        { status: 400 }
+      )
     }
 
-    const sainRef = sanitiseRef(ref.book, ref.chapters, ref.occurences)
+    const sainRef = sanitiseRef(ref.book, ref.chapters, ref.occurrences)
+    if (!sainRef) {
+      return NextResponse.json(
+        { error: 'Erreur: Problème de paramètres.' },
+        { status: 400 }
+      )
+    }
 
     const data = await fetch(
-      `${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${sainRef.chapters}/${sainRef.occurences}`
+      `${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${sainRef.chapters}/${sainRef.occurrences}`
     )
     const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
     if (!lexicon) return []
@@ -54,8 +62,13 @@ export async function POST(req: Request) {
             <h2 class='uppercase tracking-[5px] text-sm'>Lexique du lecteur biblique</h2>
 
             <p class='italic mt-3 text-xs leading-none'>
-              ${nbUniqueWords} mots apparaissent moins de ${sainRef.occurences} fois dans ${testament}. <br/>
-              Entre parenthèses figure le nombre d&apos;occurences du mot dans ${testament}. <br/>
+              ${
+                sainRef.occurrences === 'pegonduff'
+                  ? `${nbUniqueWords} mots n'ont pas été appris dans les manuels de Pégon et Duff.`
+                  : `${nbUniqueWords} mots apparaissent moins de ${sainRef.occurrences} fois dans ${testament}`
+              }
+              <br />
+              Entre parenthèses figure le nombre d&apos;occurrences du mot dans ${testament}. <br/>
               Généré par <a class='underline' href='https://lexique.ibbxl.be'>lexique.ibbxl.be</a>.
             </p>
           </div>
@@ -70,9 +83,6 @@ export async function POST(req: Request) {
                     : ''
 
                 const prevVerse = id > 0 ? data[id - 1].verse : 0
-                // const verseNb = prevVerse !== word.verse
-                //   ? `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup>${word.verse}</sup></div>`
-                //   : `<div class='font-sans font-bold text-[5px] w-6 shrink-0 text-right mr-1'><sup></sup></div>`
                 const verseNb = prevVerse !== word.verse ? word.verse : ''
 
                 return `
@@ -108,7 +118,7 @@ export async function POST(req: Request) {
   } catch (err) {
     console.error('Error generating PDF:', err)
     return NextResponse.json(
-      { error: 'Failed to generate PDF' },
+      { error: 'Error: Echec de génération du PDF.' },
       { status: 500 }
     )
   }

@@ -3,22 +3,27 @@ import { bookNames, bookChapters } from '@/utils/booksMetadata'
 export default function sanitiseRef(
   book: string,
   chapters: string,
-  occurences: string,
+  occurrences: string,
   returnAllChNb = false
-): {
-  book?: string
-  chapters?: number[] | '*' | string
-  occurences?: number | '*' | 'pegonduff'
-} {
+):
+  | {
+      book: string
+      chapters: '*' | string | number[]
+      occurrences: number | 'pegonduff'
+      returnAllChNb?: boolean
+    }
+  | undefined {
   // book
   const sainBook = bookNames[book.toLowerCase()]
-  if (!sainBook) return {}
+  if (!sainBook) return
 
   // chapters
   let sainChapters
   let maxChaptersBook = bookChapters[sainBook]
 
-  if (!chapters || chapters === '*') {
+  if (!chapters) {
+    sainChapters = [1]
+  } else if (chapters === '*') {
     sainChapters = returnAllChNb
       ? Array.from({ length: maxChaptersBook }, (_, i) => i + 1)
       : '*'
@@ -72,15 +77,17 @@ export default function sanitiseRef(
     sainChapters = returnAllChNb ? (chapArray as number[]) : chapArray.join(',')
   }
 
-  // occurencesuency
-  const sainOccurences =
-    !occurences || occurences === '*' || occurences === 'pegonduff'
-      ? (occurences as number | '*' | 'pegonduff')
-      : 70
+  // occurrences
+  let sainOccurrences
+
+  if (occurrences === 'pegonduff') sainOccurrences = occurrences as 'pegonduff'
+  else if (Number.isInteger(Number(occurrences)))
+    sainOccurrences = Number(occurrences)
+  else sainOccurrences = 70
 
   return {
     book: sainBook,
     chapters: sainChapters,
-    occurences: sainOccurences
+    occurrences: sainOccurrences
   }
 }

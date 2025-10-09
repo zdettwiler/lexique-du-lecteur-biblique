@@ -1,20 +1,24 @@
-import { NextResponse } from 'next/server'
+import { NextResponse, type NextRequest } from 'next/server'
 import sanitiseRef from '@/utils/sanitiseRef'
 import { db } from '@/lib/db'
 
 import type { BibleWithLLB } from '@/types'
 
 export async function GET(
-  request,
+  request: NextRequest,
   { params }: { params: { ref: [string, string, string] } }
 ) {
   const {
-    ref: [bookParam, chaptersParam, occurencesParam]
+    ref: [bookParam, chaptersParam, occurrencesParam]
   } = await params
-  const sainRef = sanitiseRef(bookParam, chaptersParam, occurencesParam, true)
-  // return NextResponse.json({
-  //   sainRef
-  // }, { status: 201 })
+  const sainRef = sanitiseRef(bookParam, chaptersParam, occurrencesParam, true)
+
+  if (!sainRef) {
+    return NextResponse.json(
+      { error: 'Erreur: Problème de paramètres.' },
+      { status: 400 }
+    )
+  }
 
   try {
     const words: BibleWithLLB[] = await db.bible.findMany({
@@ -22,15 +26,16 @@ export async function GET(
       where: {
         book: { equals: sainRef.book },
         chapter:
-          sainRef.chapters !== '*' ? { in: sainRef.chapters } : undefined,
+          sainRef.chapters !== '*'
+            ? { in: sainRef.chapters as number[] }
+            : undefined,
         llbword: {
           freq:
-            typeof sainRef.occurences === 'number' &&
-            Number.isInteger(sainRef.occurences)
-              ? { lte: sainRef.occurences }
+            sainRef.occurrences && typeof sainRef.occurrences === 'number'
+              ? { lte: sainRef.occurrences }
               : undefined,
           pegonduff:
-            sainRef.occurences === 'pegonduff' ? { is: null } : undefined
+            sainRef.occurrences === 'pegonduff' ? { is: null } : undefined
         }
       },
       include: {
@@ -56,21 +61,13 @@ export async function GET(
       return lexicon
     }, [])
 
-    return NextResponse.json(
-      {
-        lexicon
-      },
-      { status: 201 }
-    )
+    return NextResponse.json({ lexicon }, { status: 201 })
   } catch (error) {
     if (error instanceof Error) {
       console.log('Error: ', error.stack)
     }
     return NextResponse.json(
-      {
-        msg: 'Oups! Il y a eu un problème!',
-        error
-      },
+      { msg: 'Erreur: Oups! Il y a eu un problème!' },
       { status: 500 }
     )
   }

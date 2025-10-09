@@ -44,7 +44,7 @@ const occurenceValues = occurenceOptions.map((o) => o.value) as [
 const formSchema = z.object({
   book: createZodEnum(books).default('Genèse'),
   chapters: z.string(), //.regex(/^[0-9,-]?$/, "Seuls les chiffres, virgules et tirets sont autorisés"),
-  occurences: z.enum(occurenceValues).default('70')
+  occurrences: z.enum(occurenceValues).default('70')
 })
 // .transform(form => {
 //   const maxChapters = bookChapters[form.book]
@@ -58,11 +58,11 @@ const formSchema = z.object({
 export default function LexiconForm({
   book,
   chapters,
-  occurences
+  occurrences
 }: {
   book: BookName | undefined
   chapters: string | undefined
-  occurences: string | undefined
+  occurrences: string | undefined
 }) {
   const router = useRouter()
   const form = useForm<z.infer<typeof formSchema>>({
@@ -70,26 +70,31 @@ export default function LexiconForm({
     defaultValues: {
       book: book || 'Genèse',
       chapters: chapters || '',
-      occurences: occurences || '70'
+      occurrences: occurrences || '70'
     }
   })
   const { reset } = form
 
   useEffect(() => {
+    // get form values from last session
     const storedForm = localStorage.getItem('lexicon-form')
-    if (!storedForm || (book && chapters && occurences)) {
+    if (!storedForm || (book && chapters && occurrences)) {
       localStorage.setItem(
         'lexicon-form',
-        JSON.stringify({ book, chapters, occurences })
+        JSON.stringify({ book, chapters, occurrences })
       )
       return
     }
+
     try {
       const parsedStoredForm = JSON.parse(storedForm)
       reset({
         book: parsedStoredForm.book,
-        chapters: String(parsedStoredForm.chapter) ?? '',
-        occurences: parsedStoredForm.occurences
+        chapters:
+          parsedStoredForm.chapter && parsedStoredForm.chapter !== '*'
+            ? String(parsedStoredForm.chapter)
+            : '',
+        occurrences: parsedStoredForm.occurrences
       })
     } catch (e) {
       console.error('Failed to parse form data from localStorage', e)
@@ -100,7 +105,7 @@ export default function LexiconForm({
     // TODO validate form here?
     localStorage.setItem('lexicon-form', JSON.stringify(values))
     router.push(
-      `/${values.book}/${values.chapters === '' ? '*' : values.chapters}/${values.occurences}`
+      `/${values.book}/${values.chapters === '' ? '*' : values.chapters}/${values.occurrences}`
     )
   }
 
@@ -156,7 +161,11 @@ export default function LexiconForm({
                 <FormItem className="w-2/5">
                   <FormLabel className="">Chapitre</FormLabel>
                   <FormControl>
-                    <Input placeholder="tous" {...field} />
+                    <Input
+                      placeholder="tous"
+                      {...field}
+                      value={field.value === '*' ? '' : field.value}
+                    />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -165,10 +174,10 @@ export default function LexiconForm({
           </div>
           <FormField
             control={form.control}
-            name="occurences"
+            name="occurrences"
             render={({ field }) => (
               <FormItem className="box-border mb-4 w-full md:w-2/5 lg:w-1/3">
-                <FormLabel className="">Nb. d&apos;occurences</FormLabel>
+                <FormLabel className="">Nb. d&apos;occurrences</FormLabel>
                 <Select
                   key={field.value}
                   onValueChange={field.onChange}
@@ -176,7 +185,7 @@ export default function LexiconForm({
                 >
                   <FormControl>
                     <SelectTrigger>
-                      <SelectValue placeholder="Nb d'occurences">
+                      <SelectValue placeholder="Nb d'occurrences">
                         {occurenceOptions.find(
                           (occ) => occ.value === field.value
                         )?.label ?? ''}

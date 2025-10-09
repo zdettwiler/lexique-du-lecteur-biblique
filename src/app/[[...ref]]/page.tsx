@@ -13,7 +13,7 @@ export default async function Home({
 }) {
   const ref = await params
 
-  const [book, chapters, occurences] =
+  const [book, chapters, occurrences] =
     Array.isArray(ref.ref) && ref.ref.length === 3
       ? [
           decodeURIComponent(ref.ref[0]) as BookName,
@@ -31,7 +31,7 @@ export default async function Home({
   return (
     <main className="container mx-auto dark:bg-red">
       <Title />
-      <LexiconForm book={book} chapters={chapters} occurences={occurences} />
+      <LexiconForm book={book} chapters={chapters} occurrences={occurrences} />
       <Suspense
         fallback={
           <LoaderCircle className="animate-spin size-10 text-primary text-center mx-auto mt-10" />
@@ -39,13 +39,17 @@ export default async function Home({
       >
         {isChapterRange ? (
           // if a range of chapters or whole book is selected, generate and display PDF
-          <PDFLexicon book={book} chapters={chapters} occurences={occurences} />
+          <PDFLexicon
+            book={book}
+            chapters={chapters}
+            occurrences={occurrences}
+          />
         ) : (
           // if a single chapter is selected, display lexicon in browser (button available for optional download)
           <Lexicon
             book={book}
             chapter={Number(chapters)}
-            occurences={occurences}
+            occurrences={occurrences}
           />
         )}
       </Suspense>

@@ -1,5 +1,5 @@
-import { Pencil, FileText } from 'lucide-react'
-// import PDFDownloadButton from '@/components/PDFDownloadButton'
+import { Pencil, PaintbrushVertical } from 'lucide-react'
+import ErrorAlert from '@/components/ErrorAlert'
 import LexiconWord from '@/components/LexiconWord'
 import PDFLexicon from '@/components/PDFLexicon'
 import ReferenceNavButtons from '@/components/ReferenceNavButtons'
@@ -9,20 +9,27 @@ import type { BookName, BibleWithLLB } from '@/types'
 type Props = {
   book: BookName | undefined
   chapter: number | undefined
-  occurences: string | undefined
+  occurrences: string | undefined
 }
 
-export default async function Lexicon({ book, chapter, occurences }: Props) {
-  if (!book || !chapter || !occurences) {
+export default async function Lexicon({ book, chapter, occurrences }: Props) {
+  if (!book || !chapter || !occurrences) {
     return
   }
 
-  const data = await fetch(
-    `${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapter}/${occurences}`
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${book}/${chapter}/${occurrences}`
   )
-  const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
 
-  if (!lexicon) return []
+  if (!res.ok) {
+    return (
+      <div className="container max-w-[600px] mx-auto px-4 mt-10">
+        <ErrorAlert />
+      </div>
+    )
+  }
+
+  const { lexicon }: { lexicon: BibleWithLLB[] } = await res.json()
 
   const nbUniqueWords: number = new Set(lexicon.map((w) => w.strong)).size
 
@@ -37,14 +44,16 @@ export default async function Lexicon({ book, chapter, occurences }: Props) {
         </h3>
         <PDFLexicon
           book={book}
-          chapters={chapter}
-          occurences={occurences}
+          chapters={String(chapter)}
+          occurrences={occurrences}
           link
         />
         <p className="italic mt-3">
-          {nbUniqueWords} mots apparaissent moins de {occurences} fois dans{' '}
-          {testament}. <br />
-          Entre parenthèses figure le nombre d&apos;occurences du mot dans{' '}
+          {occurrences === 'pegonduff'
+            ? `${nbUniqueWords} mots n'ont pas été appris dans les manuels de Pégon et Duff.`
+            : `${nbUniqueWords} mots apparaissent moins de ${occurrences} fois dans ${testament}`}
+          <br />
+          Entre parenthèses figure le nombre d&apos;occurrences du mot dans{' '}
           {testament}.
         </p>
       </div>
@@ -67,7 +76,7 @@ export default async function Lexicon({ book, chapter, occurences }: Props) {
       <ReferenceNavButtons
         book={book}
         chapter={chapter}
-        occurences={occurences}
+        occurrences={occurrences}
       />
     </div>
   )
