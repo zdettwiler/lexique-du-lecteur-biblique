@@ -1,16 +1,16 @@
-import Link from "next/link";
-import { db } from "@/lib/db";
-import moment from "moment";
-import "moment/locale/fr";
-moment.locale("fr");
+import Link from 'next/link'
+import { db } from '@/lib/db'
+import moment from 'moment'
+import 'moment/locale/fr'
+moment.locale('fr')
 
 export default async function Footer() {
   const lastUpdatedWord = await db.lLB.findFirst({
     where: { updatedAt: { not: null } },
-    orderBy: { updatedAt: "desc" },
-  });
+    orderBy: { updatedAt: 'desc' }
+  })
 
-  const updatedAt = moment(lastUpdatedWord?.updatedAt).format("D MMM YYYY");
+  const updatedAt = moment(lastUpdatedWord?.updatedAt).format('D MMM YYYY')
 
   return (
     <footer className="font-sans text-center mt-10 bg-neutral-100 dark:bg-neutral-950 p-12 text-xs">
@@ -24,8 +24,8 @@ export default async function Footer() {
           href="https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT"
         >
           THHOT
-        </a>{" "}
-        ∙{" "}
+        </a>{' '}
+        ∙{' '}
         <a
           className="text-gray-600 dark:text-gray-400 underline"
           href="https://github.com/STEPBible/STEPBible-Data/tree/master/Translators%20Amalgamated%20OT%2BNT"
@@ -38,7 +38,7 @@ export default async function Footer() {
           href="https://www.levangile.com/Liste-Strong-Grec.php"
         >
           Levangile
-        </a>{" "}
+        </a>{' '}
         ∙ R. Pigeon (
         <a
           className="text-gray-600 dark:text-gray-400 underline"
@@ -195,5 +195,5 @@ export default async function Footer() {
         </a>
       </p>
     </footer>
-  );
+  )
 }

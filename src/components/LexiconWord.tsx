@@ -1,28 +1,28 @@
-"use client";
-import { useContext } from "react";
-import { LLBCorrectionFormContext } from "@/components/CorrectionFormProvider";
-import type { BibleWithLLB } from "@/types";
+'use client'
+import { useContext } from 'react'
+import { LLBCorrectionFormContext } from '@/components/CorrectionFormProvider'
+import type { BibleWithLLB } from '@/types'
 
 type Props = {
-  chapHeading: React.ReactNode | null;
-  verseNb: number | null;
-  word: BibleWithLLB;
-};
+  chapHeading: React.ReactNode | null
+  verseNb: number | null
+  word: BibleWithLLB
+}
 
 export default function LexiconWord({ chapHeading, verseNb, word }: Props) {
-  const context = useContext(LLBCorrectionFormContext);
-  if (!context) throw new Error("Must be inside LLBCorrectionFormProvider");
+  const context = useContext(LLBCorrectionFormContext)
+  if (!context) throw new Error('Must be inside LLBCorrectionFormProvider')
 
-  const { setIsLLBCorrectionDrawerOpen, setLLBCorrectionWord } = context;
+  const { setIsLLBCorrectionDrawerOpen, setLLBCorrectionWord } = context
 
-  const lang = word.strong[0];
+  const lang = word.strong[0]
 
   return (
     <div
       className=""
       onClick={() => {
-        setIsLLBCorrectionDrawerOpen(true);
-        setLLBCorrectionWord(word);
+        setIsLLBCorrectionDrawerOpen(true)
+        setLLBCorrectionWord(word)
       }}
     >
       {chapHeading}
@@ -31,7 +31,7 @@ export default function LexiconWord({ chapHeading, verseNb, word }: Props) {
           <sup>{verseNb}</sup>
         </div>
         <div
-          className={`shrink-0 font-serif font-semibold ${lang === "H" ? "min-w-[80px] text-2xl text-right" : "min-w-[120px] text-xl"} `}
+          className={`shrink-0 font-serif font-semibold ${lang === 'H' ? 'min-w-[80px] text-2xl text-right' : 'min-w-[120px] text-xl'} `}
         >
           {word.lemma}
         </div>
@@ -43,5 +43,5 @@ export default function LexiconWord({ chapHeading, verseNb, word }: Props) {
         </div>
       </div>
     </div>
-  );
+  )
 }

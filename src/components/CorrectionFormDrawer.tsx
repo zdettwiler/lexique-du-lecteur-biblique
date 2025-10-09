@@ -1,5 +1,5 @@
-"use client";
-import { Button } from "@/components/ui/button";
+'use client'
+import { Button } from '@/components/ui/button'
 import {
   Drawer,
   DrawerClose,
@@ -7,20 +7,20 @@ import {
   DrawerDescription,
   DrawerFooter,
   DrawerHeader,
-  DrawerTitle,
-} from "@/components/ui/drawer";
-import type { BibleWithLLB } from "@/types";
-import LLBCorrectionForm from "@/components/LLBCorrectionForm";
-import StrongTag from "@/components/StrongTag";
+  DrawerTitle
+} from '@/components/ui/drawer'
+import type { BibleWithLLB } from '@/types'
+import LLBCorrectionForm from '@/components/LLBCorrectionForm'
+import StrongTag from '@/components/StrongTag'
 
 export default function CorrectionFormDrawer({
   isOpen,
   setIsLLBCorrectionDrawerOpen,
-  word,
+  word
 }: {
-  isOpen: boolean;
-  setIsLLBCorrectionDrawerOpen: (arg0: boolean) => void;
-  word: BibleWithLLB;
+  isOpen: boolean
+  setIsLLBCorrectionDrawerOpen: (arg0: boolean) => void
+  word: BibleWithLLB
 }) {
   return (
     word && (
@@ -50,5 +50,5 @@ export default function CorrectionFormDrawer({
         </Drawer>
       </>
     )
-  );
+  )
 }

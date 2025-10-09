@@ -4,57 +4,57 @@ import {
   FormField,
   FormItem,
   FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { SubmitHandler, useForm } from "react-hook-form";
-import sendLLBCorrectionForm from "@/actions/sendLLBCorrectionForm";
+  FormMessage
+} from '@/components/ui/form'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
+import { zodResolver } from '@hookform/resolvers/zod'
+import { SubmitHandler, useForm } from 'react-hook-form'
+import sendLLBCorrectionForm from '@/actions/sendLLBCorrectionForm'
 import {
   llbCorrectionFormSchema,
-  LLBCorrectionFormSchemaType,
-} from "@/utils/validationLLBCorrectionForm";
-import { toast } from "sonner";
-import type { BibleWithLLB } from "@/types";
+  LLBCorrectionFormSchemaType
+} from '@/utils/validationLLBCorrectionForm'
+import { toast } from 'sonner'
+import type { BibleWithLLB } from '@/types'
 
 export default function LLBCorrectionForm({
   word,
-  setIsLLBCorrectionDrawerOpen,
+  setIsLLBCorrectionDrawerOpen
 }: {
-  word: BibleWithLLB;
-  setIsLLBCorrectionDrawerOpen: (isOpen: boolean) => void;
+  word: BibleWithLLB
+  setIsLLBCorrectionDrawerOpen: (isOpen: boolean) => void
 }) {
   const form = useForm<LLBCorrectionFormSchemaType>({
     resolver: zodResolver(llbCorrectionFormSchema),
     defaultValues: {
-      name: "test",
-      email: "test@test.com",
-      correctedGloss: word?.llbword.gloss,
-    },
-  });
+      name: 'test',
+      email: 'test@test.com',
+      correctedGloss: word?.llbword.gloss
+    }
+  })
 
   // form.setValue('correctedGloss', word?.llbword.gloss)
-  form.setValue("originalGloss", word?.llbword.gloss);
+  form.setValue('originalGloss', word?.llbword.gloss)
 
   const onSubmit: SubmitHandler<LLBCorrectionFormSchemaType> = async (
-    values,
+    values
   ) => {
-    setIsLLBCorrectionDrawerOpen(false);
-    toast.loading("Envoi de la correction...", {
-      id: "loading",
-      style: { background: "white" },
-    });
-    const result = await sendLLBCorrectionForm(values, word);
-    toast.dismiss("loading");
+    setIsLLBCorrectionDrawerOpen(false)
+    toast.loading('Envoi de la correction...', {
+      id: 'loading',
+      style: { background: 'white' }
+    })
+    const result = await sendLLBCorrectionForm(values, word)
+    toast.dismiss('loading')
 
     if (result.success) {
-      toast.success("Bien reçu! Merci pour votre correction.");
+      toast.success('Bien reçu! Merci pour votre correction.')
     } else {
-      toast.error(`Oups! Une erreur est survenue.`);
+      toast.error(`Oups! Une erreur est survenue.`)
     }
-  };
+  }
 
   return (
     <Form {...form}>
@@ -107,5 +107,5 @@ export default function LLBCorrectionForm({
         </Button>
       </form>
     </Form>
-  );
+  )
 }

@@ -1,5 +1,5 @@
-import Link from "next/link";
-import DarkModeSwitch from "@/components/DarkModeSwitch";
+import Link from 'next/link'
+import DarkModeSwitch from '@/components/DarkModeSwitch'
 
 export default async function Nav() {
   return (
@@ -7,5 +7,5 @@ export default async function Nav() {
       {/* <Link href="" className="text-md font-medium text-gray-600 dark:text-gray-400">Télécharcher le LLB</Link> */}
       <DarkModeSwitch />
     </nav>
-  );
+  )
 }

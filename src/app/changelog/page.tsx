@@ -1,41 +1,41 @@
-import Title from "@/components/Title";
-import StrongTag from "@/components/StrongTag";
-import { Progress } from "@/components/ui/progress";
-import { db } from "@/lib/db";
-import { LLB } from "@prisma/client";
-import moment from "moment";
-import "moment/locale/fr";
-moment.locale("fr");
+import Title from '@/components/Title'
+import StrongTag from '@/components/StrongTag'
+import { Progress } from '@/components/ui/progress'
+import { db } from '@/lib/db'
+import { LLB } from '@prisma/client'
+import moment from 'moment'
+import 'moment/locale/fr'
+moment.locale('fr')
 
 export default async function ChangelogPage() {
-  const threeMonthsAgo = new Date();
-  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+  const threeMonthsAgo = new Date()
+  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3)
 
   const updatedWords = await db.lLB.findMany({
     where: {
-      updatedAt: { gte: threeMonthsAgo },
+      updatedAt: { gte: threeMonthsAgo }
     },
     orderBy: {
-      updatedAt: "desc",
-    },
-  });
+      updatedAt: 'desc'
+    }
+  })
 
   const updatedWordsCount = await db.lLB.count({
     select: {
       _all: true, // Count all records
-      updatedAt: true, // Count all non-null field values
-    },
-  });
+      updatedAt: true // Count all non-null field values
+    }
+  })
 
   const groupedByDay: Record<string, LLB[]> = updatedWords.reduce(
     (acc: Record<string, LLB[]>, word) => {
-      const day = moment(word.updatedAt).format("YYYY-MM-DD");
-      if (!acc[day]) acc[day] = [];
-      acc[day].push(word);
-      return acc;
+      const day = moment(word.updatedAt).format('YYYY-MM-DD')
+      if (!acc[day]) acc[day] = []
+      acc[day].push(word)
+      return acc
     },
-    {},
-  );
+    {}
+  )
 
   return (
     updatedWords &&
@@ -65,13 +65,13 @@ export default async function ChangelogPage() {
           {Object.entries(groupedByDay).map(([date, words]) => (
             <div key={date}>
               <h3 className="font-serif text-lg text-center italic mt-5 mb-3">
-                {moment(date).format("ddd D MMMM YYYY")}
+                {moment(date).format('ddd D MMMM YYYY')}
               </h3>
               <ul>
                 {words.map((word) => (
                   <li key={word.strong} className="flex flex-row">
                     <div
-                      className={`shrink-0 font-serif font-semibold min-w-[120px] ${word.strong[0] === "H" ? "text-2xl" : "text-xl"} `}
+                      className={`shrink-0 font-serif font-semibold min-w-[120px] ${word.strong[0] === 'H' ? 'text-2xl' : 'text-xl'} `}
                     >
                       {word.lemma}
                     </div>
@@ -89,5 +89,5 @@ export default async function ChangelogPage() {
         </div>
       </div>
     )
-  );
+  )
 }

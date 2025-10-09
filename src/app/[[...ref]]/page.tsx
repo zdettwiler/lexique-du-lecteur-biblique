@@ -1,27 +1,27 @@
 // 'use client'
 
-import Title from "@/components/Title";
-import LexiconForm from "@/components/LexiconForm";
-import Lexicon from "@/components/Lexicon";
-import { Suspense } from "react";
-import { LoaderCircle } from "lucide-react";
-import type { BookName } from "@/types";
+import Title from '@/components/Title'
+import LexiconForm from '@/components/LexiconForm'
+import Lexicon from '@/components/Lexicon'
+import { Suspense } from 'react'
+import { LoaderCircle } from 'lucide-react'
+import type { BookName } from '@/types'
 
 export default async function Home({
-  params,
+  params
 }: {
-  params: { ref?: [BookName, string, string] };
+  params: { ref?: [BookName, string, string] }
 }) {
-  const ref = await params;
+  const ref = await params
 
   const [book, chapter, occurences] =
     Array.isArray(ref.ref) && ref.ref.length === 3
       ? [
           decodeURIComponent(ref.ref[0]) as BookName,
           Number(decodeURIComponent(ref.ref[1])),
-          decodeURIComponent(ref.ref[2]),
+          decodeURIComponent(ref.ref[2])
         ]
-      : [undefined, undefined, undefined];
+      : [undefined, undefined, undefined]
 
   return (
     <main className="container mx-auto dark:bg-red">
@@ -43,5 +43,5 @@ export default async function Home({
         />
       </Suspense>
     </main>
-  );
+  )
 }
