@@ -1,4 +1,4 @@
-import { Pencil, PaintbrushVertical } from 'lucide-react'
+import { Pencil } from 'lucide-react'
 import ErrorAlert from '@/components/ErrorAlert'
 import LexiconWord from '@/components/LexiconWord'
 import PDFLexicon from '@/components/PDFLexicon'
@@ -41,15 +41,15 @@ export default async function Lexicon({ book, chapter, occurrences }: Props) {
     <div className="container max-w-[600px] mx-auto px-4 mt-10">
       <div className="font-serif text-center mb-7">
         <h3 className="font-serif text-xl text-center italic uppercase tracking-[5px] mt-5 mb-3">
-          {bookMeta[book].fullName} {chapter}
+          {bookMeta[book].fullName} {chapter}{' '}
+          <PDFLexicon
+            book={book}
+            chapters={String(chapter)}
+            occurrences={occurrences}
+            link
+          />
         </h3>
-        <PDFLexicon
-          book={book}
-          chapters={String(chapter)}
-          occurrences={occurrences}
-          link
-        />
-        <p className="italic mt-3">
+        <p className="italic mb-3">
           {occurrences === 'pegonduff'
             ? `${nbUniqueWords} mots n'ont pas été appris dans les manuels de Pégon et Duff.`
             : `${nbUniqueWords} mots apparaissent moins de ${occurrences} fois dans ${testament}`}

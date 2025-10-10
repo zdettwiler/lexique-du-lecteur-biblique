@@ -298,6 +298,7 @@ export const bookNames: Record<string, BookName> = {
   psaumes: 'Psaumes',
   psa: 'Psaumes',
   pss: 'Psaumes',
+  ps: 'Psaumes',
 
   proverbes: 'Proverbes',
   prov: 'Proverbes',

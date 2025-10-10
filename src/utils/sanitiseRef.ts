@@ -60,14 +60,11 @@ export default function sanitiseRef(
           }
         } else {
           const numCh = Number(ch)
-          if (
-            numCh &&
-            numCh >= 1 &&
-            numCh <= maxChaptersBook &&
-            !acc.includes(numCh)
-          ) {
-            acc.push(numCh)
-          }
+
+          if (acc.includes(numCh)) return acc
+          else if (numCh < 1) acc.push(1)
+          else if (numCh > maxChaptersBook) acc.push(maxChaptersBook)
+          else acc.push(numCh)
         }
 
         return acc
@@ -79,10 +76,11 @@ export default function sanitiseRef(
 
   // occurrences
   let sainOccurrences
+  let nbOccurences = Number(occurrences)
 
   if (occurrences === 'pegonduff') sainOccurrences = occurrences as 'pegonduff'
-  else if (Number.isInteger(Number(occurrences)))
-    sainOccurrences = Number(occurrences)
+  else if (Number.isInteger(nbOccurences) && nbOccurences !== 0)
+    sainOccurrences = Math.abs(nbOccurences)
   else sainOccurrences = 70
 
   return {

@@ -94,7 +94,7 @@ export async function POST(req: Request) {
                   <div class=''>
                     <div class='float-left flex flex-row ${lang === 'H' ? 'justify-items-end-safe min-w-[80px]' : 'min-w-[100px]'}'>
                       <div class='font-sans font-bold text-xs inline-block w-[12px] shrink-0 text-right mr-1'><sup>${verseNb}</sup></div>
-                      <div class='font-times font-semibold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}</div>
+                      <div class='font-times font-semibold ${lang === 'H' ? 'text-sm text-right grow ml-1' : 'text-sm'}'>${word.lemma}</div>
                       <div class='font-times font-normal text-center text-[8px] mx-1 pt-1 shrink-0 text-gray-500 dark:text-gray-400'>(${word.llbword.freq})</div>
                     </div>
                     <div class='${lang === 'H' ? ' pl-[80px]' : 'pl-[100px]'} font-times text-sm'>${word.llbword.gloss}</div>

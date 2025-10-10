@@ -1,8 +1,13 @@
 'use client'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { Button } from '@/components/ui/button'
-import { LoaderCircle, FileText, Loader2, Download } from 'lucide-react'
-import type { BookName, BibleWithLLB } from '@/types'
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger
+} from '@/components/ui/tooltip'
+import { LoaderCircle, FileText, FileDown, Download } from 'lucide-react'
+import type { BookName } from '@/types'
 import ErrorAlert from '@/components/ErrorAlert'
 
 type Props = {
@@ -22,7 +27,7 @@ export default function PDFLexicon({
   const [pdfUrl, setPdfUrl] = useState<string | null>(null)
   const [isError, setError] = useState<boolean>(false)
 
-  const fetchPDF = async () => {
+  const fetchPDF = useCallback(async () => {
     const start = Date.now()
     setLoading(true)
     try {
@@ -37,7 +42,7 @@ export default function PDFLexicon({
       const blob = await res.blob()
       const url = URL.createObjectURL(blob)
       setPdfUrl(url)
-    } catch (err) {
+    } catch {
       setLoading(false)
       setError(true)
     } finally {
@@ -46,7 +51,7 @@ export default function PDFLexicon({
       )
       setLoading(false)
     }
-  }
+  }, [book, chapters, occurrences])
 
   useEffect(() => {
     if (!pdfUrl && !link && !isError) fetchPDF()
@@ -55,7 +60,7 @@ export default function PDFLexicon({
     return () => {
       if (pdfUrl) URL.revokeObjectURL(pdfUrl)
     }
-  }, [pdfUrl])
+  }, [pdfUrl, link, isError, fetchPDF])
 
   if (isError) {
     return (
@@ -71,34 +76,6 @@ export default function PDFLexicon({
         <LoaderCircle className="animate-spin size-10 text-primary text-center mx-auto mt-10" />
         <span className="text-sm">Génération du PDF...</span>
       </div>
-    )
-  } else if (!pdfUrl && link && !isLoading) {
-    return (
-      <Button
-        variant="outline"
-        size="icon-sm"
-        className="font-sans"
-        onClick={fetchPDF}
-      >
-        <FileText />
-      </Button>
-    )
-  } else if (!pdfUrl && link && isLoading) {
-    return (
-      <Button variant="outline" size="icon-sm" className="font-sans">
-        <LoaderCircle className="animate-spin" />
-      </Button>
-    )
-  } else if (pdfUrl && link && !isLoading) {
-    return (
-      <a
-        href={pdfUrl}
-        download={`${book} ${chapters} (<${occurrences}×) - Lexique du lecteur biblique.pdf`}
-      >
-        <Button variant="outline" size="icon-sm" className="font-sans">
-          <Download />
-        </Button>
-      </a>
     )
   } else if (pdfUrl && !link && !isLoading) {
     return (
@@ -120,6 +97,40 @@ export default function PDFLexicon({
           className="my-10 rounded-md border shadow-sm"
         />
       </div>
+    )
+  } else if (!pdfUrl && link) {
+    return (
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Button
+            variant="ghost"
+            size="icon-sm"
+            className="font-sans"
+            disabled={isLoading}
+            onClick={fetchPDF}
+          >
+            {!isLoading ? (
+              <FileDown />
+            ) : (
+              <LoaderCircle className="animate-spin" />
+            )}
+          </Button>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>Télécharger le PDF</p>
+        </TooltipContent>
+      </Tooltip>
+    )
+  } else if (pdfUrl && link && !isLoading) {
+    return (
+      <a
+        href={pdfUrl}
+        download={`${book} ${chapters} (<${occurrences}×) - Lexique du lecteur biblique.pdf`}
+      >
+        <Button variant="ghost" size="icon-sm" className="font-sans">
+          <FileText />
+        </Button>
+      </a>
     )
   }
 }
