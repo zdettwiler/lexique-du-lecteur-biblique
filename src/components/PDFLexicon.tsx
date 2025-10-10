@@ -11,9 +11,9 @@ import type { BookName } from '@/types'
 import ErrorAlert from '@/components/ErrorAlert'
 
 type Props = {
-  book: BookName | undefined
-  chapters: string | undefined
-  occurrences: string | undefined
+  book: BookName
+  chapters: string
+  occurrences: string
   link?: boolean
 }
 
@@ -28,30 +28,44 @@ export default function PDFLexicon({
   const [isError, setError] = useState<boolean>(false)
 
   const fetchPDF = useCallback(async () => {
-    const start = Date.now()
-    setLoading(true)
-    try {
-      const res = await fetch('/api/llb/pdf', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ref: { book, chapters, occurrences } })
-      })
+    let url = pdfUrl
+    if (!url) {
+      const start = Date.now()
+      setLoading(true)
+      try {
+        const res = await fetch('/api/llb/pdf', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ref: { book, chapters, occurrences } })
+        })
 
-      if (!res.ok) throw new Error('Failed to fetch PDF')
+        if (!res.ok) throw new Error('Failed to fetch PDF')
 
-      const blob = await res.blob()
-      const url = URL.createObjectURL(blob)
-      setPdfUrl(url)
-    } catch {
-      setLoading(false)
-      setError(true)
-    } finally {
-      console.log(
-        `Finished fetching PDF in ${Math.round(0.001 * (Date.now() - start))} s`
-      )
-      setLoading(false)
+        const blob = await res.blob()
+        url = URL.createObjectURL(blob)
+        setPdfUrl(url)
+      } catch {
+        setLoading(false)
+        setError(true)
+      } finally {
+        console.log(
+          `Finished fetching PDF in ${Math.round(0.001 * (Date.now() - start))} s`
+        )
+        setLoading(false)
+      }
     }
-  }, [book, chapters, occurrences])
+
+    // Auto-download only if link mode
+    if (link && url) {
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `${book} ${chapters} (<${occurrences}×) - Lexique du lecteur biblique.pdf`
+      // a.target = '_blank' // open in a new tab
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+    }
+  }, [book, chapters, occurrences, link, pdfUrl])
 
   useEffect(() => {
     if (!pdfUrl && !link && !isError) fetchPDF()
@@ -98,7 +112,7 @@ export default function PDFLexicon({
         />
       </div>
     )
-  } else if (!pdfUrl && link) {
+  } else if (link && !pdfUrl) {
     return (
       <Tooltip>
         <TooltipTrigger asChild>
@@ -124,6 +138,7 @@ export default function PDFLexicon({
   } else if (pdfUrl && link && !isLoading) {
     return (
       <a
+        id="download-lexicon"
         href={pdfUrl}
         download={`${book} ${chapters} (<${occurrences}×) - Lexique du lecteur biblique.pdf`}
       >
