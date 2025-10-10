@@ -1,7 +1,6 @@
 'use client'
 import { createContext, useContext, useEffect, useState } from 'react'
 import { actionToggleDarkMode } from './actions'
-import * as ga from './ga.js'
 
 export const DarkModeContext = createContext()
 
@@ -21,30 +20,24 @@ const DarkModeProvider = ({ children }) => {
   }, [])
 
   if (mounted) {
-    document.querySelector('html').setAttribute('data-bs-theme', isDarkMode ? 'dark' : 'light')
+    document
+      .querySelector('html')
+      .setAttribute('data-bs-theme', isDarkMode ? 'dark' : 'light')
     return children
   }
 }
 
-export default function DarkModeContextProvider ({ children, theme }) {
+export default function DarkModeContextProvider({ children, theme }) {
   const [isDarkMode, setDarkMode] = useState(theme)
 
   const toggleDarkMode = () => {
-    ga.event({
-      action: 'change_theme',
-      params: {
-        theme: !isDarkMode ? 'dark' : 'light'
-      }
-    })
     setDarkMode(!isDarkMode)
     actionToggleDarkMode(!isDarkMode)
   }
 
   return (
     <DarkModeContext.Provider value={{ isDarkMode, toggleDarkMode }}>
-      <DarkModeProvider>
-        {children}
-      </DarkModeProvider>
+      <DarkModeProvider>{children}</DarkModeProvider>
     </DarkModeContext.Provider>
   )
 }

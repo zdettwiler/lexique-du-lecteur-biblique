@@ -1,3 +1,4 @@
+import { GoogleTagManager } from '@next/third-parties/google'
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import LLB from './LLB.json'
@@ -9,7 +10,8 @@ import { cookies } from 'next/headers'
 
 export const metadata = {
   title: 'Lexique du lecteur biblique',
-  description: 'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
+  description:
+    'Créez un lexique pour le livre que vous souhaitez étudier avec les mots dont vous avez besoin.',
   background_color: 'white',
   theme_color: 'black',
   display: 'standalone',
@@ -39,7 +41,7 @@ export const metadata = {
   ]
 }
 
-export default function RootLayout ({ children }) {
+export default function RootLayout({ children }) {
   const cookieStore = cookies()
   let theme = cookieStore.get('isDarkMode')
   theme = theme ? JSON.parse(theme.value) : false
@@ -53,7 +55,8 @@ export default function RootLayout ({ children }) {
   })
 
   return (
-    <html lang='fr' data-bs-theme={theme ? 'dark' : 'light'}>
+    <html lang="fr" data-bs-theme={theme ? 'dark' : 'light'}>
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID ?? ''} />
       <body>
         <DarkModeContextProvider theme={theme}>
           <LLBNav />
