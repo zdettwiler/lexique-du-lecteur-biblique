@@ -1,10 +1,10 @@
 import sanitiseRef from '@/utils/sanitiseRef'
 import type { BibleWithLLB, BookName } from '@/types'
-import { NextResponse } from 'next/server'
+import { NextResponse, type NextRequest } from 'next/server'
 import { generatePDF } from '@/utils/pdf'
 import { bookMeta } from '@/utils/booksMetadata'
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   try {
     const { ref } = await req.json()
 
@@ -27,7 +27,12 @@ export async function POST(req: Request) {
       `${process.env.NEXT_PUBLIC_URL}/api/llb/ref/${sainRef.book}/${sainRef.chapters}/${sainRef.occurrences}`
     )
     const { lexicon }: { lexicon: BibleWithLLB[] } = await data.json()
-    if (!lexicon) return []
+    if (!lexicon) {
+      return NextResponse.json(
+        { error: 'Aucun lexique trouvé.' },
+        { status: 404 }
+      )
+    }
 
     const title =
       sainRef.chapters && sainRef.chapters !== '*'

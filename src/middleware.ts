@@ -1,9 +1,8 @@
 import { NextResponse, type NextRequest } from 'next/server'
 import sanitiseRef from '@/utils/sanitiseRef'
-import { bookNames, bookChapters } from '@/utils/booksMetadata'
 
 export function middleware(request: NextRequest) {
-  let match = request.nextUrl.pathname.match(
+  const match = request.nextUrl.pathname.match(
     /\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<occurrences>\d+|pegonduff)?/
   )
 

@@ -6,7 +6,7 @@ import type { BibleWithLLB } from '@/types'
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { ref: [string, string, string] } }
+  { params }: { params: Promise<{ ref: string[] }> }
 ) {
   const {
     ref: [bookParam, chaptersParam, occurrencesParam]

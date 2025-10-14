@@ -10,7 +10,7 @@ export default function ErrorAlert() {
       <PaintbrushVertical />
       <AlertTitle>Oups!</AlertTitle>
       <AlertDescription className="text-destructive">
-        Le LLB s'est emmêlé les pinceaux. Veuillez réessayer.
+        Le LLB s&apos;est emmêlé les pinceaux. Veuillez réessayer.
       </AlertDescription>
     </Alert>
   )

@@ -1,24 +1,23 @@
-'use client';
+'use client'
 
-import React, { useEffect, useState } from 'react';
-import { jsPDF } from 'jspdf';
-import { Button } from '@/components/ui/button';
+import React, { useEffect, useState } from 'react'
+import { jsPDF } from 'jspdf'
 
 export default function PDFLexicon() {
-  const [pdfUrl, setPdfUrl] = useState(null);
+  const [pdfUrl, setPdfUrl] = useState<null | string>(null)
 
   useEffect(() => {
-    const doc = new jsPDF();
-    doc.text("Hello world!", 10, 10);
-    const blob = doc.output('blob');
-    const url = URL.createObjectURL(blob);
-    setPdfUrl(url);
+    const doc = new jsPDF()
+    doc.text('Hello world!', 10, 10)
+    const blob = doc.output('blob')
+    const url = URL.createObjectURL(blob)
+    setPdfUrl(url)
 
     // Cleanup when component unmounts
-    return () => URL.revokeObjectURL(url);
-  }, []);
+    return () => URL.revokeObjectURL(url)
+  }, [])
 
-  if (!pdfUrl) return <p>Loading PDF...</p>;
+  if (!pdfUrl) return <p>Loading PDF...</p>
 
   return (
     <iframe
@@ -28,5 +27,5 @@ export default function PDFLexicon() {
       src={pdfUrl}
       style={{ border: 'none' }}
     />
-  );
+  )
 }

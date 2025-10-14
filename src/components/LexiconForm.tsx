@@ -99,7 +99,7 @@ export default function LexiconForm({
     } catch (e) {
       console.error('Failed to parse form data from localStorage', e)
     }
-  }, [reset])
+  }, [reset, book, chapters, occurrences])
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     // TODO validate form here?
@@ -159,7 +159,7 @@ export default function LexiconForm({
               name="chapters"
               render={({ field }) => (
                 <FormItem className="w-2/5">
-                  <FormLabel className="">Chapitre</FormLabel>
+                  <FormLabel className="">Chapitres</FormLabel>
                   <FormControl>
                     <Input
                       placeholder="tous"

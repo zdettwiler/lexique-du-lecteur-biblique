@@ -6,11 +6,11 @@ import { Suspense } from 'react'
 import { LoaderCircle } from 'lucide-react'
 import type { BookName } from '@/types'
 
-export default async function Home({
-  params
-}: {
-  params: { ref?: [BookName, string, string] }
-}) {
+interface HomePageProps {
+  params: Promise<{ ref?: [BookName, string, string] }>
+}
+
+export default async function Home({ params }: HomePageProps) {
   const ref = await params
 
   const [book, chapters, occurrences] =
@@ -37,7 +37,7 @@ export default async function Home({
           <LoaderCircle className="animate-spin size-10 text-primary text-center mx-auto mt-10" />
         }
       >
-        {isChapterRange ? (
+        {book && chapters && occurrences && isChapterRange ? (
           // if a range of chapters or whole book is selected, generate and display PDF
           <PDFLexicon
             book={book}

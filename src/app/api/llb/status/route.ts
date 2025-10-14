@@ -6,26 +6,18 @@ moment.locale('fr')
 
 export async function GET() {
   try {
-    const lastUpdatedWord = await db.LLB.findFirst({
+    const lastUpdatedWord = await db.lLB.findFirst({
       where: { updatedAt: { not: null } },
       orderBy: { updatedAt: 'desc' }
     })
 
     const updatedAt = moment(lastUpdatedWord?.updatedAt).format('D MMM YYYY')
 
-    return NextResponse.json(
-      {
-        updatedAt
-      },
-      { status: 201 }
-    )
+    return NextResponse.json({ updatedAt }, { status: 201 })
   } catch (error) {
     console.log(error)
     return NextResponse.json(
-      {
-        msg: 'Oups! Il y a eu un problème!',
-        error
-      },
+      { msg: 'Oups! Il y a eu un problème!', error },
       { status: 500 }
     )
   }

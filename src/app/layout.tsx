@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
+import { GoogleTagManager } from '@next/third-parties/google'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
@@ -57,6 +58,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID ?? ''} />
       <body className={`${geistSans.variable} font-sans antialiased`}>
         <ThemeProvider
           attribute="class"

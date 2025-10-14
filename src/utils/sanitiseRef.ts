@@ -19,7 +19,7 @@ export default function sanitiseRef(
 
   // chapters
   let sainChapters
-  let maxChaptersBook = bookChapters[sainBook]
+  const maxChaptersBook = bookChapters[sainBook]
 
   if (!chapters) {
     sainChapters = [1]
@@ -31,7 +31,7 @@ export default function sanitiseRef(
     const chapArray = String(chapters)
       .split(',')
       .reduce<(number | string)[]>((acc, cur) => {
-        let ch = cur.trim()
+        const ch = cur.trim()
         // let maxChaptersBook = bookChapters[sainBook]
 
         if (ch.includes('-')) {
@@ -76,7 +76,7 @@ export default function sanitiseRef(
 
   // occurrences
   let sainOccurrences
-  let nbOccurences = Number(occurrences)
+  const nbOccurences = Number(occurrences)
 
   if (occurrences === 'pegonduff') sainOccurrences = occurrences as 'pegonduff'
   else if (Number.isInteger(nbOccurences) && nbOccurences !== 0)
