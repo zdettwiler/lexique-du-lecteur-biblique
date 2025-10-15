@@ -59,6 +59,7 @@ export default function PDFLexicon({
     // Auto-download only if link mode
     if (link && url) {
       const a = document.createElement('a')
+      a.className = 'download-lexicon' // class for GA
       a.href = url
       // a.download = fileName
       a.target = '_blank' // open in a new tab
