@@ -24,21 +24,21 @@ export const metadata: Metadata = {
       rel: 'icon',
       type: 'image/png',
       media: '(prefers-color-scheme: light)',
-      url: '/img/favicon-light.png'
+      url: '/assets/favicon-light.png'
     },
     {
       rel: 'icon',
       type: 'image/png',
       media: '(prefers-color-scheme: dark)',
-      url: '/image/favicon-dark.png'
+      url: '/assets/favicon-dark.png'
     }
     // {
-    //   src: '/img/icon-192.png',
+    //   src: '/assets/icon-192.png',
     //   sizes: '192x192',
     //   type: 'image/png'
     // },
     // {
-    //   src: '/img/icon-512.png',
+    //   src: '/assets/icon-512.png',
     //   sizes: '512x512',
     //   type: 'image/png'
     // }

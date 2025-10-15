@@ -7,7 +7,7 @@ export default function Title() {
       <Link href="/">
         <Image
           className="m-auto my-12 dark:invert"
-          src="/img/logo-llb.svg"
+          src="/assets/logo-llb.svg"
           alt="logo llb"
           width={50}
           height={50}

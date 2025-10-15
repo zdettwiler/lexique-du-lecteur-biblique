@@ -43,7 +43,7 @@ const occurenceValues = occurenceOptions.map((o) => o.value) as [
 
 const formSchema = z.object({
   book: createZodEnum(books).default('Genèse'),
-  chapters: z.string(), //.regex(/^[0-9,-]?$/, "Seuls les chiffres, virgules et tirets sont autorisés"),
+  chapters: z.string().default('1'), //.regex(/^[0-9,-]?$/, "Seuls les chiffres, virgules et tirets sont autorisés"),
   occurrences: z.enum(occurenceValues).default('70')
 })
 // .transform(form => {
@@ -69,7 +69,7 @@ export default function LexiconForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
       book: book || 'Genèse',
-      chapters: chapters || '',
+      chapters: chapters || '1',
       occurrences: occurrences || '70'
     }
   })

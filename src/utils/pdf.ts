@@ -7,7 +7,11 @@ async function getBrowser() {
   if (!browserPromise) {
     browserPromise = chromium.launch({
       headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--font-render-hinting=none'
+      ]
     })
   }
   return browserPromise
@@ -20,11 +24,13 @@ export async function generatePDF(html: string): Promise<Buffer> {
 
   try {
     await page.setContent(html, { waitUntil: 'networkidle' })
+    await page.evaluateHandle('document.fonts.ready')
+    // await page.waitForTimeout(300) // give extra buffer
 
     const pdf = await page.pdf({
       format: 'A4',
       printBackground: true,
-      margin: { top: '40px', bottom: '40px', left: '40px', right: '40px' },
+      margin: { top: '40px', bottom: '40px', left: '40px', right: '40px' }
     })
 
     return pdf

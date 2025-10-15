@@ -3,6 +3,8 @@ import type { BibleWithLLB, BookName } from '@/types'
 import { NextResponse, type NextRequest } from 'next/server'
 import { generatePDF } from '@/utils/pdf'
 import { bookMeta } from '@/utils/booksMetadata'
+import fs from 'fs'
+import path from 'path'
 
 export async function POST(req: NextRequest) {
   try {
@@ -34,6 +36,9 @@ export async function POST(req: NextRequest) {
       )
     }
 
+    const sblFontPath = path.join(process.cwd(), 'public/assets/SBL_BLit.ttf')
+    const sblFont = fs.readFileSync(sblFontPath).toString('base64')
+
     const title =
       sainRef.chapters && sainRef.chapters !== '*'
         ? `${bookMeta[sainRef.book as BookName].fullName} ${String(sainRef.chapters).replace('-', '–')}`
@@ -54,8 +59,21 @@ export async function POST(req: NextRequest) {
           <script src="https://cdn.tailwindcss.com"></script>
           <style>
             @page { margin: 40px }
+            /* @font-face {
+              font-family: 'SBL BibLit';
+              src: url('/assets/SBL_BLit.ttf') format('truetype');
+            } /* */
+            @font-face {
+              font-family: 'SBL BibLit';
+              src: url('data:font/ttf;base64,${sblFont}') format('truetype');
+              font-weight: normal;
+              font-style: normal;
+            } /* */
+            .font-sbl {
+              font-family: 'SBL BibLit', 'Times New Roman'
+            }
             .font-times {
-              font-family: 'Times New Roman'
+              font-family: 'Times New Roman', serif
             }
             .col-span-all {
               column-span: all
@@ -95,12 +113,11 @@ export async function POST(req: NextRequest) {
                 <div>
                   ${chapHeading}
 
-
                   <div class=''>
                     <div class='float-left flex flex-row ${lang === 'H' ? 'justify-items-end-safe min-w-[80px]' : 'min-w-[100px]'}'>
                       <div class='font-sans font-bold text-xs inline-block w-[12px] shrink-0 text-right mr-1'><sup>${verseNb}</sup></div>
-                      <div class='font-times font-semibold ${lang === 'H' ? 'text-sm text-right grow ml-1' : 'text-sm'}'>${word.lemma}</div>
-                      <div class='font-times font-normal text-center text-[8px] mx-1 pt-1 shrink-0 text-gray-500 dark:text-gray-400'>(${word.llbword.freq})</div>
+                      <div class='font-sbl font-bold ${lang === 'H' ? 'text-sm text-right grow ml-1' : 'text-sm'}'>${word.lemma}</div>
+                      <div class='font-times font-normal text-center text-[8px] inline-block min-w-[15px] mx-1 pt-1 shrink-0 text-gray-500'>(${word.llbword.freq})</div>
                     </div>
                     <div class='${lang === 'H' ? ' pl-[80px]' : 'pl-[100px]'} font-times text-sm'>${word.llbword.gloss}</div>
                   </div>
