@@ -2152,7 +2152,7 @@ G2224,ζώννυμι,"ceindre, entourer d’une ceinture",3,
 G2225,ζωογονέω,"conserver en vie, préserver vivant, demeurer en vie",3,
 G2226,ζῷον,"l'être vivant, l'animal",23,2025-07-28T14:34:25.467Z
 G2227,ζωοποιέω,"donner la vie, vivifier",11,2024-11-01T08:15:49.825Z
-G2228,ἤ,"ou, que",346,2024-11-01T08:15:49.825Z
+G2228,ἤ,ou; (comp.) que,346,2025-10-15T11:24:17.750Z
 G2230,ἡγεμονεύω,"avoir le gouvernement, être gouverneur, guider, diriger",2,
 G2231,ἡγεμονία,"règne, gouvernement",1,
 G2232,ἡγεμών,chef-lieu; gouverneur,20,
@@ -3026,7 +3026,7 @@ G3132,μαντεύομαι,"prophétiser, exercer la divination, faire des pré
 G3133,μαραίνω,"flétrir, faner, faire disparaître",1,
 G3135,μαργαρίτης,perle,9,
 G3136,Μάρθα,"Marthe = «dame, maîtresse»",13,
-G3137,Μαρία / Μαριάμμη,Marie = «leur rébellion»,54,2025-10-06T07:23:45.221Z
+G3137,Μαρία / Μαριάμμη,Marie = «leur rébellion»,54,2025-10-06T07:23:45.221Z
 G3138,Μάρκος,Marc = «une défense»,8,
 G3139,μάρμαρος,marbre,1,
 G3140,μαρτυρέω,témoigner,76,2025-10-06T07:24:11.804Z
@@ -3070,7 +3070,7 @@ G3180,μεθοδεία,"voie détournée, artifice, ruse, subterfuge",2,
 G3182,μεθύσκω,"s’enivrer, boire beaucoup",4,
 G3183,μέθυσος,"ivrogne, de s’enivrer, buveur",2,
 G3184,μεθύω,bien boire; être ivre; s’enivrer,6,
-G3187,μείζων,plus grand,0,2025-10-06T07:29:50.090Z
+G3187,μείζων,plus grand,0,2025-10-06T07:29:50.090Z
 G3188,μέλαν,encre,3,
 G3189,μέλας,noir,3,
 G3190,Μελεᾶς,"Méléa = «mon cher ami, objet de soin»",1,
@@ -3190,7 +3190,7 @@ G3414,μνᾶ,mine,9,
 G3416,Μνάσων,Mnason = «qui se souvient»,1,
 G3417,μνεία,mention; souvenir,7,
 G3418,μνῆμα,"sépulcre, tombe, tombeau",8,
-G3419,μνημεῖον,"sépulcre, tombeau",40,2024-11-01T08:15:49.825Z
+G3419,μνημεῖον,"la tombe, le monument, le sépulcre",40,2025-10-15T11:31:12.839Z
 G3420,μνήμη,"rappeler, faire mémoire, garder le souvenir",1,
 G3421,μνημονεύω,avoir de la mémoire; faire mention; se souvenir,21,
 G3422,μνημόσυνον,mémorial,3,
@@ -3211,7 +3211,7 @@ G3437,μομφή,"sujet de plainte, blâme",1,
 G3438,μονή,"demeure, habitation, résidence",2,
 G3439,μονογενής,unique,9,
 G3440,μόνον,"seulement, uniquement",2,
-G3441,μόνος,seul,111,2024-11-01T08:15:49.825Z
+G3441,μόνος,"seul, unique",111,2025-10-15T11:31:40.804Z
 G3442,μονόφθαλμος,qui a l’usage d’un seul œil,2,
 G3443,μονόω,"laisser seul, être resté seul",1,
 G3444,μορφή,"forme, nature, essence d’un être",3,
@@ -3234,7 +3234,7 @@ G3462,μυρίζω,"oindre, appliquer une substance, parfumer",1,
 G3463,μύριοι,dix mille,3,
 G3464,μύρον,huile aromatique; parfum,14,
 G3465,Μυσία,Mysie = «territoire des arbres de la plage»,2,
-G3466,μυστήριον,"mystère, mystérieux",27,2024-11-01T08:15:49.825Z
+G3466,μυστήριον,le mystère,27,2025-10-15T11:34:00.536Z
 G3467,μυωπάζω,"ne pas voir loin, être myope",1,
 G3468,μώλωψ,meurtrissure,1,
 G3469,μωμάομαι,"blâmer, discréditer, critiquer",2,
@@ -3251,9 +3251,9 @@ G3479,Ναζαρηνός,Nazaréen,6,
 G3480,Ναζωραῖος,"Nazaréen = «séparé, consacré à Dieu»",13,
 G3481,Ναθάν,Nathan = «il a donné»,1,
 G3482,Ναθαναήλ,Nathanaël = «Dieu a donné»,6,
-G3483,ναί,"oui, véritablement, vraiment, assurément",34,2024-11-01T08:15:49.825Z
+G3483,ναί,"oui, bien sûr, vraiment, assurément",34,2025-10-15T11:35:11.582Z
 G3484,Ναΐν,Naïn = «beauté»,1,
-G3485,ναός,"sanctuaire, temple",45,2024-11-01T08:15:49.825Z
+G3485,ναός,"le sanctuaire, le temple",45,2025-10-15T11:35:40.724Z
 G3486,Ναούμ,"Nahum = «consolation, qui a compassion»",1,
 G3487,νάρδος,nard,2,
 G3488,Νάρκισσος,Narcisse = «stupidité»,1,
@@ -3273,7 +3273,7 @@ G3502,νεοσσός,"jeune (créature, jeune, jeune oiseau",1,
 G3503,νεότης,jeunesse,4,
 G3504,νεόφυτος,nouvellement converti,1,
 G3506,νεύω,"faire signe, donner un signe",2,
-G3507,νεφέλη,la nuée,25,2024-11-01T08:15:49.825Z
+G3507,νεφέλη,"le nuage, la nuée",25,2025-10-15T11:36:45.649Z
 G3508,Νεφθαλείμ,Nephtali = «celui qui lutte»,3,
 G3509,νέφος,"nuée, multitude",1,
 G3510,νεφρός,"reins, sondée par dieu",1,
@@ -3303,7 +3303,7 @@ G3533,Νικόπολις,Nicopolis = «cité de la victoire»,1,
 G3534,νῖκος,"victoire, succès, triomphe",4,
 G3536,Νινευΐτης,"Ninivite, de ninive, habitant de nivive",3,
 G3537,νιπτήρ,"bassin, cuvette",1,
-G3538,νίπτω,"laver, se laver",17,2024-11-01T08:15:49.825Z
+G3538,νίπτω,laver; (moy.) se laver,17,2025-10-15T11:38:06.853Z
 G3539,νοέω,comprendre; penser; considérer,14,
 G3540,νόημα,pensée; dessein; entendement,6,
 G3541,νόθος,enfant illégitime,1,2024-11-01T08:15:49.825Z
@@ -3327,7 +3327,7 @@ G3559,νουθεσία,"admonestation, avertissement",3,
 G3560,νουθετέω,avertir; exhorter,7,
 G3561,νουμηνία,nouvelle lune,1,
 G3562,νουνεχῶς,"sagement, avec intelligence",1,
-G3563,νοῦς,"esprit, sens, entendement, pensée, intelligence, bon sens",24,2024-11-01T08:15:49.825Z
+G3563,νοῦς,"l'esprit, l'intelligence",24,2025-10-15T11:39:36.250Z
 G3564,Νυμφᾶς,"Nymphas = «marié, consacré aux nymphes»",1,
 G3565,νύμφη,épouse,8,
 G3566,νυμφίος,époux,16,
@@ -3351,7 +3351,7 @@ G3584,ξηρός,sec; personne qui a les membres secs,8,
 G3585,ξύλινος,fait de bois,2,
 G3586,ξύλον,"bois, bâton, morceau de bois",20,2024-11-01T08:15:49.825Z
 G3587,ξυράω,"raser, couper les cheveux",3,
-G3588,ὁ,"cet, cette, ce",19785,
+G3588,ὁ,"le, la, les",19785,2025-10-15T11:40:37.281Z
 G3589,ὀγδοήκοντα,quatre-vingts,2,
 G3590,ὄγδοος,"huitième, un nombre",5,
 G3591,ὄγκος,"fardeau, poids, protubérance",1,
@@ -3376,16 +3376,16 @@ G3610,οἰκέτης,"domestique, serviteur, gens d’une maison",4,
 G3611,οἰκέω,"habiter, résider",9,
 G3612,οἴκημα,prison,1,
 G3613,οἰκητήριον,"demeure, habitation, domicile",2,
-G3614,οἰκία,une maison,93,2024-11-01T08:15:49.825Z
+G3614,οἰκία,"la maison, la maisonnée",93,2025-10-15T11:42:27.054Z
 G3615,οἰκιακός,celui qui appartient à la maison,2,
 G3616,οἰκοδεσποτέω,"gouverner sa maison, diriger son foyer",1,
 G3617,οἰκοδεσπότης,maître de la maison,12,
-G3618,οἰκοδομέω,"bâtir, construire",40,2024-11-01T08:15:49.825Z
+G3618,οἰκοδομέω,"construire, édifier, bâtir",40,2025-10-15T11:43:07.264Z
 G3619,οἰκοδομή,bâtiment; édifice; édification,18,
 G3621,οἰκονομέω,"administrer, gérer les affaires, assumer la responsabilité",1,
 G3622,οἰκονομία,"administration, gouvernement d’une maison, gestion des biens",9,
 G3623,οἰκονόμος,administrateur; dispensateur; intendant,10,
-G3624,οἶκος,maison,112,2024-11-01T08:15:49.825Z
+G3624,οἶκος,"la maison, la maisonnée",112,2025-10-15T11:46:41.980Z
 G3625,οἰκουμένη,"terre habitée, monde habité",15,
 G3626,οἰκουργός,occupé des soins de la maison,1,
 G3627,οἰκτείρω,"avoir compassion, exercer la grâce",2,
@@ -3399,7 +3399,7 @@ G3634,οἷος,"de telle sorte, de telle manière, ainsi que, …",14,
 G3635,ὀκνέω,"tarder, hésiter",1,
 G3636,ὀκνηρός,"paresseux, indolent, fainéant, pénible",3,
 G3637,ὀκταήμερος,huitième jour,1,
-G3638,ὀκτώ,"huit, un nombre",8,
+G3638,ὀκτώ,huit,8,2025-10-15T11:47:15.136Z
 G3639,ὄλεθρος,"destruction, ruine, anéantissement",4,
 G3640,ὀλιγόπιστος,personne de petite foi,5,
 G3641,ὀλίγος,"petit, peu nombreux",40,2024-11-01T08:15:49.825Z
@@ -3423,13 +3423,13 @@ G3659,ὄμμα,œil,2,
 G3660,ὄμνυμι,"jurer, faire serment",26,2024-11-01T08:15:49.825Z
 G3661,ὁμοθυμαδόν,"d’un commun accord, unanimement, d’un même cœur",11,
 G3663,ὁμοιοπαθής,"ayant les mêmes passions, les mêmes sentiments",2,
-G3664,ὅμοιος,"pareil, semblable, ressemblant, similaire, de même nature",46,2024-11-01T08:15:49.825Z
+G3664,ὅμοιος,"pareil, semblable, de même nature",46,2025-10-15T11:48:35.084Z
 G3665,ὁμοιότης,"ressemblance, similitude",2,
 G3666,ὁμοιόω,comparer; être fait semblable; ressembler,15,
 G3667,ὁμοίωμα,"ressemblance, similitude",6,
-G3668,ὁμοίως,"de même, également, de la même façon",31,2024-11-01T08:15:49.825Z
+G3668,ὁμοίως,"de la même façon, de même, également",31,2025-10-15T11:50:22.581Z
 G3669,ὁμοίωσις,"ressemblance, image, similitude",1,
-G3670,ὁμολογέω,"s'accorder avec, être d'accord",26,2024-11-01T08:15:49.825Z
+G3670,ὁμολογέω,"promettre, reconnaître, s'accorder",26,2025-10-15T11:51:09.419Z
 G3671,ὁμολογία,"confession, profession",6,
 G3672,ὁμολογουμένως,"sans contredit, assurément, incontestablement",1,
 G3673,ὁμότεχνος,"même métier, même occupation",1,
@@ -3445,7 +3445,7 @@ G3682,Ὀνήσιμος,"Onésime = «profitable, utile»",2,
 G3683,Ὀνησίφορος,Onésiphore = «qui apporte un profit»,2,
 G3684,ὀνικός,d’âne,2,
 G3685,ὀνίνημι,"tirer profit, tirer un bénéfice, un avantage",1,
-G3686,ὄνομα,nom,229,2024-11-01T08:15:49.825Z
+G3686,ὄνομα,le nom,229,2025-10-15T11:51:28.564Z
 G3687,ὀνομάζω,appeler; nommer; prêcher; prononcer; invoquer,9,
 G3688,ὄνος,"âne, ânesse",5,
 G3689,ὄντως,en réalité; en vérité; véritablement; vraiment,10,
@@ -3453,7 +3453,7 @@ G3690,ὄξος,vinaigre,6,
 G3691,ὀξύς,aigu; tranchant; rapide,8,
 G3692,ὀπή,"ouverture, trou, orifice, grotte",2,
 G3693,ὄπισθεν,"derrière, par derrière, dans le dos",7,
-G3694,ὀπίσω,arrière; derrière,35,
+G3694,ὀπίσω,"(adv) derrière; (+G) derrière, après",35,2025-10-15T11:53:52.758Z
 G3695,ὁπλίζω,"s’armer, s’équiper, se munir",1,
 G3696,ὅπλον,"arme, instrument de combat, outil, instrument",6,
 G3697,ὁποῖος,"quel, de quelle sorte",5,
@@ -3462,12 +3462,12 @@ G3700,ὀπτάνομαι,mettre ordre; montrer,1,
 G3701,ὀπτασία,"vision, apparition",4,
 G3702,ὀπτός,"cuit, rôti, grillé",1,
 G3703,ὀπώρα,fruit,1,2024-11-01T08:15:49.825Z
-G3704,ὅπως,de manière à; en sorte que; comment,53,
+G3704,ὅπως,"(+subj) afin que, de manière à, en sorte que; (adv) comment, que",53,2025-10-15T11:56:08.042Z
 G3705,ὅραμα,"vision, apparition",12,
 G3706,ὅρασις,vision,4,
 G3707,ὁρατός,visible,1,
 G3708,ὁράω,"voir, percevoir, connaître",113,2024-11-01T08:15:49.825Z
-G3709,ὀργή,"colère, indignation",36,2024-11-01T08:15:49.825Z
+G3709,ὀργή,"la colère, l'indignation",36,2025-10-15T11:56:35.268Z
 G3710,ὀργίζω,"être en colère, être fâché, être irrité",8,
 G3711,ὀργίλος,"coléreux, irascible",1,
 G3712,ὀργυιά,"brasse, mesure de longueur, ou de profondeur, d’env. 1, 80 mètre",2,
@@ -3492,11 +3492,11 @@ G3731,ὅρμημα,violence,1,
 G3732,ὄρνεον,oiseau,3,
 G3733,ὄρνις,poule,2,
 G3734,ὁροθεσία,"borne, limite, frontière",1,
-G3735,ὄρος,une montagne,62,2024-11-01T08:15:49.825Z
+G3735,ὄρος,la montagne,62,2025-10-15T11:56:48.998Z
 G3736,ὀρύσσω,"creuser, excaver",3,
 G3737,ὀρφανός,orphelin,2,
 G3738,ὀρχέομαι,danser,4,
-G3739,ὅς,"qui, que, quoi",1408,
+G3739,ὅς,"qui, que",1408,2025-10-15T11:57:09.354Z
 G3740,ὁσάκις,"toutes les fois que, chaque fois que, aussi souvent que",3,
 G3741,ὅσιος,pieux; saint,8,
 G3742,ὁσιότης,"sainteté, piété, obéissance à dieu",2,
@@ -3508,7 +3508,7 @@ G3748,ὅστις,"celui qui, quiconque, qui",144,2024-11-01T08:15:49.825Z
 G3749,ὀστράκινος,fait de terre ou d’argile,2,
 G3750,ὄσφρησις,l’odorat,1,2024-11-01T08:15:49.825Z
 G3751,ὀσφῦς,"reins, hanches",8,
-G3752,ὅταν,"quand, lorsque",122,
+G3752,ὅταν,"(+subj) à chaque fois que, quand; (+ind) quand, lorsque",122,2025-10-15T12:02:40.402Z
 G3753,ὅτε,"quand, lorsque",102,2024-11-01T08:15:49.825Z
 G3754,ὅτι,"que, parce que, puisque",1291,2024-11-01T08:15:49.825Z
 G3756,οὐ,"non, pas",1667,2024-11-01T08:15:49.825Z
@@ -3516,26 +3516,26 @@ G3757,οὗ,où,24,2024-11-01T08:15:49.825Z
 G3758,οὐά,"hé!, exclamation de moquerie",1,
 G3759,οὐαί,"hélas, malheur!",46,2024-11-01T08:15:49.825Z
 G3760,οὐδαμῶς,"nullement, en aucune manière",1,
-G3761,οὐδέ,"non plus, ni l’un ni l’autre, ni, pas même …",140,2024-11-01T08:15:49.825Z
+G3761,οὐδέ,"et ne... pas, non plus, ni l’un ni l’autre, ni, pas même...",140,2025-10-15T12:05:08.133Z
 G3762,οὐδείς,"aucun, rien, personne",232,2024-11-01T08:15:49.825Z
 G3763,οὐδέποτε,"jamais, en aucun cas",16,
 G3764,οὐδέπω,"jamais, pas encore, jusqu’ici",4,
-G3765,οὐκέτι,ne plus,0,
+G3765,οὐκέτι,ne... plus,0,2025-10-15T12:05:45.470Z
 G3766,οὐκοῦν,"n’est-ce pas, donc",1,
 G3767,οὖν,"alors, donc, c’est pourquoi, par conséquent",494,2024-11-01T08:15:49.825Z
-G3768,οὔπω,pas encore,26,2024-11-01T08:15:49.825Z
+G3768,οὔπω,ne... pas encore,26,2025-10-15T12:06:18.331Z
 G3769,οὐρά,queue,5,
 G3770,οὐράνιος,"céleste, relatif au ciel",9,
 G3771,οὐρανόθεν,du ciel,2,
-G3772,οὐρανός,"ciel, cieux",273,2024-11-01T08:15:49.825Z
+G3772,οὐρανός,le ciel,273,2025-10-15T12:06:36.206Z
 G3773,Οὐρβανός,"Urbain = «de la ville; poli, courtois»",1,
 G3774,Οὐρίας,Urie = «lumière de l’Éternel»,1,
 G3775,οὖς,l’oreille,36,2024-11-01T08:15:49.825Z
 G3776,οὐσία,"bien, avoir, fortune",2,
 G3777,οὔτε,ni,86,2024-11-01T08:15:49.825Z
 G3778,οὗτος,"celui-ci, celle-ci",1380,2024-11-01T08:15:49.825Z
-G3779,οὕτω,"de cette manière, ainsi",207,2024-11-01T08:15:49.825Z
-G3780,οὐχί,"non, d’aucune manière, pas du tout",53,2024-11-01T08:15:49.825Z
+G3779,οὕτω/οὕτως,"de cette façon, ainsi",207,2025-10-15T12:07:41.872Z
+G3780,οὐχί,"non, ne... pas, d’aucune manière, pas du tout",53,2025-10-15T12:08:05.418Z
 G3781,ὀφειλέτης,"débiteur, coupable",7,
 G3782,ὀφειλή,"dette, dû",3,
 G3783,ὀφείλημα,"dette, offense",2,
@@ -3543,12 +3543,12 @@ G3784,ὀφείλω,"devoir, être en dette",35,2024-11-01T08:15:49.825Z
 G3785,ὄφελον,"puissiez-vous, si seulement",4,
 G3786,ὄφελος,"profit, gain, avantage",3,
 G3787,ὀφθαλμοδουλεία,service sous les yeux,1,
-G3788,ὀφθαλμός,l'oeil,100,2024-11-01T08:15:49.825Z
+G3788,ὀφθαλμός,l'œil,100,2025-10-15T12:08:30.701Z
 G3789,ὄφις,serpent,14,2024-11-01T08:15:49.825Z
 G3790,ὀφρῦς,"bord escarpé, escarpement",1,
 G3791,ὀχλέω,"exciter, déranger, affliger",1,2024-11-01T08:15:49.825Z
 G3792,ὀχλοποιέω,"faire un amas du peuple, rassembler la foule",1,
-G3793,ὄχλος,une foule,174,2024-11-01T08:15:49.825Z
+G3793,ὄχλος,la foule,174,2025-10-15T12:08:46.223Z
 G3794,ὀχύρωμα,"forteresse, place forte",1,
 G3795,ὀψάριον,poisson cuit,5,
 G3796,ὀψέ,"sur le tard, après",3,
@@ -3595,16 +3595,16 @@ G3840,πάντοθεν,"entièrement, complètement, de toutes parts",3,
 G3841,παντοκράτωρ,Tout-puissant,10,
 G3842,πάντοτε,toujours,41,2024-11-01T08:15:49.825Z
 G3843,πάντως,absolument; assurément; entièrement,8,
-G3844,παρά,près de; sur le bord; d’une manière contraire; bien que,194,
+G3844,παρά,"(+A) le long de, sur le bord de; (+D) de, près de; (+G) d'auprès de",194,
 G3845,παραβαίνω,"déchoir, s’écarter, délaisser, transgresser",3,
 G3846,παραβάλλω,"toucher, cingler, naviguer vers, représenter",1,
 G3847,παράβασις,transgression,7,2024-11-01T08:15:49.825Z
 G3848,παραβάτης,transgresseur,5,2024-11-01T08:15:49.825Z
 G3849,παραβιάζομαι,"forcer, contraindre, presser avec instance",2,
-G3850,παραβολή,"parabole, comparaison, proverbe, figure",50,2024-11-01T08:15:49.825Z
+G3850,παραβολή,la parabole,50,2025-10-15T12:11:16.505Z
 G3851,παραβουλεύομαι,"exposer, risquer",1,
 G3852,παραγγελία,commandement; ordonnance; ordre,5,
-G3853,παραγγέλλω,"ordonner, donner des instructions, transmettre",31,2024-11-01T08:15:49.825Z
+G3853,παραγγέλλω,(+D) ordonner,31,2025-10-15T12:11:39.062Z
 G3854,παραγίνομαι,arriver,36,2024-11-01T08:15:49.825Z
 G3855,παράγω,aller; passer,10,
 G3856,παραδειγματίζω,"exposer à l’opprobre, à l’ignominie",1,
@@ -3702,7 +3702,7 @@ G3948,παροξυσμός,"irritation, exaspération, désaccord, excitation",
 G3949,παροργίζω,"provoquer, irriter",2,
 G3950,παροργισμός,"irritation, exaspération, colère",1,
 G3951,παροτρύνω,"exciter, agiter",1,
-G3952,παρουσία,"présence, la venue, l’arrivée, l’avènement",24,2024-11-01T08:15:49.825Z
+G3952,παρουσία,"la présence, la venue, l’avènement",24,2025-10-15T12:13:57.951Z
 G3953,παροψίς,"plat, des friandises, des mets délicats",2,
 G3954,παρρησία,la franchise,31,2024-11-01T08:15:49.825Z
 G3955,παρρησιάζομαι,parler avec hardiesse; parler ouvertement; s’enhardir,9,
