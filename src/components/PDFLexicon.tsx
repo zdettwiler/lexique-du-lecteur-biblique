@@ -26,6 +26,7 @@ export default function PDFLexicon({
   const [isLoading, setLoading] = useState<boolean>(!link)
   const [pdfUrl, setPdfUrl] = useState<string | null>(null)
   const [isError, setError] = useState<boolean>(false)
+  const fileName = `${book} ${chapters?.replace('-', '–')} (<${occurrences}×) - Lexique du lecteur biblique.pdf`
 
   const fetchPDF = useCallback(async () => {
     let url = pdfUrl
@@ -59,8 +60,8 @@ export default function PDFLexicon({
     if (link && url) {
       const a = document.createElement('a')
       a.href = url
-      a.download = `${book} ${chapters} (<${occurrences}×) - Lexique du lecteur biblique.pdf`
-      // a.target = '_blank' // open in a new tab
+      // a.download = fileName
+      a.target = '_blank' // open in a new tab
       document.body.appendChild(a)
       a.click()
       document.body.removeChild(a)
@@ -103,11 +104,8 @@ export default function PDFLexicon({
   } else if (pdfUrl && !link && !isLoading) {
     return (
       <div className="container max-w-[600px] mx-auto text-center px-4 mt-10">
-        <a
-          href={pdfUrl}
-          download={`${book} ${chapters?.replace('-', '–')} (<${occurrences}×) - Lexique du lecteur biblique.pdf`}
-        >
-          <Button size="sm" variant="secondary">
+        <a href={pdfUrl} download={fileName}>
+          <Button size="sm" variant="secondary" className="download-lexicon">
             <Download className="mr-2 h-4 w-4" />
             {`Télécharger le PDF`}
           </Button>
@@ -146,12 +144,12 @@ export default function PDFLexicon({
     )
   } else if (pdfUrl && link && !isLoading) {
     return (
-      <a
-        id="download-lexicon"
-        href={pdfUrl}
-        download={`${book} ${chapters} (<${occurrences}×) - Lexique du lecteur biblique.pdf`}
-      >
-        <Button variant="ghost" size="icon-sm" className="font-sans">
+      <a href={pdfUrl} download={fileName}>
+        <Button
+          variant="ghost"
+          size="icon-sm"
+          className="download-lexicon font-sans"
+        >
           <FileText />
         </Button>
       </a>
