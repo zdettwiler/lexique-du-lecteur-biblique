@@ -1,0 +1,42 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model LLB {
+  strong     String       @id @unique
+  lemma      String
+  gloss      String
+  freq       Int
+  // vu         Boolean
+  updatedAt  DateTime?    @default(now()) @updatedAt
+  bibleword  Bible[]
+  pegonduff  PegonDuff?
+}
+
+model PegonDuff {
+  strong   String @id @unique
+  chapter String @default("")
+  llbword  LLB    @relation(fields: [strong], references: [strong])
+}
+
+model Bible {
+  id      Int     @id @unique @default(autoincrement())
+  book    String
+  chapter Int
+  verse   Int
+  word    String
+  lemma   String
+  llbword LLB @relation(fields: [strong], references: [strong])
+  strong  String
+}

@@ -1,8 +1,3 @@
 {
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off",
-    "no-trailing-spaces": "error"
-  }
+  "extends": ["next/core-web-vitals", "next/typescript"]
 }
