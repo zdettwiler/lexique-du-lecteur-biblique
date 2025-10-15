@@ -6,7 +6,7 @@ import {
   TooltipContent,
   TooltipTrigger
 } from '@/components/ui/tooltip'
-import { LoaderCircle, FileText, FileDown, Download } from 'lucide-react'
+import { LoaderCircle, FileText, FileDown, FileX, Download } from 'lucide-react'
 import type { BookName } from '@/types'
 import ErrorAlert from '@/components/ErrorAlert'
 
@@ -77,10 +77,19 @@ export default function PDFLexicon({
   }, [pdfUrl, link, isError, fetchPDF])
 
   if (isError) {
-    return (
+    return !link ? (
       <div className="container max-w-[600px] mx-auto px-4 mt-10">
         <ErrorAlert />
       </div>
+    ) : (
+      <Button
+        variant="outline"
+        disabled
+        size="icon-sm"
+        className="font-sans text-destructive border-destructive"
+      >
+        <FileX />
+      </Button>
     )
   }
 

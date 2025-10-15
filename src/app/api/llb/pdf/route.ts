@@ -5,6 +5,10 @@ import { generatePDF } from '@/utils/pdf'
 import { bookMeta } from '@/utils/booksMetadata'
 
 export async function POST(req: NextRequest) {
+  return NextResponse.json(
+    { error: 'Erreur: Problème de paramètres.' },
+    { status: 400 }
+  )
   try {
     const { ref } = await req.json()
 

@@ -5,7 +5,7 @@ export default function ErrorAlert() {
   return (
     <Alert
       variant="destructive"
-      className="has-[svg]:grid-cols-[auto_1fr] my-5"
+      className="font-sans text-left has-[svg]:grid-cols-[auto_1fr] my-5"
     >
       <PaintbrushVertical />
       <AlertTitle>Oups!</AlertTitle>
