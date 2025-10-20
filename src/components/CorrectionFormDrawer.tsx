@@ -25,7 +25,11 @@ export default function CorrectionFormDrawer({
   return (
     word && (
       <>
-        <Drawer open={isOpen} onOpenChange={setIsLLBCorrectionDrawerOpen}>
+        <Drawer
+          open={isOpen}
+          onOpenChange={setIsLLBCorrectionDrawerOpen}
+          repositionInputs={false}
+        >
           <DrawerContent>
             <div className="w-full max-w-lg mx-auto">
               <DrawerHeader>
