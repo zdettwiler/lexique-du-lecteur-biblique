@@ -725,7 +725,7 @@ G0742,Ἀρφαξάδ,Arphaxad = «forteresse des Chaldéens»,1,
 G0743,ἀρχάγγελος,archange,2,
 G0744,ἀρχαῖος,vieux; ancien,11,
 G0745,Ἀρχέλαος,Archélaüs = «prince du peuple»,1,
-G0746,ἀρχή,commencement,55,2024-11-01T08:15:49.825Z
+G0746,ἀρχή,"commencement; dirigeant; coin; domaine, sphère d’influence",55,2025-10-20T11:48:20.514Z
 G0747,ἀρχηγός,chef,4,
 G0748,ἀρχιερατικός,souverain sacerdotal,1,
 G0749,ἀρχιερεύς,"souverain sacrificateur, grand prêtre",122,2024-11-01T08:15:49.825Z
@@ -1215,7 +1215,7 @@ G1248,διακονία,"service, ministère, secours",34,2024-11-01T08:15:49.82
 G1249,διάκονος,"ministre, serviteur",30,2025-07-18T20:00:09.745Z
 G1250,διακόσιοι,deux cents,8,
 G1251,διακούω,entendre à fond,1,
-G1252,διακρίνω,juger; décider; discerner; faire une différence; disputer; (moyen et/ou passif) douter,19,
+G1252,διακρίνω,"distinguer; décider, déterminer, évaluer; (moy.) contester; (moy./pass.) douter, vaciller",19,2025-10-20T12:32:11.352Z
 G1253,διάκρισις,"décision, critique, jugement, discernement",3,
 G1254,διακωλύω,"empêcher fort, s’opposer vigoureusement",1,
 G1255,διαλαλέω,"s’entretenir, parler, converser",2,
@@ -2562,7 +2562,7 @@ G2658,καταντάω,arriver; parvenir; atteindre; venir,13,
 G2659,κατάνυξις,"étourdissement, sommeil profond, engourdissement",1,
 G2660,κατανύσσω,saisir de componction,1,
 G2661,καταξιόω,"estimer digne, juger digne, juger méritoire",3,
-G2662,καταπατέω,"fouler, fouler aux pieds, fouler, fouler aux pieds",5,
+G2662,καταπατέω,fouler aux pieds,5,2025-10-20T12:11:26.959Z
 G2663,κατάπαυσις,"repos, action de s’arrêter",9,
 G2664,καταπαύω,"empêcher, faire cesser, restreindre, se reposer, donner du repos",4,
 G2665,καταπέτασμα,"voile, rideau",6,
@@ -2716,7 +2716,7 @@ G2818,κληρονόμος,héritier,15,
 G2819,κλῆρος,héritage; part; sort,10,
 G2820,κληρόω,"devenir héritier, avoir en héritage",1,2024-11-01T08:15:49.825Z
 G2821,κλῆσις,"appel, vocation",11,
-G2822,κλητός,"appelé, invité, choisi",10,
+G2822,κλητός,"appelé, invité",10,2025-10-20T12:09:24.837Z
 G2823,κλίβανος,four,2,
 G2824,κλίμα,"district, région, contrée",3,2024-11-01T08:15:49.825Z
 G2825,κλίνη,petit lit,8,
@@ -3965,7 +3965,7 @@ G4216,ποταμοφόρητος,emporté par le fleuve,1,
 G4217,ποταπός,"quel, de quelle sorte",7,
 G4218,ποτέ,auparavant; autrefois; à quelque moment; jamais; quand,29,
 G4219,πότε,quand?,19,
-G4220,πότερος,lequel des deux,1,
+G4220,πότερος,si,1,2025-10-20T12:05:42.915Z
 G4221,ποτήριον,coupe,31,2024-11-01T08:15:49.825Z
 G4222,ποτίζω,boire; abreuver; arroser,15,
 G4223,Ποτίολοι,Pouzzoles = «petites sources»,1,
@@ -4053,7 +4053,7 @@ G4307,πρόνοια,"soin, prévoyance, préoccupation",2,
 G4308,προοράω,"voir à l'avance, prévoir; voir auparavant; (moyen) (+A) voir devant soi",4,2024-11-01T08:15:49.825Z
 G4309,προορίζω,"prédestiner, désigner, déterminer à l’avance",6,
 G4310,προπάσχω,"souffrir auparavant, souffrir précédemment",1,
-G4311,προπέμπω,"accompagner, escorter, faire la conduite",9,
+G4311,προπέμπω,"accompagner, escorter; pourvoir au voyage",9,2025-10-20T12:25:29.618Z
 G4312,προπετής,"téméraire, emportée",2,
 G4313,προπορεύω,"aller devant, précéder, marcher en avant",2,
 G4314,πρός,"(+A) vers, à, auprès de, devant, en présence de, pour, en vue de; (+G) pour, à l'avantage de; (+D) près de",699,2024-11-01T08:15:49.825Z
@@ -4422,7 +4422,7 @@ G4690,σπέρμα,postérité; semence,43,
 G4691,σπερμολόγος,"un discoureur, un parleur vide, un babillard",1,2024-11-01T08:15:49.825Z
 G4692,σπεύδω,hâter; se hâter,6,
 G4693,σπήλαιον,"caverne, grotte, abri sous roche",6,
-G4694,σπιλάς,"tache, écueil",1,
+G4694,σπιλάς,"tache, écueil; récif",1,2025-10-20T11:46:09.340Z
 G4695,σπιλόω,"souiller, tacher, salir",2,
 G4696,σπίλος,"tache, souillure, défaut moral",2,
 G4697,σπλαγχνίζω,"avoir, être ému de",12,
@@ -6263,13 +6263,13 @@ H0894,"בָּבֶ֫ל, בָּבֶל",Babel ou Babylone = «confusion (par mélan
 H0895,"בָּבֶ֫ל, בָּבֶל",Babel ou Babylone = «confusion (par mélange)»,25,
 H0896,בָּֽבְלַי,"de Babylone, babylonien",1,
 H0898,בָּגַד,"trahir, tromper",49,2024-11-01T08:15:49.825Z
-H0899,בֶּ֫גֶד,"perfidie, tromperie",217,
+H0899,בֶּ֫גֶד,"vêtement, habit; perfidie, tromperie",217,2025-10-20T11:58:09.813Z
 H0900,בֹּגְדוֹת,"traître, infidèle, hommes à l’apparence trompeuse",1,
 H0901,בָּגוֹד,"infidèle, traître, perfide, trompeur",2,
 H0902,בִּגְוַי,Bigvaï = «dans mon corps»,6,
 H0903,בִּגְתָא,Bigtha = «dans le pressoir»,1,
 H0904,בִּגְתָן,Bigthan = «dans leur pressoir»,2,
-H0905,בַּד,"seul, par lui-même, en outre, une partie, séparation, être seul",200,
+H0905,בַּד,"à part, isolé, seul",200,2025-10-20T12:53:09.235Z
 H0906,בַּד,"lin, lin blanc, fin lin",23,
 H0907,בַּד,"discussion vide, vain discours, menteur, mensonge",7,
 H0908,בָּדָא,"combiner, tramer, imaginer, inventer (de mauvaises choses)",2,
@@ -8047,7 +8047,7 @@ H2719,חֶ֫רֶב,"épée, couteau",413,
 H2720,חָרֵב,"sec, désert, dévasté  ",10,2024-12-04T10:19:03.000Z
 H2721,חֹ֫רֶב,"sécheresse, désolation, chaleur",16,
 H2722,חֹרֵב,"Horeb = «désert, sécheresse»",17,
-H2723,חׇרְבָּה,"désolation, dévastation, ruine; lieu de désolation",42,2025-02-11T10:23:12.000Z
+H2723,חׇרְבָּה,"désolation, dévastation, ruine",42,2025-10-20T12:01:47.866Z
 H2724,חָֽרָבָה,"terre sèche, le sol sec",8,
 H2725,חֵרָבוֹן,sécheresse,1,
 H2726,חַרְבוֹנָא,Harbona = «conducteur d’âne»,2,
@@ -8724,7 +8724,7 @@ H3414,יִרְמְיָ֫הוּ,Jérémie = «celui que l’Éternel a désigné�
 H3415,יָרַע,"(Qal) trembler, frissonner",2,
 H3416,יִרְפְּאֵל,Jirpeel = «Dieu guérit»,1,
 H3417,יָרַק,(Qal) cracher,3,
-H3418,יֶ֫רֶק,"vert, verdure, plantes vertes, choses vertes",6,
+H3418,יֶ֫רֶק,"la verdure, les plantes vertes",6,2025-10-20T12:24:10.442Z
 H3419,יָרָק,"herbes, herbage, légumes, jardin potager",5,
 H3420,יֵרָקוֹן,"nielle, rouille; pâleur, lividité",6,2025-03-12T08:58:48.000Z
 H3421,יׇרְקְעָ֑ם,Jorkeam = «le peuple se répand»,1,
@@ -10326,7 +10326,7 @@ H5044,נִבְשָׁן,Nibschan = «doux terroir»,1,
 H5045,נֶ֫גֶב,"région du sud, le Nékeb",112,
 H5046,נָגַד,"(Hif) déclarer, raconter, annoncer; (Hof) être raconté, être dit, être rapporté",371,2025-02-12T10:30:35.000Z
 H5047,נְגַד,"(Pael) un courant, couler",1,
-H5048,נֶ֫גֶד,"devant, en présence, en face, vis-à-vis, du côté",151,2025-02-14T09:51:55.000Z
+H5048,נֶ֫גֶד,devant,151,2025-10-20T11:59:33.515Z
 H5049,נֶ֫גֶד,"en face de, faisant face à",1,
 H5050,נָגַהּ,briller,6,
 H5051,נֹ֫גַהּ,"éclat, brillance",19,
@@ -12713,7 +12713,7 @@ H7458,רָעָב,"famine, faim",101,
 H7459,רְעָבוֹן,"faim, manque de nourriture, famine",3,
 H7460,רָעַד,"trembler, tremblant",3,
 H7461,רַ֫עַד,"tremblement, crainte",6,
-H7462,רָעָה,"faire paître, soigner, nourrir",177,
+H7462,רָעָה,"paître, faire paître, soigner, nourrir",177,2025-10-20T11:58:09.813Z
 H7463,רֵעֶה,"ami, favori du roi (sens technique)",3,
 H7464,רֵעָה,"une compagne, une demoiselle de compagnie",3,
 H7465,רֹעָה,"brisé, cassé",1,
@@ -13549,7 +13549,7 @@ H8313,שָׂרַף,brûler,117,
 H8314,שָׂרָף,"serpent ardent, serpent",7,
 H8315,שָׂרָף,"Saraph = «brûlant, fougueux»",1,
 H8316,שְׂרֵפָה,"feu, incendie",13,
-H8317,שָׁרַץ,"(Qal) grouiller, fourmiller, essaimer, multiplier",14,
+H8317,שָׁרַץ,"(Qal) grouiller, fourmiller, multiplier",14,2025-10-20T12:44:02.136Z
 H8318,שֶׁ֫רֶץ,choses grouillantes ou fourmillantes,15,
 H8319,שָׁרַק,siffler,12,
 H8320,שָׂרֹק,"alezan, rougeâtre, fauve",1,
