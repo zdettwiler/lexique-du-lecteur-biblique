@@ -43,8 +43,8 @@ export default function LLBCorrectionForm({
   ) => {
     setIsLLBCorrectionDrawerOpen(false)
     toast.loading('Envoi de la correction...', {
-      id: 'loading',
-      style: { background: 'white' }
+      id: 'loading'
+      // style: { background: 'white' }
     })
     const result = await sendLLBCorrectionForm(values, word)
     toast.dismiss('loading')
