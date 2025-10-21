@@ -603,7 +603,7 @@ G0618,ἀπολαμβάνω,recevoir; récupérer; (moyen) prendre à part,10,2
 G0619,ἀπόλαυσις,"jouissance, plaisir, satisfaction",2,
 G0620,ἀπολείπω,abandonner; laisser; (passif) rester,7,
 G0621,ἀπολείχω,lécher,1,
-G0622,ἀπόλλυμι,"périr, tuer, détruire, disparaître",90,2025-07-18T19:49:11.709Z
+G0622,ἀπόλλυμι,détruire; perdre; périr,90,2025-10-21T12:14:43.259Z
 G0623,Ἀπολλύων,Apollyon = «Destructeur»,1,
 G0624,Ἀπολλωνία,Apollonie = «appartenant à Apollon»,1,
 G0625,Ἀπολλῶς,Apollos = «donné par Apollon»,10,
@@ -3126,7 +3126,7 @@ G3340,μετανοέω,"se repentir, se convertir",34,2025-10-06T07:36:34.017Z
 G3341,μετάνοια,repentance,22,
 G3342,μεταξύ,pendant ce temps; qui vient ensuite,9,
 G3343,μεταπέμπω,envoyer chercher; faire venir; mander,9,
-G3344,μεταστρέφω,"changer, renverser, altérer",2,2025-07-17T15:01:30.101Z
+G3344,μεταστρέφω,changer; altérer,2,2025-10-21T12:06:24.677Z
 G3345,μετασχηματίζω,"transformer, tourner",5,
 G3346,μετατίθημι,"transférer, changer, détourner, être transporté, être enlevé",6,2024-11-01T08:15:49.825Z
 G3347,μετέπειτα,"plus tard, par la suite, ultérieurement",1,
@@ -3857,7 +3857,7 @@ G4104,πιστόω,"être pleinement convaincu, être pleinement assuré",1,
 G4105,πλανάω,"tromper, décevoir",39,2024-11-01T08:15:49.825Z
 G4106,πλάνη,erreur; séduction; égarement,10,
 G4107,πλανήτης,"errant, vagabond",1,2025-06-04T10:56:48.000Z
-G4108,πλάνος,"séducteur, trompeur, imposteur, celui qui égare",5,
+G4108,πλάνος,"séducteur, trompeur",5,2025-10-21T12:16:01.848Z
 G4109,πλάξ,"table, tablette, planche",3,
 G4110,πλάσμα,chose formée,1,
 G4111,πλάσσω,"former, mouler, modeler",2,
@@ -4971,7 +4971,7 @@ G5270,ὑποκάτω,"sous, au-dessous",10,
 G5271,ὑποκρίνω,"feindre, faire semblant, prétendre",1,
 G5272,ὑπόκρισις,"hypocrisie, dissimulation, malhonnêteté, duplicité",6,
 G5273,ὑποκριτής,"hypocrite, malhonnêtement",17,
-G5274,ὑπολαμβάνω,"reprendre vers le haut, emporter; recevoir avec hospitalité; reprendre un discours, répondre; estimer, supposer",5,2025-02-18T10:09:54.000Z
+G5274,ὑπολαμβάνω,"reprendre vers le haut, emporter; recevoir avec hospitalité; répondre; supposer",5,2025-10-21T12:10:13.147Z
 G5275,ὑπολείπω,"demeurer, rester, laisser",1,
 G5276,ὑπολήνιον,fosse pour un pressoir,1,
 G5277,ὑπολιμπάνω,"laisser, laisser derrière",1,
@@ -6269,7 +6269,7 @@ H0901,בָּגוֹד,"infidèle, traître, perfide, trompeur",2,
 H0902,בִּגְוַי,Bigvaï = «dans mon corps»,6,
 H0903,בִּגְתָא,Bigtha = «dans le pressoir»,1,
 H0904,בִּגְתָן,Bigthan = «dans leur pressoir»,2,
-H0905,בַּד,"à part, isolé, seul",200,2025-10-20T12:53:09.235Z
+H0905,בַּד,"à part, isolé, seul; partie, membre; poteau, barre; branche, rameau",200,2025-10-21T12:23:32.262Z
 H0906,בַּד,"lin, lin blanc, fin lin",23,
 H0907,בַּד,"discussion vide, vain discours, menteur, mensonge",7,
 H0908,בָּדָא,"combiner, tramer, imaginer, inventer (de mauvaises choses)",2,
@@ -9613,7 +9613,7 @@ H4323,מִיכָל,"ruisseau, courant",1,
 H4324,מִיכַל,Mical = «qui est semblable à Dieu?»,18,
 H4325,מַי,"eau, eaux",581,
 H4326,מִיָּמִן,Mijamin = «de la main droite»,4,
-H4327,מִין,"sorte, quelquefois une espèce précise (généralement d’animaux)",31,
+H4327,מִין,"sorte, espèce",31,2025-10-21T12:26:35.670Z
 H4329,מוּסָךְ,"structure couverte, couverture",1,
 H4330,מִיץ,"serrage, pression, torsion",3,
 H4331,מֵישָׁא,Méscha = «liberté»,1,
@@ -11198,7 +11198,7 @@ H5926,עִלֵּג,"parler d’une façon inarticulée, bégaiement",1,
 H5927,עָלָה,"monter, élever, grimper",890,
 H5928,עֲלָת,"offrande consumée, holocauste",1,
 H5929,עָלֶה,"feuille, feuillage",18,
-H5930,עֹלָה,offrande entièrement consumée,287,
+H5930,עֹלָה,"offrande consumée, sacrifice intégral, holocauste",287,2025-10-21T12:18:28.403Z
 H5931,עִלָּה,"matière, sujet, affaire, occasion",3,
 H5932,עַלְוָה,"injustice, iniquité, méchanceté",1,
 H5933,עַלְוָה,Alva (ou Alja) = «mal»,2,
