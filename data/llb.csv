@@ -573,7 +573,7 @@ G0588,ἀποδέχομαι,accepter; accueillir,7,
 G0589,ἀποδημέω,"s’en aller hors du pays, voyager à l’étranger",6,
 G0590,ἀπόδημος,qui va hors du pays,1,
 G0591,ἀποδίδωμι,rendre,47,2024-11-01T08:15:49.825Z
-G0592,ἀποδιορίζω,"se mettre à part, s’éloigner",1,
+G0592,ἀποδιορίζω,diviser,1,2025-10-23T12:51:54.583Z
 G0593,ἀποδοκιμάζω,"rejeter, exclure, repousser",9,
 G0594,ἀποδοχή,"acceptation, approbation, réception",2,
 G0595,ἀπόθεσις,"dépouillement, mise de côté, enlèvement, moment de déposer",2,
@@ -1399,7 +1399,7 @@ G1438,ἑαυτοῦ,"lui-même, elle-même, par lui-même, eux-mêmes, …",317
 G1439,ἐάω,abandonner; laisser; permettre,11,
 G1440,ἑβδομήκοντα,soixante-dix,5,
 G1441,ἑβδομηκοντάκις,"soixante-dix fois, soixante-dix occasions",1,
-G1442,ἕβδομος,sept mille,9,
+G1442,ἕβδομος,septième,9,2025-10-23T12:51:10.441Z
 G1443,Ἐβέρ,"Éber = «l’autre côté, la région au delà»",1,
 G1445,Ἑβραῖος,un hébreu,4,2024-11-01T08:15:49.825Z
 G1446,Ἑβραΐς,"la langue hébraïque, l'hébreu",3,2024-11-01T08:15:49.825Z
@@ -2856,7 +2856,7 @@ G2960,κυριακός,dominical,2,
 G2961,κυριεύω,dominer,7,
 G2962,κύριος,"le maître, le seigneur",716,2025-10-06T07:17:08.181Z
 G2963,κυριότης,"domination, seigneurie, autorité",4,
-G2964,κυρόω,"confirmer, ratifier, rendre valide",2,
+G2964,κυρόω,"confirmer, ratifier; rendre valide",2,2025-10-23T12:55:59.430Z
 G2965,κύων,chien,5,
 G2966,κῶλον,cadavres,1,2024-11-01T08:15:49.825Z
 G2967,κωλύω,empêcher,23,2024-11-01T08:15:49.825Z
@@ -5089,8 +5089,8 @@ G5390,φιλοφρόνως,"avec beaucoup de bonté, amicalement, d’une mani�
 G5392,φιμόω,"avoir la bouche fermée, réduire au silence, se taire, emmuseler",8,2024-11-01T08:15:49.825Z
 G5393,Φλέγων,"Phlégon = «brûlant, mordant»",1,
 G5394,φλογίζω,"enflammer, allumer, embraser",2,
-G5395,φλόξ,flamme,7,
-G5396,φλυαρέω,"tenir de mauvais propos contre, accuser faussement",1,2025-02-04T10:41:26.000Z
+G5395,φλόξ,la flamme,7,2025-10-23T12:56:53.654Z
+G5396,φλυαρέω,accuser faussement,1,2025-10-23T12:58:20.262Z
 G5397,φλύαρος,"causeur, bavard, commère",1,
 G5398,φοβερός,"terrible, terrifiant",3,
 G5399,φοβέω,"être effrayé, avoir peur",95,2024-11-01T08:15:49.825Z
@@ -10005,7 +10005,7 @@ H4719,מַקֵּדָה,Makkéda = «endroit des bergers»,9,
 H4720,מִקְדָּשׁ,"lieu sacré, sanctuaire, lieu saint",75,
 H4721,מַקְהֵל,"assemblée, chœur, congrégation",2,
 H4722,מַקְהֵלֹת,Makhéloth = «lieu de l’assemblée»,2,
-H4723,מִקְוֶה,"espérance, ressource; assemblage, amas ",12,2025-10-03T12:07:18.780Z
+H4723,מִקְוֶה,"espérance, ressource; assemblage, amas",12,2025-10-23T12:59:33.827Z
 H4724,מִקְוָה,"réservoir, fossé",1,
 H4725,מָקוֹם,"lieu, endroit, espace, position",401,2024-11-01T08:15:49.825Z
 H4726,מָקוֹר,"source, fontaine",18,
@@ -12799,7 +12799,7 @@ H7545,רֹ֫קֵחַ,"mélange d’épices, parfum, onguent",2,
 H7546,רַקָּח,"fabricant d’onguent, parfumeur",1,
 H7547,רַקּוּחַ,"parfumerie, parfum, onguent",1,
 H7548,רַקָּחָה,"une fabricante d’onguent, une parfumeuse",1,
-H7549,רָקִיעַ,"la surface étendue (le solide), étendue, le firmament",17,
+H7549,רָקִיעַ,"l'étendue, le firmament",17,2025-10-23T13:01:19.694Z
 H7550,רָקִיק,"gâteau mince, galette",8,
 H7551,רָקַם,"varier, diversifier, bigarrer, mêler les couleurs",9,
 H7552,רֶ֫קֶם,"Rékem = «diversité, bigarrure»",6,
