@@ -1170,7 +1170,7 @@ G1199,δεσμός,chaîne; lien,18,
 G1200,δεσμοφύλαξ,"geôlier, gardien de prison",3,
 G1201,δεσμωτήριον,prison,4,
 G1202,δεσμώτης,prisonnier,2,
-G1203,δεσπότης,maître; seigneur; souverain,10,
+G1203,δεσπότης,"maître, seigneur, souverain",10,2025-10-29T16:15:32.518Z
 G1204,δεῦρο,"à présent, maintenant, ici",9,
 G1205,δεῦτε,venez!,12,
 G1206,δευτεραῖος,"deuxième jour, second jour, surlendemain",1,
@@ -1822,7 +1822,7 @@ G1883,ἐπάνω,"sur, au-dessus de",19,
 G1884,ἐπαρκέω,"secourir, venir en aide",2,
 G1885,ἐπαρχία,province,2,
 G1886,ἔπαυλις,"demeure, habitation, résidence",1,
-G1887,ἐπαύριον,"lendemain, le jour suivant",17,
+G1887,ἐπαύριον,le lendemain,17,2025-10-29T16:19:45.186Z
 G1889,Ἐπαφρᾶς,Épaphras = «charmant»,3,
 G1890,ἐπαφρίζω,"rejeter l'écume, écumer",1,2025-05-28T09:52:53.000Z
 G1891,Ἐπαφρόδιτος,"Épaphrodite = «beau, aimable»",2,
@@ -2041,7 +2041,7 @@ G2112,εὐθέως,aussitôt; immédiatement,85,2025-02-24T09:14:33.000Z
 G2113,εὐθυδρομέω,"faire voile (en) tirant droit, gagner le large",2,
 G2114,εὐθυμέω,"avoir confiance, être joyeux",3,
 G2115,εὔθυμος,"courageux, plein de confiance",2,
-G2116,εὐθύνω,"gouverner, diriger, piloter, faire droit",2,
+G2116,εὐθύνω,gouverner (un bâteau); faire droit,2,2025-10-29T15:58:34.519Z
 G2117,εὐθύς,immédiatement,8,2024-11-01T08:15:49.825Z
 G2118,εὐθύτης,"droiture, rectitude morale, probité",1,
 G2119,εὐκαιρέω,"avoir le loisir, avoir le temps, passer le temps",3,
@@ -2352,7 +2352,7 @@ G2434,ἱλασμός,propitiation,2,
 G2435,ἱλαστήριος,propitiatoire,2,
 G2436,ἵλεως,"clément, miséricordieux, indulgent, favorable, favorablement",2,
 G2437,Ἰλλυρικόν,Illyrie = «la troupe lyrique»,1,
-G2438,ἱμάς,"courroie, lanière",4,
+G2438,ἱμάς,"courroie, lanière; fouet",4,2025-10-29T15:03:15.182Z
 G2439,ἱματίζω,"vêtir, mettre un vêtement",2,
 G2440,ἱμάτιον,"le vêtement, la chemise, l'himation",59,2025-07-28T14:44:53.456Z
 G2441,ἱματισμός,habillement; robe; vêtement,5,
@@ -2387,7 +2387,7 @@ G2471,ἰσότης,"ce qui est équitable, équité, égalité",3,
 G2472,ἰσότιμος,"de pareil prix, également précieux",1,
 G2473,ἰσόψυχος,"animé d’un même sentiment, d’un même cœur",1,
 G2474,Ἰσραήλ,Israël = «il sera le prince de Dieu»,68,2024-11-01T08:15:49.825Z
-G2475,Ἰσραηλίτης,"Israélite, descendant d’israël, c’est-à-dire de jacob, petit-fils d’abraham",9,
+G2475,Ἰσραηλίτης,Israélite,9,2025-10-29T14:46:42.874Z
 G2476,ἵστημι,"faire tenir debout, se tenir debout",152,2024-11-01T08:15:49.825Z
 G2477,ἱστορέω,faire la connaissance,1,2024-11-01T08:15:49.825Z
 G2478,ἰσχυρός,"fort, puissant",29,2024-11-01T08:15:49.825Z
@@ -2752,7 +2752,7 @@ G2854,κολλούριον,collyre,1,
 G2855,κολλυβιστής,changeur de monnaie,3,
 G2856,κολοβόω,"abréger, raccourcir, diminuer la durée",4,
 G2857,Κολοσσαί,Colosses = «monstruosités»,1,
-G2859,κόλπος,"sein, golfe, baie",6,2024-11-01T08:15:49.825Z
+G2859,κόλπος,sein; baie,6,2025-10-29T14:59:25.241Z
 G2860,κολυμβάω,nager,1,
 G2861,κολυμβήθρα,"réservoir d’eau, bassin d’eau, piscine",3,
 G2862,κολωνία,colonie,1,
@@ -2859,7 +2859,7 @@ G2963,κυριότης,"domination, seigneurie, autorité",4,
 G2964,κυρόω,"confirmer, ratifier; rendre valide",2,2025-10-23T12:55:59.430Z
 G2965,κύων,chien,5,
 G2966,κῶλον,cadavres,1,2024-11-01T08:15:49.825Z
-G2967,κωλύω,empêcher,23,2024-11-01T08:15:49.825Z
+G2967,κωλύω,"empêcher, entraver, interdire; refuser",23,2025-10-29T15:55:33.135Z
 G2968,κώμη,le village,28,2025-10-06T07:17:52.079Z
 G2969,κωμόπολις,bourgade,1,2024-11-01T08:15:49.825Z
 G2970,κῶμος,"orgie, grande fête, luxure",3,
@@ -3444,7 +3444,7 @@ G3681,ὄνειδος,"opprobre, humiliation, déshonneur",1,
 G3682,Ὀνήσιμος,"Onésime = «profitable, utile»",2,
 G3683,Ὀνησίφορος,Onésiphore = «qui apporte un profit»,2,
 G3684,ὀνικός,d’âne,2,
-G3685,ὀνίνημι,"tirer profit, tirer un bénéfice, un avantage",1,
+G3685,ὀνίνημι,"*moy* tirer profit, tirer un bénéfice",1,2025-10-29T15:55:33.135Z
 G3686,ὄνομα,le nom,229,2025-10-15T11:51:28.564Z
 G3687,ὀνομάζω,appeler; nommer; prêcher; prononcer; invoquer,9,
 G3688,ὄνος,"âne, ânesse",5,
@@ -11733,7 +11733,7 @@ H6467,פֹּ֫עַל,"travail, œuvre, action, ouvrage",37,
 H6468,פְּעֻלָּה,"travail, récompense",14,
 H6469,פְּעֻלְּתַי,Peulthaï = «œuvre»,1,
 H6470,פָּעַם,"enfoncer, forcer, pousser, battre d’une façon continue",5,
-H6471,פַּ֫עַם,"coup, battre, pied, pas, marche, étage, enclume, occurrence",118,
+H6471,פַּ֫עַם,"enclume; pas; fois, tantôt",118,2025-10-29T16:24:02.728Z
 H6472,פַּעֲמֹן,clochette,7,
 H6473,פָּעַר,"ouvrir en grand, bailler",4,
 H6474,פַּעֲרַי,"Paaraï = «bouche bée, révélation de l’Éternel»",1,
