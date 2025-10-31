@@ -41,3 +41,11 @@ Ceci remplacera les fichiers suivants, qui pourront faire l'objet d'un _commit_:
 - data/llb.csv
 - data/bible.csv
 - data/pegonduff.csv
+
+# Exporter le LLB avec tag
+
+On peut exporter le LLB avec les tags pour chaque occurence des mots (livre et chapitre):
+
+```bash
+npm run db:tag
+```
