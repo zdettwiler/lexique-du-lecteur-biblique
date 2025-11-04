@@ -18,7 +18,7 @@ export default function LexiconWord({ verseNb, word }: Props) {
 
   return (
     <div
-      className="items-baseline hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md py-[2px] px-2"
+      className="items-baseline py-[2px] px-2"
       key={word.id}
       onClick={() => {
         setIsLLBCorrectionDrawerOpen(true)
