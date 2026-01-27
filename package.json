@@ -11,7 +11,7 @@
     "db:import": "ts-node prisma/import.ts",
     "db:export": "ts-node prisma/export.ts",
     "db:tag": "ts-node prisma/export-and-tag.ts",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "prettier": {
     "semi": false,
