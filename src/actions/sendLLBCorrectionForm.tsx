@@ -23,7 +23,7 @@ export default async function sendLLBCorrectionForm(
     return { success: false, errors: parse.error.flatten().fieldErrors }
   }
 
-  const res = await fetch(process.env.NEXT_PUBLIC_GOOGLESHEETS_FEEDBACK, {
+  const res = await fetch(process.env.GOOGLESHEETS_FEEDBACK, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded'

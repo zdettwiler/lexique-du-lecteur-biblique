@@ -4,7 +4,7 @@ declare global {
       DATABASE_URL: string
       NEXT_PUBLIC_URL: string
       NEXT_PUBLIC_GTM_ID: string
-      NEXT_PUBLIC_GOOGLESHEETS_FEEDBACK: string
+      GOOGLESHEETS_FEEDBACK: string
     }
   }
 }
