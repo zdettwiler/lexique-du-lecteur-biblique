@@ -85,7 +85,8 @@ async function main() {
           bibleword: {
             select: {
               book: true,
-              chapter: true
+              chapter: true,
+              verse: true
             }
           }
         },
@@ -103,8 +104,8 @@ async function main() {
               const book = w.book as BookName
               const meta = bookMeta[book]
               return meta
-                ? `${meta.label}_${w.chapter}`
-                : `${w.book}_${w.chapter}`
+                ? `LLB::${meta.label}::${String(w.chapter).padStart(2, '0')}::${String(w.verse).padStart(2, '0')}`
+                : `LLB::${w.book}::${String(w.chapter).padStart(2, '0')}::${String(w.verse).padStart(2, '0')}`
             })
           )
         ].join(' ')
