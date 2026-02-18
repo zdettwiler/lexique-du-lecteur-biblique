@@ -7,18 +7,20 @@ Pour installer l'application localement :
 git clone git@github.com:zdettwiler/lexique-du-lecteur-biblique.git
 # 2. Installer les dépendences
 npm install
-# 3. Ajouter un fichier .env sur la base de l'exemple
+# 3. Installer puppeteer
+npx playwright install
+# 4. Ajouter un fichier .env sur la base de l'exemple
 cp .env.example .env
 ```
 
 **⚠️ vérifier que le contenu du `.env` est correct avant les prochaines étapes**
 
 ```bash
-# 4. Préparer la base de donnée
+# 5. Préparer la base de donnée
 npx prisma db push
-# 5. Importer le LLB dans la BDD
+# 6. Importer le LLB dans la BDD
 npm run db:import
-# 6. Lancer l'application pour le développement
+# 7. Lancer l'application pour le développement
 npm run dev
 ```
 
