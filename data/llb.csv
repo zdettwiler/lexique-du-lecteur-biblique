@@ -392,7 +392,7 @@ G0401,ἀνάχυσις,"bourbier, débordement",1,
 G0402,ἀναχωρέω,"se retirer, s’en aller, s’éloigner",14,
 G0403,ἀνάψυξις,"rafraîchissement, fraîcheur, repos",1,
 G0404,ἀναψύχω,consoler,1,2024-11-01T08:15:49.825Z
-G0405,ἀνδραποδιστής,"voleur d’hommes, marchand d’esclaves, kidnappeur",1,
+G0405,ἀνδραποδιστής,"marchand d’esclaves, kidnappeur",1,2026-02-19T10:11:12.642Z
 G0406,Ἀνδρέας,André = «virilité»,13,
 G0407,ἀνδρίζω,(moyen) se comporter en hommes,1,
 G0408,Ἀνδρόνικος,Andronicus = «homme de la victoire»,1,
@@ -448,7 +448,7 @@ G0458,ἀνομία,"iniquité, comportement sans loi, sans frein",15,
 G0459,ἄνομος,inique,9,
 G0460,ἀνόμως,sans loi,2,
 G0461,ἀνορθόω,redresser; (passif) se redresser,3,
-G0462,ἀνόσιος,"sans piété, impie, méchant",2,
+G0462,ἀνόσιος,"impie, irréligieux, sacrilège",2,2026-02-19T10:04:46.574Z
 G0463,ἀνοχή,"patience, tolérance, action de supporter",2,
 G0464,ἀνταγωνίζομαι,"combattre contre, lutter contre",1,
 G0465,ἀντάλλαγμα,objet d’échange,2,
@@ -465,7 +465,7 @@ G0476,ἀντίδικος,"partie adverse, adversaire",5,
 G0477,ἀντίθεσις,"opposition, sujet de dispute, objection",1,
 G0478,ἀντικαθίστημι,"résister, s’opposer, tenir ferme contre",1,
 G0479,ἀντικαλέω,convier à son tour,1,
-G0480,ἀντίκειμαι,(participe) adversaire; s’opposer à,8,
+G0480,ἀντίκειμαι,s’opposer à; (ptcp. prés.) adversaire,8,2026-02-19T10:17:53.310Z
 G0481,ἄντικρυς,"à la hauteur de, en face de",1,
 G0482,ἀντιλαμβάνω,"(moyen et/ou passif) secourir, venir en aide, prendre la cause, bénéficier, profiter",3,
 G0483,ἀντιλέγω,"contredire, parler contre, contester, nier, opposer",10,
@@ -491,7 +491,7 @@ G0502,ἄντλημα,puiser,1,2024-11-01T08:15:49.825Z
 G0503,ἀντοφθαλμέω,"tenir contre, faire face, résister",1,
 G0504,ἄνυδρος,"sans eau, sec, tari",4,
 G0505,ἀνυπόκριτος,"sans hypocrisie, sans déguisement, sincère",6,
-G0506,ἀνυπότακτος,"qui n’est pas assujetti, insubordonné",4,
+G0506,ἀνυπότακτος,"insubordonné, indépendant; indiscipliné, désobéissant, rebelle",4,2026-02-19T10:01:30.490Z
 G0507,ἄνω,au haut; d’en haut,9,
 G0508,ἀνώγεον,"chambre haute, chambre à l’étage",2,
 G0509,ἄνωθεν,d’en haut; depuis le haut; encore; de nouveau; depuis longtemps,13,
@@ -549,7 +549,7 @@ G0562,ἀπέραντος,"interminable, sans fin",1,
 G0563,ἀπερισπάστως,"sans distraction, sans diversion",1,
 G0564,ἀπερίτμητος,"incirconcis, l’éloignement de lui",1,
 G0565,ἀπέρχομαι,"s’en aller, partir, quitter",117,2024-11-01T08:15:49.825Z
-G0568,ἀπέχω,avoir; avoir amplement; posséder; être éloigné,18,
+G0568,ἀπέχω,"recevoir entièrement; suffire; être éloigné; (moyen +G) s'abstenir, s'éloigner ",18,2026-02-18T15:07:28.971Z
 G0569,ἀπιστέω,"ne pas croire, refuser de croire, être incrédule",8,
 G0570,ἀπιστία,"incrédulité, manque de confiance, absence de foi",11,
 G0571,ἄπιστος,"infidèle, sans foi, incroyant, incrédule",23,2024-11-01T08:15:49.825Z
@@ -712,7 +712,7 @@ G0729,ἄρραφος,"sans couture, non cousu ensemble",1,
 G0730,ἄρρην,"mâle, homme",9,
 G0731,ἄρρητος,"ineffable, indicible",1,
 G0732,ἄρρωστος,"malade, infirme, invalide",5,
-G0733,ἀρσενοκοίτης,"celui qui abuse de lui-même avec des hommes, homme homosexuel, pédéraste",2,
+G0733,ἀρσενοκοίτης,"homme homosexuel, pédéraste",2,2026-02-19T10:10:42.777Z
 G0734,Ἀρτεμάς,Artémas = «don d’Artémis»,1,
 G0735,Ἄρτεμις,Diane = «de la lumière»,5,
 G0736,ἀρτέμων,voile d’artimon,1,
@@ -926,7 +926,7 @@ G0948,βδελύσσομαι,"abhorrer, détester",2,2024-11-01T08:15:49.825Z
 G0949,βέβαιος,"stable, ferme, sûr, véridique",8,2024-11-01T08:15:49.825Z
 G0950,βεβαιόω,affermir; confirmer; lier fermement,8,
 G0951,βεβαίωσις,"affermissement, confirmation",2,
-G0952,βέβηλος,"profane, étranger à dieu, impie",5,
+G0952,βέβηλος,"profane, non sacré, impie",5,2026-02-19T10:05:49.271Z
 G0953,βεβηλόω,"profaner, désacraliser, souiller",2,
 G0954,Βεελζεβούλ,Beelzébul = «seigneur de la maison»,7,
 G0955,Βελίαλ,"Bélial = «indignité, méchanceté, impiété»",1,
@@ -1190,7 +1190,7 @@ G1220,δηνάριον,denier = «contenant dix»,16,
 G1223,διά,"(+A) à cause de, grâce à; (+G) à travers, par le moyen de",666,2025-07-18T20:00:09.745Z
 G1224,διαβαίνω,"traverser, marcher à travers, passer",3,
 G1225,διαβάλλω,accuser,1,
-G1226,διαβεβαιόομαι,"insister, affirmer fortement",2,2026-02-18T10:34:09.745Z
+G1226,διαβεβαιόομαι,"insister, affirmer fortement",2,2026-02-18T10:34:09.745Z
 G1227,διαβλέπω,"voir clair, regarder distinctement",3,
 G1228,διάβολος,"le diviseur, le diable = «calomniateur»",37,2025-07-18T20:00:09.745Z
 G1229,διαγγέλλω,"annoncer, publier, proclamer, faire savoir",3,
@@ -1897,7 +1897,7 @@ G1961,ἐπιμένω,demeurer; persister; arrêter; persévérer,15,
 G1962,ἐπινεύω,"consentir, exprimer son accord",1,
 G1963,ἐπίνοια,"pensée, projet, but",1,
 G1964,ἐπιορκέω,"parjurer, jurer faussement, violer son serment",1,
-G1965,ἐπίορκος,parjure,1,
+G1965,ἐπίορκος,"parjure, faux témoin",1,2026-02-19T10:12:58.647Z
 G1966,ἐπιοῦσα,venir après,5,
 G1967,ἐπιούσιος,"qu’il nous faut, nécessaire, présent, quotidien",2,
 G1968,ἐπιπίπτω,se jeter sur; se pencher; survenir; tomber; saisir,11,
@@ -2646,7 +2646,7 @@ G2745,καύχημα,sujet de gloire; sujet de se glorifier; vanterie,11,
 G2746,καύχησις,sujet de se glorifier; prétention; sujet de gloire; gloriole,11,
 G2747,Κεγχρεαί,Cenchrées = «millet»,2,
 G2748,κέδρος,"Cédron = «sombre, trouble»",1,
-G2749,κεῖμαι,"être couché, s'allonger",24,2024-11-01T08:15:49.825Z
+G2749,κεῖμαι,"être couché; être posé, être placé; exister, être établi, s'allonger",24,2026-02-19T09:58:29.536Z
 G2750,κειρία,bande,1,2024-11-01T08:15:49.825Z
 G2751,κείρω,"couper les cheveux, tondre",4,
 G2752,κέλευσμα,"ordre, signal",1,2024-11-01T08:15:49.825Z
@@ -3164,7 +3164,7 @@ G3383,μήτε,"et pas, ni …ni …, pas ainsi",34,2024-11-01T08:15:49.825Z
 G3384,μήτηρ,la mère,83,2025-10-06T07:42:19.982Z
 G3385,μή,"est-ce que, n’est-ce pas",18,
 G3388,μήτρα,matrice,2,
-G3389,μητραλῴας,batteur de mère,1,
+G3389,μητραλῴας,matricide,1,2026-02-19T10:07:21.464Z
 G3392,μιαίνω,"souiller, contaminer, infecter",5,2025-07-10T15:03:03.000Z
 G3393,μίασμα,souillure,1,2024-11-01T08:15:49.825Z
 G3394,μιασμός,"impureté, action de souiller, souillure",1,
@@ -3714,7 +3714,7 @@ G3960,πατάσσω,frapper,10,2024-11-01T08:15:49.825Z
 G3961,πατέω,"fouler, fouler aux pieds, piétiner le raisin",5,
 G3962,πατήρ,"père, patriarche",414,2024-11-01T08:15:49.825Z
 G3963,Πάτμος,"Patmos = «mortel, fascinant»",1,
-G3964,πατραλῴας,batteur de père,1,
+G3964,πατραλῴας,parricide,1,2026-02-19T10:06:46.837Z
 G3965,πατριά,"famille, lignée, race, nationalité",3,
 G3966,πατριάρχης,patriarche,4,
 G3967,πατρικός,de mes pères,1,
@@ -3951,7 +3951,7 @@ G4201,Πόρκιος,"Porcius (Festus) = «de cochon, bestial»",1,
 G4202,πορνεία,"la fornication, la prostitution",25,2024-11-01T08:15:49.825Z
 G4203,πορνεύω,"fornication, immoralité sexuelle",8,
 G4204,πόρνη,prostituée,12,
-G4205,πόρνος,"prostitué, fornicateur, impudique",10,2024-11-01T08:15:49.825Z
+G4205,πόρνος,"prostitué, fornicateur, impudique, débauché",10,2026-02-19T10:09:49.508Z
 G4206,πόρρω,"fort éloigné, loin, à distance",4,
 G4207,πόρρωθεν,"à distance, loin de, de loin",2,
 G4209,πορφύρα,pourpre,4,
@@ -5222,7 +5222,7 @@ G5526,χορτάζω,rassasier; remplir son ventre,16,
 G5527,χόρτασμα,nourriture pour les humains ou les troupeaux,1,
 G5528,χόρτος,foin; herbe; tige,15,
 G5529,Χουζᾶς,Chuza = «le voyant»,1,
-G5530,χράω,employer; traiter; user,11,
+G5530,χράομαι,employer; traiter; user,11,2026-02-19T09:48:30.383Z
 G5531,χράω,prêter,1,
 G5532,χρεία,le besoin,49,2024-11-01T08:15:49.825Z
 G5533,χρεωφειλέτης,débiteur,2,
@@ -12361,7 +12361,7 @@ H7101,קָצִין,"chef, souverain, commandant",12,
 H7102,קְצִיעָה,casse,1,
 H7103,קְצִיעָה,Ketsia = «casse (parfum)»,1,
 H7104,קְצִיץ,"Ketsits = «coupée, découpée»",1,
-H7105,קָצִיר,"moissonner, moisson",54,
+H7105,קָצִיר,"moisson, récolte",54,2026-02-18T15:01:55.192Z
 H7106,קָצַע,"râcler, gratter, découper",2,
 H7107,קָצַף,"avoir du déplaisir, être fâché, se ronger, être courroucé",34,
 H7108,קְצַף,"(P’al) être ou devenir en colère, être courroucé, fâché",1,
