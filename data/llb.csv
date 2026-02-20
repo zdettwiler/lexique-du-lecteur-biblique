@@ -773,7 +773,7 @@ G0791,ἀστεῖος,"beau, agréable, gracieux",2,
 G0792,ἀστήρ,"étoile, astre",24,2025-07-18T19:49:11.709Z
 G0793,ἀστήρικτος,"mal affermi, instable, sans solidité",2,
 G0794,ἄστοργος,"sans affection naturelle, sans tendresse",2,
-G0795,ἀστοχέω,"écarter, échouer, éloigner",3,
+G0795,ἀστοχέω,"manquer le but, échouer, se détourner",3,2026-02-20T14:08:46.137Z
 G0796,ἀστραπή,éclair,9,
 G0797,ἀστράπτω,"briller, illuminer, resplendir, étinceler",2,
 G0798,ἄστρον,étoile,4,
@@ -1918,7 +1918,7 @@ G1983,ἐπισκοπέω,surveiller,2,
 G1984,ἐπισκοπή,surveillance; visitation,4,
 G1985,ἐπίσκοπος,surveillant,5,
 G1986,ἐπισπάω,demeurer circoncis,1,2024-11-01T08:15:49.825Z
-G1987,ἐπίσταμαι,savoir; avoir la connaissance; connaître,14,
+G1987,ἐπίσταμαι,"savoir, connaître; comprendre",14,2026-02-20T14:09:03.098Z
 G1988,ἐπιστάτης,"maître, responsable, surveillant",7,
 G1989,ἐπιστέλλω,"écrire, envoyer un message",3,
 G1990,ἐπιστήμων,intelligent,1,
@@ -1985,7 +1985,7 @@ G2050,ἐρήμωσις,"désolation, dévastation, destruction totale",3,
 G2051,ἐρίζω,"contester, se disputer, se quereller",1,
 G2052,ἐριθεία,"contestation, rivalité; esprit de querelle, ambition personnelle",7,2024-11-01T08:15:49.825Z
 G2053,ἔριον,"laine, poil de mouton",2,
-G2054,ἔρις,querelle; dissension; esprit de rivalité; esprit de querelle,8,
+G2054,ἔρις,"querelle, dissension, dispute, discorde, rivalité",8,2026-02-20T14:09:37.323Z
 G2055,ἐρίφιον,"petite chèvre, bouc",1,
 G2056,ἔριφος,"chèvre, mammifère ruminant, plutôt un bouc",2,
 G2057,Ἑρμᾶς,Hermès = «Mercure»,1,
@@ -4068,7 +4068,7 @@ G4323,προσανατίθημι,"imposer, demander de plus; consulter",2,2025-
 G4324,προσαπειλέω,menacer davantage,1,
 G4325,προσδαπανάω,dépenser de plus,1,
 G4326,προσδέω,avoir besoin,1,
-G4327,προσδέχομαι,accueillir; attendre avec confiance; accepter,14,2025-07-16T13:40:53.393Z
+G4327,προσδέχομαι,"recevoir, accueillir, accepter; attendre, espérer",14,2026-02-20T14:09:17.788Z
 G4328,προσδοκάω,attendre; être dans l’attente,16,
 G4329,προσδοκία,"attente, perspective, crainte, souhait",2,
 G4330,προσεάω,"permettre d’avancer, laisser approcher",1,
@@ -4922,7 +4922,7 @@ G5220,ὕπανδρος,"soumis à un mari, marié",1,
 G5221,ὑπαντάω,venir à la rencontre; affronter,10,
 G5222,ὑπάντησις,rencontre,3,
 G5223,ὕπαρξις,"bien, existence, d’où moyens d’exister, possessions, ressources",2,
-G5225,ὑπάρχω,"avoir, posséder; être, être présent",60,2025-02-07T09:48:40.000Z
+G5225,ὑπάρχω,"être, exister; être à la disposition, appartenir",60,2026-02-20T14:09:49.021Z
 G5226,ὑπείκω,"être soumis, accepter l’autorité",1,
 G5227,ὑπεναντίος,"adversaire, opposant, rebelle, contraire, adverse",2,
 G5228,ὑπέρ,"par rapport, pour, à l’égard de, en vue de",153,
@@ -5924,7 +5924,7 @@ H0549,אֲמָנָה,"Abana, Amana = «rocailleux?»",2,
 H0550,אַמְנוֹן,Amnon = «fidèle»,28,
 H0551,אׇמְנָם,"véritablement, vraiment, sûrement",9,
 H0552,אֻמְנָם,"véritablement, vraiment, en effet",5,
-H0553,אָמֵץ,"être fort, alerte, courageux, brave, gros, solide, dur",41,
+H0553,אָמֵץ,"(qal) être fort, être courageux • (piel) affermir, fortifier; inspirer du courage; soutenir; consolider • (hif.) s'affermir, être fort • (hitp.) s'empresser, être résolu; vaincre",41,2026-02-20T14:21:53.844Z
 H0554,אָמֹץ,fort,2,
 H0555,אֹ֫מֶץ,force,1,
 H0556,אַמְצָה,force,1,
@@ -7288,7 +7288,7 @@ H1945,הוֹי,"ah!, hélas!, ha!, ho!, Ô!, malheur!",51,
 H1946,הוּךְ,"aller, venir, marcher, être apporté",4,
 H1947,הוֹלֵלָה,folie,4,
 H1948,הוֹלֵלוּת,folie,1,
-H1949,הוּם,"distraire, affoler, faire grand bruit, murmurer, hurler, être agité",5,
+H1949,הוּם,"(qal) émouvoir, agiter, troubler • (nif.) être agité • (hif.) faire du bruit; se lamenter",5,2026-02-20T14:22:41.033Z
 H1950,הוֹמָ֑ם,Homam = «confusion»,1,
 H1951,הוּן,"être facile, être prêt",1,
 H1952,הוֹן,"richesse, substance",26,
@@ -7578,7 +7578,7 @@ H2240,זַתּוּא,Zatthu = «ornement»,5,
 H2241,זֵתָם,Zétham = «olivier»,2,
 H2242,זֵתַר,Zéthar = « étoile»,1,
 H2243,חֹב,sein,1,
-H2244,חָבָא,"retirer, cacher",33,
+H2244,חָבָא,"(nif.) se cacher • (pual) se cacher • (hif.) cacher, protéger • (hof.) être caché, être emprisonné • (hitp.) se cacher; se solidifier",33,2026-02-20T14:20:25.757Z
 H2245,חָבַב,"aimer ardemment, chérir",1,
 H2246,חֹבָב,"Hobab = «chéri, aimé»",2,
 H2247,חָבָה,"retirer, cacher, se cacher",5,
@@ -7912,7 +7912,7 @@ H2579,חֲמַת רַבָּה,Hamath-Rabba = «enclos du courroux du peuple»,2,
 H2580,חֵן,"faveur, grâce, charme",69,
 H2581,חֵן,"Hen = «faveur, grâce»",1,
 H2582,חֵנָדָד,Hénadad = «faveur de Hadad»,4,
-H2583,חָנָה,"décliner, incliner, camper, faire le siège",143,
+H2583,חָנָה,"(qal) décliner; s'installer, camper",143,2026-02-20T14:17:12.087Z
 H2584,חַנָּה,"Anne = «grâce, faveur»",13,
 H2585,חֲנוֹךְ,"Hénoc (Enoch) = «dédié, initié, consacré»",16,
 H2586,חָנוּן,Hanun = «favorisé»,11,
@@ -8187,7 +8187,7 @@ H2860,חָתָן,"gendre, époux de la fille, marié, mari",20,
 H2861,חֲתֻנָּה,"noces, mariage",1,
 H2862,חָתַף,"(Qal) saisir, enlever, emporter",1,
 H2863,חֶ֫תֶף,proie,1,
-H2864,חָתַר,creuser; ramer,8,2025-10-27T13:13:11.037Z
+H2864,חָתַר,"(qal) creuser, percer; ramer",8,2026-02-20T14:16:57.797Z
 H2865,חָתַת,"être brisé, être épouvanté, être aboli, avoir peur",52,
 H2866,חֲתַת,terreur,1,
 H2867,חֲתַת,"Hathath = «effrayant, terreur»",1,
@@ -10415,7 +10415,7 @@ H5134,נוּק,"(Hifil) allaiter, nourrir un bébé",1,
 H5135,נוּר,feu,17,
 H5136,נוּשׁ,(Qal) être malade,1,
 H5137,נָזָה,"jaillir, éclabousser, asperger",24,
-H5138,נָזִיד,"nourriture bouillie, soupe, potage, chose détrempée ou bouillie",6,
+H5138,נָזִיד,"nourriture bouillie, soupe, potage",6,2026-02-20T14:18:08.575Z
 H5139,נָזִיר,"consacré ou voué, Nazaréen, Naziréen",16,
 H5140,נָזַל,"Couler, distiller, ruisseler, tomber",16,
 H5141,נֶ֫זֶם,"anneau, anneau de nez, boucle d’oreille",17,
@@ -10497,7 +10497,7 @@ H5217,נָכָא,"(Nif) frapper, châtier, battre",1,2025-07-10T14:41:21.004Z
 H5218,נָכֵא,frappé,4,
 H5219,נְכֹאת,une épice,2,
 H5220,נֶ֫כֶד,"progéniture, postérité",3,
-H5221,נָכָה,"(Nif) être battu, être frappé; (Pou) être frappé; (Hif) battre, frapper, vaincre, heurter",500,2025-03-06T10:19:12.000Z
+H5221,נָכָה,"(nif.) être battu, être frappé; (Pou) être frappé; (Hif) battre, frapper, vaincre, heurter",500,2026-02-20T14:21:45.998Z
 H5222,נֵכֶה,"frappé, battu",1,
 H5223,נָכֵה,"frappé, battu, abattu",3,
 H5224,נְכוֹ,Néco = «boiteux»,8,
@@ -11697,7 +11697,7 @@ H6431,פֶּ֫לֶת,Péleth = «vitesse»,2,
 H6432,פְּלֵתִי,Péléthiens = «courriers»,7,
 H6433,פֻּם,bouche,6,
 H6434,פֵּן,angle,1,
-H6435,פֶּן־,"de peur que, ne pas, prendre garde",133,
+H6435,פֶּן־,de peur que,133,2026-02-20T14:22:07.050Z
 H6436,פַּנַּג,"«Pannag» – une nourriture comestible, peut-être pâtisserie",1,
 H6437,פָּנָה,"(Qal) tourner, se retourner, faire demi-tour; (Pi) retourner, revenir; (Hif, Hof) retourner, revenir;  (Qal, Hof) se mettre en face de, tourner vers; (Pi) éloigner, débarrasser",135,2025-10-03T11:09:43.245Z
 H6438,פִּנָּה,"angle, angulaire",29,
@@ -12615,7 +12615,7 @@ H7358,רֶ֫חֶם,matrice,26,
 H7359,רַחֲמִין,compassion,1,
 H7360,רָחָם,vautour à charogne,2,
 H7362,רַחֲמָנִי,"ayant de la compassion, femmes compatissantes",1,
-H7363,רָחַף,"(Qal) frémir, trembler; (Pi) planer",3,2025-10-03T07:54:32.673Z
+H7363,רָחַף,"(qal) frémir, trembler; (piel) planer",3,2026-02-20T14:18:28.289Z
 H7364,רָחַץ,"laver, baigner, faire des ablutions",72,
 H7365,רְחַץ,se confier à,1,
 H7366,רַ֫חַץ,le lavage,2,
@@ -12743,7 +12743,7 @@ H7489,רָעַע,"(Qal) être mauvais, déplaire, briser, ruiner; (Nif) être br
 H7490,רְעַע,"(Pal) écraser, casser, briser",2,
 H7491,רָעַף,"couler, dégoutter",5,
 H7492,רָעַץ,(Qal) briser,2,
-H7493,רָעַשׁ,"trembler, secouer",30,
+H7493,רָעַשׁ,"(qal) trembler, secouer • (nif.) être ébranlé • (hif.) faire trembler; faire bondir",30,2026-02-20T14:18:49.997Z
 H7494,רַ֫עַשׁ,"tremblement, mouvement, secousse",17,
 H7495,רָפָא,"guérir, rendre salubre",67,
 H7496,רְפָאִים,"fantômes de morts, ombres, revenants, esprits",8,
@@ -13158,7 +13158,7 @@ H7915,שַׂכִּין,couteau,1,
 H7916,שָׂכִיר,"loué, engagé",17,
 H7917,שְׂכִירָה,"loué, engagé",1,
 H7918,שָׁכַךְ,"s’affaisser, se calmer, diminuer, décroître",5,
-H7919,שָׂכַל,"être prudent, être circonspect, sagement comprendre, prospérer",62,
+H7919,שָׂכַל,"I. (qal) être prudent, être circonspect; prospérer • (hif.) regarder; rendre sage; considérer; comprendre; faire comprendre, enseigner; agir prudemment; prospérer; rendre prospère. ￭ II. (piel) croiser",62,2026-02-20T14:19:14.314Z
 H7920,שְׂכַל,"(Itpael) considérer, contempler",1,
 H7921,שָׁכֹל,"qui a perdu ses enfants, qui est privé d'enfant, stéril",23,2024-11-01T08:15:49.825Z
 H7922,שֵׂ֫כֶל,"prudence, perspicacité, compréhension",16,
