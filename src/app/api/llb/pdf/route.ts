@@ -75,6 +75,9 @@ export async function POST(req: NextRequest) {
             .font-times {
               font-family: 'Times New Roman', serif
             }
+            .font-sans {
+              font-family: Arial, sans-serif
+            }
             .col-span-all {
               column-span: all
             }
