@@ -610,7 +610,7 @@ G0625,Ἀπολλῶς,Apollos = «donné par Apollon»,10,
 G0626,ἀπολογέομαι,"se défendre, plaider pour soi, se disculper, se justifier, répondre aux accusations",10,
 G0627,ἀπολογία,défense; réponse; excuse,8,
 G0628,ἀπολούω,"laver, nettoyer",2,
-G0629,ἀπολύτρωσις,"rédemption, suivi d’une délivrance",10,
+G0629,ἀπολύτρωσις,"rédemption, libération",10,2026-02-27T14:53:15.806Z
 G0630,ἀπολύω,"libérer, divorcer, délier",65,2024-11-01T08:15:49.825Z
 G0631,ἀπομάσσω,"(moyen) secouer, ôter en s’essuyant",1,
 G0632,ἀπονέμω,"porter, accorder, donner",1,
@@ -3453,7 +3453,7 @@ G3690,ὄξος,vinaigre,6,
 G3691,ὀξύς,aigu; tranchant; rapide,8,
 G3692,ὀπή,"ouverture, trou, orifice, grotte",2,
 G3693,ὄπισθεν,"derrière, par derrière, dans le dos",7,
-G3694,ὀπίσω,"(adv) derrière; (+G) derrière, après",35,2025-10-15T11:53:52.758Z
+G3694,ὀπίσω,"*adv.* derrière ￭ *prép.* (+G) derrière, après ",35,2026-02-27T14:22:48.484Z
 G3695,ὁπλίζω,"s’armer, s’équiper, se munir",1,
 G3696,ὅπλον,"arme, instrument de combat, outil, instrument",6,
 G3697,ὁποῖος,"quel, de quelle sorte",5,
@@ -8343,7 +8343,7 @@ H3017,יָגוּר,"Jagur = «il séjourne, demeure»",1,
 H3018,יְגִיעַ,"besogne, travail",16,
 H3019,יָגִיעַ,"las, fatigué",1,
 H3020,יׇגְלִי,Jogli = «il est exilé»,1,
-H3021,יָגֵעַ,"(Qal) être fatigué, se fatiguer; (Pi) fatiguer, imposer une fatigue; (Hif) fatiguer",26,2024-11-01T08:15:49.825Z
+H3021,יָגֵעַ,"(qal) être fatigué, se fatiguer • (piel) fatiguer, imposer une fatigue • (hif.) fatiguer",26,2026-02-27T14:18:41.434Z
 H3022,יָגָע,"salaire, gain (produit du travail)",1,
 H3023,יָגֵעַ,"lassant, fatigant, ennuyeux",3,
 H3024,יְגִעָה,"une fatigue, un épuisement",1,
@@ -10324,7 +10324,7 @@ H5042,נָבַע,"couler, verser, jaillir, bouillonner, fermenter",11,
 H5043,נֶבְרַשְׁתָּא,"support de lampe, chandelier",1,
 H5044,נִבְשָׁן,Nibschan = «doux terroir»,1,
 H5045,נֶ֫גֶב,"région du sud, le Nékeb",112,
-H5046,נָגַד,"(Hif) déclarer, raconter, annoncer; (Hof) être raconté, être dit, être rapporté",371,2025-02-12T10:30:35.000Z
+H5046,נָגַד,"(hif.) déclarer, raconter, annoncer • (hof.) être raconté, être dit, être rapporté",371,2026-02-27T14:14:48.850Z
 H5047,נְגַד,"(Pael) un courant, couler",1,
 H5048,נֶ֫גֶד,devant,151,2025-10-20T11:59:33.515Z
 H5049,נֶ֫גֶד,"en face de, faisant face à",1,
@@ -12218,7 +12218,7 @@ H6956,קְהָתִי,Kehathites = voir Kehath «assemblée»,15,
 H6957,קַו,"cordeau, règle, ligne ou cordon pour mesurer",21,
 H6958,קִיא,"vomir, dégorger, déglutir",8,
 H6959,קוֹבַע,casque,2,
-H6960,קָוָה,"(Qal) attendre, espérer; (Nif) être amassé ",49,2025-10-03T12:12:18.698Z
+H6960,קָוָה,"(qal) attendre, espérer • (nif.) être amassé ",49,2026-02-27T14:12:44.212Z
 H6962,קוּט,"détester, être affligé, chagriné, ressentir du dégoût",6,
 H6963,קוֹל,"voix, son, bruit",506,
 H6964,קוֹלָיָה,Kolaja = «voix de l’Éternel»,2,
