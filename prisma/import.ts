@@ -100,6 +100,8 @@ async function main() {
     parseRow: (row) => ({
       strong: row.strong,
       lemma: normalizeToOxia(row.lemma),
+      inflectionEndings: normalizeToOxia(row.inflectionEndings),
+      pos: row.pos,
       gloss: row.gloss,
       freq: Number(row.freq),
       updatedAt: row.updatedAt ? new Date(row.updatedAt) : null

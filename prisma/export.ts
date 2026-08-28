@@ -70,6 +70,8 @@ async function main() {
     getHeaders: () => [
       { id: 'strong', title: 'strong' },
       { id: 'lemma', title: 'lemma' },
+      { id: 'inflectionEndings', title: 'inflectionEndings' },
+      { id: 'pos', title: 'pos' },
       { id: 'gloss', title: 'gloss' },
       { id: 'freq', title: 'freq' },
       { id: 'updatedAt', title: 'updatedAt' }

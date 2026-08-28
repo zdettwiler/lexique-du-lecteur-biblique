@@ -16,6 +16,8 @@ datasource db {
 model LLB {
   strong     String       @id @unique
   lemma      String
+  inflectionEndings String @default("")
+  pos        String @default("")
   gloss      String
   freq       Int
   // vu         Boolean
@@ -26,7 +28,7 @@ model LLB {
 
 model PegonDuff {
   strong   String @id @unique
-  chapter String @default("")
+  chapter  String @default("")
   llbword  LLB    @relation(fields: [strong], references: [strong])
 }
 
