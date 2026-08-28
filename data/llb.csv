@@ -318,7 +318,7 @@ G0324,ἀναδέχομαι,,vb.,accueillir; recevoir,2,
 G0325,ἀναδίδωμι,aor. ptc. ἀναδούς,vb.,"remettre, présenter, livrer",1,
 G0326,ἀναζάω,,vb.,"reprendre vie, vivre de nouveau",2,
 G0327,ἀναζητέω,,vb.,"rechercher, chercher avec soin",3,
-G0328,ἀναζώννυμι,aor. med. ptc. ἀναζωσάμενος,vb.,ceindre,1,
+G0328,ἀναζώννυμι,aor. moy. ptc. ἀναζωσάμενος,vb.,ceindre,1,
 G0329,ἀναζωπυρέω,,vb.,"ranimer, raviver, enflammer de nouveau",1,
 G0330,ἀναθάλλω,aor. ἀνέθαλον,vb.,"renouveler, croître, pousser de nouveau, reverdir, fleurir de nouveau",1,2024-11-01T08:15:49.825Z
 G0331,ἀνάθεμα,-τος,n. n.,"anathème, imprécation, livré au malheur",7,2024-11-01T08:15:49.825Z
@@ -565,14 +565,14 @@ G0580,ἀποβολή,-ῆς,n. f.,"perte, mise à l’écart, rejet",2,
 G0581,ἀπογενόμενος,aor. ptc. ἀπογενόμενος,vb.,"mourir, être séparé",1,
 G0582,ἀπογραφή,-ῆς,n. f.,enregistrement de personnes,2,
 G0583,ἀπογράφω,,vb.,"enregistrer, recenser",4,
-G0584,ἀποδείκνυμι,aor. ἀπέδειξα; pf. med. ἀποδέδειγμαι,vb.,présenter; produire sur la scène; prouver; accréditer,4,
+G0584,ἀποδείκνυμι,aor. ἀπέδειξα; pf. moy. ἀποδέδειγμαι,vb.,présenter; produire sur la scène; prouver; accréditer,4,
 G0585,ἀπόδειξις,-εως,n. f.,"démonstration, manifestation, preuve",1,
 G0586,ἀποδεκατόω,,vb.,"payer la dîme, donner la dîme",4,
 G0587,ἀπόδεκτος,-ον,adj.,"agréable, approuvé, acceptable",2,
 G0588,ἀποδέχομαι,,vb.,accepter; accueillir,7,
 G0589,ἀποδημέω,,vb.,"s’en aller hors du pays, voyager à l’étranger",6,
 G0590,ἀπόδημος,-ον,adj.,qui va hors du pays,1,
-G0591,ἀποδίδωμι,"aor. med. ἀπεδόμην; impf. ἀπεδίδουν; inf. ἀποδοῦναι; ptc. ἀποδιδούς, ἀποδούς; impv. ἀπόδος; aor. pass. inf. ἀποδοθῆναι; aor. subj. 2sg. ἀποδῷς; ptc. neut. ἀποδιδοῦν; 3sg. ἀπόδῷ, ἀποδοῖ",vb.,rendre,47,2024-11-01T08:15:49.825Z
+G0591,ἀποδίδωμι,"aor. moy. ἀπεδόμην; impf. ἀπεδίδουν; inf. ἀποδοῦναι; ptc. ἀποδιδούς, ἀποδούς; impv. ἀπόδος; aor. pass. inf. ἀποδοθῆναι; aor. subj. 2sg. ἀποδῷς; ptc. neut. ἀποδιδοῦν; 3sg. ἀπόδῷ, ἀποδοῖ",vb.,rendre,47,2024-11-01T08:15:49.825Z
 G0592,ἀποδιορίζω,,vb.,diviser,1,2025-10-23T12:51:54.583Z
 G0593,ἀποδοκιμάζω,,vb.,"rejeter, exclure, repousser",9,
 G0594,ἀποδοχή,-ῆς,n. f.,"acceptation, approbation, réception",2,
@@ -603,7 +603,7 @@ G0618,ἀπολαμβάνω,fut. ἀπολήμψομαι; aor. ἀπέλαβ�
 G0619,ἀπόλαυσις,-εως,n. f.,"jouissance, plaisir, satisfaction",2,
 G0620,ἀπολείπω,aor. ἀπέλιπον; ptc. ἀπολιπών,vb.,abandonner; laisser; (passif) rester,7,
 G0621,ἀπολείχω,,vb.,lécher,1,
-G0622,ἀπόλλυμι,"fut. ἀπολέσω, ἀπολῶ; fut. med. ἀπολοῦμαι; aor. ἀπώλεσα; aor. med. ἀπωλόμην; inf. ἀπολέσαι; pf. ptc. ἀπολωλώς; subj. 3sg. ἀπολέσῃ",vb.,détruire; perdre; périr,90,2025-10-21T12:14:43.259Z
+G0622,ἀπόλλυμι,"fut. ἀπολέσω, ἀπολῶ; fut. moy. ἀπολοῦμαι; aor. ἀπώλεσα; aor. moy. ἀπωλόμην; inf. ἀπολέσαι; pf. ptc. ἀπολωλώς; subj. 3sg. ἀπολέσῃ",vb.,détruire; perdre; périr,90,2025-10-21T12:14:43.259Z
 G0623,Ἀπολλύων,-ονος,n. pr.,Apollyon = «Destructeur»,1,
 G0624,Ἀπολλωνία,-ας,n. pr. f.,Apollonie = «appartenant à Apollon»,1,
 G0625,Ἀπολλῶς,-ῶ,n. pr. m.,Apollos = «donné par Apollon»,10,
@@ -639,7 +639,7 @@ G0655,ἀποστυγέω,,vb.,"avoir en horreur, abhorrer, fuir avec effroi",1
 G0656,ἀποσυνάγωγος,-ον,adj.,"exclu de la synagogue, excommunié",3,
 G0657,ἀποτάσσω,,vb.,(moyen) prendre congé; (moyen) renoncer à,6,
 G0658,ἀποτελέω,,vb.,"consommer, mener à terme, achever, accomplir",2,
-G0659,ἀποτίθημι,aor. med. ἀπεθέμην; inf. ἀποθέσθαι; ptc. ἀποθέμενος; subj. ἀποθῶμαι; impv. 2pl. ἀπόθεσθε,vb.,(moyen) déposer; (moyen) rejeter,9,
+G0659,ἀποτίθημι,aor. moy. ἀπεθέμην; inf. ἀποθέσθαι; ptc. ἀποθέμενος; subj. ἀποθῶμαι; impv. 2pl. ἀπόθεσθε,vb.,(moyen) déposer; (moyen) rejeter,9,
 G0660,ἀποτινάσσω,,vb.,secouer,1,
 G0661,ἀποτίνω,fut. ἀποτίσω,vb.,"payer, rembourser, dédommager",1,
 G0662,ἀποτολμάω,,vb.,"s’enhardir tout à fait, oser",1,
@@ -660,7 +660,7 @@ G0676,ἀπρόσιτος,-ον,adj.,inaccessible,1,
 G0677,ἀπρόσκοπος,-ον,adj.,irréprochable,3,2024-11-01T08:15:49.825Z
 G0678,ἀπροσωπολήπτως,,adv.,"sans acception de personnes, impartialement, sans parti pris",1,
 G0679,ἄπταιστος,-ον,adj.,qui est sans chute,1,2025-05-15T09:07:37.000Z
-G0681,ἅπτω,aor. med. ἡψάμην; aor. ptc. ἅψας,vb.,"allumer, enflammer; (moyen +G) toucher",39,2025-07-09T16:13:37.000Z
+G0681,ἅπτω,aor. moy. ἡψάμην; aor. ptc. ἅψας,vb.,"allumer, enflammer; (moyen +G) toucher",39,2025-07-09T16:13:37.000Z
 G0682,Ἀπφία,-ας,n. pr. f.,Apphia = «fructueux»,1,
 G0683,ἀπωθέω,,vb.,(moyen) repousser; (moyen) rejeter,6,
 G0684,ἀπώλεια,-ας,n. f.,destruction; perdition; perte,18,
@@ -827,7 +827,7 @@ G0846,αὐτός,"-ή, -ό",pron.,"lui, elle, le même, lui-même, elle-mêm
 G0847,αὐτοῦ,,adv.,"ici, là, dans cet endroit",4,
 G0849,αὐτόχειρ,-ος,adj.,de ses propres mains,1,
 G0850,αὐχμηρός,"-ά, -όν",adj.,"obscur, sombre",1,
-G0851,ἀφαιρέω,fut. ἀφελῶ; aor. ἀφεῖλον; inf. ἀφελεῖν; aor. med. subj. ἀφέλομαι,vb.,ôter; emporter,10,
+G0851,ἀφαιρέω,fut. ἀφελῶ; aor. ἀφεῖλον; inf. ἀφελεῖν; aor. moy. subj. ἀφέλομαι,vb.,ôter; emporter,10,
 G0852,ἀφανής,-ές,adj.,"caché, invisible",1,
 G0853,ἀφανίζω,,vb.,ternir; détruire; (passif) disparaître,5,
 G0854,ἀφανισμός,-οῦ,n. f.,"disparition, d’exister",1,
@@ -1204,7 +1204,7 @@ G1237,διαδέχομαι,,vb.,"recevoir d’un autre, hériter",1,
 G1238,διάδημα,-τος,n. n.,diadème,3,
 G1239,διαδίδωμι,aor. διέδωκα; impf. pass. 3sg. διεδίδετο; impv. 2sg. διάδος,vb.,distribuer; donner,4,
 G1240,διάδοχος,-ου,n. m.,successeur,1,
-G1241,διαζώννυμι,aor. διέζωσα; aor. med. διεζωσάμην; pf. pass. ptc. διεζωσμένος,vb.,ceindre,3,
+G1241,διαζώννυμι,aor. διέζωσα; aor. moy. διεζωσάμην; pf. pass. ptc. διεζωσμένος,vb.,ceindre,3,
 G1242,διαθήκη,-ης,n. f.,"alliance, testament",33,2024-11-01T08:15:49.825Z
 G1243,διαίρεσις,-εως,n. f.,"diversité, variété, pluralité",3,
 G1244,διαιρέω,aor. διεῖλον,vb.,"distribuer, diviser, partager",2,
@@ -1700,7 +1700,7 @@ G1760,ἐνθυμέομαι,,vb.,"penser, raisonner, réfléchir, méditer",2,
 G1761,ἐνθύμησις,-εως,n. f.,"pensée, raisonnement, réflexion, imagination",4,
 G1762,ἔνι,,vb.,il y a,6,
 G1763,ἐνιαυτός,-οῦ,n. f.,année,14,
-G1764,ἐνίστημι,"fut. med. ἐνστήσομαι; pf. ἐνέστηκα; ptc. ἐνεστηκώς, ἐνεστώς",vb.,"être présent, être proche, être imminent, survenir",7,
+G1764,ἐνίστημι,"fut. moy. ἐνστήσομαι; pf. ἐνέστηκα; ptc. ἐνεστηκώς, ἐνεστώς",vb.,"être présent, être proche, être imminent, survenir",7,
 G1765,ἐνισχύω,,vb.,"fortifier, redonner des forces, reprendre des forces",2,
 G1766,ἔννατος,"-η, -ον",adj.,"neuvième, un nombre ord.",10,
 G1767,ἐννέα,,num.,neuf,5,2025-07-21T07:15:42.107Z
@@ -1743,7 +1743,7 @@ G1803,ἕξ,,num.,six,12,
 G1804,ἐξαγγέλλω,aor. ἐξήγγειλα,vb.,"dire clairement, déclarer au loin, divulguer, publier, annoncer",1,2024-11-01T08:15:49.825Z
 G1805,ἐξαγοράζω,,vb.,racheter; (moyen) saisir,4,
 G1806,ἐξάγω,aor. ἐξήγαγον,vb.,conduire dehors; emmener; faire sortir; mener,12,
-G1807,ἐξαιρέω,aor. ἐξεῖλον; aor. med. ἐξειλάμην; inf. ἐξελέσθαι; impv. ἔξελε,vb.,"délivrer, enlever, arracher",8,
+G1807,ἐξαιρέω,aor. ἐξεῖλον; aor. moy. ἐξειλάμην; inf. ἐξελέσθαι; impv. ἔξελε,vb.,"délivrer, enlever, arracher",8,
 G1808,ἐξαίρω,aor. impv. 2pl. ἐξάρατε,vb.,"ôter, enlever d’un endroit",1,
 G1809,ἐξαιτέω,,vb.,"(moyen) demander à avoir, réclamer pour soir, revendiquer",1,
 G1810,ἐξαίφνης,,adv.,"tout à coup, soudainement, à l’improviste",5,
@@ -1774,7 +1774,7 @@ G1835,ἑξήκοντα,,num.,soixante,9,
 G1836,ἑξῆς,,adv.,"suivant, dans l’ordre, successivement",5,
 G1837,ἐξηχέω,,vb.,"retentir, résonner",1,
 G1838,ἕξις,-εως,n. f.,"le fait de l’habitude, pratique, expérience",1,
-G1839,ἐξίστημι,"aor. ἐξέστην, ἐξέστησα; pf. inf. ἐξεστακέναι; impf. med. ἐξιστάμην",vb.,être étonné; être hors de sens; être saisi d’une grande admiration,17,
+G1839,ἐξίστημι,"aor. ἐξέστην, ἐξέστησα; pf. inf. ἐξεστακέναι; impf. moy. ἐξιστάμην",vb.,être étonné; être hors de sens; être saisi d’une grande admiration,17,
 G1840,ἐξισχύω,,vb.,"être capable, avoir la force",1,
 G1841,ἔξοδος,-ου,n. m.,"sortie, exode, départ, mort",3,
 G1842,ἐξολοθρεύω,,vb.,"exterminer, détruire complètement",1,
@@ -1938,7 +1938,7 @@ G2003,ἐπιταγή,-ῆς,n. f.,"commandement, ordre, autorité",7,
 G2004,ἐπιτάσσω,,vb.,"commander, donner des ordres",10,
 G2005,ἐπιτελέω,,vb.,achever; accomplir; construire,10,
 G2006,ἐπιτήδειος,"-α, -ον",adj.,"nécessaire, indispensable, obligatoire",1,
-G2007,ἐπιτίθημι,"fut. ἐπιθήσω; fut. med. ἐπιθήσομαι; aor. ἐπέθηκα; aor. med. ἐπεθέμην; inf. ἐπιθεῖναι; ptc. ἐπιθείς; subj. ἐπιθῶ; impv. ἐπιτίθει, ἐπίθες; impf. 3pl. ἐπετίθεσαν; 3pl. ἐπιτιθέασιν",vb.,"placer, mettre dessus",39,2024-11-01T08:15:49.825Z
+G2007,ἐπιτίθημι,"fut. ἐπιθήσω; fut. moy. ἐπιθήσομαι; aor. ἐπέθηκα; aor. moy. ἐπεθέμην; inf. ἐπιθεῖναι; ptc. ἐπιθείς; subj. ἐπιθῶ; impv. ἐπιτίθει, ἐπίθες; impf. 3pl. ἐπετίθεσαν; 3pl. ἐπιτιθέασιν",vb.,"placer, mettre dessus",39,2024-11-01T08:15:49.825Z
 G2008,ἐπιτιμάω,,vb.,"infliger, reprocher",29,2024-11-01T08:15:49.825Z
 G2009,ἐπιτιμία,-ας,n. f.,"punition, blâme, répréhension, peine",1,
 G2010,ἐπιτρέπω,aor. pass. ἐπετράπην,vb.,"permettre, accorder la permission",18,
@@ -2388,7 +2388,7 @@ G2472,ἰσότιμος,-ον,adj.,"de pareil prix, également précieux",1,
 G2473,ἰσόψυχος,-ον,adj.,"animé d’un même sentiment, d’un même cœur",1,
 G2474,Ἰσραήλ,,n. pr.,Israël = «il sera le prince de Dieu»,68,2024-11-01T08:15:49.825Z
 G2475,Ἰσραηλίτης,-ου,adj.,Israélite,9,2025-10-29T14:46:42.874Z
-G2476,ἵστημι,"fut. στήσω; fut. med. στήσομαι; fut. pass. σταθήσομαι; aor. pass. ἐστάθην; pf. ἕστηκα; plpf. εἱστήκειν; inf. στῆναι, ἑστάναι, σταθῆναι; ptc. στάς, ἑστηκώς, ἑστώς, σταθείς; impv. στῆθι; 1aor. ἔστησα; 2aor. ἔστην",vb.,"faire tenir debout, se tenir debout",152,2024-11-01T08:15:49.825Z
+G2476,ἵστημι,"fut. στήσω; fut. moy. στήσομαι; fut. pass. σταθήσομαι; aor. pass. ἐστάθην; pf. ἕστηκα; plpf. εἱστήκειν; inf. στῆναι, ἑστάναι, σταθῆναι; ptc. στάς, ἑστηκώς, ἑστώς, σταθείς; impv. στῆθι; 1aor. ἔστησα; 2aor. ἔστην",vb.,"faire tenir debout, se tenir debout",152,2024-11-01T08:15:49.825Z
 G2477,ἱστορέω,,vb.,faire la connaissance,1,2024-11-01T08:15:49.825Z
 G2478,ἰσχυρός,"-ά, -όν",adj.,"fort, puissant",29,2024-11-01T08:15:49.825Z
 G2479,ἰσχύς,-ύος,n. f.,"force, capacité, puissance",10,
@@ -2598,7 +2598,7 @@ G2694,κατασύρω,,vb.,"tirer, traîner avec force",1,
 G2695,κατασφάζω,,vb.,"tuer, abattre, égorger",1,
 G2696,κατασφραγίζω,,vb.,"sceller, apposer un sceau",1,
 G2697,κατάσχεσις,-εως,n. f.,possession,2,
-G2698,κατατίθημι,aor. κατέθηκα; aor. med. inf. καταθέσθαι,vb.,"gagner, mettre",2,
+G2698,κατατίθημι,aor. κατέθηκα; aor. moy. inf. καταθέσθαι,vb.,"gagner, mettre",2,
 G2699,κατατομή,-ῆς,n. f.,"concision, coupure, mutilation, fausse circoncision",1,
 G2701,κατατρέχω,aor. κατέδραμον,vb.,"courir en bas, descendre rapidement",1,
 G2702,καταφέρω,aor. κατήνεγκα; aor. pass. ptc. κατενεχθείς,vb.,"accabler, abattre, appesantir, donner",4,
@@ -2758,7 +2758,7 @@ G2861,κολυμβήθρα,-ας,n. f.,"réservoir d’eau, bassin d’eau, pis
 G2862,κολωνία,-ας,n. f.,colonie,1,
 G2863,κομάω,,vb.,avoir une longue chevelure,2,
 G2864,κόμη,-ης,n. f.,"chevelure, ensemble des cheveux",1,
-G2865,κομίζω,"fut. med. κομίσομαι, κομιοῦμαι",vb.,apporter; recevoir,10,
+G2865,κομίζω,"fut. moy. κομίσομαι, κομιοῦμαι",vb.,apporter; recevoir,10,
 G2866,κομψότερον,,adj.,"mieux, en meilleur état",1,
 G2867,κονιάω,,vb.,blanchir,2,
 G2868,κονιορτός,-οῦ,n. f.,poussière soulevée ou en suspension dans l’air,5,
@@ -2802,7 +2802,7 @@ G2905,κραυγάζω,,vb.,"crier, vociférer",8,
 G2906,κραυγή,-ῆς,n. f.,"clameur, cri, forte voix, bruit",6,
 G2907,κρέας,"κρέατος, κρέως, κρέα",n. n.,"chair, viande",2,
 G2908,κρείσσων,"-ον, -ονος, κρείσσων",adj.,"mieux, meilleur",18,2024-11-01T08:15:49.825Z
-G2910,κρεμάννυμι,med. κρέμαμαι; aor. ptc. κρεμάσας; aor. pass. ptc. κρεμασθείς,vb.,pendre; dépendre,7,2025-02-27T09:11:15.000Z
+G2910,κρεμάννυμι,moy. κρέμαμαι; aor. ptc. κρεμάσας; aor. pass. ptc. κρεμασθείς,vb.,pendre; dépendre,7,2025-02-27T09:11:15.000Z
 G2911,κρημνός,-οῦ,n. f.,"côte, escarpement, précipice",3,
 G2912,Κρής,-ητός,adj.,Crétois,2,
 G2913,Κρήσκης,-εντος,n. pr. m.,"Crescens = «qui croît, qui augmente»",1,
@@ -3303,7 +3303,7 @@ G3533,Νικόπολις,-εως,n. pr. f.,Nicopolis = «cité de la victoire»
 G3534,νῖκος,-ους,n. m.,"victoire, succès, triomphe",4,
 G3536,Νινευΐτης,-ου,adj.,"Ninivite, de ninive, habitant de nivive",3,
 G3537,νιπτήρ,-ῆρος,n. f.,"bassin, cuvette",1,
-G3538,νίπτω,aor. med. impv. νίψαι,vb.,laver; (moy.) se laver,17,2025-10-15T11:38:06.853Z
+G3538,νίπτω,aor. moy. impv. νίψαι,vb.,laver; (moy.) se laver,17,2025-10-15T11:38:06.853Z
 G3539,νοέω,,vb.,comprendre; penser; considérer,14,
 G3540,νόημα,-τος,n. n.,pensée; dessein; entendement,6,
 G3541,νόθος,"-η, -ον",adj.,enfant illégitime,1,2024-11-01T08:15:49.825Z
@@ -3611,7 +3611,7 @@ G3856,παραδειγματίζω,,vb.,"exposer à l’opprobre, à l’ignomi
 G3857,παράδεισος,-ου,n. m.,paradis,3,
 G3858,παραδέχομαι,,vb.,"agréer, recevoir, accueillir",6,
 G3859,παραδιατριβή,,n. f.,"vaine dispute, querelle, altercation",1,
-G3860,παραδίδωμι,"fut. παραδώσω; fut. pass. παραδοθήσομαι; aor. παρέδωκα; aor. pass. παρεδόθην; pf. med. παραδέδομαι; inf. παραδιδόναι, παραδοῦναι, παραδοθῆναι; ptc. παραδιδούς, παραδούς, παραδοθείς; subj. παραδοθῶ; prés. 2sg. παραδίδως; pf. ptc. παραδεδωκώς; impf. 3sg. παρεδίδου; plpf. 3pl. παραδεδώκεισαν; subj. 3sg. παραδιδῷ, παραδιδοῖ, παραδῷ, παραδοῖ; 3pl. παρεδίδουν, παρεδίδοσαν, παρέδωκαν, παρέδοσαν",vb.,livrer,118,2024-11-01T08:15:49.825Z
+G3860,παραδίδωμι,"fut. παραδώσω; fut. pass. παραδοθήσομαι; aor. παρέδωκα; aor. pass. παρεδόθην; pf. moy. παραδέδομαι; inf. παραδιδόναι, παραδοῦναι, παραδοθῆναι; ptc. παραδιδούς, παραδούς, παραδοθείς; subj. παραδοθῶ; prés. 2sg. παραδίδως; pf. ptc. παραδεδωκώς; impf. 3sg. παρεδίδου; plpf. 3pl. παραδεδώκεισαν; subj. 3sg. παραδιδῷ, παραδιδοῖ, παραδῷ, παραδοῖ; 3pl. παρεδίδουν, παρεδίδοσαν, παρέδωκαν, παρέδοσαν",vb.,livrer,118,2024-11-01T08:15:49.825Z
 G3861,παράδοξος,-ον,adj.,"étrange, surprenant, extraordinaire",1,
 G3862,παράδοσις,-εως,n. f.,"tradition, instruction",13,2024-11-01T08:15:49.825Z
 G3863,παραζηλόω,,vb.,"exciter à la rivalité, à l’émulation",4,
@@ -3658,7 +3658,7 @@ G3904,παρασκευή,-ῆς,n. f.,"Préparation, c.-à-d. un vendredi",6,
 G3905,παρατείνω,aor. παρέτεινα,vb.,"prolonger, étirer, continuer",1,
 G3906,παρατηρέω,,vb.,observer,6,
 G3907,παρατήρησις,-εως,n. f.,observation attentive,1,
-G3908,παρατίθημι,fut. παραθήσω; aor. παρέθηκα; aor. med. παρεθέμην; inf. παραθεῖναι; impv. παράθου,vb.,confier; recommander; remettre; offrir; mettre devant; démontrer; dresser; proposer,18,
+G3908,παρατίθημι,fut. παραθήσω; aor. παρέθηκα; aor. moy. παρεθέμην; inf. παραθεῖναι; impv. παράθου,vb.,confier; recommander; remettre; offrir; mettre devant; démontrer; dresser; proposer,18,
 G3909,παρατυγχάνω,,vb.,rencontrer,1,
 G3910,παραυτίκα,,adv.,"d’un moment, de l’instant présent",1,
 G3911,παραφέρω,aor. impv. παρένεγκε,vb.,"éloigner, entraîner, emporter",4,2025-06-06T10:10:40.000Z
@@ -3680,13 +3680,13 @@ G3926,παρενοχλέω,,vb.,"inquiéter, déranger, contrarier",1,
 G3927,παρεπίδημος,-ον,adj.,"forain, pèlerin, étranger, qui séjourne",3,
 G3928,παρέρχομαι,fut. παρελεύσομαι; aor. παρῆλθον; inf. παρελθεῖν; ptc. παρεληλυθώς; pf. inf. παρεληλυθέναι,vb.,passer à côté,29,2024-11-01T08:15:49.825Z
 G3929,πάρεσις,-εως,n. f.,support,1,
-G3930,παρέχω,aor. παρέσχον; ptc. παρασχών; fut. med. 2sg. παρέξῃ,vb.,"apporter; procurer, accorder, présenter; montrer",16,2024-11-01T08:15:49.825Z
+G3930,παρέχω,aor. παρέσχον; ptc. παρασχών; fut. moy. 2sg. παρέξῃ,vb.,"apporter; procurer, accorder, présenter; montrer",16,2024-11-01T08:15:49.825Z
 G3931,παρηγορία,-ας,n. f.,"consolation, réconfort",1,2024-11-01T08:15:49.825Z
 G3932,παρθένεια,-ας,n. f.,virginité,1,
 G3933,παρθένος,-ου,n. m.,vierge,15,
 G3934,Πάρθος,-ου,adj.,Parthes = «un gage»,1,
 G3935,παρίημι,,vb.,"(passif) lasser, être défaillant, relâché",1,
-G3936,παρίστημι,"fut. παραστήσω; fut. med. παραστήσομαι; pf. παρέστηκα; plpf. παρειστήκειν; ptc. παρεστώς, παρεστηκώς; 1aor. παρέστησα; 2aor. παρέοτην",vb.,placer à côté,41,2024-11-01T08:15:49.825Z
+G3936,παρίστημι,"fut. παραστήσω; fut. moy. παραστήσομαι; pf. παρέστηκα; plpf. παρειστήκειν; ptc. παρεστώς, παρεστηκώς; 1aor. παρέστησα; 2aor. παρέοτην",vb.,placer à côté,41,2024-11-01T08:15:49.825Z
 G3937,Παρμενᾶς,-ᾶ,n. pr. m.,"Parménas = «constant, durable»",1,
 G3938,πάροδος,-ου,n. m.,"action de passer, passage",1,
 G3939,παροικέω,,vb.,"demeurer comme un étranger, séjourner",2,
@@ -3765,7 +3765,7 @@ G4012,περί,,prép.,touchant; qui concerne; au sujet de; des environs,331,
 G4013,περιάγω,,vb.,parcourir; mener avec soi; se tourner de tous côtés,6,
 G4014,περιαιρέω,ptc. περιελών; aor. inf. περιελεῖν; impf. pass. 3sg. περιῃρεῖτο,vb.,"couper, enlever, retrancher, ôter",4,
 G4015,περιαστράπτω,,vb.,briller comme l’éclair,2,
-G4016,περιβάλλω,fut. περιβαλῶ; aor. περιέβαλον; pf. pass. περιβέβλημαι; aor. med. impv. περιβαλοῦ,vb.,entourer; vêtir; jeter sur,22,
+G4016,περιβάλλω,fut. περιβαλῶ; aor. περιέβαλον; pf. pass. περιβέβλημαι; aor. moy. impv. περιβαλοῦ,vb.,entourer; vêtir; jeter sur,22,
 G4017,περιβλέπω,,vb.,regarder,7,
 G4018,περιβόλαιον,-ου,n. m.,"vêtement, manteau, voile",2,
 G4019,περιδέω,plpf. pass. 3sg. περιεδέδετο,vb.,"envelopper, recouvrir",1,
@@ -3773,9 +3773,9 @@ G4020,περιεργάζομαι,,vb.,se mêler de tout,1,2025-07-10T15:20:20.0
 G4021,περίεργος,-ον,adj.,qui se rapporte à la magie; se mêlant de tout,2,
 G4022,περιέρχομαι,aor. περιῆλθον; ptc. περιελθών,vb.,aller; courir çà et là; errer ça et là; suivre la côte,3,
 G4023,περιέχω,aor. περιέσχον,vb.,"saisir, prendre possession, concevoir, contenir",2,
-G4024,περιζώννυμι,fut. med. περιζώσομαι; aor. med. ptc. περιζωσάμενος; pf. med. ptc. περιεζωσμένος,vb.,ceindre,6,
+G4024,περιζώννυμι,fut. moy. περιζώσομαι; aor. moy. ptc. περιζωσάμενος; pf. moy. ptc. περιεζωσμένος,vb.,ceindre,6,
 G4025,περίθεσις,-εως,n. f.,"ornement, bijou",1,
-G4026,περιΐστημι,prés. med. impv. 2sg. περιΐστασο; aor. 3pl. περιέστησαν; pf. ptc. περιεστώς,vb.,se tenir à l’entour; éviter,4,
+G4026,περιΐστημι,prés. moy. impv. 2sg. περιΐστασο; aor. 3pl. περιέστησαν; pf. ptc. περιεστώς,vb.,se tenir à l’entour; éviter,4,
 G4027,περικάθαρμα,-τος,n. n.,"balayure, déchet",1,2024-11-01T08:15:49.825Z
 G4028,περικαλύπτω,,vb.,"couvrir, recouvrir, plaquer",3,
 G4029,περίκειμαι,,vb.,entourer; envelopper; charger,5,
@@ -4109,7 +4109,7 @@ G4365,προσπορεύομαι,,vb.,"venir, aller auprès, vers",1,
 G4366,προσρήγνυμι,,vb.,"se jeter avec violence, se briser contre",2,
 G4367,προστάσσω,aor. προσέταξα; pf. pass. προστέταγμαι,vb.,"ordonner, commander, prescrire",7,
 G4368,προστάτις,-ιδος,n. f.,"femme qui aide, protectrice, femme qui secourt",1,
-G4369,προστίθημι,"fut. pass. προστεθήσομαι; aor. προσέθηκα; aor. med. προσεθέμην; aor. pass. προσετέθην; inf. προσθεῖναι, προστεθῆναι; ptc. προσθείς; subj. προσθῶ; impv. πρόσθες; impf. 3sg. προσετίθει",vb.,ajouter; donner par-dessus; continuer; se joindre; réunir; adresser,18,
+G4369,προστίθημι,"fut. pass. προστεθήσομαι; aor. προσέθηκα; aor. moy. προσεθέμην; aor. pass. προσετέθην; inf. προσθεῖναι, προστεθῆναι; ptc. προσθείς; subj. προσθῶ; impv. πρόσθες; impf. 3sg. προσετίθει",vb.,ajouter; donner par-dessus; continuer; se joindre; réunir; adresser,18,
 G4370,προστρέχω,aor. ptc. προσδραμών,vb.,"accourir, courir vers",3,
 G4371,προσφάγιον,-ου,n. m.,"chose à manger, nourriture",1,
 G4372,πρόσφατος,-ον,adj.,"nouveau, récemment fabriqué, neuf",1,
@@ -4391,7 +4391,7 @@ G4656,σκοτόω,,vb.,"devenir ténébreux, obscurcir, recouvrir d’obscurit
 G4657,σκύβαλον,-ου,n. m.,"ordure, déchet, rebut",1,
 G4658,Σκύθης,-ου,adj.,Scythe = «grossier ou rude»,1,
 G4659,σκυθρωπός,"-ή, -όν",adj.,"air morne, mine, visage triste",2,
-G4660,σκύλλω,pf. pass. ἔσκυλμαι; med. impv. σκύλλου,vb.,se donner la peine; tourmenter,4,
+G4660,σκύλλω,pf. pass. ἔσκυλμαι; moy. impv. σκύλλου,vb.,se donner la peine; tourmenter,4,
 G4661,σκῦλον,-ου,n. n.,dépouille,1,
 G4662,σκωληκόβρωτος,-ον,adj.,rongé par les vers,1,
 G4663,σκώληξ,-ηκος,n. f.,ver,1,
@@ -4544,7 +4544,7 @@ G4816,συλλέγω,,vb.,cueillir; mettre ensemble,8,
 G4817,συλλογίζομαι,aor. συνελογισάμην,vb.,"raisonner, considérer ensemble, discuter",1,
 G4818,συλλυπέω,,vb.,"attrister, affliger, peiner",1,
 G4819,συμβαίνω,aor. συνέβην; pf. συμβέβηκα; ptc. συμβάς,vb.,"arriver, venir ensemble",8,2024-11-01T08:15:49.825Z
-G4820,συμβάλλω,aor. med. συνεβαλόμην; aor. inf. συμβαλεῖν,vb.,se concerter; contribuer à l’avancement; rejoindre; repasser,6,
+G4820,συμβάλλω,aor. moy. συνεβαλόμην; aor. inf. συμβαλεῖν,vb.,se concerter; contribuer à l’avancement; rejoindre; repasser,6,
 G4821,συμβασιλεύω,,vb.,régner,2,
 G4822,συμβιβάζω,,vb.,conclure; démontrer; instruire; lier ensemble; unir; tirer,7,
 G4823,συμβουλεύω,,vb.,"tenir conseil, délibérer, consulter, conseiller",4,
@@ -4801,7 +4801,7 @@ G5083,τηρέω,,vb.,"garder, conserver",70,2024-11-01T08:15:49.825Z
 G5084,τήρησις,-εως,n. f.,"observation, observance, prison",3,
 G5085,Τιβεριάς,-άδος,n. pr. f.,Tibériade,3,2024-11-01T08:15:49.825Z
 G5086,Τιβέριος,-ου,n. pr. m.,Tibère = «qui vient du Tibre (le fleuve-dieu)»,1,
-G5087,τίθημι,"fut. θήσω; aor. ἔθηκα; aor. pass. ἐτέθην; pf. τέθεικα; inf. θεῖναι, τεθῆναι; ptc. τιθείς, θείς, τεθεικώς; subj. θῶ, τεθώ; aor. med. 2sg. ἔθου; pf. pass. 3sg. τέθειται; impf. 3sg. ἐτίθει; impv. 2pl. θέτε, θέσθε; 3pl. τιθέασιν, ἐτίθουν, ἐτίθεσαν, ἔθεντο",vb.,"placer, mettre",100,2024-11-01T08:15:49.825Z
+G5087,τίθημι,"fut. θήσω; aor. ἔθηκα; aor. pass. ἐτέθην; pf. τέθεικα; inf. θεῖναι, τεθῆναι; ptc. τιθείς, θείς, τεθεικώς; subj. θῶ, τεθώ; aor. moy. 2sg. ἔθου; pf. pass. 3sg. τέθειται; impf. 3sg. ἐτίθει; impv. 2pl. θέτε, θέσθε; 3pl. τιθέασιν, ἐτίθουν, ἐτίθεσαν, ἔθεντο",vb.,"placer, mettre",100,2024-11-01T08:15:49.825Z
 G5088,τίκτω,fut. τέξομαι; aor. ἔτεκον; aor. pass. ἐτέχθην; inf. τεκεῖν; ptc. τεχθείς,vb.,accoucher; enfanter; naître; mettre au monde; produire,18,
 G5089,τίλλω,,vb.,arracher un à un,3,
 G5090,Τιμαῖος,-ου,n. pr. m.,Timée = «hautement estimé»,1,
@@ -4985,7 +4985,7 @@ G5284,ὑποπλέω,aor. ὑπέπλευσα,vb.,"côtoyer, passer en-dessou
 G5285,ὑποπνέω,aor. ptc. ὑποπνεύσας,vb.,"souffler doucement, souffler légèrement",1,
 G5286,ὑποπόδιον,-ου,n. m.,marchepied,7,
 G5287,ὑπόστασις,-εως,n. f.,"assurance, ferme conviction, confiance",5,
-G5288,ὑποστέλλω,aor. med. ὑπεστειλάμην; subj. 3sg. ὑποστείληται,vb.,cacher; se retirer discrètement,4,
+G5288,ὑποστέλλω,aor. moy. ὑπεστειλάμην; subj. 3sg. ὑποστείληται,vb.,cacher; se retirer discrètement,4,
 G5289,ὑποστολή,-ῆς,n. f.,"perdition, désertion",1,
 G5290,ὑποστρέφω,,vb.,"retourner, revenir",35,2024-11-01T08:15:49.825Z
 G5291,ὑποστρώννυμι,,vb.,"étendre, déposer par terre",1,
@@ -5012,7 +5012,7 @@ G5312,ὑψόω,,vb.,"élever, exalter",20,2024-11-01T08:15:49.825Z
 G5313,ὕψωμα,-τος,n. n.,"hauteur, chose élevée",2,
 G5314,φάγος,-ου,n. m.,"mangeur, glouton, gourmand",2,
 G5315,φαγεῖν,fut. φάγομαι; aor. ἔφαγον; inf. φαγεῖν,vb.,manger; dévorer,92,
-G5316,φαίνω,fut. pass. φανήσομαι; aor. pass. ἐφάνην; subj. φανῶ; fut. med. 3sg. φανεῖται; aor. subj. 3sg. φάνῃ,vb.,"apparaître, briller",31,2024-11-01T08:15:49.825Z
+G5316,φαίνω,fut. pass. φανήσομαι; aor. pass. ἐφάνην; subj. φανῶ; fut. moy. 3sg. φανεῖται; aor. subj. 3sg. φάνῃ,vb.,"apparaître, briller",31,2024-11-01T08:15:49.825Z
 G5317,Φάλεκ,,n. pr. m.,Phalek (Peleg) = «division»,1,
 G5318,φανερός,"-ά, -όν",adj.,"apparent, manifeste, évident, connu, reconnu manifesté",18,2024-11-01T08:15:49.825Z
 G5319,φανερόω,,vb.,"apparaître, être découvert",49,2024-11-01T08:15:49.825Z
