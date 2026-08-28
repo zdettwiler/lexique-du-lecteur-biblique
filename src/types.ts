@@ -5,6 +5,8 @@ export type BibleWithLLB = Prisma.BibleGetPayload<{
   include: {
     llbword: {
       select: {
+        inflectionEndings: true
+        pos: true
         gloss: true
         freq: true
       }

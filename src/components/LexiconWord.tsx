@@ -15,37 +15,45 @@ export default function LexiconWord({ verseNb, word }: Props) {
   const { setIsLLBCorrectionDrawerOpen, setLLBCorrectionWord } = context
 
   const lang = word.strong[0]
+  const inflections = word.llbword.inflectionEndings
+    ? word.llbword.pos === 'vb.'
+      ? ` (${word.llbword.inflectionEndings})`
+      : `, ${word.llbword.inflectionEndings}`
+    : ''
 
   return (
     <div
-      className="items-baseline py-[2px] px-2"
+      className="flex flex-row py-[2px]"
       key={word.id}
       onClick={() => {
         setIsLLBCorrectionDrawerOpen(true)
         setLLBCorrectionWord(word)
       }}
     >
-      <div
-        className={`float-left flex flex-row items-baseline ${lang === 'H' ? ' min-w-[120px]' : 'min-w-[140px]'}`}
-      >
-        <div className="font-sans font-bold text-lg inline-block w-5 shrink-0 text-right mr-1">
-          <sup>{verseNb}</sup>
-        </div>
-        <div
-          dir={lang === 'H' ? 'rtl' : 'ltr'}
-          className={`font-serif font-semibold ${lang === 'H' ? 'grow text-2xl text-right ml-1 leading-none' : 'text-xl'} `}
+      {/* <div className={` ${lang === 'H' ? ' min-w-[120px]' : 'min-w-[140px]'}`}> */}
+      <div className="font-sans font-bold text-lg inline-block w-5 shrink-0 grow-0 text-right mr-1">
+        <sup>{verseNb}</sup>
+      </div>
+      <div className="pl-6 -indent-6" style={{ textIndent: -24 }}>
+        <span
+          dir={lang === 'H' ? 'rtl min-w-[120px]' : 'ltr'}
+          className={`font-serif font-semibold ${lang === 'H' ? 'text-2xl text-right ml-1 leading-none' : 'text-xl'} `}
         >
           {word.lemma}
-        </div>
-        <div className="font-serif font-normal text-center leading-none text-sm mx-3 shrink-0 text-gray-500 dark:text-gray-400">
+          {inflections}
+        </span>
+
+        <span className="font-serif font-normal leading-none text-sm mx-3 text-gray-500 dark:text-gray-400">
           ({word.llbword.freq})
-        </div>
+        </span>
+
+        <span
+          className={`font-serif text-xl cursor-pointer hover:underline underline-offset-4 decoration-1`}
+        >
+          <i>{word.llbword.pos}</i> • {word.llbword.gloss}
+        </span>
       </div>
-      <div
-        className={`${lang === 'H' ? ' pl-[120px]' : 'pl-[140px]'} font-serif text-xl cursor-pointer hover:underline underline-offset-4 decoration-1`}
-      >
-        {word.llbword.gloss}
-      </div>
+      {/* </div> */}
     </div>
   )
 }

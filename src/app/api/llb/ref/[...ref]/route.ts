@@ -41,6 +41,8 @@ export async function GET(
       include: {
         llbword: {
           select: {
+            inflectionEndings: true,
+            pos: true,
             gloss: true,
             freq: true
           }
