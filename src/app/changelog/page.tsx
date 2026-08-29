@@ -9,15 +9,13 @@ moment.locale('fr')
 
 export default async function ChangelogPage() {
   const threeMonthsAgo = new Date()
-  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3)
+  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 6)
 
   const updatedWords = await db.lLB.findMany({
-    where: {
-      updatedAt: { gte: threeMonthsAgo }
-    },
     orderBy: {
       updatedAt: 'desc'
-    }
+    },
+    take: 100
   })
 
   const updatedWordsCount = await db.lLB.count({

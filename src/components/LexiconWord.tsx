@@ -2,10 +2,22 @@
 import { useContext } from 'react'
 import { LLBCorrectionFormContext } from '@/components/CorrectionFormProvider'
 import type { BibleWithLLB } from '@/types'
+import type { ReactNode } from 'react'
 
 type Props = {
   verseNb: number | null
   word: BibleWithLLB
+}
+
+export function renderGloss(gloss: string): ReactNode {
+  const parts = gloss.split(/(\*[^*]+\*)/g)
+  return parts.map((part, i) =>
+    part.startsWith('*') && part.endsWith('*') && part.length > 1 ? (
+      <i key={i}>{part.slice(1, -1)}</i>
+    ) : (
+      part
+    )
+  )
 }
 
 export default function LexiconWord({ verseNb, word }: Props) {
@@ -50,7 +62,8 @@ export default function LexiconWord({ verseNb, word }: Props) {
         <span
           className={`font-serif text-xl cursor-pointer hover:underline underline-offset-4 decoration-1`}
         >
-          <i>{word.llbword.pos}</i> • {word.llbword.gloss}
+          {!word.llbword.pos.includes('/') && <i>{word.llbword.pos}</i>} 
+          {renderGloss(word.llbword.gloss)}
         </span>
       </div>
       {/* </div> */}
