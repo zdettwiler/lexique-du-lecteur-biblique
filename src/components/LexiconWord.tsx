@@ -42,7 +42,6 @@ export default function LexiconWord({ verseNb, word }: Props) {
         setLLBCorrectionWord(word)
       }}
     >
-      {/* <div className={` ${lang === 'H' ? ' min-w-[120px]' : 'min-w-[140px]'}`}> */}
       <div className="font-sans font-bold text-lg inline-block w-5 shrink-0 grow-0 text-right mr-1">
         <sup>{verseNb}</sup>
       </div>
@@ -66,7 +65,6 @@ export default function LexiconWord({ verseNb, word }: Props) {
           {renderGloss(word.llbword.gloss)}
         </span>
       </div>
-      {/* </div> */}
     </div>
   )
 }

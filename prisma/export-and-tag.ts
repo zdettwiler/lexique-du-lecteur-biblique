@@ -66,6 +66,8 @@ async function main() {
   type LLBExportRow = {
     strong: string
     lemma: string
+    inflectionEndings: string
+    pos: string
     gloss: string
     occ: number
     tag: string
@@ -96,6 +98,8 @@ async function main() {
       return lexicon.map((l) => ({
         strong: l.strong,
         lemma: l.lemma,
+        inflectionEndings: l.inflectionEndings,
+        pos: l.pos,
         gloss: l.gloss,
         occ: l.freq,
         tag: [
@@ -115,6 +119,8 @@ async function main() {
     getHeaders: () => [
       { id: 'strong', title: 'strong' },
       { id: 'lemma', title: 'lemma' },
+      { id: 'inflectionEndings', title: 'inflectionEndings' },
+      { id: 'pos', title: 'pos' },
       { id: 'gloss', title: 'gloss' },
       { id: 'occ', title: 'freq' },
       { id: 'tag', title: 'tag' }
@@ -123,6 +129,8 @@ async function main() {
     parseRow: (row) => ({
       strong: row.strong,
       lemma: row.lemma,
+      inflectionEndings: row.inflectionEndings,
+      pos: row.pos,
       gloss: row.gloss,
       occ: row.occ,
       tag: row.tag
