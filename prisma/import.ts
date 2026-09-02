@@ -102,7 +102,7 @@ async function main() {
       lemma: normalizeToOxia(row.lemma),
       inflectionEndings: normalizeToOxia(row.inflectionEndings),
       pos: row.pos,
-      gloss: row.gloss.replace(/[^\s];/g, ' ;'), // use non-breakable space before ';'
+      gloss: row.gloss.replace(/([^\s]);/g, '$1 ;'), // use non-breakable space before ';'
       freq: Number(row.freq),
       updatedAt: row.updatedAt ? new Date(row.updatedAt) : null
     }),
