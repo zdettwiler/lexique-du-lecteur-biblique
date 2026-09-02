@@ -102,7 +102,7 @@ export const bookMeta: Record<
   Sophonie: { nbChap: 3, label: 'So', fullName: 'Sophonie' },
   Aggée: { nbChap: 2, label: 'Ag', fullName: 'Aggée' },
   Zacharie: { nbChap: 14, label: 'Za', fullName: 'Zacharie' },
-  Malachie: { nbChap: 4, label: 'Ma', fullName: 'Malachie' },
+  Malachie: { nbChap: 3, label: 'Ma', fullName: 'Malachie' },
   Psaumes: { nbChap: 150, label: 'Ps', fullName: 'Psaumes' },
   Proverbes: { nbChap: 31, label: 'Pr', fullName: 'Proverbes' },
   Job: { nbChap: 42, label: 'Jb', fullName: 'Job' },
