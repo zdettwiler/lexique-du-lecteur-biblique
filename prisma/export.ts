@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client'
-import type { LLB, Bible, PegonDuff } from '@prisma/client'
+import type { LLB, Bible, PegonBurnet } from '@prisma/client'
 
 import fs from 'fs'
 import path from 'path'
@@ -102,12 +102,12 @@ async function main() {
     })
   }
 
-  const exportPegonDuff: ExportTask<PegonDuff> = {
-    table: 'PegonDuff'.padEnd(10, ' '),
+  const exportPegonBurnet: ExportTask<PegonBurnet> = {
+    table: 'PegonBurnet'.padEnd(10, ' '),
     path: 'pegonduff.csv',
-    getTotal: () => prisma.pegonDuff.count(),
+    getTotal: () => prisma.pegonBurnet.count(),
     getBatch: (skip, take) =>
-      prisma.pegonDuff.findMany({ skip, take, orderBy: { strong: 'asc' } }),
+      prisma.pegonBurnet.findMany({ skip, take, orderBy: { strong: 'asc' } }),
     getHeaders: () => [
       { id: 'strong', title: 'strong' },
       { id: 'chapter', title: 'chapter' }
@@ -119,7 +119,7 @@ async function main() {
   await Promise.all([
     exportTable<LLB>(exportLLB),
     exportTable<Bible>(exportBible),
-    exportTable<PegonDuff>(exportPegonDuff)
+    exportTable<PegonBurnet>(exportPegonBurnet)
   ])
 
   multiBar.stop()

@@ -540,7 +540,7 @@ export const bookChapters: Record<BookName, number> = {
   Sophonie: 3,
   Aggée: 2,
   Zacharie: 14,
-  Malachie: 4,
+  Malachie: 3,
   Psaumes: 150,
   Proverbes: 31,
   Job: 42,

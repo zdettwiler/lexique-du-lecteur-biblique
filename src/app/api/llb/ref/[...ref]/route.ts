@@ -34,8 +34,8 @@ export async function GET(
             sainRef.occurrences && typeof sainRef.occurrences === 'number'
               ? { lte: sainRef.occurrences }
               : undefined,
-          pegonduff:
-            sainRef.occurrences === 'pegonduff' ? { is: null } : undefined
+          pegonburnet:
+            sainRef.occurrences === 'pegonburnet' ? { is: null } : undefined
         }
       },
       include: {

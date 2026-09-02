@@ -30,7 +30,7 @@ import {
 
 const occurenceOptions = [
   { label: 'Étudiant raté (<1000×)', value: '1000' },
-  // { label: 'Pégon/Duff', value: 'pegonduff' },
+  { label: 'Pégon/Burnet', value: 'pegonburnet' },
   { label: 'Débutant (<70×)', value: '70' },
   { label: 'Intermédiaire (<50×)', value: '50' },
   { label: 'Connaisseur (<30×)', value: '30' },
@@ -196,7 +196,7 @@ export default function LexiconForm({
                     {occurenceOptions.map((occ, id) => (
                       <SelectItem value={occ.value} key={id}>
                         {occ.label}{' '}
-                        {occ.value === 'pegonduff' && (
+                        {occ.value === 'pegonburnet' && (
                           <span className="ml-1 inline-flex items-center rounded-md bg-yellow-100 text-yellow-800 dark:bg-yellow-50/20 dark:text-yellow-300 px-1 text-xs font-medium border border-yellow-300">
                             Nouveau
                           </span>

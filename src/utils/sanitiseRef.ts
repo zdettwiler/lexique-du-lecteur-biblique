@@ -9,7 +9,7 @@ export default function sanitiseRef(
   | {
       book: string
       chapters: '*' | string | number[]
-      occurrences: number | 'pegonduff'
+      occurrences: number | 'pegonburnet'
       returnAllChNb?: boolean
     }
   | undefined {
@@ -78,7 +78,8 @@ export default function sanitiseRef(
   let sainOccurrences
   const nbOccurences = Number(occurrences)
 
-  if (occurrences === 'pegonduff') sainOccurrences = occurrences as 'pegonduff'
+  if (occurrences === 'pegonburnet')
+    sainOccurrences = occurrences as 'pegonburnet'
   else if (Number.isInteger(nbOccurences) && nbOccurences !== 0)
     sainOccurrences = Math.abs(nbOccurences)
   else sainOccurrences = 70

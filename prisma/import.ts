@@ -1,5 +1,5 @@
 import { PrismaClient } from '@prisma/client'
-import type { LLB, Bible, PegonDuff } from '@prisma/client'
+import type { LLB, Bible, PegonBurnet } from '@prisma/client'
 import fs from 'fs'
 import path from 'path'
 import { parse } from 'csv-parse'
@@ -91,7 +91,7 @@ function normalizeToOxia(input: string): string {
 async function main() {
   console.log('🧽 Wiping all tables')
   await prisma.bible.deleteMany() // wipe
-  await prisma.pegonDuff.deleteMany() // wipe
+  await prisma.pegonBurnet.deleteMany() // wipe
   await prisma.lLB.deleteMany() // wipe
 
   const importLLB: ImportTask<LLB> = {
@@ -124,19 +124,19 @@ async function main() {
     insertBatch: (batch) => prisma.bible.createMany({ data: batch })
   }
 
-  const importPegonDuff: ImportTask<PegonDuff> = {
-    table: 'PegonDuff'.padEnd(10, ' '),
+  const importPegonBurnet: ImportTask<PegonBurnet> = {
+    table: 'PegonBurnet'.padEnd(10, ' '),
     path: path.join(DATA_PATH, 'pegonduff.csv'),
     parseRow: (row) => ({
       strong: row.strong,
       chapter: row.chapter
     }),
-    insertBatch: (batch) => prisma.pegonDuff.createMany({ data: batch })
+    insertBatch: (batch) => prisma.pegonBurnet.createMany({ data: batch })
   }
 
   console.log('📦 Seeding')
   await importTable(importLLB)
-  await importTable(importPegonDuff)
+  await importTable(importPegonBurnet)
   await importTable(importBible)
   // await Promise.all([]);
   multiBar.stop()

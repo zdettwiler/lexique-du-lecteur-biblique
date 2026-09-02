@@ -3,7 +3,7 @@ import sanitiseRef from '@/utils/sanitiseRef'
 
 export function middleware(request: NextRequest) {
   const match = request.nextUrl.pathname.match(
-    /\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<occurrences>\d+|pegonduff)?/
+    /\/(?<book>[^/]*)\/(?<chapters>[\d*,-]*)\/?(?<occurrences>\d+|pegonburnet)?/
   )
 
   if (!match) return NextResponse.redirect(new URL(`/`, request.url))

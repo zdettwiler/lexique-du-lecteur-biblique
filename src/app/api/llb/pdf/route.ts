@@ -6,6 +6,17 @@ import { bookMeta } from '@/utils/booksMetadata'
 import fs from 'fs'
 import path from 'path'
 
+export function renderGloss(gloss: string): ReactNode {
+  const parts = gloss.split(/(\*[^*]+\*)/g)
+  return parts.map((part, i) =>
+    part.startsWith('*') && part.endsWith('*') && part.length > 1 ? (
+      <i key={i}>{part.slice(1, -1)}</i>
+    ) : (
+      part
+    )
+  )
+}
+
 export async function POST(req: NextRequest) {
   try {
     const { ref } = await req.json()
@@ -90,8 +101,8 @@ export async function POST(req: NextRequest) {
 
             <p class='italic mt-3 text-xs leading-none'>
               ${
-                sainRef.occurrences === 'pegonduff'
-                  ? `${nbUniqueWords} mots n'ont pas été appris dans les manuels de Pégon et Duff.`
+                sainRef.occurrences === 'pegonburnet'
+                  ? `${nbUniqueWords} mots n'ont pas été appris dans le manuel de ${lang === 'H' ? "Pégon" : "Burnet"}.`
                   : `${nbUniqueWords} mots apparaissent moins de ${sainRef.occurrences} fois dans ${testament}`
               }
               <br />
@@ -122,7 +133,7 @@ export async function POST(req: NextRequest) {
                       <div class='font-sbl font-bold ${lang === 'H' ? 'text-sm text-right grow ml-1' : 'text-sm'}'>${word.lemma}</div>
                       <div class='font-times font-normal text-center text-[8px] inline-block min-w-[15px] mx-1 pt-1 shrink-0 text-gray-500'>(${word.llbword.freq})</div>
                     </div>
-                    <div class='${lang === 'H' ? ' pl-[80px]' : 'pl-[100px]'} font-times text-sm'>${word.llbword.gloss}</div>
+                    <div class='${lang === 'H' ? ' pl-[80px]' : 'pl-[100px]'} font-times text-sm'>${!word.llbword.pos.includes('/') && `<i>${word.llbword.pos}</i>`} ${renderGloss(word.llbword.gloss)}}</div>
                   </div>
                 </div>
               `

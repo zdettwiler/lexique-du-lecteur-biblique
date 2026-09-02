@@ -53,8 +53,8 @@ export default async function Lexicon({ book, chapter, occurrences }: Props) {
         </div>
 
         <p className="italic mb-3">
-          {occurrences === 'pegonduff'
-            ? `${nbUniqueWords} mots n'ont pas été appris dans les manuels de Pégon et Duff.`
+          {occurrences === 'pegonburnet'
+            ? `${nbUniqueWords} mots n'ont pas été appris dans le manuel de ${lang === 'H' ? 'Pégon' : 'Burnet/Detal'}.`
             : `${nbUniqueWords} mots apparaissent moins de ${occurrences} fois dans ${testament}`}
           <br />
           Entre parenthèses figure le nombre d&apos;occurrences du mot dans{' '}

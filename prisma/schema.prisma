@@ -23,10 +23,10 @@ model LLB {
   // vu         Boolean
   updatedAt  DateTime?    @default(now()) @updatedAt
   bibleword  Bible[]
-  pegonduff  PegonDuff?
+  pegonburnet  PegonBurnet?
 }
 
-model PegonDuff {
+model PegonBurnet {
   strong   String @id @unique
   chapter  String @default("")
   llbword  LLB    @relation(fields: [strong], references: [strong])
