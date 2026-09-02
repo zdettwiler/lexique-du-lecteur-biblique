@@ -215,12 +215,12 @@ G0219,ἀλεκτοροφωνία,-ας,n. f.,"chant du coq, à l’aube, tôt 
 G0220,ἀλέκτωρ,-ορος,n. f.,"coq, oiseau de basse-cour",12,
 G0221,Ἀλεξανδρεύς,-έως,adj.,Alexandrin,2,
 G0222,Ἀλεξανδρῖνος,"-η, -ον",adj.,D’Alexandrie,2,
-G0223,Ἀλέξανδρος,-ου,n. pr. m.,Alexandre= «défenseur des hommes»,6,
+G0223,Ἀλέξανδρος,-ου,n. pr. m.,Alexandre = «défenseur des hommes»,6,
 G0224,ἄλευρον,-ου,n. m.,farine,2,
 G0225,ἀλήθεια,-ας,n. f.,"vérité, véracité",108,2024-11-01T08:15:49.825Z
 G0226,ἀληθεύω,,vb.,"dire la vérité, professer la vérité, garder la vérité, être vrai",2,
 G0227,ἀληθής,-ές,adj.,"vrai, véritable, sincère",26,2024-11-01T08:15:49.825Z
-G0228,ἀληθινός,"-ή, -όν",adj. / adv.,"véritable, vrai, sincère",28,2024-11-01T08:15:49.825Z
+G0228,ἀληθινός,"-ή, -όν",adj.,"véritable, vrai, fiable, sincère",28,2024-11-01T08:15:49.825Z
 G0229,ἀλήθω,,vb.,moudre,2,
 G0230,ἀληθῶς,,adv.,"certainement, vraiment, véritablement, réellement",18,
 G0231,ἁλιεύς,-έως,n. f.,pêcheur,5,
@@ -662,7 +662,7 @@ G0678,ἀπροσωπολήπτως,,adv.,"sans acception de personnes, imparti
 G0679,ἄπταιστος,-ον,adj.,qui est sans chute,1,2025-05-15T09:07:37.000Z
 G0681,ἅπτω,aor. moy. ἡψάμην ; aor. ptc. ἅψας,vb.,"allumer, enflammer ; (moy. +G) toucher",39,2025-07-09T16:13:37.000Z
 G0682,Ἀπφία,-ας,n. pr. f.,Apphia = «fructueux»,1,
-G0683,ἀπωθέω,,vb.,(moy.) repousser ; (moy.) rejeter,6,
+G0683,ἀπωθέομαι,,vb.,repousser ; rejeter,6,2026-09-02T13:33:21.825Z
 G0684,ἀπώλεια,-ας,n. f.,destruction ; perdition ; perte,18,
 G0685,ἀρά,-ᾶς,n. f.,"malédiction, imprécation",1,
 G0686,ἄρα,,conj.,"ainsi, alors ; peut-être, par hasard",49,2026-08-29T13:32:33.240Z
@@ -4480,7 +4480,7 @@ G4750,στόμα,-τος,n. n.,bouche,78,2024-11-01T08:15:49.825Z
 G4751,στόμαχος,-ου,n. m.,estomac,1,
 G4752,στρατεία,-ας,n. f.,"guerre, combat",2,
 G4753,στράτευμα,-τος,n. n.,armée ; troupes,8,
-G4754,στρατεύω,,vb.,"combattre, faire la guerre, servir comme soldat, lutter",7,
+G4754,στρατεύομαι,,vb.,"servir comme soldat ; combattre, lutter",7,2026-09-02T13:28:49.825Z
 G4755,στρατηγός,-οῦ,n. f.,capitaine ; commandant ; prêteur,10,
 G4756,στρατιά,-ᾶς,n. f.,armée,2,
 G4757,στρατιώτης,-ου,n. m.,le soldat,26,2024-11-01T08:15:49.825Z
@@ -4535,7 +4535,7 @@ G4807,συκάμινος,-ου,n. m.,mûrier,1,
 G4808,συκῆ,-ῆς,n. f.,figuier,16,
 G4809,συκομωραία,-ας,n. f.,sycomore,1,
 G4810,σῦκον,-ου,n. m.,figue,4,
-G4811,συκοφαντέω,,vb.,"faire tort par une fausse accusation, accuser faussement",2,
+G4811,συκοφαντέω,,vb.,"calomnier ; extorquer",2,2026-09-02T13:40:49.825Z
 G4812,συλαγωγέω,,vb.,"faire sa proie, prendre au piège",1,
 G4813,συλάω,,vb.,"dépouiller, piller, déposséder",1,
 G4814,συλλαλέω,,vb.,"parler, s’entretenir, conférer",6,
