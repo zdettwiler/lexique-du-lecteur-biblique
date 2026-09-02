@@ -1438,7 +1438,7 @@ G1478,Ἐζεκίας,-ου,n. pr. m.,Ézéchias = «la puissance de l’Étern
 G1479,ἐθελοθρησκεία,-ας,n. f.,dévotion volontaire,1,
 G1480,ἐθίζω,pf. pass. εἴθισμαι,vb.,"(participe) l’usage, la coutume",1,
 G1481,ἐθνάρχης,-ου,n. m.,"ethnarque, gouverneur d’une province",1,
-G1482,ἐθνικός,"-ή, -όν",adj.,"homme des nations, celui des nations",4,
+G1482,ἐθνικός,"-ή, -όν",adj.,"homme des nations, païen",4,2026-09-21T13:51:48.323Z
 G1483,ἐθνικῶς,,adv.,comme les nations,1,
 G1484,ἔθνος,-ους,n. m.,"nation, peuple ; (pl.) les nations, les non-juifs",163,2025-07-21T06:56:48.323Z
 G1485,ἔθος,-ους,n. n.,"coutume, habitude, usage",12,
@@ -4970,7 +4970,7 @@ G5269,ὑποζώννυμι,,vb.,"lier avec un câble passé dessous, ceinturer
 G5270,ὑποκάτω,,prép.,"sous, au-dessous",10,
 G5271,ὑποκρίνω,,vb.,"feindre, faire semblant, prétendre",1,
 G5272,ὑπόκρισις,-εως,n. f.,"hypocrisie, dissimulation, malhonnêteté, duplicité",6,
-G5273,ὑποκριτής,-οῦ,n. f.,"hypocrite, malhonnêtement",17,
+G5273,ὑποκριτής,-οῦ,n. f.,"acteur, hypocrite",17,2026-09-02T13:53:49.825Z
 G5274,ὑπολαμβάνω,aor. ὑπέλαβον ; ptc. ὑπολαβών,vb.,"reprendre vers le haut, emporter ; recevoir avec hospitalité ; répondre ; supposer",5,2025-10-21T12:10:13.147Z
 G5275,ὑπολείπω,,vb.,"demeurer, rester, laisser",1,
 G5276,ὑπολήνιον,-ου,n. m.,fosse pour un pressoir,1,
@@ -5320,7 +5320,7 @@ G6001,ἄγγος,,n. n.,vase ; récipient ; pot,1,2025-02-21T10:52:49.855Z
 G6002,Ἀδμίν,,n. pr. m.,Admin,1,2025-02-21T10:52:49.855Z
 G6003,ἀθροίζω,,vb.,rassembler ; réunir ; assembler,1,2025-02-21T10:52:49.855Z
 G6005,ἀμφιέζω,,vb.,vêtir ; habiller ; revêtir,1,2025-02-21T10:52:49.856Z
-G6006,ἀμφιβάλλω,,vb.,jeter autour ; entourer ; lancer un filet,1,2025-02-21T10:52:49.856Z
+G6006,ἀμφιβάλλω,,vb.,lancer un filet,1,2026-09-02T13:55:49.856Z
 G6007,ἄμωμον,,n. m.,sans tache ; irréprochable ; pur,1,2025-02-21T10:52:49.856Z
 G6008,ἀναπηδάω,,vb.,bondir ; sauter en avant,1,2025-02-21T10:52:49.856Z
 G6011,βελόνη,,n. f.,aiguille ; pointe,1,2025-02-21T10:52:49.856Z
@@ -6007,7 +6007,7 @@ H0633,אֱסָר,,,"interdire, décret, décret de restriction",7,
 H0634,אֵסַר־חַדּוֹן,,,Ésar-Haddon = «Assur a donné un frère»,6,
 H0635,אֶסְתֵּר,,,Esther = « étoile»,55,
 H0636,אָע,,,"bois, poutre, bois de construction",5,
-H0637,אַף,,,"(addition, de quelque-chose de plus grand)",134,
+H0637,אַף,,,"aussi, même",134,2026-09-02T14:09:53.035Z
 H0638,אַף,,,"aussi, oui",4,
 H0639,אַף,,,"narines, nez, face, visage",276,
 H0640,אָפַד,,,"lier, ceindre, ceindre l’éphod",2,
@@ -6240,7 +6240,7 @@ H0870,אֲתַר,,,"piste, place",8,
 H0871,אֲתָרִים,,,sens incertain – peut-être passe montagneuse ou route de caravane,1,
 H0872,בִּאָה,,,"entrée, un seuil, entrée du temple",1,
 H0873,בִּאישׁ,,,"mal, mauvais, méchant",1,
-H0874,בָּאַר,,,"faire nettement, distinctement, clairement, déclarer, graver",3,
+H0874,בָּאַר,,,"(piel) rendre distinct, rendre clair",3,2026-09-02T14:10:45.453Z
 H0875,בְּאֵר,,,"puits, fosse, source",38,
 H0876,בְּאֵר,,,Beer = «puits»,2,
 H0877,בֹּאר,,,"citerne, fosse, puits",4,
@@ -7242,10 +7242,7 @@ H1901,הָגִיג,,,"chuchotement, rêverie, murmure, pensée intérieure",2,
 H1902,הִגָּיוֹן,,,"méditation, musique qui résonne, rêverie",4,
 H1903,הָגִין,,,"convenable, approprié",1,
 H1904,הָגָר,,,Agar = «fuite»,12,
-H1905,הַגְרִי,,,"Hagaréniens
-
-peuple demeurant à l’est de la Palestine, à qui les tribus de Ruben firent la guerre du temps de Saül
-un des serviteurs de David Hagri = «errant»",6,
+H1905,הַגְרִי,,,"Hagaréniens",6,
 H1906,הֵד,,,"un cri de joie, un cri",1,
 H1907,הַדָּבָר,,,"conseiller, ministre",4,
 H1908,הֲדַד,,,Hadad = «puissant»,12,
@@ -7553,7 +7550,7 @@ H2215,זָרַב,,,"dessécher, avoir chaud, être brûlé, être roussi",1,
 H2216,זְרֻבָּבֶ֫ל,,,Zorobabel = «rejeton de Babylone»,21,
 H2217,זְרֻבָּבֶ֫ל,,,Zorobabel,1,2024-11-01T08:15:49.825Z
 H2218,זֶ֫רֶד,,,Zéred = «ruisseau de l’osier»,4,
-H2219,זָרָה,,,"(qal) jeter, répandre, vanner, disperser ; (nif.) être dispersé ; (piel) répandre, disperser ; (piel) pénétrer, connaître",39,2024-11-01T08:15:49.825Z
+H2219,זָרָה,,,"(qal) jeter, répandre, vanner, disperser • (nif.) être dispersé • (piel) répandre, disperser ; pénétrer, connaître",39,2024-11-01T08:15:49.825Z
 H2220,זְרוֹעַ,,,"bras, avant-bras, épaule, force",91,
 H2221,זֵרוּעַ,,,"ce qui est semé, semailles, semence, la chose semée",2,
 H2222,זַרְזִיף,,,dégoutter,1,
@@ -7948,7 +7945,7 @@ H2616,חָסַד,,,"être bon, être aimable",3,
 H2617,חֶ֫סֶד,,,"bonté, miséricorde, fidélité",247,
 H2618,חֶ֫סֶד,,,Hésed = «fidélité»,1,
 H2619,חֲסַדְיָה,,,Hasadia = «l’Éternel a été fidèle»,1,
-H2620,חָסָה,,,"(qal) chercher refuge, s’enfuir pour sa protection",37,
+H2620,חָסָה,,,"(qal) chercher refuge",37,2026-09-02T14:12:21.004Z
 H2621,חֹסָה,,,Hosa = «refuge»,5,
 H2622,חָסוּת,,,"refuge, abri",1,
 H2623,חָסִיד,,,"fidèle, aimable, pieux, saint",33,
@@ -11297,7 +11294,7 @@ H6027,עֹ֫נֶג,,,"délices exquis, délicatesse, chose plaisante",2,
 H6028,עָנֹג,,,"délicat, difficile",3,
 H6029,עָנַד,,,"lier, relier, nouer",2,
 H6030,עָנָה,,,"répondre, témoigner ; chanter",332,2025-07-18T11:07:57.629Z
-H6031,עָנָה,,,"affliger, humilier ; être occupé? (Ec 1.13, 3.10)",82,2025-07-18T11:10:42.911Z
+H6031,עָנָה,,,"(qal) être abaissé, affligé, déprimé, abattu • (nif.) s'humilier • (piel) humilier, affliger • (pual) être affligé, humilié • (hif.) affliger • (hitp.) s'humilier, être affligé",82,2026-09-02T14:04:42.911Z
 H6032,עֲנָה,,,"répondre, donner une réponse",30,
 H6033,עֲנָי,,,"(P’al) être humble, être bas",1,
 H6034,עֲנָה,,,"Ana = «réponse, qui écoute, qui répond»",12,
