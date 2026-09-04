@@ -6,16 +6,16 @@ import { bookMeta } from '@/utils/booksMetadata'
 import fs from 'fs'
 import path from 'path'
 
-export function renderGloss(gloss: string): ReactNode {
-  const parts = gloss.split(/(\*[^*]+\*)/g)
-  return parts.map((part, i) =>
-    part.startsWith('*') && part.endsWith('*') && part.length > 1 ? (
-      <i key={i}>{part.slice(1, -1)}</i>
-    ) : (
-      part
-    )
-  )
-}
+// export function renderGloss(gloss: string): ReactNode {
+//   const parts = gloss.split(/(\*[^*]+\*)/g)
+//   return parts.map((part, i) =>
+//     part.startsWith('*') && part.endsWith('*') && part.length > 1 ? (
+//       <i key={i}>{part.slice(1, -1)}</i>
+//     ) : (
+//       part
+//     )
+//   )
+// }
 
 export async function POST(req: NextRequest) {
   try {
@@ -77,8 +77,7 @@ export async function POST(req: NextRequest) {
             @font-face {
               font-family: 'SBL BibLit';
               src: url('data:font/ttf;base64,${sblFont}') format('truetype');
-              font-weight: normal;
-              font-style: normal;
+              font-weight: bold;
             } /* */
             .font-sbl {
               font-family: 'SBL BibLit', 'Times New Roman'
@@ -102,7 +101,7 @@ export async function POST(req: NextRequest) {
             <p class='italic mt-3 text-xs leading-none'>
               ${
                 sainRef.occurrences === 'pegonburnet'
-                  ? `${nbUniqueWords} mots n'ont pas été appris dans le manuel de ${lang === 'H' ? "Pégon" : "Burnet"}.`
+                  ? `${nbUniqueWords} mots n'ont pas été appris dans le manuel de ${lang === 'H' ? 'Pégon' : 'Burnet'}.`
                   : `${nbUniqueWords} mots apparaissent moins de ${sainRef.occurrences} fois dans ${testament}`
               }
               <br />
@@ -123,18 +122,27 @@ export async function POST(req: NextRequest) {
                 const prevVerse = id > 0 ? data[id - 1].verse : 0
                 const verseNb = prevVerse !== word.verse ? word.verse : ''
 
+                const inflections = word.llbword.inflectionEndings
+                  ? word.llbword.pos === 'vb.'
+                    ? ` (${word.llbword.inflectionEndings})`
+                    : `, ${word.llbword.inflectionEndings}`
+                  : ''
+
                 return `
                 <div>
                   ${chapHeading}
 
                   <div class=''>
-                    <div class='float-left flex flex-row ${lang === 'H' ? 'justify-items-end-safe min-w-[80px]' : 'min-w-[100px]'}'>
+                    <div class='flex flex-row leading-none'>
                       <div class='font-sans font-bold text-xs inline-block w-[12px] shrink-0 text-right mr-1'><sup>${verseNb}</sup></div>
-                      <div class='font-sbl font-bold ${lang === 'H' ? 'text-sm text-right grow ml-1' : 'text-sm'}'>${word.lemma}</div>
-                      <div class='font-times font-normal text-center text-[8px] inline-block min-w-[15px] mx-1 pt-1 shrink-0 text-gray-500'>(${word.llbword.freq})</div>
-                    </div>
-                    <div class='${lang === 'H' ? ' pl-[80px]' : 'pl-[100px]'} font-times text-sm'>${!word.llbword.pos.includes('/') && `<i>${word.llbword.pos}</i>`} ${renderGloss(word.llbword.gloss)}}</div>
+
+                      <div class="pl-6 -indent-6">
+                        <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-bold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
+                        <span dir='ltr' class='font-times font-normal text-xs mx-1 text-gray-500'>(${word.llbword.freq})</span>
+                        <span class='leading-none ${lang === 'H' ? ' pl-[0px]' : 'pl-[0px]'} font-times text-sm'>${!word.llbword.pos.includes('/') && `<i>${word.llbword.pos}</i>`} ${word.llbword.gloss}</span>
+                      </div>
                   </div>
+
                 </div>
               `
               })

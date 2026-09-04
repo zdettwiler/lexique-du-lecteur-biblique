@@ -45,16 +45,19 @@ export default function LexiconWord({ verseNb, word }: Props) {
       <div className="font-sans font-bold text-lg inline-block w-5 shrink-0 grow-0 text-right mr-1">
         <sup>{verseNb}</sup>
       </div>
-      <div className="pl-6 -indent-6" style={{ textIndent: -24 }}>
+      <div className="pl-6 -indent-6">
         <span
-          dir={lang === 'H' ? 'rtl min-w-[120px]' : 'ltr'}
-          className={`font-serif font-semibold ${lang === 'H' ? 'text-2xl text-right ml-1 leading-none' : 'text-xl'} `}
+          dir={lang === 'H' ? 'rtl' : 'ltr'}
+          className={`font-serif font-semibold ${lang === 'H' ? 'text-2xl min-w-[60px] text-right ml-1 leading-none' : 'text-xl'} `}
         >
           {word.lemma}
           {inflections}
         </span>
 
-        <span className="font-serif font-normal leading-none text-sm mx-3 text-gray-500 dark:text-gray-400">
+        <span
+          dir="ltr"
+          className="font-serif font-normal leading-none text-sm mx-3 text-gray-500 dark:text-gray-400"
+        >
           ({word.llbword.freq})
         </span>
 
