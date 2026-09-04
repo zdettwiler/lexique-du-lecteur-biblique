@@ -6,6 +6,7 @@ let browserPromise: Promise<Browser> | null = null
 async function getBrowser() {
   if (!browserPromise) {
     browserPromise = chromium.launch({
+      // channel: 'chrome', // for dev only
       headless: true,
       args: [
         '--no-sandbox',
