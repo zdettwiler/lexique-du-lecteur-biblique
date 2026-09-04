@@ -104,7 +104,7 @@ async function main() {
 
   const exportPegonBurnet: ExportTask<PegonBurnet> = {
     table: 'PegonBurnet'.padEnd(10, ' '),
-    path: 'pegonduff.csv',
+    path: 'pegonburnet.csv',
     getTotal: () => prisma.pegonBurnet.count(),
     getBatch: (skip, take) =>
       prisma.pegonBurnet.findMany({ skip, take, orderBy: { strong: 'asc' } }),

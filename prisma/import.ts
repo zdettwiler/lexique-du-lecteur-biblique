@@ -126,7 +126,7 @@ async function main() {
 
   const importPegonBurnet: ImportTask<PegonBurnet> = {
     table: 'PegonBurnet'.padEnd(10, ' '),
-    path: path.join(DATA_PATH, 'pegonduff.csv'),
+    path: path.join(DATA_PATH, 'pegonburnet.csv'),
     parseRow: (row) => ({
       strong: row.strong,
       chapter: row.chapter
