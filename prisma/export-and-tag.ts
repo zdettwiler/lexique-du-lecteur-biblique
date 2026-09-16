@@ -90,6 +90,11 @@ async function main() {
               chapter: true,
               verse: true
             }
+          },
+          pegonburnet: {
+            select: {
+              chapter: true
+            }
           }
         },
         orderBy: { strong: 'asc' }
@@ -111,7 +116,9 @@ async function main() {
                 ? `LLB::${meta.label}::${String(w.chapter).padStart(2, '0')}::${String(w.verse).padStart(2, '0')}`
                 : `LLB::${w.book}::${String(w.chapter).padStart(2, '0')}::${String(w.verse).padStart(2, '0')}`
             })
-          )
+          ),
+          l.pegonburnet?.chapter &&
+            `LLB::${l.pegonburnet.chapter.match(/^(pegon|burnet)_\d+$/)?.[1]}`
         ].join(' ')
       }))
     },
