@@ -119,7 +119,9 @@ async function main() {
           ),
           l.pegonburnet?.chapter &&
             `LLB::${l.pegonburnet.chapter.match(/^(pegon|burnet)_\d+$/)?.[1]}`
-        ].join(' ')
+        ]
+          .join(' ')
+          .trimEnd()
       }))
     },
 

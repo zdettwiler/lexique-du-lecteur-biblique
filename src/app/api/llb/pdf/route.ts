@@ -101,7 +101,7 @@ export async function POST(req: NextRequest) {
             <p class='italic mt-3 text-xs leading-none'>
               ${
                 sainRef.occurrences === 'pegonburnet'
-                  ? `${nbUniqueWords} mots n'ont pas été appris dans le manuel de ${lang === 'H' ? 'Pégon' : 'Burnet'}.`
+                  ? `${nbUniqueWords} mots n'ont pas été appris dans le manuel de ${lang === 'H' ? 'Pegon' : 'Burnet'}.`
                   : `${nbUniqueWords} mots apparaissent moins de ${sainRef.occurrences} fois dans ${testament}`
               }
               <br />
