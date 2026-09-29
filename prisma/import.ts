@@ -16,7 +16,7 @@ const multiBar = new cliProgress.MultiBar(
     hideCursor: true,
     autopadding: true,
     format:
-      '  - {table} |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)'
+      '  - {table}   |{bar}| {percentage}% | ETA: {eta}s | ({value}/{total} rows)'
   },
   cliProgress.Presets.rect
 )
@@ -87,6 +87,12 @@ function normalizeToOxia(input: string): string {
 
   return replaced
 }
+function cleanGloss(input: string): string {
+  return input
+    .replace(/ +;/g, '\u202F;')
+    .replace(/([^\s]);/g, '$1\u202F;')
+    .replace(/ ([•▲]) +/g, ' $1\u00A0')
+}
 
 async function main() {
   console.log('🧽 Wiping all tables')
@@ -102,7 +108,7 @@ async function main() {
       lemma: normalizeToOxia(row.lemma),
       inflectionEndings: normalizeToOxia(row.inflectionEndings),
       pos: row.pos,
-      gloss: row.gloss.replace(/([^\s]);/g, '$1 ;'), // use non-breakable space before ';'
+      gloss: cleanGloss(row.gloss),
       freq: Number(row.freq),
       updatedAt: row.updatedAt ? new Date(row.updatedAt) : null
     }),
