@@ -204,7 +204,7 @@ G0208,ἀκυρόω,,vb.,"annuler, abroger",3,2024-11-01T08:15:49.825Z
 G0209,ἀκωλύτως,,adv.,"sans empêchement, sans entrave, sans obstacle",1,
 G0210,ἄκων,"ἄκουσα, ἆκον",adj.,"malgré soi, contraint",1,
 G0211,ἀλάβαστρον,-ου,n. m.,vase d’albâtre,4,
-G0212,ἀλαζονεία,-ας,n. f.,"négliger, délaisser",2,2026-08-29T13:32:33.240Z
+G0212,ἀλαζονεία,-ας,n. f.,"orgueil, arrogance, vantardise, présomption",2,2026-10-06T06:58:33.240Z
 G0213,ἀλαζών,-όνος,n. f.,"vantard, fanfaron, arrogant",2,
 G0214,ἀλαλάζω,,vb.,retentir ; pousser des cris,2,
 G0215,ἀλάλητος,-ον,adj.,"inexprimable, indicible, incommunicable",1,
@@ -2952,9 +2952,9 @@ G3058,λοιδορέω,,vb.,"injurier, faire des reproches, insulter",4,
 G3059,λοιδορία,-ας,n. f.,"mauvais propos, insulte, outrage, médisance",3,
 G3060,λοίδορος,-ου,n. f.,"outrageux, qui insulte, qui injurie",2,
 G3061,λοιμός,-οῦ,n. f.,peste,2,
-G3062,λοιπός,"-ή, -όν",adj.,"le reste, le restant",40,2024-11-01T08:15:49.825Z
-G3063,λοιπόν,,adj.,au reste ; dorénavant,13,
-G3064,λοιποῦ,,adj.,"désormais, au reste",2,
+G3062,λοιπός,"-ή, -όν",adj.,"autre ; restant",40,2026-10-06T07:07:49.825Z
+G3063,λοιπόν,,adv.,finalement ; au reste ; désormais ; plus tard ; encore,13,2026-10-06T07:10:23.185Z
+G3064,λοιποῦ,,adv.,"désormais, au reste",2,
 G3065,Λουκᾶς,-ᾶ,n. pr. m.,Luc = «qui donne la lumière»,3,
 G3066,Λούκιος,-ου,n. pr. m.,"Lucius = «lumière, vif, brillant, blanc»",2,
 G3067,λουτρόν,-οῦ,n. n.,"lavage, action de baigner",2,
@@ -4373,7 +4373,7 @@ G4638,σκήνωμα,-τος,n. n.,"tabernacle, demeure",3,
 G4639,σκιά,-ᾶς,n. f.,ombre,7,
 G4640,σκιρτάω,,vb.,"tressaillir de joie, sauter de joie",3,
 G4641,σκληροκαρδία,-ας,n. f.,dureté de cœur,3,
-G4642,σκληρός,"-ά, -όν",adj. / adv.,"dur, rude, sévère",5,2025-06-06T10:19:19.000Z
+G4642,σκληρός,"-ά, -όν",adj.,"dur, rude, sévère",5,2025-06-06T10:19:19.000Z
 G4643,σκληρότης,-ητος,n. f.,"dureté, insensibilité, obstination",1,
 G4644,σκληροτράχηλος,-ον,adj.,"gens (hommes) de cou raide, entêté, obstiné",1,
 G4645,σκληρύνω,,vb.,"rendre dur, durcir, endurcir",6,2024-11-01T08:15:49.825Z
@@ -10494,7 +10494,7 @@ H5217,נָכָא,,vb.,"(nif.) frapper, châtier, battre",1,2025-07-10T14:41:21.0
 H5218,נָכֵא,,adj.,frappé,4,
 H5219,נְכֹאת,,n. f.,une épice,2,
 H5220,נֶ֫כֶד,,n. m.,"progéniture, postérité",3,
-H5221,נָכָה,,vb.,"(nif.) être battu, être frappé ; (pual) être frappé ; (hif.) battre, frapper, vaincre, heurter",500,2026-02-20T14:21:45.998Z
+H5221,נָכָה,,vb.,"(nif.) être battu, être frappé • (pual) être frappé • (hif.) battre, frapper, vaincre, heurter",500,2026-02-20T14:21:45.998Z
 H5222,נֵכֶה,,adj.,"frappé, battu",1,
 H5223,נָכֵה,,adj.,"frappé, battu, abattu",3,
 H5224,נְכוֹ,,n. pr. m.,Néco = «boiteux»,8,
@@ -10502,7 +10502,7 @@ H5225,נָכוֹן,,n. pr. m.,Nacon = «préparé»,1,
 H5227,נֹ֫כַח,,adj.,être en face de,25,
 H5228,נָכֹחַ,,adj.,"droit, juste, droiture, être en face de",4,
 H5229,נְכֹחָה,,adj. f.,"être en face de, droit, juste, droiture",4,
-H5230,נָכַל,,vb.,"(qal) tricher ; (piel) tromper, duper ; (hitp.) intriguer",4,2024-11-01T08:15:49.825Z
+H5230,נָכַל,,vb.,"(qal) tricher • (piel) tromper, duper • (hitp.) intriguer",4,2024-11-01T08:15:49.825Z
 H5231,נֵ֫כֶל,,n. m.,"ruse, charme, habileté, friponnerie",1,
 H5232,נְכַס,,n. m.,"richesse, propriété",2,
 H5233,נֶ֫כֶס,,n. m.,"richesse, trésors",5,
@@ -12710,7 +12710,7 @@ H7458,רָעָב,,n. m.,"famine, faim",101,
 H7459,רְעָבוֹן,,n. m.,"faim, manque de nourriture, famine",3,
 H7460,רָעַד,,vb.,"trembler, tremblant",3,
 H7461,רַ֫עַד,,n. m.,"tremblement, crainte",6,
-H7462,רָעָה,,n. pr.,"paître, faire paître, soigner, nourrir",177,2025-10-20T11:58:09.813Z
+H7462,רָעָה,,vb.,"▲ I. (qal) paître, faire paître ; pâturer, brouter • (piel) faire paître ▲ II. (qal) être rassasié, être repu ▲ III. (qal) s'associer (avec), être ami de • (piel) se lier d'amitié • (hitp.) être compagnon",177,2026-09-29T13:15:16.934Z
 H7463,רֵעֶה,,n. m.,"ami, favori du roi (sens technique)",3,
 H7464,רֵעָה,,n. f.,"une compagne, une demoiselle de compagnie",3,
 H7465,רֹעָה,,vb.,"brisé, cassé",1,
