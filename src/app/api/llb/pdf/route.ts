@@ -148,9 +148,10 @@ export async function POST(req: NextRequest) {
                       <div class='font-geist font-bold text-xs inline-block w-[12px] shrink-0 text-right mr-1'><sup>${verseNb}</sup></div>
 
                       <div class="pl-6 -indent-6">
-                        <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-bold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
-                        <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-normal ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
-                        <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-semibold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
+                      <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-normal ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
+                      <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-semibold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
+                      <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-bold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
+                        <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-extrabold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
                         <span dir='ltr' class='font-times font-normal text-xs mx-1 text-gray-500'>(${word.llbword.freq})</span>
                         <span class='leading-none ${lang === 'H' ? ' pl-[0px]' : 'pl-[0px]'} font-times text-sm'>${!word.llbword.pos.includes('/') && `<i>${word.llbword.pos}</i>`} ${word.llbword.gloss}</span>
                       </div>
