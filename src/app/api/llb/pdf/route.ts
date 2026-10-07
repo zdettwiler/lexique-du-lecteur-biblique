@@ -77,6 +77,7 @@ export async function POST(req: NextRequest) {
             @font-face {
               font-family: 'SBL BibLit';
               src: url('data:font/ttf;base64,${sblFont}') format('truetype');
+              font-weight: 700;
             } /* */
             .font-sbl {
               font-family: 'SBL BibLit', 'Times New Roman'
