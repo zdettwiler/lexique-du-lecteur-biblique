@@ -50,6 +50,9 @@ export async function POST(req: NextRequest) {
     const sblFontPath = path.join(process.cwd(), 'public/assets/SBL_BLit.ttf')
     const sblFont = fs.readFileSync(sblFontPath).toString('base64')
 
+    const geistFontPath = path.join(process.cwd(), 'public/assets/GeistVF.woff')
+    const geistFont = fs.readFileSync(geistFontPath).toString('base64')
+
     const title =
       sainRef.chapters && sainRef.chapters !== '*'
         ? `${bookMeta[sainRef.book as BookName].fullName} ${String(sainRef.chapters).replace('-', '–')}`
@@ -82,6 +85,13 @@ export async function POST(req: NextRequest) {
             } /* */
             .font-sbl {
               font-family: 'SBL BibLit', 'Times New Roman'
+            }
+            @font-face {
+              font-family: 'Geist';
+              src: url('data:font/woff;base64,${geistFont}') format('woff');
+            }
+            .font-geist {
+              font-family: 'Geist', Arial, sans-serif
             }
             .font-times {
               font-family: 'Times New Roman', serif
@@ -135,7 +145,7 @@ export async function POST(req: NextRequest) {
 
                   <div class=''>
                     <div class='flex flex-row leading-none'>
-                      <div class='font-sans font-bold text-xs inline-block w-[12px] shrink-0 text-right mr-1'><sup>${verseNb}</sup></div>
+                      <div class='font-geist font-bold text-xs inline-block w-[12px] shrink-0 text-right mr-1'><sup>${verseNb}</sup></div>
 
                       <div class="pl-6 -indent-6">
                         <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-bold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
