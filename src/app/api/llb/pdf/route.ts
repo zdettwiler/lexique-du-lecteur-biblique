@@ -82,7 +82,7 @@ export async function POST(req: NextRequest) {
               src: url('data:font/ttf;base64,${sblFont}') format('truetype');
               font-weight: normal;
               font-style: normal;
-            } /* */
+            }
             .font-sbl {
               font-family: 'SBL BibLit', 'Times New Roman'
             }
@@ -149,6 +149,8 @@ export async function POST(req: NextRequest) {
 
                       <div class="pl-6 -indent-6">
                         <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-bold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
+                        <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-normal ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
+                        <span dir={lang === 'H' ? 'rtl' : 'ltr'} class='leading-none font-sbl font-semibold ${lang === 'H' ? 'text-sm text-right ml-1' : 'text-sm'}'>${word.lemma}${inflections}</span>
                         <span dir='ltr' class='font-times font-normal text-xs mx-1 text-gray-500'>(${word.llbword.freq})</span>
                         <span class='leading-none ${lang === 'H' ? ' pl-[0px]' : 'pl-[0px]'} font-times text-sm'>${!word.llbword.pos.includes('/') && `<i>${word.llbword.pos}</i>`} ${word.llbword.gloss}</span>
                       </div>
