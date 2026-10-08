@@ -23,7 +23,7 @@ G0021,ἀγαλλιάω,,vb.,se réjouir ; se réjouir avec allégresse ; tre
 G0022,ἄγαμος,-ου,n. m./f.,celui qui n’est pas marié,4,
 G0023,ἀγανακτέω,,vb.,"être indigné, s’indigner, être révolté, être en colère",7,
 G0024,ἀγανάκτησις,-εως,n. f.,"indignation, irritation, vexation",1,
-G0025,ἀγαπάω,,vb.,aimer ; (participe) bien-aimé,143,
+G0025,ἀγαπάω,,vb.,aimer • (ptcp.) bien-aimé,143,
 G0026,ἀγάπη,-ης,n. f.,"amour fraternel, affection, (pluriel) agapes",116,2024-11-01T08:15:49.825Z
 G0027,ἀγαπητός,"-ή, -όν",adj.,bien-aimé,61,2024-11-01T08:15:49.825Z
 G0028,Ἄγαρ,,n. pr. f.,Agar = «fuite»,2,
@@ -72,7 +72,7 @@ G0071,ἄγω,fut. pass. ἀχθήσομαι ; aor. ἤγαγον ; aor. pass
 G0072,ἀγωγή,-ῆς,n. f.,"conduite, manière de vivre",1,
 G0073,ἀγών,-ῶνος,n. f.,"combat, lutte, course",6,2024-11-01T08:15:49.825Z
 G0074,ἀγωνία,-ας,n. f.,"angoisse du combat, agonie, agitation de l’âme",1,
-G0075,ἀγωνίζομαι,,vb.,combattre ; (participe) athlète,8,
+G0075,ἀγωνίζομαι,,vb.,combattre • (ptcp.) athlète,8,
 G0076,Ἀδάμ,,n. pr. m.,Adam = «la terre rouge»,9,
 G0077,ἀδάπανος,-ον,adj.,"exempt de frais, sans coût, gratuit",1,
 G0078,Ἀδδί,,n. pr. m.,Addi = «ornement»,1,
@@ -465,7 +465,7 @@ G0476,ἀντίδικος,-ου,n. f.,"partie adverse, adversaire",5,
 G0477,ἀντίθεσις,-εως,n. f.,"opposition, sujet de dispute, objection",1,
 G0478,ἀντικαθίστημι,aor. ἀντικατέστην,vb.,"résister, s’opposer, tenir ferme contre",1,
 G0479,ἀντικαλέω,,vb.,convier à son tour,1,
-G0480,ἀντίκειμαι,,vb.,s’opposer à ; (ptcp. prés.) adversaire,8,2026-02-19T10:17:53.310Z
+G0480,ἀντίκειμαι,,vb.,s’opposer à • (ptcp. prés.) adversaire,8,2026-02-19T10:17:53.310Z
 G0481,ἄντικρυς,,adv.,"à la hauteur de, en face de",1,
 G0482,ἀντιλαμβάνω,,vb.,(moy.) aider ; se dévouer à,3,2026-08-29T13:32:33.240Z
 G0483,ἀντιλέγω,aor. ἀντεῖπον,vb.,"contredire, parler contre, contester, nier, opposer",10,
@@ -900,7 +900,7 @@ G0921,Βαρνάβας,-ᾶ,n. pr. m.,"Barnabas, Barnabé = «fils de la proph�
 G0922,βάρος,-ους,n. n.,"charge, fardeau ; poids, importance",6,2024-11-01T08:15:49.825Z
 G0923,Βαρσαβᾶς,-ᾶ,n. pr. m.,Barsabas = «fils de Sabas»,2,
 G0924,Βαρτιμαῖος,-ου,n. pr. m.,Bartimée = «fils de Timée»,1,
-G0926,βαρύς,"-εῖα, -ύ",adj.,pénible ; pesant ; grave ; important ; redoutable,6,
+G0926,βαρύς,"-εῖα, -ύ",adj.,"lourd, pesant, pénible ; important, sérieux ; féroce, sauvage",6,2026-10-08T12:59:01.876Z
 G0927,βαρύτιμος,-ον,adj.,"de grand prix, très précieux, coûteux",1,
 G0928,βασανίζω,,vb.,battre ; tourmenter,12,
 G0929,βασανισμός,-ου,n. f.,"tourment, torture, épreuve",6,
@@ -1268,7 +1268,7 @@ G1303,διατίθημι,,vb.,conférer,7,
 G1304,διατρίβω,,vb.,séjourner,9,
 G1305,διατροφή,-ῆς,n. f.,nourriture,1,2026-09-09T16:33:49.825Z
 G1306,διαυγάζω,,vb.,"commencer à luire, apparaître, poindre",1,
-G1308,διαφέρω,aor. subj. διενέγκω,vb.,porter ; ballotter ; répandre ; (participe) être excellent ; différer ; importer ; valoir mieux,13,
+G1308,διαφέρω,aor. subj. διενέγκω,vb.,porter ; ballotter ; répandre • (ptcp.) être excellent ; différer ; importer ; valoir mieux,13,
 G1309,διαφεύγω,aor. subj. διαφύγω,vb.,"s’enfuir, s’échapper",1,
 G1310,διαφημίζω,,vb.,"répandre, proclamer, faire connaître partout, divulguer",3,
 G1311,διαφθείρω,aor. pass. διεφθάρην ; pf. pass. διέφθαρμαι,vb.,corrompre ; détruire,6,
@@ -1979,7 +1979,7 @@ G2044,ἐρεύγομαι,,vb.,"émettre des paroles, publier",1,2024-11-01T08:
 G2045,ἐρευνάω,,vb.,"sonder, examiner, chercher, s’enquérir, rechercher",6,
 G2046,ἔπω,,vb.,"parler, dire, prescrire",47,
 G2047,ἐρημία,-ας,n. f.,"désert, lieu inhabité, inculte",4,
-G2048,ἔρημος,-ον,adj.,délaissé ; (subst.) le désert,48,2026-07-28T14:31:46.737Z
+G2048,ἔρημος,-ον,adj.,délaissé • (subst.) le désert,48,2026-07-28T14:31:46.737Z
 G2049,ἐρημόω,,vb.,"changer en désolation, être désolé, dévaster, rendre désert",5,
 G2050,ἐρήμωσις,-εως,n. f.,"désolation, dévastation, destruction totale",3,
 G2051,ἐρίζω,,vb.,"contester, se disputer, se quereller",1,
@@ -3145,7 +3145,7 @@ G3359,μέτωπον,-ου,n. m.,front,8,
 G3360,μέχρι,,prép.,"jusqu’à, jusqu’à ce que",17,
 G3361,μή,,part. n.,"ne... pas, non",1065,2024-11-01T08:15:49.825Z
 G3365,μηδαμῶς,,part. n.,"en aucun cas, d’aucune façon, nullement, non point",2,
-G3366,μηδέ,,part. / conj. / adv.,"*conj.* et ne... pas, mais ne... pas ▲ * *part.* ni... ni ▲ * *adv.* pas même",57,2026-10-07T11:45:49.825Z
+G3366,μηδέ,,part. / conj. / adv.,"*conj.* et ne... pas, mais ne... pas ▲ *part.* ni... ni ▲ *adv.* pas même",57,2026-10-07T11:45:49.825Z
 G3367,μηδείς,"μηδεμία, μηδέν",adj.,"personne, aucun, rien",90,2024-11-01T08:15:49.825Z
 G3368,μηδέποτε,,adv. n.,"ne… jamais, en aucun cas",1,
 G3369,μηδέπω,,adv. n.,ne… pas encore,1,
@@ -3453,7 +3453,7 @@ G3690,ὄξος,-ους,n. n.,vinaigre,6,
 G3691,ὀξύς,"-εῖα, -ύ",adj.,aigu ; tranchant ; rapide,8,
 G3692,ὀπή,-ῆς,n. f.,"ouverture, trou, orifice, grotte",2,
 G3693,ὄπισθεν,,prép.,"derrière, par derrière, dans le dos",7,
-G3694,ὀπίσω,,adv./prép.,"*adv.* derrière ▲ * *prép.* (+G) derrière, après",35,2026-02-27T14:22:48.484Z
+G3694,ὀπίσω,,adv./prép.,"*adv.* derrière ▲ *prép.* (+G) derrière, après",35,2026-02-27T14:22:48.484Z
 G3695,ὁπλίζω,,vb.,"s’armer, s’équiper, se munir",1,
 G3696,ὅπλον,-ου,n. m.,"arme, instrument de combat, outil, instrument",6,
 G3697,ὁποῖος,"-α, -ον",pron.,"quel, de quelle sorte",5,
@@ -3462,7 +3462,7 @@ G3700,ὀπτάνομαι,,vb.,mettre ordre ; montrer,1,
 G3701,ὀπτασία,-ας,n. f.,"vision, apparition",4,
 G3702,ὀπτός,"-ή, -όν",adj.,"cuit, rôti, grillé",1,
 G3703,ὀπώρα,-ας,n. f.,fruit,1,2024-11-01T08:15:49.825Z
-G3704,ὅπως,,conj./adv.,"*conj* (+subj) afin que, de manière à, en sorte que ▲ * *adv.* comment, que",53,2026-02-26T14:44:42.481Z
+G3704,ὅπως,,conj./adv.,"*conj* (+subj) afin que, de manière à, en sorte que ▲ *adv.* comment, que",53,2026-02-26T14:44:42.481Z
 G3705,ὅραμα,-τος,n. n.,"vision, apparition",12,
 G3706,ὅρασις,-εως,n. f.,vision,4,
 G3707,ὁρατός,"-ή, -όν",adj.,visible,1,
@@ -5592,7 +5592,7 @@ H0211,אוֹפִיר,,n. pr. m.,Ophir = «débarrassé des cendres»,13,
 H0212,אוֹפָן,,n. m.,roue,35,
 H0213,אוּץ,,vb.,"se presser, être pressé, faire en hâte, être étroit",10,
 H0214,אוֹצָר,,n. m.,"trésor, magasin de stockage",79,
-H0215,אוֹר,,vb.,"(qal) briller, éclairer ; (nif.) être illuminé ; (hif.) luire, briller, illuminer, allumer",43,2025-07-17T13:56:15.920Z
+H0215,אוֹר,,vb.,"(qal) briller, éclairer • (nif.) être illuminé • (hif.) luire, briller, illuminer, allumer",43,2025-07-17T13:56:15.920Z
 H0216,אוֹר,,n. f.,lumière,121,
 H0217,אֻרִים,,n. m.,"flamme, lumière du feu",6,
 H0218,אוּר,,n. pr. m.,Ur = «flamme»,5,
@@ -6199,7 +6199,7 @@ H0829,אֶשְׁפָּר,,n. m.,"morceau de viande, portion, gâteau de datte (s
 H0830,אַשְׁפֹּת,,n. m.,"tas de cendre, tas de fumier",7,
 H0831,אַשְׁקְלוֹן,,n. pr.,Askalon = «feu de l’infamie»,12,
 H0832,אֶשְׁקְלוֹנִי,,n. pr.,D’Askalon = «feu d’infamie  je serai pesé»,1,
-H0833,אָשַׁר,,vb.,"(piel) guider, diriger, conduire, marcher, estimer heureux ; (pual) être conduit, être estimé heureux",16,2025-03-04T11:27:08.000Z
+H0833,אָשַׁר,,vb.,"(piel) guider, diriger, conduire, marcher, estimer heureux • (pual) être conduit, être estimé heureux",16,2025-03-04T11:27:08.000Z
 H0834,אֲשֶׁר,,rel.,"lequel, qui, ce que",5499,
 H0835,אֶ֫שֶׁר,,n. m.,"heureux, béni",45,2025-10-03T11:32:45.453Z
 H0836,אָשֵׁר,,n. pr. m.,Aser = «heureux»,43,
@@ -6337,7 +6337,7 @@ H0970,בָּחוּר,,n. m.,"jeunesse, jeune homme",44,
 H0971,בַחוּן,,n. m.,"tour, tour de guet",1,
 H0972,בָּחִיר,,n. m.,"choisi, élu (de Dieu)",13,
 H0973,בָּחֵל,,vb.,"détester, abhorrer, ressentir du dégoût",1,
-H0974,בָּחַן,,vb.,"(qal) tester, mettre à l'épreuve ; (nif.) subir une épreuve",29,2024-11-01T08:15:49.825Z
+H0974,בָּחַן,,vb.,"(qal) tester, mettre à l'épreuve • (nif.) subir une épreuve",29,2024-11-01T08:15:49.825Z
 H0975,בַּ֫חַן,,n. m.,"tour, tour de guet",1,
 H0976,בֹּ֫חַן,,n. m.,"éprouver, essayé, contrôlé",1,
 H0977,בָּחַר,,vb.,"choisir, élire, décider",171,
@@ -6512,14 +6512,14 @@ H1154,בֶּסֶר,,n. m.,"grappes non mûres, raisins verts",1,
 H1155,בֹּ֫סֶר,,n. m.,"grappes non mûres, raisins verts",4,
 H1156,בְּעָא,,vb.,"demander à, chercher, requête, désirer, prier",12,
 H1157,בְּעַד / בַּעַד,,adj.,"autour ; pour, en faveur de ; derrière, à travers, parmi",105,2025-05-30T09:48:53.000Z
-H1158,בָּעָה,,vb.,"(qal) chercher, s'enquérir, faire bouillonner ; (nif.) être recherché, agrandir une brèche",5,2025-02-07T10:28:41.000Z
+H1158,בָּעָה,,vb.,"(qal) chercher, s'enquérir, faire bouillonner • (nif.) être recherché, agrandir une brèche",5,2025-02-07T10:28:41.000Z
 H1159,בָּעוּ,,n. f.,"pétition, requête",2,
 H1160,בְּעוֹר,,n. pr. m.,"Beor = «brûlant, flambeau»",10,
 H1161,בִּעוּתִים,,n. m.,"terreurs, alarmes (occasionnées par Dieu)",2,
 H1162,בֹּ֫עַז,,n. pr. m.,Boaz = «en lui est la force»,24,
 H1163,בָּעַט,,vb.,donner un coup de pied à,2,
 H1165,בְּעִיר,,n. m.,"bêtes, bétail, bestiaux",6,
-H1166,בָּעַל,,n. pr. f.,"(qal) dominer, épouser ; (nif.) se marier",15,2024-11-01T08:15:49.825Z
+H1166,בָּעַל,,n. pr. f.,"(qal) dominer, épouser • (nif.) se marier",15,2024-11-01T08:15:49.825Z
 H1167,בַּעַל,,n. m.,"possesseur, mari, seigneur",84,
 H1168,בַּעַל,,n. m.,"Baal = «maître, possesseur, Seigneur»",82,
 H1169,בְּעֵל,,n. m.,"propriétaire, possesseur, seigneur",3,
@@ -6569,7 +6569,7 @@ H1215,בֶּ֫צַע,,n. m.,"profit, gain injuste, profit acquit par la violence
 H1216,בָּצֵק,,vb.,"gonfler, enfler",2,
 H1217,בָּצֵק,,n. m.,pâte (sans levain),5,
 H1218,בׇּצְקַת,,n. pr.,Botskath = «hauteur rocheuse»,2,
-H1219,בָּצַר,,vb.,"(qal) couper, vendanger, fortifier, rendre inaccessible ; (nif.) être inaccessible, être impossible ; (piel) fortifier",37,2025-07-10T14:40:47.000Z
+H1219,בָּצַר,,vb.,"(qal) couper, vendanger, fortifier, rendre inaccessible • (nif.) être inaccessible, être impossible • (piel) fortifier",37,2025-07-10T14:40:47.000Z
 H1220,בֶּ֫צֶר,,n. m.,"or, minerai précieux",2,
 H1221,בֶּ֫צֶר,,n. pr. m.,Betser = «minerai d’or»,5,
 H1223,בׇּצְרָה,,n. f.,"enclos, bergerie",1,
@@ -6583,7 +6583,7 @@ H1230,בַּקְבַּקַּר,,n. pr. m.,Bakbakkar = «chercheur»,1,
 H1231,בֻּקִּי,,n. pr. m.,Bukki = «gaspillage»,5,
 H1232,בֻּקִּיָּ֫הוּ,,n. pr. m.,Bukkiah = «l’Éternel a empli»,2,
 H1233,בְּקִיעַ,,n. m.,"fissure, brèche, fente",2,
-H1234,בָּקַע,,vb.,"(qal) fendre, forcer l'entrée ; (nif.) se fendre, éclater ; (piel) fendre, faire éclater, percer ; (pual) être éventré ; (hif.) forcer l'entrée, faire une percée ; (hof.) être forcée, percée ; (hitp.) être éventré, se fendre",51,2024-11-01T08:15:49.825Z
+H1234,בָּקַע,,vb.,"(qal) fendre, forcer l'entrée • (nif.) se fendre, éclater • (piel) fendre, faire éclater, percer • (pual) être éventré • (hif.) forcer l'entrée, faire une percée • (hof.) être forcée, percée • (hitp.) être éventré, se fendre",51,2024-11-01T08:15:49.825Z
 H1235,בֶּ֫קַע,,n. m.,demi-pièce appelée «sicle du sanctuaire» ou «sicle saint»,2,
 H1236,בִּקְעָא,,n. f.,"plaine, vallée",1,
 H1237,בִּקְעָה,,n. f.,vallée,20,
@@ -6620,7 +6620,7 @@ H1268,בֵּרֹתַי,,n. pr.,"Bérotha, Bérothaï = «bosquet de cyprès»",2
 H1269,ברזות,,n. pr. m.,Birzavith = «dans la maigreur»,1,
 H1270,בַּרְזֶל,,n. m.,fer,76,
 H1271,בַּרְזִלַּי,,n. pr. m.,Barzillaï = «fait de fer»,12,
-H1272,בָּרַח,,vb.,"(qal) fuir, traverser ; (hif.) faire fuir, chasser, traverser",65,2025-02-05T10:59:52.000Z
+H1272,בָּרַח,,vb.,"(qal) fuir, traverser • (hif.) faire fuir, chasser, traverser",65,2025-02-05T10:59:52.000Z
 H1273,בַּרְחֻמִי,,n. pr.,De barchum (Barchumite) = «fils de celui qui est noirci»,1,
 H1274,בִּרְיָה,,adj.,gras,1,
 H1275,בֵּרִי,,n. pr. m.,Béri = «homme du puits»,1,
@@ -7213,7 +7213,7 @@ H1872,דְּרַע,,n. f.,bras,1,
 H1873,דָּרַע,,n. pr. m.,Dara = «le bras»,1,
 H1874,דַּרְקוֹן,,n. pr. m.,Darkon = «qui disperse»,2,
 H1875,דָּרַשׁ,,vb.,"Avoir recours à, chercher, s’enquérir, exiger",164,
-H1876,דָּשָׁא,,vb.,(qal) verdir ; (hif.) produire de la verdure,2,2025-10-06T08:08:42.110Z
+H1876,דָּשָׁא,,vb.,(qal) verdir • (hif.) produire de la verdure,2,2025-10-06T08:08:42.110Z
 H1877,דֶּ֫שֶׁא,,n. m.,"herbe, verdure",14,2025-10-06T08:09:51.741Z
 H1878,דָּשֵׁן,,vb.,"être gras, engraisser, devenir prospère, oindre",11,
 H1879,דָּשֵׁן,,adj.,gras,3,
@@ -7319,7 +7319,7 @@ H1980,הָלַךְ,,vb.,"aller, marcher, venir",1549,
 H1981,הֲלַךְ,,vb.,"marcher, aller",3,
 H1982,הֵ֫לֶךְ,,n. m.,voyageur,2,
 H1983,הֲלָךְ,,n. m.,"péage, droit de passage, tribut",3,
-H1984,הָלַל,,vb.,"(qal) briller, se vanter ; (piel) louer",165,
+H1984,הָלַל,,vb.,"(qal) briller, se vanter • (piel) louer",165,
 H1985,הִלֵּל,,n. pr. m.,Hillel = «louant»,2,
 H1986,הָלַם,,vb.,"frapper, marteler, battre, sonner",8,
 H1987,הֶ֫לֶם,,n. pr. m.,Hélem = «celui qui frappe»,1,
@@ -7374,7 +7374,7 @@ H2036,הֹרָם,,n. pr. m.,"Horam = « élevé, exalté»",1,
 H2037,הָרֻם,,n. pr. m.,"Harum = «exalté, haut»",1,
 H2038,הַרְמוֹן,,n. pr.,Harmon = «haute forteresse»,1,
 H2039,הָרָן,,n. pr. m.,Haran = «montagnard»,7,
-H2040,הָרַס,,vb.,"(qal) démolir, détruire, casser ; (nif.) être démoli, être mis en ruines ; (piel) démolir, détruire",43,2024-11-01T08:15:49.825Z
+H2040,הָרַס,,vb.,"(qal) démolir, détruire, casser • (nif.) être démoli, être mis en ruines • (piel) démolir, détruire",43,2024-11-01T08:15:49.825Z
 H2041,הֶ֫רֶס,,n. m.,"renversement, destruction",1,
 H2042,הָרָר,,n. m.,"montagne, colline, mont",12,
 H2043,הֲרָרִי,,n. pr.,habitant ou descendant d’Harar ; peut-être seulement un montagnard,5,
@@ -7525,7 +7525,7 @@ H2190,זַעֲוָן,,n. pr. m.,Zaavan = «dérangé»,2,
 H2191,זְעֵיר,,n. m.,un peu,5,
 H2192,זְעֵיר,,adj.,"un peu, petit",1,
 H2193,זָעַךְ,,vb.,"éteindre, être éteint",1,
-H2194,זָעַם,,vb.,"(qal) maudire, être en colère ; (nif.) se mettre en colère",12,2024-11-01T08:15:49.825Z
+H2194,זָעַם,,vb.,"(qal) maudire, être en colère • (nif.) se mettre en colère",12,2024-11-01T08:15:49.825Z
 H2195,זַ֫עַם,,n. m.,"colère, indignation",22,
 H2196,זָעַף,,vb.,"ronger, être triste, être courroucé, enragé, de mauvaise humeur",5,
 H2197,זַ֫עַף,,n. m.,"rage, fureur, indignation",6,2024-11-01T08:15:49.825Z
@@ -7989,7 +7989,7 @@ H2660,חֵ֫פֶר,,n. pr. m.,plus jeune fils de Galaad et chef de la famille de
 H2661,חֲפֹר,,n. f.,"taupe, rat (comme animal qui creuse)",1,
 H2662,חֶפְרִי,,n. pr.,Héphrites = voir Hépher «une fosse» ou «honte»,1,
 H2663,חֲפָרַיִם,,n. pr.,Hapharaïm = «deux fosses»,1,
-H2664,חָפַשׂ,,vb.,"(qal) rechercher, fouiller ; (nif.) être fouillé ; (pual) être médité, se faire chercher, se cacher ; (hitp.) se chacher, se déguiser",23,2024-11-08T10:44:36.000Z
+H2664,חָפַשׂ,,vb.,"(qal) rechercher, fouiller • (nif.) être fouillé • (pual) être médité, se faire chercher, se cacher • (hitp.) se chacher, se déguiser",23,2024-11-08T10:44:36.000Z
 H2665,חֵ֫פֶשׂ,,n. m.,"ruse, intrigue, complot, projet (sagace)",1,
 H2666,חָפַשׁ,,vb.,"(pual) être libre, être affranchi",1,
 H2667,חֹ֫פֶשׁ,,n. m.,"ce qui est répandu, article pour le dos du cheval, selle ; sens incertain",1,
@@ -8224,7 +8224,7 @@ H2900,טוֹבִיָּ֫הוּ,,n. pr. m.,Tobija = «l’Éternel est bon»,18,
 H2901,טָוָה,,vb.,(qal) filer,2,
 H2902,טוּחַ,,vb.,"étendre par-dessus, recouvrir, plâtrer, revêtir de, barbouiller",12,
 H2903,טוֹטָפוֹת,,n. f.,"bandes, phylactères, fronteaux, marques",3,
-H2904,טוּל,,vb.,"(hif.) jeter ; (hof.) être renversé, être jeté, être rejeté ; (Pilp) rejeter, transporter",14,2025-05-07T10:57:09.000Z
+H2904,טוּל,,vb.,"(hif.) jeter • (hof.) être renversé, être jeté, être rejeté • (pilp.) rejeter, transporter",14,2025-05-07T10:57:09.000Z
 H2905,טוּר,,n. m.,"rang, rangée",26,
 H2906,טוּר,,n. m.,montagne,2,
 H2907,טוּשׂ,,vb.,"(qal) se précipiter, s’agiter, se ruer",1,
@@ -8798,7 +8798,7 @@ H3494,יִתְלָה,,n. pr.,Jithla = «il pend»,1,
 H3495,יִתְמָה,,n. pr. m.,Jithma = «orphelin»,1,
 H3496,יַתְנִיאֵל,,n. pr. m.,Jathniel = «Dieu m’engage»,1,
 H3497,יִתְנָ֑ן,,n. pr.,"Ithnan = «louer, engager»",1,
-H3498,יָתַר,,vb.,"(qal) rester ; (nif.) rester, demeurer ; (hif.) faire rester, conserver, épargner, donner l'abondance",106,2025-05-29T09:56:33.000Z
+H3498,יָתַר,,vb.,"(qal) rester • (nif.) rester, demeurer • (hif.) faire rester, conserver, épargner, donner l'abondance",106,2025-05-29T09:56:33.000Z
 H3499,יֶ֫תֶר,,n. m.,"un reste, excès, les autres, ce qui reste, excellence",102,
 H3500,יֶ֫תֶר,,n. pr. m.,Jéther = «abondance»,9,
 H3501,יִתְרָא,,n. pr. m.,Jithra = «abondance»,1,
@@ -8914,7 +8914,7 @@ H3611,כֶּ֫לֶב,,n. m.,chien,32,
 H3612,כָּלֵב,,n. pr. m.,Caleb = «chien»,35,
 H3613,כָּלֵב אֶפְרָתָה,,n. pr.,Caleb-Éphratha = «chien fécond»,2,
 H3614,כָּלִבִּי,,n. pr.,un descendant de Caleb,1,
-H3615,כָּלָה,,vb.,"(qal) être fini, être achevé, être au bout, être dépensé ; (piel) terminer, accomplir, consumer, détruire ; (pual) être terminé",208,2025-02-11T10:29:40.000Z
+H3615,כָּלָה,,vb.,"(qal) être fini, être achevé, être au bout, être dépensé • (piel) terminer, accomplir, consumer, détruire • (pual) être terminé",208,2025-02-11T10:29:40.000Z
 H3616,כָּלֶה,,adj.,"affaibli par le désir, désir ardent, languir",1,
 H3617,כָּלָה,,n. f.,"achèvement, terminaison, fin entière, complète destruction, consommation, anéantissement",21,
 H3618,כַּלָּה,,n. f.,"mariée, fiancée ; belle-fille",34,2026-09-29T07:25:14.032Z
@@ -8950,7 +8950,7 @@ H3647,כָּמַס,,vb.,"emmagasiner, sauver",1,
 H3648,כָּמַר,,vb.,"soupirer, être brûlant, être noir (chaud), devenir chaud et tendre, devenir agité par l’émotion",4,
 H3649,כֹּ֫מֶר,,n. m.,"prêtre, sacrificateur idolâtre",3,
 H3650,כִּמְרִיר,,n. m.,"noirceur, obscurité, ténèbres",1,
-H3651,כֵּן,,adv.,"(adj) droit, loyal, sincère ; (adv) bien, ainsi, donc, de cette manière, autant, comme, de même que...",765,2025-05-23T11:16:09.000Z
+H3651,כֵּן,,adj./adv.,"*adj* droit, loyal, sincère ▲ *adv* bien, ainsi, donc, de cette manière, autant, comme, de même que...",765,2025-05-23T11:16:09.000Z
 H3652,כֵּן,,conj.,"ainsi, de telle sorte, selon ce qui suit",8,
 H3653,כֵּן,,n. m.,"base, support, piédestal, fonction, pied, endroit, état",17,
 H3654,כֵּן,,n. m.,"moucheron, essaim de mouches, poux",7,
@@ -8978,7 +8978,7 @@ H3676,כֵּס,,n. m.,"siège (d’honneur), trône, siège, escabeau",1,
 H3677,כֶּ֫סֶא,,n. m.,lune (pleine ou nouvelle),2,
 H3678,כִּסֵּא,,n. m.,"siège (d’honneur), trône, siège, marche",135,
 H3679,כַּשְׂדָּ֑י,,n. pr.,"Chaldéen = voir Chaldée «briseur se motte de terre», «comme des démons»",1,
-H3680,כָּסָה,,vb.,"(qal) couvrir, cacher ; (piel) couvrir, pardonner, cacher ; (hitp.) se couvrir",152,2025-10-15T13:26:40.289Z
+H3680,כָּסָה,,vb.,"(qal) couvrir, cacher • (piel) couvrir, pardonner, cacher • (hitp.) se couvrir",152,2025-10-15T13:26:40.289Z
 H3681,כָּסוּי,,n. m.,"enveloppe, couverture extérieure",2,
 H3682,כְּסוּת,,n. f.,"couverture, vêtements",8,
 H3683,כָּסַח,,vb.,"découper, couper (de plantes)",2,
@@ -9153,7 +9153,7 @@ H3853,לְהָבִים,,n. pr.,Lehabim = «flammes»,2,
 H3854,לַ֫הַג,,n. m.,"étude, studieux, dévoué à l’étude",1,
 H3855,לָ֑הַד,,n. pr. m.,"Lahad = «triomphant, sombre»",1,
 H3856,לָהַה,,vb.,"(qal) languir, s’évanouir",2,
-H3857,לָהַט,,vb.,"(qal) brûler ; (piel) brûler, consummer",11,2024-11-01T08:15:49.825Z
+H3857,לָהַט,,vb.,"(qal) brûler • (piel) brûler, consummer",11,2024-11-01T08:15:49.825Z
 H3858,לַ֫הַט,,n. m.,flamme (d’une épée angélique),1,
 H3859,לָהַם,,vb.,"gober, avaler avidement",2,
 H3860,לָהֵן,,conj.,"donc, dans ce but",2,
@@ -10122,7 +10122,7 @@ H4839,מָרָק,,n. m.,"bouillon, jus provenant de la viande",3,
 H4840,מֶרְקָח,,n. m.,"épice, parfum, épices aromatiques",1,
 H4841,מֶרְקָחָה,,n. f.,"un assaisonnement, une composition, des épices",2,
 H4842,מִרְקַ֫חַת,,n. f.,"onguent, mélange de parfums",3,
-H4843,מָרַר,,vb.,"(qal) être amer • (piel) rendre amer ; manifester son amertume • (hif.) rendre amer, aigrir • (hitpalpel) être aigri, être en colère",14,2026-09-29T07:50:49.825Z
+H4843,מָרַר,,vb.,"(qal) être amer • (piel) rendre amer ; manifester son amertume • (hif.) rendre amer, aigrir • (hitpalpel) être aigri, être en colère",14,2026-09-29T07:50:49.825Z
 H4844,מָרֹר,,n. m.,"chose amère, herbe amère, amertume",3,
 H4845,מְרֵרָה,,n. f.,"fiel, bile",1,
 H4846,מְרֹרָה,,n. f.,"chose amère, fiel, bile, poison",4,
@@ -10309,7 +10309,7 @@ H5030,נָבִיא,,n. m.,"l’homme qui parle, un prophète",315,
 H5031,נְבִיאָה,,n. f.,"prophétesse, femme prophète",6,
 H5032,נְבָיוֹת,,n. pr. m.,Nebajoth = «hauteurs»,5,
 H5033,נֵ֫בֶךְ,,n. m.,source jaillissante,1,
-H5034,נָבֵל,,vb.,"(qal) flétrir, faner, s'épuiser, se fatiguer, perdre courage ; (piel) mépriser",25,2025-10-03T11:05:17.585Z
+H5034,נָבֵל,,vb.,"(qal) flétrir, faner, s'épuiser, se fatiguer, perdre courage • (piel) mépriser",25,2025-10-03T11:05:17.585Z
 H5035,נֵ֫בֶל,,n. m.,"un sac en peau, une jarre, une cruche",38,
 H5036,נָבָל,,adj.,"sot, imbécile, insensé, bouffon",18,
 H5037,נָבָל,,n. pr. m.,"Nabal = «sot, insensé, rustre»",22,
@@ -10573,7 +10573,7 @@ H5297,"נֹף, מֹף",,n. pr.,Noph = «porte du béni»,7,
 H5298,נֶ֫פֶג,,n. pr. m.,"Népheg = «pousse, rejeton»",4,
 H5299,נָפָה,,n. f.,"un endroit élevé, une hauteur",2,
 H5300,"נְפִישְׁסִים, נפיסים",,n. pr.,Nephischsim ou Nephusim = «rafraîchi d’épices»,1,
-H5301,נָפַח,,vb.,"(qal) souffler, haleter ; (pual) être attisé ; (hif.) faire rendre l'âme, souffler en signe de mépris",12,2024-11-01T08:15:49.825Z
+H5301,נָפַח,,vb.,"(qal) souffler, haleter • (pual) être attisé • (hif.) faire rendre l'âme, souffler en signe de mépris",12,2024-11-01T08:15:49.825Z
 H5302,נֹ֫פַח,,n. pr.,Nophach = «enflammé»,1,
 H5303,נְפִלִים,,n. pr.,"géants, les «Nephilim»",3,
 H5304,נְפִיסִים,,n. pr.,"Nephusim, Nephischsim = « épices éparpillées»",1,
@@ -10601,7 +10601,7 @@ H5325,נִצָּב,,n. m.,"manche, poignée, garde (de l’épée)",1,
 H5326,נִצְבָּה,,n. f.,fermeté,1,
 H5327,נָצָה,,vb.,(qal) voler,11,
 H5328,נִצָּה,,n. f.,fleur,2,
-H5329,נָצַח,,vb.,"(nif.) être opiniâtre, persister ; (piel) surveiller, inspecter, chef? (suscription de Ps., sens inc.)",65,2025-03-05T10:08:34.000Z
+H5329,נָצַח,,vb.,"(nif.) être opiniâtre, persister • (piel) surveiller, inspecter, chef? (suscription de Ps., sens inc.)",65,2025-03-05T10:08:34.000Z
 H5330,נְצַח,,vb.,"(Itpael) exceller, se distinguer",1,
 H5331,נֵ֫צַח,,n. m.,"éminence, perpétuité, force, victoire, durable, éternité",43,
 H5332,נֵ֫צַח,,n. m.,jus,2,
@@ -11018,7 +11018,7 @@ H5745,עוֹבָל,,n. pr. m.,"Obal = «dépouillé, nu, aride»",1,
 H5746,עוּג,,vb.,"(qal) faire cuire au four, cuire un gâteau",1,
 H5747,עוֹג,,n. pr. m.,Og = «au long cou»,22,
 H5748,עוּגָב,,n. m.,un instrument de musique,4,
-H5749,עוּד,,vb.,"(piel) étreindre, ligoter ; (poal) soutenir, aider ; (hitpo.) s'entraider ; (hif.) prendre à temoin, témoigner, avertir, exhorter ; (hof.) être averti",44,2024-11-01T08:15:49.825Z
+H5749,עוּד,,vb.,"(piel) étreindre, ligoter • (poal) soutenir, aider • (hitpo.) s'entraider • (hif.) prendre à temoin, témoigner, avertir, exhorter • (hof.) être averti",44,2024-11-01T08:15:49.825Z
 H5750,עוֹד,,adj.,encore,490,2025-02-14T09:55:56.000Z
 H5751,עוֹד,,adv.,"encore, pendant que, tandis que, néanmoins",1,
 H5752,עֹדֵד,,n. pr. m.,Oded = «qui restaure»,3,
@@ -11696,7 +11696,7 @@ H6433,פֻּם,,n. m.,bouche,6,
 H6434,פֵּן,,n. m.,angle,1,
 H6435,פֶּן־,,conj.,de peur que,133,2026-02-20T14:22:07.050Z
 H6436,פַּנַּג,,n. m.,"«Pannag» – une nourriture comestible, peut-être pâtisserie",1,
-H6437,פָּנָה,,vb.,"(qal) tourner, se retourner, faire demi-tour ; (piel) retourner, revenir ; (hif., hof.) retourner, revenir ;  (qal, hof.) se mettre en face de, tourner vers ; (piel) éloigner, débarrasser",135,2025-10-03T11:09:43.245Z
+H6437,פָּנָה,,vb.,"(qal) tourner, se retourner, faire demi-tour • (piel) retourner, revenir • (hif., hof.) retourner, revenir ;  (qal, hof.) se mettre en face de, tourner vers • (piel) éloigner, débarrasser",135,2025-10-03T11:09:43.245Z
 H6438,פִּנָּה,,n. f.,"angle, angulaire",29,
 H6439,פְּנוּאֵל,,n. pr. m.,Penuel ou Peniel = «la face de Dieu»,9,
 H6440,פָּנֶה,,n. m.,face,2127,
@@ -11937,7 +11937,7 @@ H6676,צַוַּאר,,n. m.,cou,3,
 H6677,צַוָּאר,,n. m.,"cou, en arrière du cou, nuque",42,
 H6678,צוֹבָא,,n. pr.,"Tsoba = «station, campement»",12,
 H6679,צוּד,,vb.,chasser,18,
-H6680,צָוָה,,vb.,"(piel) établir, charger, décréter, commander, ordonner ; (pual) être commandé ; (hitp.) être ordonné",494,2025-07-18T12:02:02.003Z
+H6680,צָוָה,,vb.,"(piel) établir, charger, décréter, commander, ordonner • (pual) être commandé • (hitp.) être ordonné",494,2025-07-18T12:02:02.003Z
 H6681,צָוַח,,vb.,"(qal) crier, s’écrier, hurler",1,
 H6682,צְוָחָה,,n. f.,"un cri, crier",4,
 H6683,צוּלָה,,n. f.,"profondeur de l’océan, profondeur, abîme",1,
@@ -12253,7 +12253,7 @@ H6995,קְטֹן,,n. m.,petit doigt,2,
 H6996,קָטֹן,,adj.,"jeune, petit, insignifiant, sans importance",101,
 H6997,קָטָן,,n. pr. m.,"Hakkathan = «le petit, le cadet»",1,
 H6998,קָטַף,,vb.,"arracher, couper",5,
-H6999,קָטַר,,vb.,"(piel) brûler de l'encens ; (hif.) encenser, envoyer la fumée",116,2025-02-27T09:48:38.000Z
+H6999,קָטַר,,vb.,"(piel) brûler de l'encens • (hif.) encenser, envoyer la fumée",116,2025-02-27T09:48:38.000Z
 H7000,קָטַר,,vb.,"(qal) enfermer, enclore, joindre",1,
 H7001,קְטַר,,n. m.,"nœud, joint, problème",3,
 H7002,קִטֵּר,,n. f.,encens,1,
@@ -12641,7 +12641,7 @@ H7388,רִיר,,n. m.,"liquide ou jus vaseux, salive",2,
 H7389,רֵישׁ,,n. m.,pauvreté,7,
 H7390,רַךְ,,adj.,"tendre, doux, délicat, faible",16,
 H7391,רֹךְ,,n. m.,"tendresse, délicatesse",1,
-H7392,רָכַב,,vb.,"(qal) monter (cheval, âne, char), conduire ; (hif.) faire chevaucher, faire monter",78,2024-11-01T08:15:49.825Z
+H7392,רָכַב,,vb.,"(qal) monter (cheval, âne, char), conduire • (hif.) faire chevaucher, faire monter",78,2024-11-01T08:15:49.825Z
 H7393,רֶ֫כֶב,,n. m.,"un attelage, char, chariot, cavalerie, cavaliers, pierre de moulin",119,
 H7394,רֵכָב,,n. pr. m.,"Récab = «cavalier, cocher»",13,
 H7395,רַכָּב,,n. m.,"cavalier, conducteur de char",3,
@@ -12710,7 +12710,7 @@ H7458,רָעָב,,n. m.,"famine, faim",101,
 H7459,רְעָבוֹן,,n. m.,"faim, manque de nourriture, famine",3,
 H7460,רָעַד,,vb.,"trembler, tremblant",3,
 H7461,רַ֫עַד,,n. m.,"tremblement, crainte",6,
-H7462,רָעָה,,vb.,"♦︎ I. (qal) paître, faire paître ; pâturer, brouter • (piel) faire paître ♦︎ II. (qal) être rassasié, être repu ♦︎ III. (qal) s'associer (avec), être ami de • (piel) se lier d'amitié • (hitp.) être compagnon",177,2026-09-29T13:15:16.934Z
+H7462,רָעָה,,vb.,"♦︎ I. (qal) paître, faire paître ; pâturer, brouter • (piel) faire paître ♦︎ II. (qal) être rassasié, être repu ♦︎ III. (qal) s'associer (avec), être ami de • (piel) se lier d'amitié • (hitp.) être compagnon",177,2026-09-29T13:15:16.934Z
 H7463,רֵעֶה,,n. m.,"ami, favori du roi (sens technique)",3,
 H7464,רֵעָה,,n. f.,"une compagne, une demoiselle de compagnie",3,
 H7465,רֹעָה,,vb.,"brisé, cassé",1,
@@ -12848,7 +12848,7 @@ H7599,שָׁאַן,,vb.,"(Pilel) être à l’aise, être en paix, se reposer, �
 H7600,שַׁאֲנָן,,adj.,"à l’aise, tranquille, sûr",10,
 H7602,שָׁאַף,,vb.,"haleter, soupirer, respirer lourdement",14,
 H7603,שְׂאֹר,,n. m.,levain,5,
-H7604,שָׁאַר,,vb.,"(qal) rester ; (nif.) être de reste, rester, demeurer ; (hif.) avoir de reste, laisser",133,2025-07-10T14:41:21.004Z
+H7604,שָׁאַר,,vb.,"(qal) rester • (nif.) être de reste, rester, demeurer • (hif.) avoir de reste, laisser",133,2025-07-10T14:41:21.004Z
 H7605,שְׁאָר,,n. m.,reste,26,2024-11-01T08:15:49.825Z
 H7606,שְׁאָר,,n. m.,"le reste, le restant",12,
 H7607,שְׁאֵר,,n. m.,"chair, nourriture, corps, proche parent, proche parente",16,
@@ -13198,7 +13198,7 @@ H7961,שָׁלֵו,,adj.,"tranquille, à l’aise, avec facilité, prospère",8,
 H7962,שַׁלְוָה,,n. f.,"tranquillité, aise, prospérité",8,
 H7963,שְׁלֵוָה,,n. f.,"aise, prospérité",1,
 H7964,שִׁלּוּחִים,,n. m.,"renvoi, cadeau d’adieu",3,
-H7965,שָׁלוֹם,,n. m.,"(adj.) entier, complet, paisible, heureux ; (subst.) paix, bien-être, tranquillité, salut, prospérité",237,2025-07-22T12:35:38.872Z
+H7965,שָׁלוֹם,,n. m.,"paix, bien-être, tranquillité, salut, prospérité • (adj.) entier, complet, paisible, heureux",237,2025-07-22T12:35:38.872Z
 H7966,שִׁלּוּם,,n. m.,récompense,3,
 H7967,שַׁלּוּם,,n. pr. m.,"Schallum = «rétribution, récompense»",27,
 H7968,שַׁלּוּן,,n. pr. m.,Schallun = «rétribution»,1,
