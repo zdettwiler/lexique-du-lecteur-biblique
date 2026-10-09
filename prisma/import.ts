@@ -89,9 +89,9 @@ function normalizeToOxia(input: string): string {
 }
 function cleanGloss(input: string): string {
   return input
-    .replace(/ +;/g, '\u202F;')
-    .replace(/([^\s]);/g, '$1\u202F;')
-    .replace(/ ([•▲]) +/g, ' $1\u00A0')
+    .replace(/\s*;/g, '\u202F;')
+    .replace(/\s*([•♦▲])\uFE0E?\s*/g, ' $1\uFE0E\u00A0')
+    .trim()
 }
 
 async function main() {
