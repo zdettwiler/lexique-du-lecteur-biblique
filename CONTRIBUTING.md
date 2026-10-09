@@ -51,3 +51,12 @@ On peut exporter le LLB avec les tags pour chaque occurence des mots (livre et c
 ```bash
 npm run db:tag
 ```
+
+Pour exporter les notes Strong grecques ou hébraïques avec les commentaires d'import Anki:
+
+```bash
+npm run db:tag gk
+npm run db:tag hb
+```
+
+Ces commandes créent respectivement `data/llb-tagged-gk.csv` et `data/llb-tagged-hb.csv`, avec les paquets Anki `📖 Langues bibliques::LLB::Grec` et `📖 Langues bibliques::LLB::Hébreu`. Elles incluent les commentaires d'import pour le type de note `Vocabulaire LLB`; le champ CSV `inflectionEndings` est associé au champ Anki `inflections`. Sans argument, `npm run db:tag` conserve l'export combiné existant.
