@@ -15,7 +15,7 @@ const getAnkiComments = (language: 'gk' | 'hb') =>
     '#separator:Comma',
     '#notetype:Vocabulaire LLB',
     `#deck:📖 Langues bibliques::LLB::${language === 'gk' ? 'Grec' : 'Hébreu'}`,
-    '#columns:strong\tlemma\tinflections\tpos\tgloss\tfreq\ttag',
+    '#columns:strong,lemma,inflections,pos,gloss,freq,tag',
     '#tags column:7'
   ].join('\n')
 

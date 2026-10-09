@@ -42,5 +42,5 @@ yarn-error.log*
 next-env.d.ts
 
 # LLB
-/data/llb-tagged.csv
+/data/llb-tagged*.csv
 *.db
