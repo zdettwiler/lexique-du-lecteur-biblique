@@ -10,6 +10,14 @@ import { createObjectCsvStringifier } from 'csv-writer'
 const prisma = new PrismaClient()
 const BATCH_SIZE = 1000
 const DATA_PATH = path.join(__dirname, '../data')
+const getAnkiComments = (language: 'gk' | 'hb') =>
+  [
+    '#separator:Comma',
+    '#notetype:Vocabulaire LLB',
+    `#deck:📖 Langues bibliques::LLB::${language === 'gk' ? 'Grec' : 'Hébreu'}`,
+    '#columns:strong\tlemma\tinflections\tpos\tgloss\tfreq\ttag',
+    '#tags column:7'
+  ].join('\n')
 
 const multiBar = new cliProgress.MultiBar(
   {
@@ -26,6 +34,7 @@ type CsvValue = string | number | null
 type ExportTask<T> = {
   table: string
   path: string
+  ankiComments?: string
   getTotal: () => Promise<number>
   getBatch: (offset: number, size: number) => Promise<T[]>
   getHeaders: () => { id: keyof T & string; title: string }[]
@@ -44,7 +53,11 @@ async function exportTable<T>(exportTask: ExportTask<T>) {
   const total = await exportTask.getTotal()
   const bar = multiBar.create(total, 0, { table: exportTask.table })
 
-  output.write(csvWriter.getHeaderString())
+  if (exportTask.ankiComments) {
+    output.write(`${exportTask.ankiComments}\n`)
+  } else {
+    output.write(csvWriter.getHeaderString())
+  }
 
   let offset = 0
   while (true) {
@@ -62,6 +75,22 @@ async function exportTable<T>(exportTask: ExportTask<T>) {
 }
 
 async function main() {
+  const [language, ...extraArgs] = process.argv.slice(2)
+  if (
+    extraArgs.length > 0 ||
+    (language && language !== 'gk' && language !== 'hb')
+  ) {
+    throw new Error('Usage: npm run db:tag [gk|hb]')
+  }
+
+  const ankiLanguage =
+    language === 'gk' || language === 'hb' ? language : undefined
+  const strongPrefix =
+    ankiLanguage === 'gk' ? 'G' : ankiLanguage === 'hb' ? 'H' : null
+  const strongFilter = strongPrefix
+    ? { strong: { startsWith: strongPrefix } }
+    : {}
+
   // Define the shape of what we actually export (custom fields)
   type LLBExportRow = {
     strong: string
@@ -75,12 +104,14 @@ async function main() {
 
   const exportLLB: ExportTask<LLBExportRow> = {
     table: 'LLB'.padEnd(10, ' '),
-    path: 'llb-tagged.csv',
+    path: ankiLanguage ? `llb-tagged-${ankiLanguage}.csv` : 'llb-tagged.csv',
+    ankiComments: ankiLanguage ? getAnkiComments(ankiLanguage) : undefined,
 
-    getTotal: () => prisma.lLB.count(),
+    getTotal: () => prisma.lLB.count({ where: strongFilter }),
 
     getBatch: async (skip, take) => {
       const lexicon = await prisma.lLB.findMany({
+        where: strongFilter,
         skip,
         take,
         include: {
