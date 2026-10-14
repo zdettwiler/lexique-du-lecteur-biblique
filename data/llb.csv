@@ -151,7 +151,7 @@ G0152,αἰσχύνη,-ης,n. f.,"honte, ignominie ; turpitude",6,2025-07-10
 G0153,αἰσχύνω,,vb.,"déshonorer, couvrir de honte, avoir honte, être confus",5,2024-11-01T08:15:49.825Z
 G0154,αἰτέω,,vb.,(+A +A) demander ; solliciter ; redemander,70,2025-07-18T19:25:55.484Z
 G0155,αἴτημα,-τος,n. n.,"pétition, requête, demande",3,2024-11-01T08:15:49.825Z
-G0156,αἰτία,-ας,n. f.,raison ; accusation ; crime ; condition,20,
+G0156,αἰτία,-ας,n. f.,"raison, cause ; accusation, motif ; crime, délit ; condition, situation",20,2026-10-13T12:24:15.253Z
 G0157,αἰτίαμα,,n. n.,"accusation, grief, sujet d’accusation",1,
 G0159,αἴτιος,,adj.,"auteur, la source active",5,
 G0160,αἰφνίδιος,-ον,adj.,"subit, inattendu, inopiné",2,
@@ -575,7 +575,7 @@ G0590,ἀπόδημος,-ον,adj.,qui va hors du pays,1,
 G0591,ἀποδίδωμι,"aor. moy. ἀπεδόμην ; impf. ἀπεδίδουν ; inf. ἀποδοῦναι ; ptc. ἀποδιδούς, ἀποδούς ; impv. ἀπόδος ; aor. pass. inf. ἀποδοθῆναι ; aor. subj. 2sg. ἀποδῷς ; ptc. neut. ἀποδιδοῦν ; 3sg. ἀπόδῷ, ἀποδοῖ",vb.,rendre,47,2024-11-01T08:15:49.825Z
 G0592,ἀποδιορίζω,,vb.,diviser,1,2025-10-23T12:51:54.583Z
 G0593,ἀποδοκιμάζω,,vb.,"rejeter, exclure, repousser",9,
-G0594,ἀποδοχή,-ῆς,n. f.,"acceptation, approbation, réception",2,
+G0594,ἀποδοχή,-ῆς,n. f.,"acceptation, approbation",2,2026-10-14T11:50:58.384Z
 G0595,ἀπόθεσις,-εως,n. f.,"dépouillement, mise de côté, enlèvement, moment de déposer",2,
 G0596,ἀποθήκη,-ης,n. f.,"grenier, endroit d’entreposage, grange",6,
 G0597,ἀποθησαυρίζω,,vb.,"amasser comme un trésor, mettre en réserve",1,
@@ -837,7 +837,7 @@ G0857,ἀφειδία,-ας,n. f.,"le fait de ne pas épargner, ascèse, absenc
 G0858,ἀφελότης,-ητος,n. f.,"simplicité, sans complication, ni exagération",1,
 G0859,ἄφεσις,-εως,n. f.,délivrance ; pardon ; rémission,17,
 G0860,ἁφή,-ῆς,n. f.,"jointure, articulation",2,
-G0861,ἀφθαρσία,-ας,n. f.,"incorruptibilité, c.-à-d. se décomposer, pureté, sincérité",8,
+G0861,ἀφθαρσία,-ας,n. f.,"incorruptibilité, immortalité",8,2026-10-14T08:52:51.110Z
 G0862,ἄφθαρτος,-ον,adj.,"incorruptible, inaltérable",7,
 G0863,ἀφίημι,fut. ἀφήσω ; fut. pass. ἀφεθήσοραι ; aor. ἀφῆκα ; aor. pass. ἀφέθην ; inf. ἀφιέναι ; ptc. ἀφείς ; subj. ἀφῶ ; impv. ἄφες ; prés. 2sg. ἀφεῖς ; pf. pass. 3pl. ἀφέωνται ; impf. 3sg. ἤφιεν ; 2pl. ἄφετε,vb.,"quitter, pardonner, renvoyer",140,2024-11-01T08:15:49.825Z
 G0864,ἀφικνέομαι,aor. ἀφικόμην,vb.,"parvenir, arriver, venir",1,
@@ -1137,7 +1137,7 @@ G1163,δεῖ,impf. ἔδει ; inf. δεῖν ; ptc. δέον ; subj. δέ
 G1164,δεῖγμα,-τος,n. n.,"exemple ; indice, preuve",1,2025-06-12T09:31:48.000Z
 G1165,δειγματίζω,,vb.,"faire un exemple, diffamer, produire",2,
 G1166,δείκνυμι,,vb.,montrer,33,2025-07-18T20:00:09.745Z
-G1167,δειλία,-ας,n. f.,"crainte, timidité, réticence",1,
+G1167,δειλία,-ας,n. f.,"lâcheté",1,2026-10-14T15:36:31.480Z
 G1168,δειλιάω,,vb.,"être craintif, être timide, être peureux",1,
 G1169,δειλός,"-ή, -όν",adj.,"timide, qui manque d’assurance, craintif, lâche",3,
 G1170,δεῖνα,,n. m.,un tel,1,2024-11-01T08:15:49.825Z
@@ -1710,7 +1710,7 @@ G1770,ἐννεύω,,vb.,faire signe,1,
 G1771,ἔννοια,-ας,n. f.,"pensée, considération, conviction, intention",2,
 G1772,ἔννομος,-ον,adj. / adv.,"légal, licite, soumis",2,
 G1773,ἔννυχος,,adv.,longtemps avant le jour,1,
-G1774,ἐνοικέω,,vb.,"habiter dans, demeurer dans",4,
+G1774,ἐνοικέω,,vb.,"habiter dans, demeurer dans",4,2026-11-13T07:54:12.861Z
 G1775,ἑνότης,-ητος,n. f.,"unité, unanimité, même accord",2,
 G1776,ἐνοχλέω,,vb.,"troubler, déranger",2,
 G1777,ἔνοχος,-ον,adj.,"lié, sous une obligation, coupable de, responsable de",10,2024-11-01T08:15:49.825Z
@@ -3887,7 +3887,7 @@ G4135,πληροφορέω,,vb.,accomplir pleinement ; recevoir pleinement 
 G4136,πληροφορία,-ας,n. f.,"plénitude d’assurance, pleine assurance, pleine certitude, entière conviction",4,
 G4137,πληρόω,,vb.,"remplir, accomplir",85,2024-11-01T08:15:49.825Z
 G4138,πλήρωμα,-τος,n. n.,accomplissement ; plénitude ; ce qui est plein ; contenu ; partie ajoutée ; tout,17,
-G4139,πλησίον,,adv.,(subst.) le prochain ; (prép. +G) près de,17,2025-07-23T13:41:25.407Z
+G4139,πλησίον,,adv./prép.,"*adv.* près • (subst.) le prochain, le voisin ▲ *prép.* (+G) près de",17,2026-10-14T15:02:41.407Z
 G4140,πλησμονή,-ῆς,n. f.,"satisfaction, contentement, rassasiement",1,
 G4141,πλήσσω,aor. pass. ἐπλήγην,vb.,"frapper, battre",1,
 G4142,πλοιάριον,-ου,n. m.,petite barque,4,
@@ -4474,7 +4474,7 @@ G4744,στίλβω,,vb.,"briller, étinceler, resplendir",1,
 G4745,στοά,-ᾶς,n. f.,portique,4,
 G4746,στοιβάς,,n. f.,"rameau, feuillage",1,
 G4747,στοιχεῖον,-ου,n. m.,élément,7,
-G4748,στοιχέω,,vb.,"marcher, se conduire, vivre",5,
+G4748,στοιχέω,,vb.,"marcher selon, se conformer à, suivre",5,2026-10-14T15:33:28.498Z
 G4749,στολή,-ῆς,n. f.,"robe, toge, long vêtement",9,
 G4750,στόμα,-τος,n. n.,bouche,78,2024-11-01T08:15:49.825Z
 G4751,στόμαχος,-ου,n. m.,estomac,1,
@@ -4715,7 +4715,7 @@ G4990,σωτήρ,-ῆρος,n. f.,sauveur,24,2024-11-01T08:15:49.825Z
 G4991,σωτηρία,-ας,n. f.,"salut, délivrance",47,2024-11-01T08:15:49.825Z
 G4992,σωτήριον,-ον,adj.,"qui apporte le salut, qui sauve",4,
 G4993,σωφρονέω,,vb.,avoir de saines pensées ; être dans son bon sens ; être sobre,6,
-G4995,σωφρονισμός,-οῦ,n. f.,"conseil, sobre bon sens, modération",1,
+G4995,σωφρονισμός,-οῦ,n. f.,"modération, contrôle de soi, prudence",1,2026-10-14T15:28:49.158Z
 G4996,σωφρόνως,,adv.,sobrement,1,
 G4997,σωφροσύνη,-ης,n. f.,"modestie, bon sens, sobriété",3,
 G4998,σώφρων,"-ον, -ονος",adj.,"sage, tempéré, maître de soi",4,
@@ -6519,7 +6519,7 @@ H1161,בִּעוּתִים,,n. m.,"terreurs, alarmes (occasionnées par Dieu)",2
 H1162,בֹּ֫עַז,,n. pr. m.,Boaz = «en lui est la force»,24,
 H1163,בָּעַט,,vb.,donner un coup de pied à,2,
 H1165,בְּעִיר,,n. m.,"bêtes, bétail, bestiaux",6,
-H1166,בָּעַל,,vb.,"(qal) épouser ; régner sur, dominer •︎ (nif.) être mar",15,2026-10-09T06:49:12.163Z
+H1166,בָּעַל,,vb.,"(qal) épouser ; régner sur, dominer •︎ (nif.) être marié",15,2026-10-09T06:49:12.163Z
 H1167,בַּעַל,,n. m.,"possesseur, mari, seigneur",84,
 H1168,בַּעַל,,n. m.,"Baal = «maître, possesseur, Seigneur»",82,
 H1169,בְּעֵל,,n. m.,"propriétaire, possesseur, seigneur",3,
