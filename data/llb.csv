@@ -491,7 +491,7 @@ G0502,ἄντλημα,-τος,n. n.,puiser,1,2024-11-01T08:15:49.825Z
 G0503,ἀντοφθαλμέω,,vb.,"tenir contre, faire face, résister",1,
 G0504,ἄνυδρος,-ον,adj.,"sans eau, sec, tari",4,
 G0505,ἀνυπόκριτος,-ον,adj.,"sans hypocrisie, sans déguisement, sincère",6,
-G0506,ἀνυπότακτος,-ον,adj.,"insubordonné, indépendant ; indiscipliné, désobéissant, rebelle",4,2026-02-19T10:01:30.490Z
+G0506,ἀνυπότακτος,-ον,adj.,"insoumis ; indiscipliné, désobéissant, rebelle",4,2026-10-15T13:41:10.013Z
 G0507,ἄνω,,adv.,au haut ; d’en haut,9,
 G0508,ἀνώγεον,,n. m.,"chambre haute, chambre à l’étage",2,
 G0509,ἄνωθεν,,adv.,d’en haut ; depuis le haut ; encore ; de nouveau ; depuis longtemps,13,
@@ -874,7 +874,7 @@ G0894,ἄψινθος,-ου,n. m.,absinthe,2,
 G0895,ἄψυχος,-ον,adj.,"inanimé, sans vie",1,
 G0896,Βάαλ,,n. pr.,Baal = «possesseur»,1,
 G0897,Βαβυλών,-ῶνος,n. pr. f.,Babylone = «confusion»,12,
-G0898,βαθμός,-οῦ,n. f.,"degré, position, rang, notoriété, maturité",1,
+G0898,βαθμός,-οῦ,n. f.,"degré, position, rang, notoriété",1,
 G0899,βάθος,-ους,n. n.,profondeur ; pleine eau,8,
 G0900,βαθύνω,,vb.,creuser profondément,1,2024-11-01T08:15:49.825Z
 G0901,βαθύς,"-εῖα, -ύ",adj.,profond,4,
@@ -1595,7 +1595,7 @@ G1652,ἐλεεινός,"-ή, -όν",adj.,misérable,2,
 G1653,ἐλεέω,,vb.,"avoir pitié, faire miséricorde",31,2024-11-01T08:15:49.825Z
 G1654,ἐλεημοσύνη,-ης,n. f.,aumône,13,
 G1655,ἐλεήμων,"-ον, -ονος",adj.,miséricordieux,2,
-G1656,ἔλεος,-ους,n. m.,"la pitié, la miséricorde",27,2025-07-21T07:13:06.612Z
+G1656,ἔλεος,-ους,n. n.,"la pitié, la miséricorde",27,2025-07-21T07:13:06.612Z
 G1657,ἐλευθερία,-ας,n. f.,liberté,11,2024-11-01T08:15:49.825Z
 G1658,ἐλεύθερος,"-α, -ον",adj.,libre,23,2024-11-01T08:15:49.825Z
 G1659,ἐλευθερόω,,vb.,"affranchir, rendre libre",7,
@@ -2033,7 +2033,7 @@ G2104,εὐγενής,-ές,adj.,"noble, de haute naissance, de rang élevé, 
 G2105,εὐδία,-ας,n. f.,"beau temps, temps agréable",1,
 G2106,εὐδοκέω,,vb.,"être disposé, plaire, trouver bon ; prendre à cœur, trouver son plaisir",21,2025-07-16T13:35:28.124Z
 G2107,εὐδοκία,-ας,n. f.,bonne volonté ; souhait ; bon plaisir,9,2025-10-06T10:06:48.000Z
-G2108,εὐεργεσία,-ας,n. f.,"bonne œuvre qui a été faite, bonne action",2,
+G2108,εὐεργεσία,-ας,n. f.,"bonne œuvre",2,2026-10-16T12:56:10.064Z
 G2109,εὐεργετέω,,vb.,"faire du bien, être un bienfaiteur",1,
 G2110,εὐεργέτης,-ου,n. m.,"bienfaiteur, un titre d’honneur, décerné à celui qui a rendu des services dans sa région, et aux princes, équivalent à Soter, Pater Patriae",1,2024-11-01T08:15:49.825Z
 G2111,εὔθετος,-ον,adj.,"utile, convenable, approprié",3,
@@ -3308,7 +3308,7 @@ G3539,νοέω,,vb.,comprendre ; penser ; considérer,14,
 G3540,νόημα,-τος,n. n.,pensée ; dessein ; entendement,6,
 G3541,νόθος,"-η, -ον",adj.,enfant illégitime,1,2024-11-01T08:15:49.825Z
 G3542,νομή,-ῆς,n. f.,"pâture, nourriture des animaux",2,
-G3543,νομίζω,,vb.,croire ; penser ; estimer ; avoir coutume,15,
+G3543,νομίζω,,vb.,"croire, penser, estimer",15,2026-10-15T13:35:11.380Z
 G3544,νομικός,"-ή, όν ; -οῦ",adj.,docteur de la loi,9,
 G3545,νομίμως,,adv.,"légitimement, d’une manière équitable, selon la loi",2,
 G3546,νόμισμα,-τος,n. n.,"monnaie, devise",1,
@@ -3444,7 +3444,7 @@ G3681,ὄνειδος,-ους,n. m.,"opprobre, humiliation, déshonneur",1,
 G3682,Ὀνήσιμος,-ου,n. pr. m.,"Onésime = «profitable, utile»",2,
 G3683,Ὀνησίφορος,-ου,n. pr. m.,Onésiphore = «qui apporte un profit»,2,
 G3684,ὀνικός,"-ή, -όν",adj.,d’âne,2,
-G3685,ὀνίνημι,,vb.,"(moy.) tirer profit, tirer un bénéfice",1,2025-10-29T15:55:33.135Z
+G3685,ὀνίναμαι,,vb.,"bénéficier, tirer profit",1,2025-10-29T15:55:33.135Z
 G3686,ὄνομα,-τος,n. n.,le nom,229,2025-10-15T11:51:28.564Z
 G3687,ὀνομάζω,,vb.,"appeler, nommer ; prononcer, invoquer •︎ (pass.) être connu",9,2026-08-29T13:32:33.240Z
 G3688,ὄνος,-ου,n. m.,"âne, ânesse",5,
@@ -3879,7 +3879,7 @@ G4127,πληγή,-ῆς,n. f.,coup ; plaie,22,
 G4128,πλῆθος,-ους,n. m.,une multitude,31,2024-11-01T08:15:49.825Z
 G4129,πληθύνω,,vb.,croître ; prévaloir ; multiplier,12,
 G4130,πλήθω / πίμπλημι,,vb.,remplir,24,2025-07-18T15:35:44.084Z
-G4131,πλήκτης,-ου,n. m.,"batteur, batailleur, brutal",2,
+G4131,πλήκτης,-ου,n. m.,"homme violent",2,2026-10-22T13:25:15.024Z
 G4132,πλήμμυρα,-ης,n. f.,"inondation, crue",1,
 G4133,πλήν,,conj.,cependant,31,2024-11-01T08:15:49.825Z
 G4134,πλήρης,-ες,adj.,"plein, rempli, complet",16,
@@ -4450,7 +4450,7 @@ G4720,Στάχυς,-υος,n. pr. m.,Stachys = «un épi de blé»,1,
 G4721,στέγη,-ης,n. f.,"toit, couverture d’une habitation",3,
 G4722,στέγω,,vb.,"supporter, endurer",4,
 G4723,στεῖρα,-ας,adj.,stérile,4,
-G4724,στέλλω,,vb.,"éviter, se retirer",2,
+G4724,στέλλομαι,,vb.,"éviter ; se retirer",2,2026-10-21T12:05:15.498Z
 G4725,στέμμα,-τος,n. n.,"couronne, bandelette, guirlande",1,
 G4726,στεναγμός,-οῦ,n. f.,"soupir, gémissement",2,
 G4727,στενάζω,,vb.,"gémir, soupirer, murmurer",6,
@@ -4880,7 +4880,7 @@ G5172,τρυφή,-ῆς,n. f.,"délice, luxe, vie sensuelle, volupté",2,
 G5173,Τρυφῶσα,-ης,n. pr. f.,Tryphose = «délicate»,1,
 G5174,Τρωάς,-άδος,n. pr. f.,Troas = «un Troyen»,6,
 G5176,τρώγω,,vb.,"manger, mâcher",6,
-G5177,τυγχάνω,pf. τέτυχα ; inf. τυχεῖν ; aor. opt. 3sg. τύχοι ; ptc. neut. τυχόν,vb.,obtenir ; accepter ; recevoir ; être ordinaire ; venir,11,
+G5177,τυγχάνω,pf. τέτυχα ; inf. τυχεῖν ; aor. opt. 3sg. τύχοι ; ptc. neut. τυχόν,vb.,"(+G) obtenir, faire l'expérience de ; (+A) rencontrer, tomber sur (par hasard) • (+attrib.) se trouver (par hasard) ; il se trouve que • (aor. ptcp.) ordinaire • (aor. ptcp. n.) τυχόν peut-être • (opt.) εἰ τύχοι peut-être",11,2026-10-26T09:45:39.527Z
 G5178,τυμπανίζω,,vb.,être torturé,1,
 G5179,τύπος,-ου,n. m.,"exemple, modèle, règle, image, marque, figure",16,2024-11-01T08:15:49.825Z
 G5180,τύπτω,,vb.,battre ; blesser ; frapper,13,
@@ -8313,7 +8313,7 @@ H2990,יַבָּל,,n. m.,"écoulement, suppuration douloureuse, ulcère",1,
 H2991,יִבְלְעָם,,n. pr.,Jibleam = «dévorant le peuple»,3,
 H2992,יָבַם,,vb.,"(piel) faire un mariage selon la loi lévitique, exercer le droit de beau-frère",3,
 H2993,יָבָם,,n. m.,"beau-frère, frère du mari",2,
-H2994,יְבֵ֫מֶת,,n. f.,"belle-sœur, épouse du frère, veuve du frère",5,
+H2994,יְבֵ֫מֶת,,n. f.,"belle-sœur",5,2026-10-16T08:28:10.092Z
 H2995,יַבְנְאֵל,,n. pr.,Jabneel = «Dieu fait construire»,2,
 H2996,יַבְנֶה,,n. pr.,Jabné = «construction de Dieu»,1,
 H2997,יִבְנְיָה,,n. pr. m.,Jibneja = «l’Éternel bâtit»,1,
@@ -9040,7 +9040,7 @@ H3738,כָּרָה,,vb.,"creuser, faire une excavation, percer",14,
 H3739,כָּרָה,,vb.,"(qal) obtenir par commerce, acheter, traiter un marché",5,
 H3740,כֵּרָה,,n. f.,festin,1,
 H3741,כָּרָה,,n. f.,chaumière,1,
-H3742,כְּרוּב,,n. m.,"chérubin, (pl) chérubins",91,
+H3742,כְּרוּב,,n. m.,"chérubin",91,
 H3743,כְּרוּב,,n. pr.,Kerub = «bénédiction»,2,
 H3744,כָּרוֹז,,n. m.,un héraut,1,
 H3745,כְּרַז,,vb.,"(Aphel) publier par un héraut, proclamer, faire une proclamation",1,
