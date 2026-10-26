@@ -666,7 +666,7 @@ G0683,ἀπωθέομαι,,vb.,repousser ; rejeter,6,2026-09-02T13:33:21.825Z
 G0684,ἀπώλεια,-ας,n. f.,destruction ; perdition ; perte,18,
 G0685,ἀρά,-ᾶς,n. f.,"malédiction, imprécation",1,
 G0686,ἄρα,,conj.,"ainsi, alors ; peut-être, par hasard",49,2026-08-29T13:32:33.240Z
-G0687,ἆρα,,part. n.,(partic. interr. attendant une réponse nég.) est-ce que?,3,2024-11-01T08:15:49.825Z
+G0687,ἆρα,,part. n.,(part. interr. attendant une réponse nég.) est-ce que?,3,2024-11-01T08:15:49.825Z
 G0688,Ἀραβία,-ας,n. pr. f.,Arabie = «désert»,2,
 G0689,Ἀράμ,,n. pr. m.,Aram (ou Ram) = «haut»,2,
 G0690,Ἄραψ,-βος,adj.,Arabe,1,
@@ -987,7 +987,7 @@ G1012,βουλή,-ῆς,n. f.,"conseil, avis, dessein, plan",12,2026-09-25T14:1
 G1013,βούλημα,-τος,n. n.,"dessein, volonté, plan",3,
 G1014,βούλομαι,aor. ἐβουλήθην,vb.,"souhaiter, vouloir",37,2024-11-01T08:15:49.825Z
 G1015,βουνός,-οῦ,n. f.,"colline, élévation de terrain, petite montagne, coteau",2,
-G1016,βοῦς,βοός,n. m./f.,"bœuf, mammifère ruminant domestique, mâle ou femelle",8,
+G1016,βοῦς,βοός,n. m./f.,"bœuf, vache",8,2026-10-26T11:58:08.154Z
 G1017,βραβεῖον,-ου,n. m.,prix,2,2024-11-01T08:15:49.825Z
 G1018,βραβεύω,,vb.,"présider, régner, dominer",1,
 G1019,βραδύνω,,vb.,"tarder, être lent, être retardé",2,
@@ -2458,7 +2458,7 @@ G2549,κακία,-ας,n. f.,malice ; méchanceté ; peine,11,
 G2550,κακοήθεια,-ας,n. f.,"mauvaises mœurs, dépravation",1,
 G2551,κακολογέω,,vb.,mal parler ; médire,4,
 G2552,κακοπάθεια,,n. f.,"souffrance, difficulté, affliction",1,
-G2553,κακοπαθέω,,vb.,prendre la part de souffrances ; maltraiter,3,
+G2553,κακοπαθέω,,vb.,endurer la souffrance,3,2026-10-27T12:31:23:255Z
 G2554,κακοποιέω,,vb.,faire du mal,4,
 G2555,κακοποιός,-οῦ,n. f.,"celui qui fait le mal, malfaiteur",3,
 G2556,κακός,"-ή, -όν",adj.,"méchant, mal, mauvais",50,2024-11-01T08:15:49.825Z
@@ -4628,7 +4628,7 @@ G4903,συνεργέω,,vb.,agir avec ; coopérer ; travailler à l’œuvr
 G4904,συνεργός,-οῦ,adj.,collaborateur ; compagnon d’œuvre,12,2025-07-10T14:46:32.000Z
 G4905,συνέρχομαι,aor. συνῆλθον ; pf. συνελήλυθα ; inf. συνελθεῖν,vb.,"venir ensemble, venir avec qqn",30,2024-11-01T08:15:49.825Z
 G4906,συνεσθίω,aor. συνέφαγον,vb.,manger avec,5,
-G4907,σύνεσις,-εως,n. f.,"intelligence, capacité de comprendre",7,
+G4907,σύνεσις,-εως,n. f.,"intelligence, compréhension",7,2026-10-26T11:55:46.320Z
 G4908,συνετός,"-ή, -όν",adj.,"intelligent, celui qui comprend, qui discerne, qui est prudent",4,
 G4909,συνευδοκέω,,vb.,consentir ; prendre plaisir ; vouloir,6,
 G4910,συνευωχέομαι,,vb.,"festoyer avec, faire bombance avec",2,2025-06-12T09:36:22.000Z
@@ -8676,7 +8676,7 @@ H3369,יָקֹשׁ,,vb.,"leurrer, attirer, piéger, tendre un piège, préparer 
 H3370,יׇקְשָׁן,,n. pr. m.,Jokschan = «celui qui piège»,4,
 H3371,יׇקְתְאֵל,,n. pr.,Joktheel = «la bénédiction de Dieu»,2,
 H3372,יָרֵא,,vb.,"craindre, révérer, avoir peur",314,
-H3373,יָרֵא,,adj.,"craindre ; révérer ; craintif, révérant, timide",65,2025-02-11T10:16:54.000Z
+H3373,יָרֵא,,adj.,"craignant, révérant, timide • (subst.) celui qui craint",65,2026-10-26T12:23:00.054Z
 H3374,יִרְאָה,,n. f.,"crainte, terreur",45,2024-11-01T08:15:49.825Z
 H3375,יִרְאוֹן,,n. pr.,Jireon = «celui qui craint»,1,
 H3376,יִרְאִיָּיה,,n. pr. m.,"Jireija = «l’Éternel voit, ou pourvoit»",2,
@@ -9898,7 +9898,7 @@ H4612,מַעֲמָד,,n. m.,"un service, un office, une fonction, un rôle",5,
 H4613,מׇעֳמָ֑ד,,n. m.,"point d’appui, tenir au sol",1,
 H4614,מַעֲמָסָה,,n. f.,"une charge, un fardeau",1,
 H4615,מַעֲמַקִּים,,n. m.,profondeurs,5,
-H4616,מַ֫עַן,,prép.,"but, intention",272,
+H4616,מַ֫עַן,,prép./conj.,"*prép.* (+לְ) à cause de, pour, de peur que ▲ *conj.* (+לְ) afin que, pour que",272,2026-10-27T12:15:15.498Z
 H4617,מַעֲנֶה,,n. m.,"répondre, réponse",7,
 H4618,מַעֲנָה,,n. f.,"sol labouré, l’endroit pour une tâche",2,
 H4619,מַ֫עַץ,,n. pr. m.,"Maats = «courroux, colère»",1,
